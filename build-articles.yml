@@ -1,0 +1,42 @@
+name: Build Articles
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'articulos/*.md'
+      - '_template/article-template.html'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Convert Markdown articles to HTML
+        run: |
+          for file in articulos/*.md; do
+            [ -f "$file" ] || continue
+            filename=$(basename "$file" .md)
+            echo "Converting $file → articulos/$filename.html"
+            pandoc "$file" \
+              --standalone \
+              --template=_template/article-template.html \
+              --metadata-file=<(echo "{}") \
+              -o "articulos/$filename.html"
+          done
+
+      - name: Commit generated HTML files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articulos/*.html
+          git diff --cached --quiet || git commit -m "Auto-build: convert Markdown articles to HTML"
+          git push
