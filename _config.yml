@@ -1,0 +1,20 @@
+title: codeandIA
+description: "Herramientas de IA para programadores"
+url: "https://codeandia.com"
+baseurl: ""
+markdown: kramdown
+permalink: /articulos/:slug/
+
+# Esto es lo que hace que cada .md dentro de /articulos/ salga con una URL
+# bonita (/articulos/nombre-del-archivo/) sin que tengas que escribir un
+# "permalink" a mano en cada artículo.
+defaults:
+  - scope:
+      path: "articulos"
+    values:
+      layout: article
+      permalink: /articulos/:basename/
+
+exclude:
+  - README.md
+  - PROMPT.md
