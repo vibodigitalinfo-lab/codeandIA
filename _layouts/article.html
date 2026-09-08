@@ -34,5 +34,24 @@ layout: default
     {% endif %}
 
     <a href="{{ "/" | relative_url }}" class="back-link">← Volver a artículos</a>
+
+    {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.url != page.url" %}
+    {% assign mismos = otros | where: "category", page.category | sort: "date" | reverse %}
+    {% assign distintos = otros | where_exp: "p", "p.category != page.category" | sort: "date" | reverse %}
+    {% assign relacionados = mismos | concat: distintos %}
+    {% if relacionados.size > 0 %}
+    <aside class="related">
+      <h2 class="related-title">Sigue leyendo</h2>
+      <div class="related-grid">
+        {% for r in relacionados limit: 2 %}
+        <a href="{{ r.url | relative_url }}" class="article-card">
+          <span class="pill">{{ r.category }}</span>
+          <h3 class="article-card-title">{{ r.title }}</h3>
+          <span class="article-card-date">{{ r.date | date: "%d/%m/%Y" }}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </aside>
+    {% endif %}
   </div>
 </article>

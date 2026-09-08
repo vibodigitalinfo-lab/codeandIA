@@ -12,14 +12,25 @@ layout: default
 
 <section id="articulos" class="section">
   <div class="container">
-    <h2 class="section-title">Artículos</h2>
-
     {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+    {% assign categorias = articulos | map: "category" | uniq | sort %}
+
+    <div class="section-head">
+      <h2 class="section-title">Artículos</h2>
+      {% if categorias.size > 1 %}
+      <div class="filter-tabs" role="tablist" aria-label="Filtrar artículos por categoría">
+        <button class="filter-tab is-active" data-filter="all">Todos</button>
+        {% for cat in categorias %}
+        <button class="filter-tab" data-filter="{{ cat | slugify }}">{{ cat }}</button>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
 
     {% if articulos.size > 0 %}
     <div class="articles-grid">
       {% for post in articulos %}
-      <a href="{{ post.url | relative_url }}" class="article-card">
+      <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
         <span class="pill">{{ post.category }}</span>
         <h3 class="article-card-title">{{ post.title }}</h3>
         <p class="article-card-desc">{{ post.description }}</p>
