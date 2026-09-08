@@ -27,8 +27,9 @@ layout: default
 
     {% if page.affiliate_text %}
     <aside class="affiliate-box">
-      <p>{{ page.affiliate_text }}</p>
-      <a class="affiliate-btn" href="{{ page.affiliate_url }}" target="_blank" rel="sponsored nofollow noopener">{{ page.affiliate_label }}</a>
+      <span class="affiliate-tag">Recomendación</span>
+      <p class="affiliate-text">{{ page.affiliate_text }}</p>
+      <a class="affiliate-btn" href="{{ page.affiliate_url }}" target="_blank" rel="sponsored nofollow noopener">{{ page.affiliate_label }} <span class="affiliate-arrow" aria-hidden="true">→</span></a>
     </aside>
     {% endif %}
 
