@@ -11,13 +11,26 @@ layout: default
       <h1 class="article-title">{{ page.title }}</h1>
       <div class="article-meta">
         <span>{{ page.date | date: "%d/%m/%Y" }}</span>
-        {% if page.read_time %}<span class="meta-dot">·</span><span>{{ page.read_time }}</span>{% endif %}
+        {% if page.readtime %}
+        <span class="meta-dot">·</span><span>{{ page.readtime }} min de lectura</span>
+        {% else %}
+        {% assign palabras = page.content | number_of_words %}
+        {% assign mins = palabras | divided_by: 200 | plus: 1 %}
+        <span class="meta-dot">·</span><span>{{ mins }} min de lectura</span>
+        {% endif %}
       </div>
     </div>
 
     <div class="article-content">
       {{ content }}
     </div>
+
+    {% if page.affiliate_text %}
+    <aside class="affiliate-box">
+      <p>{{ page.affiliate_text }}</p>
+      <a class="affiliate-btn" href="{{ page.affiliate_url }}" target="_blank" rel="sponsored nofollow noopener">{{ page.affiliate_label }}</a>
+    </aside>
+    {% endif %}
 
     <a href="{{ "/" | relative_url }}" class="back-link">← Volver a artículos</a>
   </div>

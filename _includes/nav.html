@@ -3,7 +3,12 @@
     <a href="{{ "/" | relative_url }}" class="logo">
       <span class="logo-code">code</span><span class="logo-ia">andIA</span>
     </a>
-    <div class="nav-links">
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <div class="nav-links" id="nav-menu">
       <a href="{{ "/" | relative_url }}#articulos">Artículos</a>
       <a href="{{ "/" | relative_url }}#herramientas">Herramientas</a>
       <a href="{{ "/" | relative_url }}#sobre-mi">Sobre mí</a>
