@@ -118,6 +118,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .nav-links {
@@ -146,8 +147,8 @@ a {
   height: 44px;
   padding: 0;
   background: none;
-  border: none;
-  border-radius: 8px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -455,26 +456,42 @@ a {
 .affiliate-box {
   margin-top: 48px;
   padding: 28px;
-  background: var(--accent-soft);
-  border: 1px solid rgba(123, 97, 255, 0.3);
+  background: linear-gradient(135deg, var(--bg-raised) 0%, var(--accent-soft) 100%);
+  border: 1px solid rgba(123, 97, 255, 0.35);
   border-radius: var(--radius);
 }
 
-.affiliate-box p {
-  margin: 0 0 16px;
+.affiliate-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  border: 1px solid rgba(123, 97, 255, 0.3);
+  padding: 4px 10px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.affiliate-text {
+  margin: 0 0 20px;
   color: var(--text);
-  font-size: 0.98rem;
+  font-size: 1.02rem;
+  line-height: 1.6;
 }
 
 .affiliate-btn {
-  display: inline-block;
-  padding: 12px 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 24px;
   background: var(--accent);
   color: #fff;
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
   border-radius: 8px;
   transition: background 0.2s ease, transform 0.2s ease;
 }
@@ -546,15 +563,16 @@ a {
 
   .nav-links {
     display: none;
-    position: fixed;
-    top: 72px;
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
     background: var(--bg);
     border-bottom: 1px solid var(--border);
-    padding: 8px 24px 20px;
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.45);
+    padding: 10px 24px 20px;
   }
 
   .nav-links.open {
@@ -562,8 +580,8 @@ a {
   }
 
   .nav-links a {
-    font-size: 1rem;
-    padding: 14px 0;
+    font-size: 1.05rem;
+    padding: 15px 0;
     border-bottom: 1px solid var(--border);
   }
 
@@ -594,8 +612,8 @@ a {
     grid-template-columns: 1fr;
   }
   .affiliate-btn {
-    display: block;
-    text-align: center;
+    width: 100%;
+    justify-content: center;
   }
   .footer-links {
     flex-wrap: wrap;
