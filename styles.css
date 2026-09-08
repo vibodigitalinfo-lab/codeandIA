@@ -229,6 +229,43 @@ a {
   margin: 0 0 32px;
 }
 
+/* ============ Franja de estadísticas ============ */
+
+.stats {
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--border);
+}
+
+.stats-grid {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 32px 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-num {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--accent-text);
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
 /* ============ Secciones ============ */
 
 .section {
@@ -374,7 +411,8 @@ a {
 }
 
 .tool-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   padding: 22px;
   background: var(--bg-raised);
   border: 1px solid var(--border);
@@ -386,16 +424,174 @@ a {
   border-color: var(--accent);
 }
 
+.tool-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
 .tool-card h3 {
-  margin: 0 0 8px;
+  margin: 0;
   font-size: 1.05rem;
 }
 
 .tool-card p {
-  margin: 0;
+  margin: 0 0 16px;
   font-size: 0.88rem;
   color: var(--text-muted);
   line-height: 1.5;
+}
+
+.tool-card-actions {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.tool-card-btn {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  padding: 9px 16px;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+
+.tool-card-btn:hover {
+  background: #8f7bff;
+}
+
+.tool-card-review {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+  transition: color 0.15s ease;
+}
+
+.tool-card-review:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
+}
+
+/* ============ Intro de sección ============ */
+
+.section-intro {
+  color: var(--text-muted);
+  margin: -24px 0 40px;
+  max-width: 62ch;
+}
+
+/* ============ Metodología ============ */
+
+.method-list {
+  margin: 0 0 24px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.method-list li {
+  color: #dcdce1;
+  line-height: 1.6;
+}
+
+.method-list li::marker {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* ============ FAQ ============ */
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.faq-item {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 4px 20px;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  padding: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  font-family: var(--font-mono);
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-item p {
+  color: #dcdce1;
+  padding: 0 0 18px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.faq-item a {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ============ Sobre mí ============ */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.about-copy p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+
+.about-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.fact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
 }
 
 /* ============ Artículo individual ============ */
@@ -674,6 +870,14 @@ a {
   .articles-grid,
   .tools-grid {
     grid-template-columns: 1fr;
+  }
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 16px;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
   .affiliate-btn {
     width: 100%;
