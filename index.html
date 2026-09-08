@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% assign categorias = articulos | map: "category" | uniq | sort %}
+
 <section class="hero">
   <div class="container">
     <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer mejor dev.</h1>
@@ -10,11 +13,31 @@ layout: default
   </div>
 </section>
 
+<div class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat">
+        <span class="stat-num">{{ articulos.size }}</span>
+        <span class="stat-label">artículos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">{{ categorias.size }}</span>
+        <span class="stat-label">categorías</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">probado a mano</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">Diario</span>
+        <span class="stat-label">contenido nuevo</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <section id="articulos" class="section">
   <div class="container">
-    {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
-    {% assign categorias = articulos | map: "category" | uniq | sort %}
-
     <div class="section-head">
       <h2 class="section-title">Artículos</h2>
       {% if categorias.size > 1 %}
@@ -41,44 +64,139 @@ layout: default
     {% else %}
     <p class="empty-state">Todavía no hay artículos publicados. Vuelve pronto.</p>
     {% endif %}
-
   </div>
 </section>
 
 <section id="herramientas" class="section section-alt">
   <div class="container">
     <h2 class="section-title">Herramientas recomendadas</h2>
+    <p class="section-intro">Las que uso de verdad y recomendaría a quien está aprendiendo a programar con IA. Cada una con su review si la he analizado a fondo.</p>
 
     <div class="tools-grid">
 
-      <!-- Edita el href de cada tarjeta por tu enlace de afiliado -->
-      <a href="https://cursor.com" class="tool-card" target="_blank" rel="nofollow sponsored noopener">
-        <h3>Cursor</h3>
-        <p>Editor de código basado en VS Code con IA integrada en cada línea que escribes.</p>
-      </a>
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>Cursor</h3>
+          <span class="pill">Editor IA</span>
+        </div>
+        <p>Editor basado en VS Code con IA integrada en toda la experiencia: chat contextual, refactor con Ctrl+K y autocompletado que entiende tu proyecto entero.</p>
+        <div class="tool-card-actions">
+          <a href="https://cursor.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/cursor-ai-review-espanol/" | relative_url }}" class="tool-card-review">Review</a>
+        </div>
+      </div>
 
-      <a href="https://github.com/features/copilot" class="tool-card" target="_blank" rel="nofollow sponsored noopener">
-        <h3>GitHub Copilot</h3>
-        <p>El asistente de código de GitHub, directo en tu editor favorito.</p>
-      </a>
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>GitHub Copilot</h3>
+          <span class="pill">Asistente</span>
+        </div>
+        <p>El asistente de IA de GitHub que vive dentro de tu editor favorito. Gratis para estudiantes verificados con el Student Pack.</p>
+        <div class="tool-card-actions">
+          <a href="https://github.com/features/copilot" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/github-copilot-gratis-estudiantes/" | relative_url }}" class="tool-card-review">Review</a>
+        </div>
+      </div>
 
-      <a href="https://www.hostinger.com" class="tool-card" target="_blank" rel="nofollow sponsored noopener">
-        <h3>Hostinger</h3>
-        <p>Hosting barato y rápido para poner en marcha tus proyectos.</p>
-      </a>
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>ChatGPT</h3>
+          <span class="pill">Chat IA</span>
+        </div>
+        <p>El chatbot de referencia para depurar, entender errores y mantener conversaciones largas con contexto. Ideal para el día a día de desarrollo.</p>
+        <div class="tool-card-actions">
+          <a href="https://chat.openai.com/?model=gpt-4" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/chatgpt-plus-para-programadores/" | relative_url }}" class="tool-card-review">Review</a>
+        </div>
+      </div>
 
-      <a href="https://www.namecheap.com" class="tool-card" target="_blank" rel="nofollow sponsored noopener">
-        <h3>Namecheap</h3>
-        <p>Dominios a buen precio y sin sorpresas raras en la renovación.</p>
-      </a>
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>Hostinger</h3>
+          <span class="pill">Hosting</span>
+        </div>
+        <p>Hosting barato y rápido para poner en marcha tus proyectos y tu portafolio sin complicarte.</p>
+        <div class="tool-card-actions">
+          <a href="https://www.hostinger.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>Namecheap</h3>
+          <span class="pill">Dominios</span>
+        </div>
+        <p>Dominios a buen precio y sin sorpresas raras en la renovación. La opción que uso para registrar dominios.</p>
+        <div class="tool-card-actions">
+          <a href="https://www.namecheap.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+        </div>
+      </div>
 
     </div>
   </div>
 </section>
 
-<section id="sobre-mi" class="section">
+<section id="metodologia" class="section">
   <div class="container container-narrow">
+    <h2 class="section-title">Cómo pruebo cada herramienta</h2>
+    <p class="about-text">No escribo de oídas. Cada herramienta que aparece aquí la he usado yo, en mi día a día como estudiante, durante semanas. Este es mi método:</p>
+    <ol class="method-list">
+      <li><strong>La uso de verdad</strong> en proyectos reales de clase o personales, no en un tutorial de cinco minutos.</li>
+      <li><strong>Mido lo que importa:</strong> velocidad, límites, precio real y si te hace mejor programador o solo más rápido.</li>
+      <li><strong>Actualizo</strong> cuando cambia algo importante: precios, planes o funciones nuevas.</li>
+      <li><strong>También cuento lo malo.</strong> Nada de reviews pagadas: si algo no me convence, lo digo.</li>
+    </ol>
+    <p class="about-text">Algunos enlaces son de afiliado: si compras a través de ellos, me llevo una pequeña comisión sin coste extra para ti. Eso mantiene el blog gratis y en ningún caso condiciona mi opinión.</p>
+  </div>
+</section>
+
+<section id="faq" class="section section-alt">
+  <div class="container container-narrow">
+    <h2 class="section-title">Preguntas frecuentes</h2>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>¿Cuál es la mejor IA para programar siendo principiante?</summary>
+        <p>Si empiezas, te recomiendo <a href="{{ "/articulos/cursor-ai-review-espanol/" | relative_url }}">Cursor</a>: su chat contextual te ayuda a entender tu propio código, no solo a autocompletar. Y si eres estudiante, <a href="{{ "/articulos/github-copilot-gratis-estudiantes/" | relative_url }}">GitHub Copilot</a> gratis con el Student Pack es un gran punto de partida. Depende de si prefieres un editor completo o un asistente dentro del tuyo.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Hay herramientas de IA gratis para estudiantes?</summary>
+        <p>Sí. GitHub Copilot es gratis con el <a href="https://education.github.com/pack" target="_blank" rel="nofollow sponsored noopener">Student Developer Pack</a>. Cursor tiene un plan gratuito con un límite mensual de peticiones que da bastante de sí. Y ChatGPT tiene una versión gratuita, aunque con límites de mensajes.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Merece la pena pagar ChatGPT Plus?</summary>
+        <p>Depende de cuánto lo uses. Si trabajas a diario con contexto largo o te quedas sin mensajes en los peores momentos, puede valer la pena. Te lo cuento con detalle en mi <a href="{{ "/articulos/chatgpt-plus-para-programadores/" | relative_url }}">análisis de ChatGPT Plus</a>.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué son los enlaces de afiliado?</summary>
+        <p>Son enlaces por los que, si compras, el blog recibe una pequeña comisión sin coste adicional para ti. Solo recomiendo herramientas que he probado yo mismo, y la presencia de un enlace de afiliado nunca cambia mi opinión.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cada cuánto publicáis contenido?</summary>
+        <p>Intento publicar un artículo casi a diario: reviews, comparativas y guías de herramientas de IA para desarrolladores. Puedes seguir todo desde la portada o suscribirte al <a href="{{ "/feed.xml" | relative_url }}">RSS</a>.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo pedir una review o sugerir una herramienta?</summary>
+        <p>¡Claro! Escríbeme a <strong>vibo.digital.info@gmail.com</strong> y lo tendré en cuenta. Me interesa probar herramientas que usen programadores de verdad.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="sobre-mi" class="section">
+  <div class="container">
     <h2 class="section-title">Sobre mí</h2>
-    <p class="about-text">Estudiante de Desarrollo de Aplicaciones Web probando y comparando herramientas de IA para programar. Aquí escribo sobre lo que uso de verdad, lo que merece la pena y lo que es solo humo.</p>
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>Soy Iván, estudiante de Desarrollo de Aplicaciones Web. Llevo más de un año usando herramientas de IA a diario para programar: primero por necesidad, luego por curiosidad, y ahora para contarlo por aquí.</p>
+        <p>Este blog nació con un propósito claro: que quien está aprendiendo a programar sepa qué herramientas merecen la pena de verdad y cuáles son solo humo, sin marketing ni letra pequeña.</p>
+        <p>Aquí encontrarás reviews honestas, comparativas y guías de herramientas de IA para desarrolladores. Todo lo que recomiendo lo he probado yo mismo.</p>
+      </div>
+      <div class="about-facts">
+        <div class="fact">🎓 Estudiante de DAW</div>
+        <div class="fact">🧪 Pruebo cada herramienta antes de recomendarla</div>
+        <div class="fact">✍️ Reviews y comparativas en primera persona</div>
+        <div class="fact">📬 vibo.digital.info@gmail.com</div>
+      </div>
+    </div>
   </div>
 </section>
