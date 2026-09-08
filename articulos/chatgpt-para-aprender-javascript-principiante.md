@@ -3,7 +3,7 @@ layout: article
 title: "Cómo usar ChatGPT para aprender JavaScript más rápido siendo principiante"
 description: "Guía práctica para usar ChatGPT para aprender JavaScript siendo principiante: técnicas reales que uso yo mismo en el ciclo de DAW."
 category: "Guía"
-date: 2026-09-09
+date: 2026-09-07
 readtime: 7
 affiliate_text: "Prueba ChatGPT Plus y aprende JavaScript con un tutor de IA disponible 24/7"
 affiliate_url: "https://chat.openai.com"
