@@ -9,11 +9,9 @@ updated: 2026-09-08
 
 De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), el responsable del tratamiento de los datos personales de este sitio es:
 
-- **Titular:** [Tu nombre o razón social]
-- **Email de contacto:** [tu@email.com]
+- **Titular:** Iván
+- **Email de contacto:** vibo.digital.info@gmail.com
 - **Web:** codeandia.com
-
-> ⚠️ **Pendiente de rellenar:** sustituye los campos entre corchetes `[ ]` por tus datos reales.
 
 ## 2. Qué datos recogemos
 
@@ -46,7 +44,7 @@ No se ceden datos personales a terceros, salvo obligación legal o cuando el acc
 
 ## 6. Derechos de las personas interesadas
 
-Puedes ejercer en cualquier momento tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad**, enviando un email a **[tu@email.com]** indicando el derecho que deseas ejercer.
+Puedes ejercer en cualquier momento tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad**, enviando un email a **vibo.digital.info@gmail.com** indicando el derecho que deseas ejercer.
 
 Puedes consultar el procedimiento de reclamación ante la **Agencia Española de Protección de Datos (AEPD)** en [aepd.es](https://www.aepd.es).
 
@@ -64,4 +62,4 @@ Esta política puede actualizarse para adaptarse a cambios normativos o en el fu
 
 ## 10. Contacto
 
-Para cualquier duda sobre estas políticas, escribe a **[tu@email.com]**. Respondemos lo antes posible, normalmente en menos de 48 horas.
+Para cualquier duda sobre estas políticas, escribe a **vibo.digital.info@gmail.com**. Respondemos lo antes posible, normalmente en menos de 48 horas.
