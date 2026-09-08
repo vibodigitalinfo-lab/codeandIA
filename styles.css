@@ -43,12 +43,33 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(1100px 520px at 75% -10%, rgba(123, 97, 255, 0.10), transparent 60%),
+    var(--bg);
   color: var(--text);
   font-family: var(--font-body);
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #26262c;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #33333b;
 }
 
 main {
@@ -188,10 +209,12 @@ a {
 .btn-accent {
   background: var(--accent);
   color: #ffffff;
+  box-shadow: 0 8px 24px rgba(123, 97, 255, 0.35);
 }
 
 .btn-accent:hover {
-  opacity: 0.88;
+  opacity: 0.9;
+  box-shadow: 0 10px 30px rgba(123, 97, 255, 0.45);
 }
 
 /* ============ Pills ============ */
@@ -210,8 +233,40 @@ a {
 /* ============ Hero ============ */
 
 .hero {
+  position: relative;
+  overflow: hidden;
   padding: 120px 0 88px;
   border-bottom: 1px solid var(--border);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -140px;
+  right: -120px;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, rgba(123, 97, 255, 0.20), transparent 65%);
+  pointer-events: none;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  border: 1px solid rgba(123, 97, 255, 0.3);
+  padding: 6px 12px;
+  border-radius: 100px;
+  margin-bottom: 22px;
 }
 
 .hero-title {
@@ -220,6 +275,13 @@ a {
   letter-spacing: -0.02em;
   margin: 0 0 24px;
   max-width: 22ch;
+}
+
+.hero-accent {
+  background: linear-gradient(120deg, var(--accent-text), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .hero-subtitle {
@@ -249,6 +311,13 @@ a {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+@media (min-width: 641px) {
+  .stat + .stat {
+    border-left: 1px solid var(--border);
+    padding-left: 24px;
+  }
 }
 
 .stat-num {
@@ -355,11 +424,13 @@ a {
   background: var(--bg-raised);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .article-card:hover {
   border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px rgba(123, 97, 255, 0.14);
 }
 
 .article-card-title {
@@ -417,11 +488,13 @@ a {
   background: var(--bg-raised);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .tool-card:hover {
   border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px rgba(123, 97, 255, 0.14);
 }
 
 .tool-card-top {
@@ -459,7 +532,8 @@ a {
   background: var(--accent);
   padding: 9px 16px;
   border-radius: 8px;
-  transition: background 0.15s ease;
+  box-shadow: 0 6px 18px rgba(123, 97, 255, 0.3);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
 }
 
 .tool-card-btn:hover {
@@ -753,12 +827,14 @@ a {
   font-size: 0.92rem;
   font-weight: 700;
   border-radius: 8px;
-  transition: background 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 8px 22px rgba(123, 97, 255, 0.35);
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .affiliate-btn:hover {
   background: #8f7bff;
   transform: translateY(-1px);
+  box-shadow: 0 10px 28px rgba(123, 97, 255, 0.4);
 }
 
 /* ============ Footer ============ */
@@ -855,6 +931,10 @@ a {
   .hero {
     padding: 88px 0 56px;
   }
+  .hero-badge {
+    font-size: 0.72rem;
+    padding: 5px 10px;
+  }
   .hero-subtitle {
     font-size: 1rem;
   }
@@ -874,6 +954,9 @@ a {
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px 16px;
+  }
+  .stat-num {
+    font-size: 1.5rem;
   }
   .about-grid {
     grid-template-columns: 1fr;
