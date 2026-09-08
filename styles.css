@@ -430,6 +430,11 @@ a {
   color: var(--text);
 }
 
+.footer-credit {
+  border-left: 1px solid var(--border);
+  padding-left: 20px;
+}
+
 /* ============ Responsive ============ */
 
 @media (max-width: 640px) {

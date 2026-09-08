@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#0d0d0f"/>
+  <rect width="64" height="64" rx="14" fill="none" stroke="#7b61ff" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="32" y="33" font-family="'Space Grotesk', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#f2f2f5" text-anchor="middle" letter-spacing="-0.3">code</text>
+  <text x="32" y="51" font-family="'Space Grotesk', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#7b61ff" text-anchor="middle" letter-spacing="-0.4">andIA</text>
+</svg>

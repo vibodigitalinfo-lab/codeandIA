@@ -6,12 +6,40 @@
   <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
+  <!-- Verificación de la red de afiliados Impact -->
+  <meta name='impact-site-verification' value='e3cd6614-1945-4870-aab9-0871e734aa30'>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relative_url }}">
+
+  <!-- Open Graph (previstas al compartir en redes) -->
+  <meta property="og:type" content="{% if page.category %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ "/favicon.svg" | absolute_url }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- Canonical (evita contenido duplicado en buscadores) -->
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">
+
+  <!-- Color de tema en móviles -->
+  <meta name="theme-color" content="#0d0d0f">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="{{ "/styles.css" | relative_url }}">
-  <meta name='impact-site-verification' value='e3cd6614-1945-4870-aab9-0871e734aa30'>
 </head>
 <body>
 
