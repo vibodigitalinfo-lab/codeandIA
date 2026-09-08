@@ -81,6 +81,25 @@
         if (e.key === 'Escape') close();
       });
     })();
+
+    /* Filtro de artículos por categoría en la portada */
+    (function () {
+      var tabs = document.querySelectorAll('.filter-tab');
+      var cards = document.querySelectorAll('.article-card[data-category]');
+      if (!tabs.length || !cards.length) return;
+
+      tabs.forEach(function (tab) {
+        tab.addEventListener('click', function () {
+          var f = tab.getAttribute('data-filter');
+          tabs.forEach(function (t) { t.classList.remove('is-active'); });
+          tab.classList.add('is-active');
+          cards.forEach(function (card) {
+            card.style.display =
+              (f === 'all' || card.getAttribute('data-category') === f) ? '' : 'none';
+          });
+        });
+      });
+    })();
   </script>
 
 </body>
