@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ "/" | absolute_url }}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+  {% for p in articulos %}
+  <url>
+    <loc>{{ p.url | absolute_url }}</loc>
+    {% if p.date %}<lastmod>{{ p.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+  {% assign legales = site.pages | where: "layout", "page" %}
+  {% for p in legales %}
+  <url>
+    <loc>{{ p.url | absolute_url }}</loc>
+    {% if p.updated %}<lastmod>{{ p.updated | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  {% endfor %}
+</urlset>
