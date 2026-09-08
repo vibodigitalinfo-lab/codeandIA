@@ -9,11 +9,9 @@ updated: 2026-09-08
 
 En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa que el titular de este sitio web **codeandia.com** es:
 
-- **Titular:** [Tu nombre o razón social]
-- **Email de contacto:** [tu@email.com]
+- **Titular:** Iván
+- **Email de contacto:** vibo.digital.info@gmail.com
 - **Actividad:** Blog sobre herramientas de inteligencia artificial para programadores.
-
-> ⚠️ **Pendiente de rellenar:** sustituye los campos entre corchetes `[ ]` por tus datos reales.
 
 ## 2. Objeto del sitio
 
