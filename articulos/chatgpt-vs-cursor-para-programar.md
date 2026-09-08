@@ -3,7 +3,7 @@ layout: article
 title: "ChatGPT vs Cursor AI: qué herramienta de IA uso más para programar día a día"
 description: "ChatGPT vs Cursor para programar: comparo las dos herramientas que uso a diario como estudiante de DAW y te digo cuál me resulta más útil."
 category: "Comparativa"
-date: 2026-09-03
+date: 2026-08-31
 readtime: 5
 affiliate_text: "Prueba Cursor gratis y lleva tu flujo de trabajo al siguiente nivel"
 affiliate_url: "https://cursor.sh"
