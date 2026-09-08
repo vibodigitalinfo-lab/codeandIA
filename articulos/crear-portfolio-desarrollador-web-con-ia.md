@@ -3,7 +3,7 @@ layout: article
 title: "Cómo crear tu primer portfolio de desarrollador web con IA paso a paso"
 description: "Guía práctica para crear tu portfolio de desarrollador web con IA desde cero, sin experiencia previa y con herramientas que sí funcionan."
 category: "Guía"
-date: 2026-09-13
+date: 2026-09-08
 readtime: 8
 affiliate_text: "Empieza tu portfolio con Hostinger por menos de 3€/mes"
 affiliate_url: "https://www.hostinger.es"
