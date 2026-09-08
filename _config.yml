@@ -5,6 +5,10 @@ baseurl: ""
 markdown: kramdown
 permalink: /articulos/:slug/
 
+# Plugin de sitemap automático (permitido por GitHub Pages)
+plugins:
+  - jekyll-sitemap
+
 # Esto es lo que hace que cada .md dentro de /articulos/ salga con una URL
 # bonita (/articulos/nombre-del-archivo/) sin que tengas que escribir un
 # "permalink" a mano en cada artículo.
