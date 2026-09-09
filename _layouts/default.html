@@ -6,9 +6,6 @@
   <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-  <!-- Verificación de la red de afiliados Impact -->
-  <meta name='impact-site-verification' value='e3cd6614-1945-4870-aab9-0871e734aa30'>
-
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relative_url }}">
 
@@ -225,6 +222,9 @@
       applyTheme(isLight() || saved === 'light');
     })();
   </script>
+
+  <!-- Skimlinks: conversión automática de enlaces de afiliado -->
+  <script type="text/javascript" src="https://s.skimresources.com/js/309068X1797398.skimlinks.js"></script>
 
 </body>
 </html>
