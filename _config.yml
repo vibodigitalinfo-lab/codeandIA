@@ -14,7 +14,7 @@ plugins:
 # "permalink" a mano en cada artículo.
 defaults:
   - scope:
-      path: "articulos"
+      path: "articulos/"   # con "/" final para que aplique a las subcarpetas (reviews/, comparativas/, guias/, listas/)
     values:
       layout: article
       permalink: /articulos/:basename/
