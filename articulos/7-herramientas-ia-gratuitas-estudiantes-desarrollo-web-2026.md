@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "7 herramientas de IA gratuitas para estudiantes de desarrollo web en 2025"
+title: "7 herramientas de IA gratuitas para estudiantes de desarrollo web en 2026"
 description: "Descubre herramientas IA gratuitas para estudiantes de desarrollo web que uso cada día para aprender, practicar y depurar código sin gastar un euro."
 category: "Lista"
 date: 2026-09-03
