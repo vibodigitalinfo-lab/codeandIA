@@ -52,7 +52,7 @@ layout: default
     </div>
 
     {% if articulos.size > 0 %}
-    <div class="articles-grid">
+    <div class="articles-grid" id="articles-grid">
       {% for post in articulos %}
       <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
         <span class="pill">{{ post.category }}</span>
@@ -62,6 +62,7 @@ layout: default
       </a>
       {% endfor %}
     </div>
+    <nav class="pagination" id="pagination" aria-label="Paginación de artículos"></nav>
     {% else %}
     <p class="empty-state">Todavía no hay artículos publicados. Vuelve pronto.</p>
     {% endif %}
