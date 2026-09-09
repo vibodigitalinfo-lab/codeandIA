@@ -3,7 +3,7 @@ layout: article
 title: "Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido"
 description: "Te cuento cómo uso github copilot para prácticas DAW en clase y en casa, con ejemplos reales de proyectos del ciclo."
 category: "Guía"
-date: 2026-09-02
+date: 2026-08-30
 readtime: 7
 affiliate_text: "Si quieres probarlo tú mismo, GitHub Copilot tiene plan gratuito para estudiantes"
 affiliate_url: "https://github.com/features/copilot"
