@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Hostinger review 2025: ¿es fiable para alojar tu primer proyecto de DAW?"
+title: "Hostinger review 2026: ¿es fiable para alojar tu primer proyecto de DAW?"
 description: "Mi experiencia real con Hostinger: si es fiable para alojar tu primer proyecto de DAW sin morir en el intento."
 category: "Review"
 date: 2026-09-09
