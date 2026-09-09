@@ -93,23 +93,95 @@
       });
     })();
 
-    /* Filtro de artículos por categoría en la portada */
+    /* Filtro de artículos por categoría + paginación en la portada */
     (function () {
       var tabs = document.querySelectorAll('.filter-tab');
       var cards = document.querySelectorAll('.article-card[data-category]');
+      var paginationEl = document.getElementById('pagination');
+      var gridEl = document.getElementById('articles-grid');
       if (!tabs.length || !cards.length) return;
+
+      var PER_PAGE = 6;
+      var currentPage = 1;
+      var activeFilter = 'all';
+
+      function getFilteredCards() {
+        return Array.prototype.filter.call(cards, function (card) {
+          return activeFilter === 'all' || card.getAttribute('data-category') === activeFilter;
+        });
+      }
+
+      function totalPages() {
+        return Math.max(1, Math.ceil(getFilteredCards().length / PER_PAGE));
+      }
+
+      function renderPage() {
+        var filtered = getFilteredCards();
+        var start = (currentPage - 1) * PER_PAGE;
+        var end = start + PER_PAGE;
+
+        Array.prototype.forEach.call(cards, function (card) {
+          card.style.display = 'none';
+        });
+
+        filtered.forEach(function (card, i) {
+          card.style.display = (i >= start && i < end) ? '' : 'none';
+        });
+
+        renderPagination();
+      }
+
+      function renderPagination() {
+        var filtered = getFilteredCards();
+        var total = totalPages();
+        if (!paginationEl) return;
+
+        if (filtered.length <= PER_PAGE) {
+          paginationEl.innerHTML = '';
+          return;
+        }
+
+        var html = '';
+        html += '<button class="pagination-btn pagination-prev" data-action="prev"' +
+          (currentPage <= 1 ? ' disabled' : '') + ' aria-label="Página anterior">← Anterior</button>';
+        html += '<span class="pagination-info">Página ' + currentPage + ' de ' + total + '</span>';
+        html += '<button class="pagination-btn pagination-next" data-action="next"' +
+          (currentPage >= total ? ' disabled' : '') + ' aria-label="Página siguiente">Siguiente →</button>';
+        paginationEl.innerHTML = html;
+      }
+
+      function scrollToGrid() {
+        if (gridEl) {
+          gridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+
+      paginationEl.addEventListener('click', function (e) {
+        var btn = e.target.closest('[data-action]');
+        if (!btn) return;
+        var action = btn.getAttribute('data-action');
+        if (action === 'prev' && currentPage > 1) {
+          currentPage--;
+          renderPage();
+          scrollToGrid();
+        } else if (action === 'next' && currentPage < totalPages()) {
+          currentPage++;
+          renderPage();
+          scrollToGrid();
+        }
+      });
 
       tabs.forEach(function (tab) {
         tab.addEventListener('click', function () {
-          var f = tab.getAttribute('data-filter');
+          activeFilter = tab.getAttribute('data-filter');
+          currentPage = 1;
           tabs.forEach(function (t) { t.classList.remove('is-active'); });
           tab.classList.add('is-active');
-          cards.forEach(function (card) {
-            card.style.display =
-              (f === 'all' || card.getAttribute('data-category') === f) ? '' : 'none';
-          });
+          renderPage();
         });
       });
+
+      renderPage();
     })();
 
     /* Toggle de tema claro/oscuro (recuerda la preferencia en localStorage) */
