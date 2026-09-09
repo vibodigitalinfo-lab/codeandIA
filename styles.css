@@ -10,9 +10,16 @@
   --border: rgba(255, 255, 255, 0.09);
   --text: #f2f2f5;
   --text-muted: #98989f;
+  --text-body: #dcdce1;
   --accent: #7b61ff;
   --accent-soft: rgba(123, 97, 255, 0.14);
   --accent-text: #d9d1ff;
+
+  /* Superficies dependientes del tema */
+  --nav-bg: rgba(13, 13, 15, 0.82);
+  --scrollbar-thumb: #26262c;
+  --scrollbar-thumb-hover: #33333b;
+  --shadow-nav: rgba(0, 0, 0, 0.45);
 
   /* Tipografía */
   --font-body: 'Space Grotesk', -apple-system, sans-serif;
@@ -21,6 +28,25 @@
   /* Layout */
   --container-width: 1080px;
   --radius: 10px;
+}
+
+/* ============ Modo claro ============ */
+:root[data-theme="light"] {
+  --bg: #fafafc;
+  --bg-raised: #ffffff;
+  --bg-alt: #f2f2f7;
+  --border: rgba(20, 20, 40, 0.12);
+  --text: #1c1c24;
+  --text-muted: #5c5c66;
+  --text-body: #44444f;
+  --accent: #6c4ff0;
+  --accent-soft: rgba(108, 79, 240, 0.12);
+  --accent-text: #5a43c9;
+
+  --nav-bg: rgba(250, 250, 252, 0.85);
+  --scrollbar-thumb: #c7c7d1;
+  --scrollbar-thumb-hover: #b3b3bf;
+  --shadow-nav: rgba(20, 20, 40, 0.12);
 }
 
 * {
@@ -53,6 +79,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+:root[data-theme="light"] body {
+  background:
+    radial-gradient(1100px 520px at 75% -10%, rgba(123, 97, 255, 0.07), transparent 60%),
+    var(--bg);
+}
+
 ::selection {
   background: var(--accent);
   color: #fff;
@@ -65,11 +97,11 @@ body {
   background: var(--bg);
 }
 ::-webkit-scrollbar-thumb {
-  background: #26262c;
+  background: var(--scrollbar-thumb);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #33333b;
+  background: var(--scrollbar-thumb-hover);
 }
 
 main {
@@ -125,7 +157,7 @@ a {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(13, 13, 15, 0.82);
+  background: var(--nav-bg);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
@@ -145,6 +177,7 @@ a {
 .nav-links {
   display: flex;
   gap: 28px;
+  margin-left: auto; /* empuja links + acciones a la derecha del logo */
 }
 
 .nav-links a {
@@ -192,6 +225,56 @@ a {
 
 .nav-toggle.open .nav-toggle-bar:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Acciones de la derecha del nav (toggle de tema + hamburguesa) */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Botón de modo claro/oscuro */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--accent);
+  border-color: var(--text-muted);
+}
+
+.theme-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* En modo oscuro (por defecto) se muestra el sol; en claro, la luna */
+.theme-icon-moon {
+  display: none;
+}
+
+[data-theme="light"] .theme-icon-sun {
+  display: none;
+}
+
+[data-theme="light"] .theme-icon-moon {
+  display: inline-block;
+}
+
+[data-theme="light"] .theme-toggle {
+  box-shadow: 0 1px 2px rgba(20, 20, 40, 0.08);
 }
 
 /* ============ Botones ============ */
@@ -571,7 +654,7 @@ a {
 }
 
 .method-list li {
-  color: #dcdce1;
+  color: var(--text-body);
   line-height: 1.6;
 }
 
@@ -623,7 +706,7 @@ a {
 }
 
 .faq-item p {
-  color: #dcdce1;
+  color: var(--text-body);
   padding: 0 0 18px;
   margin: 0;
   line-height: 1.6;
@@ -715,7 +798,7 @@ a {
 
 .article-content p {
   margin: 0 0 20px;
-  color: #dcdce1;
+  color: var(--text-body);
 }
 
 .article-content strong {
@@ -726,7 +809,7 @@ a {
 .article-content ol {
   margin: 0 0 20px;
   padding-left: 22px;
-  color: #dcdce1;
+  color: var(--text-body);
 }
 
 .article-content li {
@@ -907,7 +990,7 @@ a {
     gap: 2px;
     background: var(--bg);
     border-bottom: 1px solid var(--border);
-    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 24px 48px var(--shadow-nav);
     padding: 10px 24px 20px;
   }
 
