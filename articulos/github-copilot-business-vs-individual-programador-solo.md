@@ -3,7 +3,7 @@ layout: article
 title: "GitHub Copilot Business vs Individual: cuál contratar si programas solo"
 description: "Comparo GitHub Copilot Business vs Individual para programadores solos: diferencias reales, precio y cuál merece la pena pagar."
 category: "Comparativa"
-date: 2026-09-08
+date: 2026-09-05
 readtime: 6
 affiliate_text: "Prueba GitHub Copilot gratis durante 30 días"
 affiliate_url: "https://github.com/features/copilot"
