@@ -177,7 +177,6 @@ a {
 .nav-links {
   display: flex;
   gap: 28px;
-  margin-left: auto; /* empuja links + acciones a la derecha del logo */
 }
 
 .nav-links a {
