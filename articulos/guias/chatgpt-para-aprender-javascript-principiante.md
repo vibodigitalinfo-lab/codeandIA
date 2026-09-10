@@ -6,7 +6,7 @@ category: "Guía"
 date: 2026-08-27
 readtime: 7
 affiliate_text: "Prueba ChatGPT Plus y aprende JavaScript con un tutor de IA disponible 24/7"
-affiliate_url: "https://chat.openai.com"
+affiliate_url: "https://chatgpt.com"
 affiliate_label: "Probar ChatGPT Plus"
 ---
 
@@ -50,7 +50,7 @@ Antes perdía media hora buscando en Google y leyendo respuestas de Stack Overfl
 
 Aquí quiero ser honesto: la versión gratuita de ChatGPT sirve para cosas básicas, pero tiene limitaciones que notas rápido. El modelo que usa es más lento respondiendo y a veces simplifica demasiado las explicaciones técnicas.
 
-Con [ChatGPT Plus](https://chat.openai.com) el salto es visible. Responde más rápido, las explicaciones de código son más precisas y detalladas, y el contexto de la conversación se mantiene mejor en sesiones largas. Si eres estudiante y puedes permitirte los 20€ al mes, yo lo valoraría como material educativo, no como un gasto en una app. Lo que ahorras en tiempo y en frustración lo vale.
+Con [ChatGPT Plus](https://chatgpt.com) el salto es visible. Responde más rápido, las explicaciones de código son más precisas y detalladas, y el contexto de la conversación se mantiene mejor en sesiones largas. Si eres estudiante y puedes permitirte los 20€ al mes, yo lo valoraría como material educativo, no como un gasto en una app. Lo que ahorras en tiempo y en frustración lo vale.
 
 Dicho esto, si estás empezando y no quieres gastar nada todavía, la versión gratuita te sirve para entrar en contacto con esta forma de aprender. Luego ya ves si le sacas partido suficiente como para darle el salto.
 
