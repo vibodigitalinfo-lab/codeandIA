@@ -22,3 +22,4 @@ defaults:
 exclude:
   - README.md
   - PROMPT.md
+  - prompts   # templates internos del pipeline; no deben publicarse como páginas
