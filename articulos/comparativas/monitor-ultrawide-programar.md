@@ -3,7 +3,7 @@ layout: article
 title: "Monitor ultrawide para programar: el que yo usaría con 350€"
 description: "Comparo monitores ultrawide para programar con precios reales: LG, Xiaomi, Dell y AOC. Cuál merece la pena para código."
 category: "Comparativa"
-date: 2026-09-12
+date: 2026-08-18
 readtime: 8
 affiliate_text: "Consigue el LG 34WN80C con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/s?k=lg+34wn80c"

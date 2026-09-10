@@ -3,7 +3,7 @@ layout: article
 title: "Webcam para programar y hacer streaming de código en 2026"
 description: "Las mejores webcams para programar y hacer streaming de código: Logitech, Elgato y Razer con precios reales en España."
 category: "Lista"
-date: 2026-09-17
+date: 2026-08-15
 readtime: 7
 affiliate_text: "Consigue la Logitech C920S con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/s?k=logitech+c920s"
