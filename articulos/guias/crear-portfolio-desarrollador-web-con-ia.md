@@ -6,7 +6,7 @@ category: "Guía"
 date: 2026-08-26
 readtime: 8
 affiliate_text: "Empieza tu portfolio con Hostinger por menos de 3€/mes"
-affiliate_url: "https://www.hostinger.es"
+affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
 ---
 
@@ -38,7 +38,7 @@ También usé ChatGPT para redactar los textos de los proyectos. No para que los
 
 Esta parte también tiene su historia. GitHub Pages es gratis y está bien para empezar, pero tiene una limitación que a mí me importó: la URL queda algo así como `tuusuario.github.io/miportfolio`, y eso no da la mejor impresión si quieres mandárselo a alguien con pinta profesional.
 
-Por eso terminé contratando un dominio y hosting con [Hostinger](https://www.hostinger.es). El precio es bastante razonable —menos de 3€ al mes en los planes de entrada— y el proceso de subir los archivos por FTP o a través de su panel es bastante sencillo. La diferencia entre tener `tuportfolio.es` y la URL de GitHub la noté incluso en cómo yo mismo me presentaba. Es un detalle pequeño, pero cuando llevas tu portfolio a una entrevista o lo pones en LinkedIn, importa.
+Por eso terminé contratando un dominio y hosting con [Hostinger](https://www.hostinger.com/es). El precio es bastante razonable —menos de 3€ al mes en los planes de entrada— y el proceso de subir los archivos por FTP o a través de su panel es bastante sencillo. La diferencia entre tener `tuportfolio.es` y la URL de GitHub la noté incluso en cómo yo mismo me presentaba. Es un detalle pequeño, pero cuando llevas tu portfolio a una entrevista o lo pones en LinkedIn, importa.
 
 La instalación de un certificado SSL también viene incluida, así que la URL empieza por `https://` sin tener que hacer nada especial. Eso antes era un dolor de cabeza.
 

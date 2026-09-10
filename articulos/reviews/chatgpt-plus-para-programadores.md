@@ -5,7 +5,7 @@ description: "Analizo si ChatGPT Plus para programadores vale lo que cuesta: vel
 category: "Review"
 date: 2026-08-22
 affiliate_text: "Prueba ChatGPT Plus un mes y decide tú mismo"
-affiliate_url: "https://chat.openai.com/?model=gpt-4"
+affiliate_url: "https://chatgpt.com/?model=gpt-4"
 affiliate_label: "Probar ChatGPT Plus"
 ---
 
@@ -33,7 +33,7 @@ Aquí es donde la cosa se complica. Si estás en un ciclo como yo, tienes proyec
 
 Si lo usas de vez en cuando, probablemente puedas vivir bien con la versión gratuita y completarlo con otras herramientas como GitHub Copilot o Claude. Si no quieres gastar nada, también tengo una comparativa de [DeepSeek vs ChatGPT gratuitos](/articulos/comparativas/deepseek-vs-chatgpt-gratuitos-para-programar/) para que veas qué puedes sacar sin pagar. Pero si eres del tipo de persona que abre ChatGPT como abre el editor —constantemente—, el salto merece la pena.
 
-Si quieres probarlo sin comprometerte demasiado, puedes [activar un mes de ChatGPT Plus](https://chat.openai.com/?model=gpt-4) y ver si tu forma de trabajar cambia. A mí me convencí después del segundo mes.
+Si quieres probarlo sin comprometerte demasiado, puedes [activar un mes de ChatGPT Plus](https://chatgpt.com/?model=gpt-4) y ver si tu forma de trabajar cambia. A mí me convencí después del segundo mes.
 
 ## Mi veredicto después de usarlo varios meses
 
