@@ -10,9 +10,9 @@ affiliate_url: "https://www.hostinger.es"
 affiliate_label: "Ver planes de Hostinger"
 ---
 
-Cuando estás en segundo de DAW y tienes tu primera aplicación web lista para salir al mundo, lo primero que te planteas es dónde la subes. Yo llevaba semanas buscando un hosting que no me costara un riñón y que no fuera un dolor de cabeza para configurar. Al final caí en Hostinger, y en este artículo te cuento exactamente qué me encontré: lo bueno, lo regular y lo que nadie te dice antes de contratar.
+Cuando estás en segundo de DAW y tienes tu primera aplicación web lista para salir al mundo, lo primero que te planteas es dónde la subes. Yo llevaba semanas buscando un hosting que no me costara un riñón y que no fuera un dolor de cabeza para configurar. Al final caí en Hostinger, y en este artículo te cuento exactamente qué me encontré: lo bueno, lo regular y lo que nadie te dice antes de contratar. Si todavía no tienes claro si necesitas hosting o prefieres algo gratis, tengo una guía de [cómo publicar tu primera web gratis](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) que te puede servir para empezar.
 
-Spoiler: no es perfecto, pero para la keyword que más me importaba al buscarlo —*hostinger review fiable proyecto DAW*— sí tengo una respuesta clara.
+Spoiler: no es perfecto, pero para la keyword que más me importaba al buscarlo —*hostinger review fiable proyecto DAW*— sí tengo una respuesta clara. Si estás comparando opciones, también tengo una [comparativa de Hostinger vs Namecheap](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/) para que veas las diferencias antes de decidir.
 
 ## Qué incluye el plan de Hostinger que usé
 
