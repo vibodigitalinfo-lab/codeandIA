@@ -55,10 +55,12 @@ layout: default
     <div class="articles-grid" id="articles-grid">
       {% for post in articulos %}
       <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
-        <span class="pill">{{ post.category }}</span>
         <h3 class="article-card-title">{{ post.title }}</h3>
         <p class="article-card-desc">{{ post.description }}</p>
-        <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+        <div class="article-card-meta">
+          <span class="article-card-category">{{ post.category }}</span>
+          <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+        </div>
       </a>
       {% endfor %}
     </div>

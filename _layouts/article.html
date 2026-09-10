@@ -44,10 +44,13 @@ layout: default
       <h2 class="related-title">Sigue leyendo</h2>
       <div class="related-grid">
         {% for r in relacionados limit: 2 %}
-        <a href="{{ r.url | relative_url }}" class="article-card">
-          <span class="pill">{{ r.category }}</span>
+        <a href="{{ r.url | relative_url }}" class="article-card" data-category="{{ r.category | slugify }}">
           <h3 class="article-card-title">{{ r.title }}</h3>
-          <span class="article-card-date">{{ r.date | date: "%d/%m/%Y" }}</span>
+          <p class="article-card-desc">{{ r.description }}</p>
+          <div class="article-card-meta">
+            <span class="article-card-category">{{ r.category }}</span>
+            <span class="article-card-date">{{ r.date | date: "%d/%m/%Y" }}</span>
+          </div>
         </a>
         {% endfor %}
       </div>
