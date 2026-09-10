@@ -5,8 +5,8 @@ description: "Las mejores webcams para programar y hacer streaming de código: L
 category: "Lista"
 date: 2026-08-15
 readtime: 7
-affiliate_text: "Consigue la Logitech C920S con envío gratis en Amazon"
-affiliate_url: "https://www.amazon.es/s?k=logitech+c920s"
+affiliate_text: "Consigue la Logitech C920s Pro HD con envío gratis en Amazon"
+affiliate_url: "https://www.amazon.es/dp/B07VV8D6JW"
 affiliate_label: "Ver en Amazon"
 ---
 

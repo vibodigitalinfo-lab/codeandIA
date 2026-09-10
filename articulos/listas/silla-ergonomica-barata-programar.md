@@ -5,8 +5,8 @@ description: "Las mejores sillas ergonómicas baratas para programar: IKEA Marku
 category: "Lista"
 date: 2026-08-16
 readtime: 8
-affiliate_text: "Consigue la silla SIHOO Doro C300 en Amazon"
-affiliate_url: "https://www.amazon.es/s?k=sihoo+doro+c300"
+affiliate_text: "Consigue la silla SIHOO M18 en Amazon"
+affiliate_url: "https://www.amazon.es/dp/B09V3KQK8L"
 affiliate_label: "Ver en Amazon"
 ---
 

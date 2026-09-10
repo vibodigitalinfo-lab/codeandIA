@@ -5,8 +5,8 @@ description: "Comparo los mejores teclados mecánicos para programar: Keychron, 
 category: "Lista"
 date: 2026-08-19
 readtime: 8
-affiliate_text: "Consigue el Keychron Q1 Pro con envío gratis en Amazon"
-affiliate_url: "https://www.amazon.es/s?k=keychron+q1+pro"
+affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"
+affiliate_url: "https://www.amazon.es/dp/B0CJ2QZ8V8"
 affiliate_label: "Ver en Amazon"
 ---
 
