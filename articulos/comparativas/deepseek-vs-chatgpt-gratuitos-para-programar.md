@@ -9,7 +9,7 @@ readtime: 8
 
 Cuando empecé en DAW, mi primera pregunta fue siempre la misma: *¿qué IA puedo usar gratis para ayudarme con el código?* No todo el mundo puede pagarse una suscripción, y menos siendo estudiante con el portátil del gobierno y las becas que no llegan. Por eso probé a fondo **DeepSeek y ChatGPT gratuitos** para ver cuál de los dos programa mejor sin pagar ni un euro.
 
-La respuesta corta: los dos son muy buenos, pero para cosas distintas. No es tan simple como "uno es mejor." Depende de lo que necesites, de cómo programes y de cuánto contexto necesites meter en el chat. Ahora te cuento lo que he visto yo, con proyectos reales de clase.
+La respuesta corta: los dos son muy buenos, pero para cosas distintas. No es tan simple como "uno es mejor." Depende de lo que necesites, de cómo programes y de cuánto contexto necesites meter en el chat. Si lo tuyo es pagar y quieres la mejor experiencia, también tengo una comparativa de [Claude vs ChatGPT Plus de pago](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/) para que veas las diferencias. Pero hoy toca hablar de lo gratis.
 
 ---
 
@@ -17,7 +17,7 @@ La respuesta corta: los dos son muy buenos, pero para cosas distintas. No es tan
 
 **DeepSeek Chat** es un modelo chino que se ha hecho enorme este año. La versión gratuita te da acceso a su modelo V3, que es sorprendentemente bueno con código. Tiene una ventana de contexto amplia y no te limita demasiado las conversaciones al día. Lo único: a veces hay cola cuando hay mucho tráfico, porque los servidores se saturan. Además, su interfaz es muy básica: no tiene plugins, ni modo voz, ni nada de eso. Solo tú, el chat y el código.
 
-**ChatGPT gratuito** usa GPT-4o mini, que es una versión recortada del GPT-4o. Es rápido, nunca tiene cola, y funciona desde el navegador sin complicaciones. El problema es que GPT-4o mini tiene menos capacidad que el modelo completo, y eso se nota cuando le das tareas complejas. A cambio, tienes búsqueda web integrada y el modo canvas para ver y editar código de forma más visual, cosas que en DeepSeek no existen en la versión gratis.
+**ChatGPT gratuito** usa GPT-4o mini, que es una versión recortada del GPT-4o. Es rápido, nunca tiene cola, y funciona desde el navegador sin complicaciones. El problema es que GPT-4o mini tiene menos capacidad que el modelo completo, y eso se nota cuando le das tareas complejas. Si quieres ver qué tal funciona la versión completa, tengo una [review de ChatGPT Plus para programadores](/articulos/reviews/chatgpt-plus-para-programadores/) bastante honesta. A cambio, tienes búsqueda web integrada y el modo canvas para ver y editar código de forma más visual, cosas que en DeepSeek no existen en la versión gratis.
 
 ---
 
@@ -33,7 +33,7 @@ A los dos les pedí una función que valide emails con regex. DeepSeek me devolv
 
 ### Ejemplo 2: explicar un error de Java
 
-Le pegué un `NullPointerException` típico de los proyectos del ciclo, con un stack trace completo. DeepSeek me explicó el error paso a paso, señaló la línea exacta y me sugirió cómo solucionarlo con un ejemplo. ChatGPT fue más directo: "esto pasa porque la variable es null, inicialízala antes." Cierto, pero menos útil si estás aprendiendo.
+Le pegué un `NullPointerException` típico de los proyectos del ciclo, con un stack trace completo. DeepSeek me explicó el error paso a paso, señaló la línea exacta y me sugirió cómo solucionarlo con un ejemplo. ChatGPT fue más directo: "esto pasa porque la variable es null, inicialízala antes." Cierto, pero menos útil si estás aprendiendo. Si quieres más trucos para sacar partido a ChatGPT con errores de código, echa un ojo a mi guía de [los mejores prompts para corregir errores](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/).
 
 **Ganador:** DeepSeek otra vez, al least en explicaciones.
 
@@ -86,7 +86,7 @@ No hay uno que sea mejor en todo. Depende de tu situación:
 - No quieres lidiar con colas ni interrupciones
 - Prefieres una interfaz más pulida y fácil de usar
 
-**Mi combinación personal:** uso DeepSeek para cosas de clase (explicaciones, debugging, aprendizaje) y ChatGPT para cosas rápidas del día a día. No cuesta nada usar los dos, y cada uno tiene su hueco.
+**Mi combinación personal:** uso DeepSeek para cosas de clase (explicaciones, debugging, aprendizaje) y ChatGPT para cosas rápidas del día a día. No cuesta nada usar los dos, y cada uno tiene su hueco. Si quieres ver otras herramientas de IA gratuitas para estudiantes, tengo una lista de [7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) que uso a diario.
 
 ---
 
@@ -97,3 +97,5 @@ Después de meses usando los dos, te digo una cosa: la IA es una herramienta bru
 Yo uso DeepSeek y ChatGPT como si fueran un calculadora: me ahorran tiempo en cosas mecánicas, pero para entender de verdad el código, al final me siento con la documentación o pregunto a alguien que sepa.
 
 Si estás empezando en DAW y no quieres gastar dinero, **los dos son válidos**. Prueba los dos una semana con tus proyectos reales y queda con lo que mejor te vaya a ti. No hay respuesta mágica, pero sí hay herramientas que te pueden hacer la vida más fácil sin que notes el bolsillo.
+
+Y si al final te animas con algo de pago, echa un ojo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) — es el editor que combina VS Code con IA y tiene versión gratuita que merece la pena probar.
