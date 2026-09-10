@@ -37,7 +37,7 @@ Aquí viene la parte honesta. Llevo varios meses usándolo en clase y en proyect
 
 Para las cosas del día a día en DAW, Copilot es muy útil. Cuando estás haciendo formularios en Java, lógica repetitiva en PHP, o incluso consultas SQL que siempre tienen la misma estructura, las sugerencias son bastante acertadas. No tienes que pensar en la sintaxis, puedes centrarte en la lógica. Eso cuando estás aprendiendo ayuda, porque reduces la fricción de "¿cómo era esto exactamente?"
 
-Donde me genera más dudas es precisamente en el aprendizaje. Hay momentos en los que acepto una sugerencia sin entender del todo qué hace, y eso a largo plazo puede ser un problema. Si estás en primero y todavía estás interiorizando cómo funciona un bucle o una clase, Copilot puede hacer que pases por encima de conceptos que luego te van a hacer falta.
+Donde me genera más dudas es precisamente en el aprendizaje. Hay momentos en los que acepto una sugerencia sin entender del todo qué hace, y eso a largo plazo puede ser un problema. Si estás en primero y todavía estás interiorizando cómo funciona un bucle o una clase, Copilot puede hacer que pases por encima de conceptos que luego te van a hacer falta. Si quieres ver cómo se compara con otras opciones, tengo una [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/) para que veas las diferencias.
 
 Mi forma de usarlo es esta: primero intento resolver el problema por mi cuenta. Si me quedo bloqueado más de lo razonable, miro la sugerencia, pero la leo y la entiendo antes de aceptarla. No es la forma más rápida, pero es la que más me está aportando.
 

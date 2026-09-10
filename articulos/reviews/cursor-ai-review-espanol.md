@@ -15,7 +15,7 @@ La respuesta corta es que sí, me ha cambiado bastante la forma de programar. Pe
 
 ## Qué es Cursor y cómo funciona realmente
 
-Cursor es un editor de código basado en VS Code que tiene IA integrada a nivel profundo, no como una extensión pegada con cinta adhesiva. La diferencia con GitHub Copilot, que también he usado, es que Cursor entiende el contexto de todo tu proyecto, no solo del archivo que tienes abierto. Puedes seleccionar varios archivos, pegarle un mensaje de error y pedirle que encuentre dónde está el problema. Funciona.
+Cursor es un editor de código basado en VS Code que tiene IA integrada a nivel profundo, no como una extensión pegada con cinta adhesiva. La diferencia con GitHub Copilot, que también he usado, es que Cursor entiende el contexto de todo tu proyecto, no solo del archivo que tienes abierto. Puedes seleccionar varios archivos, pegarle un mensaje de error y pedirle que encuentre dónde está el problema. Funciona. Si quieres ver cómo se compara con otras opciones de IA para programar, tengo una [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/) que te puede ayudar a decidir.
 
 Lo más útil del día a día es el chat lateral, que yo llamo "el compañero que siempre está despierto". Cuando me quedo atascado con algo de JavaScript o no entiendo por qué mi consulta SQL devuelve basura, le pregunto directamente. No siempre acierta a la primera, pero la mayoría de veces me da una pista que me desbloquea en dos minutos. Antes tardaba media hora buscando en Stack Overflow.
 
@@ -37,7 +37,7 @@ Aquí viene la parte incómoda. Cursor tiene un plan gratuito que te deja probar
 
 Mi opinión sincera: si programas todos los días, aunque sea para prácticas de clase, el tiempo que te ahorra justifica el precio. Si solo tocas código una vez a la semana para hacer la entrega mínima, probablemente no. Yo lo pagué un mes para probarlo a fondo antes de decidirme, que es exactamente lo que te propone [su periodo de prueba gratuito de 14 días](https://cursor.com). Te recomiendo hacer lo mismo: úsalo en un proyecto real tuyo, no en algo inventado, y decide con eso.
 
-Lo que no haría es suscribirme sin haberlo probado antes. El marketing es muy bueno y es fácil dejarse llevar.
+Lo que no haría es suscribirme sin haberlo probado antes. El marketing es muy bueno y es fácil dejarse llevar. Si todavía no te decides, también tengo una comparativa de [Windsurf vs Cursor AI](/articulos/comparativas/windsurf-vs-cursor-ai-aprender-programar/) para que veas las alternativas antes de lanzarte.
 
 ## ¿Reemplaza aprender a programar de verdad?
 

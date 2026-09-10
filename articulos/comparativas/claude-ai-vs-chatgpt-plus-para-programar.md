@@ -10,7 +10,7 @@ affiliate_url: "https://chat.openai.com/upgrade"
 affiliate_label: "Ver ChatGPT Plus"
 ---
 
-Llevo unos meses usando los dos en paralelo, y la pregunta me la hacen constantemente mis compañeros del ciclo: *¿Claude AI o ChatGPT Plus para programar?* No es una pregunta fácil de responder con un "depende" y ya, porque eso no le sirve a nadie. Así que voy a contaros lo que he visto yo, con proyectos reales de clase y cosas que he montado por mi cuenta.
+Llevo unos meses usando los dos en paralelo, y la pregunta me la hacen constantemente mis compañeros del ciclo: *¿Claude AI o ChatGPT Plus para programar?* No es una pregunta fácil de responder con un "depende" y ya, porque eso no le sirve a nadie. Si prefieres no gastar nada, también tengo una comparativa de [DeepSeek vs ChatGPT gratuitos](/articulos/comparativas/deepseek-vs-chatgpt-gratuitos-para-programar/) para que veas qué se puede sacar sin pagar. Pero hoy toca hablar de los dos de pago.
 
 La comparativa entre **Claude AI vs ChatGPT Plus para programar** tiene mucha tela porque los dos han mejorado una barbaridad este año, pero no de la misma forma ni en los mismos aspectos. Y eso marca la diferencia según para qué lo uses.
 

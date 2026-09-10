@@ -31,7 +31,7 @@ Tampoco me parece que el acceso a GPT-4o sea ilimitado de verdad. Hay un límite
 
 Aquí es donde la cosa se complica. Si estás en un ciclo como yo, tienes proyectos, prácticas, ejercicios y muchas horas delante del editor. ChatGPT Plus para programadores tiene sentido si realmente lo vas a usar de forma intensiva: para revisar código, entender conceptos de redes o bases de datos, generar tests, refactorizar funciones o simplemente tener un "compañero" que no se cansa de explicarte cosas.
 
-Si lo usas de vez en cuando, probablemente puedas vivir bien con la versión gratuita y completarlo con otras herramientas como GitHub Copilot o Claude. Pero si eres del tipo de persona que abre ChatGPT como abre el editor —constantemente—, el salto merece la pena.
+Si lo usas de vez en cuando, probablemente puedas vivir bien con la versión gratuita y completarlo con otras herramientas como GitHub Copilot o Claude. Si no quieres gastar nada, también tengo una comparativa de [DeepSeek vs ChatGPT gratuitos](/articulos/comparativas/deepseek-vs-chatgpt-gratuitos-para-programar/) para que veas qué puedes sacar sin pagar. Pero si eres del tipo de persona que abre ChatGPT como abre el editor —constantemente—, el salto merece la pena.
 
 Si quieres probarlo sin comprometerte demasiado, puedes [activar un mes de ChatGPT Plus](https://chat.openai.com/?model=gpt-4) y ver si tu forma de trabajar cambia. A mí me convencí después del segundo mes.
 
