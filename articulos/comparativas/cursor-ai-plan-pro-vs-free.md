@@ -3,7 +3,7 @@ layout: article
 title: "Cursor AI plan Pro vs Free: qué incluye cada uno y cuándo merece la pena pagar"
 description: "Comparo cursor AI plan pro vs free español con mi propia experiencia: límites reales, precio y cuándo vale la pena pasarte a Pro."
 category: "Comparativa"
-date: 2026-09-04
+date: 2026-08-28
 readtime: 7
 affiliate_text: "Si ya sabes que vas a necesitar más límite, prueba Cursor Pro sin vueltas"
 affiliate_url: "https://cursor.com/pricing"

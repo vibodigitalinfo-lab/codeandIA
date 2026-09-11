@@ -3,7 +3,7 @@ layout: article
 title: "Hostinger review 2026: ¿es fiable para alojar tu primer proyecto de DAW?"
 description: "Mi experiencia real con Hostinger: si es fiable para alojar tu primer proyecto de DAW sin morir en el intento."
 category: "Review"
-date: 2026-09-06
+date: 2026-08-30
 readtime: 6
 affiliate_text: "Prueba Hostinger con descuento y empieza a desplegar ya"
 affiliate_url: "https://www.hostinger.com/es"
