@@ -1804,44 +1804,24 @@ a {
   }
 }
 
-/* ============ Widget de Google Translate (oculto a la vista) ============ */
+/* ============ Widget de Google Translate (oculto) ============ */
 
 /* El selector ES/EN de la navegación controla la traducción. El widget de
-   Google tiene que existir (si no, no traduce), pero nada de su UI puede
-   verse: el contenedor se mueve fuera del viewport (offscreen, no
-   display:none, para que element.js inicialice bien el combo) y cualquier
-   artefacto que Google inyecte (banner superior, tooltip al pasar el ratón,
-   desplegables flotantes) se elimina con CSS y con un MutationObserver. */
+   GoogleTranslate necesita existir en el DOM para traducir, pero todo lo que
+   Google inyecta (banner, tooltip, combos, menús) se oculta. La ocultación
+   principal vive en un <style> inline en el <head> de default.html (se aplica
+   ANTES de element.js y no depende de la cache del CSS externo). Este bloque
+   es un fallback adicional. */
 #google_translate_element {
-  position: absolute;
-  left: -9999px;
-  top: 0;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
 }
 
-.goog-te-banner-frame,
-.goog-te-banner,
-.goog-te-banner-bottom,
-.goog-te-balloon-frame,
-.goog-te-menu-frame,
-.goog-te-menu,
-.goog-te-menu2,
-.goog-te-menu2-frame,
-.goog-te-combo,
-.goog-te-gadget,
-.goog-te-gadget-simple,
-#goog-gt-tt,
-.goog-te-spinner-pos,
-.goog-transparent {
-  display: none !important;
-}
-
-/* Evita que Google empuje el contenido hacia abajo cuando intenta mostrar el banner */
 body {
   top: 0px !important;
   min-height: 0px !important;
