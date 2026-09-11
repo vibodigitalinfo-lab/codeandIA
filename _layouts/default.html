@@ -291,12 +291,15 @@
         var id = (el.id || '').toLowerCase();
         var cls = (el.className && typeof el.className === 'string')
           ? el.className.toLowerCase() : '';
-        return id.indexOf('goog') !== -1 || cls.indexOf('goog') !== -1;
+        var tag = el.tagName ? el.tagName.toLowerCase() : '';
+        if (id.indexOf('goog') !== -1 || cls.indexOf('goog') !== -1) return true;
+        if (tag === 'iframe' && cls.indexOf('goog') !== -1) return true;
+        return false;
       }
 
       function purge() {
         if (!document.body) return;
-        // Elimina hijos directos de html y body que sean de Google
+        /* Elimina hijos directos de html y body que sean de Google */
         var containers = [document.documentElement, document.body];
         for (var c = 0; c < containers.length; c++) {
           var kids = containers[c].children;
@@ -306,19 +309,36 @@
             }
           }
         }
-        // Restaura el desplazamiento de body que Google modifica
+        /* Busca y elimina iframes de Google en cualquier parte del DOM */
+        var iframes = document.querySelectorAll('iframe');
+        for (var j = 0; j < iframes.length; j++) {
+          if (isGoogleTranslate(iframes[j])) {
+            iframes[j].parentNode && iframes[j].parentNode.removeChild(iframes[j]);
+          }
+        }
+        /* Restaura el desplazamiento de body que Google modifica */
         document.body.style.top = '0px';
         document.body.style.minHeight = '0px';
+        document.documentElement.style.top = '0px';
       }
 
       if (window.MutationObserver) {
         purge();
+        /* Observa TODO el document con subtree:true para atrapar nodos
+           inyectados en cualquier profundidad del DOM */
         var observer = new MutationObserver(function (mutations) {
           for (var m = 0; m < mutations.length; m++) {
             var added = mutations[m].addedNodes;
             for (var n = 0; n < added.length; n++) {
-              if (isGoogleTranslate(added[n])) {
-                added[n].parentNode && added[n].parentNode.removeChild(added[n]);
+              var node = added[n];
+              if (isGoogleTranslate(node)) {
+                node.parentNode && node.parentNode.removeChild(node);
+              } else if (node.nodeType === 1 && node.querySelectorAll) {
+                /* Si el nodo añadido contiene hijos de Google, bórralos */
+                var gElems = node.querySelectorAll('[id*="goog"], [class*="goog"], iframe');
+                for (var g = 0; g < gElems.length; g++) {
+                  gElems[g].parentNode && gElems[g].parentNode.removeChild(gElems[g]);
+                }
               }
             }
           }
@@ -327,7 +347,23 @@
             document.body.style.minHeight = '0px';
           }
         });
-        observer.observe(document.documentElement, { childList: true, subtree: false });
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+      }
+
+      /* Fallback: revisión periódica los primeros 30s por si Google inyecta
+         elementos de forma asíncrona (timer, lazy load, etc.) */
+      var cleanupCount = 0;
+      var cleanupInterval = setInterval(function () {
+        purge();
+        cleanupCount++;
+        if (cleanupCount >= 30) clearInterval(cleanupInterval);
+      }, 1000);
+
+      /* También al cargar completamente el DOM */
+      if (document.readyState === 'complete') {
+        purge();
+      } else {
+        window.addEventListener('load', purge);
       }
     })();
 
