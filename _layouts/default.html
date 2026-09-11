@@ -48,6 +48,20 @@
       } catch (e) {}
     })();
   </script>
+
+  <!-- Idioma: fija la cookie que entiende el widget de Google Translate antes de que cargue (evita parpadeo/idioma incorrecto) -->
+  <script>
+    (function () {
+      var lang = 'es';
+      try {
+        var saved = localStorage.getItem('lang');
+        if (saved === 'en' || saved === 'es') lang = saved;
+        else localStorage.setItem('lang', lang);
+      } catch (e) {}
+      document.cookie = 'googtrans=/es/' + lang + '; path=/; max-age=31536000; SameSite=Lax';
+      if (lang === 'en') document.documentElement.lang = 'en';
+    })();
+  </script>
 </head>
 <body>
 
@@ -181,6 +195,45 @@
       renderPage();
     })();
 
+    /* Selector de idioma ES/EN (recuerda la preferencia en localStorage y
+       la sincroniza con la cookie googtrans que entiende el widget de Google Translate) */
+    (function () {
+      var switcher = document.querySelector('.lang-switch');
+      if (!switcher) return;
+
+      var current = 'es';
+      try {
+        var saved = localStorage.getItem('lang');
+        if (saved === 'en' || saved === 'es') current = saved;
+      } catch (e) {}
+
+      function render() {
+        switcher.querySelectorAll('.lang-btn').forEach(function (btn) {
+          var active = btn.getAttribute('data-lang') === current;
+          btn.classList.toggle('is-active', active);
+          btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+      }
+
+      function setLang(lang) {
+        try {
+          localStorage.setItem('lang', lang);
+        } catch (e) {}
+        document.cookie = 'googtrans=/es/' + lang + '; path=/; max-age=31536000; SameSite=Lax';
+      }
+
+      switcher.addEventListener('click', function (e) {
+        var btn = e.target.closest('.lang-btn');
+        if (!btn) return;
+        var lang = btn.getAttribute('data-lang');
+        if (lang === current) return;
+        setLang(lang);
+        window.location.reload();
+      });
+
+      render();
+    })();
+
     /* Toggle de tema claro/oscuro (recuerda la preferencia en localStorage) */
     (function () {
       var toggle = document.getElementById('theme-toggle');
@@ -225,6 +278,20 @@
 
   <!-- Skimlinks: conversión automática de enlaces de afiliado -->
   <script type="text/javascript" src="https://s.skimresources.com/js/309068X1797398.skimlinks.js"></script>
+
+  <!-- Widget de Google Translate (oculto): traduce todo el contenido ES<->EN sin API key.
+       Los botones de la navegación fijan la cookie googtrans y recargan para aplicar la traducción. -->
+  <div id="google_translate_element" aria-hidden="true"></div>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'es',
+        includedLanguages: 'es,en',
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
