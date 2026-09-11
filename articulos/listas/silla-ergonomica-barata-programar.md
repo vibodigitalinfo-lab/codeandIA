@@ -5,8 +5,8 @@ description: "Las mejores sillas ergonómicas baratas para programar: IKEA Marku
 category: "Lista"
 date: 2026-08-16
 readtime: 8
-affiliate_text: "Consigue la silla SIHOO M18 en Amazon"
-affiliate_url: "https://www.amazon.es/dp/B09V3KQK8L"
+affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
+affiliate_url: "https://www.amazon.es/dp/B0C3T865C2"
 affiliate_label: "Ver en Amazon"
 ---
 
@@ -34,7 +34,7 @@ Si no sabes por dónde empezar, esta es la respuesta. Es la que menos riesgo tie
 
 ### SIHOO Doro C300: la nueva estrella bajo los 300€
 
-Esta es la silla que más hype está generando en foros de programadores. La SIHOO Doro C300 cuesta unos 300€, justo en el límite del presupuesto.
+Esta es la silla que más hype está generando en foros de programadores. La SIHOO Doro C300 cuesta unos 325€ en Amazon España, un poco por encima del límite de los 300€. Si puedes estirar el presupuesto, es la que más me ha ayudado.
 
 Su gran ventaja es el soporte lumbar dinámico. La zona lumbar se adapta a tus movimientos cuando te reclinas o cambias de postura. No es un cojín fijo: sigue tu espalda. Después de una hora escribiendo código sin levantar la cabeza del monitor, lo agradeces.
 
@@ -46,7 +46,7 @@ Un detalle que me gustó: la inclinación del asiento se ajusta por separado del
 
 ¿Peor momento? El ensamblaje. La caja viene con tornillos en bolsas sin etiquetar y tardé una hora en montarla. El manual es genérico para varios modelos. No es un drama, pero prepara un destornillador y paciencia.
 
-No la he probado durante años, solo semanas. Pero es mi candidata a mejor compra por debajo de 300€ en 2026.
+No la he probado durante años, solo semanas. Pero es mi candidata a mejor compra en 2026 si puedes estirarte un poco por encima de los 300€.
 
 ### Clatina Mellet: el reposacabezas incluido que casi nadie ve
 
@@ -94,7 +94,7 @@ Mi consejo: si buscas reclinación y un reposacabezas completo, esta es tu silla
 
 No es un flechazo científico. Es práctica. El soporte lumbar dinámico me evita ese dolor de las 5 de la tarde que tuve con la silla de cocina. La malla completa me mantiene fresco en sesiones largas. Y el reposabrazos 3D me permite apoyar las muñecas mientras escribo sin encoger los hombros.
 
-Si tu presupuesto no llega a 300€, hay orden. Por menos de 180€, la Amazon Basics te saca del paso. Entre 180€ y 250€, la IKEA Markus o la Clatina Mellet según si prefieres malla clásica o reposacabezas. Y si puedes estirarte a 280-300€, la SIHOO o la Ticova según tu prioridad entre soporte lumbar y reclinación.
+Si tu presupuesto no llega a 300€, hay orden. Por menos de 180€, la Amazon Basics te saca del paso. Entre 180€ y 250€, la IKEA Markus o la Clatina Mellet según si prefieres malla clásica o reposacabezas. Entre 280€ y 330€, la SIHOO o la Ticova según tu prioridad entre soporte lumbar y reclinación.
 
 Lo que no negocies jamás: soporte lumbar ajustable (esencial en sesiones largas), malla trasera transpirable y una garantía de 5 años mínima. La profundidad de asiento ajustable y los reposabrazos 4D son mejoras, no requisitos. Mide tu altura antes de comprar: casi todas las quejas que leo en foros vienen de gente alta o baja a la que la silla no le encaja.
 

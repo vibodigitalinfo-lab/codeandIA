@@ -5,12 +5,12 @@ description: "Ofertas Black Friday 2026 para programadores: hosting, teclados, m
 category: "Lista"
 date: 2026-10-30
 readtime: 9
-affiliate_text: "Ver todas las ofertas de Black Friday en Amazon"
-affiliate_url: "https://www.amazon.es/deals"
-affiliate_label: "Ver ofertas"
+affiliate_text: "Consigue el Keychron V1 Max, mi teclado favorito, en Amazon"
+affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B"
+affiliate_label: "Ver en Amazon"
 ---
 
-El Black Friday ya no es solo para comprar televisions y móviles. Si eres programador o estás estudiando DAW, es la mejor época del año para ahorrar en todo lo que necesitas para tu setup: teclados, monitores, ratones, hosting, suscripciones y más.
+El Black Friday ya no es solo para comprar televisiones y móviles. Si eres programador o estás estudiando DAW, es la mejor época del año para ahorrar en todo lo que necesitas para tu setup: teclados, monitores, ratones, hosting, suscripciones y más.
 
 Llevo varios años aprovechando el Black Friday para comprar cosas que el resto del año me parecen caras, y este año he decidido recopilar las mejores ofertas en un solo artículo. No todo es tecnología física: hay descuentos en herramientas de desarrollo, hosting y dominios que también merecen la pena.
 
@@ -40,7 +40,7 @@ Los teclados mecánicos son de los productos que más bajan en Black Friday. Si 
 
 ### Keychron
 
-Keycron suele hacer ofertas del 20-30% en sus modelos principales. El Keychron Q1 Pro, que normalmente cuesta 170€, baja a around 120-130€. El V1 Max, que es mi favorito por relación calidad-precio, puede bajar a 65-70€. Si quieres un teclado con QMK/VIA programable y hot-swappable, estas son las ofertas que busco cada año.
+Keychron suele hacer ofertas del 20-30% en sus modelos principales. El Keychron Q1 Pro, que normalmente cuesta 170€, baja a unos 120-130€. El V1 Max, que es mi favorito por relación calidad-precio y normalmente cuesta 138€, puede bajar a unos 100-110€. Si quieres un teclado con QMK/VIA programable y hot-swappable, estas son las ofertas que busco cada año.
 
 ### Royal Kludge
 
@@ -50,21 +50,21 @@ Los modelos budget como el RK84 ya son baratos (60€), pero en Black Friday pue
 
 ## Monitores ultrawide: el upgrade más grande para tu productividad
 
-Los monitores son caros, pero en Black Friday las bajadas de precio son serias. Un ultrawide que normalmente cuesta 400€ puede bajar a 300€ o menos.
+Los monitores son caros, pero en Black Friday las bajadas de precio son serias. Un ultrawide que normalmente cuesta 450€ puede bajar a 350€ o menos.
 
 ### LG 34WN80C-B
 
-Este es el monitor que yo recomiendo para programar. En Black Friday suele bajar a around 300-320€. Si estabas dudando entre este y uno más barato, el descuento lo pone casi al nivel de los budget.
+Este es el monitor que yo recomiendo para programar. Suele costar 450€, y en Black Friday la bajada suele ser notable. Si estabas dudando entre este y uno más barato, el descuento lo pone más cerca de los presupuestos ajustados.
 
 ### Xiaomi G34WQi
 
-El Xiaomi ya es barato (350€), pero en Black Friday puede bajar a 280-300€. Para un estudiante de DAW que quiere probar un ultrawide sin gastar una fortuna, es la oportunidad.
+El Xiaomi ya es barato (350€), pero en Black Friday puede bajar a unos 280-300€. Para un estudiante de DAW que quiere probar un ultrawide sin gastar una fortuna, es la oportunidad.
 
 ---
 
 ## Ratones ergonómicos: cuídate la muñeca
 
-Los ratones Logitech MX Master suelen tener descuentos decentes en Black Friday. El MX Master 3S, que normalmente cuesta 90€, puede bajar a 65-70€.
+Los ratones Logitech MX Master suelen tener descuentos decentes en Black Friday. El MX Master 3S, que normalmente cuesta 75€, puede bajar a 55-60€.
 
 ### Logitech MX Master 3S
 
@@ -108,7 +108,7 @@ El Black Friday es una oportunidad, no una obligación. Compra con cabeza, no co
 
 ---
 
-## Cuando publication este artículo
+## Cuándo se publica este artículo
 
 Este artículo se publica a finales de octubre para que tenga tiempo de indexarse antes del Black Friday (27 de noviembre de 2026). Si lo estás leyendo después, algunos precios pueden haber cambiado, pero las recomendaciones de productos siguen siendo válidas.
 
