@@ -53,9 +53,9 @@ permalink: /ofertas/
         <span class="oferta-category">Teclado</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Keychron V1 Max (Red Switch) — 89,99€ en Amazon</h3>
-      <p class="oferta-excerpt">Teclado mecánico 75% hot-swappable, QMK/VIA, RGB, polling 1000Hz. Mejor relación calidad-precio para programar.</p>
-      <a href="https://www.amazon.es/dp/B0CJ2QZ8V8" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <h3>Keychron V1 Max (Red Switch) — 137,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Teclado mecánico inalámbrico 75% hot-swappable, QMK/VIA, switches Gateron Jupiter Red, RGB. Mejor relación calidad-precio para programar.</p>
+      <a href="https://www.amazon.es/dp/B0CNW5G66B" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -63,9 +63,9 @@ permalink: /ofertas/
         <span class="oferta-category">Ratón</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech MX Master 3S — 89,99€ en Amazon</h3>
-      <p class="oferta-excerpt">Ratón ergonómico flagship: MagSpeed scroll, 8000 DPI, multi-dispositivo (3), 70 días batería, carga rápida USB-C.</p>
-      <a href="https://www.amazon.es/dp/B0B7Z9J5Q9" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <h3>Logitech MX Master 3S — 75,12€ en Amazon</h3>
+      <p class="oferta-excerpt">Ratón ergonómico flagship: MagSpeed scroll, 8000 DPI, sobre cristal, clics discretos, multi-dispositivo (3), 70 días batería, carga rápida USB-C.</p>
+      <a href="https://www.amazon.es/dp/B0FHHV6YR5" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -73,9 +73,9 @@ permalink: /ofertas/
         <span class="oferta-category">Monitor</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>LG 34WP65C-B 34" UltraWide — 299€ en Amazon</h3>
-      <p class="oferta-excerpt">Monitor curvo 34" UW-QHD (3440x1440), 160Hz, VA, HDR10, USB-C con 65W PD. El mejor ultra-wide calidad-precio para código.</p>
-      <a href="https://www.amazon.es/dp/B0CJ2QZ8V8" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <h3>LG 34WN80C-B 34" UltraWide — 450€ en Amazon</h3>
+      <p class="oferta-excerpt">Monitor 34" UltraWide IPS (3440x1440), 60Hz, USB-C con 60W PD, ajuste de altura y VESA. El mejor ultrawide para código.</p>
+      <a href="https://www.amazon.es/dp/B083QT6Z8R" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -84,8 +84,8 @@ permalink: /ofertas/
         <span class="oferta-date">Septiembre 2026</span>
       </div>
       <h3>SIHOO M18 — 179,99€ en Amazon</h3>
-      <p class="oferta-excerpt">Silla ergonómica con soporte lumbar ajustable, malla transpirable, reposacabezas y brazos 3D. Mejor opción sub-200€.</p>
-      <a href="https://www.amazon.es/dp/B09V3KQK8L" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <p class="oferta-excerpt">Silla ergonómica con soporte lumbar ajustable, malla transpirable, reposacabezas y reposabrazos 2D. Mejor opción sub-200€.</p>
+      <a href="https://www.amazon.es/dp/B07GNDDNMW" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -95,7 +95,7 @@ permalink: /ofertas/
       </div>
       <h3>Logitech C920s Pro HD — 59,99€ en Amazon</h3>
       <p class="oferta-excerpt">Webcam 1080p/30fps con privacidad integrada, enfoque automático, corrección luz baja. Estándar para streaming y llamadas.</p>
-      <a href="https://www.amazon.es/dp/B07VV8D6JW" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <a href="https://www.amazon.es/dp/B07MM4V7NR" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
   </div>

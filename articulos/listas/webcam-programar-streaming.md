@@ -6,7 +6,7 @@ category: "Lista"
 date: 2026-08-15
 readtime: 7
 affiliate_text: "Consigue la Logitech C920s Pro HD con envío gratis en Amazon"
-affiliate_url: "https://www.amazon.es/dp/B07VV8D6JW"
+affiliate_url: "https://www.amazon.es/dp/B07MM4V7NR"
 affiliate_label: "Ver en Amazon"
 ---
 
