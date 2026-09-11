@@ -1804,19 +1804,47 @@ a {
   }
 }
 
-/* ============ Widget de Google Translate (oculto) ============ */
+/* ============ Widget de Google Translate (oculto a la vista) ============ */
 
-/* El selector ES/EN de la navegación controla la traducción; ocultamos
-   la UI por defecto de Google y cualquier banner que inyecte. */
-#google_translate_element,
+/* El selector ES/EN de la navegación controla la traducción. El widget de
+   Google tiene que existir (si no, no traduce), pero nada de su UI puede
+   verse: el contenedor se mueve fuera del viewport (offscreen, no
+   display:none, para que element.js inicialice bien el combo) y cualquier
+   artefacto que Google inyecte (banner superior, tooltip al pasar el ratón,
+   desplegables flotantes) se elimina con CSS y con un MutationObserver. */
+#google_translate_element {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .goog-te-banner-frame,
 .goog-te-banner,
-.goog-te-banner-bottom {
+.goog-te-banner-bottom,
+.goog-te-balloon-frame,
+.goog-te-menu-frame,
+.goog-te-menu,
+.goog-te-menu2,
+.goog-te-menu2-frame,
+.goog-te-combo,
+.goog-te-gadget,
+.goog-te-gadget-simple,
+#goog-gt-tt,
+.goog-te-spinner-pos,
+.goog-transparent {
   display: none !important;
 }
 
+/* Evita que Google empuje el contenido hacia abajo cuando intenta mostrar el banner */
 body {
-  top: 0 !important;
+  top: 0px !important;
+  min-height: 0px !important;
 }
 
 /* ============ Selector ES/EN compacto en móviles pequeños ============ */

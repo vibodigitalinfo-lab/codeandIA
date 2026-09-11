@@ -234,6 +234,37 @@
       render();
     })();
 
+    /* Mata cualquier fragmento de UI que inyecte el widget de Google Translate
+       (banner superior, tooltip al pasar el ratón, desplegables flotantes).
+       El único control de idioma visible es el botón ES/EN de la navegación. */
+    (function () {
+      var SELECTORS = [
+        '.goog-te-banner-frame', '.goog-te-menu-frame', '.goog-te-menu',
+        '.goog-te-menu2-frame', '.goog-te-balloon-frame', '#goog-gt-tt',
+        '.goog-te-spinner-pos'
+      ];
+
+      function purge() {
+        for (var i = 0; i < SELECTORS.length; i++) {
+          var nodes = document.querySelectorAll(SELECTORS[i]);
+          for (var j = 0; j < nodes.length; j++) {
+            var el = nodes[j];
+            el.parentNode && el.parentNode.removeChild(el);
+          }
+        }
+        if (document.body) {
+          document.body.style.top = '0px';
+          document.body.style.minHeight = '0px';
+        }
+      }
+
+      if (window.MutationObserver) {
+        purge();
+        var observer = new MutationObserver(function () { purge(); });
+        observer.observe(document.documentElement, { childList: true, subtree: true });
+      }
+    })();
+
     /* Toggle de tema claro/oscuro (recuerda la preferencia en localStorage) */
     (function () {
       var toggle = document.getElementById('theme-toggle');
