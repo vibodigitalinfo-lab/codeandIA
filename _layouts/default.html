@@ -62,6 +62,54 @@
       if (lang === 'en') document.documentElement.lang = 'en';
     })();
   </script>
+
+  <!-- Oculta de raíz TODA la UI que Google Translate intenta inyectar (inline,
+       no cacheado, se aplica ANTES de que element.js se cargue) -->
+  <style>
+    .goog-te-banner-frame,
+    .goog-te-banner,
+    .goog-te-banner-bottom,
+    .goog-te-balloon-frame,
+    .goog-te-menu-frame,
+    .goog-te-menu,
+    .goog-te-menu2,
+    .goog-te-menu2-frame,
+    .goog-te-combo,
+    .goog-te-gadget,
+    .goog-te-gadget-simple,
+    #goog-gt-tt,
+    .goog-te-spinner-pos,
+    .goog-te-spinner,
+    #goog-te-scroll-animation,
+    .goog-te-spinner-pos,
+    [id^="goog-"],
+    [class^="goog-te-"],
+    [class*="goog-te-"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+      width: 0 !important;
+      height: 0 !important;
+      max-height: 0 !important;
+      overflow: hidden !important;
+      position: absolute !important;
+      left: -9999px !important;
+      top: -9999px !important;
+    }
+    #google_translate_element {
+      position: absolute !important;
+      left: -9999px !important;
+      top: -9999px !important;
+      width: 0 !important;
+      height: 0 !important;
+      overflow: hidden !important;
+      pointer-events: none !important;
+    }
+    html > .goog-te-banner-frame { display: none !important; }
+    html > div > div > iframe.goog-te-banner-frame { display: none !important; }
+    body { top: 0 !important; }
+  </style>
 </head>
 <body>
 
@@ -238,30 +286,48 @@
        (banner superior, tooltip al pasar el ratón, desplegables flotantes).
        El único control de idioma visible es el botón ES/EN de la navegación. */
     (function () {
-      var SELECTORS = [
-        '.goog-te-banner-frame', '.goog-te-menu-frame', '.goog-te-menu',
-        '.goog-te-menu2-frame', '.goog-te-balloon-frame', '#goog-gt-tt',
-        '.goog-te-spinner-pos'
-      ];
+      function isGoogleTranslate(el) {
+        if (el.nodeType !== 1) return false;
+        var id = (el.id || '').toLowerCase();
+        var cls = (el.className && typeof el.className === 'string')
+          ? el.className.toLowerCase() : '';
+        return id.indexOf('goog') !== -1 || cls.indexOf('goog') !== -1;
+      }
 
       function purge() {
-        for (var i = 0; i < SELECTORS.length; i++) {
-          var nodes = document.querySelectorAll(SELECTORS[i]);
-          for (var j = 0; j < nodes.length; j++) {
-            var el = nodes[j];
-            el.parentNode && el.parentNode.removeChild(el);
+        if (!document.body) return;
+        // Elimina hijos directos de html y body que sean de Google
+        var containers = [document.documentElement, document.body];
+        for (var c = 0; c < containers.length; c++) {
+          var kids = containers[c].children;
+          for (var i = kids.length - 1; i >= 0; i--) {
+            if (isGoogleTranslate(kids[i])) {
+              kids[i].parentNode.removeChild(kids[i]);
+            }
           }
         }
-        if (document.body) {
-          document.body.style.top = '0px';
-          document.body.style.minHeight = '0px';
-        }
+        // Restaura el desplazamiento de body que Google modifica
+        document.body.style.top = '0px';
+        document.body.style.minHeight = '0px';
       }
 
       if (window.MutationObserver) {
         purge();
-        var observer = new MutationObserver(function () { purge(); });
-        observer.observe(document.documentElement, { childList: true, subtree: true });
+        var observer = new MutationObserver(function (mutations) {
+          for (var m = 0; m < mutations.length; m++) {
+            var added = mutations[m].addedNodes;
+            for (var n = 0; n < added.length; n++) {
+              if (isGoogleTranslate(added[n])) {
+                added[n].parentNode && added[n].parentNode.removeChild(added[n]);
+              }
+            }
+          }
+          if (document.body) {
+            document.body.style.top = '0px';
+            document.body.style.minHeight = '0px';
+          }
+        });
+        observer.observe(document.documentElement, { childList: true, subtree: false });
       }
     })();
 
