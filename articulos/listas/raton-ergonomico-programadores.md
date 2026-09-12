@@ -6,7 +6,7 @@ category: "Lista"
 date: 2026-08-10
 readtime: 7
 affiliate_text: "Consigue el Logitech MX Master 3S en Amazon"
-affiliate_url: "https://www.amazon.es/dp/B0FHHV6YR5"
+affiliate_url: "https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 ---
 

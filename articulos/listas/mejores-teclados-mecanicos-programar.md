@@ -6,7 +6,7 @@ category: "Lista"
 date: 2026-08-12
 readtime: 8
 affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"
-affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B"
+affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 ---
 

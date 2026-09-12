@@ -57,7 +57,7 @@ En formato Markdown tabla.
 Prompt para agente:
 ```
 Verifica la URL oficial de [NOMBRE] con curl (curl -sL -o /dev/null -w "%{http_code}" URL).
-Devuelve: URL canónica verificada (200), si tiene programa de afiliado propio, si Skimlinks lo cubre (hosting/nombre de dominio o SaaS conocido).
+Devuelve: URL canónica verificada (200), si tiene programa de afiliado propio, el ASIN de Amazon.es si existe (formato `https://www.amazon.es/dp/<ASIN>?tag=codeandia-21`) y el precio actual en Amazon.es.
 ```
 
 ---
