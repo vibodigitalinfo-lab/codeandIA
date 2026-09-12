@@ -74,7 +74,7 @@ El **login obligatorio** es lo que más rechazo genera en la comunidad (Reddit, 
 | **Build** (recomendado) | $20 | **$18/mes** | 1,500 | Dev diario, estudiante que quiere todo |
 | **Max** | $200 | $180/mes | 18,000 | Power user, equipos pequeños |
 | **Business** | $50/seat | $45/seat | 1,500/seat + SAML | Equipos 5-25 |
-| **Enterprise | Custom | Custom | Ilimitado + BYOLLM + self-hosted | Empresas grandes |
+| **Enterprise** | Custom | Custom | Ilimitado + BYOLLM + self-hosted | Empresas grandes |
 
 **Créditos**: se gastan en Warp Agent (IA en la nube) y Warp Drive (sincronización). **Traes tu propio modelo (BYO)** en plan gratis = usas tu clave de OpenAI/Anthropic y no gastas créditos Warp. En planes de pago, los créditos cubren modelos de Warp (Sonnet 4, GPT-5, Grok Build, routers propios).
 
@@ -85,7 +85,7 @@ El **login obligatorio** es lo que más rechazo genera en la comunidad (Reddit, 
 ## Warp vs iTerm2 / Windows Terminal / Kitty
 
 | | Warp | iTerm2 | Windows Terminal | Kitty |
-|--|------|--------|------------------|-------|
+|---|------|--------|------------------|-------|
 | **Bloques/IA** | ✅ Nativo | ❌ (plugins) | ❌ | ❌ |
 | **Editor LSP** | ✅ | ❌ | ❌ | ❌ |
 | **Compartir sesión** | ✅ 1-click | ❌ | ❌ | ❌ |

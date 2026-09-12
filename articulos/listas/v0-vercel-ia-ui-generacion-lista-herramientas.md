@@ -31,7 +31,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 | **Free** | $0 | **$5/mes** | 7 msgs/día, modelos base |
 | **Plus** | **$30** | $30 + $2/día | Todos los modelos, compra extra, team collab |
 | **Business** | **$100** | Todo + | Training opt-out default, SSO |
-| **Enterprise | Custom | Full | SSO, RBAC, SLAs, no training |
+| **Enterprise** | Custom | Full | SSO, RBAC, SLAs, no training |
 
 **Per-model pricing** (si compras extra): v0 Mini $0.20/$1.20, Pro $2/$10, Max $5/$25, Max Fast $10/$50 por MTok (in/out).
 
@@ -63,7 +63,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 | **Free** | $0 | Proyectos ilimitados, 50 MB, público |
 | **Pro** | $20 | Proyectos privados, 1 GB, custom domain, GitHub sync |
 | **Team** | $40/user | Colaboración, SSO, billing centralizado |
-| **Enterprise | Custom | Todo + SLAs, on-prem WebContainers |
+| **Enterprise** | Custom | Todo + SLAs, on-prem WebContainers |
 
 **Lo bueno**:
 - **Cero latencia**: editas y ves el resultado INSTANTÁNEO. No hay round-trip a servidor.
@@ -89,7 +89,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 | **Free** | $0 | 5 proyectos, 100 MB, público |
 | **Launch** | $25 | Proyectos ilimitados, custom domain, GitHub sync |
 | **Scale** | $100 | Team collab, SSO, priority support |
-| **Enterprise | Custom | Dedicated infra, SLA, compliance |
+| **Enterprise** | Custom | Dedicated infra, SLA, compliance |
 
 **Lo bueno**:
 - **Supabase nativo**: auth (email, OAuth, magic link), BD real, realtime, storage, edge functions. **Listo para prod**.
@@ -108,7 +108,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 ## Comparativa rápida: ¿cuál elijo?
 
 | | v0 | Bolt.new | Lovable |
-|--|----|----------|---------|
+|---|----|----------|---------|
 | **Stack** | Next.js + Tailwind + shadcn/ui (opinionado) | Libre (Vite + cualquier framework) | Next.js + Supabase (opinionado) |
 | **Backend** | Neon + Drizzle + Better Auth | WebContainer (memoria) o externo | **Supabase nativo** (auth, DB, realtime, storage) |
 | **Calidad código** | ⭐⭐⭐⭐⭐ (production-ready) | ⭐⭐⭐⭐ (bueno, menos convenciones) | ⭐⭐⭐ (MVP-ready, auditar para escalar) |
