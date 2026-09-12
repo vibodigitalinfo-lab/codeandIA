@@ -29,6 +29,7 @@ globs: "src/**/*.tsx"            # Modo "File-scoped" (opcional)
 ```
 
 **Tres formas de aplicar (precedencia: Team → Project → User)**:
+
 | Configuración | Modo | Cuándo se aplica |
 |---------------|------|------------------|
 | `alwaysApply: true` | **Always** | En **cada** request, siempre |

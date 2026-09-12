@@ -76,6 +76,7 @@ Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as
 | **Enterprise** | $20/seat+API | Anual | ✅ API rates | Enterprise |
 
 ### API Pay-as-you-go (consola) — si te pasas del plan
+
 | Modelo | Input $/MTok | Output $/MTok |
 |--------|--------------|---------------|
 | **Opus 5** | $5 | $25 |

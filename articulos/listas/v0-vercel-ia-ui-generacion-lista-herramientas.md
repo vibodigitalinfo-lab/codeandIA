@@ -26,6 +26,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 - Extras: Python/SQL, React Three Fiber, **Nuxt 3** (marzo 2026)
 
 **Precios (sep 2026)**:
+
 | Plan | Mensual | Créditos/mes | Límites |
 |------|---------|--------------|---------|
 | **Free** | $0 | **$5/mes** | 7 msgs/día, modelos base |
@@ -58,6 +59,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 **Stack**: Vite, React/Vue/Svelte/Solid/Astro, Tailwind, cualquier npm package. **Full-stack con backend en el browser** (hono, elysia, express).
 
 **Precios (sep 2026)**:
+
 | Plan | Mensual | Qué incluye |
 |------|---------|-------------|
 | **Free** | $0 | Proyectos ilimitados, 50 MB, público |
@@ -84,6 +86,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 **Qué es**: Enfoque **producto, no código**. "Describe tu idea → app funcional con auth, BD, pagos, email". Backend: **Supabase (PostgreSQL + Auth + Realtime + Storage + Edge Functions)**.
 
 **Precios (sep 2026)**:
+
 | Plan | Mensual | Qué incluye |
 |------|---------|-------------|
 | **Free** | $0 | 5 proyectos, 100 MB, público |
