@@ -55,7 +55,7 @@ permalink: /ofertas/
       </div>
       <h3>Keychron V1 Max (Red Switch) — 137,99€ en Amazon</h3>
       <p class="oferta-excerpt">Teclado mecánico inalámbrico 75% hot-swappable, QMK/VIA, switches Gateron Jupiter Red, RGB. Mejor relación calidad-precio para programar.</p>
-      <a href="https://www.amazon.es/dp/B0CNW5G66B" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <a href="https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -63,9 +63,9 @@ permalink: /ofertas/
         <span class="oferta-category">Ratón</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech MX Master 3S — 75,12€ en Amazon</h3>
+      <h3>Logitech MX Master 3S — 89,00€ en Amazon</h3>
       <p class="oferta-excerpt">Ratón ergonómico flagship: MagSpeed scroll, 8000 DPI, sobre cristal, clics discretos, multi-dispositivo (3), 70 días batería, carga rápida USB-C.</p>
-      <a href="https://www.amazon.es/dp/B0FHHV6YR5" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <a href="https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -75,7 +75,7 @@ permalink: /ofertas/
       </div>
       <h3>LG 34WN80C-B 34" UltraWide — 450€ en Amazon</h3>
       <p class="oferta-excerpt">Monitor 34" UltraWide IPS (3440x1440), 60Hz, USB-C con 60W PD, ajuste de altura y VESA. El mejor ultrawide para código.</p>
-      <a href="https://www.amazon.es/dp/B083QT6Z8R" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <a href="https://www.amazon.es/dp/B083QT6Z8R?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -83,9 +83,9 @@ permalink: /ofertas/
         <span class="oferta-category">Silla</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>SIHOO M18 — 179,99€ en Amazon</h3>
+      <h3>SIHOO M18 — 199,99€ en Amazon</h3>
       <p class="oferta-excerpt">Silla ergonómica con soporte lumbar ajustable, malla transpirable, reposacabezas y reposabrazos 2D. Mejor opción sub-200€.</p>
-      <a href="https://www.amazon.es/dp/B07GNDDNMW" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <a href="https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -95,7 +95,7 @@ permalink: /ofertas/
       </div>
       <h3>Logitech C920s Pro HD — 59,99€ en Amazon</h3>
       <p class="oferta-excerpt">Webcam 1080p/30fps con privacidad integrada, enfoque automático, corrección luz baja. Estándar para streaming y llamadas.</p>
-      <a href="https://www.amazon.es/dp/B07MM4V7NR" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <a href="https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
   </div>

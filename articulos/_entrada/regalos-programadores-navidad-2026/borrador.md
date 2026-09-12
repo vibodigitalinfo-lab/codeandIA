@@ -6,7 +6,7 @@ category: "Lista"
 date: 2026-11-15
 readtime: 9
 affiliate_text: "Consigue el Keychron V1 Max, mi regalo favorito, en Amazon"
-affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B"
+affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 ---
 
