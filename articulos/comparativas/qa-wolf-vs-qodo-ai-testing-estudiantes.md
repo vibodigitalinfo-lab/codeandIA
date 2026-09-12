@@ -54,7 +54,7 @@ Empecé a buscar herramientas de testing con IA. Dos nombres salían siempre: **
 ## Comparativa cara a cara
 
 | | QA Wolf | Qodo |
-|--|---------|------|
+|---|---------|------|
 | **Dónde vive** | Nube (servicio gestionado) | Tu IDE (VS Code, JetBrains, CLI) |
 | **Tipo de tests** | E2E (Playwright/Appium) | Unitarios + integración + PR review |
 | **Plan gratis** | ❌ Solo demo/PoC | ✅ PR-Agent OSS + trial 14d |

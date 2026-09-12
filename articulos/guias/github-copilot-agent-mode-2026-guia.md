@@ -21,7 +21,7 @@ Lo probé en un proyecto real de prácticas (microservicios Spring Boot + React,
 Tres modos en VS Code (y JetBrains, VS, Neovim, CLI, Web, Mobile):
 
 | | **Chat** | **Edit** | **Agent** |
-|--|----------|----------|-----------|
+|---|----------|----------|-----------|
 | **Archivos** | Manual (tú los abres) | Multi-archivo (tú los seleccionas) | **Autónomo (elige él los archivos)** |
 | **Terminal** | ❌ | ❌ | ✅ **Ejecuta comandos** |
 | **Auto-corrección** | ❌ | ❌ | ✅ **Itera en fallos** |
@@ -115,7 +115,7 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 ## Copilot Agent vs Cursor vs Claude Code
 
 | | Copilot Agent | Cursor Agent | Claude Code |
-|--|---------------|--------------|-------------|
+|---|---------------|--------------|-------------|
 | **UI** | VS Code nativo (panel lateral) | VS Code fork (Composer panel) | Terminal (CLI) |
 | **Modelos** | Multi (auto o manual Pro+) | Multi (Grok, Composer, Sonnet, etc.) | Solo Claude (Opus/Sonnet/Haiku/Fable) |
 | **Contexto codebase** | Índice semántico VS Code | Índice propio (más potente) | **Lee repo entero a demanda** |

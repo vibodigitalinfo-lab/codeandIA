@@ -19,7 +19,7 @@ Te cuento qué es, cómo se diferencia de Cursor y Copilot, qué cuesta realment
 ## Qué es Claude Code y en qué se diferencia
 
 | | **Claude Code** | **Cursor** | **Copilot** |
-|--|-----------------|------------|-------------|
+|---|-----------------|------------|-------------|
 | **UI principal** | **Terminal (CLI)** | IDE (fork VS Code) | Extensiones IDE |
 | **Modelo** | Solo Claude (Opus/Sonnet/Haiku/Fable) | Multi-modelo (Grok, Composer, Sonnet, etc.) | Multi-modelo |
 | **Contexto** | **Lee repo entero a demanda** | Índice propio (potente) | Índice semántico VS Code |

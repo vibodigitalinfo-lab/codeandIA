@@ -64,7 +64,7 @@ Para un estudiante solo: el plan **gratis en repos públicos** cubre portfolio, 
 Esta es la comparativa que me pidieron en clase y que nadie te explica claro:
 
 | | CodeRabbit | Copilot Code Review |
-|--|------------|---------------------|
+|---|------------|---------------------|
 | **Dónde vive** | Multi-plataforma (GH, GL, Azure, BB) | Solo GitHub |
 | **Facturación** | Por asiento fijo/mes | Por créditos IA ($0.01/crédito) |
 | **Plan gratis** | Sí, repos públicos ilimitados | No (solo en Pro/Business/Enterprise) |
