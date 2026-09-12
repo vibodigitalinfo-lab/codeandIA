@@ -3,7 +3,7 @@ layout: article
 title: "v0 by Vercel y alternativas 2026: IA que genera interfaces, ¿cuál uso para mi portfolio?"
 description: "Lista comparativa de v0, Bolt, Lovable, y herramientas de generación UI con IA. Precios, stack, limitaciones, y cuál elegir para portfolio, landing, o app real."
 category: "Lista"
-date: 2026-09-11
+date: 2026-09-06
 readtime: 7
 affiliate_text: "Prueba v0 gratis y genera tu primera UI en minutos"
 affiliate_url: "https://v0.app/pricing"

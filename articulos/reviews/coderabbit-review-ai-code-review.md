@@ -3,7 +3,7 @@ layout: article
 title: "CodeRabbit review 2026: ¿merece la pena pagar por IA que revisa tus PRs?"
 description: "Analizo CodeRabbit, la herramienta que revisa pull requests con IA. Precios, comparativa con Copilot, el incidente de seguridad y si vale la pena para un estudiante."
 category: "Review"
-date: 2026-09-04
+date: 2026-08-30
 readtime: 7
 affiliate_text: "Prueba CodeRabbit gratis en repos públicos y decide si te compensa"
 affiliate_url: "https://coderabbit.ai/pricing"

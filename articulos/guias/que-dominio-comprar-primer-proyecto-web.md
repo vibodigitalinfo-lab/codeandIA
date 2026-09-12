@@ -3,7 +3,7 @@ layout: article
 title: "Qué dominio comprar para tu primer proyecto web: .com vs .es y dónde registrarlo"
 description: "Te cuento qué dominio comprar para tu primer proyecto web, cuándo elegir .com o .es y en qué registrador merece la pena hacerlo."
 category: "Guía"
-date: 2026-08-25
+date: 2026-08-20
 readtime: 6
 affiliate_text: "Si quieres registrar tu dominio sin complicarte como me pasó a mí, yo acabé haciéndolo en Namecheap"
 affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
