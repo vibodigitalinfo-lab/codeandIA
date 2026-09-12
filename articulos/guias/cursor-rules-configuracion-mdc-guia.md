@@ -3,7 +3,7 @@ layout: article
 title: "Cursor Rules (.mdc) 2026: cómo configurar la IA para que programe como tú quieres"
 description: "Guía completa del sistema de reglas de Cursor: formato .mdc, tipos de reglas (Always, File-scoped, Intelligent, Manual), mejores prácticas, y ejemplos reales para estudiantes."
 category: "Guía"
-date: 2026-09-08
+date: 2026-09-03
 readtime: 7
 affiliate_text: "Prueba Cursor Pro y configura tus reglas para programar más rápido"
 affiliate_url: "https://cursor.com/pricing"

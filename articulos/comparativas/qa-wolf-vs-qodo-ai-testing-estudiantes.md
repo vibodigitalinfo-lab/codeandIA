@@ -3,7 +3,7 @@ layout: article
 title: "QA Wolf vs Qodo (antes Codium): ¿qué herramienta de testing con IA elijo siendo estudiante?"
 description: "Comparo QA Wolf y Qodo para testing con IA: precios, enfoque, qué incluye el plan gratis, y cuál merece la pena para prácticas de DAW y portfolio."
 category: "Comparativa"
-date: 2026-09-06
+date: 2026-09-01
 readtime: 7
 affiliate_text: "Prueba Qodo gratis con PR-Agent open source y genera tests en tu IDE"
 affiliate_url: "https://github.com/qodo-ai/pr-agent"

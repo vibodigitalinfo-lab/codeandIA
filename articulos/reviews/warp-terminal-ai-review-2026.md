@@ -3,7 +3,7 @@ layout: article
 title: "Warp terminal 2026: IA en la línea de comandos, ¿vale la pena cambiar de iTerm/WSL?"
 description: "Review honesta de Warp terminal: bloques, IA integrada, precios, Windows/Linux/macOS, y si merece la pena para un estudiante de DAW."
 category: "Review"
-date: 2026-09-05
+date: 2026-08-31
 readtime: 7
 affiliate_text: "Prueba Warp gratis y decide si te cambia el flujo en terminal"
 affiliate_url: "https://www.warp.dev/pricing"
