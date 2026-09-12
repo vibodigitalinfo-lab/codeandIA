@@ -6,7 +6,7 @@ category: "Comparativa"
 date: 2026-09-01
 readtime: 6
 affiliate_text: "Registra tu dominio .es con Namecheap desde menos de 5€"
-affiliate_url: "https://www.namecheap.com"
+affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
 affiliate_label: "Ver precios en Namecheap"
 ---
 
@@ -22,7 +22,7 @@ Aquí es donde empieza todo, porque al final lo que más importa cuando eres est
 
 En el momento en que hice esta búsqueda, **Porkbun ofrecía el dominio .es a aproximadamente 3,49€ el primer año**, con una renovación que rondaba los 7-8€ dependiendo del tipo de cambio dólar-euro (porque Porkbun es americana y cobra en USD). Eso es importante: el precio final puede variar un poco cada vez según cómo esté el euro.
 
-**Namecheap** tenía el .es en torno a los 4-5€ el primer año, con renovaciones similares a Porkbun o incluso algo más ajustadas dependiendo de las promociones activas. Además, Namecheap tiene una sección llamada [Namecheap Hosting](https://www.namecheap.com) donde puedes ver ofertas combinadas si más adelante quieres añadir hosting, lo que no es irrelevante si estás montando algo desde cero.
+**Namecheap** tenía el .es en torno a los 4-5€ el primer año, con renovaciones similares a Porkbun o incluso algo más ajustadas dependiendo de las promociones activas. Además, Namecheap tiene una sección llamada [Namecheap Hosting](https://namecheap.pxf.io/c/7743913/386170/5618) donde puedes ver ofertas combinadas si más adelante quieres añadir hosting, lo que no es irrelevante si estás montando algo desde cero.
 
 La diferencia entre los dos en precio puro es mínima. Estamos hablando de uno o dos euros en el primer año. Nadie debería elegir uno u otro solo por eso.
 
@@ -58,7 +58,7 @@ También hay algo que muchos no mencionan: **Namecheap incluye protección de pr
 
 ## Mi decisión y por qué elegí Namecheap para mi dominio
 
-Después de comparar durante más tiempo del que me gustaría admitir, me quedé con [Namecheap](https://www.namecheap.com). El precio es competitivo, la interfaz DNS no me da problemas, la documentación online es bestial, y el chat en vivo es algo que ya he usado una vez para una duda sobre propagación de DNS.
+Después de comparar durante más tiempo del que me gustaría admitir, me quedé con [Namecheap](https://namecheap.pxf.io/c/7743913/386170/5618). El precio es competitivo, la interfaz DNS no me da problemas, la documentación online es bestial, y el chat en vivo es algo que ya he usado una vez para una duda sobre propagación de DNS.
 
 Porkbun es una alternativa perfectamente válida, especialmente si lo que buscas es la interfaz más moderna posible y el precio ligeramente más bajo en el primer año. No hay una respuesta objetivamente correcta aquí. Pero si tuvieras que elegir uno sin pensarlo demasiado, Namecheap lleva años siendo el referente por algo.
 

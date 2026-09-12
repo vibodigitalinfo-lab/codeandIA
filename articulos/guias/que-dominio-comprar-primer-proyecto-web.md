@@ -6,7 +6,7 @@ category: "Guía"
 date: 2026-08-25
 readtime: 6
 affiliate_text: "Si quieres registrar tu dominio sin complicarte como me pasó a mí, yo acabé haciéndolo en Namecheap"
-affiliate_url: "https://www.namecheap.com/"
+affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
 affiliate_label: "Ver dominios en Namecheap"
 ---
 

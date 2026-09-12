@@ -35,7 +35,7 @@ permalink: /ofertas/
       </div>
       <h3>Namecheap — Dominio .com desde 5,98€/año</h3>
       <p class="oferta-excerpt">Registro de dominio .com con WhoisGuard gratis para siempre. Panel sencillo y renovación sin sorpresas.</p>
-      <a href="https://www.namecheap.com/domains/registration/results.aspx?domain=codeandia.com" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Buscar dominio en Namecheap →</a>
+      <a href="https://namecheap.pxf.io/c/7743913/386170/5618" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Buscar dominio en Namecheap →</a>
     </div>
 
     <div class="oferta-card">

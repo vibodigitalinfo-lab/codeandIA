@@ -64,7 +64,7 @@ Guía maestra. Todo artículo publicado DEBE pasar el checklist de abajo.
 La construye el frontmatter (`affiliate_*`); el layout la pinta automáticamente.
 
 Solo rellenar si:
-- El producto **monetiza en Skimlinks** (Hostinger, Namecheap) → siempre incluir CTA.
+- El producto **tiene enlace de afiliado directo** (Amazon, Hostinger, Namecheap → `namecheap.pxf.io`) → siempre incluir CTA.
 - El producto **no monetiza** (Cursor, ChatGPT, GitHub) → incluir solo si aporta valor al lector; no abusar.
 
 ---

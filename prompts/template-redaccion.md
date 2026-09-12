@@ -48,7 +48,7 @@ affiliate_label: "[Texto del botón]"
 ---
 ```
 
-**Regla de afiliado:** solo incluir si el producto monetiza (Hostinger, Namecheap) o si el enlace aporta valor real al lector. No meter CTA donde no tiene sentido.
+**Regla de afiliado:** solo incluir si el producto tiene enlace de afiliado directo (Amazon, Hostinger, Namecheap vía `namecheap.pxf.io`) o si el enlace aporta valor real al lector. No meter CTA donde no tiene sentido.
 
 ---
 
