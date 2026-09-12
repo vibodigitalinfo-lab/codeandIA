@@ -21,6 +21,9 @@
   --scrollbar-thumb-hover: #33333b;
   --shadow-nav: rgba(0, 0, 0, 0.45);
 
+  /* Focus visible para accesibilidad */
+  --focus-ring: #7b61ff;
+
   /* Tipografía */
   --font-body: 'Space Grotesk', -apple-system, sans-serif;
   --font-mono: 'Space Mono', ui-monospace, monospace;
@@ -47,6 +50,9 @@
   --scrollbar-thumb: #c7c7d1;
   --scrollbar-thumb-hover: #b3b3bf;
   --shadow-nav: rgba(20, 20, 40, 0.12);
+
+  /* Focus visible para accesibilidad */
+  --focus-ring: #6c4ff0;
 }
 
 * {
@@ -124,7 +130,7 @@ a {
 }
 
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--focus-ring);
   outline-offset: 3px;
 }
 
@@ -584,6 +590,10 @@ a {
   margin-bottom: 0;
 }
 
+.section-head .btn {
+  flex-shrink: 0;
+}
+
 .filter-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -616,6 +626,22 @@ a {
   box-shadow: 0 4px 16px rgba(123, 97, 255, 0.2);
 }
 
+/* ============ Página de artículos (articulos.html) ============ */
+
+#article-search {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+#article-search:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.article-card-readtime {
+  margin-left: auto;
+}
+
 /* ============ Grid de artículos ============ */
 
 .articles-grid {
@@ -635,6 +661,12 @@ a {
   border: 1px solid var(--border);
   border-radius: calc(var(--radius) + 2px);
   transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  text-decoration: none;
+}
+
+.article-card:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
 }
 
 .article-card::before {
@@ -1666,7 +1698,7 @@ a {
 }
 
 .oferta-card .affiliate-btn:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--focus-ring);
   outline-offset: 3px;
 }
 
@@ -1819,11 +1851,13 @@ a {
 /* ============ Widget de Google Translate (oculto) ============ */
 
 /* El selector ES/EN de la navegación controla la traducción. El widget de
-   GoogleTranslate necesita existir en el DOM para traducir, pero todo lo que
-   Google inyecta (banner, tooltip, combos, menús) se oculta. La ocultación
-   principal vive en un <style> inline en el <head> de default.html (se aplica
-   ANTES de element.js y no depende de la cache del CSS externo). Este bloque
-   es un fallback adicional. */
+   GoogleTranslate necesita existir en el DOM para traducir, pero SOLO la UI
+   visible (banner, tooltip, combos, menús, gadget, spinner) se oculta.
+   El iframe interno de traducción DEBE permanecer para que funcione.
+   La ocultación principal vive en un <style> inline en el <head> de
+   default.html (se aplica ANTES de element.js y no depende de la cache del
+   CSS externo). Este bloque es un fallback adicional SOLO para UI visible. */
+
 #google_translate_element {
   position: absolute !important;
   left: -9999px !important;
@@ -1832,12 +1866,66 @@ a {
   height: 0 !important;
   overflow: hidden !important;
   pointer-events: none !important;
+  display: none !important;
 }
 
-body {
-  top: 0px !important;
-  min-height: 0px !important;
+/* SOLO ocultar UI visible, NO el iframe de traducción interno */
+.goog-te-banner-frame,
+.goog-te-banner,
+.goog-te-banner-bottom,
+.goog-te-balloon-frame,
+.goog-te-menu-frame,
+.goog-te-menu,
+.goog-te-menu2,
+.goog-te-menu2-frame,
+.goog-te-combo,
+.goog-te-gadget,
+.goog-te-gadget-simple,
+#goog-gt-tt,
+.goog-te-spinner-pos,
+.goog-te-spinner,
+#goog-te-scroll-animation,
+#goog-te-banner-frame,
+#goog-te-menu-frame,
+#goog-te-balloon-frame,
+#goog-te-combo,
+#goog-te-gadget {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  z-index: -1 !important;
 }
+
+/* Selectores de atributo para cubrir variaciones dinámicas de Google */
+[class*="goog-te-banner"],
+[class*="goog-te-menu"],
+[class*="goog-te-balloon"],
+[class*="goog-te-combo"],
+[class*="goog-te-gadget"],
+[class*="goog-te-spinner"],
+[id*="goog-te-banner"],
+[id*="goog-te-menu"],
+[id*="goog-te-balloon"],
+[id*="goog-te-combo"],
+[id*="goog-te-gadget"],
+[id*="goog-gt-"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Evita que Google mueva el body hacia abajo para mostrar el banner */
+html, body { top: 0 !important; min-height: 0 !important; }
+body { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* ============ Selector ES/EN compacto en móviles pequeños ============ */
 
@@ -1851,5 +1939,506 @@ body {
     height: 30px;
     padding: 0 7px;
     font-size: 0.68rem;
+  }
+}
+
+/* ============ Mejoras visuales y correcciones ============ */
+
+/* Focus visible mejorado para todos los elementos interactivos */
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* Asegurar que los enlaces en article-content tengan buen contraste en modo claro */
+[data-theme="light"] .article-content a {
+  color: var(--accent);
+}
+
+[data-theme="light"] .article-content a:hover {
+  color: var(--text);
+}
+
+/* Mejora en el contraste de los pills en modo claro */
+[data-theme="light"] .pill {
+  border-color: rgba(108, 79, 240, 0.5);
+}
+
+/* Espaciado consistente para article-card-readtime en modo claro */
+[data-theme="light"] .article-card-readtime {
+  color: var(--text-muted);
+}
+
+/* Asegurar que tool-card-review tenga buen contraste en modo claro */
+[data-theme="light"] .tool-card-review {
+  color: var(--text-muted);
+  border-bottom-color: var(--border);
+}
+
+[data-theme="light"] .tool-card-review:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* Mejora en el nav para evitar overflow en móviles muy pequeños */
+@media (max-width: 480px) {
+  .nav-inner {
+    padding: 0 16px;
+  }
+
+  .nav-actions {
+    gap: 6px;
+  }
+
+  .theme-toggle,
+  .lang-switch {
+    height: 40px;
+  }
+
+  .theme-toggle {
+    width: 40px;
+  }
+
+  .theme-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Transiciones más suaves para el theme-toggle */
+.theme-toggle {
+  transition: all 0.2s ease;
+}
+
+/* Asegurar que los botones de afiliado mantengan tamaño mínimo táctil */
+.affiliate-btn,
+.tool-card-btn,
+.oferta-card .affiliate-btn {
+  min-height: 48px;
+}
+
+/* Mejora visual del footer en modo claro */
+[data-theme="light"] .footer {
+  border-top: 1px solid var(--border);
+}
+
+/* Corrección para el hero badge en modo claro */
+[data-theme="light"] .hero-badge {
+  background: var(--accent-soft);
+  border-color: rgba(108, 79, 240, 0.4);
+  color: var(--accent-text);
+}
+
+/* Asegurar que las stats se vean bien en modo claro */
+[data-theme="light"] .stat-num {
+  background: linear-gradient(120deg, var(--accent-text), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Mejora en los bordes de las cards en modo claro para mejor definición */
+[data-theme="light"] .article-card,
+[data-theme="light"] .tool-card,
+[data-theme="light"] .oferta-card,
+[data-theme="light"] .fact {
+  border-color: var(--border);
+  box-shadow: 0 2px 8px rgba(20, 20, 40, 0.06);
+}
+
+[data-theme="light"] .article-card:hover,
+[data-theme="light"] .tool-card:hover,
+[data-theme="light"] .oferta-card:hover,
+[data-theme="light"] .fact:hover {
+  box-shadow: 0 12px 28px rgba(108, 79, 240, 0.15), 0 4px 12px rgba(20, 20, 40, 0.08);
+}
+
+/* Corrección del search input placeholder en modo claro */
+[data-theme="light"] #article-search::placeholder {
+  color: var(--text-muted);
+}
+
+/* Mejorar legibilidad de tablas markdown en artículos */
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  overflow-x: auto;
+  display: block;
+}
+
+.article-content th,
+.article-content td {
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.article-content th {
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.article-content td {
+  color: var(--text-body);
+}
+
+.article-content tr:nth-child(even) td {
+  background: var(--bg-alt);
+}
+
+.article-content tr:hover td {
+  background: var(--accent-soft);
+}
+
+[data-theme="light"] .article-content th {
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  border-color: var(--border);
+}
+
+[data-theme="light"] .article-content td {
+  border-color: var(--border);
+}
+
+[data-theme="light"] .article-content tr:nth-child(even) td {
+  background: var(--bg-alt);
+}
+
+[data-theme="light"] .article-content tr:hover td {
+  background: var(--accent-soft);
+}
+
+/* Scrollbar para tablas */
+.article-content table::-webkit-scrollbar {
+  height: 8px;
+}
+
+.article-content table::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+.article-content table::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+.article-content table::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* ============ Mejoras visuales adicionales ============ */
+
+/* Asegurar que los botones de filtro tengan mejor contraste en modo claro */
+[data-theme="light"] .filter-tab {
+  border-color: var(--border);
+  color: var(--text-body);
+}
+
+[data-theme="light"] .filter-tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Paginación en modo claro */
+[data-theme="light"] .pagination-btn {
+  background: var(--bg-raised);
+  border-color: var(--border);
+  color: var(--text-body);
+}
+
+[data-theme="light"] .pagination-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+[data-theme="light"] .pagination-info {
+  color: var(--text-muted);
+}
+
+/* Footer links en modo claro */
+[data-theme="light"] .footer-links a {
+  color: var(--text-muted);
+}
+
+[data-theme="light"] .footer-links a:hover {
+  color: var(--accent);
+}
+
+/* Corrección nav links en modo claro */
+[data-theme="light"] .nav-links a {
+  color: var(--text-muted);
+}
+
+[data-theme="light"] .nav-links a:hover {
+  color: var(--accent);
+}
+
+/* Mejora en los botones de búsqueda y filtro */
+#article-search {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Asegurar que el email en footer legal/privacidad se vea bien */
+.footer-links a[href^="mailto:"] {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+[data-theme="light"] .footer-links a[href^="mailto:"] {
+  color: var(--accent);
+}
+
+/* Transición suave para cambios de tema en todas las cards */
+.article-card,
+.tool-card,
+.oferta-card,
+.fact {
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+/* Mejorar el hover de los enlaces en el contenido del artículo */
+.article-content a {
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Asegurar que los botones de affiliate en ofertas tengan buen tamaño en móvil */
+@media (max-width: 640px) {
+  .oferta-card .affiliate-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Corrección para el hero title en modo claro */
+[data-theme="light"] .hero-accent {
+  background: linear-gradient(120deg, var(--accent-text), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Asegurar que el contenedor principal tenga padding adecuado en móvil */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+/* Mejora visual para los enlaces en el about-copy */
+.about-copy a {
+  color: var(--accent-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.about-copy a:hover {
+  color: var(--accent);
+}
+
+[data-theme="light"] .about-copy a {
+  color: var(--accent);
+}
+
+/* Mejorar la legibilidad de code blocks en modo claro */
+[data-theme="light"] .article-content code {
+  background: var(--bg-alt);
+  color: var(--accent);
+  border: 1px solid var(--border);
+}
+
+[data-theme="light"] .article-content pre {
+  background: var(--bg-raised);
+  border-color: var(--border);
+}
+
+/* Evitar que las imágenes en artículos causen layout shift */
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* Mejora visual para el search input focus en la página de artículos */
+#article-search:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+/* Asegurar que el hero badge tenga buen contraste en ambos temas */
+.hero-badge {
+  background: var(--accent-soft);
+  border-color: rgba(123, 97, 255, 0.3);
+  color: var(--accent-text);
+}
+
+[data-theme="light"] .hero-badge {
+  background: var(--accent-soft);
+  border-color: rgba(108, 79, 240, 0.4);
+  color: var(--accent-text);
+}
+
+/* Mejora en el spacing de las secciones en móvil */
+@media (max-width: 640px) {
+  .section {
+    padding: 48px 0;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+    margin-bottom: 32px;
+  }
+}
+
+/* ============ Mejoras visuales finales (lavado de cara) ============ */
+
+/* Sombra más suave en cards al hover para mejor profundidad */
+.article-card:hover,
+.tool-card:hover {
+  box-shadow: 0 24px 48px rgba(123, 97, 255, 0.15), 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="light"] .article-card:hover,
+[data-theme="light"] .tool-card:hover {
+  box-shadow: 0 24px 48px rgba(108, 79, 240, 0.12), 0 12px 24px rgba(20, 20, 40, 0.08);
+}
+
+/* Transición más fluida en el nav */
+.nav-links a {
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+/* Mejorar el contraste del texto en modo claro para elementos de navegación */
+[data-theme="light"] .nav-links a {
+  color: var(--text-muted);
+}
+
+[data-theme="light"] .nav-links a:hover {
+  color: var(--accent);
+}
+
+/* Botones con mejor feedback táctil en móvil */
+@media (hover: none) and (pointer: coarse) {
+  .btn-accent:active,
+  .btn-outline:active,
+  .tool-card-btn:active,
+  .affiliate-btn:active,
+  .lang-btn:active,
+  .filter-tab:active,
+  .pagination-btn:active {
+    transform: scale(0.98);
+  }
+
+  .article-card:active,
+  .tool-card:active,
+  .oferta-card:active,
+  .fact:active {
+    transform: scale(0.99);
+  }
+}
+
+/* Animación suave para el badge del hero */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.hero-badge {
+  animation: fadeInUp 0.6s ease-out, pulse-soft 3s ease-in-out infinite;
+}
+
+/* Mejorar la legibilidad de los hr en artículos */
+.article-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+  opacity: 0.5;
+}
+
+[data-theme="light"] .article-content hr {
+  border-top-color: var(--border);
+}
+
+/* Mejorar el espaciado en listas anidadas */
+.article-content ul ul,
+.article-content ol ol,
+.article-content ul ol,
+.article-content ol ul {
+  margin: 0.5rem 0 0.5rem 1.5rem;
+}
+
+/* Asegurar que los blockquotes tengan estilo propio */
+.article-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--text-muted);
+  background: var(--accent-soft);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+[data-theme="light"] .article-content blockquote {
+  border-left-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--text-body);
+}
+
+/* Mejorar tablas en modo claro - bordes más visibles */
+[data-theme="light"] .article-content th,
+[data-theme="light"] .article-content td {
+  border-color: rgba(20, 20, 40, 0.15);
+}
+
+/* Mejorar el footer en modo claro */
+[data-theme="light"] .footer-note {
+  color: var(--text-muted);
+}
+
+/* Evitar solapamiento del selector de idioma en nav pequeño */
+@media (max-width: 480px) {
+  .nav-actions {
+    gap: 6px;
+  }
+
+  .lang-switch {
+    height: 40px;
+    padding: 2px;
+  }
+
+  .lang-btn {
+    min-width: 30px;
+    height: 32px;
+    padding: 0 7px;
+    font-size: 0.68rem;
+  }
+
+  .theme-toggle {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Mejorar legibilidad en pantallas muy pequeñas */
+@media (max-width: 360px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  .article-card,
+  .tool-card {
+    padding: 1.25rem;
+  }
+
+  .hero-title {
+    max-width: none;
   }
 }

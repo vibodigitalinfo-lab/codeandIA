@@ -1,0 +1,218 @@
+---
+layout: default
+title: "Todos los artículos · codeandIA"
+description: "Explora todos los artículos de codeandIA: reviews, comparativas, guías y listas de herramientas de IA para desarrolladores. Filtra por categoría, busca por palabra clave."
+permalink: /articulos/
+---
+
+{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% assign categorias = articulos | map: "category" | uniq | sort %}
+
+<section class="section section-alt" style="padding-top: 40px;">
+  <div class="container">
+    <header style="margin-bottom: 40px; text-align: center;">
+      <h1 class="hero-title" style="font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 16px;">Todos los artículos</h1>
+      <p class="hero-subtitle" style="max-width: 60ch; margin: 0 auto;">{{ articulos.size }} artículos publicados · {{ categorias.size }} categorías · Actualizado diariamente</p>
+    </header>
+
+    <!-- Filtros por categoría -->
+    {% if categorias.size > 1 %}
+    <div class="filter-tabs" role="tablist" aria-label="Filtrar artículos por categoría" style="justify-content: center; margin-bottom: 32px;">
+      <button class="filter-tab is-active" data-filter="all">Todos ({{ articulos.size }})</button>
+      {% for cat in categorias %}
+      {% assign count = articulos | where: "category", cat | size %}
+      <button class="filter-tab" data-filter="{{ cat | slugify }}">{{ cat }} ({{ count }})</button>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Buscador -->
+    <div style="max-width: 480px; margin: 0 auto 40px;">
+      <label for="article-search" class="visually-hidden">Buscar artículos</label>
+      <div style="position: relative;">
+        <svg style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; color: var(--text-muted);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </svg>
+        <input type="search" id="article-search" placeholder="Buscar artículos..." aria-label="Buscar artículos" style="width: 100%; padding: 14px 16px 14px 52px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-family: var(--font-body); font-size: 1rem;">
+      </div>
+    </div>
+
+    <!-- Grid de artículos -->
+    {% if articulos.size > 0 %}
+    <div class="articles-grid" id="articles-grid">
+      {% for post in articulos %}
+      <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}" data-title="{{ post.title | downcase }}" data-desc="{{ post.description | downcase }}">
+        <h3 class="article-card-title">{{ post.title }}</h3>
+        <p class="article-card-desc">{{ post.description }}</p>
+        <div class="article-card-meta">
+          <span class="article-card-category">{{ post.category }}</span>
+          <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          {% if post.readtime %}
+          <span class="article-card-readtime" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted);">⏱ {{ post.readtime }} min</span>
+          {% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
+    <nav class="pagination" id="pagination" aria-label="Paginación de artículos"></nav>
+    {% else %}
+    <p class="empty-state">Todavía no hay artículos publicados. Vuelve pronto.</p>
+    {% endif %}
+  </div>
+</section>
+
+<script>
+/* Búsqueda de artículos en tiempo real + filtros + paginación en la página de artículos */
+(function () {
+  var searchInput = document.getElementById('article-search');
+  var tabs = document.querySelectorAll('.filter-tab');
+  var cards = document.querySelectorAll('.article-card[data-category]');
+  var paginationEl = document.getElementById('pagination');
+  var gridEl = document.getElementById('articles-grid');
+  if (!cards.length) return;
+
+  var PER_PAGE = 12;
+  var currentPage = 1;
+  var activeFilter = 'all';
+  var searchQuery = '';
+
+  function getFilteredCards() {
+    return Array.prototype.filter.call(cards, function (card) {
+      var matchesFilter = activeFilter === 'all' || card.getAttribute('data-category') === activeFilter;
+      var title = card.getAttribute('data-title') || '';
+      var desc = card.getAttribute('data-desc') || '';
+      var matchesSearch = !searchQuery ||
+        title.indexOf(searchQuery) !== -1 ||
+        desc.indexOf(searchQuery) !== -1;
+      return matchesFilter && matchesSearch;
+    });
+  }
+
+  function totalPages() {
+    return Math.max(1, Math.ceil(getFilteredCards().length / PER_PAGE));
+  }
+
+  function renderPage() {
+    var filtered = getFilteredCards();
+    var start = (currentPage - 1) * PER_PAGE;
+    var end = start + PER_PAGE;
+
+    Array.prototype.forEach.call(cards, function (card) {
+      card.style.display = 'none';
+    });
+
+    filtered.forEach(function (card, i) {
+      card.style.display = (i >= start && i < end) ? '' : 'none';
+    });
+
+    renderPagination();
+    updateResultsCount();
+  }
+
+  function renderPagination() {
+    var filtered = getFilteredCards();
+    var total = totalPages();
+    if (!paginationEl) return;
+
+    if (filtered.length <= PER_PAGE) {
+      paginationEl.innerHTML = '';
+      return;
+    }
+
+    var html = '';
+    html += '<button class="pagination-btn pagination-prev" data-action="prev"' +
+      (currentPage <= 1 ? ' disabled' : '') + ' aria-label="Página anterior">← Anterior</button>';
+    html += '<span class="pagination-info">Página ' + currentPage + ' de ' + total + ' · ' + filtered.length + ' artículos</span>';
+    html += '<button class="pagination-btn pagination-next" data-action="next"' +
+      (currentPage >= total ? ' disabled' : '') + ' aria-label="Página siguiente">Siguiente →</button>';
+    paginationEl.innerHTML = html;
+  }
+
+  function updateResultsCount() {
+    var filtered = getFilteredCards();
+    var activeTab = document.querySelector('.filter-tab.is-active');
+    if (activeTab && activeTab.getAttribute('data-filter') !== 'all') {
+      var baseText = activeTab.textContent.split(' (')[0];
+      activeTab.textContent = baseText + ' (' + filtered.length + ')';
+    }
+  }
+
+  function scrollToGrid() {
+    if (gridEl) {
+      gridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  // Búsqueda en tiempo real
+  if (searchInput) {
+    var debounceTimer;
+    searchInput.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        searchQuery = searchInput.value.trim().toLowerCase();
+        currentPage = 1;
+        renderPage();
+      }, 150);
+    });
+  }
+
+  // Paginación
+  paginationEl.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-action]');
+    if (!btn) return;
+    var action = btn.getAttribute('data-action');
+    if (action === 'prev' && currentPage > 1) {
+      currentPage--;
+      renderPage();
+      scrollToGrid();
+    } else if (action === 'next' && currentPage < totalPages()) {
+      currentPage++;
+      renderPage();
+      scrollToGrid();
+    }
+  });
+
+  // Filtros por categoría
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      activeFilter = tab.getAttribute('data-filter');
+      currentPage = 1;
+      tabs.forEach(function (t) { t.classList.remove('is-active'); });
+      tab.classList.add('is-active');
+      renderPage();
+    });
+  });
+
+  renderPage();
+})();
+</script>
+
+<style>
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+#article-search::placeholder {
+  color: var(--text-muted);
+}
+
+#article-search:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-color: var(--accent);
+}
+
+.article-card-readtime {
+  margin-left: auto;
+}
+</style>

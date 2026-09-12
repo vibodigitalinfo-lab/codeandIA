@@ -10,7 +10,7 @@ updated: 2026-09-08
 En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa que el titular de este sitio web **codeandia.com** es:
 
 - **Titular:** Iván
-- **Email de contacto:** ivan@codeandia.com
+- **Email de contacto:** <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
 - **Actividad:** Blog sobre herramientas de inteligencia artificial para programadores.
 
 ## 2. Objeto del sitio

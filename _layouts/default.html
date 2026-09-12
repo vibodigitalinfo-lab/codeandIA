@@ -58,14 +58,29 @@
         if (saved === 'en' || saved === 'es') lang = saved;
         else localStorage.setItem('lang', lang);
       } catch (e) {}
-      document.cookie = 'googtrans=/es/' + lang + '; path=/; max-age=31536000; SameSite=Lax';
+      document.cookie = 'googtrans=/es/' + lang + '; path=/; max-age=31536000; SameSite=Lax; Secure';
       if (lang === 'en') document.documentElement.lang = 'en';
     })();
   </script>
 
-  <!-- Oculta de raíz TODA la UI que Google Translate intenta inyectar (inline,
-       no cacheado, se aplica ANTES de que element.js se cargue) -->
+  <!-- Oculta de raíz la UI VISIBLE que Google Translate intenta inyectar (inline,
+       no cacheado, se aplica ANTES de que element.js se cargue).
+       IMPORTANTE: NO ocultar iframes de traducción internos, solo UI visible (banner, menú, tooltip).
+       Usamos selectores amplios con !important para cubrir variaciones de Google. -->
   <style>
+    /* Contenedor del widget: existe en el DOM pero oculto */
+    #google_translate_element {
+      position: absolute !important;
+      left: -9999px !important;
+      top: -9999px !important;
+      width: 0 !important;
+      height: 0 !important;
+      overflow: hidden !important;
+      pointer-events: none !important;
+      display: none !important;
+    }
+
+    /* UI VISIBLE: banner superior, menú desplegable, tooltip/balloon, combo selector, gadget, spinner */
     .goog-te-banner-frame,
     .goog-te-banner,
     .goog-te-banner-bottom,
@@ -82,9 +97,15 @@
     .goog-te-spinner,
     #goog-te-scroll-animation,
     .goog-te-spinner-pos,
-    [id^="goog-"],
-    [class^="goog-te-"],
-    [class*="goog-te-"] {
+    #goog-te-banner-frame,
+    #goog-te-menu-frame,
+    #goog-te-balloon-frame,
+    #goog-te-combo,
+    #goog-te-gadget,
+    div[id^="goog-gt-"],
+    div[id^="goog-te-"],
+    iframe[id^="goog-te-"],
+    iframe[class*="goog-te-"] {
       display: none !important;
       visibility: hidden !important;
       opacity: 0 !important;
@@ -96,19 +117,27 @@
       position: absolute !important;
       left: -9999px !important;
       top: -9999px !important;
+      z-index: -1 !important;
     }
-    #google_translate_element {
-      position: absolute !important;
-      left: -9999px !important;
-      top: -9999px !important;
-      width: 0 !important;
-      height: 0 !important;
-      overflow: hidden !important;
+
+    /* Selectores de atributo para cubrir variaciones dinámicas */
+    [class*="goog-te-banner"],
+    [class*="goog-te-menu"],
+    [class*="goog-te-balloon"],
+    [class*="goog-te-combo"],
+    [class*="goog-te-gadget"],
+    [class*="goog-te-spinner"],
+    [id*="goog-te-"],
+    [id*="goog-gt-"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
       pointer-events: none !important;
     }
-    html > .goog-te-banner-frame { display: none !important; }
-    html > div > div > iframe.goog-te-banner-frame { display: none !important; }
-    body { top: 0 !important; }
+
+    /* Evita que Google mueva el body hacia abajo para mostrar el banner */
+    html, body { top: 0 !important; min-height: 0 !important; }
+    body { margin-top: 0 !important; padding-top: 0 !important; }
   </style>
 </head>
 <body>
@@ -152,97 +181,7 @@
       });
     })();
 
-    /* Filtro de artículos por categoría + paginación en la portada */
-    (function () {
-      var tabs = document.querySelectorAll('.filter-tab');
-      var cards = document.querySelectorAll('.article-card[data-category]');
-      var paginationEl = document.getElementById('pagination');
-      var gridEl = document.getElementById('articles-grid');
-      if (!tabs.length || !cards.length) return;
-
-      var PER_PAGE = 6;
-      var currentPage = 1;
-      var activeFilter = 'all';
-
-      function getFilteredCards() {
-        return Array.prototype.filter.call(cards, function (card) {
-          return activeFilter === 'all' || card.getAttribute('data-category') === activeFilter;
-        });
-      }
-
-      function totalPages() {
-        return Math.max(1, Math.ceil(getFilteredCards().length / PER_PAGE));
-      }
-
-      function renderPage() {
-        var filtered = getFilteredCards();
-        var start = (currentPage - 1) * PER_PAGE;
-        var end = start + PER_PAGE;
-
-        Array.prototype.forEach.call(cards, function (card) {
-          card.style.display = 'none';
-        });
-
-        filtered.forEach(function (card, i) {
-          card.style.display = (i >= start && i < end) ? '' : 'none';
-        });
-
-        renderPagination();
-      }
-
-      function renderPagination() {
-        var filtered = getFilteredCards();
-        var total = totalPages();
-        if (!paginationEl) return;
-
-        if (filtered.length <= PER_PAGE) {
-          paginationEl.innerHTML = '';
-          return;
-        }
-
-        var html = '';
-        html += '<button class="pagination-btn pagination-prev" data-action="prev"' +
-          (currentPage <= 1 ? ' disabled' : '') + ' aria-label="Página anterior">← Anterior</button>';
-        html += '<span class="pagination-info">Página ' + currentPage + ' de ' + total + '</span>';
-        html += '<button class="pagination-btn pagination-next" data-action="next"' +
-          (currentPage >= total ? ' disabled' : '') + ' aria-label="Página siguiente">Siguiente →</button>';
-        paginationEl.innerHTML = html;
-      }
-
-      function scrollToGrid() {
-        if (gridEl) {
-          gridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }
-
-      paginationEl.addEventListener('click', function (e) {
-        var btn = e.target.closest('[data-action]');
-        if (!btn) return;
-        var action = btn.getAttribute('data-action');
-        if (action === 'prev' && currentPage > 1) {
-          currentPage--;
-          renderPage();
-          scrollToGrid();
-        } else if (action === 'next' && currentPage < totalPages()) {
-          currentPage++;
-          renderPage();
-          scrollToGrid();
-        }
-      });
-
-      tabs.forEach(function (tab) {
-        tab.addEventListener('click', function () {
-          activeFilter = tab.getAttribute('data-filter');
-          currentPage = 1;
-          tabs.forEach(function (t) { t.classList.remove('is-active'); });
-          tab.classList.add('is-active');
-          renderPage();
-        });
-      });
-
-      renderPage();
-    })();
-
+    
     /* Selector de idioma ES/EN (recuerda la preferencia en localStorage y
        la sincroniza con la cookie googtrans que entiende el widget de Google Translate) */
     (function () {
@@ -282,76 +221,141 @@
       render();
     })();
 
-    /* Mata cualquier fragmento de UI que inyecte el widget de Google Translate
-       (banner superior, tooltip al pasar el ratón, desplegables flotantes).
+    /* Mata solo la UI VISIBLE que inyecte el widget de Google Translate
+       (banner superior, tooltip al pasar el ratón, desplegables flotantes, combo selector, gadget, spinner).
+       PRESERVA el iframe interno de traducción (necesario para que funcione la traducción real).
        El único control de idioma visible es el botón ES/EN de la navegación. */
     (function () {
-      function isGoogleTranslate(el) {
-        if (el.nodeType !== 1) return false;
+      // Selectores de UI visible que SÍ queremos eliminar
+      var VISIBLE_UI_SELECTORS = [
+        // Banner (barra superior que dice "Translate this page")
+        '.goog-te-banner-frame', '.goog-te-banner', '.goog-te-banner-bottom',
+        // Menús y combos
+        '.goog-te-menu-frame', '.goog-te-menu', '.goog-te-menu2', '.goog-te-menu2-frame',
+        '.goog-te-combo',
+        // Gadget (el widget flotante con bandera)
+        '.goog-te-gadget', '.goog-te-gadget-simple',
+        // Tooltip/balloon al pasar ratón
+        '.goog-te-balloon-frame', '#goog-gt-tt',
+        // Spinners de carga
+        '.goog-te-spinner', '.goog-te-spinner-pos', '#goog-te-scroll-animation',
+        // IDs específicos
+        '#goog-te-banner-frame', '#goog-te-menu-frame', '#goog-te-balloon-frame', '#goog-te-combo', '#goog-te-gadget'
+      ].join(',');
+
+      // Selectores amplios para cualquier elemento con clases/IDs que contengan patrones de UI visible
+      var VISIBLE_UI_PATTERNS = [
+        '[class*="goog-te-banner"]',
+        '[class*="goog-te-menu"]',
+        '[class*="goog-te-balloon"]',
+        '[class*="goog-te-combo"]',
+        '[class*="goog-te-gadget"]',
+        '[class*="goog-te-spinner"]',
+        '[id*="goog-te-banner"]',
+        '[id*="goog-te-menu"]',
+        '[id*="goog-te-balloon"]',
+        '[id*="goog-te-combo"]',
+        '[id*="goog-te-gadget"]',
+        '[id*="goog-gt-"]'
+      ].join(',');
+
+      // Todos los selectores combinados para querySelectorAll
+      var ALL_VISIBLE_UI_SEL = VISIBLE_UI_SELECTORS + ',' + VISIBLE_UI_PATTERNS;
+
+      function isVisibleGoogleUI(el) {
+        if (!el || el.nodeType !== 1) return false;
         var id = (el.id || '').toLowerCase();
         var cls = (el.className && typeof el.className === 'string')
           ? el.className.toLowerCase() : '';
         var tag = el.tagName ? el.tagName.toLowerCase() : '';
-        if (id.indexOf('goog') !== -1 || cls.indexOf('goog') !== -1) return true;
-        if (tag === 'iframe' && cls.indexOf('goog') !== -1) return true;
+
+        // 1. Check clases/IDs de UI visible conocida
+        var visiblePatterns = [
+          'goog-te-banner', 'goog-te-menu', 'goog-te-balloon',
+          'goog-te-combo', 'goog-te-gadget', 'goog-te-spinner',
+          'goog-gt-tt', 'goog-te-scroll-animation'
+        ];
+        for (var i = 0; i < visiblePatterns.length; i++) {
+          if (id.indexOf(visiblePatterns[i]) !== -1 || cls.indexOf(visiblePatterns[i]) !== -1) {
+            return true;
+          }
+        }
+
+        // 2. Check iframes que SON UI visible (banner, menu, balloon)
+        // El iframe de TRADUCCIÓN real NO tiene estas clases, así que lo preservamos
+        if (tag === 'iframe') {
+          if (cls.indexOf('goog-te-banner') !== -1 ||
+              cls.indexOf('goog-te-menu') !== -1 ||
+              cls.indexOf('goog-te-balloon') !== -1) {
+            return true;
+          }
+          // Iframe sin clase conocida = podría ser el motor de traducción, NO lo toquemos
+        }
+
         return false;
       }
 
       function purge() {
         if (!document.body) return;
-        /* Elimina hijos directos de html y body que sean de Google */
+
+        // 1. Elimina hijos directos de html y body que sean UI visible
         var containers = [document.documentElement, document.body];
         for (var c = 0; c < containers.length; c++) {
           var kids = containers[c].children;
           for (var i = kids.length - 1; i >= 0; i--) {
-            if (isGoogleTranslate(kids[i])) {
-              kids[i].parentNode.removeChild(kids[i]);
+            if (isVisibleGoogleUI(kids[i])) {
+              kids[i].parentNode && kids[i].parentNode.removeChild(kids[i]);
             }
           }
         }
-        /* Busca y elimina iframes de Google en cualquier parte del DOM */
-        var iframes = document.querySelectorAll('iframe');
-        for (var j = 0; j < iframes.length; j++) {
-          if (isGoogleTranslate(iframes[j])) {
-            iframes[j].parentNode && iframes[j].parentNode.removeChild(iframes[j]);
-          }
+
+        // 2. Busca y elimina UI visible en cualquier profundidad del DOM
+        var uiElems = document.querySelectorAll(ALL_VISIBLE_UI_SEL);
+        for (var j = 0; j < uiElems.length; j++) {
+          uiElems[j].parentNode && uiElems[j].parentNode.removeChild(uiElems[j]);
         }
-        /* Restaura el desplazamiento de body que Google modifica */
+
+        // 3. Restaura el desplazamiento de body que Google modifica
         document.body.style.top = '0px';
         document.body.style.minHeight = '0px';
         document.documentElement.style.top = '0px';
+        document.documentElement.style.marginTop = '0px';
+        document.documentElement.style.paddingTop = '0px';
       }
 
+      // Ejecución inicial inmediata
+      purge();
+
+      // MutationObserver con subtree:true para atrapar UI visible inyectada en cualquier profundidad
       if (window.MutationObserver) {
-        purge();
-        /* Observa TODO el document con subtree:true para atrapar nodos
-           inyectados en cualquier profundidad del DOM */
         var observer = new MutationObserver(function (mutations) {
+          var needsPurge = false;
           for (var m = 0; m < mutations.length; m++) {
             var added = mutations[m].addedNodes;
             for (var n = 0; n < added.length; n++) {
               var node = added[n];
-              if (isGoogleTranslate(node)) {
-                node.parentNode && node.parentNode.removeChild(node);
+              if (isVisibleGoogleUI(node)) {
+                needsPurge = true;
+                break;
               } else if (node.nodeType === 1 && node.querySelectorAll) {
-                /* Si el nodo añadido contiene hijos de Google, bórralos */
-                var gElems = node.querySelectorAll('[id*="goog"], [class*="goog"], iframe');
-                for (var g = 0; g < gElems.length; g++) {
-                  gElems[g].parentNode && gElems[g].parentNode.removeChild(gElems[g]);
+                // Si el nodo añadido contiene UI visible de Google, marcamos para purgar
+                var gElems = node.querySelectorAll(ALL_VISIBLE_UI_SEL);
+                if (gElems.length > 0) {
+                  needsPurge = true;
+                  break;
                 }
               }
             }
+            if (needsPurge) break;
           }
-          if (document.body) {
-            document.body.style.top = '0px';
-            document.body.style.minHeight = '0px';
+          if (needsPurge) {
+            purge();
           }
         });
         observer.observe(document.documentElement, { childList: true, subtree: true });
       }
 
-      /* Fallback: revisión periódica los primeros 30s por si Google inyecta
-         elementos de forma asíncrona (timer, lazy load, etc.) */
+      // Fallback: revisión periódica los primeros 30s por si Google inyecta UI visible de forma asíncrona
       var cleanupCount = 0;
       var cleanupInterval = setInterval(function () {
         purge();
@@ -359,7 +363,7 @@
         if (cleanupCount >= 30) clearInterval(cleanupInterval);
       }, 1000);
 
-      /* También al cargar completamente el DOM */
+      // También al cargar completamente el DOM
       if (document.readyState === 'complete') {
         purge();
       } else {

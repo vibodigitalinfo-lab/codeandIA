@@ -40,20 +40,13 @@ layout: default
 <section id="articulos" class="section">
   <div class="container">
     <div class="section-head">
-      <h2 class="section-title">Artículos</h2>
-      {% if categorias.size > 1 %}
-      <div class="filter-tabs" role="tablist" aria-label="Filtrar artículos por categoría">
-        <button class="filter-tab is-active" data-filter="all">Todos</button>
-        {% for cat in categorias %}
-        <button class="filter-tab" data-filter="{{ cat | slugify }}">{{ cat }}</button>
-        {% endfor %}
-      </div>
-      {% endif %}
+      <h2 class="section-title">Artículos recientes</h2>
+      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline" style="font-size: 0.9rem; padding: 10px 20px;">Ver todos ({{ articulos.size }}) →</a>
     </div>
 
     {% if articulos.size > 0 %}
     <div class="articles-grid" id="articles-grid">
-      {% for post in articulos %}
+      {% for post in articulos limit:6 %}
       <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
         <h3 class="article-card-title">{{ post.title }}</h3>
         <p class="article-card-desc">{{ post.description }}</p>
@@ -64,7 +57,6 @@ layout: default
       </a>
       {% endfor %}
     </div>
-    <nav class="pagination" id="pagination" aria-label="Paginación de artículos"></nav>
     {% else %}
     <p class="empty-state">Todavía no hay artículos publicados. Vuelve pronto.</p>
     {% endif %}
@@ -86,7 +78,8 @@ layout: default
         <p>Editor basado en VS Code con IA integrada en toda la experiencia: chat contextual, refactor con Ctrl+K y autocompletado que entiende tu proyecto entero.</p>
         <div class="tool-card-actions">
           <a href="https://cursor.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/cursor-ai-review-espanol/" | relative_url }}" class="tool-card-review">Review</a>
+          <a href="{{ "/articulos/cursor-ai-review-espanol/" | relative_url }}" class="tool-card-review">Review Cursor</a>
+          <a href="{{ "/articulos/cursor-rules-configuracion-mdc-guia/" | relative_url }}" class="tool-card-review">Guía .mdc</a>
         </div>
       </div>
 
@@ -95,10 +88,11 @@ layout: default
           <h3>GitHub Copilot</h3>
           <span class="pill">Asistente</span>
         </div>
-        <p>El asistente de IA de GitHub que vive dentro de tu editor favorito. Gratis para estudiantes verificados con el Student Pack.</p>
+        <p>El asistente de IA de GitHub que vive dentro de tu editor favorito. Gratis para estudiantes verificados con el Student Pack. Ahora con Agent Mode autónomo.</p>
         <div class="tool-card-actions">
           <a href="https://github.com/features/copilot" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/github-copilot-gratis-estudiantes/" | relative_url }}" class="tool-card-review">Review</a>
+          <a href="{{ "/articulos/github-copilot-gratis-estudiantes/" | relative_url }}" class="tool-card-review">Review Copilot</a>
+          <a href="{{ "/articulos/github-copilot-agent-mode-2026-guia/" | relative_url }}" class="tool-card-review">Guía Agent Mode</a>
         </div>
       </div>
 
@@ -110,7 +104,44 @@ layout: default
         <p>El chatbot de referencia para depurar, entender errores y mantener conversaciones largas con contexto. Ideal para el día a día de desarrollo.</p>
         <div class="tool-card-actions">
           <a href="https://chat.openai.com/?model=gpt-4" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/chatgpt-plus-para-programadores/" | relative_url }}" class="tool-card-review">Review</a>
+          <a href="{{ "/articulos/chatgpt-plus-para-programadores/" | relative_url }}" class="tool-card-review">Review ChatGPT Plus</a>
+          <a href="{{ "/articulos/chatgpt-para-aprender-javascript-principiante/" | relative_url }}" class="tool-card-review">Guía JS con IA</a>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>Claude Code</h3>
+          <span class="pill">CLI Agente</span>
+        </div>
+        <p>Agente autónomo en terminal: lee repo entero, edita múltiples archivos, ejecuta tests, y lanza sub-agentes paralelos (Dynamic Workflows). Para tareas senior.</p>
+        <div class="tool-card-actions">
+          <a href="https://claude.com/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/claude-code-cli-review-2026/" | relative_url }}" class="tool-card-review">Review Claude Code</a>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>Warp</h3>
+          <span class="pill">Terminal IA</span>
+        </div>
+        <p>Terminal reescrita en Rust con bloques, IA integrada (Warp Agent), editor LSP, y compartir sesión en 1 click. Multiplataforma nativa (Mac/Linux/Win).</p>
+        <div class="tool-card-actions">
+          <a href="https://www.warp.dev/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/warp-terminal-ai-review-2026/" | relative_url }}" class="tool-card-review">Review Warp</a>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>v0 by Vercel</h3>
+          <span class="pill">Generación UI</span>
+        </div>
+        <p>Genera interfaces React + Next.js + Tailwind + shadcn/ui desde lenguaje natural. GitHub sync nativo, deploy Vercel 1-click, MCP integrations.</p>
+        <div class="tool-card-actions">
+          <a href="https://v0.app/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/v0-vercel-ia-ui-generacion-lista-herramientas/" | relative_url }}" class="tool-card-review">Lista + comparativa</a>
         </div>
       </div>
 
@@ -119,9 +150,10 @@ layout: default
           <h3>Hostinger</h3>
           <span class="pill">Hosting</span>
         </div>
-        <p>Hosting barato y rápido para poner en marcha tus proyectos y tu portafolio sin complicarte.</p>
+        <p>Hosting barato y rápido para poner en marcha tus proyectos y tu portafolio sin complicarte. hPanel intuitivo, SSH, LiteSpeed.</p>
         <div class="tool-card-actions">
           <a href="https://www.hostinger.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/hostinger-review-2026/" | relative_url }}" class="tool-card-review">Review Hostinger</a>
         </div>
       </div>
 
@@ -133,6 +165,30 @@ layout: default
         <p>Dominios a buen precio y sin sorpresas raras en la renovación. La opción que uso para registrar dominios.</p>
         <div class="tool-card-actions">
           <a href="https://www.namecheap.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>CodeRabbit</h3>
+          <span class="pill">Code Review IA</span>
+        </div>
+        <p>Revisa PRs automáticamente con IA: detecta bugs, seguridad, rendimiento, y sugiere fixes. Gratis para repos públicos, multi-plataforma (GH, GL, Azure, BB).</p>
+        <div class="tool-card-actions">
+          <a href="https://coderabbit.ai/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          <a href="{{ "/articulos/coderabbit-review-ai-code-review/" | relative_url }}" class="tool-card-review">Review CodeRabbit</a>
+        </div>
+      </div>
+
+      <div class="tool-card">
+        <div class="tool-card-top">
+          <h3>Qodo (ex-Codium)</h3>
+          <span class="pill">Testing IA</span>
+        </div>
+        <p>Genera tests unitarios en tu IDE (VS Code, JetBrains) y PR-Agent open source para reviews automáticas en GitHub/GitLab. Trial 14 días.</p>
+        <div class="tool-card-actions">
+          <a href="https://github.com/qodo-ai/pr-agent" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">PR-Agent →</a>
+          <a href="{{ "/articulos/qa-wolf-vs-qodo-ai-testing-estudiantes/" | relative_url }}" class="tool-card-review">Comparativa QA Wolf vs Qodo</a>
         </div>
       </div>
 
@@ -180,7 +236,7 @@ layout: default
       </details>
       <details class="faq-item">
         <summary>¿Puedo pedir una review o sugerir una herramienta?</summary>
-        <p>¡Claro! Escríbeme a <strong>ivan@codeandia.com</strong> y lo tendré en cuenta. Me interesa probar herramientas que usen programadores de verdad.</p>
+        <p>¡Claro! Escríbeme a <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a> y lo tendré en cuenta. Me interesa probar herramientas que usen programadores de verdad.</p>
       </details>
     </div>
   </div>

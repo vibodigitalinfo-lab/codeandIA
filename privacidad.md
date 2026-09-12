@@ -10,7 +10,7 @@ updated: 2026-09-08
 De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), el responsable del tratamiento de los datos personales de este sitio es:
 
 - **Titular:** Iván
-- **Email de contacto:** ivan@codeandia.com
+- **Email de contacto:** <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
 - **Web:** codeandia.com
 
 ## 2. Qué datos recogemos
