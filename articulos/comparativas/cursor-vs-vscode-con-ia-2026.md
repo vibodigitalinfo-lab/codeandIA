@@ -3,7 +3,7 @@ layout: article
 title: "Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?"
 description: "Comparo Cursor contra VS Code con GitHub Copilot gratis en 2026: autocompletado, agente, precio y para quién merece la pena cada uno. Mi caso en DAW."
 category: "Comparativa"
-date: 2026-09-09
+date: 2026-09-04
 readtime: 8
 ---
 
