@@ -5,7 +5,7 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 
 | # | Categoría | Título | Monetiza | Notas |
 |---|---|---|---|---|
-| 1 | Guía | Cómo usar IA en la terminal para estudiantes de DAW | No | Claude Code, Copilot CLI. Nicho fresco. |
+| 1 | Guía | Cómo usar IA en la terminal para estudiantes de DAW | ✅ Publicado 2026-09-13 | `ia-en-terminal-estudiantes-daw`: Claude Code + Copilot CLI + Ollama. |
 | 2 | Comparativa | DeepSeek vs ChatGPT gratuitos: cuál programa mejor sin pagar | ✅ Publicado 2026-09-10 | Modelos gratuitos, buen SEO. |
 | 16 | Lista | Los 5 mejores teclados mecánicos para programar en 2026 | ✅ Borrador 2026-09-10 | Amazon.es + PcComponentes, 60-170€ |
 | 17 | Comparativa | Monitor ultrawide para programar: el que yo usaría con 350€ | ✅ Borrador 2026-09-10 | Amazon.es, 350-600€ |
@@ -14,19 +14,19 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 20 | Lista | Webcam para programar y hacer streaming de código en 2026 | ✅ Borrador 2026-09-10 | Amazon.es, 60-160€ |
 | 21 | Lista | Las mejores ofertas Black Friday para programadores 2026 | ✅ Borrador 2026-09-10 | Publicar octubre. Landing page + artículos |
 | 22 | Lista | Regalos para programadores: ideas originales que de verdad usarán | ✅ Borrador 2026-09-10 | Publicar noviembre. Navidad |
-| 3 | Guía | Cómo preparar exámenes prácticos de DAW con IA (sin copiar) | No | Muy personal, alto valor. Necesita ejemplos reales de Iván. |
-| 4 | Lista | Alternativas gratis a Cursor que sí merecen la pena en 2026 | No | Windsurf, Trae, Codeium, Zed, VS Code+Qwen. |
-| 5 | Comparativa | Vercel vs Netlify vs GitHub Pages: dónde publicar gratis | No | Comparativa.Hosting. Acaba llevando a Hostinger (C). |
+| 3 | Guía | Cómo preparar exámenes prácticos de DAW con IA (sin copiar) | ✅ Publicado (commit previo) | `preparar-examenes-practicos-daw-con-ia`. |
+| 4 | Lista | Alternativas gratis a Cursor que sí merecen la pena en 2026 | ✅ Publicado 2026-09-13 | Cubierto parcialmente: `continue-dev-vs-cursor-2026` + `zed-editor-ia-review-2026`. Faltan Windsurf/Trae/Codeium. |
+| 5 | Comparativa | Vercel vs Netlify vs GitHub Pages: dónde publicar gratis | ✅ Publicado 2026-09-13 | `vercel-vs-netlify-vs-github-pages-2026`. Sin hostinger (es gratis vs hosting). |
 | 6 | Guía | Qué hosting eligen los estudiantes de DAW: barato y fiable | **Sí (Hostinger)** | Alto potencial SEO. Recomendar hostinger.com/domains. |
-| 7 | Lista | Los 8 prompts que me salvan el curso de DAW | No | Bases datos, PHP, Java, redes. Listos para buscar. |
-| 8 | Comparativa | Cursor vs VS Code con IA: ¿sigue mereciendo cambiar? | No | Actualización del tema. |
+| 7 | Lista | Los 8 prompts que me salvan el curso de DAW | ✅ Publicado (commit previo) | `8-prompts-programacion-daw-2026`. |
+| 8 | Comparativa | Cursor vs VS Code con IA: ¿sigue mereciendo cambiar? | ✅ Publicado (commit previo) | `cursor-vs-vscode-con-ia-2026`. |
 | 9 | Comparativa | GPT-5 vs Claude: qué modelo da mejor código en 2026 | No | Modelos nuevos = SEO. |
 | 10 | Guía | Cómo montar tu portfolio y que te dé prácticas de DAW | No | Continuación del portfolio-ia. |
-| 11 | Guía | Notion + IA para apuntes de DAW: mi sistema real | No | No probar Notion nuevo si no lo usa. |
-| 12 | Lista | 7 extensiones de IA para VSCode que uso a diario | No | ESLint+Copilot, todo conocido. |
+| 11 | Guía | Notion + IA para apuntes de DAW: mi sistema real | ✅ Publicado 2026-09-13 | `nocion-ia-apuntes-daw`: 3 BDs + plantilla + prompts. Avisa del add-on $10. |
+| 12 | Lista | 7 extensiones de IA para VSCode que uso a diario | ✅ Publicado 2026-09-13 | `extensiones-ia-vscode-estudiantes-2026`: 7 + la que quité (Tabnine). |
 | 13 | Comparativa | Hostinger vs Netlify para tu primer proyecto de DAW | **Sí (Hostinger)** | Hosting de pago vs gratis. |
 | 14 | Review | DeepSeek review: el modelo gratuito que está cambiando todo | No | Modelo nuevo. |
-| 15 | Guía | Cómo configurar GitHub Copilot en IntelliJ (para Java/DAW) | No | Los de su ciclo usan Java en clase. |
+| 15 | Guía | Cómo configurar GitHub Copilot en IntelliJ (para Java/DAW) | ✅ Publicado (commit previo) | `github-copilot-intellij-java-daw`. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
