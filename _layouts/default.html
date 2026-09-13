@@ -59,6 +59,7 @@
         else localStorage.setItem('lang', lang);
       } catch (e) {}
       document.cookie = 'googtrans=/es/' + lang + '; path=/; max-age=31536000; SameSite=Lax; Secure';
+      window.__siteLang = lang;
       if (lang === 'en') document.documentElement.lang = 'en';
     })();
   </script>
@@ -413,19 +414,37 @@
     })();
   </script>
 
-  <!-- Widget de Google Translate (oculto): traduce todo el contenido ES<->EN sin API key.
-       Los botones de la navegación fijan la cookie googtrans y recargan para aplicar la traducción. -->
-  <div id="google_translate_element" aria-hidden="true"></div>
+  <!-- Traducción ES/EN vía Google Translate. Se carga SOLO cuando el usuario ha elegido
+       inglés (__siteLang === 'en'): en español (idioma por defecto) NO existe código de
+       Google Translate en la página, así que no hay widget, banner ni tooltip que aparezca.
+       Al pulsar EN/ES los botones de la navegación fijan localStorage + cookie googtrans y
+       recargan; en el <head> se exporta __siteLang y aquí se decide si montar el widget. -->
   <script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'es',
-        includedLanguages: 'es,en',
-        autoDisplay: false
-      }, 'google_translate_element');
-    }
+    (function () {
+      if (window.__siteLang !== 'en') return; // idioma por defecto: sin rastro de Google Translate
+
+      var host = document.getElementById('google_translate_element');
+      if (!host) {
+        host = document.createElement('div');
+        host.id = 'google_translate_element';
+        host.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(host);
+      }
+
+      window.googleTranslateElementInit = function () {
+        new google.translate.TranslateElement({
+          pageLanguage: 'es',
+          includedLanguages: 'es,en',
+          autoDisplay: false
+        }, 'google_translate_element');
+      };
+
+      var el = document.createElement('script');
+      el.type = 'text/javascript';
+      el.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      document.body.appendChild(el);
+    })();
   </script>
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
