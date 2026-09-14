@@ -50,13 +50,13 @@ Este es el teclado que más recomiendo para regalar. Es el punto dulce entre cal
 
 Para quien prefiere algo más elegante y silencioso que un mecánico. Este teclado low-profile no hace ruido mecánico, es retroiluminado y se puede conectar a varios dispositivos. Ideal para quien trabaja en casa y no quiere molestar.
 
-### Logitech MX Master 3S (75€)
+### Logitech MX Master 3S (89€)
 
 El ratón que uso yo mismo. Multi-dispositivo (3), MagSpeed scroll, botones personalizables para atajos de IDE. Es un regalo que hace sonreír a cualquier programador que lo pruebe por primera vez.
 
 ### Webcam decente
 
-Una Logitech Streamcam (120€) o una C920S (60€) es un regalo que muchos programadores necesitan pero no se compran. Si hace pair programming, entrevistas de trabajo en remoto o simplemente quiere verse bien en las reuniones, una webcam decente le va a venir bien.
+Una Logitech Streamcam (120€) o una C920S (63€) es un regalo que muchos programadores necesitan pero no se compran. Si hace pair programming, entrevistas de trabajo en remoto o simplemente quiere verse bien en las reuniones, una webcam decente le va a venir bien.
 
 ---
 
@@ -113,9 +113,9 @@ No hay un regalo universal. Depende de la persona.
 ## Mi ranking final (de más útil a más impresionante)
 
 1. **Keychron V1 Max (138€)** - El regalo que más usaría por euro gastado
-2. **Logitech MX Master 3S (75€)** - El que más sonrisas saca al probarlo
+2. **Logitech MX Master 3S (89€)** - El que más sonrisas saca al probarlo
 3. **Royal Kludge RK84 (60€)** - El más accesible que sigue siendo bueno
-4. **Logitech C920S (60€)** - El que más necesita y menos se compra
+4. **Logitech C920S (63€)** - El que más necesita y menos se compra
 5. **SIHOO Doro C300 (327€)** - El que más cuida su salud
 
 Si solo puedes regalar uno, yo iría con el **Keychron V1 Max**. Es el que mejor combina precio, calidad y utilidad diaria. Si tu presupuesto es más ajustado, el **RK84** es la apuesta segura.
