@@ -98,6 +98,26 @@ permalink: /ofertas/
       <a href="https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Ratón</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>Logitech Lift Vertical — 49,95€ en Amazon</h3>
+      <p class="oferta-excerpt">Ratón vertical ergonómico, inalámbrico Bluetooth/Logi Bolt, clics silenciosos, 4 botones. Reduce la tensión en la muñeca para sesiones largas de código.</p>
+      <a href="https://www.amazon.es/dp/B07W4DGC27?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Teclado</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>Royal Kludge RK84ES — 67,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Teclado mecánico 75% inalámbrico, hot-swappable, RGB, layout español. El mejor budget para empezar con mecánicos sin romper el presupuesto.</p>
+      <a href="https://www.amazon.es/dp/B0GVJRGLHX?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
   </div>
 </section>
 

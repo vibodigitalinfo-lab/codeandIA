@@ -64,7 +64,7 @@ Para programación pura, prefiero mecánicos. Pero este teclado cumple bien si e
 
 ## Royal Kludge RK84: El más barato que vale la pena
 
-El Royal Kludge RK84 cuesta unos 60€. Es el teclado mecánico más barato que recomendaría sin dudar.
+El Royal Kludge RK84 cuesta unos 68€. Es el teclado mecánico más barato que recomendaría sin dudar.
 
 Tiene hot-swap, lo que es raro a este precio. Puedo poner Cherry MX Brown o cualquier switch compatible de 3 pines. El modding es fácil: lubricar los switches, cambiar keycaps de PBT por ABS, añadir espuma al case. Comunidades de Reddit muestran RK84 que suenan como teclados de 150€ después de un mod sencillo.
 
@@ -72,7 +72,7 @@ Es inalámbrico con Bluetooth y 2.4GHz. El 2.4GHz es más estable que el Bluetoo
 
 El layout 75% tiene todas las teclas que necesito para VS Code: F1-F12, flechas, Insert, Delete. Nada falta.
 
-Lo que no me gusta: los switches que vienen de serie son ruidosos y el stabilizer de la barra espaciadora necesita lubricación urgente. Pero por 60€, esas mejoras se pueden hacer un fin de semana.
+Lo que no me gusta: los switches que vienen de serie son ruidosos y el stabilizer de la barra espaciadora necesita lubricación urgente. Pero por 68€, esas mejoras se pueden hacer un fin de semana.
 
 Si estás estudiando DAW y tu presupuesto es limitado, este teclado te da 80% de la experiencia premium por 30% del precio.
 
