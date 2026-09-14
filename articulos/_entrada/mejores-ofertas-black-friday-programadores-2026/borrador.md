@@ -10,9 +10,11 @@ affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 ---
 
+El año pasado, a mediados de noviembre, me di cuenta de que mi teclado del portátil ya no aguantaba más. Las teclas se habían quedado hundidas, la W no respondía a la primera y cada sesión de código terminaba con los dedos doloridos. Sabía que necesitaba un mecánico, pero 170€ por un Keychron Q1 Pro se me iban de presupuesto siendo estudiante. Esperé al Black Friday. El Keychron V1 Max bajó a 105€, lo pillé, y esa misma tarde la diferencia al escribir código fue brutal. Desde entonces no dejo pasar el BF sin revisar qué necesito realmente.
+
 El Black Friday ya no es solo para comprar televisiones y móviles. Si eres programador o estás estudiando DAW, es la mejor época del año para ahorrar en todo lo que necesitas para tu setup: teclados, monitores, ratones, hosting, suscripciones y más.
 
-Llevo varios años aprovechando el Black Friday para comprar cosas que el resto del año me parecen caras, y este año he decidido recopilar las mejores ofertas en un solo artículo. No todo es tecnología física: hay descuentos en herramientas de desarrollo, hosting y dominios que también merecen la pena.
+Este año he recopilado las mejores ofertas en un solo artículo para que no tengas que buscarlas tú. No todo es tecnología física: hay descuentos en herramientas de desarrollo, hosting y dominios que también merecen la pena.
 
 ---
 
@@ -105,6 +107,10 @@ No compro todo lo que veo en oferta. Tengo una regla simple: solo compro lo que 
 - Suscripciones a herramientas que no voy a usar a diario
 
 El Black Friday es una oportunidad, no una obligación. Compra con cabeza, no con el carrito lleno.
+
+---
+
+¿Qué es lo que tú necesitas realmente para tu setup este Black Friday? ¿Te animas a esperar o prefieres comprarlo ya y no complicarte? Cuéntame en comentarios.
 
 ---
 

@@ -10,7 +10,9 @@ affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 ---
 
-Cada Navidad me pasa lo mismo: alguien me pregunta qué le puede regalar a un programador y la respuesta siempre es "depende." Pero después de varios años estudiando DAW y escuchando lo que la gente realmente usa y valora, he aprendido que hay regalos que siempre funcionan.
+El año pasado, mi prima (que no programa ni idea) me pidió consejo para regalarle algo a su novio, que está en segundo de DAW. Le dije: "Cómprale un Keychron V1 Max, 138€, y ya me cuentas". A los dos días me mandó una foto del chico con el teclado en la caja, sonrisa de oreja a oreja. "Nunca había visto un teclado así", me dijo ella. Ese es el truco: regala lo que tú usarías si estuvieras en sus zapatillas.
+
+Cada Navidad me pasa lo mismo: alguien me pregunta qué le puede regalar a un programador y la respuesta siempre es "depende." Pero después de varios años estudiando DAW y viendo lo que la gente realmente usa y valora, he aprendido que hay regalos que siempre funcionan.
 
 Este artículo es para quien quiere hacer un regalo a un programador o estudiante de programación y no quiere caer en lo típico de la taza con código binario. Son ideas que yo mismo usaría o que ya he regalado y sé que han gustado.
 
@@ -120,4 +122,4 @@ No hay un regalo universal. Depende de la persona.
 
 Si solo puedes regalar uno, yo iría con el **Keychron V1 Max**. Es el que mejor combina precio, calidad y utilidad diaria. Si tu presupuesto es más ajustado, el **RK84** es la apuesta segura.
 
-Y recuerda: lo importante no es cuánto cueste el regalo, sino que demuestre que conoces a la persona y sabes que va a usarlo.
+¿Qué regalo le harías tú a un programador que lo tiene todo? ¿Te ha pasado como a mi prima y has acertado de casualidad? Cuéntame en comentarios.

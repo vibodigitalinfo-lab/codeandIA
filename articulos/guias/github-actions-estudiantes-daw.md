@@ -13,7 +13,7 @@ Mi primer proyecto "profesional" en DAW tenía tests que pasaban en mi portátil
 
 ## Qué es GitHub Actions (la versión que importa)
 
-GitHub Actions es el sistema de CI/CD integrado en GitHub. Cada vez que haces push, abres un PR, o creas un release, puede ejecutar scripts en un contenedor virtual Linux con lo que tú le digas. Piensa en ello como **unBOT que ejecuta comandos en tu repo automáticamente**.
+GitHub Actions es el sistema de CI/CD integrado en GitHub. Cada vez que haces push, abres un PR, o creas un release, puede ejecutar scripts en un contenedor virtual Linux con lo que tú le digas. Piensa en ello como **un bot que ejecuta comandos en tu repo automáticamente**.
 
 Lo que te importa saber:
 
@@ -152,7 +152,7 @@ jobs:
 | Runner Windows | 2x coste (equivalente 1,000 min) | — |
 | LFS (archivos grandes) | 1 GB storage, 1 GB bandwidth | — |
 
-**Para un estudiante DAW**: con repos públicos tienes CI **infinito y gratis**. No necesitas el Student Developer Pack para Actions. Pero `!bundle exec jekyll serve` en local con GitHub Actions te permite hacer deploy automático: cada push al repo → build Jekyll → deploy a GitHub Pages. Tu sitio se actualiza solo.
+**Para un estudiante DAW**: con repos públicos tienes CI **infinito y gratis**. No necesitas el Student Developer Pack para Actions. Con GitHub Actions puedes hacer deploy automático: cada push al repo → build Jekyll → deploy a GitHub Pages. Tu sitio se actualiza solo sin que tengas que hacer `bundle exec jekyll serve` en local.
 
 ---
 

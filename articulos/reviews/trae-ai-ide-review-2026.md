@@ -102,7 +102,7 @@ Trae es **ligeramente más ligero que Cursor** (fork más limpio, menos bloat). 
 
 | Perfil | Recomendación |
 |---|---|
-| **Estudiante DAW, presupuesto $0, quiere agente real** | **Prueba Trae 2 semanas**. Si te acostubras a la UX, te ahorras $20/mes de Cursor Pro. |
+| **Estudiante DAW, presupuesto $0, quiere agente real** | **Prueba Trae 2 semanas**. Si te acostumbras a la UX, te ahorras $20/mes de Cursor Pro. |
 | **Ya pagas Cursor Pro y te va bien** | **No cambies**. La UX de Cursor (diff, checkpoints, git, madurez) vale los $20. |
 | **Privacidad crítica / offline / NDA** | **Ni se te ocurra**. Continue + Ollama o Copilot (telemetry off). |
 | **Side projects React/Next.js, quieres velocidad** | Trae brilla aquí. Builder + Doubao en TS/React es **más rápido que Cursor + GPT-4o**. |
