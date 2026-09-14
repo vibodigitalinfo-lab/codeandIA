@@ -18,7 +18,7 @@ El streaming de código está en auge: tutoriales en vivo, pair programming remo
 
 ## Logitech C920S: la más popular por un motivo
 
-La Logitech C920S cuesta unos 60 euros. Es la webcam más vendida del mundo, y no por casualidad.
+La Logitech C920S cuesta unos 63 euros. Es la webcam más vendida del mundo, y no por casualidad.
 
 Graba en 1080p a 30fps. El autofocus mantiene la imagen nítida sin tocar nada. Para streaming de código esto es crítico: cuando muestras una función en VS Code y haces zoom, la nitidez determina si el espectador lee el código o no. Una webcam borrosa convierte tu tutorial en un ejercicio de adivinanza.
 
@@ -26,7 +26,7 @@ El rendimiento con poca luz es decente. No es espectacular, pero funciona en una
 
 Lo que más me gusta es el privacy shutter. Una tapita física que cubre el lente. Para programadores que trabajan desde casa y están en videollamadas todo el día, esto importa. Nadie quiere que su webcam esté activa cuando no está en una reunión.
 
-El cable es USB-A, no USB-C. Si tu portátil solo tiene puertos USB-C, necesitarás un adaptador. Por 60 euros es un detalle perdonable.
+El cable es USB-A, no USB-C. Si tu portátil solo tiene puertos USB-C, necesitarás un adaptador. Por 63 euros es un detalle perdonable.
 
 Si estás empezando con streaming de código y no quieres gastar mucho, la C920S es la respuesta más segura.
 
@@ -86,11 +86,11 @@ Lo que no me gusta: el ángulo es amplio (81 grados) pero no ajustable. Si tu es
 
 El 1080p a 60fps marca la diferencia. Cuando muestro código en VS Code y hago scroll, la imagen se ve fluida. Mis compañeros de DAW me dijeron que se nota. El USB-C conecta directo sin adaptadores.
 
-La C920S quedó como backup. Si la StreamCam falla, la C920S a 60 euros cumple. El privacy shutter es un bonus que uso todos los días.
+La C920S quedó como backup. Si la StreamCam falla, la C920S a 63 euros cumple. El privacy shutter es un bonus que uso todos los días.
 
 La Brio 4K la descarté por precio. 160 euros es difícil de justificar cuando hago streaming una o dos veces por semana.
 
-¿Necesitas gastar 120 euros? No. La C920S a 60 euros te da el 80% de lo que necesitas. Pero si el streaming de código va a ser parte habitual de tu flujo de trabajo, los 60 euros extra por 60fps y USB-C se notan.
+¿Necesitas gastar 120 euros? No. La C920S a 63 euros te da el 80% de lo que necesitas. Pero si el streaming de código va a ser parte habitual de tu flujo de trabajo, los 60 euros extra por 60fps y USB-C se notan.
 
 Lo que sí importa: resolución mínima de 1080p (nada de 720p en 2026), autofocus rápido para que el texto se vea nítido, y buen rendimiento en baja luz si no tienes iluminación profesional. Si trabajas con poca luz, la Razer Kiyo a 70 euros te ahorra comprar un ring light aparte. Si priorizas OBS, la Elgato Facecam a 100 euros es la más plug and play.
 

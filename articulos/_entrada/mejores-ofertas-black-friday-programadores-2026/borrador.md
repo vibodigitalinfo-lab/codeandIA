@@ -64,7 +64,7 @@ El Xiaomi ya es barato (350€), pero en Black Friday puede bajar a unos 280-300
 
 ## Ratones ergonómicos: cuídate la muñeca
 
-Los ratones Logitech MX Master suelen tener descuentos decentes en Black Friday. El MX Master 3S, que normalmente cuesta 75€, puede bajar a 55-60€.
+Los ratones Logitech MX Master suelen tener descuentos decentes en Black Friday. El MX Master 3S, que normalmente cuesta unos 89€, puede bajar a 60-70€.
 
 ### Logitech MX Master 3S
 

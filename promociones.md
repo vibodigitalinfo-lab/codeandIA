@@ -83,7 +83,7 @@ permalink: /ofertas/
         <span class="oferta-category">Silla</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>SIHOO M18 — 199,99€ en Amazon</h3>
+      <h3>SIHOO M18 — 179,99€ en Amazon</h3>
       <p class="oferta-excerpt">Silla ergonómica con soporte lumbar ajustable, malla transpirable, reposacabezas y reposabrazos 2D. Mejor opción sub-200€.</p>
       <a href="https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -93,7 +93,7 @@ permalink: /ofertas/
         <span class="oferta-category">Webcam</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech C920s Pro HD — 59,99€ en Amazon</h3>
+      <h3>Logitech C920s Pro HD — 63,12€ en Amazon</h3>
       <p class="oferta-excerpt">Webcam 1080p/30fps con privacidad integrada, enfoque automático, corrección luz baja. Estándar para streaming y llamadas.</p>
       <a href="https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
