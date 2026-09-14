@@ -118,6 +118,66 @@ permalink: /ofertas/
       <a href="https://www.amazon.es/dp/B0GVJRGLHX?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Setup</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>ErGear Soporte 2 Monitores (13-32") — 25,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Brazo dual VESA para dos monitores, 25,99€. Ajuste completo de altura, inclinación y rotación. El más barato que cumple para liberar escritorio.</p>
+      <a href="https://www.amazon.es/dp/B082MLVXRR?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Setup</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>HUANUO Soporte Monitor Doble (13-32", 9kg) — 35,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Brazo dual reforzado, soporta 9kg por brazo. Gestión de cables integrada, rotación 360°, VESA 75/100. Para monitores pesados o ultrawide.</p>
+      <a href="https://www.amazon.es/dp/B0GK6DT5SF?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Setup</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>FLEXISPOT Escritorio Elevable 2 Motores — 399,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Standing desk eléctrica, 2 motores silenciosos, 300kg carga, memoria de 4 alturas. La inversión que cuida tu espalda en sesiones maratón de código.</p>
+      <a href="https://www.amazon.es/dp/B0H2GNZ7ZM?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Setup</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>Escritorio Elevable Eléctrico 140x70 Roble — 319,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Mesa standing desk budget, motor único, tablero roble 140x70cm, altura 72-120cm. Entrada accesible al mundo standing sin gastar 400€.</p>
+      <a href="https://www.amazon.es/dp/B0CNH1X67H?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Iluminación</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>Lámpara LED Flexo Escritorio — 21,98€ en Amazon</h3>
+      <p class="oferta-excerpt">Flexo LED con luz nocturna, 3 temperaturas de color, brillo regulable, base táctil. Iluminación correcta para programar de noche sin forzar la vista.</p>
+      <a href="https://www.amazon.es/dp/B0D8PY8CRD?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Ergonomía</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>Reposapiés MAGIC SELECT Ajustable — 18,85€ en Amazon</h3>
+      <p class="oferta-excerpt">Reposapiés ergonómico con altura e inclinación regulables, base antideslizante, superficie de masaje. Mantiene las piernas en posición correcta bajo la mesa.</p>
+      <a href="https://www.amazon.es/dp/B0FJ8G5SDV?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
   </div>
 </section>
 
