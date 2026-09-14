@@ -34,9 +34,9 @@ Lo que no me gusta: es grande. Si tienes las manos muy pequeñas, se siente pesa
 
 Pero si programamos 8 horas al día, el MX Master se paga solo en comodidad y productividad. Es mi ratón principal desde hace año y medio y no pienso cambiarlo.
 
-## Logitech Lift: El vertical para empezar sin gastar de más (~65 euros)
+## Logitech Lift: El vertical para empezar sin gastar de más (~49,95 euros)
 
-El Lift es la respuesta de Logitech a los ratones verticales que cuestan demasiado. A 65 euros, es la entrada más accesible a una postura que reduce la tensión en el antebrazo.
+El Lift es la respuesta de Logitech a los ratones verticales que cuestan demasiado. A 49,95 euros, es la entrada más accesible a una postura que reduce la tensión en el antebrazo.
 
 El ángulo de agarre es de 57 grados. No es totalmente vertical como otros, pero es suficiente para que la muñeca no gire hacia abajo al usar el ratón. En programación, donde pasas horas moviendo el cursor por pantallas de código, esa diferencia de ángulo reduce la fatiga notablemente al final del día.
 
@@ -102,7 +102,7 @@ El Logitech MX Vertical es mi ratón de oficina. Lo uso 8 horas al día y el dol
 
 El ERGO M575 quedó como alternativa para sesiones de escritorio pequeño. Y el Keychron M6 es mi backup en el coworking.
 
-¿Necesitas 89 euros para programar sin dolor? No. El Logitech Lift a 65 euros o el ERGO M575 a 50 euros cubren la necesidad básica. Pero si programamos 8 horas al día, la diferencia entre un ratón de oficina barato y un MX Master se nota en cada sesión.
+¿Necesitas 89 euros para programar sin dolor? No. El Logitech Lift a 49,95 euros o el ERGO M575 a 50 euros cubren la necesidad básica. Pero si programamos 8 horas al día, la diferencia entre un ratón de oficina barato y un MX Master se nota en cada sesión.
 
 Lo que sí importa: un ángulo que mantenga la muñeca neutra (vertical o ergonómico), botones programables para mapear atajos del IDE y un peso que no fatigue el brazo después de horas.
 
