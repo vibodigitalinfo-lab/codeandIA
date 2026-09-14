@@ -3,7 +3,7 @@ layout: article
 title: "Los 8 prompts que me salvan el curso de DAW (con ejemplos reales)"
 description: "Los prompts de IA que uso cada semana en DAW: explicar conceptos, generar ejercicios, corregir con pistas, aprender Java y MySQL y preparar exámenes."
 category: "Lista"
-date: 2026-09-05
+date: 2026-08-31
 readtime: 6
 ---
 

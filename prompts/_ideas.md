@@ -27,6 +27,12 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 13 | Comparativa | Hostinger vs Netlify para tu primer proyecto de DAW | **Sí (Hostinger)** | Hosting de pago vs gratis. |
 | 14 | Review | DeepSeek review: el modelo gratuito que está cambiando todo | No | Modelo nuevo. |
 | 15 | Guía | Cómo configurar GitHub Copilot en IntelliJ (para Java/DAW) | ✅ Publicado (commit previo) | `github-copilot-intellij-java-daw`. |
+| 23 | Review | Trae AI IDE 2026: el editor de ByteDance que quiere comerse a Cursor | ✅ Publicado 2026-09-09 | `trae-ai-ide-review-2026`: agente Builder gratis, Doubao. affiliate trae.ai. |
+| 24 | Comparativa | Ollama vs LM Studio vs Jan: gestores de modelos locales | ✅ Publicado 2026-09-10 | `ollama-vs-lm-studio-vs-jan-2026`: rendimiento, integración IDE, privacidad. |
+| 25 | Guía | GitHub Actions para estudiantes de DAW | ✅ Publicado 2026-09-11 | `github-actions-estudiantes-daw`: CI/CD Java/Maven, deploy Pages/Vercel, secrets. |
+| 26 | Guía | De prácticas a primer curro con IA | ✅ Publicado 2026-09-12 | `de-practicas-a-primer-curro-con-ia`: entrevistas técnicas, live coding, system design. |
+| 27 | Lista | 7 errores que cometí programando con IA | ✅ Publicado 2026-09-13 | `errores-comunes-programando-con-ia`: confiar ciegamente, sin contexto, prompts sin guardar. |
+| 28 | Lista | 5 tendencias de IA que ya usan los devs senior | ✅ Publicado 2026-09-14 | `tendencias-ia-para-devs-2026`: agentes autónomos, MCP, modelos locales, AI testing, code review auto. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
