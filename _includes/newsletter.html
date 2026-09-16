@@ -1,0 +1,35 @@
+<!-- newsletter form — beehiiv publication pub_bde739e1 -->
+<div class="newsletter-box" id="nl-box">
+  <h3 class="newsletter-title">📬 ¿Sin spam, prometido?</h3>
+  <p class="newsletter-subtitle">1 email/semana con lo que de verdad funciona para programar. Cancela cuando quieras.</p>
+  <form action="https://api.beehiiv.com/v2/publications/pub_bde739e1-87d5-4bb5-8c03-83ecd8e1bff7/subscriptions" method="POST" class="newsletter-form" id="nl-form">
+    <label for="nl-email" class="visually-hidden">Email</label>
+    <input type="email" id="nl-email" name="email" placeholder="tu@email.com" required>
+    <button type="submit" class="nl-btn">Suscribirme gratis</button>
+  </form>
+  <p class="nl-note">1 email/semana. Sin spam. Cancela cuando quieras.</p>
+</div>
+
+<script>
+document.getElementById('nl-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('button');
+  const email = form.email.value;
+  btn.disabled = true; btn.textContent = 'Suscribiendo...';
+  try {
+    const res = await fetch(form.action, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ email, reactivate_existing: true, send_welcome_email: true })
+    });
+    if (res.ok) {
+      document.getElementById('nl-box').innerHTML =
+        '<p class="nl-success" style="color:var(--accent,#00d4aa);font-weight:600;padding:1.5rem 0;">✅ Dentro. Revisa tu bandeja (y spam) para confirmar.</p>';
+    } else { throw new Error(); }
+  } catch {
+    btn.disabled = false; btn.textContent = 'Suscribirme gratis';
+    alert('Algo falló. Inténtalo de nuevo.');
+  }
+});
+</script>
