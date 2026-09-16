@@ -3,7 +3,7 @@ layout: article
 title: "Webcam para programar y hacer streaming de código en 2026"
 description: "Las mejores webcams para programar y hacer streaming de código: Logitech, Elgato y Razer con precios reales en España."
 category: "Lista"
-date: 2026-07-24
+date: 2026-07-19
 readtime: 7
 affiliate_text: "Consigue la Logitech C920s Pro HD con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21"
@@ -96,4 +96,4 @@ Lo que sí importa: resolución mínima de 1080p (nada de 720p en 2026), autofoc
 
 Un consejo: antes de comprar webcam, limpia el lente. Suena absurdo, pero la mitad de las webcams que se ven mal simplemente tienen el lente sucio. Prueba con la del portátil, limpia con un paño de microfibra y ajusta la luz. Si sigue sin funcionar, entonces invierte en una de esta lista.
 
-Y si quieres combinar tu nueva webcam con un buen teclado, te dejo [Los 5 mejores teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/) que uso a diario. Si buscas optimizar tu flujo de trabajo, echa un vistazo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) o a las [7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) que me ayudan a programar más rápido.
+Y si quieres combinar tu nueva webcam con un buen teclado, te dejo [Los 5 mejores teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/) que uso a diario. Si buscas optimizar tu flujo de trabajo, echa un vistazo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) o a las [7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) que me ayudan a programar más rápido. Y si estás montando tu escritorio desde cero, mi [guía del setup completo por 500€](/articulos/guias/setup-completo-programar-500-euros/) te lo deja todo claro.

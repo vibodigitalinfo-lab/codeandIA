@@ -3,7 +3,7 @@ layout: article
 title: "Silla ergonómica barata para programar desde casa (menos de 300€)"
 description: "Las mejores sillas ergonómicas baratas para programar: IKEA Markus, SIHOO, Amazon Basics y más con precios reales."
 category: "Lista"
-date: 2026-07-25
+date: 2026-07-20
 readtime: 8
 affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
@@ -102,4 +102,4 @@ Un consejo para España: PcComponentes mete ofertas frecuentes en sillas ergonó
 
 Mi veredicto: no compres una silla de 900€. Compra una de las de esta lista, siéntate en ella todos los días y ahorra para lo que de verdad importa: tu aprendizaje. La espalda te lo va a agradecer dentro de diez años.
 
-Y ya que estás montando tu setup para programar en casa, te cuento cómo [publicar tu primera web](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) con un presupuesto pequeño, qué [hosting elegí y por qué](/articulos/reviews/hostinger-review-2026/) en mi review, o cómo llenar tu portfolio con [5 proyectos de IA en un fin de semana](/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/). Primero la silla, luego el resto.
+Y ya que estás montando tu setup para programar en casa, te cuento cómo [publicar tu primera web](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) con un presupuesto pequeño, qué [hosting elegí y por qué](/articulos/reviews/hostinger-review-2026/) en mi review, o cómo llenar tu portfolio con [5 proyectos de IA en un fin de semana](/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/). Primero la silla, luego el resto. Y si quieres el escritorio entero, en mi [guía para montar tu setup completo por 500€](/articulos/guias/setup-completo-programar-500-euros/) tienes el teclado, el ratón y todo lo que falta con precios reales.
