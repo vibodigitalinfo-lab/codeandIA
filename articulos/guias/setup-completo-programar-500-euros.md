@@ -78,4 +78,6 @@ Ese sería mi "setup top de estudiante con trabajillos". Son upgrades que se pue
 
 Luego, cuando el bolsillo diga, agua al ultrawide. Pero nunca antes de tener la postura resuelta, porque un ultrawide sobre una silla de cocina es un coche de carreras con ruedas cuadradas.
 
+Y si todavía estás con el portátil de clase, empieza por ahí: te cuento [qué portátil comprar para estudiar DAW en 2026](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/) y [qué hosting elegir para tus prácticas](/articulos/guias/que-hosting-elegir-estudiantes-daw-2026/) antes de gastarte un euro en extras.
+
 ¿Y tú? ¿Cuál es el primer gasto que harías (o que hiciste) en tu setup? Cuéntamelo, seguro que hay más de una historia con la silla de cocina de por medio.

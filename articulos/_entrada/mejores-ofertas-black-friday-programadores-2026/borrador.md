@@ -46,7 +46,7 @@ Keychron suele hacer ofertas del 20-30% en sus modelos principales. El Keychron 
 
 ### Royal Kludge
 
-Los modelos budget como el RK84 ya son baratos (60€), pero en Black Friday pueden bajar a 40-45€. Para alguien que está empezando y no sabe si le va a gustar un mecánico, es una entrada perfecta.
+Los modelos budget como el RK84ES ya son baratos (unos 68€), pero en Black Friday pueden bajar a 40-45€. Para alguien que está empezando y no sabe si le va a gustar un mecánico, es una entrada perfecta.
 
 ---
 

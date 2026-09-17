@@ -29,26 +29,41 @@ layout: default
 ]
 </script>
 
+<div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+
 <article class="article">
   <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="{{ "/" | relative_url }}">Inicio</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ "/articulos/" | relative_url }}">Artículos</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{{ page.category | default: "Artículo" }}</span>
+    </nav>
+
     <div class="article-header">
       {% if page.category %}
       <span class="pill">{{ page.category }}</span>
       {% endif %}
       <h1 class="article-title">{{ page.title }}</h1>
       <div class="article-meta">
-        <span>{{ page.date | date: "%d/%m/%Y" }}</span>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
         {% if page.readtime %}
         <span class="meta-dot">·</span><span>{{ page.readtime }} min de lectura</span>
         {% else %}
         {% assign palabras = page.content | number_of_words %}
-        {% assign mins = palabras | divided_by: 200 | plus: 1 %}
+        {% assign mins = palabras | divided_by: 160 | plus: 1 %}
         <span class="meta-dot">·</span><span>{{ mins }} min de lectura</span>
         {% endif %}
       </div>
     </div>
 
-    <div class="article-content">
+    <nav class="toc" id="toc" aria-label="Índice del artículo" hidden>
+      <p class="toc-title">En este artículo</p>
+      <ol class="toc-list" id="toc-list"></ol>
+    </nav>
+
+    <div class="article-content" id="article-content">
       {{ content }}
     </div>
 
@@ -59,6 +74,14 @@ layout: default
       <a class="affiliate-btn" href="{{ page.affiliate_url }}" target="_blank" rel="sponsored nofollow noopener">{{ page.affiliate_label }} <span class="affiliate-arrow" aria-hidden="true">→</span></a>
     </aside>
     {% endif %}
+
+    <div class="share">
+      <span class="share-label">Compartir</span>
+      <a class="share-btn" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">X</a>
+      <a class="share-btn" href="https://wa.me/?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">LinkedIn</a>
+      <button class="share-btn" type="button" id="copy-link" data-url="{{ page.url | absolute_url }}">Copiar enlace</button>
+    </div>
 
     <a href="{{ "/" | relative_url }}" class="back-link">← Volver a artículos</a>
 
@@ -85,3 +108,64 @@ layout: default
     {% endif %}
   </div>
 </article>
+
+<script>
+  /* Barra de progreso de lectura */
+  (function () {
+    var bar = document.getElementById('reading-progress-bar');
+    var content = document.getElementById('article-content');
+    if (!bar || !content) return;
+    function update() {
+      var top = content.getBoundingClientRect().top + window.pageYOffset;
+      var total = content.offsetHeight - window.innerHeight + 200;
+      var pct = total > 0 ? ((window.pageYOffset - top + 200) / total) * 100 : 0;
+      bar.style.width = Math.min(100, Math.max(0, pct)) + '%';
+    }
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+
+  /* Índice automático a partir de los H2 (si hay 3 o más) */
+  (function () {
+    var content = document.getElementById('article-content');
+    var nav = document.getElementById('toc');
+    var list = document.getElementById('toc-list');
+    if (!content || !nav || !list) return;
+    var heads = content.querySelectorAll('h2');
+    if (heads.length < 3) { nav.parentNode && nav.parentNode.removeChild(nav); return; }
+    Array.prototype.forEach.call(heads, function (h, i) {
+      if (!h.id) h.id = 'sec-' + (i + 1);
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.textContent = h.textContent;
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+    nav.hidden = false;
+  })();
+
+  /* Copiar enlace del artículo */
+  (function () {
+    var btn = document.getElementById('copy-link');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var url = btn.getAttribute('data-url');
+      var done = function () {
+        btn.textContent = 'Copiado';
+        setTimeout(function () { btn.textContent = 'Copiar enlace'; }, 1800);
+      };
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(done, function () {});
+      } else {
+        var t = document.createElement('textarea');
+        t.value = url;
+        document.body.appendChild(t);
+        t.select();
+        try { document.execCommand('copy'); done(); } catch (e) {}
+        document.body.removeChild(t);
+      }
+    });
+  })();
+</script>
