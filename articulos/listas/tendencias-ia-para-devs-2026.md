@@ -3,7 +3,7 @@ layout: article
 title: "5 tendencias de IA que ya usan los desarrolladores senior (y que un estudiante de DAW puede adoptar hoy)"
 description: "Tendencias reales de IA en programación 2026: agentes autónomos, MCP, modelos locales, AI-native testing, y code review automatizado. Ejemplos prácticos que puedes empezar a usar ahora."
 category: "Lista"
-date: 2026-09-14
+date: 2026-09-10
 readtime: 7
 ---
 

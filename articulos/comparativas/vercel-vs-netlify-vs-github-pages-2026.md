@@ -3,7 +3,7 @@ layout: article
 title: "Vercel vs Netlify vs GitHub Pages 2026: dónde publicar gratis tu portfolio y proyectos de DAW"
 description: "Comparativa real de las 3 plataformas gratis para deploy: límites, CI/CD, dominios, edge functions, y cuál elijo yo para portfolio, prácticas y proyectos reales."
 category: "Comparativa"
-date: 2026-09-01
+date: 2026-08-28
 readtime: 7
 ---
 
