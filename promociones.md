@@ -8,7 +8,7 @@ permalink: /ofertas/
 <div class="container">
 
 <section class="ofertas-hero">
-  <h1>Ofertas para programadores 🎯</h1>
+  <h1>Ofertas para programadores <span class="emoji">🎯</span></h1>
   <p>Descuentos reales en herramientas y productos que uso. Actualizado cada semana.</p>
 </section>
 

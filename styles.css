@@ -2705,3 +2705,13 @@ body { margin-top: 0 !important; padding-top: 0 !important; }
   gap: 12px;
   justify-content: center;
 }
+
+/* Emoji dentro de títulos con recorte de texto (background-clip):
+   sin esto heredan color: transparent y pierden el color */
+.emoji {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: var(--text);
+  -webkit-text-fill-color: currentColor;
+}
