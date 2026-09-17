@@ -8,16 +8,16 @@ permalink: /articulos/
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
 {% assign categorias = articulos | map: "category" | uniq | sort %}
 
-<section class="section section-alt" style="padding-top: 40px;">
+<section class="section section-alt">
   <div class="container">
-    <header style="margin-bottom: 40px; text-align: center;">
-      <h1 class="hero-title" style="font-size: clamp(2rem, 4vw, 2.8rem); margin-bottom: 16px;">Todos los artículos</h1>
-      <p class="hero-subtitle" style="max-width: 60ch; margin: 0 auto;">{{ articulos.size }} artículos publicados · {{ categorias.size }} categorías · Actualizado diariamente</p>
+    <header class="articles-hero">
+      <h1 class="hero-title">Todos los artículos</h1>
+      <p>{{ articulos.size }} artículos publicados · {{ categorias.size }} categorías · Actualizado diariamente</p>
     </header>
 
     <!-- Filtros por categoría -->
     {% if categorias.size > 1 %}
-    <div class="filter-tabs" role="tablist" aria-label="Filtrar artículos por categoría" style="justify-content: center; margin-bottom: 32px;">
+    <div class="filter-tabs" role="tablist" aria-label="Filtrar artículos por categoría">
       <button class="filter-tab is-active" data-filter="all">Todos ({{ articulos.size }})</button>
       {% for cat in categorias %}
       {% assign count = articulos | where: "category", cat | size %}
@@ -27,15 +27,13 @@ permalink: /articulos/
     {% endif %}
 
     <!-- Buscador -->
-    <div style="max-width: 480px; margin: 0 auto 40px;">
+    <div class="articles-search">
       <label for="article-search" class="visually-hidden">Buscar artículos</label>
-      <div style="position: relative;">
-        <svg style="position: absolute; left: 16px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; color: var(--text-muted);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"></circle>
-          <path d="m21 21-4.3-4.3"></path>
-        </svg>
-        <input type="search" id="article-search" placeholder="Buscar artículos..." aria-label="Buscar artículos" style="width: 100%; padding: 14px 16px 14px 52px; background: var(--bg-raised); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-family: var(--font-body); font-size: 1rem;">
-      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+      </svg>
+      <input type="search" id="article-search" placeholder="Buscar artículos..." aria-label="Buscar artículos">
     </div>
 
     <!-- Grid de artículos -->
@@ -188,31 +186,3 @@ permalink: /articulos/
   renderPage();
 })();
 </script>
-
-<style>
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-#article-search::placeholder {
-  color: var(--text-muted);
-}
-
-#article-search:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-  border-color: var(--accent);
-}
-
-.article-card-readtime {
-  margin-left: auto;
-}
-</style>

@@ -6,11 +6,39 @@ layout: default
 {% assign categorias = articulos | map: "category" | uniq | sort %}
 
 <section class="hero">
-  <div class="container">
-    <span class="hero-badge">Blog de IA para desarrolladores</span>
-    <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer <span class="hero-accent">mejor dev</span>.</h1>
-    <p class="hero-subtitle">Reviews honestas, guías y comparativas de herramientas de inteligencia artificial pensadas para programadores que quieren ir más rápido sin perder el control del código.</p>
-    <a href="#articulos" class="btn btn-accent">Ver artículos</a>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="hero-badge hero-badge-live">Blog de IA para desarrolladores</span>
+      <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer <span class="hero-accent">mejor dev</span>.</h1>
+      <p class="hero-subtitle">Reviews honestas, guías y comparativas de herramientas de inteligencia artificial pensadas para programadores que quieren ir más rápido sin perder el control del código.</p>
+      <div class="hero-cta">
+        <a href="#articulos" class="btn btn-accent">Ver artículos</a>
+        <a href="{{ "/ofertas/" | relative_url }}" class="btn btn-outline">Ofertas y setup <span aria-hidden="true">→</span></a>
+      </div>
+      <ul class="hero-trust">
+        <li>Probado a mano</li>
+        <li>Sin reviews pagadas</li>
+        <li>Precios reales en España</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="code-window">
+        <div class="code-window-bar">
+          <span class="cw-dot"></span>
+          <span class="cw-dot"></span>
+          <span class="cw-dot"></span>
+          <span class="cw-title">setup.ts</span>
+        </div>
+        <pre class="code-window-body"><code><span class="c-key">const</span> <span class="c-var">dev</span> = <span class="c-key">await</span> codeandIA.<span class="c-fn">aprender</span>({
+  <span class="c-prop">ia</span>: <span class="c-str">'a tu favor'</span>,
+  <span class="c-prop">precio</span>: <span class="c-str">'real y sin humo'</span>,
+  <span class="c-prop">control</span>: <span class="c-str">'total'</span>
+});
+
+<span class="c-comment">// mejor dev, mismo control del código</span></code></pre>
+      </div>
+    </div>
   </div>
 </section>
 
