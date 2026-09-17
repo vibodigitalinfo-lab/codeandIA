@@ -12,6 +12,117 @@ permalink: /ofertas/
   <p>Descuentos reales en herramientas y productos que uso. Actualizado cada semana.</p>
 </section>
 
+<section class="ofertas-section" id="setup">
+  <h2>Tu setup, pieza a pieza</h2>
+  <p class="setup-intro">Pincha en cualquier parte del setup (o usa los botones) y verás lo que recomiendo para cada pieza, con precios reales.</p>
+  <div class="setup-wrap">
+    <div class="setup-figure">
+      <svg viewBox="0 0 1000 640" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="setupScreen" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#1b1b24"/>
+            <stop offset="1" stop-color="#0b0b0e"/>
+          </linearGradient>
+          <radialGradient id="setupGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="rgba(123,97,255,0.18)"/>
+            <stop offset="1" stop-color="rgba(123,97,255,0)"/>
+          </radialGradient>
+        </defs>
+        <rect class="setup-bg" x="0" y="0" width="1000" height="640" rx="16"/>
+        <circle cx="500" cy="150" r="320" fill="url(#setupGlow)"/>
+        <rect class="setup-floor" x="0" y="566" width="1000" height="74"/>
+        <g class="setup-part" data-part="silla">
+          <rect x="146" y="148" width="78" height="62" rx="24" fill="#33333f"/>
+          <rect x="118" y="196" width="134" height="252" rx="32" fill="#3a3a46"/>
+          <rect x="150" y="228" width="70" height="150" rx="16" fill="#2f2f3a"/>
+          <rect x="252" y="326" width="48" height="16" rx="8" fill="#2b2b35"/>
+          <rect x="262" y="326" width="10" height="74" rx="5" fill="#2b2b35"/>
+        </g>
+        <g class="setup-part" data-part="escritorio">
+          <rect x="150" y="396" width="20" height="176" rx="8" fill="#4a4a58"/>
+          <rect x="830" y="396" width="20" height="176" rx="8" fill="#4a4a58"/>
+          <rect x="90" y="372" width="820" height="26" rx="10" fill="#7c5c3e"/>
+          <rect x="90" y="392" width="820" height="9" rx="4" fill="#684b31"/>
+        </g>
+        <g class="setup-part" data-part="reposapies">
+          <g transform="rotate(-8 675 534)">
+            <rect x="600" y="522" width="152" height="22" rx="9" fill="#4a4a58"/>
+            <rect x="614" y="544" width="12" height="22" rx="4" fill="#3a3a46"/>
+            <rect x="726" y="544" width="12" height="22" rx="4" fill="#3a3a46"/>
+          </g>
+        </g>
+        <g class="setup-part" data-part="lampara">
+          <path d="M776 262 L816 262 L884 372 L708 372 Z" fill="rgba(123,97,255,0.13)"/>
+          <path d="M848 250 Q812 214 776 244" fill="none" stroke="#4a4a58" stroke-width="9" stroke-linecap="round"/>
+          <path d="M762 236 L822 236 L810 266 L774 266 Z" fill="#7b61ff"/>
+          <rect x="844" y="248" width="9" height="124" rx="4" fill="#4a4a58"/>
+          <ellipse cx="848" cy="370" rx="36" ry="9" fill="#3a3a46"/>
+        </g>
+        <g class="setup-part" data-part="brazo">
+          <rect x="492" y="300" width="16" height="64" rx="6" fill="#4a4a58"/>
+          <rect x="452" y="362" width="96" height="13" rx="6" fill="#3a3a46"/>
+        </g>
+        <g class="setup-part" data-part="monitor">
+          <rect x="286" y="132" width="428" height="186" rx="16" fill="#1a1a22" stroke="#2f2f3a" stroke-width="2"/>
+          <rect x="300" y="146" width="400" height="158" rx="10" fill="url(#setupScreen)"/>
+          <g opacity="0.92">
+            <rect x="320" y="168" width="120" height="10" rx="3" fill="#7b61ff"/>
+            <rect x="450" y="168" width="60" height="10" rx="3" fill="#00d4aa"/>
+            <rect x="320" y="192" width="180" height="10" rx="3" fill="#3a3a55"/>
+            <rect x="510" y="192" width="80" height="10" rx="3" fill="#7b61ff"/>
+            <rect x="320" y="216" width="90" height="10" rx="3" fill="#00d4aa"/>
+            <rect x="420" y="216" width="200" height="10" rx="3" fill="#3a3a55"/>
+            <rect x="320" y="240" width="140" height="10" rx="3" fill="#3a3a55"/>
+            <rect x="470" y="240" width="120" height="10" rx="3" fill="#7b61ff"/>
+            <rect x="320" y="264" width="60" height="10" rx="3" fill="#00d4aa"/>
+            <rect x="390" y="264" width="150" height="10" rx="3" fill="#3a3a55"/>
+          </g>
+        </g>
+        <g class="setup-part" data-part="webcam">
+          <rect x="484" y="110" width="32" height="24" rx="9" fill="#2a2a34"/>
+          <circle cx="500" cy="122" r="6" fill="#12121a" stroke="#7b61ff" stroke-width="2"/>
+        </g>
+        <g class="setup-part" data-part="teclado">
+          <rect x="330" y="336" width="200" height="36" rx="9" fill="#2a2a34"/>
+          <line x1="340" y1="345" x2="520" y2="345" stroke="#4a4a58" stroke-width="9" stroke-dasharray="13 6"/>
+          <line x1="340" y1="356" x2="520" y2="356" stroke="#4a4a58" stroke-width="9" stroke-dasharray="13 6"/>
+          <rect x="404" y="360" width="52" height="9" rx="3" fill="#7b61ff"/>
+        </g>
+        <g class="setup-part" data-part="raton">
+          <ellipse cx="592" cy="354" rx="24" ry="18" fill="#2a2a34"/>
+          <line x1="592" y1="340" x2="592" y2="352" stroke="#4a4a58" stroke-width="3"/>
+          <rect x="586" y="342" width="12" height="8" rx="4" fill="#7b61ff"/>
+        </g>
+      </svg>
+    </div>
+    <div class="setup-side">
+      <div class="setup-chips" role="tablist" aria-label="Partes del setup">
+        {% for parte in site.data.setup %}
+        <button class="setup-chip" type="button" id="chip-{{ parte.id }}" data-part="{{ parte.id }}" role="tab" aria-selected="false" aria-controls="panel-{{ parte.id }}">{{ parte.emoji }} {{ parte.nombre }}</button>
+        {% endfor %}
+      </div>
+      <div class="setup-panels">
+        {% for parte in site.data.setup %}
+        <div class="setup-panel" id="panel-{{ parte.id }}" data-part="{{ parte.id }}" role="tabpanel" aria-labelledby="chip-{{ parte.id }}" hidden>
+          <h3>{{ parte.emoji }} {{ parte.nombre }}</h3>
+          <ul class="setup-products">
+            {% for p in parte.productos %}
+            <li>
+              <a href="{{ p.url }}" target="_blank" rel="sponsored nofollow noopener">
+                <span class="sp-name">{{ p.nombre }}</span>
+                <span class="sp-price">{{ p.precio }}</span>
+              </a>
+              {% if p.nota %}<p class="sp-note">{{ p.nota }}</p>{% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="ofertas-section" id="ofertas">
   <h2>Ofertas activas</h2>
   <p>Ofertas verificadas en productos para programadores. Precios actualizados a septiembre 2026.</p>
@@ -264,6 +375,49 @@ permalink: /ofertas/
     }
   ]
 }
+</script>
+
+<script>
+(function () {
+  var root = document.getElementById('setup');
+  if (!root) return;
+  var chips = Array.prototype.slice.call(root.querySelectorAll('.setup-chip'));
+  var parts = Array.prototype.slice.call(root.querySelectorAll('.setup-part'));
+  var panels = Array.prototype.slice.call(root.querySelectorAll('.setup-panel'));
+  if (!chips.length || !panels.length) return;
+
+  function select(id) {
+    if (root.getAttribute('data-active') === id) id = null;
+    root.setAttribute('data-active', id || '');
+    parts.forEach(function (p) {
+      p.classList.toggle('is-active', p.getAttribute('data-part') === id);
+    });
+    chips.forEach(function (c) {
+      var on = c.getAttribute('data-part') === id;
+      c.classList.toggle('is-active', on);
+      c.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    panels.forEach(function (p) { p.hidden = p.getAttribute('data-part') !== id; });
+    if (id && window.innerWidth < 900) {
+      var panel = root.querySelector('.setup-panel[data-part="' + id + '"]');
+      if (panel && panel.scrollIntoView) panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  chips.forEach(function (c) {
+    c.addEventListener('click', function () { select(c.getAttribute('data-part')); });
+  });
+  parts.forEach(function (p) {
+    var id = p.getAttribute('data-part');
+    p.addEventListener('click', function () { select(id); });
+    p.addEventListener('mouseenter', function () {
+      if (!root.getAttribute('data-active')) p.classList.add('is-hint');
+    });
+    p.addEventListener('mouseleave', function () { p.classList.remove('is-hint'); });
+  });
+
+  if (chips[0]) select(chips[0].getAttribute('data-part'));
+})();
 </script>
 
 </div>
