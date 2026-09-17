@@ -8,6 +8,26 @@ readtime: 7
 affiliate_text: "Consigue el Logitech MX Master 3S en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
+updated: 2026-09-18
+picks:
+  - name: "Logitech MX Master 3S"
+    price: "88,72€"
+    best_for: "Ratón principal si programas 8 h al día"
+    url: "https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21"
+    badge: "Mi pick"
+  - name: "Logitech Lift Vertical"
+    price: "49,95€"
+    best_for: "Empezar con postura vertical sin gastar de más"
+    url: "https://www.amazon.es/dp/B07W4DGC27?tag=codeandia-21"
+  - name: "Logitech MX Vertical"
+    price: "~90€"
+    best_for: "Prevención seria de RSI"
+  - name: "Logitech ERGO M575"
+    price: "~50€"
+    best_for: "Escritorio pequeño (trackball)"
+  - name: "Keychron M6"
+    price: "~45€"
+    best_for: "Ergonomía al precio más bajo"
 ---
 
 Me desperté una mañana con la muñeca derecha pinchando. No fue de golpe. Fueron meses de 8 horas al día con un ratón genérico de oficina, escribiendo código en VS Code y desplazándome por archivos de 500 líneas sin pensar en la postura.

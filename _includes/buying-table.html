@@ -1,0 +1,28 @@
+{% if page.picks %}
+<details class="buying-table">
+  <summary>Comparativa rápida: modelos, precios y enlaces</summary>
+  <div class="buying-table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Producto</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Ideal para</th>
+          <th scope="col"><span class="sr-only">Enlace</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in page.picks %}
+        <tr>
+          <th scope="row">{{ p.name }}{% if p.badge %} <span class="pick-badge">{{ p.badge }}</span>{% endif %}</th>
+          <td class="pick-price">{{ p.price }}</td>
+          <td class="pick-for">{{ p.best_for }}</td>
+          <td class="pick-action">{% if p.url %}<a class="pick-link" href="{{ p.url }}" target="_blank" rel="sponsored nofollow noopener">Ver →</a>{% else %}<span class="pick-nolink" aria-hidden="true">—</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="buying-table-note">Precios orientativos consultados en septiembre de 2026; pueden variar. Te llevo siempre a la ficha del producto, nunca a una búsqueda.</p>
+</details>
+{% endif %}

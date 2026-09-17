@@ -10,7 +10,7 @@ layout: default
     "headline": {{ page.title | jsonify }},
     "description": {{ page.description | jsonify }},
     "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-    "dateModified": {{ page.date | date_to_xmlschema | jsonify }},
+    "dateModified": {{ page.updated | default: page.date | date_to_xmlschema | jsonify }},
     "inLanguage": "es-ES",
     "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
     "articleSection": {{ page.category | jsonify }},
@@ -48,6 +48,9 @@ layout: default
       <h1 class="article-title">{{ page.title }}</h1>
       <div class="article-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
+        {% if page.updated %}
+        <span class="meta-dot">·</span><time datetime="{{ page.updated | date_to_xmlschema }}">Actualizado el {{ page.updated | date: "%d/%m/%Y" }}</time>
+        {% endif %}
         {% if page.readtime %}
         <span class="meta-dot">·</span><span>{{ page.readtime }} min de lectura</span>
         {% else %}
@@ -57,6 +60,10 @@ layout: default
         {% endif %}
       </div>
     </div>
+
+    {% include affiliate-disclosure.html %}
+
+    {% include buying-table.html %}
 
     <nav class="toc" id="toc" aria-label="Índice del artículo" hidden>
       <p class="toc-title">En este artículo</p>
@@ -106,8 +113,12 @@ layout: default
       </div>
     </aside>
     {% endif %}
+
+    {% include author-box.html %}
   </div>
 </article>
+
+<button class="to-top" id="to-top" type="button" aria-label="Volver arriba">↑</button>
 
 <script>
   /* Barra de progreso de lectura */
@@ -126,24 +137,74 @@ layout: default
     update();
   })();
 
-  /* Índice automático a partir de los H2 (si hay 3 o más) */
+  /* Índice automático (si hay 3+ H2), scroll-spy y enlaces ancla en los títulos */
   (function () {
     var content = document.getElementById('article-content');
+    if (!content) return;
+    var heads = Array.prototype.slice.call(content.querySelectorAll('h2, h3'));
+    if (!heads.length) return;
+
+    heads.forEach(function (h, i) { if (!h.id) h.id = 'sec-' + (i + 1); });
+
     var nav = document.getElementById('toc');
     var list = document.getElementById('toc-list');
-    if (!content || !nav || !list) return;
-    var heads = content.querySelectorAll('h2');
-    if (heads.length < 3) { nav.parentNode && nav.parentNode.removeChild(nav); return; }
-    Array.prototype.forEach.call(heads, function (h, i) {
-      if (!h.id) h.id = 'sec-' + (i + 1);
-      var li = document.createElement('li');
+    var h2s = heads.filter(function (h) { return h.tagName === 'H2'; });
+    var links = [];
+
+    if (nav && list && h2s.length >= 3) {
+      h2s.forEach(function (h) {
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        li.appendChild(a);
+        list.appendChild(li);
+        links.push(a);
+      });
+      nav.hidden = false;
+
+      if ('IntersectionObserver' in window) {
+        var byId = {};
+        links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+        var current = null;
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (!e.isIntersecting) return;
+            var a = byId[e.target.id];
+            if (!a || a === current) return;
+            if (current) current.classList.remove('is-active');
+            a.classList.add('is-active');
+            current = a;
+          });
+        }, { rootMargin: '-96px 0px -68% 0px', threshold: 0 });
+        h2s.forEach(function (h) { obs.observe(h); });
+      }
+    } else if (nav && nav.parentNode) {
+      nav.parentNode.removeChild(nav);
+    }
+
+    heads.forEach(function (h) {
       var a = document.createElement('a');
+      a.className = 'heading-anchor';
       a.href = '#' + h.id;
-      a.textContent = h.textContent;
-      li.appendChild(a);
-      list.appendChild(li);
+      a.setAttribute('aria-label', 'Enlace a esta sección');
+      a.textContent = '#';
+      a.addEventListener('click', function () {
+        var url = location.origin + location.pathname + '#' + h.id;
+        if (navigator.clipboard) { navigator.clipboard.writeText(url).then(function () {}, function () {}); }
+      });
+      h.appendChild(a);
     });
-    nav.hidden = false;
+  })();
+
+  /* Volver arriba */
+  (function () {
+    var btn = document.getElementById('to-top');
+    if (!btn) return;
+    function toggle() { btn.classList.toggle('is-visible', window.pageYOffset > 700); }
+    window.addEventListener('scroll', toggle, { passive: true });
+    toggle();
+    btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
   })();
 
   /* Copiar enlace del artículo */
