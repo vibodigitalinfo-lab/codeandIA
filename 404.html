@@ -1,11 +1,37 @@
 ---
 layout: default
+title: "Página no encontrada"
+permalink: /404.html
+sitemap: false
 ---
 
 <section class="hero">
   <div class="container">
-    <h1 class="hero-title">Error 404<br>Esta página no existe.</h1>
-    <p class="hero-subtitle">La movimos de sitio, cambió la URL, o nunca existió. Prueba a volver al inicio y buscar lo que necesitas.</p>
-    <a href="{{ "/" | relative_url }}" class="btn btn-accent">Volver al inicio</a>
+    <span class="hero-badge">Error 404</span>
+    <h1 class="hero-title">Esta página no existe.</h1>
+    <p class="hero-subtitle">La movimos de sitio, cambió la URL, o nunca existió. Vuelve al inicio o echa un ojo a los artículos más recientes.</p>
+    <div class="hero-actions">
+      <a href="{{ "/" | relative_url }}" class="btn btn-accent">Volver al inicio</a>
+      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Ver todos los artículos</a>
+    </div>
+  </div>
+</section>
+
+{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Quizá buscabas uno de estos</h2>
+    <div class="articles-grid">
+      {% for post in articulos limit:6 %}
+      <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
+        <h3 class="article-card-title">{{ post.title }}</h3>
+        <p class="article-card-desc">{{ post.description }}</p>
+        <div class="article-card-meta">
+          <span class="article-card-category">{{ post.category }}</span>
+          <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
   </div>
 </section>

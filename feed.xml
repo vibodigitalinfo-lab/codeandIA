@@ -3,16 +3,24 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel>
   <title>{{ site.title }}</title>
   <description>{{ site.description }}</description>
   <link>{{ "/" | absolute_url }}</link>
   <atom:link href="{{ "/feed.xml" | absolute_url }}" rel="self" type="application/rss+xml" />
   <language>es-ES</language>
+  <copyright>© {{ "now" | date: "%Y" }} codeandIA</copyright>
+  <managingEditor>ivan@codeandia.com (Iván)</managingEditor>
+  <webMaster>ivan@codeandia.com (Iván)</webMaster>
+  <image>
+    <url>{{ "/og-image.png" | absolute_url }}</url>
+    <title>{{ site.title }}</title>
+    <link>{{ "/" | absolute_url }}</link>
+  </image>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
   {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
-  {% for p in articulos limit: 10 %}
+  {% for p in articulos limit: 20 %}
   <item>
     <title>{{ p.title | xml_escape }}</title>
     <description>{{ p.description | xml_escape }}</description>
@@ -20,6 +28,8 @@ layout: null
     <guid>{{ p.url | absolute_url }}</guid>
     <pubDate>{{ p.date | date_to_rfc822 }}</pubDate>
     <category>{{ p.category }}</category>
+    <dc:creator>Iván</dc:creator>
+    <content:encoded><![CDATA[{{ p.content }}]]></content:encoded>
   </item>
   {% endfor %}
 </channel>

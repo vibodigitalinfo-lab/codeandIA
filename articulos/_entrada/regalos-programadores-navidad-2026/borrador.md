@@ -24,11 +24,11 @@ No hace falta gastar una fortuna para hacer un regalo útil. Estos son los que r
 
 ### Teclado mecánico budget
 
-Un Royal Kludge RK84 (60€) o un AULA F75 (70€) es un regalo perfecto para alguien que está empezando. Si usa el teclado del portátil todo el día, un mecánico le va a cambiar la vida. No necesita gastar 170€ en un Keychron para notar la diferencia.
+Un Royal Kludge RK84ES (unos 68€) o un AULA F75 (unos 70€) es un regalo perfecto para alguien que está empezando. Si usa el teclado del portátil todo el día, un mecánico le va a cambiar la vida. No necesita gastar 170€ en un Keychron para notar la diferencia.
 
 ### Ratón ergonómico
 
-Un Logitech Lift (65€) o un ERGO M575 (50€) es un regalo que demuestra que te preocupas por su salud. Si alguien programa 8 horas al día, un ratón vertical le puede salvar de dolores a largo plazo.
+Un Logitech Lift (49,95€) o un ERGO M575 (unos 50€) es un regalo que demuestra que te preocupas por su salud. Si alguien programa 8 horas al día, un ratón vertical le puede salvar de dolores a largo plazo.
 
 ### Libro de programación
 
@@ -116,7 +116,7 @@ No hay un regalo universal. Depende de la persona.
 
 1. **Keychron V1 Max (138€)** - El regalo que más usaría por euro gastado
 2. **Logitech MX Master 3S (89€)** - El que más sonrisas saca al probarlo
-3. **Royal Kludge RK84 (60€)** - El más accesible que sigue siendo bueno
+3. **Royal Kludge RK84ES (unos 68€)** - El más accesible que sigue siendo bueno
 4. **Logitech C920S (63€)** - El que más necesita y menos se compra
 5. **SIHOO Doro C300 (327€)** - El que más cuida su salud
 
