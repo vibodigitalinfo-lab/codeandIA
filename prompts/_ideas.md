@@ -7,11 +7,6 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 |---|---|---|---|---|
 | 1 | Guía | Cómo usar IA en la terminal para estudiantes de DAW | ✅ Publicado 2026-09-13 | `ia-en-terminal-estudiantes-daw`: Claude Code + Copilot CLI + Ollama. |
 | 2 | Comparativa | DeepSeek vs ChatGPT gratuitos: cuál programa mejor sin pagar | ✅ Publicado 2026-09-10 | Modelos gratuitos, buen SEO. |
-| 16 | Lista | Los 5 mejores teclados mecánicos para programar en 2026 | ✅ Borrador 2026-09-10 | Amazon.es + PcComponentes, 60-170€ |
-| 17 | Comparativa | Monitor ultrawide para programar: el que yo usaría con 350€ | ✅ Borrador 2026-09-10 | Amazon.es, 350-600€ |
-| 18 | Lista | Ratón ergonómico para programadores: adiós al dolor de muñeca | ✅ Borrador 2026-09-10 | Amazon.es, 45-90€ |
-| 19 | Lista | Silla ergonómica barata para programar desde casa (menos de 300€) | ✅ Borrador 2026-09-10 | Amazon.es, 170-300€ |
-| 20 | Lista | Webcam para programar y hacer streaming de código en 2026 | ✅ Borrador 2026-09-10 | Amazon.es, 60-160€ |
 | 21 | Lista | Las mejores ofertas Black Friday para programadores 2026 | ✅ Borrador 2026-09-10 | Publicar octubre. Landing page + artículos |
 | 22 | Lista | Regalos para programadores: ideas originales que de verdad usarán | ✅ Borrador 2026-09-10 | Publicar noviembre. Navidad |
 | 3 | Guía | Cómo preparar exámenes prácticos de DAW con IA (sin copiar) | ✅ Publicado (commit previo) | `preparar-examenes-practicos-daw-con-ia`. |
@@ -35,6 +30,11 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 28 | Lista | 5 tendencias de IA que ya usan los devs senior | ✅ Publicado 2026-09-14 | `tendencias-ia-para-devs-2026`: agentes autónomos, MCP, modelos locales, AI testing, code review auto. |
 | 29 | Lista | Auriculares con cancelación de ruido para estudiar y programar | ✅ Publicado 2026-09-14 | `auriculares-cancelacion-ruido-estudiar-programar`. Amazon.es, 36-100€: Q20i, Sony CH720N, JBL 770NC, Space One. |
 | 30 | Guía | Qué portátil comprar para estudiar DAW en 2026 | ✅ Publicado 2026-09-17 | `que-portatil-comprar-estudiar-daw-2026`. Amazon.es, 500-650€: i5/Ryzen 5, 16 GB, SSD 512 GB. |
+| 16 | Lista | Los 5 mejores teclados mecánicos para programar en 2026 | ✅ Publicado 2026-07-19 | `mejores-teclados-mecanicos-programar`. Amazon.es + PcComponentes, 60-170€. |
+| 17 | Comparativa | Monitor ultrawide para programar: el que yo usaría con 350€ | ✅ Publicado 2026-07-18 | `monitor-ultrawide-programar`. LG B083QT6Z8R (450€, afiliado); Xiaomi/Dell/AOC sin link. |
+| 18 | Lista | Ratón ergonómico para programadores: adiós al dolor de muñeca | ✅ Publicado 2026-07-17 | `raton-ergonomico-programadores`. Amazon.es, 45-90€. |
+| 19 | Lista | Silla ergonómica barata para programar desde casa (menos de 300€) | ✅ Publicado 2026-07-16 | `silla-ergonomica-barata-programar`. Amazon.es, 170-300€. |
+| 20 | Lista | Webcam para programar y hacer streaming de código en 2026 | ✅ Publicado 2026-07-15 | `webcam-programar-streaming`. Amazon.es, 60-160€. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
