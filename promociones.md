@@ -23,7 +23,7 @@ permalink: /ofertas/
         <span class="oferta-category">Hosting</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Hostinger — Hosting Premium desde 2,99€/mes</h3>
+      <h3>Hostinger — Hosting Premium desde 2,59€/mes</h3>
       <p class="oferta-excerpt">Hosting compartido con dominio gratis el primer año, SSL, backups y 100 GB SSD. Ideal para proyectos de DAW y portfolios.</p>
       <a href="https://www.hostinger.es/hosting-web" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver oferta en Hostinger →</a>
     </div>
@@ -63,7 +63,7 @@ permalink: /ofertas/
         <span class="oferta-category">Ratón</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech MX Master 3S — 89,00€ en Amazon</h3>
+      <h3>Logitech MX Master 3S — 88,72€ en Amazon</h3>
       <p class="oferta-excerpt">Ratón ergonómico flagship: MagSpeed scroll, 8000 DPI, sobre cristal, clics discretos, multi-dispositivo (3), 70 días batería, carga rápida USB-C.</p>
       <a href="https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -173,7 +173,7 @@ permalink: /ofertas/
         <span class="oferta-category">Ergonomía</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Reposapiés MAGIC SELECT Ajustable — 18,85€ en Amazon</h3>
+      <h3>Reposapiés MAGIC SELECT Ajustable — 19,85€ en Amazon</h3>
       <p class="oferta-excerpt">Reposapiés ergonómico con altura e inclinación regulables, base antideslizante, superficie de masaje. Mantiene las piernas en posición correcta bajo la mesa.</p>
       <a href="https://www.amazon.es/dp/B0FJ8G5SDV?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>

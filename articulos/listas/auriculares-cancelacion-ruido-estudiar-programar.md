@@ -28,7 +28,7 @@ Su punto flojo: la calidad de construcción es de plástico y no se siente premi
 
 Si vas a llevar los auriculares puestos seis horas seguidas, el peso importa más de lo que parece. Los [Sony WH-CH720N](https://www.amazon.es/dp/B0BTDX26B2?tag=codeandia-21) son **los auriculares con cancelación de ruido más ligeros de Sony**: 192 gramos, tan poco que se te olvida que los llevas.
 
-Por unos 75-80€ heredan el procesador V1 de los caros (no el doble chip de los 1000X, ojo, pero sí el de gama media) y te dan 35 horas con ANC, se conectan a dos dispositivos y la app Sound Connect te deja ajustar la cancelación de ruido y el sonido ambiente en 20 niveles.
+Por unos 70€ heredan el procesador V1 de los caros (no el doble chip de los 1000X, ojo, pero sí el de gama media) y te dan 35 horas con ANC, se conectan a dos dispositivos y la app Sound Connect te deja ajustar la cancelación de ruido y el sonido ambiente en 20 niveles.
 
 Lo que me gusta de verdad es que los puedes llevar durante una sesión de estudio larga sin que te duelan las orejas ni la cabeza. Es una de esas cosas que no ves en la ficha técnica y que descubres el primer día.
 
@@ -38,19 +38,19 @@ Donde flojea: por ese precio esperas un acabado algo mejor que el plástico liso
 
 El [JBL Tune 770NC](https://www.amazon.es/dp/B0CVPPHT6P?tag=codeandia-21) es el que me llevé un día al aula de informática y no lo volví a quitar hasta una semana después. Su cifra gorda: **70 horas de batería** con la ANC apagada y 44 con ella puesta. A ver, un proyecto de DAW entero te aguanta sin cargar.
 
-Por unos 95-100€ tienes cancelación de ruido adaptativa con modo Smart Ambient (puedes oír lo que pasa alrededor sin quitártelos), Bluetooth 5.3, sonido JBL Pure Bass, son plegables y pesan poco más que los Sony.
+Por unos 80€ tienes cancelación de ruido adaptativa con modo Smart Ambient (puedes oír lo que pasa alrededor sin quitártelos), Bluetooth 5.3, sonido JBL Pure Bass, son plegables y pesan poco más que los Sony.
 
 Lo que tiene de especial es que son la mezcla más redonda entre batería, sonido y comodidad del grupo. Y lo que tiene de pega: la cancelación de ruido adaptativa, en ambientes muy cambiantes, a veces se nota más "agresiva" que la de los Sony, y para gustos el color azul de la versión más barata es... peculiar. Se los recomiendo a quien olvida cargar las cosas.
 
 ## Soundcore Space One: el salto de calidad sin llegar a los caros
 
-Si ya pones más de 100€ sobre la mesa, el [Soundcore Space One](https://www.amazon.es/dp/B0C6KJ3R71?tag=codeandia-21) es el que yo veo como "próximo paso" antes de dar el salto a los Sony o Bose de 300€.
+Si quieres subir un escalón de calidad, el [Soundcore Space One](https://www.amazon.es/dp/B0C6KJ3R71?tag=codeandia-21) es el que yo veo como "próximo paso" antes de dar el salto a los Sony o Bose de 300€.
 
-Cuesta en torno a 100€ (en oferta ha bajado de los 99,99 habituales), y por ese dinero ofrece cancelación de ruido adaptativa que de verdad se nota al nivel de auriculares mucho más caros, soporte LDAC para calidad de audio alta en Android, detección de uso (se pausa cuando te los quitas) y una app decente con ecualizador.
+Cuesta en torno a 70€, y por ese dinero ofrece cancelación de ruido adaptativa que de verdad se nota al nivel de auriculares mucho más caros, soporte LDAC para calidad de audio alta en Android, detección de uso (se pausa cuando te los quitas) y una app decente con ecualizador.
 
 Para programar, su ANC adaptativa es un gustazo: se ajusta sola al ruido de fondo, y cuando la aspiradora para, también. Lo uso en casa cuando necesito concentración real en un módulo gordo como el despliegue de aplicaciones y no quiero saber nada del exterior.
 
-Sus dos pegas: el modo transparencia no es tan natural como el de los Sony, y por 100€ igual te esperas un cable de 3,5 mm en la caja (no viene).
+Sus dos pegas: el modo transparencia no es tan natural como el de los Sony, y a este precio igual te esperas un cable de 3,5 mm en la caja (no viene).
 
 ## Mi combinación real y veredicto
 

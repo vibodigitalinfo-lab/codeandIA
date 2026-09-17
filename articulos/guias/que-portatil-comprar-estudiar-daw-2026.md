@@ -5,9 +5,9 @@ description: "Qué portátil necesita un estudiante de DAW en 2026: specs que im
 category: "Guía"
 date: 2026-09-17
 readtime: 8
-affiliate_text: "El Lenovo IdeaPad Slim 3 Gen 10 (i5, 16 GB, 512 GB) es el que mejor equilibra precio y specs para DAW"
-affiliate_url: "https://www.amazon.es/dp/B0GZHZ7HM7?tag=codeandia-21"
-affiliate_label: "Ver el IdeaPad Slim 3 en Amazon"
+affiliate_text: "El Acer Aspire Go 15 (Ryzen 7, 16 GB, 512 GB) está en stock y es la compra más segura para DAW ahora mismo"
+affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
+affiliate_label: "Ver el Aspire Go 15 en Amazon"
 ---
 
 Antes de empezar segundo de DAW, mi portátil era uno de esos de gama baja con 8 GB de RAM y me pasaba las clases cerrando pestañas a toda velocidad para que no se me colgara el IDE. Un día, con el entorno levantado, el navegador con la documentación y MySQL corriendo a la vez, el portátil se quedó congelado durante una práctica. Ese día decidí que había que cambiar de máquina. He tardado en encontrar lo que buscaba y he aprendido a base de devoluciones y de leer especificaciones hasta que se me cruzan los ojos. Si estás mirando portátil para el ciclo, esto es lo que de verdad importa y lo que yo compraría en 2026.
@@ -28,23 +28,23 @@ El error es fijarse en el modelo del procesador y en la marca del ventilador. Pa
 
 ## Tres portátiles y para quién es cada uno
 
-Con esas pautas, estos son los que considero las compras sensatas de 2026. He puesto los que llevan las specs que de verdad sirven y que he visto disponibles en Amazon España.
+Con esas pautas, estos son los que considero las compras sensatas de 2026. He puesto los que llevan las specs que de verdad sirven y que merecen la pena en Amazon España.
 
-### Lenovo IdeaPad Slim 3 Gen 10: el que yo compraría
+### Acer Aspire Go 15: mi recomendación (y está en stock)
 
-Es el que tengo apuntado como compra más redonda: **i5-13420H, 16 GB de RAM y SSD de 512 GB**, con Windows 11 Home y teclado en español. Con esas especificaciones y esa CPU cubres cualquier módulo de DAW sin llegar a los 600€ si lo pillas en oferta. La RAM de 16 GB y el SSD NVMe son precisamente los dos cuellos de botella que te ahorras.
+Es el que hoy recomiendo porque, además de buenas specs, está disponible: el [Acer Aspire Go 15 con Ryzen 7 5825U, 16 GB y 512 GB](https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21) está en stock en Amazon y suele moverse alrededor de los 580€. El Ryzen 7 5825U es una CPU de ocho núcleos que, aunque sea de generación anterior, rinde muy bien en multitarea y trata muy bien el consumo de batería. El teclado de los Aspire Go es de los que menos me duelen en sesiones largas y el precio es competitivo.
 
-El punto fuerte es el equilibrio: no es el más barato ni el más potente, pero es el que no te va a dejar tirado en tercero, cuando de verdad empiezas con contenedores y despliegues. Y Lenovo tiene un servicio posventa que en España responde razonablemente. Como pega, la pantalla es correcta pero no espectacular, y el teclado, aunque es completo, no es el mejor del mundo para escribir todo el día. Para el precio, me parece la compra más sensata.
+Como contra: es un portátil más de "oficina" que de "potencia bruta", y la pantalla es de 60 Hz y con colores justos. Para programar va perfecto; para editar vídeo o jugar, olvídate. Pero para un ciclo de DAW, con 16 GB y SSD de 512 GB, cumple de sobra.
 
-### Acer Aspire Go 15: alternativa con Ryzen 7
+### Lenovo IdeaPad Slim 3 Gen 10: mi pick si vuelve el stock
 
-Si el Lenovo está muy subido de precio, el [Acer Aspire Go 15 con Ryzen 7 5825U, 16 GB y 512 GB](https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21) es la otra opción que miro. El Ryzen 7 5825U es una CPU de ocho núcleos que, aunque sea de generación anterior, rinde muy bien en multitarea y trata muy bien el consumo de batería. El teclado de los Aspire Go es de los que menos me duelen en sesiones largas y el precio suele ser competitivo.
+Es el que tengo apuntado como compra más redonda por equilibrio: **i5-13420H, 16 GB de RAM y SSD de 512 GB**, con Windows 11 Home y teclado en español. Con esas especificaciones y esa CPU cubres cualquier módulo de DAW sin llegar a los 600€ si lo pillas en oferta. La RAM de 16 GB y el SSD NVMe son precisamente los dos cuellos de botella que te ahorras.
 
-Como contra: es un portátil más de "oficina" que de "potencia bruta", y la pantalla es de 60 Hz y con colores justos. Para programar va perfecto; para editar vídeo o jugar, olvídate.
+Ojo con una cosa: al escribir esto, la ficha del Lenovo está **sin stock** en Amazon España, así que si lo ves disponible a buen precio es compra segura, pero no cuentes con él. El punto fuerte, cuando está, es el equilibrio: no es el más barato ni el más potente, pero es el que no te va a dejar tirado en tercero, cuando de verdad empiezas con contenedores y despliegues. Como pega, la pantalla es correcta pero no espectacular, y el teclado, aunque es completo, no es el mejor del mundo para escribir todo el día.
 
 ### El de 32 GB, si lo prefieres a largo plazo
 
-Y si puedes estirar el presupuesto, existe la variante del [Acer Aspire Go 15 con 32 GB de RAM y 512 GB](https://www.amazon.es/dp/B0F452KYSS?tag=codeandia-21). Es lo mismo que el anterior, pero con el doble de memoria, que hoy es overkill para el ciclo... salvo que vayas a encadenar máquinas virtuales en tercero, en cuyo caso es dinero bien gastado. Yo no lo compraría de entrada, pero si el precio baja y te sobra, es una opción a tener en cuenta.
+Y si puedes estirar el presupuesto, existe la variante del [Acer Aspire Go 15 con 32 GB de RAM y 512 GB](https://www.amazon.es/dp/B0F452KYSS?tag=codeandia-21). Es lo mismo que el Aspire Go 15 de antes, pero con el doble de memoria, que hoy es overkill para el ciclo... salvo que vayas a encadenar máquinas virtuales en tercero, en cuyo caso es dinero bien gastado. Yo no lo compraría de entrada, pero si el precio baja y te sobra, es una opción a tener en cuenta.
 
 ## Los errores que debes evitar
 
@@ -60,6 +60,6 @@ Si volviera a comprar mi portátil, no me dejaría llevar por el precio de entra
 
 ## Veredicto
 
-Para programar en DAW en 2026, el portátil que yo compraría es **cualquiera con 16 GB de RAM, SSD de 512 GB, un Ryzen 5/i5 reciente, Windows 11 y teclado español**. Si eso te cuadra y el precio está entre 500 y 650€, no le des más vueltas. Mi recomendación concreta es el Lenovo IdeaPad Slim 3 Gen 10, y el Acer Aspire Go 15 es una alternativa igual de válida si encuentras mejor precio. Lo que no te perdona un curso entero es quedarte corto de RAM o de disco.
+Para programar en DAW en 2026, el portátil que yo compraría es **cualquiera con 16 GB de RAM, SSD de 512 GB, un Ryzen 5/i5 reciente, Windows 11 y teclado español**. Si eso te cuadra y el precio está entre 500 y 650€, no le des más vueltas. Mi recomendación concreta es el Acer Aspire Go 15, que está en stock ahora mismo, y el Lenovo IdeaPad Slim 3 Gen 10 es igual de válido si vuelve a estar disponible a buen precio. Lo que no te perdona un curso entero es quedarte corto de RAM o de disco.
 
 Si estás montando tu equipo completo, échale un ojo a la [guía del setup para programar por 500€](/articulos/guias/setup-completo-programar-500-euros/), donde tienes teclado, ratón, monitor y silla con precios reales, y a la [lista de auriculares con cancelación de ruido](/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/) por si estudias en sitios con jaleo. El portátil es la base; el resto lo vas montando poco a poco.
