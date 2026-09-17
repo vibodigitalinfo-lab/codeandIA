@@ -97,4 +97,4 @@ Me quedo con **Zed como editor principal** para proyectos propios y prácticas d
 
 Para el **proyecto final de curso** (donde el profe exige IntelliJ para Java y a veces Windows nativo), sigo usando IntelliJ + Copilot. No es religión: es usar la herramienta que menos fricción pone ese día.
 
-¿Lo has probado en Windows preview? Cuéntame en comentarios si la experiencia merece la pena o sigues en VS Code/IntelliJ.
+¿Lo has probado en Windows preview? Cuéntame por email (ivan@codeandia.com) si la experiencia merece la pena o sigues en VS Code/IntelliJ.

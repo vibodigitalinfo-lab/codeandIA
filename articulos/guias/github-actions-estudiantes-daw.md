@@ -291,4 +291,4 @@ jobs:
 
 GitHub Actions no es solo para empresas. **Es la herramienta que separa "funciona en mi máquina" de "funciona"**. Si estás en DAW y todavía no tienes un workflow básico, créalo hoy — te va a ahorrar un dolor de cabeza en el examen.
 
-¿Ya usas GitHub Actions en tus proyectos? ¿Tienes algún workflow que te haya salvado la vida? Cuéntame en comentarios.
+¿Ya usas GitHub Actions en tus proyectos? ¿Tienes algún workflow que te haya salvado la vida? Cuéntame por email (ivan@codeandia.com).

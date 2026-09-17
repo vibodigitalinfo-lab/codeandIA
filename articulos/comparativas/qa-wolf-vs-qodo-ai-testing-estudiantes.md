@@ -106,4 +106,4 @@ Antes de pagar nada, **esto ya está en tu stack**:
 
 **Conclusión**: para estudiante de DAW, **QA Wolf no tiene sentido** (precio, enfoque producción). **Qodo sí**: PR-Agent es open source, el plugin IDE genera tests unitarios reales, y el trial de 14 días te da para evaluar si el plan Team ($30/mes equipo) compensa. Empieza por PR-Agent en tu repo de prácticas y verás el valor en el primer PR.
 
-¿Has probado PR-Agent en tus prácticas? Deja en comentarios qué tal te fue generando tests para Spring Boot / Node / Python.
+¿Has probado PR-Agent en tus prácticas? Cuéntame por email (ivan@codeandia.com) qué tal te fue generando tests para Spring Boot / Node / Python.

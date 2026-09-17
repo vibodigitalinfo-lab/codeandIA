@@ -128,4 +128,4 @@ No es religión: es **usar la herramienta que menos fricción pone ese día**. C
 
 ---
 
-¿Usas Continue con Ollama? ¿Has probado Cursor agent vs Copilot agent en prácticas? Cuéntame en comentarios tu flujo y coste real.
+¿Usas Continue con Ollama? ¿Has probado Cursor agent vs Copilot agent en prácticas? Cuéntame por email (ivan@codeandia.com) tu flujo y coste real.

@@ -184,4 +184,4 @@ claude "añade health check endpoint en /actuator/health con detalles de BD y Ka
 
 Si tienes $20/mes y curiosidad, **prueba Claude Code una semana**. Si no te cambia el flujo, cancela. Si te lo cambia, ya sabes el coste real.
 
-¿Lo has probado? Comparte en comentarios tu tarea más loca con Dynamic Workflows.
+¿Lo has probado? Comparte por email (ivan@codeandia.com) tu tarea más loca con Dynamic Workflows.

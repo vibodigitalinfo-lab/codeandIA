@@ -231,4 +231,39 @@ permalink: /ofertas/
   </details>
 </section>
 
+<!-- Datos estructurados: FAQ de ofertas -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Los enlaces de afiliado me cuestan más?",
+      "acceptedAnswer": { "@type": "Answer", "text": "No. El precio es exactamente el mismo para ti. Yo gano una pequeña comisión si compras a través de mis enlaces, lo que me ayuda a mantener el blog sin poner publicidad molesta." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuándo son las mejores ofertas?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Black Friday (último viernes de noviembre) y Navidad (diciembre) son las épocas con mejores descuentos en productos tech. También hay ofertas en Amazon Prime Day (julio) y rebajas de temporada." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo sé si una oferta es real?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Todos los precios que muestro son verificados en la fecha indicada. Los enlaces van directos al producto (no a búsquedas). Si un enlace no funciona o la oferta ha expirado, lo actualizo lo antes posible." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Recomiendas algún producto específicamente?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Todos los productos que menciono son los que yo usaría o uso. No vendo lo que no probaría. En cada artículo doy mi opinión honesta con pros y contras." }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Los precios incluyen IVA y envío?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Los precios mostrados son los que aparecen en la web del vendedor en la fecha indicada. En Amazon España el IVA está incluido." }
+    }
+  ]
+}
+</script>
+
 </div>

@@ -14,6 +14,7 @@ Guía maestra. Todo artículo publicado DEBE pasar el checklist de abajo.
 | Date | Se recalcula al publicar. Hoy SIEMPRE es el último artículo. Nunca fechas futuras |
 | Sin H1 duplicados | Verificar con grep antes de publicar |
 | Enlaces externos | Verificar HTTP antes de publicar. URLs canónicas (no `www.x` si funciona sin `www`) |
+| Cierre / CTA final | Invitar a escribir a `ivan@codeandia.com`. PROHIBIDO "cuéntame en comentarios": el blog no tiene sistema de comentarios |
 
 ---
 

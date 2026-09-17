@@ -168,4 +168,4 @@ Mi consejo: úsalas como acelerador, no como sustituto. Primero intenta hacer la
 
 La IA está cambiando la forma en que programamos, y estas 7 herramientas son prueba de eso. Automatizar tareas aburridas no es pereza, es ser eficiente. El tiempo que ahorras en commits y documentación lo puedes dedicar a aprender nuevas tecnologías o a crear proyectos más ambiciosos.
 
-¿Usáis alguna de estas herramientas? ¿Conocéis alguna que me haya dejado fuera? Compartid en los comentarios, siempre buscamos nuevas formas de ser más productivos.
+¿Usáis alguna de estas herramientas? ¿Conocéis alguna que me haya dejado fuera? Compartid por email (ivan@codeandia.com), siempre buscamos nuevas formas de ser más productivos.

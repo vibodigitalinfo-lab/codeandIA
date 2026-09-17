@@ -151,4 +151,4 @@ No sugieras cambios de estilo, solo lógica."
 
 ---
 
-¿Cuál de estos errores te suena familiar? ¿Has cometido alguno que no está en la lista? Cuéntame en comentarios — seguro que entre todos sacamos una lista de 20 errores comunes.
+¿Cuál de estos errores te suena familiar? ¿Has cometido alguno que no está en la lista? Cuéntame por email (ivan@codeandia.com) — seguro que entre todos sacamos una lista de 20 errores comunes.

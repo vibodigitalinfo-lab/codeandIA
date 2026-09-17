@@ -149,4 +149,4 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 
 Si tienes Student Pack, **activa Copilot Pro y prueba Agent Mode esta tarde**. Cuesta $0 y en 30 min sabes si te cambia el flujo. Si no tienes Student Pack, $10/mes es bajo riesgo.
 
-¿Lo has probado? Comparte en comentarios tu caso de uso más loco con Agent Mode.
+¿Lo has probado? Comparte por email (ivan@codeandia.com) tu caso de uso más loco con Agent Mode.

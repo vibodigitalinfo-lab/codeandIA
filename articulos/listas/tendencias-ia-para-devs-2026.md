@@ -196,4 +196,4 @@ La IA no va a quitarte el trabajo. **Va a quitarle el trabajo a quien no la sepa
 
 ---
 
-¿Ya usas alguna de estas tendencias en tus proyectos? ¿Cuál te llama más la atención? Cuéntame en comentarios qué herramienta vas a probar primero.
+¿Ya usas alguna de estas tendencias en tus proyectos? ¿Cuál te llama más la atención? Cuéntame por email (ivan@codeandia.com) qué herramienta vas a probar primero.
