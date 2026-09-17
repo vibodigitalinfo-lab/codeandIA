@@ -1,15 +1,35 @@
 {% include newsletter.html %}
 
 <footer class="footer">
-  <div class="footer-inner">
-    <a href="{{ "/" | relative_url }}" class="logo logo-small">
-      <span class="logo-code">code</span><span class="logo-ia">andIA</span>
-    </a>
-    <p class="footer-note">Algunos enlaces de este sitio son de afiliado: si compras a través de ellos, puede que reciba una pequeña comisión sin coste extra para ti.</p>
-    <div class="footer-links">
-      <a href="{{ "/aviso-legal/" | relative_url }}">Aviso legal</a>
-      <a href="{{ "/privacidad/" | relative_url }}">Privacidad</a>
-      <span class="footer-credit">© {{ "now" | date: "%Y" }} codeandIA</span>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="{{ "/" | relative_url }}" class="logo logo-small">
+          <span class="logo-code">code</span><span class="logo-ia">andIA</span>
+        </a>
+        <p class="footer-note">Reviews honestas y guías de herramientas de IA para programadores. Probado a mano, sin humo y con precios reales en España.</p>
+        <a class="footer-mail" href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
+      </div>
+
+      <nav class="footer-col" aria-label="Secciones">
+        <h3 class="footer-col-title">Explorar</h3>
+        <a href="{{ "/articulos/" | relative_url }}">Artículos</a>
+        <a href="{{ "/ofertas/" | relative_url }}">Ofertas</a>
+        <a href="{{ "/" | relative_url }}#herramientas">Herramientas</a>
+        <a href="{{ "/" | relative_url }}#metodologia">Cómo lo pruebo</a>
+      </nav>
+
+      <nav class="footer-col" aria-label="Enlaces legales">
+        <h3 class="footer-col-title">Legal</h3>
+        <a href="{{ "/aviso-legal/" | relative_url }}">Aviso legal</a>
+        <a href="{{ "/privacidad/" | relative_url }}">Privacidad</a>
+        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-note">Algunos enlaces de este sitio son de afiliado: si compras a través de ellos, puede que reciba una pequeña comisión sin coste extra para ti.</p>
+      <p class="footer-credit">© {{ "now" | date: "%Y" }} codeandIA</p>
     </div>
   </div>
 </footer>
