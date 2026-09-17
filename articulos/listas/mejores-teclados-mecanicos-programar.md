@@ -8,6 +8,26 @@ readtime: 8
 affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
+updated: 2026-09-18
+picks:
+  - name: "Keychron V1 Max"
+    price: "137,99€"
+    best_for: "Mejor calidad-precio para empezar"
+    url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
+    badge: "Mi pick"
+  - name: "Royal Kludge RK84ES"
+    price: "67,99€"
+    best_for: "El más barato que vale la pena"
+    url: "https://www.amazon.es/dp/B0GVJRGLHX?tag=codeandia-21"
+  - name: "Keychron Q1 Pro"
+    price: "~170€"
+    best_for: "Sin compromisos (gasket mount + aluminio)"
+  - name: "Logitech MX Keys S"
+    price: "~120€"
+    best_for: "Quien odia el ruido (low-profile)"
+  - name: "AULA F75"
+    price: "~70€"
+    best_for: "Budget con buen acabado sin mods"
 ---
 
 Llevo más de 8 horas al día escribiendo código. Cuando cambia mi teclado, cambia todo. La velocidad, la fatiga, incluso la claridad mental.

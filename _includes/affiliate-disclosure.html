@@ -1,0 +1,11 @@
+{% assign tiene_afiliado = false %}
+{% if page.affiliate_url %}{% assign tiene_afiliado = true %}{% endif %}
+{% if page.content contains 'tag=codeandia-21' %}{% assign tiene_afiliado = true %}{% endif %}
+{% if page.content contains 'namecheap.pxf.io' %}{% assign tiene_afiliado = true %}{% endif %}
+{% if page.content contains 'hostinger.com' %}{% assign tiene_afiliado = true %}{% endif %}
+{% if tiene_afiliado %}
+<aside class="affiliate-disclosure">
+  <span class="affiliate-disclosure-tag">Transparencia</span>
+  <p>Algunos enlaces de este artículo son de afiliado: si compras a través de ellos me llevo una comisión <strong>sin coste extra para ti</strong> y el blog sigue gratis. Solo recomiendo lo que he probado. <a href="{{ '/privacidad/' | relative_url }}">Más información</a>.</p>
+</aside>
+{% endif %}

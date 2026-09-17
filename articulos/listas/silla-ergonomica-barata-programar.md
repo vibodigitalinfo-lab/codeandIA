@@ -8,6 +8,25 @@ readtime: 8
 affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
+updated: 2026-09-18
+picks:
+  - name: "SIHOO Doro C300"
+    price: "326,99€"
+    best_for: "La que más ayuda en jornadas largas"
+    url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
+    badge: "Mi pick"
+  - name: "IKEA Markus"
+    price: "~200€"
+    best_for: "El clásico con menos riesgo"
+  - name: "Clatina Mellet"
+    price: "~230€"
+    best_for: "Reposacabezas incluido"
+  - name: "Amazon Basics Ergonomic"
+    price: "~170€"
+    best_for: "La más barata que sirve"
+  - name: "Ticova Ergonomic"
+    price: "~280€"
+    best_for: "Reclinación 135° para pensar"
 ---
 
 Me pasó a finales de 2024. Llevaba tres meses de curso de Desarrollo de Aplicaciones Web (DAW) y empecé a notar un dolor punzante en la zona lumbar a mitad de la tarde. Me eché seis horas seguidas aprendiendo JavaScript en una silla de cocina. Error de novato.
