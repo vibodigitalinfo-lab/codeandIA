@@ -17,15 +17,15 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 3 | Guía | Cómo preparar exámenes prácticos de DAW con IA (sin copiar) | ✅ Publicado (commit previo) | `preparar-examenes-practicos-daw-con-ia`. |
 | 4 | Lista | Alternativas gratis a Cursor que sí merecen la pena en 2026 | ✅ Publicado 2026-09-13 | Cubierto parcialmente: `continue-dev-vs-cursor-2026` + `zed-editor-ia-review-2026`. Faltan Windsurf/Trae/Codeium. |
 | 5 | Comparativa | Vercel vs Netlify vs GitHub Pages: dónde publicar gratis | ✅ Publicado 2026-09-13 | `vercel-vs-netlify-vs-github-pages-2026`. Sin hostinger (es gratis vs hosting). |
-| 6 | Guía | Qué hosting eligen los estudiantes de DAW: barato y fiable | **Sí (Hostinger)** | Alto potencial SEO. Recomendar hostinger.com/domains. |
+| 6 | Guía | Qué hosting eligen los estudiantes de DAW: barato y fiable | ✅ Publicado 2026-09-16 | `que-hosting-elegir-estudiantes-daw-2026`. Afiliado Hostinger. Alto potencial SEO. |
 | 7 | Lista | Los 8 prompts que me salvan el curso de DAW | ✅ Publicado (commit previo) | `8-prompts-programacion-daw-2026`. |
 | 8 | Comparativa | Cursor vs VS Code con IA: ¿sigue mereciendo cambiar? | ✅ Publicado (commit previo) | `cursor-vs-vscode-con-ia-2026`. |
-| 9 | Comparativa | GPT-5 vs Claude: qué modelo da mejor código en 2026 | No | Modelos nuevos = SEO. |
+| 9 | Comparativa | GPT-5 vs Claude: qué modelo da mejor código en 2026 | ✅ Publicado 2026-09-15 | `gpt-5-vs-claude-para-programar-2026`. SWE-bench Pro + Terminal-Bench, planes gratis. |
 | 10 | Guía | Cómo montar tu portfolio y que te dé prácticas de DAW | No | Continuación del portfolio-ia. |
 | 11 | Guía | Notion + IA para apuntes de DAW: mi sistema real | ✅ Publicado 2026-09-13 | `nocion-ia-apuntes-daw`: 3 BDs + plantilla + prompts. Avisa del add-on $10. |
 | 12 | Lista | 7 extensiones de IA para VSCode que uso a diario | ✅ Publicado 2026-09-13 | `extensiones-ia-vscode-estudiantes-2026`: 7 + la que quité (Tabnine). |
 | 13 | Comparativa | Hostinger vs Netlify para tu primer proyecto de DAW | **Sí (Hostinger)** | Hosting de pago vs gratis. |
-| 14 | Review | DeepSeek review: el modelo gratuito que está cambiando todo | No | Modelo nuevo. |
+| 14 | Review | DeepSeek review: el modelo gratuito que está cambiando todo | ✅ Publicado 2026-09-13 | `deepseek-review-2026-modelo-gratuito-codigo`. V4.1-Flash, API barata, privacidad. |
 | 15 | Guía | Cómo configurar GitHub Copilot en IntelliJ (para Java/DAW) | ✅ Publicado (commit previo) | `github-copilot-intellij-java-daw`. |
 | 23 | Review | Trae AI IDE 2026: el editor de ByteDance que quiere comerse a Cursor | ✅ Publicado 2026-09-09 | `trae-ai-ide-review-2026`: agente Builder gratis, Doubao. affiliate trae.ai. |
 | 24 | Comparativa | Ollama vs LM Studio vs Jan: gestores de modelos locales | ✅ Publicado 2026-09-10 | `ollama-vs-lm-studio-vs-jan-2026`: rendimiento, integración IDE, privacidad. |
@@ -33,7 +33,9 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 26 | Guía | De prácticas a primer curro con IA | ✅ Publicado 2026-09-12 | `de-practicas-a-primer-curro-con-ia`: entrevistas técnicas, live coding, system design. |
 | 27 | Lista | 7 errores que cometí programando con IA | ✅ Publicado 2026-09-13 | `errores-comunes-programando-con-ia`: confiar ciegamente, sin contexto, prompts sin guardar. |
 | 28 | Lista | 5 tendencias de IA que ya usan los devs senior | ✅ Publicado 2026-09-14 | `tendencias-ia-para-devs-2026`: agentes autónomos, MCP, modelos locales, AI testing, code review auto. |
+| 29 | Lista | Auriculares con cancelación de ruido para estudiar y programar | ✅ Publicado 2026-09-14 | `auriculares-cancelacion-ruido-estudiar-programar`. Amazon.es, 36-100€: Q20i, Sony CH720N, JBL 770NC, Space One. |
+| 30 | Guía | Qué portátil comprar para estudiar DAW en 2026 | ✅ Publicado 2026-09-17 | `que-portatil-comprar-estudiar-daw-2026`. Amazon.es, 500-650€: i5/Ryzen 5, 16 GB, SSD 512 GB. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
-**Cuando el blog llegue a 30:** introducir artículos con productos Amazon en categorías Lista/Guía.
+**Cuando el blog llegue a 30:** introducir artículos con productos Amazon en categorías Lista/Guía. *(Ya superado: el blog va por 65 artículos y las Listas/Guías con Amazon son una sección fija.)*

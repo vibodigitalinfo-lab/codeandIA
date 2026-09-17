@@ -3,7 +3,7 @@ layout: article
 title: "Cómo usar IA en la terminal siendo estudiante de DAW: Claude Code, Copilot CLI y Ollama"
 description: "Guía paso a paso para integrar IA en tu terminal: instalar y configurar Claude Code, GitHub Copilot CLI y modelos locales con Ollama. Casos reales de prácticas DAW."
 category: "Guía"
-date: 2026-09-02
+date: 2026-08-29
 readtime: 8
 ---
 
