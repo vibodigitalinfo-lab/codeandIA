@@ -177,4 +177,4 @@ Tienes **Actions minutes gratis (2k/mes)** para buildar donde quieras. El deploy
 
 Yo tengo **los tres configurados**. Cada repo sabe a dónde va. No hay drama.
 
-¿En cuál tienes deployado tu portfolio? Cuéntame en comentarios si te has encontrado límites que no esperabas.
+¿En cuál tienes deployado tu portfolio? Cuéntame por email (ivan@codeandia.com) si te has encontrado límites que no esperabas.

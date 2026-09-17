@@ -162,4 +162,4 @@ Refactorizar código legacy sigue siendo duro, pero la IA lo hace mucho más man
 
 Lo más importante: la IA es una herramienta, no un sustituto de tu criterio como programador. Siempre revisa los cambios, siempre prueba, y siempre entiende lo que estás haciendo antes de aplicar.
 
-¿Habéis probado alguna de estas herramientas para refactorizar? ¿Cuál es vuestra experiencia? Compartid en los comentarios, siempre es bueno comparar notas.
+¿Habéis probado alguna de estas herramientas para refactorizar? ¿Cuál es vuestra experiencia? Compartid por email (ivan@codeandia.com), siempre es bueno comparar notas.

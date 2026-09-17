@@ -128,7 +128,7 @@ Si arreglan 1, 2 y 3 en los próximos 3 meses, **me planto en Trae para todo lo 
 
 ---
 
-¿Has probado Trae? ¿Te has encontrado con lo de los checkpoints o la UX china? Cuéntame en comentarios tu experiencia y si te compensa el cambio.
+¿Has probado Trae? ¿Te has encontrado con lo de los checkpoints o la UX china? Cuéntame por email (ivan@codeandia.com) tu experiencia y si te compensa el cambio.
 
 ---
 

@@ -110,7 +110,7 @@ El Black Friday es una oportunidad, no una obligación. Compra con cabeza, no co
 
 ---
 
-¿Qué es lo que tú necesitas realmente para tu setup este Black Friday? ¿Te animas a esperar o prefieres comprarlo ya y no complicarte? Cuéntame en comentarios.
+¿Qué es lo que tú necesitas realmente para tu setup este Black Friday? ¿Te animas a esperar o prefieres comprarlo ya y no complicarte? Cuéntame por email (ivan@codeandia.com).
 
 ---
 

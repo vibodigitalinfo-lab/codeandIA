@@ -162,4 +162,4 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 
 Mi consejo: **prueba las tres versiones gratis esta tarde**. En 30 min cada una sabrás cuál "te habla". La IA no te va a escribir el portfolio por ti, pero te quita el síndrome de la pantalla en blanco y el CSS que no centra el div.
 
-¿Cuál has probado? ¿Qué generaste? Deja en comentarios tu prompt y el resultado.
+¿Cuál has probado? ¿Qué generaste? Cuéntame por email (ivan@codeandia.com) tu prompt y el resultado.

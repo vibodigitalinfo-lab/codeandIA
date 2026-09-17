@@ -195,4 +195,4 @@ Después damelo a mí para que lo intente.
 
 ---
 
-¿Estás buscando prácticas o tu primer curro? ¿Qué parte de la entrevista técnica te da más nervios? Cuéntame en comentarios y te doy algún consejo más específico.
+¿Estás buscando prácticas o tu primer curro? ¿Qué parte de la entrevista técnica te da más nervios? Cuéntame por email (ivan@codeandia.com) y te doy algún consejo más específico.

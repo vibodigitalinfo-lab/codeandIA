@@ -156,4 +156,4 @@ Cuando necesito una segunda opinión en Java, escribo `ai "¿por qué falla este
 
 ---
 
-¿Ya usas un gestor de modelos locales? ¿Te has decantado por uno o combinas varios como yo? Cuéntame en comentarios qué modelos cargas y para qué los usas.
+¿Ya usas un gestor de modelos locales? ¿Te has decantado por uno o combinas varios como yo? Cuéntame por email (ivan@codeandia.com) qué modelos cargas y para qué los usas.

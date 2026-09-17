@@ -222,4 +222,4 @@ Si te montas algo parecido, **empieza simple**: una base de datos `Temas`, una p
 
 ---
 
-¿Usas Notion para clase? ¿Qué plantillas o prompts te funcionan? Déjame en comentarios tu setup.
+¿Usas Notion para clase? ¿Qué plantillas o prompts te funcionan? Cuéntame por email (ivan@codeandia.com) tu setup.

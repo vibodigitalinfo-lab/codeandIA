@@ -122,4 +122,4 @@ No hay un regalo universal. Depende de la persona.
 
 Si solo puedes regalar uno, yo iría con el **Keychron V1 Max**. Es el que mejor combina precio, calidad y utilidad diaria. Si tu presupuesto es más ajustado, el **RK84** es la apuesta segura.
 
-¿Qué regalo le harías tú a un programador que lo tiene todo? ¿Te ha pasado como a mi prima y has acertado de casualidad? Cuéntame en comentarios.
+¿Qué regalo le harías tú a un programador que lo tiene todo? ¿Te ha pasado como a mi prima y has acertado de casualidad? Cuéntame por email (ivan@codeandia.com).

@@ -243,4 +243,4 @@ MCP no es "otra cosa que aprender". Es **la capa que hace que el resto de herram
 
 En 2026, **saber MCP es tan básico como saber Docker o GitHub Actions**. No porque sea obligatorio hoy, sino porque dentro de 6 meses **todas las herramientas de IA lo usarán por defecto** y quien no lo entienda irá a remolque.
 
-¿Has montado algún servidor MCP para tu stack? Cuéntalo en comentarios y lo enlazo.
+¿Has montado algún servidor MCP para tu stack? Cuéntalo por email (ivan@codeandia.com) y lo enlazo.

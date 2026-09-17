@@ -267,4 +267,4 @@ Montar un setup de desarrollo en macOS parece una odisea al principio, pero una 
 
 Lo que más me gusta de macOS para programar es la estabilidad y la integración con herramientas Unix. Si vienes de Windows, la curva de aprendizaje es real, pero una vez que te acostumbras, es difícil volver.
 
-¿Tenéis algún tip o herramienta que no pueda faltar en un setup de macOS? Compartidlo en los comentarios, seguro que a alguien le viene genial.
+¿Tenéis algún tip o herramienta que no pueda faltar en un setup de macOS? Compartidlo por email (ivan@codeandia.com), seguro que a alguien le viene genial.

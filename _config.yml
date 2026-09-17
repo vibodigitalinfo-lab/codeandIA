@@ -23,3 +23,6 @@ exclude:
   - README.md
   - PROMPT.md
   - prompts   # templates internos del pipeline; no deben publicarse como páginas
+  - scripts   # scripts internos, no son contenido del sitio
+  - fix_dates.py
+  - "*.py"

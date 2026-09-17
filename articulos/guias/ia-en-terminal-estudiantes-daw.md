@@ -182,4 +182,4 @@ La IA en terminal **no sustituye saber bash/git/docker**. Te quita la fricción 
 
 ---
 
-¿Qué herramienta te llama más? Si ya usas alguna en terminal, cuéntame en comentarios tu alias o flujo favorito.
+¿Qué herramienta te llama más? Si ya usas alguna en terminal, cuéntame por email (ivan@codeandia.com) tu alias o flujo favorito.

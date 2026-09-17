@@ -250,4 +250,4 @@ Sin reglas, Cursor es un junior entusiasta que a veces acierta y a veces la lía
 
 Mi recomendación: empieza con **3-4 reglas Always/File-scoped** que cubran lo básico (stack, arquitectura, testing). Añade **Intelligent** para cosas transversales. Cuando Cursor falle en algo repetido, **escribe una regla para ese caso**. En dos semanas tienes un "manual de estilo ejecutable" que te ahorra revisar PRs propios.
 
-¿Tienes reglas que te hayan salvado la vida? Compártelas en comentarios y las añado al artículo.
+¿Tienes reglas que te hayan salvado la vida? Compártelas por email (ivan@codeandia.com) y las añado al artículo.
