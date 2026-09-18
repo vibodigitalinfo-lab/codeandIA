@@ -640,6 +640,9 @@ a {
 
 .article-card-readtime {
   margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
 }
 
 /* ============ Grid de artículos ============ */

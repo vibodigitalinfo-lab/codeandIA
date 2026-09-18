@@ -32,11 +32,16 @@ permalink: /ofertas/
         <circle cx="500" cy="150" r="320" fill="url(#setupGlow)"/>
         <rect class="setup-floor" x="0" y="566" width="1000" height="74"/>
         <g class="setup-part" data-part="silla">
-          <rect x="146" y="148" width="78" height="62" rx="24" fill="#33333f"/>
-          <rect x="118" y="196" width="134" height="252" rx="32" fill="#3a3a46"/>
-          <rect x="150" y="228" width="70" height="150" rx="16" fill="#2f2f3a"/>
-          <rect x="252" y="326" width="48" height="16" rx="8" fill="#2b2b35"/>
-          <rect x="262" y="326" width="10" height="74" rx="5" fill="#2b2b35"/>
+          <rect x="258" y="318" width="36" height="152" rx="16" fill="#33333f"/>
+          <rect x="254" y="290" width="44" height="26" rx="12" fill="#3a3a46"/>
+          <rect x="292" y="394" width="16" height="58" rx="8" fill="#3a3a46"/>
+          <rect x="282" y="470" width="150" height="26" rx="13" fill="#2f2f3a"/>
+          <rect x="342" y="392" width="44" height="10" rx="4" fill="#2b2b35"/>
+          <rect x="360" y="392" width="10" height="78" rx="5" fill="#2b2b35"/>
+          <rect x="360" y="496" width="14" height="34" rx="6" fill="#33333f"/>
+          <rect x="290" y="540" width="150" height="12" rx="6" fill="#3a3a46"/>
+          <circle cx="304" cy="556" r="9" fill="#2a2a34"/>
+          <circle cx="426" cy="556" r="9" fill="#2a2a34"/>
         </g>
         <g class="setup-part" data-part="escritorio">
           <rect x="150" y="396" width="20" height="176" rx="8" fill="#4a4a58"/>
