@@ -3,7 +3,7 @@ layout: article
 title: "Keychron Q1 Max review: el teclado mecánico que yo usaría para programar en 2026"
 description: "Review completa del Keychron Q1 Max: gasket mount, wireless, QMK y switches K Pro. Si vale la pena para programar y cuánto cuesta en Amazon."
 category: "Review"
-date: 2026-09-11
+date: 2026-09-10
 readtime: 8
 affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está disponible en Amazon.es, por unos 138€"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
