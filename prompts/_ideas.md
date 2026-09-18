@@ -35,6 +35,12 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 18 | Lista | Ratón ergonómico para programadores: adiós al dolor de muñeca | ✅ Publicado 2026-07-17 | `raton-ergonomico-programadores`. Amazon.es, 45-90€. |
 | 19 | Lista | Silla ergonómica barata para programar desde casa (menos de 300€) | ✅ Publicado 2026-07-16 | `silla-ergonomica-barata-programar`. Amazon.es, 170-300€. |
 | 20 | Lista | Webcam para programar y hacer streaming de código en 2026 | ✅ Publicado 2026-07-15 | `webcam-programar-streaming`. Amazon.es, 60-160€. |
+| 31 | Guía | AGENTS.md: el fichero de instrucciones para IA | ✅ Publicado 2026-09-18 | `agents-md-guia-2026`. Estándar Linux Foundation (60k repos), Cursor/Copilot/Codex nativo, Claude Code con `@AGENTS.md`. Complementa `cursor-rules-configuracion-mdc-guia` sin redundancia. |
+| 32 | Guía | Tu primera app con la API de OpenAI en Python | ✅ Publicado 2026-09-18 | `primera-app-api-openai-python`. SDK, `gpt-5-mini`, explicador de errores, precios sept. 2026 (0,25$/2$ por 1M). Nicho virgen hasta ahora. |
+| 33 | Guía | Git con IA: mensajes de commit, rebase y blame asistidos | No | Nicho sin tocar. |
+| 34 | Guía | SQL y bases de datos con IA: aprende SQL practicando | No | Nicho sin tocar (ni una mención a SQL en el blog). |
+| 35 | Guía | RAG en local con Ollama: respuestas con tus apuntes | No | Complementa `ollama-modelos-ia-local-review-2026`. |
+| 36 | Lista | Prompt injection y seguridad en apps con LLM | No | Muy 2026, diferencia el blog. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
