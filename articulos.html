@@ -47,7 +47,7 @@ permalink: /articulos/
           <span class="article-card-category">{{ post.category }}</span>
           <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
           {% if post.readtime %}
-          <span class="article-card-readtime" style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted);">⏱ {{ post.readtime }} min</span>
+          <span class="article-card-readtime">⏱ {{ post.readtime }} min</span>
           {% endif %}
         </div>
       </a>
