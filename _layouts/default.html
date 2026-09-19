@@ -62,97 +62,14 @@
     })();
   </script>
 
-  <!-- Idioma: fija la cookie que entiende el widget de Google Translate antes de que cargue (evita parpadeo/idioma incorrecto) -->
+  <!-- Idioma: recupera la preferencia guardada antes de pintar (evita parpadeo) -->
   <script>
     (function () {
-      var lang = 'es';
       try {
-        var saved = localStorage.getItem('lang');
-        if (saved === 'en' || saved === 'es') lang = saved;
-        else localStorage.setItem('lang', lang);
+        if (localStorage.getItem('lang') === 'en') document.documentElement.lang = 'en';
       } catch (e) {}
-      document.cookie = 'googtrans=/es/' + lang + '; path=/; max-age=31536000; SameSite=Lax; Secure';
-      window.__siteLang = lang;
-      if (lang === 'en') document.documentElement.lang = 'en';
     })();
   </script>
-
-  <!-- Oculta de raíz la UI VISIBLE que Google Translate intenta inyectar (inline,
-       no cacheado, se aplica ANTES de que element.js se cargue).
-       IMPORTANTE: NO ocultar iframes de traducción internos, solo UI visible (banner, menú, tooltip).
-       Usamos selectores amplios con !important para cubrir variaciones de Google. -->
-  <style>
-    /* Contenedor del widget: existe en el DOM pero oculto */
-    #google_translate_element {
-      position: absolute !important;
-      left: -9999px !important;
-      top: -9999px !important;
-      width: 0 !important;
-      height: 0 !important;
-      overflow: hidden !important;
-      pointer-events: none !important;
-      display: none !important;
-    }
-
-    /* UI VISIBLE: banner superior, menú desplegable, tooltip/balloon, combo selector, gadget, spinner */
-    .goog-te-banner-frame,
-    .goog-te-banner,
-    .goog-te-banner-bottom,
-    .goog-te-balloon-frame,
-    .goog-te-menu-frame,
-    .goog-te-menu,
-    .goog-te-menu2,
-    .goog-te-menu2-frame,
-    .goog-te-combo,
-    .goog-te-gadget,
-    .goog-te-gadget-simple,
-    #goog-gt-tt,
-    .goog-te-spinner-pos,
-    .goog-te-spinner,
-    #goog-te-scroll-animation,
-    .goog-te-spinner-pos,
-    #goog-te-banner-frame,
-    #goog-te-menu-frame,
-    #goog-te-balloon-frame,
-    #goog-te-combo,
-    #goog-te-gadget,
-    div[id^="goog-gt-"],
-    div[id^="goog-te-"],
-    iframe[id^="goog-te-"],
-    iframe[class*="goog-te-"] {
-      display: none !important;
-      visibility: hidden !important;
-      opacity: 0 !important;
-      pointer-events: none !important;
-      width: 0 !important;
-      height: 0 !important;
-      max-height: 0 !important;
-      overflow: hidden !important;
-      position: absolute !important;
-      left: -9999px !important;
-      top: -9999px !important;
-      z-index: -1 !important;
-    }
-
-    /* Selectores de atributo para cubrir variaciones dinámicas */
-    [class*="goog-te-banner"],
-    [class*="goog-te-menu"],
-    [class*="goog-te-balloon"],
-    [class*="goog-te-combo"],
-    [class*="goog-te-gadget"],
-    [class*="goog-te-spinner"],
-    [id*="goog-te-"],
-    [id*="goog-gt-"] {
-      display: none !important;
-      visibility: hidden !important;
-      opacity: 0 !important;
-      pointer-events: none !important;
-    }
-
-    /* Evita que Google mueva el body hacia abajo para mostrar el banner */
-    html, body { top: 0 !important; min-height: 0 !important; }
-    body { margin-top: 0 !important; padding-top: 0 !important; }
-  </style>
 
   <!-- Datos estructurados: sitio + autor -->
   <script type="application/ld+json">
@@ -215,193 +132,16 @@
     })();
 
     
-    /* Selector de idioma ES/EN (recuerda la preferencia en localStorage y
-       la sincroniza con la cookie googtrans que entiende el widget de Google Translate) */
+    /* Selector de idioma ES/EN: alterna la traducción en sitio vía assets/translator.js (sin widget de Google) */
     (function () {
       var switcher = document.querySelector('.lang-switch');
       if (!switcher) return;
-
-      var current = 'es';
-      try {
-        var saved = localStorage.getItem('lang');
-        if (saved === 'en' || saved === 'es') current = saved;
-      } catch (e) {}
-
-      function render() {
-        switcher.querySelectorAll('.lang-btn').forEach(function (btn) {
-          var active = btn.getAttribute('data-lang') === current;
-          btn.classList.toggle('is-active', active);
-          btn.setAttribute('aria-pressed', active ? 'true' : 'false');
-        });
-      }
-
-      function setLang(lang) {
-        try {
-          localStorage.setItem('lang', lang);
-        } catch (e) {}
-        document.cookie = 'googtrans=/es/' + lang + '; path=/; max-age=31536000; SameSite=Lax';
-      }
-
       switcher.addEventListener('click', function (e) {
         var btn = e.target.closest('.lang-btn');
         if (!btn) return;
         var lang = btn.getAttribute('data-lang');
-        if (lang === current) return;
-        setLang(lang);
-        window.location.reload();
+        if (window.__tr) window.__tr.apply(lang);
       });
-
-      render();
-    })();
-
-    /* Mata solo la UI VISIBLE que inyecte el widget de Google Translate
-       (banner superior, tooltip al pasar el ratón, desplegables flotantes, combo selector, gadget, spinner).
-       PRESERVA el iframe interno de traducción (necesario para que funcione la traducción real).
-       El único control de idioma visible es el botón ES/EN de la navegación. */
-    (function () {
-      // Selectores de UI visible que SÍ queremos eliminar
-      var VISIBLE_UI_SELECTORS = [
-        // Banner (barra superior que dice "Translate this page")
-        '.goog-te-banner-frame', '.goog-te-banner', '.goog-te-banner-bottom',
-        // Menús y combos
-        '.goog-te-menu-frame', '.goog-te-menu', '.goog-te-menu2', '.goog-te-menu2-frame',
-        '.goog-te-combo',
-        // Gadget (el widget flotante con bandera)
-        '.goog-te-gadget', '.goog-te-gadget-simple',
-        // Tooltip/balloon al pasar ratón
-        '.goog-te-balloon-frame', '#goog-gt-tt',
-        // Spinners de carga
-        '.goog-te-spinner', '.goog-te-spinner-pos', '#goog-te-scroll-animation',
-        // IDs específicos
-        '#goog-te-banner-frame', '#goog-te-menu-frame', '#goog-te-balloon-frame', '#goog-te-combo', '#goog-te-gadget'
-      ].join(',');
-
-      // Selectores amplios para cualquier elemento con clases/IDs que contengan patrones de UI visible
-      var VISIBLE_UI_PATTERNS = [
-        '[class*="goog-te-banner"]',
-        '[class*="goog-te-menu"]',
-        '[class*="goog-te-balloon"]',
-        '[class*="goog-te-combo"]',
-        '[class*="goog-te-gadget"]',
-        '[class*="goog-te-spinner"]',
-        '[id*="goog-te-banner"]',
-        '[id*="goog-te-menu"]',
-        '[id*="goog-te-balloon"]',
-        '[id*="goog-te-combo"]',
-        '[id*="goog-te-gadget"]',
-        '[id*="goog-gt-"]'
-      ].join(',');
-
-      // Todos los selectores combinados para querySelectorAll
-      var ALL_VISIBLE_UI_SEL = VISIBLE_UI_SELECTORS + ',' + VISIBLE_UI_PATTERNS;
-
-      function isVisibleGoogleUI(el) {
-        if (!el || el.nodeType !== 1) return false;
-        var id = (el.id || '').toLowerCase();
-        var cls = (el.className && typeof el.className === 'string')
-          ? el.className.toLowerCase() : '';
-        var tag = el.tagName ? el.tagName.toLowerCase() : '';
-
-        // 1. Check clases/IDs de UI visible conocida
-        var visiblePatterns = [
-          'goog-te-banner', 'goog-te-menu', 'goog-te-balloon',
-          'goog-te-combo', 'goog-te-gadget', 'goog-te-spinner',
-          'goog-gt-tt', 'goog-te-scroll-animation'
-        ];
-        for (var i = 0; i < visiblePatterns.length; i++) {
-          if (id.indexOf(visiblePatterns[i]) !== -1 || cls.indexOf(visiblePatterns[i]) !== -1) {
-            return true;
-          }
-        }
-
-        // 2. Check iframes que SON UI visible (banner, menu, balloon)
-        // El iframe de TRADUCCIÓN real NO tiene estas clases, así que lo preservamos
-        if (tag === 'iframe') {
-          if (cls.indexOf('goog-te-banner') !== -1 ||
-              cls.indexOf('goog-te-menu') !== -1 ||
-              cls.indexOf('goog-te-balloon') !== -1) {
-            return true;
-          }
-          // Iframe sin clase conocida = podría ser el motor de traducción, NO lo toquemos
-        }
-
-        return false;
-      }
-
-      function purge() {
-        if (!document.body) return;
-
-        // 1. Elimina hijos directos de html y body que sean UI visible
-        var containers = [document.documentElement, document.body];
-        for (var c = 0; c < containers.length; c++) {
-          var kids = containers[c].children;
-          for (var i = kids.length - 1; i >= 0; i--) {
-            if (isVisibleGoogleUI(kids[i])) {
-              kids[i].parentNode && kids[i].parentNode.removeChild(kids[i]);
-            }
-          }
-        }
-
-        // 2. Busca y elimina UI visible en cualquier profundidad del DOM
-        var uiElems = document.querySelectorAll(ALL_VISIBLE_UI_SEL);
-        for (var j = 0; j < uiElems.length; j++) {
-          uiElems[j].parentNode && uiElems[j].parentNode.removeChild(uiElems[j]);
-        }
-
-        // 3. Restaura el desplazamiento de body que Google modifica
-        document.body.style.top = '0px';
-        document.body.style.minHeight = '0px';
-        document.documentElement.style.top = '0px';
-        document.documentElement.style.marginTop = '0px';
-        document.documentElement.style.paddingTop = '0px';
-      }
-
-      // Ejecución inicial inmediata
-      purge();
-
-      // MutationObserver con subtree:true para atrapar UI visible inyectada en cualquier profundidad
-      if (window.MutationObserver) {
-        var observer = new MutationObserver(function (mutations) {
-          var needsPurge = false;
-          for (var m = 0; m < mutations.length; m++) {
-            var added = mutations[m].addedNodes;
-            for (var n = 0; n < added.length; n++) {
-              var node = added[n];
-              if (isVisibleGoogleUI(node)) {
-                needsPurge = true;
-                break;
-              } else if (node.nodeType === 1 && node.querySelectorAll) {
-                // Si el nodo añadido contiene UI visible de Google, marcamos para purgar
-                var gElems = node.querySelectorAll(ALL_VISIBLE_UI_SEL);
-                if (gElems.length > 0) {
-                  needsPurge = true;
-                  break;
-                }
-              }
-            }
-            if (needsPurge) break;
-          }
-          if (needsPurge) {
-            purge();
-          }
-        });
-        observer.observe(document.documentElement, { childList: true, subtree: true });
-      }
-
-      // Fallback: revisión periódica los primeros 30s por si Google inyecta UI visible de forma asíncrona
-      var cleanupCount = 0;
-      var cleanupInterval = setInterval(function () {
-        purge();
-        cleanupCount++;
-        if (cleanupCount >= 30) clearInterval(cleanupInterval);
-      }, 1000);
-
-      // También al cargar completamente el DOM
-      if (document.readyState === 'complete') {
-        purge();
-      } else {
-        window.addEventListener('load', purge);
-      }
     })();
 
     /* Toggle de tema claro/oscuro (recuerda la preferencia en localStorage) */
@@ -446,37 +186,8 @@
     })();
   </script>
 
-  <!-- Traducción ES/EN vía Google Translate. Se carga SOLO cuando el usuario ha elegido
-       inglés (__siteLang === 'en'): en español (idioma por defecto) NO existe código de
-       Google Translate en la página, así que no hay widget, banner ni tooltip que aparezca.
-       Al pulsar EN/ES los botones de la navegación fijan localStorage + cookie googtrans y
-       recargan; en el <head> se exporta __siteLang y aquí se decide si montar el widget. -->
-  <script>
-    (function () {
-      if (window.__siteLang !== 'en') return; // idioma por defecto: sin rastro de Google Translate
-
-      var host = document.getElementById('google_translate_element');
-      if (!host) {
-        host = document.createElement('div');
-        host.id = 'google_translate_element';
-        host.setAttribute('aria-hidden', 'true');
-        document.body.appendChild(host);
-      }
-
-      window.googleTranslateElementInit = function () {
-        new google.translate.TranslateElement({
-          pageLanguage: 'es',
-          includedLanguages: 'es,en',
-          autoDisplay: false
-        }, 'google_translate_element');
-      };
-
-      var el = document.createElement('script');
-      el.type = 'text/javascript';
-      el.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-      document.body.appendChild(el);
-    })();
-  </script>
+  <!-- Traducción ES/EN invisible (sin widget ni rastro de Google): assets/translator.js -->
+  <script src="{{ "/assets/translator.js" | relative_url }}"></script>
 
 </body>
 </html>
