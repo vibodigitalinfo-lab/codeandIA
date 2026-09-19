@@ -3,7 +3,7 @@ layout: article
 title: "DeepSeek review 2026: el modelo gratuito que sigue dando guerra"
 description: "Mi review honesta de DeepSeek en 2026: qué incluye el plan gratis, cómo programa de verdad, precios de la API y la letra pequeña de la privacidad."
 category: "Review"
-date: 2026-09-12
+date: 2026-09-11
 readtime: 8
 ---
 
