@@ -3,7 +3,7 @@ layout: article
 title: "Los mejores auriculares con cancelación de ruido para estudiar en 2026"
 description: "Auriculares con cancelación de ruido para estudiar y programar: los que de verdad merecen la pena por menos de 100€, con precios reales en España."
 category: "Lista"
-date: 2026-09-13
+date: 2026-09-11
 readtime: 7
 affiliate_text: "El Soundcore Q20i es mi recomendación calidad-precio: ANC, 40 horas y USB-C por unos 36€"
 affiliate_url: "https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21"
