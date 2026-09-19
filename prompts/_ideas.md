@@ -38,8 +38,8 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 31 | Guía | AGENTS.md: el fichero de instrucciones para IA | ✅ Publicado 2026-09-18 | `agents-md-guia-2026`. Estándar Linux Foundation (60k repos), Cursor/Copilot/Codex nativo, Claude Code con `@AGENTS.md`. Complementa `cursor-rules-configuracion-mdc-guia` sin redundancia. |
 | 32 | Guía | Tu primera app con la API de OpenAI en Python | ✅ Publicado 2026-09-18 | `primera-app-api-openai-python`. SDK, `gpt-5-mini`, explicador de errores, precios sept. 2026 (0,25$/2$ por 1M). Nicho virgen hasta ahora. |
 | 33 | Guía | Git con IA: mensajes de commit, rebase y blame asistidos | No | Nicho sin tocar. |
-| 34 | Guía | SQL y bases de datos con IA: aprende SQL practicando | No | Nicho sin tocar (ni una mención a SQL en el blog). |
-| 35 | Guía | RAG en local con Ollama: respuestas con tus apuntes | No | Complementa `ollama-modelos-ia-local-review-2026`. |
+| 34 | Guía | SQL y bases de datos con IA: aprende SQL practicando | ✅ Publicado 2026-09-19 | `aprender-sql-con-ia-daw-2026`. Laboratorio SQLite/MySQL, 4 prompts que enseñan, 5 errores que te delatan. |
+| 35 | Guía | RAG en local con Ollama: respuestas con tus apuntes | ✅ Publicado 2026-09-19 | `rag-local-ollama-apuntes-2026`. nomic-embed-text + ChromaDB, 4 scripts, cruza con prompt injection (contexto no confiable). |
 | 36 | Guía | Prompt injection y seguridad en apps con LLM | ✅ Publicado 2026-09-19 | `prompt-injection-seguridad-apps-ia-2026`. OWASP GenAI LLM Top 10 2026 (LLM01), casos reales con MCP (Supabase service_role, postmark-mcp), 7 defensas. Cruza con guías de MCP y API OpenAI. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.

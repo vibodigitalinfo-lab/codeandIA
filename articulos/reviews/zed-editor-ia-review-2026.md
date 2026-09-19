@@ -3,7 +3,7 @@ layout: article
 title: "Zed Editor 2026: el editor en Rust con IA integrada, ¿alternativa real a VS Code y Cursor?"
 description: "Review honesta de Zed: rendimiento en Rust, IA nativa (Anthropic + modelos locales), colaboración en tiempo real, y si merece la pena para un estudiante de DAW."
 category: "Review"
-date: 2026-08-29
+date: 2026-08-27
 readtime: 7
 affiliate_text: "Prueba Zed gratis y decide si te cambia el flujo de edición"
 affiliate_url: "https://zed.dev"
