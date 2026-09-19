@@ -40,7 +40,7 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 33 | Guía | Git con IA: mensajes de commit, rebase y blame asistidos | No | Nicho sin tocar. |
 | 34 | Guía | SQL y bases de datos con IA: aprende SQL practicando | No | Nicho sin tocar (ni una mención a SQL en el blog). |
 | 35 | Guía | RAG en local con Ollama: respuestas con tus apuntes | No | Complementa `ollama-modelos-ia-local-review-2026`. |
-| 36 | Guía | Prompt injection y seguridad en apps con LLM | ✅ Publicado 2026-09-18 | `prompt-injection-seguridad-apps-ia-2026`. OWASP GenAI LLM Top 10 2026 (LLM01), casos reales con MCP (Supabase service_role, postmark-mcp), 7 defensas. Cruza con guías de MCP y API OpenAI. |
+| 36 | Guía | Prompt injection y seguridad en apps con LLM | ✅ Publicado 2026-09-19 | `prompt-injection-seguridad-apps-ia-2026`. OWASP GenAI LLM Top 10 2026 (LLM01), casos reales con MCP (Supabase service_role, postmark-mcp), 7 defensas. Cruza con guías de MCP y API OpenAI. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
