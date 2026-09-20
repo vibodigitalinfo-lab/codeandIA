@@ -4,7 +4,7 @@ title: "5 proyectos para tu portfolio de desarrollador que puedes hacer con IA e
 description: "5 proyectos portfolio desarrollador con IA rápido, probados por mí, para tener algo real que mostrar el lunes."
 category: "Lista"
 date: 2026-07-29
-readtime: 8
+readtime: 6
 affiliate_text: "Publica tu portfolio en minutos con Hostinger"
 affiliate_url: "https://www.hostinger.com"
 affiliate_label: "Prueba Hostinger"
@@ -49,3 +49,4 @@ Aquí es donde mucha gente se atasca más que en el propio código: tener el pro
 La IA no te hace mejor programador solo por usarla, eso lo tengo claro después de estos fines de semana. Lo que hace es quitarte el tiempo muerto de escribir boilerplate para que lo inviertas en entender la lógica, en probar cosas raras y en pulir detalles que sí se notan en una entrevista. Cursor me ha cambiado la forma de trabajar porque veo el contexto completo del proyecto mientras escribo, no fragmentos sueltos como en un chat normal, y eso hace que las sugerencias tengan más sentido.
 
 Si tuviera que elegir uno solo de estos cinco para empezar, iría directo al asistente con IA integrada, porque hoy en día enseña que sabes moverte con las herramientas que se van a usar en cualquier empresa, no solo que sabes copiar sintaxis de un tutorial de YouTube.
+

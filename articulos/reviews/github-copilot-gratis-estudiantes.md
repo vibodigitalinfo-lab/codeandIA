@@ -4,6 +4,7 @@ title: "GitHub Copilot gratis para estudiantes: cómo activarlo y si realmente f
 description: "GitHub Copilot gratis para estudiantes existe y es real. Te cuento cómo activarlo y si vale la pena después de usarlo varios meses en clase."
 category: "Review"
 date: 2026-07-15
+readtime: 5
 affiliate_text: "Prueba GitHub Copilot gratis con el Student Developer Pack"
 affiliate_url: "https://education.github.com/pack"
 affiliate_label: "Activar Copilot gratis"
@@ -50,3 +51,4 @@ Si estás estudiando programación y tienes acceso al Student Pack, sería absur
 Lo que no haría es depender de él desde el primer día sin tener ninguna base. Los primeros meses de DAW aprendí más cuando me peleé con el código sin ayuda que cuando lo dejé escribir solo. Después de tener esa base, Copilot pasa de ser un muleta a ser una ventaja real.
 
 Si quieres probarlo, el punto de entrada es el [GitHub Student Developer Pack](https://education.github.com/pack). El proceso de solicitud es sencillo y si tienes correo educativo, normalmente lo aprueban rápido. Merece la pena hacerlo ya.
+

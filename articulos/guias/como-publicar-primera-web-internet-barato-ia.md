@@ -4,7 +4,7 @@ title: "Cómo publicar tu primera web en internet por menos de 5€ con IA"
 description: "Te cuento cómo publiqué mi primera web en internet barato con IA gastando menos de 5€, paso a paso y con errores incluidos."
 category: "Guía"
 date: 2026-07-23
-readtime: 8
+readtime: 6
 affiliate_text: "Si quieres alojar tu proyecto sin complicarte, yo usé Hostinger y me fue bien"
 affiliate_url: "https://www.hostinger.com"
 affiliate_label: "Probar Hostinger"
@@ -39,3 +39,4 @@ Con el dominio ya apuntando bien, subí mi proyecto por FTP usando FileZilla, qu
 Si tuviera que repetirlo, contrataría el hosting por 12 meses en vez de por 1, porque el precio mensual baja bastante y al final pagas menos en total aunque desembolses más de golpe. También esperaría a tener el proyecto un poco más pulido antes de publicarlo, porque en cuanto subí la web me dio vergüenza que un profesor la viera con el diseño a medias que tenía. Pero de eso va esto: aprender publicando de verdad, no simulando en local para siempre.
 
 Si estás en la misma situación que yo hace un mes, con un proyecto guardado esperando a que le tengas menos miedo al despliegue, te diría que el bloqueo suele ser mental, no técnico ni económico. Por menos de 5€ puedes tener tu propia web real en internet este mismo fin de semana.
+

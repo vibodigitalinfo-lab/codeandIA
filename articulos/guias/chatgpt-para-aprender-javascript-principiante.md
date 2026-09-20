@@ -4,7 +4,7 @@ title: "Cómo usar ChatGPT para aprender JavaScript más rápido siendo principi
 description: "Guía práctica para usar ChatGPT para aprender JavaScript siendo principiante: técnicas reales que uso yo mismo en el ciclo de DAW."
 category: "Guía"
 date: 2026-07-22
-readtime: 7
+readtime: 6
 affiliate_text: "Prueba ChatGPT Plus y aprende JavaScript con un tutor de IA disponible 24/7"
 affiliate_url: "https://chatgpt.com"
 affiliate_label: "Probar ChatGPT Plus"
@@ -67,3 +67,4 @@ También tiene limitaciones técnicas: a veces se equivoca en cosas concretas, e
 ---
 
 Llevo varios meses usando ChatGPT como apoyo para aprender JavaScript y, siendo sincero, ha acelerado mi progreso más que cualquier curso o tutorial que haya encontrado. No porque sea mágico, sino porque se adapta a mí. Y eso, cuando eres principiante, vale mucho.
+

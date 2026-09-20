@@ -4,7 +4,7 @@ title: "Los 8 prompts que me salvan el curso de DAW (con ejemplos reales)"
 description: "Los prompts de IA que uso cada semana en DAW: explicar conceptos, generar ejercicios, corregir con pistas, aprender Java y MySQL y preparar exámenes."
 category: "Lista"
 date: 2026-08-17
-readtime: 6
+readtime: 7
 ---
 
 Tengo una carpeta en mi portátil llamada `prompts-que-funcionan`. Cada vez que descubro un prompt que me hace el día más fácil en el curso, lo guardo ahí con un comentario de cuándo lo uso. Unos cuantos salieron de experimentar a lo bruto; otros los saqué de [la guía para corregir errores con ChatGPT](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/) y los ajusté a mi forma de trabajar.
@@ -82,3 +82,4 @@ Si un prompt me da la respuesta *sin esfuerzo*, está mal planteado. He aprendid
 Con esta filosofía, la IA pasa de ser una máquina de hacer tareas a ser exactamente lo que necesito en el curso: una profesora infinita, que no se cansa y que está disponible a las dos de la madrugada cuando el ejercicio no compila.
 
 Si todavía estás trasteando qué papel le das a la IA en el curso, te cuento [el método que uso para preparar exámenes prácticos sin volverme dependiente](/articulos/guias/preparar-examenes-practicos-daw-con-ia/), que es la otra mitad de esta historia. Y si te da pereza copiar prompts a mano, llévate la idea de fondo a tu propia forma de preguntar: restricción, contexto concreto y "no me des la solución, dame la pista". Con eso ya vas mejor que con el prompt más largo del mundo.
+

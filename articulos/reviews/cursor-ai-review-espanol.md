@@ -4,6 +4,7 @@ title: "Cursor AI review en español: ¿vale la pena para estudiantes de program
 description: "Mi cursor AI review en español tras meses usándolo: rendimiento real, precio y si merece la pena para estudiantes de DAW."
 category: "Review"
 date: 2026-07-16
+readtime: 6
 affiliate_text: "Prueba Cursor gratis durante 14 días"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor gratis"
@@ -46,3 +47,4 @@ No, y esta pregunta me la hago bastante. Cursor te hace más rápido, pero no te
 Usándolo bien, como un asistente que te explica, sugiere y corrige, sí que noto que avanzo más. Entiendo los errores más rápido, escribo código más limpio y pierdo menos tiempo en la parte mecánica para dedicar más a pensar la lógica. Para mí eso es lo que vale.
 
 Si estás en DAW o en cualquier ciclo de informática y te lo estás pensando, mi consejo es que lo pruebes durante las dos semanas gratis y lo midas con un proyecto tuyo real. Eso te dirá más que cualquier review, incluida esta.
+

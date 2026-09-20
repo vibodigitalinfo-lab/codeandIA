@@ -4,7 +4,7 @@ title: "Ollama: mi review corriendo modelos de IA en local con un portátil de e
 description: "Probé Ollama durante un mes para correr modelos de IA en mi propio portátil sin pagar API: instalación, modelos que merecen la pena, límites reales y veredicto."
 category: "Review"
 date: 2026-08-13
-readtime: 7
+readtime: 8
 ---
 
 A finales del curso pasado me di cuenta de que estaba pagando tres cosas a la vez: ChatGPT Plus, GitHub Copilot Pro y Cursor. No era que las usara todas a todas horas, era más bien el miedo a quedarme sin ellas el día que hicieran falta. Y un día, mirando las facturas juntas, pensé: esto no tiene sentido para un estudiante de DAW.
@@ -68,3 +68,4 @@ Tercero, **no sustituye a Copilot ni a Cursor**. Los modelos que uso con Ollama 
 Un mes después, Ollama sigue instalado en mi máquina, pero lo uso de forma puntual: privacidad, sin red, o curiosidad. Es una herramienta que vale la pena tener, no una que vaya a cambiar tu vida. Y eso, a mí, ya me parece bastante.
 
 Si te está enganchando esto de las herramientas nuevas de IA, te recomiendo echar un vistazo a [mi review de Claude Code](/articulos/reviews/claude-code-cli-review-2026/) (otra que corre desde terminal, pero con modelos en la nube) o a la [guía de MCP](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/), que es el protocolo que permite que estos modelos se conecten con tus proyectos.
+

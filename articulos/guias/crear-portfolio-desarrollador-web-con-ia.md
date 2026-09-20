@@ -4,7 +4,7 @@ title: "Cómo crear tu primer portfolio de desarrollador web con IA paso a paso"
 description: "Guía práctica para crear tu portfolio de desarrollador web con IA desde cero, sin experiencia previa y con herramientas que sí funcionan."
 category: "Guía"
 date: 2026-07-21
-readtime: 8
+readtime: 6
 affiliate_text: "Empieza tu portfolio con Hostinger por menos de 3€/mes"
 affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
@@ -49,3 +49,4 @@ Si tuviera que resumir qué cambiaría si volviera a empezar: dedicaría más ti
 La IA me ayudó a ir más rápido, sí. Pero también me forzó a tomar decisiones constantemente: aceptar o rechazar lo que generaba, entender por qué funcionaba o no, adaptarlo. Eso me hizo mejor en CSS y en JavaScript más que cualquier ejercicio de clase, porque el contexto era real.
 
 Si estás en DAW o estás aprendiendo desarrollo web por tu cuenta y todavía no tienes portfolio, este es el mejor momento para hacerlo. No tienes que tener cincuenta proyectos. Con dos o tres bien explicados, una presentación honesta y un dominio propio, ya tienes algo que enseñar. Y con herramientas como Cursor para el código y Hostinger para publicarlo, el proceso es mucho menos intimidante de lo que parece desde fuera.
+

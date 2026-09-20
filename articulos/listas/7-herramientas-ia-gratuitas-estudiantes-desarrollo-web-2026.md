@@ -4,7 +4,7 @@ title: "7 herramientas de IA gratuitas para estudiantes de desarrollo web en 202
 description: "Descubre herramientas IA gratuitas para estudiantes de desarrollo web que uso cada día para aprender, practicar y depurar código sin gastar un euro."
 category: "Lista"
 date: 2026-07-26
-readtime: 6
+readtime: 5
 affiliate_text: "Si luego quieres dar el salto, Cursor tiene un plan de pago que te ahorra muchísimas horas"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor"
@@ -55,3 +55,4 @@ Confieso que el diseño visual no es lo mío, se me va mejor la lógica que el C
 Al final el orden en el que las uso importa más que la lista en sí. Para entender teoría tiro de ChatGPT y Perplexity, para escribir código del día a día uso GitHub Copilot como base, y cuando el proyecto se pone serio (una práctica final, un TFG, algo para el portafolio) es cuando abro Cursor porque necesito que el contexto del proyecto entero esté disponible, no solo la línea donde estoy escribiendo.
 
 Ninguna de estas herramientas sustituye entender lo que estás haciendo, eso ya lo he aprendido a las malas en un examen práctico donde no podía usar nada de esto. Pero para aprender más rápido, para no bloquearte solo delante de un error, y para practicar sin gastar dinero que en muchos casos ni tenemos, estas siete son las que de verdad me han funcionado este año.
+

@@ -4,7 +4,7 @@ title: "Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)"
 description: "Qué portátil necesita un estudiante de DAW en 2026: specs que importan de verdad, tres opciones con precios reales y los errores que debes evitar."
 category: "Guía"
 date: 2026-09-12
-readtime: 8
+readtime: 9
 affiliate_text: "El Acer Aspire Go 15 (Ryzen 7, 16 GB, 512 GB) está en stock y es la compra más segura para DAW ahora mismo"
 affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver el Aspire Go 15 en Amazon"

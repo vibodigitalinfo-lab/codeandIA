@@ -4,7 +4,7 @@ title: "Los mejores prompts de ChatGPT para corregir errores de código como un 
 description: "Prompts chatgpt para corregir código junior que uso yo mismo cuando mi código no compila y no sé por qué."
 category: "Guía"
 date: 2026-07-28
-readtime: 7
+readtime: 6
 affiliate_text: "Si depuras código todos los días, ChatGPT Plus te ahorra horas de sufrimiento"
 affiliate_url: "https://chatgpt.com/plus"
 affiliate_label: "Probar ChatGPT Plus"
@@ -47,3 +47,4 @@ Te lo digo desde mi experiencia como estudiante con presupuesto limitado: con la
 No digo que sea obligatorio desde el primer día de clase, pero si ya estás en la fase de proyectos de fin de curso o en prácticas, donde los bugs son más grandes y los prompts los repites constantemente, sí que se nota en el tiempo que ahorras cada semana.
 
 Al final, la diferencia entre corregir código como un junior perdido y corregir código como alguien que está aprendiendo de verdad no está en la herramienta, está en cómo le preguntas. Estos prompts no son magia, son solo la forma en que yo he ido aprendiendo a pedir ayuda sin dejar de entender lo que hago.
+

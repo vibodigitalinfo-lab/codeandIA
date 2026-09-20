@@ -4,7 +4,7 @@ title: "5 recursos gratuitos para aprender a programar con IA en español (2026)
 description: "Los recursos gratis que de verdad usé en DAW para aprender programación con IA en 2026: canales, plataformas, práctica real y comunidades en español."
 category: "Lista"
 date: 2026-08-19
-readtime: 6
+readtime: 7
 ---
 
 Si buscas "aprender a programar con IA" en Google te salen cursos de 300 euros, especialistas en "prompt engineering" y de todo. Y en mi caso, con el presupuesto de estudiante que tengo, esa ruta estaba descartada desde el principio. Lo que de verdad me ha servido durante el curso ha sido gratis, y no lo encontré buscando "curso con IA": lo fui juntando según aparecía en mi camino.
@@ -58,3 +58,4 @@ Lo que aprendí de todo esto es que el orden importa poco si la base está: prim
 No necesitas apuntarte a nada de pago para aprender a programar con IA en 2026. Necesitas un plan, constancia y saber que la IA es tu profe particular, no tu máquina de hacer deberes.
 
 Si te quedas con ganas de más, aquí tienes [7 herramientas de IA gratuitas para estudiantes de desarrollo](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) y una [comparativa de si te merece la pena pagar por Cursor o con VS Code gratis vas bien](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/).
+

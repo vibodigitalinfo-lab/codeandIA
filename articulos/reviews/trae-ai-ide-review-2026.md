@@ -4,7 +4,7 @@ title: "Trae AI IDE 2026: el editor de ByteDance que quiere comerse a Cursor, ¿
 description: "Review honesta de Trae: agente autónomo gratis, modelo propio Doubao, UX china vs occidental, y si compensa cambiar desde Cursor o VS Code + Copilot para un estudiante de DAW."
 category: "Review"
 date: 2026-08-26
-readtime: 8
+readtime: 9
 affiliate_text: "Prueba Trae gratis y compara su agente con Cursor"
 affiliate_url: "https://www.trae.ai"
 affiliate_label: "Descargar Trae"
@@ -133,3 +133,4 @@ Si arreglan 1, 2 y 3 en los próximos 3 meses, **me planto en Trae para todo lo 
 ---
 
 *Descargo: este artículo no está patrocinado. El enlace de descarga es afiliado (me llevo comisión si te registras), pero mi opinión es la que he contado: lo bueno, lo malo, y lo que me hace volver a Cursor.*
+

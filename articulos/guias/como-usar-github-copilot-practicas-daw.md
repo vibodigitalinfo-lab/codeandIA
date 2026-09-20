@@ -4,7 +4,7 @@ title: "Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido"
 description: "Te cuento cómo uso github copilot para prácticas DAW en clase y en casa, con ejemplos reales de proyectos del ciclo."
 category: "Guía"
 date: 2026-07-25
-readtime: 7
+readtime: 6
 affiliate_text: "Si quieres probarlo tú mismo, GitHub Copilot tiene plan gratuito para estudiantes"
 affiliate_url: "https://github.com/features/copilot"
 affiliate_label: "Consigue GitHub Copilot gratis con GitHub Student Pack"
@@ -41,3 +41,4 @@ Otra cosa que hago, y que recomiendo a cualquiera que empiece con github copilot
 Después de un año usándolo casi a diario, mi opinión es que sí merece la pena, pero con matices. Si estás en primero de DAW y todavía no tienes soltura con la sintaxis básica, te diría que lo uses con cuidado, porque puede volverte dependiente antes de que hayas entendido de verdad por qué funciona algo. A mí me pasó al principio con los bucles anidados: los usaba porque Copilot los generaba bien, pero si me preguntaban en un examen sin ordenador me costaba reproducirlos solo.
 
 Ahora que estoy en segundo lo veo de otra forma. Ya tengo la base y lo uso más como lo que es, un compañero que te propone cosas y tú decides si las aceptas, las cambias o las tiras a la basura. Para las prácticas de clase, para los proyectos de módulo y sobre todo para cuando se te acumulan tres entregas la misma semana, Copilot es de las pocas herramientas de IA que realmente he integrado en mi rutina de estudio y no he abandonado a los dos meses como me pasó con otras.
+

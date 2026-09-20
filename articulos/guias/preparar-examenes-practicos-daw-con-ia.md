@@ -4,7 +4,7 @@ title: "Cómo preparar exámenes prácticos de DAW con IA (sin copiar en el exam
 description: "Preparar exámenes prácticos de DAW con IA sin volverte dependiente: el método que uso para practicar con la IA de profesor y sobrevivir el día del examen."
 category: "Guía"
 date: 2026-08-15
-readtime: 8
+readtime: 7
 ---
 
 Suspendí mi primer examen práctico de programación por una razón tonta: sabía "darle a la IA las instrucciones", pero no sabía programar sin ella. En clase, con ChatGPT al lado, resolvía los ejercicios de maravilla. En la mesa del examen, con pantalla negra y sin copiloto, me quedé en blanco como media hora mirando un enunciado que no sabía ni por dónde empezar.
@@ -64,3 +64,4 @@ Si tuviera que repetir mi primer trimestre de DAW, la regla de oro sería una: *
 Y no me equivocaría al decirte que con esta forma de trabajar he tardado el doble que mis compañeros en hacer los ejercicios, al principio. Pero cuando llega el examen, los que copiaban soluciones están en modo pánico y yo estoy resolviendo. Prefiero aprender despacio y aprobar que ir deprisa y quedarme atrás.
 
 Si quieres los prompts exactos que uso en cada fase (los de explicación, los de generar ejercicios, los de corregir con pistas), te dejo [los 8 prompts que me salvan el curso de DAW](/articulos/listas/8-prompts-programacion-daw-2026/), donde los tienes listos para copiar. Y si aún no has montado tu flujo de IA en el editor, esta [guía de cómo usar GitHub Copilot en las prácticas](/articulos/guias/como-usar-github-copilot-practicas-daw/) te viene bien.
+

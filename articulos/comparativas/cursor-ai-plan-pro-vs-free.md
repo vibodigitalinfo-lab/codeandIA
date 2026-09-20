@@ -4,7 +4,7 @@ title: "Cursor AI plan Pro vs Free: qué incluye cada uno y cuándo merece la pe
 description: "Comparo cursor AI plan pro vs free español con mi propia experiencia: límites reales, precio y cuándo vale la pena pasarte a Pro."
 category: "Comparativa"
 date: 2026-07-30
-readtime: 7
+readtime: 5
 affiliate_text: "Si ya sabes que vas a necesitar más límite, prueba Cursor Pro sin vueltas"
 affiliate_url: "https://cursor.com/pricing"
 affiliate_label: "Probar Cursor Pro"
@@ -43,3 +43,4 @@ Si al final decides dar el salto, yo directamente entré desde la web de Cursor 
 ## Cuándo merece la pena pasarte a Pro
 
 Para mí la señal clara fue cuando empecé a chocar con el límite de peticiones rápidas antes de que acabara la semana, no ya el mes. Si te suena esto, o si trabajas en proyectos con muchos archivos donde el contexto completo del repo marca la diferencia, Pro te va a compensar casi seguro. Si en cambio programas de forma esporádica, para trabajos puntuales o para aprender sin prisa, yo me quedaría en Free hasta que notes que el límite te frena de verdad. No hay prisa por pagar algo que todavía no necesitas, eso también lo aprendí a base de gastar dinero en herramientas que luego apenas tocaba.
+

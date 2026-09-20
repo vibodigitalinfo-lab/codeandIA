@@ -4,7 +4,7 @@ title: "Qué dominio comprar para tu primer proyecto web: .com vs .es y dónde r
 description: "Te cuento qué dominio comprar para tu primer proyecto web, cuándo elegir .com o .es y en qué registrador merece la pena hacerlo."
 category: "Guía"
 date: 2026-07-27
-readtime: 6
+readtime: 5
 affiliate_text: "Si quieres registrar tu dominio sin complicarte como me pasó a mí, yo acabé haciéndolo en Namecheap"
 affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
 affiliate_label: "Ver dominios en Namecheap"
@@ -39,3 +39,4 @@ Otra duda típica de cuando empiezas: si compras el dominio y el hosting en el m
 Ahora bien, si ya tienes algo más de soltura, separar dominio y hosting (dominio en Namecheap, hosting donde más te convenga, incluyendo Hostinger) te da más margen para cambiar de proveedor de hosting sin tener que mover el dominio de sitio, que es un lío innecesario si lo evitas desde el principio.
 
 Al final, la respuesta a qué dominio comprar para tu primer proyecto web depende de si buscas algo más internacional (.com) o algo claramente local (.es), y de que el nombre que quieres esté libre en la extensión que prefieres. Yo empezaría mirando disponibilidad antes de enamorarme de un nombre concreto, que esa parte sí que puede llevarte más tiempo del que crees.
+
