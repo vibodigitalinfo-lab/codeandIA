@@ -14,11 +14,11 @@
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 
   <!-- Imagen social: por categoría si existe, si no la general -->
-  {% assign og_img = "/og-image.png" %}
+  {% assign og_img_rel = "/og-image.png" %}
   {% if page.category %}
-    {% assign og_cat = "/og-" | append: page.category | slugify | append: ".png" %}
-    {% assign og_cat_hit = site.static_files | where: "path", og_cat | size %}
-    {% if og_cat_hit > 0 %}{% assign og_img = og_cat %}{% endif %}
+    {% assign og_name = "og-" | append: page.category | slugify | append: ".png" %}
+    {% assign og_cat_hit = site.static_files | where: "name", og_name | size %}
+    {% if og_cat_hit > 0 %}{% assign og_img_rel = "/" | append: og_name %}{% endif %}
   {% endif %}
 
   <!-- Open Graph (previstas al compartir en redes) -->
@@ -28,7 +28,7 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ og_img | absolute_url }}">
+  <meta property="og:image" content="{{ og_img_rel | absolute_url }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: reviews y guías de IA para programadores">
@@ -41,7 +41,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ og_img | absolute_url }}">
+  <meta name="twitter:image" content="{{ og_img_rel | absolute_url }}">
   <meta name="twitter:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: reviews y guías de IA para programadores">
 
   <!-- Canonical (evita contenido duplicado en buscadores) -->
