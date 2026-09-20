@@ -1,0 +1,98 @@
+---
+layout: default
+title: "Buscar artículos"
+description: "Busca entre todos los artículos de codeandIA: reviews, comparativas, guías y listas de herramientas de IA para desarrolladores."
+permalink: /buscar/
+---
+
+<section class="section section-alt">
+  <div class="container">
+    <header class="articles-hero">
+      <h1 class="hero-title">Buscar artículos</h1>
+      <p id="search-count">…</p>
+    </header>
+
+    <div class="search-box">
+      <input type="search" id="search-input" class="search-input" placeholder="Buscar por título, categoría o palabra clave…" autocomplete="off" aria-label="Buscar artículos" enterkeyhint="search">
+    </div>
+
+    <div class="articles-grid" id="search-results"></div>
+  </div>
+</section>
+
+<style>
+  .search-box { margin: 0 0 2rem; }
+  .search-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.9rem 1.1rem;
+    font: inherit;
+    font-size: 1rem;
+    color: var(--text);
+    background: var(--bg-raised);
+    border: 1px solid var(--accent-soft);
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .search-input::placeholder { color: var(--text-muted); }
+  .search-input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .search-input::-webkit-search-cancel-button { cursor: pointer; }
+</style>
+
+<script type="application/json" id="search-index">
+[
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% for p in arts %}{"t":{{ p.title | jsonify }},"d":{{ p.description | jsonify }},"c":{{ p.category | jsonify }},"u":{{ p.url | relative_url | jsonify }},"dt":{{ p.date | date: "%d/%m/%Y" | jsonify }}}{% unless forloop.last %},{% endunless %}{{ "
+" }}{% endfor %}]
+</script>
+
+<script>
+(function () {
+  var input = document.getElementById('search-input');
+  var grid = document.getElementById('search-results');
+  var count = document.getElementById('search-count');
+  var raw = document.getElementById('search-index');
+  if (!input || !grid || !count || !raw) return;
+
+  var items = JSON.parse(raw.textContent);
+
+  var escMap = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  var esc = function (s) { return String(s).replace(/[&<>"']/g, function (ch) { return escMap[ch]; }); };
+  var norm = function (s) {
+    return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  };
+
+  var card = function (it) {
+    return '<a href="' + esc(it.u) + '" class="article-card">' +
+      '<h3 class="article-card-title">' + esc(it.t) + '</h3>' +
+      '<p class="article-card-desc">' + esc(it.d) + '</p>' +
+      '<div class="article-card-meta">' +
+        '<span class="article-card-category">' + esc(it.c) + '</span>' +
+        '<span class="article-card-date">' + esc(it.dt) + '</span>' +
+      '</div></a>';
+  };
+
+  function render(q) {
+    var tokens = norm(q).trim().split(/\s+/).filter(Boolean);
+    var out = items;
+    if (tokens.length) {
+      out = items.filter(function (it) {
+        var hay = norm(it.t + ' ' + it.c + ' ' + it.d);
+        return tokens.every(function (tk) { return hay.indexOf(tk) !== -1; });
+      });
+    }
+    grid.innerHTML = out.map(card).join('') ||
+      '<p class="empty-state">Sin resultados. Prueba con otra palabra.</p>';
+    count.textContent = tokens.length
+      ? out.length + (out.length === 1 ? ' artículo encontrado' : ' artículos encontrados')
+      : items.length + ' artículos';
+  }
+
+  input.addEventListener('input', function () { render(input.value); });
+  render('');
+})();
+</script>

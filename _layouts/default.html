@@ -13,6 +13,14 @@
   <meta name="author" content="Iván">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 
+  <!-- Imagen social: por categoría si existe, si no la general -->
+  {% assign og_img = "/og-image.png" %}
+  {% if page.category %}
+    {% assign og_cat = "/og-" | append: page.category | slugify | append: ".png" %}
+    {% assign og_cat_hit = site.static_files | where: "path", og_cat | size %}
+    {% if og_cat_hit > 0 %}{% assign og_img = og_cat %}{% endif %}
+  {% endif %}
+
   <!-- Open Graph (previstas al compartir en redes) -->
   <meta property="og:type" content="{% if page.category %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -20,10 +28,10 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ "/og-image.png" | absolute_url }}">
+  <meta property="og:image" content="{{ og_img | absolute_url }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="codeandIA: reviews y guías de IA para programadores">
+  <meta property="og:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: reviews y guías de IA para programadores">
   {% if page.category %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
   <meta property="article:section" content="{{ page.category }}">
@@ -33,8 +41,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ "/og-image.png" | absolute_url }}">
-  <meta name="twitter:image:alt" content="codeandIA: reviews y guías de IA para programadores">
+  <meta name="twitter:image" content="{{ og_img | absolute_url }}">
+  <meta name="twitter:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: reviews y guías de IA para programadores">
 
   <!-- Canonical (evita contenido duplicado en buscadores) -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -47,7 +55,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
   <link rel="stylesheet" href="{{ "/styles.css" | relative_url }}">
 
