@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Claude Code CLI 2026: terminal-first, agentes paralelos y el precio de la autonomía"
-description: "Review honesta de Claude Code: qué hace distinto a Cursor/Copilot, Dynamic Workflows, MCP nativo, hooks, pricing por tokens, y si merece la pena para un estudiante."
+title: "Claude Code CLI: terminal-first, agentes paralelos y su precio"
+description: "Review honesta de Claude Code: qué lo hace distinto, Dynamic Workflows, MCP nativo, hooks, pricing por tokens y si merece la pena para un estudiante."
 category: "Review"
 date: 2026-08-12
 readtime: 10

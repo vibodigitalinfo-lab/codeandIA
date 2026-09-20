@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Qué dominio comprar para tu primer proyecto web: .com vs .es y dónde registrarlo"
+title: "Qué dominio comprar para tu primer proyecto web: .com vs .es"
 description: "Te cuento qué dominio comprar para tu primer proyecto web, cuándo elegir .com o .es y en qué registrador merece la pena hacerlo."
 category: "Guía"
 date: 2026-07-27

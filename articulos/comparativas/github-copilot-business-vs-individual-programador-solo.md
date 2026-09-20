@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "GitHub Copilot Business vs Individual: cuál contratar si programas solo"
+title: "GitHub Copilot Business vs Individual para programar solo"
 description: "Comparo GitHub Copilot Business vs Individual para programadores solos: diferencias reales, precio y cuál merece la pena pagar."
 category: "Comparativa"
 date: 2026-07-31

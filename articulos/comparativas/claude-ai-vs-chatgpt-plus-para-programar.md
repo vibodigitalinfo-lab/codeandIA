@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Claude AI vs ChatGPT Plus para programar: cuál da mejores respuestas de código en 2026"
+title: "Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026"
 description: "Comparo Claude AI vs ChatGPT Plus para programar con ejemplos reales: errores, contexto, refactoring y cuál vale más la pena en 2026."
 category: "Comparativa"
 date: 2026-08-04

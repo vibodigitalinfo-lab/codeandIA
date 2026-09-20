@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Cursor AI review en español: ¿vale la pena para estudiantes de programación?"
+title: "Cursor AI para estudiantes: ¿merece la pena? (review en español)"
 description: "Mi cursor AI review en español tras meses usándolo: rendimiento real, precio y si merece la pena para estudiantes de DAW."
 category: "Review"
 date: 2026-07-16

@@ -10,7 +10,7 @@ affiliate_url: "https://chatgpt.com/?model=gpt-4"
 affiliate_label: "Probar ChatGPT Plus"
 ---
 
-Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho tiempo me resistí a pagar. Me parecía una locura soltar 20€ al mes siendo estudiante, con la versión gratuita ahí disponible. Pero llegó un momento en el que el límite de mensajes me cortaba justo cuando estaba depurando un error, o me quedaba sin acceso a GPT-4o en los peores momentos. Así que me lo planteé en serio: ¿ChatGPT Plus para programadores realmente cambia algo, o es marketing?
+Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho tiempo me resistí a pagar. Me parecía una locura soltar 20€ al mes siendo estudiante, con la versión gratuita ahí disponible. Pero llegó un momento en el que el límite de mensajes me cortaba justo cuando estaba depurando un error, o me quedaba sin acceso a GPT-4o en los peores momentos. Así que me lo planteé con método: ¿ChatGPT Plus para programadores realmente cambia algo, o es marketing?
 
 ## Lo que de verdad cambió cuando me pasé a Plus
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Namecheap vs Porkbun para comprar dominio .es siendo estudiante: comparativa honesta"
+title: "Namecheap vs Porkbun para un dominio .es siendo estudiante"
 description: "Namecheap vs Porkbun dominio .es para estudiantes: precios, renovaciones, soporte y cuál elegí yo para mi primer proyecto."
 category: "Comparativa"
 date: 2026-08-03

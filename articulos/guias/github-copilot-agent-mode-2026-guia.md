@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "GitHub Copilot Agent Mode 2026: qué es, cómo se usa y si merece la pena el salto desde Chat/Edit"
-description: "Guía completa del modo Agent de Copilot: modo autónomo multi-archivo, terminal, auto-corrección, precios con créditos IA, y comparativa con Cursor y Claude Code."
+title: "GitHub Copilot Agent Mode: qué es y si merece la pena"
+description: "Guía del modo Agent de Copilot: tareas multi-archivo, terminal, auto-corrección, precios en créditos IA y comparativa con Cursor y Claude Code."
 category: "Guía"
 date: 2026-08-09
 readtime: 9

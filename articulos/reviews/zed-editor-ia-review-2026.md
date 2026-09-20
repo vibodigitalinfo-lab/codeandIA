@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Zed Editor 2026: el editor en Rust con IA integrada, ¿alternativa real a VS Code y Cursor?"
+title: "Zed: el editor en Rust con IA integrada, ¿alternativa a VS Code?"
 description: "Review honesta de Zed: rendimiento en Rust, IA nativa (Anthropic + modelos locales), colaboración en tiempo real, y si merece la pena para un estudiante de DAW."
 category: "Review"
 date: 2026-08-25
@@ -97,4 +97,4 @@ Me quedo con **Zed como editor principal** para proyectos propios y prácticas d
 
 Para el **proyecto final de curso** (donde el profe exige IntelliJ para Java y a veces Windows nativo), sigo usando IntelliJ + Copilot. No es religión: es usar la herramienta que menos fricción pone ese día.
 
-En Windows sigue siendo promesa, pero la dirección está clara. Lo probaré en serio el día que su versión para Windows deje de llamarse preview; hasta entonces, VS Code e IntelliJ no corren peligro en mi máquina.
+En Windows sigue siendo promesa, pero la dirección está clara. Lo probaré a fondo el día que su versión para Windows deje de llamarse preview; hasta entonces, VS Code e IntelliJ no corren peligro en mi máquina.

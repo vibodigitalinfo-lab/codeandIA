@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Cómo configurar Cursor AI en VSCode para programar más rápido desde cero"
+title: "Cómo configurar Cursor AI en VS Code desde cero"
 description: "Te explico paso a paso cómo configurar Cursor AI en VSCode desde cero para dejar de perder tiempo tecleando y programar más rápido."
 category: "Guía"
 date: 2026-07-24

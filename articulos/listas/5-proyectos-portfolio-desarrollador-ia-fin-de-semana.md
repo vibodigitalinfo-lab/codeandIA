@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "5 proyectos para tu portfolio de desarrollador que puedes hacer con IA en un fin de semana"
+title: "5 proyectos con IA para tu portfolio en un fin de semana"
 description: "5 proyectos portfolio desarrollador con IA rápido, probados por mí, para tener algo real que mostrar el lunes."
 category: "Lista"
 date: 2026-07-29

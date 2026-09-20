@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Ollama vs LM Studio vs Jan 2026: gestores de modelos locales, ¿cuál te sirve para estudiar y programar?"
-description: "Comparativa de los tres gestores de modelos IA locales: Ollama, LM Studio y Jan. Rendimiento, modelos disponibles, integración con IDE, privacidad y cuál uso yo para prácticas DAW."
+title: "Ollama vs LM Studio vs Jan: gestores de modelos IA locales"
+description: "Comparativa de Ollama, LM Studio y Jan para correr modelos IA en local: rendimiento, modelos, integración con tu IDE y cuál uso yo en prácticas DAW."
 category: "Comparativa"
 date: 2026-08-28
 readtime: 10

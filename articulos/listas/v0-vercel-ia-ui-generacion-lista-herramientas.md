@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "v0 by Vercel y alternativas 2026: IA que genera interfaces, ¿cuál uso para mi portfolio?"
+title: "v0 by Vercel y alternativas 2026: IA que genera interfaces"
 description: "Lista comparativa de v0, Bolt, Lovable, y herramientas de generación UI con IA. Precios, stack, limitaciones, y cuál elegir para portfolio, landing, o app real."
 category: "Lista"
 date: 2026-08-14
@@ -47,7 +47,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 - **Solo React/Next.js/Tailwind** (Nuxt añadido 2026, pero secundario). Si usas Vue/Svelte/Astro/Remix, no es tu herramienta.
 - **Cloud-only**: no self-host, no offline.
 - **Black box**: el código generado a veces tiene patrones que no entiendes. En prod, toca auditar.
-- **Coste acumula**: $30-200/mes si lo usas en serio. Free ($5/mes) se queda corto rápido.
+- **Coste acumula**: $30-200/mes si lo usas a diario. Free ($5/mes) se queda corto rápido.
 - **Middleware complejo**: auth, i18n, rate-limiting a veces necesita mano humana.
 
 ---

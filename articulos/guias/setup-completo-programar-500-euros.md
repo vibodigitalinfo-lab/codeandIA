@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Setup completo para programar por 500€: lo que yo montaría estudiando DAW"
+title: "Setup para programar por 500€: lo que montaría yo (DAW)"
 description: "Guía de setup de estudiante para programar por 500€: silla, teclado, ratón y monitor con precios reales en Amazon. Prioridades y upgrades para llegar lejos."
 category: "Guía"
 date: 2026-09-07
@@ -12,7 +12,7 @@ affiliate_label: "Ver en Amazon"
 
 Cuando empecé DAW monté mi "setup" a lo loco: una silla de cocina, el portátil sobre una tabla, un ratón de 10 euros que me dejó muerto de hombro. En tres semanas ya me dolía la espalda. No es ninguna broma: el hardware malo se ve gratis hasta que te sale caro en dolores.
 
-El problema es que cuando buscas "setup para programar" encuentras escritorios de 800 euros y sillas de 900. Nadie habla de lo que puedes montarte siendo estudiante. Así que lo he hecho yo, con precios reales de hoy en Amazon España, y te lo dejo todo ordenado para que no pierdas tiempo ni dinero.
+El problema es que cuando buscas "setup para programar" encuentras escritorios de 800 euros y sillas de 900. Nadie habla de lo que puedes montarte siendo estudiante. Así que lo he hecho yo, con los precios que hay hoy en Amazon España, y te lo dejo todo ordenado para que no pierdas tiempo ni dinero.
 
 ## La regla de oro: invierte en orden de proximidad
 

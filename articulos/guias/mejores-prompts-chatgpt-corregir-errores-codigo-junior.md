@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Los mejores prompts de ChatGPT para corregir errores de código como un junior"
+title: "Prompts de ChatGPT para corregir errores de código (nivel junior)"
 description: "Prompts chatgpt para corregir código junior que uso yo mismo cuando mi código no compila y no sé por qué."
 category: "Guía"
 date: 2026-07-28

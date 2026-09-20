@@ -11,7 +11,7 @@ readtime: 8
 
 Cada semana veo el mismo titular en dos direcciones: que Cursor ha muerto o que Claude Code ha cambiado el mundo. Ninguna de las dos es cierta. Lo que sí ha cambiado en 2026 es que ya no eliges entre "un editor con IA" y "un chat": eliges entre dos filosofías de trabajo. Una (Cursor) es el IDE que te acompaña dentro del código. La otra (Claude Code) es un agente que trabaja en la terminal, dentro de tu editor de siempre.
 
-Soy estudiante de DAW, con portátil de gama media y presupuesto de 20 euros al mes como mucho. He usado ambos durante semanas en proyectos reales de clase (prácticas de Java, una app web, scripts de bases de datos). Aquí tienes la comparación sin humo, con precios de septiembre de 2026.
+Soy estudiante de DAW, con portátil de gama media y presupuesto de 20 euros al mes como mucho. He usado ambos durante semanas en proyectos reales de clase (prácticas de Java, una app web, scripts de bases de datos). Aquí tienes la comparación, con precios de septiembre de 2026 y sin promesas de marketing.
 
 ## Qué son, realmente
 
@@ -63,7 +63,7 @@ Hay un matiz de nivel: cuando estás aprendiendo, ver el diff de Cursor te ense�
 ## Veredicto por caso de uso
 
 - **Si solo puedes pagar uno** y estás en primer curso de DAW: **Cursor**. Te muestra el trabajo, se entiende en el editor y su versión Hobby sirve para aprender sin pagar.
-- **Si ya tienes un editor preferido** (IntelliJ, VS Code, Neovim) y quieres que la IA trabaje en tus proyectos sin cambiar de herramienta: **Claude Code** con Pro. Es el agente más cómodo que he probado en terminal; te dejo mi [review de Claude Code](/articulos/reviews/claude-code-cli-review-2026/) por si quieres más detalle.
+- **Si ya tienes un editor preferido** (IntelliJ, VS Code, Neovim) y quieres que la IA trabaje en tus proyectos sin cambiar de herramienta: **Claude Code** con Pro. Es el agente más cómodo que he probado en terminal; en mi [review de Claude Code](/articulos/reviews/claude-code-cli-review-2026/) cuento todos los detalles.
 - **Si los dos son para "lo mismo", no lo son**: la combinación que uso ahora es editor (para aprender y código cuidado) + Claude Code (para las res)
 - eres de las que antes eran "limpiar la casa": refactors y automatizaciones.
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Cursor vs GitHub Copilot: cuál es mejor para aprender a programar en 2026"
+title: "Cursor vs GitHub Copilot 2026: cuál es mejor para aprender"
 description: "Comparo Cursor vs GitHub Copilot para aprender a programar desde mi experiencia real como estudiante de DAW. ¿Cuál te ayuda más sin hacerte trampa?"
 category: "Comparativa"
 date: 2026-07-18

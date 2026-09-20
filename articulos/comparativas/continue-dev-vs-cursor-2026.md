@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Continue.dev vs Cursor vs GitHub Copilot 2026: la comparativa que nadie te hace como estudiante"
-description: "Continue.dev, Cursor y Copilot en terminal vs editor: precios reales, privacidad, modelos (Claude, GPT, locales con Ollama), y cuál elijo yo para prácticas de DAW."
+title: "Continue.dev vs Cursor vs Copilot: comparativa para estudiantes"
+description: "Continue.dev, Cursor y GitHub Copilot cara a cara: precios, privacidad, modelos (Claude, GPT, Ollama local) y cuál uso yo en prácticas de DAW."
 category: "Comparativa"
 date: 2026-08-20
 readtime: 9

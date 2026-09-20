@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Ollama: mi review corriendo modelos de IA en local con un portátil de estudiante"
+title: "Ollama: modelos de IA en local con un portátil de estudiante"
 description: "Probé Ollama durante un mes para correr modelos de IA en mi propio portátil sin pagar API: instalación, modelos que merecen la pena, límites reales y veredicto."
 category: "Review"
 date: 2026-08-13
@@ -11,7 +11,7 @@ A finales del curso pasado me di cuenta de que estaba pagando tres cosas a la ve
 
 Fue mi compañero de la última fila, el del portátil lleno de pegatinas, el que me soltó la idea: "¿por qué no pruebas a correr un modelo en local con Ollama? Es gratis, y tan tonto no es."
 
-Así que lo probé. Configuré Ollama, bajé modelos, lo usé un mes en mi flujo real de clase y de proyecto personal. Esto es lo que encontré, sin humo.
+Así que lo probé. Configuré Ollama, bajé modelos, lo usé un mes en mi flujo real de clase y de proyecto personal. Esto es lo que encontré, y también lo que no me convenció.
 
 ## Qué es Ollama, en una frase
 

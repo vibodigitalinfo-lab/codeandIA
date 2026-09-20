@@ -20,7 +20,7 @@ En este artículo te cuento cómo hice mi primera app con la API de OpenAI en Py
 
 Seguridad de la clave: la guardo en un fichero `.env` que tengo en `.gitignore`, y la leo con `python-dotenv`. Así no se cuela en tus repositorios de prácticas.
 
-## La primera llamada (en serio)
+## La primera llamada real
 
 Instala el SDK oficial:
 

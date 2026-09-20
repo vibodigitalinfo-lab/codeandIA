@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Cómo configurar GitHub Copilot en IntelliJ IDEA para tus proyectos de DAW"
+title: "Cómo configurar GitHub Copilot en IntelliJ IDEA (DAW)"
 description: "Configura GitHub Copilot en IntelliJ IDEA paso a paso: instalación del plugin, autocompletado en Java, chat inline, generar tests JUnit y los límites."
 category: "Guía"
 date: 2026-08-18
@@ -24,7 +24,7 @@ En [la guía de Copilot para las prácticas](/articulos/guias/como-usar-github-c
 3. Escribe en el buscador `github copilot`. Debería salir un plugin de JetBrains llamado **GitHub Copilot**. Pincha en **Install**.
 4. Te pedirá reiniciar el IDE. Acepta.
 
-Esto es lo único que cuesta de instalar, en serio. Lo que viene después es lo que liaba de verdad.
+Esto es lo único que cuesta de instalar, palabra. Lo que viene después es lo que liaba de verdad.
 
 ## Iniciar sesión: el paso que me daba la lata
 

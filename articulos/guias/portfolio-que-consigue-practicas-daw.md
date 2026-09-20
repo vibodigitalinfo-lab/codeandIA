@@ -40,7 +40,7 @@ La IA acelera esto de dos formas: te revisa la jerarquía ("¿qué le dice esto 
 
 ## Deploy: que el enlace esté vivo
 
-Nada mata una candidatura como un portfolio que "está en local". Subirlo gratis es hoy más fácil que nunca; en la [comparativa de Vercel, Netlify y GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) te dejo cuál me convence según el caso. Lo único no negociable: el enlace tiene que abrirse en el móvil, rápido, sin "Oops".
+Nada mata una candidatura como un portfolio que "está en local". Subirlo gratis es hoy más fácil que nunca; en la [comparativa de Vercel, Netlify y GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) te digo cuál me convence según el caso. Lo único no negociable: el enlace tiene que abrirse en el móvil, rápido, sin "Oops".
 
 Y una cosa que aprendí por las malas: el dominio. Un enlace `usuario.github.io/practicas-2026` no dice nada; en la guía de [qué dominio comprar para tu primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) explico por qué gastarse una vez 10 euros en tu apellido cambia la percepción entera. Las prácticas se consiguen antes con un dominio propio que con tres proyectos más en el cajón.
 
@@ -61,7 +61,7 @@ Luego le quitas todo el relleno que suene a plantilla (la IA adora las frases ti
 
 ## Checklist antes de enviar
 
-Te dejo el mío, que imprimo mentalmente cada vez que actualizo el portfolio:
+Este es el mío, que imprimo mentalmente cada vez que actualizo el portfolio:
 
 - El enlace funciona y carga en móvil.
 - Una idea clara del tema (datos, web, juegos…) sin mezclar.

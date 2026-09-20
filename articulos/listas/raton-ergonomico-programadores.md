@@ -34,7 +34,7 @@ Me desperté una mañana con la muñeca derecha pinchando. No fue de golpe. Fuer
 
 El diagnóstico fue claro: inflamación leve en el túnel carpiano. Nada grave, pero suficiente para que el médico me dijera "cambia el ratón o prepárate para algo peor."
 
-Desde entonces he probado cinco ratones ergonómicos. Algunos me cambiaron la forma de trabajar. Otros fueron un gasto innecesario. Aquí te cuento cuáles valen la pena y por qué, con precios reales en España.
+Desde entonces he probado cinco ratones ergonómicos. Algunos me cambiaron la forma de trabajar. Otros fueron un gasto innecesario. Aquí te cuento cuáles valen la pena y por qué, con los precios de hoy en España.
 
 ## Logitech MX Master 3S: El ratón que todo programador necesita (~89 euros)
 
@@ -128,5 +128,5 @@ Lo que sí importa: un ángulo que mantenga la muñeca neutra (vertical o ergon�
 
 Si estás en DAW y notas molestias en la muñeca, no esperes. Cambia el ratón antes de que sea un problema médico. Tus muñecas son la herramienta más importante que tienes para programar.
 
-Si quieres combinar buen hardware con buenas herramientas, echa un vistazo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) para ver cómo optimizar tu flujo de código. Y si aún estás decidiendo entre asistentes de IA, aquí tienes una [comparativa de Claude AI vs ChatGPT Plus](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/) que te puede ayudar. Y si estás montando tu escritorio de cero, en mi [guía del setup por 500€](/articulos/guias/setup-completo-programar-500-euros/) te lo dejo todo ordenado con precios reales.
+Si quieres combinar buen hardware con buenas herramientas, echa un vistazo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) para ver cómo optimizar tu flujo de código. Y si aún estás decidiendo entre asistentes de IA, aquí tienes una [comparativa de Claude AI vs ChatGPT Plus](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/) que te puede ayudar. Y si estás montando tu escritorio de cero, en mi [guía del setup por 500€](/articulos/guias/setup-completo-programar-500-euros/) te lo dejo todo ordenado, precios incluidos.
 

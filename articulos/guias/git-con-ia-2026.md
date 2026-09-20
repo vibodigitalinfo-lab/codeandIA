@@ -91,7 +91,7 @@ En la práctica he caído en tres trampas que repaso aquí para que no las pague
 
 ## La rutina que me funciona
 
-Te dejo la secuencia de un día normal, para que veas que no es una película de hackers:
+Esta es la secuencia de un día normal, para que veas que no es una película de hackers:
 
 1. `git checkout -b practica-6` al empezar.
 2. Cada subtarea: `git add -p` + commit con mensaje "por qué" (IA redacta, yo edito).

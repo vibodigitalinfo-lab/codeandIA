@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "MCP (Model Context Protocol) 2026: qué es, para qué sirve y por qué deberías conocerlo ya"
-description: "Guía práctica del Model Context Protocol: arquitectura, servidores, clientes, especificación 2026-07-28, seguridad, y cómo usarlo en VS Code, Cursor, Claude Code y Copilot."
+title: "MCP (Model Context Protocol): qué es y por qué deberías conocerlo"
+description: "Guía práctica del Model Context Protocol: arquitectura, servidores y clientes, seguridad y cómo usarlo en VS Code, Cursor, Claude Code y Copilot."
 category: "Guía"
 date: 2026-08-11
 readtime: 10

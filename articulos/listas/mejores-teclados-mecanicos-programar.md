@@ -34,7 +34,7 @@ Llevo más de 8 horas al día escribiendo código. Cuando cambia mi teclado, cam
 
 El año pasado pasé de un membrane genérico a un mecánico. La diferencia fue brutal. Menos dedos cansados al final del día. Más control al escribir funciones largas en Python. Y un ruido satisfactorio que me mantiene en flow.
 
-Pero no todos los teclados mecánicos son iguales. He probado varios. He investigado precios reales en España. Y he hablado con otros devs de DAW que comparten su experiencia.
+Pero no todos los teclados mecánicos son iguales. He probado varios. He mirado los precios de hoy en España. Y he hablado con otros devs de DAW que comparten su experiencia.
 
 Aquí van los 5 que recomiendo para programar en 2026. Sin jerga de marketing. Solo lo que funciona.
 

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Montar un setup de desarrollo en macOS desde cero: la guia que yo hubiera querido"
+title: "Setup de desarrollo en macOS desde cero: la guía que me faltó"
 description: "Guia completa para configurar macOS como entorno de desarrollo en 2026. Homebrew, terminal, IDE, Git, Docker y los mejores ajustes para programar."
 category: "Guía"
 date: 2026-09-01

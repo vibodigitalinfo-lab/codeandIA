@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Notion + IA para apuntes de DAW: mi sistema real (bases de datos, plantillas, y cómo no ahogarse)"
-description: "Cómo uso Notion con IA para organizar apuntes de DAW: bases de datos por módulo, plantillas de clase, resúmenes automáticos, y sincronización con GitHub. Lo que funciona y lo que no."
+title: "Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)"
+description: "Cómo uso Notion con IA para apuntes de DAW: bases por módulo, plantillas, resúmenes automáticos y sync con GitHub. Lo que funciona y lo que no."
 category: "Guía"
 date: 2026-08-21
 readtime: 10
@@ -34,7 +34,7 @@ Para mí, **20/día sobran** si los usas con cabeza (ver prompts abajo).
 
 No uses páginas sueltas. **Bases de datos** = filtros, vistas, relaciones, rollups.
 
-### 1. `📚 Módulos` (una fila por asignatura)
+### 1. `Módulos` (una fila por asignatura)
 
 | Propiedad | Tipo | Ejemplo |
 |---|---|---|
@@ -46,7 +46,7 @@ No uses páginas sueltas. **Bases de datos** = filtros, vistas, relaciones, roll
 | **Relación → Temas** | Relation | (ver abajo) |
 | **Rollup → Próximo examen** | Rollup | `Min(Fecha examen)` desde Temas |
 
-### 2. `📝 Temas` (una fila por tema de cada módulo)
+### 2. `Temas` (una fila por tema de cada módulo)
 
 | Propiedad | Tipo | Ejemplo |
 |---|---|---|
@@ -60,7 +60,7 @@ No uses páginas sueltas. **Bases de datos** = filtros, vistas, relaciones, roll
 | **IA: Resumen** | Formula | `""` (rellenado por botón IA) |
 | **IA: Preguntas examen** | Formula | `""` (rellenado por botón IA) |
 
-### 3. `📄 Páginas` (las notas reales, una por tema)
+### 3. `Páginas` (las notas reales, una por tema)
 Aquí es donde escribo. Cada fila de **Temas** tiene su página vinculada (Relación 1:1). La página usa una **plantilla** (ver abajo).
 
 **Vista que más uso:** En `Temas`, agrupo por `Módulo` → `Estado` → veo de un vistazo qué temas de DWES tengo en `Repasado` y cuáles en `Pendiente` antes del examen.
@@ -74,21 +74,21 @@ Cuando creo un tema nuevo → `New` en la base de datos `Temas` → se abre la p
 ```markdown
 # {{Nombre del tema}}
 
-## 🎯 Objetivo de la clase
+## Objetivo de la clase
 <!-- Qué debemos saber al salir. Ej: "Entender ciclo de vida Bean Spring" -->
 
-## 📝 Apuntes en bruto
+## Apuntes en bruto
 <!-- Lo que escribo EN CLASE. Rápido, sucinto, sin ordenar. -->
 
-## 🤖 IA: Resumen estructurado
+## IA: Resumen estructurado
 <!-- Botón: "Ask AI → Summarize → Structured notes" -->
 *Se rellena solo tras la clase.*
 
-## 🤖 IA: Preguntas tipo examen
+## IA: Preguntas tipo examen
 <!-- Botón: "Ask AI → Generate exam questions (5, DAW level)" -->
 *Se rellena solo al repasar.*
 
-## 🔗 Recursos
+## Recursos
 - Repo: `@github.com/ivanm/...`
 - Docs oficiales: ...
 - Vídeo clase: ...

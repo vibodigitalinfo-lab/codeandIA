@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "7 errores que cometí programando con IA (y cómo evitarlos antes de que te pasen)"
-description: "Errores reales que hice usando Copilot, ChatGPT y Claude Code durante el primer año de DAW: confiar ciegamente, no leer el código generado, perder contexto, y más. Con soluciones concretas."
+title: "7 errores programando con IA (y cómo evitarlos)"
+description: "Errores reales usando Copilot, ChatGPT y Claude Code en mi primer año de DAW: confiar a ciegas, no leer el código generado, perder contexto. Con soluciones."
 category: "Lista"
 date: 2026-09-02
 readtime: 8

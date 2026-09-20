@@ -18,7 +18,7 @@ No voy a venderte que Copilot te hace el ciclo por ti, porque no es así y si al
 
 Cuando lo instalé por primera vez, lo hice con el plan de estudiante, que es gratis si tienes el correo del instituto verificado o usas el GitHub Student Pack. Eso ya te digo que es un puntazo, porque de normal Copilot cuesta una mensualidad y siendo estudiante no tiene sentido pagarlo.
 
-La primera vez que lo probé en serio fue con un ejercicio de Acceso a Datos, concretamente un CRUD contra una base de datos MySQL con JDBC. Escribí el nombre del método `insertarUsuario` y antes de terminar la primera línea ya me estaba sugiriendo prácticamente todo el bloque try-catch con el PreparedStatement montado. Me sorprendió, la verdad, porque esperaba algo más torpe. No estaba perfecto, cambié un par de nombres de variables y añadí una validación que él no había puesto, pero me ahorró fácilmente diez minutos de escribir código que ya me sabía de memoria de tanto repetirlo.
+La primera vez que lo probé a fondo fue con un ejercicio de Acceso a Datos, concretamente un CRUD contra una base de datos MySQL con JDBC. Escribí el nombre del método `insertarUsuario` y antes de terminar la primera línea ya me estaba sugiriendo prácticamente todo el bloque try-catch con el PreparedStatement montado. Me sorprendió, la verdad, porque esperaba algo más torpe. No estaba perfecto, cambié un par de nombres de variables y añadí una validación que él no había puesto, pero me ahorró fácilmente diez minutos de escribir código que ya me sabía de memoria de tanto repetirlo.
 
 ### El día que casi me la juega en un examen práctico
 

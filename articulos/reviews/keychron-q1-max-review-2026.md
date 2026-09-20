@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Keychron Q1 Max review: el teclado mecánico que yo usaría para programar en 2026"
+title: "Keychron Q1 Max: el teclado que usaría para programar"
 description: "Review completa del Keychron Q1 Max: gasket mount, wireless, QMK y switches K Pro. Si vale la pena para programar y cuánto cuesta en Amazon."
 category: "Review"
 date: 2026-09-06
@@ -16,7 +16,7 @@ Después de mirar opciones durante semanas, me decidí por el **Keychron Q1 Max*
 
 ## Primera impresión: peso y construcción
 
-Cuando abres la caja del Q1 Max lo primero que notas es el peso. Este teclado no es ligero ni de broma. La carcasa es de aluminio CNC con un acabado que se siente premium en serio, no como esos teclados "gaming" que parecen de plástico con luces.
+Cuando abres la caja del Q1 Max lo primero que notas es el peso. Este teclado no es ligero ni de broma. La carcasa es de aluminio CNC con un acabado que se siente premium de verdad, no como esos teclados "gaming" que parecen de plástico con luces.
 
 El diseño es limpio y minimalista. Sin logos exagerados, sin LEDs por todos lados (aunque sí tiene backlight). Viene en varios colores: Carbono, Kubrique, Hall y Bare. El que yo cogí es el Kubrique, con tonos beige y marrón que queda muy bien en el escritorio.
 

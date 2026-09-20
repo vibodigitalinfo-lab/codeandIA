@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Cómo usar ChatGPT para aprender JavaScript más rápido siendo principiante"
+title: "Cómo usar ChatGPT para aprender JavaScript siendo principiante"
 description: "Guía práctica para usar ChatGPT para aprender JavaScript siendo principiante: técnicas reales que uso yo mismo en el ciclo de DAW."
 category: "Guía"
 date: 2026-07-22

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Windsurf vs Cursor AI: cuál instalo si estoy aprendiendo a programar en 2026"
+title: "Windsurf vs Cursor: cuál instalo si aprendo a programar en 2026"
 description: "Windsurf vs Cursor AI para aprender a programar: comparo los dos editores IA más populares para que elijas sin arrepentirte."
 category: "Comparativa"
 date: 2026-08-02
@@ -46,7 +46,7 @@ Lo que más uso a día de hoy es `Ctrl + K` para editar un bloque concreto y el 
 
 ## Precio y plan gratuito: dónde marcan la diferencia real
 
-Ninguno de los dos es completamente gratis si lo usas en serio. Pero hay matices importantes.
+Ninguno de los dos es completamente gratis si lo usas todos los días. Pero hay matices importantes.
 
 Cursor tiene un plan gratuito bastante generoso para empezar: 2.000 completaciones y 50 peticiones al chat de modelos lentos al mes. Para un estudiante que está aprendiendo y no programa ocho horas al día, puede aguantar bien. El plan Pro cuesta 20 dólares al mes, que no es barato, pero incluye acceso a GPT-4o y Claude sin restricciones raras. Puedes [probar Cursor gratis](https://cursor.com) sin meter tarjeta desde el principio, lo que siempre es de agradecer.
 

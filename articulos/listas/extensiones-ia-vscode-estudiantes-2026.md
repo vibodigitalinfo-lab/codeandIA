@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "7 extensiones de IA para VS Code que uso a diario siendo estudiante (y una que quité)"
-description: "Las extensiones de IA que de verdad me ahorran tiempo en prácticas DAW: Copilot, Codeium, Continue, Error Lens, y más. Qué hace cada una, cuánto cuesta, y mi combo real."
+title: "7 extensiones de IA para VS Code que uso a diario (y una que quité)"
+description: "Extensiones de IA que de verdad ahorran tiempo en prácticas DAW: Copilot, Codeium, Continue, Error Lens y más. Qué hace cada una, cuánto cuesta y mi combo."
 category: "Lista"
 date: 2026-08-22
 readtime: 7
@@ -72,7 +72,7 @@ ollama pull qwen2.5-coder:7b
 
 **Qué hace:** Git blame, history, comparar ramas, autores, **y ahora "AI Commit Message"** (genera mensaje de commit con IA).
 **Coste:** Gratis (core), $9/mes Pro para features de equipo.
-**Por qué está aquí:** El **blame inline** (`git blame` en cada línea al pasar ratón) me dice quién tocó qué y cuándo. En prácticas grupales, "¿quién rompió esto?" se responde en segundos. La feature de **commit message con IA** (`GitLens: Commit` → botón ✨) escribe mensajes convencionales tipo `feat: add user authentication` basándose en tu diff. Ahorra el "fix stuff" de siempre.
+**Por qué está aquí:** El **blame inline** (`git blame` en cada línea al pasar ratón) me dice quién tocó qué y cuándo. En prácticas grupales, "¿quién rompió esto?" se responde en segundos. La feature de **commit message con IA** (`GitLens: Commit` → botón de IA) escribe mensajes convencionales tipo `feat: add user authentication` basándose en tu diff. Ahorra el "fix stuff" de siempre.
 
 ---
 
