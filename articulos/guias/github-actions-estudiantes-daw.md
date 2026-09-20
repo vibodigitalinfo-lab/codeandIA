@@ -3,7 +3,7 @@ layout: article
 title: "GitHub Actions para estudiantes de DAW: automatiza tests, despliegues y builds sin configurar nada raro"
 description: "Guía práctica de GitHub Actions para proyectos DAW: workflow de Java/Maven, deploy en Vercel/GitHub Pages, secrets, y cómo ahorrar dinero siendo estudiante. Todo con código real que funciona."
 category: "Guía"
-date: 2026-08-31
+date: 2026-08-29
 readtime: 9
 ---
 

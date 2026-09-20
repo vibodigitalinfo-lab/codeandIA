@@ -11,7 +11,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 ROOT = Path(r"C:\Users\ivanm\OneDrive\Documentos\codeandIA")
-TODAY = date(2026, 9, 16)  # fecha de hoy
+TODAY = date(2026, 9, 20)  # fecha de hoy
 DIRS = ["articulos/guias", "articulos/reviews", "articulos/comparativas", "articulos/listas"]
 
 # Recoger todos los articulos publicados con su fecha actual

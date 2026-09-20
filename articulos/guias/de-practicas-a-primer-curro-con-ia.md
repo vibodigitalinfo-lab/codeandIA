@@ -3,7 +3,7 @@ layout: article
 title: "De prácticas a primer curro con IA: cómo preparar entrevistas técnicas usando Copilot, ChatGPT y Ollama"
 description: "Guía para estudiantes de DAW que buscan su primer trabajo: cómo usar IA para preparar entrevistas técnicas, resolver challenge de código, y crear un portfolio que impresione. Sin trampas, con estrategia real."
 category: "Guía"
-date: 2026-09-02
+date: 2026-08-31
 readtime: 9
 ---
 

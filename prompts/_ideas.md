@@ -16,7 +16,7 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 7 | Lista | Los 8 prompts que me salvan el curso de DAW | ✅ Publicado (commit previo) | `8-prompts-programacion-daw-2026`. |
 | 8 | Comparativa | Cursor vs VS Code con IA: ¿sigue mereciendo cambiar? | ✅ Publicado (commit previo) | `cursor-vs-vscode-con-ia-2026`. |
 | 9 | Comparativa | GPT-5 vs Claude: qué modelo da mejor código en 2026 | ✅ Publicado 2026-09-15 | `gpt-5-vs-claude-para-programar-2026`. SWE-bench Pro + Terminal-Bench, planes gratis. |
-| 10 | Guía | Cómo montar tu portfolio y que te dé prácticas de DAW | No | Continuación del portfolio-ia. |
+| 10 | Guía | Cómo montar tu portfolio y que te dé prácticas de DAW | ✅ Publicado 2026-09-20 | `portfolio-que-consigue-practicas-daw`. Continuación del portfolio-ia. |
 | 11 | Guía | Notion + IA para apuntes de DAW: mi sistema real | ✅ Publicado 2026-09-13 | `nocion-ia-apuntes-daw`: 3 BDs + plantilla + prompts. Avisa del add-on $10. |
 | 12 | Lista | 7 extensiones de IA para VSCode que uso a diario | ✅ Publicado 2026-09-13 | `extensiones-ia-vscode-estudiantes-2026`: 7 + la que quité (Tabnine). |
 | 13 | Comparativa | Hostinger vs Netlify para tu primer proyecto de DAW | **Sí (Hostinger)** | Hosting de pago vs gratis. |
@@ -37,10 +37,11 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 20 | Lista | Webcam para programar y hacer streaming de código en 2026 | ✅ Publicado 2026-07-15 | `webcam-programar-streaming`. Amazon.es, 60-160€. |
 | 31 | Guía | AGENTS.md: el fichero de instrucciones para IA | ✅ Publicado 2026-09-18 | `agents-md-guia-2026`. Estándar Linux Foundation (60k repos), Cursor/Copilot/Codex nativo, Claude Code con `@AGENTS.md`. Complementa `cursor-rules-configuracion-mdc-guia` sin redundancia. |
 | 32 | Guía | Tu primera app con la API de OpenAI en Python | ✅ Publicado 2026-09-18 | `primera-app-api-openai-python`. SDK, `gpt-5-mini`, explicador de errores, precios sept. 2026 (0,25$/2$ por 1M). Nicho virgen hasta ahora. |
-| 33 | Guía | Git con IA: mensajes de commit, rebase y blame asistidos | No | Nicho sin tocar. |
+| 33 | Guía | Git con IA: mensajes de commit, rebase y blame asistidos | ✅ Publicado 2026-09-19 | `git-con-ia-2026`. Nicho sin tocar. |
 | 34 | Guía | SQL y bases de datos con IA: aprende SQL practicando | ✅ Publicado 2026-09-19 | `aprender-sql-con-ia-daw-2026`. Laboratorio SQLite/MySQL, 4 prompts que enseñan, 5 errores que te delatan. |
 | 35 | Guía | RAG en local con Ollama: respuestas con tus apuntes | ✅ Publicado 2026-09-19 | `rag-local-ollama-apuntes-2026`. nomic-embed-text + ChromaDB, 4 scripts, cruza con prompt injection (contexto no confiable). |
 | 36 | Guía | Prompt injection y seguridad en apps con LLM | ✅ Publicado 2026-09-19 | `prompt-injection-seguridad-apps-ia-2026`. OWASP GenAI LLM Top 10 2026 (LLM01), casos reales con MCP (Supabase service_role, postmark-mcp), 7 defensas. Cruza con guías de MCP y API OpenAI. |
+| 37 | Comparativa | Cursor vs Claude Code en 2026: IDE con agente vs agente en terminal | ✅ Publicado 2026-09-18 | `cursor-vs-claude-code-2026`. Precios sept. 2026 (Cursor Hobby/Pro/Pro+/Ultra; Claude Code en Pro/Max, sin free tier). Complementa `cursor-vs-vscode-con-ia-2026` y `claude-code-cli-review-2026`. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
