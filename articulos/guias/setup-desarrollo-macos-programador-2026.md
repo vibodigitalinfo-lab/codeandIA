@@ -4,7 +4,7 @@ title: "Montar un setup de desarrollo en macOS desde cero: la guia que yo hubier
 description: "Guia completa para configurar macOS como entorno de desarrollo en 2026. Homebrew, terminal, IDE, Git, Docker y los mejores ajustes para programar."
 category: "Guía"
 date: 2026-09-01
-readtime: 9
+readtime: 7
 ---
 
 Cuando compré mi primer Mac para programar, me encontré con un sistema operativo que no tenía nada que ver con Windows. No sabía dónde estaba la terminal, no entendía Homebrew, y la primera vez que intenté instalar Node.js me saltaron 5 errores diferentes.
@@ -267,4 +267,4 @@ Montar un setup de desarrollo en macOS parece una odisea al principio, pero una 
 
 Lo que más me gusta de macOS para programar es la estabilidad y la integración con herramientas Unix. Si vienes de Windows, la curva de aprendizaje es real, pero una vez que te acostumbras, es difícil volver.
 
-¿Tenéis algún tip o herramienta que no pueda faltar en un setup de macOS? Compartidlo por email (ivan@codeandia.com), seguro que a alguien le viene genial.
+Mi consejo: no copies un setup entero de internet. Instala lo que te quite fricción hoy y añade cuando duela. Un setup se construye por dolor, no por descarga.

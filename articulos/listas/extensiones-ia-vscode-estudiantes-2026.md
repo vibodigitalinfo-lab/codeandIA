@@ -130,4 +130,4 @@ Las extensiones de IA **se pisan** si tienes varias haciendo autocompletado. Una
 
 ---
 
-¿Qué extensiones usas tú? ¿Has probado Continue con modelos locales? Cuéntame por email (ivan@codeandia.com) tu setup.
+Si hay una extensión que uso mal o que se me ha escapado, me gustaría enterarme antes de que la pruebe alguien con carnet. Escríbeme a ivan@codeandia.com y montamos juntos la versión 2 de esta lista.

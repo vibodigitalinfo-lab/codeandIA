@@ -4,7 +4,7 @@ title: "Vercel vs Netlify vs GitHub Pages 2026: dónde publicar gratis tu portfo
 description: "Comparativa real de las 3 plataformas gratis para deploy: límites, CI/CD, dominios, edge functions, y cuál elijo yo para portfolio, prácticas y proyectos reales."
 category: "Comparativa"
 date: 2026-08-23
-readtime: 7
+readtime: 8
 ---
 
 El primer deploy de mi portfolio me costó dos tardes de lucha: DNS que no propagaba, build que fallaba en una y funcionaba en otra, límites de banda ancha que no entendía. Ahora, cada vez que termino un proyecto de prácticas o un side project, **tengo clara cuál uso y por qué**. Te ahorro las vueltas: comparo Vercel, Netlify y GitHub Pages con lo que de verdad importa a un estudiante.
@@ -177,4 +177,4 @@ Tienes **Actions minutes gratis (2k/mes)** para buildar donde quieras. El deploy
 
 Yo tengo **los tres configurados**. Cada repo sabe a dónde va. No hay drama.
 
-¿En cuál tienes deployado tu portfolio? Cuéntame por email (ivan@codeandia.com) si te has encontrado límites que no esperabas.
+No lo pienses más: publica esta tarde algo tuyo en la que más te llame y deja el enlace en tu CV. El sitio perfecto que nunca se sube no cuenta. El feo que está en internet, sí.

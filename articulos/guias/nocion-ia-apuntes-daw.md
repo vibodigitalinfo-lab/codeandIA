@@ -4,7 +4,7 @@ title: "Notion + IA para apuntes de DAW: mi sistema real (bases de datos, planti
 description: "Cómo uso Notion con IA para organizar apuntes de DAW: bases de datos por módulo, plantillas de clase, resúmenes automáticos, y sincronización con GitHub. Lo que funciona y lo que no."
 category: "Guía"
 date: 2026-08-21
-readtime: 8
+readtime: 10
 ---
 
 Empecé el curso con una carpeta de Google Drive llamada `DAW 2025-26` y dentro 40 PDFs sueltos, capturas de pizarra, y un `apuntes.txt` que nunca abrí. A noviembre ya no encontraba nada. Me pasé a Notion, le metí IA, y **ahora mi sistema de apuntes es lo único que me deja estudiar para los exámenes sin pánico**. Te lo enseño entero: bases de datos, plantillas, prompts que uso, y los errores que cometí.
@@ -222,4 +222,4 @@ Si te montas algo parecido, **empieza simple**: una base de datos `Temas`, una p
 
 ---
 
-¿Usas Notion para clase? ¿Qué plantillas o prompts te funcionan? Cuéntame por email (ivan@codeandia.com) tu setup.
+Si ya vives en Notion y me mandas a ivan@codeandia.com una captura de tu base de apuntes, te digo qué me chirría y qué aprovecharía yo sin piedad.

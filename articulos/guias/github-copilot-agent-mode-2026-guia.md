@@ -4,7 +4,7 @@ title: "GitHub Copilot Agent Mode 2026: qué es, cómo se usa y si merece la pen
 description: "Guía completa del modo Agent de Copilot: modo autónomo multi-archivo, terminal, auto-corrección, precios con créditos IA, y comparativa con Cursor y Claude Code."
 category: "Guía"
 date: 2026-08-09
-readtime: 8
+readtime: 9
 affiliate_text: "Activa Copilot Pro y prueba Agent Mode en VS Code hoy"
 affiliate_url: "https://github.com/features/copilot/plans"
 affiliate_label: "Ver planes Copilot"
@@ -149,4 +149,4 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 
 Si tienes Student Pack, **activa Copilot Pro y prueba Agent Mode esta tarde**. Cuesta $0 y en 30 min sabes si te cambia el flujo. Si no tienes Student Pack, $10/mes es bajo riesgo.
 
-¿Lo has probado? Comparte por email (ivan@codeandia.com) tu caso de uso más loco con Agent Mode.
+Agent Mode sigue exigiéndome más de lo que regala: cuanto más contexto le doy, mejor me sale. Pero el día que le encargué una tarea entera y volví con el café, entendí a qué sabe esto en 2026.

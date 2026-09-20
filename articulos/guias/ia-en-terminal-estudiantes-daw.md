@@ -4,7 +4,7 @@ title: "Cómo usar IA en la terminal siendo estudiante de DAW: Claude Code, Copi
 description: "Guía paso a paso para integrar IA en tu terminal: instalar y configurar Claude Code, GitHub Copilot CLI y modelos locales con Ollama. Casos reales de prácticas DAW."
 category: "Guía"
 date: 2026-08-24
-readtime: 8
+readtime: 7
 ---
 
 El año pasado mi terminal era solo `cd`, `ls`, `git add .` y `npm run dev`. Este curso, la IA se ha colado en la línea de comandos y **ha cambiado cómo hago las prácticas de DAW**: desde generar un `Dockerfile` multi-stage hasta depurar un `NullPointerException` en Spring Boot sin abrir el navegador. Te cuento cómo lo tengo montado yo, qué uso cada herramienta y los errores que cometí al principio.
@@ -182,4 +182,4 @@ La IA en terminal **no sustituye saber bash/git/docker**. Te quita la fricción 
 
 ---
 
-¿Qué herramienta te llama más? Si ya usas alguna en terminal, cuéntame por email (ivan@codeandia.com) tu alias o flujo favorito.
+La terminal ya no es el rincón al que bajas a sufrir: es donde pasas de pedir a hacer. Si todavía no le has pedido a una IA que te genere un alias para algo que repites cada semana, ese es tu proyecto de diez minutos.

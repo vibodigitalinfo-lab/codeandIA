@@ -105,4 +105,4 @@ Esto encaja con el día a día que cuento en [GitHub Actions para DAW](/articulo
 
 Git sigue siendo de lo menos glamuroso de programar y de lo que más dinero te ahorra a medio plazo. La IA no te quita el trabajo de entender qué hiciste: te quita el trabajo de recordarlo. Y en un examen práctico o una primera entrevista, que te pregunten por tu historial y puedas explicarlo commit a commit es la diferencia entre parecer estudiante y parecer programador.
 
-Si quieres, te paso por email mi lista con estos prompts de Git listos para copiar (ivan@codeandia.com). Y si te pica la curiosidad del resto del flujo, dime qué módulo preparas y te escribo sobre eso.
+Empieza hoy: crea un repo de práctica, deja un commit feo a propósito y dedícale una tarde a los comandos de aquí. Cuando dentro de un mes entiendas tu propio historial de un vistazo, dime si Git todavía te da miedo.

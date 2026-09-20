@@ -4,7 +4,7 @@ title: "Claude Code CLI 2026: terminal-first, agentes paralelos y el precio de l
 description: "Review honesta de Claude Code: qué hace distinto a Cursor/Copilot, Dynamic Workflows, MCP nativo, hooks, pricing por tokens, y si merece la pena para un estudiante."
 category: "Review"
 date: 2026-08-12
-readtime: 8
+readtime: 10
 affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"
 affiliate_label: "Ver planes Claude"
@@ -184,4 +184,4 @@ claude "añade health check endpoint en /actuator/health con detalles de BD y Ka
 
 Si tienes $20/mes y curiosidad, **prueba Claude Code una semana**. Si no te cambia el flujo, cancela. Si te lo cambia, ya sabes el coste real.
 
-¿Lo has probado? Comparte por email (ivan@codeandia.com) tu tarea más loca con Dynamic Workflows.
+Al final, Claude Code me convence por lo que casi nadie destaca: trabaja en silencio, sin ventanas ni rostro. Y eso, para concentrarse, vale su peso en oro.

@@ -4,7 +4,7 @@ title: "Cursor Rules (.mdc) 2026: cómo configurar la IA para que programe como 
 description: "Guía completa del sistema de reglas de Cursor: formato .mdc, tipos de reglas (Always, File-scoped, Intelligent, Manual), mejores prácticas, y ejemplos reales para estudiantes."
 category: "Guía"
 date: 2026-08-10
-readtime: 7
+readtime: 9
 affiliate_text: "Prueba Cursor Pro y configura tus reglas para programar más rápido"
 affiliate_url: "https://cursor.com/pricing"
 affiliate_label: "Ver planes Cursor"
@@ -250,4 +250,4 @@ Sin reglas, Cursor es un junior entusiasta que a veces acierta y a veces la lía
 
 Mi recomendación: empieza con **3-4 reglas Always/File-scoped** que cubran lo básico (stack, arquitectura, testing). Añade **Intelligent** para cosas transversales. Cuando Cursor falle en algo repetido, **escribe una regla para ese caso**. En dos semanas tienes un "manual de estilo ejecutable" que te ahorra revisar PRs propios.
 
-¿Tienes reglas que te hayan salvado la vida? Compártelas por email (ivan@codeandia.com) y las añado al artículo.
+El mejor .mdc es el que revisas cada dos semanas, no el que escribes a lo grande el primer día. Trátalo como código: edítalo, rompe reglas, y conserva solo lo que te ahorre discusiones.

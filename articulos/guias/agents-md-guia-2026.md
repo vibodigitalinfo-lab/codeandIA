@@ -118,4 +118,4 @@ Empieza hoy:
 3. Prueba: pide a Cursor un cambio y compara con lo que hacía antes.
 4. Actualízalo cada vez que cambie algo de tu setup.
 
-¿Tienes un AGENTS.md que funcione especialmente bien en tu equipo de prácticas? Cuéntamelo por email (ivan@codeandia.com) y lo comparto.
+Si en tu equipo el AGENTS.md molesta más de lo que ayuda, es normal: estos ficheros se escriben cuando algo se rompe, no antes. Empieza con dos reglas y ve añadiendo cuando sangre.

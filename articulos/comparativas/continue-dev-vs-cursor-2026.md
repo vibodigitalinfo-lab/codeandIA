@@ -4,7 +4,7 @@ title: "Continue.dev vs Cursor vs GitHub Copilot 2026: la comparativa que nadie 
 description: "Continue.dev, Cursor y Copilot en terminal vs editor: precios reales, privacidad, modelos (Claude, GPT, locales con Ollama), y cuál elijo yo para prácticas de DAW."
 category: "Comparativa"
 date: 2026-08-20
-readtime: 7
+readtime: 9
 ---
 
 Llevo años usando GitHub Copilot en el editor, Cursor me lo instalé este curso, y hace dos meses me metí Continue.dev (open source, MIT) con Ollama local para no mandar código a la nube. Tres formas de "IA que te ayuda a programar", tres precios, tres filosofías. Te las comparo **con números reales y experiencia de prácticas DAW**, no con el marketing de cada uno.
@@ -128,4 +128,4 @@ No es religión: es **usar la herramienta que menos fricción pone ese día**. C
 
 ---
 
-¿Usas Continue con Ollama? ¿Has probado Cursor agent vs Copilot agent en prácticas? Cuéntame por email (ivan@codeandia.com) tu flujo y coste real.
+Al final esta comparativa se reduce a una pregunta: ¿prefieres gratis, abierto y laborioso, o de pago, pulido y que te deja trabajar? Mi respuesta cambió con el presupuesto, y no me avergüenza admitirlo. La tuya dependerá del momento del curso en el que estés, y eso también es perfectamente válido.

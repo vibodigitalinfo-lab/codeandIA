@@ -4,7 +4,7 @@ title: "GitHub Actions para estudiantes de DAW: automatiza tests, despliegues y 
 description: "Guía práctica de GitHub Actions para proyectos DAW: workflow de Java/Maven, deploy en Vercel/GitHub Pages, secrets, y cómo ahorrar dinero siendo estudiante. Todo con código real que funciona."
 category: "Guía"
 date: 2026-08-29
-readtime: 9
+readtime: 8
 ---
 
 Mi primer proyecto "profesional" en DAW tenía tests que pasaban en mi portátil y fallaban en el de mi compañero. Dos horas depurando para descubrir que él usaba Java 17 y yo Java 21. Si hubiéramos tenido GitHub Actions configurado, el CI nos lo habría dicho en el primer push. **GitHub Actions te da un pipeline de integración continua gratis** — tests, linting, builds, deploy automático — y lo mejor: funciona sin instalar Jenkins, sin configurar servidores, y sin pagar nada mientras seas estudiante (o tengas un repo público).
@@ -291,4 +291,4 @@ jobs:
 
 GitHub Actions no es solo para empresas. **Es la herramienta que separa "funciona en mi máquina" de "funciona"**. Si estás en DAW y todavía no tienes un workflow básico, créalo hoy — te va a ahorrar un dolor de cabeza en el examen.
 
-¿Ya usas GitHub Actions en tus proyectos? ¿Tienes algún workflow que te haya salvado la vida? Cuéntame por email (ivan@codeandia.com).
+Si montas un workflow que te ahorra una hora semanal, cuéntamelo: escríbeme a ivan@codeandia.com con el YAML y lo pruebo en un repo de verdad antes de recomendarlo.

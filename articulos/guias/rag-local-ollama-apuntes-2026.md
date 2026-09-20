@@ -131,4 +131,4 @@ Es además el complemento perfecto al flujo que ya te enseñé: en el [guía de 
 
 Y si algún día te piden en prácticas "dar contexto de la documentación a un chat interno", ya sabes exactamente qué piezas usa.
 
-¿Tienes apuntes de alguna asignatura que te gustaría "preguntar"? Cuéntamelo por email (ivan@codeandia.com) y te ayudo a ajustar el troceado.
+El día que le pregunté a mi RAG por un apunte de Java y me respondió mejor que yo, decidí que este proyecto venía para quedarse. Que te parezca poco secreto es buena señal de que funciona.

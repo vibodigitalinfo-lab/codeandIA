@@ -134,4 +134,4 @@ Empieza hoy:
 3. Haz el script que explica errores y úsalo con tus logs de prácticas una semana.
 4. Ponle límite de gasto antes de nada.
 
-¿Qué app te gustaría construir tú con la API? Cuéntamelo por email (ivan@codeandia.com) y te doy mi opinión.
+La primera vez que veas tu app responder vía API vas a pensar que es magia. No lo es: es una librería, una key y un prompt. Cuando el prompt te domine a ti, es buen momento para volver a esta guía.

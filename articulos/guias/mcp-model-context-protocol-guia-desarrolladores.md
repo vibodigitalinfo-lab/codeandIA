@@ -4,7 +4,7 @@ title: "MCP (Model Context Protocol) 2026: qué es, para qué sirve y por qué d
 description: "Guía práctica del Model Context Protocol: arquitectura, servidores, clientes, especificación 2026-07-28, seguridad, y cómo usarlo en VS Code, Cursor, Claude Code y Copilot."
 category: "Guía"
 date: 2026-08-11
-readtime: 8
+readtime: 10
 affiliate_text: "Explora servidores MCP listos para usar en el registry oficial"
 affiliate_url: "https://mcp.so"
 affiliate_label: "Ver registry MCP"
@@ -243,4 +243,4 @@ MCP no es "otra cosa que aprender". Es **la capa que hace que el resto de herram
 
 En 2026, **saber MCP es tan básico como saber Docker o GitHub Actions**. No porque sea obligatorio hoy, sino porque dentro de 6 meses **todas las herramientas de IA lo usarán por defecto** y quien no lo entienda irá a remolque.
 
-¿Has montado algún servidor MCP para tu stack? Cuéntalo por email (ivan@codeandia.com) y lo enlazo.
+Empieza por un MCP inútil pero tuyo: un server que te diga el tiempo o que lea tu lista de la compra. Aprender el mecanismo con algo sin importancia es la diferencia entre entender y copiar.

@@ -4,7 +4,7 @@ title: "Warp terminal 2026: IA en la línea de comandos, ¿vale la pena cambiar 
 description: "Review honesta de Warp terminal: bloques, IA integrada, precios, Windows/Linux/macOS, y si merece la pena para un estudiante de DAW."
 category: "Review"
 date: 2026-08-07
-readtime: 7
+readtime: 8
 affiliate_text: "Prueba Warp gratis y decide si te cambia el flujo en terminal"
 affiliate_url: "https://www.warp.dev/pricing"
 affiliate_label: "Ver planes Warp"
@@ -114,4 +114,4 @@ Si ya tienes tu flujo perfeccionado en Kitty/iTerm con tmux + fzf + scripts prop
 
 **Mi veredicto personal**: me quedo con Warp. El salto de "buscar en history" a "buscar por bloques con IA" me ahorra tiempo real cada día. El login me fastidia, pero gano más de lo que pierdo. Si eres estudiante y quieres probar IA en terminal **hoy**, bájalo, dale a Free + tu API key, y en 10 minutos tienes Warp Agent funcionando. Si no te convence, lo desinstalas y listo.
 
-¿Lo has probado? Cuéntame por email (ivan@codeandia.com) si los bloques te resultan naturales o te chirrían.
+Los bloques o los amas o te retienen: va a gustos, y no pasa nada. A mí me costó tres días soltar el hábito de clicar el histórico, y desde entonces no se me ocurre volver a la terminal de otra manera. Se decide en una tarde.

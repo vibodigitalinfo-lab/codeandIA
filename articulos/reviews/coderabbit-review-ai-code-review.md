@@ -95,4 +95,4 @@ Dicho esto: **no des permisos a repos con secretos reales en producción** sin r
 
 Lo que **no** hace: sustituir la revisión humana. CodeRabbit pilla bugs mecánicos, patrones conocidos y seguridad básica. No entiende la lógica de negocio de tu aplicación, no sabe si el algoritmo es el óptimo para tu caso, y a veces sugiere "limpieza" que solo añade complejidad. Úsalo como **red de seguridad**, no como árbitro final.
 
-Si lo pruebas, dime por email (ivan@codeandia.com) qué tal te fue. Y si tienes repo público, el plan gratis no te cuesta nada perder 5 minutos en ver si te pilla algo.
+Prueba una semana: configuración por defecto y un repo tuyo de verdad. Si no te pilla ningún bug en siete días, me debes una explicación de por qué tus repos están tan limpios.

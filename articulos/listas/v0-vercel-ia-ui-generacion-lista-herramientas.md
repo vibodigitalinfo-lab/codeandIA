@@ -4,7 +4,7 @@ title: "v0 by Vercel y alternativas 2026: IA que genera interfaces, ¿cuál uso 
 description: "Lista comparativa de v0, Bolt, Lovable, y herramientas de generación UI con IA. Precios, stack, limitaciones, y cuál elegir para portfolio, landing, o app real."
 category: "Lista"
 date: 2026-08-14
-readtime: 7
+readtime: 9
 affiliate_text: "Prueba v0 gratis y genera tu primera UI en minutos"
 affiliate_url: "https://v0.app/pricing"
 affiliate_label: "Ver planes v0"
@@ -162,4 +162,4 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 
 Mi consejo: **prueba las tres versiones gratis esta tarde**. En 30 min cada una sabrás cuál "te habla". La IA no te va a escribir el portfolio por ti, pero te quita el síndrome de la pantalla en blanco y el CSS que no centra el div.
 
-¿Cuál has probado? ¿Qué generaste? Cuéntame por email (ivan@codeandia.com) tu prompt y el resultado.
+Hazme una cosa: genera la página que necesitas de verdad, no un ejemplo. Cuando veas el resultado séptima versión, entenderás en qué punto está esto del UI por prompt y qué falta.

@@ -4,7 +4,7 @@ title: "De prácticas a primer curro con IA: cómo preparar entrevistas técnica
 description: "Guía para estudiantes de DAW que buscan su primer trabajo: cómo usar IA para preparar entrevistas técnicas, resolver challenge de código, y crear un portfolio que impresione. Sin trampas, con estrategia real."
 category: "Guía"
 date: 2026-08-31
-readtime: 9
+readtime: 10
 ---
 
 Cuando empecé a buscar prácticas de DAW, me encontré con una realidad que nadie me había contado: **saber programar no es suficiente**. Necesitas pasar entrevistas técnicas donde te ponen a resolver problemas en tiempo real, made un challenge de código en 45 minutos, y demostrar que sabes más que "lo que vimos en clase". Aquí es donde la IA se convierte en tu mejor aliada — no para que haga el trabajo por ti, sino para que **te entrene como un coach personalizado** que nunca se cansa de explicarte las mismas cosas.
@@ -195,4 +195,4 @@ Después damelo a mí para que lo intente.
 
 ---
 
-¿Estás buscando prácticas o tu primer curro? ¿Qué parte de la entrevista técnica te da más nervios? Cuéntame por email (ivan@codeandia.com) y te doy algún consejo más específico.
+Si me escribes a ivan@codeandia.com contándome qué parte de la entrevista te mete más miedo, te digo cómo la atacaría yo con lo de esta guía. Sin guion, con lo que de verdad me funcionó.

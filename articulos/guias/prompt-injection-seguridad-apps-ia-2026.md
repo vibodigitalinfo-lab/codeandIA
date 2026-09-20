@@ -98,4 +98,4 @@ No te va a pasar si tus apps de prácticas no tienen accesos a nada sensible... 
 
 Y si te atreves, lo fácil: este verano dale a un chatbot la tarea de resumir una web y pídele que luego te diga "qué harías si el resumen incluyera instrucciones ocultas". La teoría no se aprende hasta que la ves funcionar.
 
-¿Quieres que te explique cómo blindar el asistente de la guía de la API de OpenAI con estas 7 defensas? Cuéntamelo por email (ivan@codeandia.com).
+Si te llevas una sola cosa de este artículo: trata el output de la IA como la respuesta de un usuario desconocido. Con eso en la cabeza, el LLM01 se defiende casi solo.

@@ -72,4 +72,4 @@ Te dejo el mío, que imprimo mentalmente cada vez que actualizo el portfolio:
 
 La clave de todo esto es que la IA te ha dado la *velocidad* para ir de cero a un portfolio digno en días, pero el argumento (qué eres y por qué te eligen) sigue siendo tuyo. Cuando lo entiendes así, el portfolio deja de ser estrés y se convierte en lo que debería haber sido desde el principio: una herramienta de venta, no un diario de código.
 
-Si quieres que te revise el flujo entero (portfolio + texto + email de candidatura) y te dé ideas para tu caso concreto, escríbeme a ivan@codeandia.com y lo vemos.
+Y si me escribes a ivan@codeandia.com contándome qué has subido ya, te digo la primera cosa que cambiaría. Y la segunda, si te veo motivado.

@@ -224,4 +224,4 @@ Configurar secrets y variables en GitHub Actions parece complicado al principio,
 
 Lo más importante: **nunca** expongas credenciales en tu código, siempre usa secrets para datos sensibles, y aprovecha los environments para separar configuraciones por entorno.
 
-¿Tenéis algún truco o error que hayáis encontrado con GitHub Actions? Contadme por email (ivan@codeandia.com), seguro que alguien le viene bien.
+Regla de oro: si un secreto se ha filtrado una vez, da por hecho que está comprometido y rótalo. Mejor pasar por aburrido que por hacker.

@@ -81,4 +81,4 @@ Empieza esta tarde:
 3. Cuando falles, usa el prompt 1 para entender el error.
 4. El viernes, llama al prompt 2 y revisa tus consultas como "senior".
 
-¿A qué módulo de bases de datos te enfrentas ahora mismo? Cuéntamelo por email (ivan@codeandia.com) y te monto el plan de ejercicios.
+Cuando sepas qué módulo de bases de datos te toca, mándame un correo a ivan@codeandia.com con el temario y te devuelvo diez ejercicios por cada tipo de query que vayas a ver.

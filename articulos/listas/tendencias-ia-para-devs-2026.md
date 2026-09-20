@@ -4,7 +4,7 @@ title: "5 tendencias de IA que ya usan los desarrolladores senior (y que un estu
 description: "Tendencias reales de IA en programación 2026: agentes autónomos, MCP, modelos locales, AI-native testing, y code review automatizado. Ejemplos prácticos que puedes empezar a usar ahora."
 category: "Lista"
 date: 2026-09-05
-readtime: 7
+readtime: 9
 ---
 
 Hace un año, "IA para programar" significaba Copilot autocompletando líneas. Hoy, los seniors que conozco usan la IA de formas que parecen ciencia ficción: agentes que despliegan solos, protocolos que conectan IA con herramientas externas, y modelos locales que hacen code review sin enviar una sola línea de código a la nube. Estas no son tendencias de futurólogo en Twitter — **son cosas que se están usando HOY en empresas reales**. Y lo mejor: un estudiante de DAW puede adoptarlas todas sin pagar nada.
@@ -196,4 +196,4 @@ La IA no va a quitarte el trabajo. **Va a quitarle el trabajo a quien no la sepa
 
 ---
 
-¿Ya usas alguna de estas tendencias en tus proyectos? ¿Cuál te llama más la atención? Cuéntame por email (ivan@codeandia.com) qué herramienta vas a probar primero.
+De la lista, tengo curiosidad por saber cuál va a probar cada uno primero. Si me lo dices a ivan@codeandia.com, la uso de titular de la próxima comparativa.
