@@ -15,8 +15,14 @@
 
   <!-- Imagen social: por categoría si existe, si no la general -->
   {% assign og_img_rel = "/og-image.png" %}
-  {% if page.category %}
-    {% assign og_name = "og-" | append: page.category | slugify | append: ".png" %}
+  {% assign og_name = "" %}
+  {% case page.category %}
+    {% when "Guía" %}{% assign og_name = "og-guia.png" %}
+    {% when "Review" %}{% assign og_name = "og-review.png" %}
+    {% when "Comparativa" %}{% assign og_name = "og-comparativa.png" %}
+    {% when "Lista" %}{% assign og_name = "og-lista.png" %}
+  {% endcase %}
+  {% if og_name != "" %}
     {% assign og_cat_hit = site.static_files | where: "name", og_name | size %}
     {% if og_cat_hit > 0 %}{% assign og_img_rel = "/" | append: og_name %}{% endif %}
   {% endif %}
