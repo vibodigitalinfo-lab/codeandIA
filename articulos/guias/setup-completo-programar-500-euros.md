@@ -30,7 +30,7 @@ Aquí va mi propuesta para que te entre en 500€ de verdad. Es lo que yo haría
 
 Mi primera recomendación es la **SIHOO M18**. Por 180 euros te da reposabrazos ajustables, soporte lumbar que no se va de madre y un respaldo de malla que aguanta sesiones de 8 horas. No es la silla de tus sueños, pero es la diferencia entre acabar el día con la espalda entera o hecha polvo.
 
-Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/): ahí tienes opciones desde los 170 hasta los 327€ con su pros y contras reales. Pero si me preguntas, por debajo de 170€ se empieza a pagar cara la ergonomía.
+Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/): ahí tienes opciones desde los 135 hasta los 327€ con su pros y contras reales. Pero si me preguntas, por debajo de 130€ se empieza a pagar cara la ergonomía.
 
 ### 2. El teclado (67,99€) — mecánico sin arruinarte
 

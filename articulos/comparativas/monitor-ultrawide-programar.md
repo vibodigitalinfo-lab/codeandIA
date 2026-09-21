@@ -54,7 +54,7 @@ Para programar con unos 450 euros, este es el monitor que yo compro. Lo recomien
 
 ## Xiaomi G34WQi: El presupuesto que sorprende
 
-El Xiaomi G34WQi cuesta alrededor de 350 euros. Mismo tamaño, misma resolución que el LG: 34 pulgadas, 3440 x 1440.
+El Xiaomi G34WQi cuesta alrededor de 220 euros. Mismo tamaño, misma resolución que el LG: 34 pulgadas, 3440 x 1440.
 
 El panel es VA, no IPS. Los negros son más profundos, agradable para dark themes en VS Code. Pero los ángulos de visión son peores: si no te sientas de frente, los colores cambian en los bordes.
 
@@ -64,13 +64,13 @@ No tiene USB-C. Necesitas DisplayPort o HDMI para la imagen y el cargador del po
 
 El ajuste de altura no está. Solo tilt. Para una sesión de 8 horas de prácticas de DAW, eso es un problema real: o compras un brazo de monitor o aguantas el cuello.
 
-Lo bueno: por 350 euros, la calidad de imagen es sorprendente. El texto se ve nítido y los colores son correctos. Si tu prioridad es tener ultrawide barato sin USB-C ni ajuste de altura, cumple.
+Lo bueno: por 220 euros, la calidad de imagen es sorprendente. El texto se ve nítido y los colores son correctos. Si tu prioridad es tener ultrawide barato sin USB-C ni ajuste de altura, cumple.
 
 No es mi primera opción para programar, pero para un estudiante de DAW con presupuesto muy ajustado que prioriza tamaño de pantalla sobre todo lo demás, es una opción honesta.
 
 ## Dell U2725QE: La opción premium que no necesitas (pero que te gustaría tener)
 
-El Dell U2725QE cuesta alrededor de 600 euros. Es 27 pulgadas, no 34. Pero tiene 3840 x 2160 (4K).
+El Dell U2725QE cuesta alrededor de 675 euros. Es 27 pulgadas, no 34. Pero tiene 3840 x 2160 (4K).
 
 Los 163 PPI hacen una diferencia brutal en nitidez de texto. Cada carácter de código se ve con una precisión que no habías visto. Después de usar un 4K, un WQHD de 34 pulgadas se siente borroso.
 
@@ -80,13 +80,13 @@ El ajuste es completo: altura, tilt, swivel y pivot. Puedes girarlo a vertical p
 
 IPS, Flicker-Free, certificación TÜV. Todo lo que pedir.
 
-¿El problema? 600 euros y 27 pulgadas. Para un estudiante de DAW, 600 euros es mucho. Y 27 pulgadas, aunque sean 4K, no te dan ese espacio horizontal que hace la magia de la ultrawide: IDE a la izquierda, navegador a la derecha, terminal abajo. En 27, el split screen se siente apretado.
+¿El problema? 675 euros y 27 pulgadas. Para un estudiante de DAW, 675 euros es mucho. Y 27 pulgadas, aunque sean 4K, no te dan ese espacio horizontal que hace la magia de la ultrawide: IDE a la izquierda, navegador a la derecha, terminal abajo. En 27, el split screen se siente apretado.
 
 Es un monitor perfecto si no necesitas ultrawide y quieres la mejor nitidez de texto posible. Pero con 350 euros de presupuesto, no cuadra.
 
 ## AOC CU34G2XP: Budget con buenos specs en papel
 
-El AOC CU34G2XP ronda los 350 euros. Panel VA, 34 pulgadas, 3440 x 1440. Los specs son sólidos.
+El AOC CU34G2XP ronda los 285 euros. Panel VA, 34 pulgadas, 3440 x 1440. Los specs son sólidos.
 
 Tiene 180Hz de refresco, igual que el Xiaomi. Para código, irrelevante. Para gaming, interesante.
 
@@ -98,17 +98,17 @@ El soporte VESA 100x100 está incluido. Brazo de monitor si quieres.
 
 Lo que no me gusta: el panel VA no da los mismos ángulos de visión que el IPS del LG. El build quality se siente más barato y el stand tambalea si golpeas el escritorio.
 
-Es una opción válida si buscas ultrawide con ajuste de altura a 350 euros. Pero el LG por 100 euros más te da IPS, USB-C y mejor construcción.
+Es una opción válida si buscas ultrawide con ajuste de altura a 285 euros. Pero el LG por unos 165 euros más te da IPS, USB-C y mejor construcción.
 
 ## Mi veredicto por caso de uso
 
 **Si tienes unos 450 euros y quieres lo mejor para programar:** LG 34WN80C-B. IPS, USB-C, ajuste completo, resolución perfecta. Es el monitor que yo compro. Este monitor es el lienzo perfecto para tener [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) a un lado y el código al otro.
 
-**Si tu presupuesto es muy ajustado y no necesitas USB-C:** Xiaomi G34WQi a 350 euros. Buena pantalla, precio bajo. Pero renuncias a USB-C y ajuste de altura. Si cargas tu portátil por USB-C, estate preparado para dos cables en el escritorio.
+**Si tu presupuesto es muy ajustado y no necesitas USB-C:** Xiaomi G34WQi a 220 euros. Buena pantalla, precio bajo. Pero renuncias a USB-C y ajuste de altura. Si cargas tu portátil por USB-C, estate preparado para dos cables en el escritorio.
 
-**Si quieres la nitidez absoluta y no necesitas ultrawide:** Dell U2725QE a 600 euros. El 4K en 27 pulgadas es una gozada para leer código. Pero sale del presupuesto y no te da la amplitud horizontal de una ultrawide.
+**Si quieres la nitidez absoluta y no necesitas ultrawide:** Dell U2725QE a 675 euros. El 4K en 27 pulgadas es una gozada para leer código. Pero sale del presupuesto y no te da la amplitud horizontal de una ultrawide.
 
-**Si quieres ultrawide barato con ajuste de altura:** AOC CU34G2XP a 350 euros. Cumple, pero el LG por 100 euros más es mejor compra en todo aspecto.
+**Si quieres ultrawide barato con ajuste de altura:** AOC CU34G2XP a 285 euros. Cumple, pero el LG por unos 165 euros más es mejor compra en todo aspecto.
 
 Mi recomendación final: el LG 34WN80C-B. Lo pondría en mi escritorio mañana mismo. IPS, USB-C, ajuste de altura, VESA y esa resolución de 3440 x 1440 que hace que 8 horas de código no castiguen los ojos. A 450 euros, es la mejor inversión para tu productividad.
 

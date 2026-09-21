@@ -54,7 +54,7 @@ Y como es QMK, toda la configuración es open source. Si sabes un poco de C, pue
 
 ## ¿Para quién es este teclado?
 
-Vamos al grano. El Keychron Q1 Max cuesta **alrededor de 200 euros**, y en Amazon España es difícil de encontrar: la ficha que había quedó descatalogada y hoy no hay una oferta fiable. No es barato. Pero hay que ponerlo en contexto:
+Vamos al grano. El Keychron Q1 Max cuesta **alrededor de 250 euros**, y en Amazon España es difícil de encontrar: la ficha que había quedó descatalogada y hoy no hay una oferta fiable. No es barato. Pero hay que ponerlo en contexto:
 
 - Es un teclado con carcasa de aluminio CNC
 - Gasket mount de serie

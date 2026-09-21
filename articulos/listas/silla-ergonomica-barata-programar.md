@@ -8,7 +8,7 @@ readtime: 10
 affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-updated: 2026-09-18
+updated: 2026-09-21
 picks:
   - name: "SIHOO Doro C300"
     price: "326,99€"
@@ -22,10 +22,10 @@ picks:
     price: "~230€"
     best_for: "Reposacabezas incluido"
   - name: "Amazon Basics Ergonomic"
-    price: "~170€"
+    price: "~135€"
     best_for: "La más barata que sirve"
   - name: "Ticova Ergonomic"
-    price: "~280€"
+    price: "~160€"
     best_for: "Reclinación 135° para pensar"
 ---
 
@@ -83,7 +83,7 @@ Donde gana: el precio y lo que incluye. Por 230€ con reposacabezas, es difíci
 
 ### Amazon Basics Ergonomic: la más barata que de verdad sirve
 
-La Amazon Basics Ergonomic cuesta unos 170€. Es la más barata de esta lista. Y la más importante, porque demuestra que no necesitas gastar 300€ para dejar de sufrir.
+La Amazon Basics Ergonomic cuesta unos 135€. Es la más barata de esta lista. Y la más importante, porque demuestra que no necesitas gastar 300€ para dejar de sufrir.
 
 Tiene lo básico bien hecho. Altura ajustable, reposabrazos ajustables y un respaldo que se blandea con tu peso. El mecanismo de inclinación es simple pero funciona: te reclinas y la silla te acompaña.
 
@@ -91,11 +91,11 @@ La malla trasera es la peor de las cinco. Se nota el ahorro: tras varias horas n
 
 Donde flojea: no tiene reposacabezas y el asiento no se ajusta en profundidad. Si mides más de 1,80m o pesas más de 90kg, probablemente se te quede corta. Yo con 1,78m iba justo en el filo del asiento.
 
-Pero hagamos números. 170€ y devolución fácil en Amazon. Si tu presupuesto es 150-200€, esta silla te saca del dolor inmediato. Lo importante es dejar de usar la silla de cocina, ya mejorarás después.
+Pero hagamos números. 135€ y devolución fácil en Amazon. Si tu presupuesto es 120-160€, esta silla te saca del dolor inmediato. Lo importante es dejar de usar la silla de cocina, ya mejorarás después.
 
 ### Ticova Ergonomic: la que se reclina para centrarse
 
-La Ticova Ergonomic cuesta unos 280€. Es la segunda más cara de la lista y tiene su propia personalidad.
+La Ticova Ergonomic cuesta unos 160€. No es la más barata de la lista, pero tiene su propia personalidad.
 
 Lo más llamativo: se reclina 135 grados. Cuando llevo dos horas atascado con una función que no compila, me reclino, miro el techo y le doy vueltas al problema. Cambiar de postura sin levantarte descarga la espalda y ya te ayuda bastante.
 
@@ -113,7 +113,7 @@ Mi consejo: si buscas reclinación y un reposacabezas completo, esta es tu silla
 
 No es un flechazo científico. Es práctica. El soporte lumbar dinámico me evita ese dolor de las 5 de la tarde que tuve con la silla de cocina. La malla completa me mantiene fresco en sesiones largas. Y el reposabrazos 3D me permite apoyar las muñecas mientras escribo sin encoger los hombros.
 
-Si tu presupuesto no llega a 300€, hay orden. Por menos de 180€, la Amazon Basics te saca del paso. Entre 180€ y 250€, la IKEA Markus o la Clatina Mellet según si prefieres malla clásica o reposacabezas. Entre 280€ y 330€, la SIHOO o la Ticova según tu prioridad entre soporte lumbar y reclinación.
+Si tu presupuesto no llega a 300€, hay orden. Por menos de 150€, la Amazon Basics te saca del paso. Por unos 160€, la Ticova añade reclinación y reposacabezas completo. Entre 200€ y 250€, la IKEA Markus o la Clatina Mellet según si prefieres malla clásica o reposacabezas. Y por encima de los 300€, la SIHOO con su soporte lumbar dinámico.
 
 Lo que no negocies jamás: soporte lumbar ajustable (esencial en sesiones largas), malla trasera transpirable y una garantía de 5 años mínima. La profundidad de asiento ajustable y los reposabrazos 4D son mejoras, no requisitos. Mide tu altura antes de comprar: casi todas las quejas que leo en foros vienen de gente alta o baja a la que la silla no le encaja.
 

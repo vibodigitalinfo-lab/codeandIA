@@ -36,9 +36,9 @@ Donde flojea: por ese precio esperas un acabado algo mejor que el plástico liso
 
 ## JBL Tune 770NC: la batería de otro planeta
 
-El [JBL Tune 770NC](https://www.amazon.es/dp/B0CVPPHT6P?tag=codeandia-21) es el que me llevé un día al aula de informática y no lo volví a quitar hasta una semana después. Su cifra gorda: **70 horas de batería** con la ANC apagada y 44 con ella puesta. A ver, un proyecto de DAW entero te aguanta sin cargar.
+El [JBL Tune 770NC](https://www.amazon.es/dp/B09CYX92NB?tag=codeandia-21) es el que me llevé un día al aula de informática y no lo volví a quitar hasta una semana después. Su cifra gorda: **70 horas de batería** con la ANC apagada y 44 con ella puesta. A ver, un proyecto de DAW entero te aguanta sin cargar.
 
-Por unos 80€ tienes cancelación de ruido adaptativa con modo Smart Ambient (puedes oír lo que pasa alrededor sin quitártelos), Bluetooth 5.3, sonido JBL Pure Bass, son plegables y pesan poco más que los Sony.
+Por unos 75€ tienes cancelación de ruido adaptativa con modo Smart Ambient (puedes oír lo que pasa alrededor sin quitártelos), Bluetooth 5.3, sonido JBL Pure Bass, son plegables y pesan poco más que los Sony.
 
 Lo que tiene de especial es que son la mezcla más redonda entre batería, sonido y comodidad del grupo. Y lo que tiene de pega: la cancelación de ruido adaptativa, en ambientes muy cambiantes, a veces se nota más "agresiva" que la de los Sony, y para gustos el color azul de la versión más barata es... peculiar. Se los recomiendo a quien olvida cargar las cosas.
 

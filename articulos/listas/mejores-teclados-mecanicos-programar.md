@@ -23,10 +23,10 @@ picks:
     price: "~170€"
     best_for: "Sin compromisos (gasket mount + aluminio)"
   - name: "Logitech MX Keys S"
-    price: "~120€"
+    price: "~92€"
     best_for: "Quien odia el ruido (low-profile)"
   - name: "AULA F75"
-    price: "~70€"
+    price: "~100€"
     best_for: "Budget con buen acabado sin mods"
 ---
 
@@ -40,7 +40,7 @@ Aquí van los 5 que recomiendo para programar en 2026. Sin jerga de marketing. S
 
 ## Keychron Q1 Pro: El rey de los teclados mecánicos
 
-El Keychron Q1 Pro cuesta unos 170€. No es barato. Pero vale cada céntimo si programamos 8 horas diarias.
+El Keychron Q1 Pro cuesta unos 170€ en la tienda oficial de Keychron, aunque en Amazon España la ficha está sin stock ahora mismo. No es barato. Pero vale cada céntimo si programamos 8 horas diarias.
 
 Tiene gasket mount. Eso significa que el PCB flota dentro del caso, separado por pads de goma. La escritura se siente suave, como teclear sobre un colchón firme. Después de 4 horas seguidas de código, la diferencia es notable: menos impacto en las muñecas.
 
@@ -70,7 +70,7 @@ Es mi recomendación para estudiantes de DAW que quieren su primer teclado mecá
 
 ## Logitech MX Keys S: El low-profile para los que odian el ruido
 
-El Logitech MX Keys S cuesta unos 120€. No es mecánico en el sentido tradicional. Es low-profile con switches scissor. Pero merece estar en esta lista.
+El Logitech MX Keys S cuesta unos 92€. No es mecánico en el sentido tradicional. Es low-profile con switches scissor. Pero merece estar en esta lista.
 
 ¿Por qué? Porque no todos quieren el ruido de los mecánicos. Si trabajas en una oficina compartida, en una biblioteca o simplemente te molesta el clic, este teclado es la alternativa.
 
@@ -98,7 +98,7 @@ Si estás estudiando DAW y tu presupuesto es limitado, este teclado te da 80% de
 
 ## AULA F75: Budget con estilo y buen build
 
-El AULA F75 cuesta unos 70€. Es otra opción budget que rompe expectativas.
+El AULA F75 cuesta unos 100€. Es otra opción budget que rompe expectativas.
 
 El build quality es mejor que el RK84. El case se siente sólido, con un peso que no parece de esta gama. Los switches que trae son suaves y bien lubricados de serie. No necesita modding para sonar bien.
 

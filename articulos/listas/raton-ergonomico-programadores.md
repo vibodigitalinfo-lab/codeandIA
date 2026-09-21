@@ -8,7 +8,7 @@ readtime: 10
 affiliate_text: "Consigue el Logitech MX Master 3S en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-updated: 2026-09-18
+updated: 2026-09-21
 picks:
   - name: "Logitech MX Master 3S"
     price: "88,72€"
@@ -20,13 +20,13 @@ picks:
     best_for: "Empezar con postura vertical sin gastar de más"
     url: "https://www.amazon.es/dp/B07W4DGC27?tag=codeandia-21"
   - name: "Logitech MX Vertical"
-    price: "~90€"
+    price: "~63€"
     best_for: "Prevención seria de RSI"
   - name: "Logitech ERGO M575"
     price: "~50€"
     best_for: "Escritorio pequeño (trackball)"
   - name: "Keychron M6"
-    price: "~45€"
+    price: "~64€"
     best_for: "Ergonomía al precio más bajo"
 ---
 
@@ -68,7 +68,7 @@ Lo que no me gusta: para manos grandes se queda corto. El cuerpo es más estrech
 
 Si nunca has probado un ratón vertical y quieres empezar con una inversión baja, el Lift es el sitio correcto. Pero si te acostumbras, probablemente quieras subir de gama.
 
-## Logitech MX Vertical: La opción seria para RSI (~90 euros)
+## Logitech MX Vertical: La opción seria para RSI (~63 euros)
 
 El MX Vertical es el ratón que me recomendó el fisioterapeuta. 57 grados de inclinación, diseñado para que el brazo y la muñeca estén en una posición neutra.
 
@@ -78,7 +78,7 @@ Lo que me convenció: después de dos semanas usando el MX Vertical, el dolor de
 
 Lo configuré con Logi Options+ para mapear los botones traseros a operaciones de Git en la terminal: push, pull y status. En un proyecto DAW con deploy frecuente, estos atajos me ahorraron tiempo real.
 
-Lo que no me gusta: el diseño es polarizante. A algunos les parece cómodo desde el primer día. A otros les cuesta acostumbrarse. Y a 90 euros, no es un experimento barato.
+Lo que no me gusta: el diseño es polarizante. A algunos les parece cómodo desde el primer día. A otros les cuesta acostumbrarse. Y a 63 euros, tampoco es un experimento caro.
 
 Si tienes problemas de muñeca o síntomas de RSI, este ratón es una inversión seria. No es opcional. Es prevención.
 
@@ -98,9 +98,9 @@ Lo que no me gusta: no es para gaming ni para diseño gráfico donde la precisi�
 
 A 50 euros, es la opción más barata de esta lista y una de las más efectivas para prevenir dolor de muñeca. Si el espacio es limitado o simplemente quieres que tu brazo descanse, el M575 cumple.
 
-## Keychron M6: Budget ergonómico que no decepciona (~45 euros)
+## Keychron M6: Budget ergonómico que no decepciona (~64 euros)
 
-El Keychron M6 es la apuesta de Keychron para el ratón ergonómico barato. A 45 euros, es la entrada más económica a un ratón bien construido.
+El Keychron M6 es la apuesta de Keychron para el ratón ergonómico barato. A 64 euros, sigue siendo una opción contenida para lo que ofrece.
 
 El sensor es decente (hasta 26.000 DPI ajustable), los materiales no parecen baratos y la forma es cómoda para sesiones de 4-5 horas. No es un MX Master, pero para el precio, no decepciona.
 
