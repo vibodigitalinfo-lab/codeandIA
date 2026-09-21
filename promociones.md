@@ -169,7 +169,7 @@ permalink: /ofertas/
         <span class="oferta-category">Teclado</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Keychron V1 Max (Red Switch) — 137,99€ en Amazon</h3>
+      <h3>Keychron V1 Max (Red Switch) — 141,79€ en Amazon</h3>
       <p class="oferta-excerpt">Teclado mecánico inalámbrico 75% hot-swappable, QMK/VIA, switches Gateron Jupiter Red, RGB. Mejor relación calidad-precio para programar.</p>
       <a href="https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -209,7 +209,7 @@ permalink: /ofertas/
         <span class="oferta-category">Webcam</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech C920s Pro HD — 63,12€ en Amazon</h3>
+      <h3>Logitech C920s Pro HD — 65€ en Amazon</h3>
       <p class="oferta-excerpt">Webcam 1080p/30fps con privacidad integrada, enfoque automático, corrección luz baja. Estándar para streaming y llamadas.</p>
       <a href="https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>

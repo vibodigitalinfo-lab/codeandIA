@@ -65,3 +65,5 @@ Porkbun es una alternativa perfectamente válida, especialmente si lo que buscas
 Lo que sí te digo con seguridad: evita los registradores grandes de toda la vida tipo GoDaddy o IONOS para un dominio .es si eres estudiante. Los precios de renovación son considerablemente más altos y el valor que te dan a cambio no lo justifica cuando estás empezando.
 
 Si tu proyecto es serio —aunque sea pequeño— merece un dominio en un registrador en el que puedas confiar. Y tanto Namecheap como Porkbun cumplen ese criterio. Yo elegí uno. Tú elige el que más te encaje.
+
+Si no lo tienes claro todavía entre un .com y un .es, mi [guía de qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) cruza los dos mundos. Y si te queda cualquier duda, escríbeme a ivan@codeandia.com.
