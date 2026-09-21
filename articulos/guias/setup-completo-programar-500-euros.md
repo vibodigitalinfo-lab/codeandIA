@@ -36,7 +36,7 @@ Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergo
 
 Un mecánico es de las mejores mejoras calidad-precio que puedes hacer. El **Royal Kludge RK84ES** (layout español) cuesta **68€** y te da teclas hot-swappable: si más adelante quieres unos switches más suaves, los cambias sin soldar nada, como quien cambia de asignatura.
 
-Es la recomendación de presupuesto en mi [lista de teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/). Si puedes estirarte a un **Keychron V1 Max por 138€**, subes un escalón de construcción y personalización (QMK/VIA, personalizas hasta los atajos). Pero el RK84 es el punto dulce barato.
+Es la recomendación de presupuesto en mi [lista de teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/). Si puedes estirarte a un **Keychron V1 Max por 142€**, subes un escalón de construcción y personalización (QMK/VIA, personalizas hasta los atajos). Pero el RK84 es el punto dulce barato.
 
 ### 3. El ratón (49,95€) — tu muñeca te lo agradecerá
 
@@ -66,7 +66,7 @@ Con estos dos y la resta del presupuesto, cierras el setup por debajo de 500€.
 El setup de 500€ es un campamento base sólido. Cuando vayas ganando dinero con prácticas o curro esporádico, esto es lo que yo subiría, en este orden:
 
 1. **El monitor ultrawide LG 34WN80C-B (450€):** el mayor salto de productividad que existe. IDE a la izquierda, navegador a la derecha, terminal abajo, sin cambiar de ventana. Me jugaría una mano por uno.
-2. **Teclado Keychron V1 Max (138€):** más construcción, QMK/VIA de serie.
+2. **Teclado Keychron V1 Max (142€):** más construcción, QMK/VIA de serie.
 3. **Ratón MX Master 3S (89€):** el scroll magnético y el botón lateral son otra liga.
 4. **Silla SIHOO Doro C300 (327€):** cuando la espalda ya te pida el lumbar dinámico.
 

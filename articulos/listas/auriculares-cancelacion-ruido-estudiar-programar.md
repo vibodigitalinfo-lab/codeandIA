@@ -46,7 +46,7 @@ Lo que tiene de especial es que son la mezcla más redonda entre batería, sonid
 
 Si quieres subir un escalón de calidad, el [Soundcore Space One](https://www.amazon.es/dp/B0C6KJ3R71?tag=codeandia-21) es el que yo veo como "próximo paso" antes de dar el salto a los Sony o Bose de 300€.
 
-Cuesta en torno a 70€, y por ese dinero ofrece cancelación de ruido adaptativa que de verdad se nota al nivel de auriculares mucho más caros, soporte LDAC para calidad de audio alta en Android, detección de uso (se pausa cuando te los quitas) y una app decente con ecualizador.
+Cuesta en torno a 76€, y por ese dinero ofrece cancelación de ruido adaptativa que de verdad se nota al nivel de auriculares mucho más caros, soporte LDAC para calidad de audio alta en Android, detección de uso (se pausa cuando te los quitas) y una app decente con ecualizador.
 
 Para programar, su ANC adaptativa es un gustazo: se ajusta sola al ruido de fondo, y cuando la aspiradora para, también. Lo uso en casa cuando necesito concentración real en un módulo gordo como el despliegue de aplicaciones y no quiero saber nada del exterior.
 
