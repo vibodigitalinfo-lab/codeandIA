@@ -19,7 +19,7 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 10 | Guía | Cómo montar tu portfolio y que te dé prácticas de DAW | ✅ Publicado 2026-09-20 | `portfolio-que-consigue-practicas-daw`. Continuación del portfolio-ia. |
 | 11 | Guía | Notion + IA para apuntes de DAW: mi sistema real | ✅ Publicado 2026-09-13 | `nocion-ia-apuntes-daw`: 3 BDs + plantilla + prompts. Avisa del add-on $10. |
 | 12 | Lista | 7 extensiones de IA para VSCode que uso a diario | ✅ Publicado 2026-09-13 | `extensiones-ia-vscode-estudiantes-2026`: 7 + la que quité (Tabnine). |
-| 13 | Comparativa | Hostinger vs Netlify para tu primer proyecto de DAW | **Sí (Hostinger)** | Hosting de pago vs gratis. |
+| 13 | Comparativa | Hostinger vs Netlify para tu primer proyecto de DAW | ✅ Publicado 2026-09-21 | `hostinger-vs-netlify-proyecto-daw-2026`. Hosting de pago vs plataforma gratis, veredicto por caso de uso. Afiliado Hostinger. |
 | 14 | Review | DeepSeek review: el modelo gratuito que está cambiando todo | ✅ Publicado 2026-09-13 | `deepseek-review-2026-modelo-gratuito-codigo`. V4.1-Flash, API barata, privacidad. |
 | 15 | Guía | Cómo configurar GitHub Copilot en IntelliJ (para Java/DAW) | ✅ Publicado (commit previo) | `github-copilot-intellij-java-daw`. |
 | 23 | Review | Trae AI IDE 2026: el editor de ByteDance que quiere comerse a Cursor | ✅ Publicado 2026-09-09 | `trae-ai-ide-review-2026`: agente Builder gratis, Doubao. affiliate trae.ai. |
