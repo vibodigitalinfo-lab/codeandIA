@@ -3,7 +3,7 @@ layout: article
 title: "Cursor vs Claude Code en 2026: ¿IDE con agente o agente en terminal?"
 description: "Comparo Cursor y Claude Code en 2026: precios reales para un estudiante de DAW, cómo trabaja cada uno y cuándo usar el IDE o el agente de terminal."
 category: "Comparativa"
-date: 2026-09-18
+date: 2026-09-17
 readtime: 8
 ---
 

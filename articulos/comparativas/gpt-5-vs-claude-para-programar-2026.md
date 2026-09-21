@@ -3,7 +3,7 @@ layout: article
 title: "GPT-5 vs Claude: cuál programa mejor en 2026"
 description: "GPT-5 vs Claude para programar en 2026: benchmarks reales, planes gratuitos y mi experiencia en proyectos de DAW para decidir cuál usar."
 category: "Comparativa"
-date: 2026-09-10
+date: 2026-09-09
 readtime: 8
 ---
 

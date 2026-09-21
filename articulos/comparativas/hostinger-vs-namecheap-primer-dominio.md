@@ -3,7 +3,7 @@ layout: article
 title: "Hostinger vs Namecheap: dónde comprar tu primer dominio"
 description: "Hostinger vs Namecheap para tu primer dominio: comparo precios, experiencia y soporte para que no cometas mis errores."
 category: "Comparativa"
-date: 2026-07-19
+date: 2026-07-18
 readtime: 5
 affiliate_text: "Consigue tu dominio en Hostinger desde 0,99 €/año"
 affiliate_url: "https://www.hostinger.com/domains"

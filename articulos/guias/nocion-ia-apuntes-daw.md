@@ -3,7 +3,7 @@ layout: article
 title: "Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)"
 description: "Cómo uso Notion con IA para apuntes de DAW: bases por módulo, plantillas, resúmenes automáticos y sync con GitHub. Lo que funciona y lo que no."
 category: "Guía"
-date: 2026-08-21
+date: 2026-08-20
 readtime: 10
 ---
 

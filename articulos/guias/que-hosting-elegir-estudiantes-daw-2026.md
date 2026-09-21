@@ -3,7 +3,7 @@ layout: article
 title: "Qué hosting contratar para tu primer proyecto de DAW en 2026"
 description: "Guía sin humo para estudiantes de DAW: qué hosting elegir para tu primer proyecto, si basta el plan gratis, cuánto pagar y la letra pequeña de la renovación."
 category: "Guía"
-date: 2026-09-11
+date: 2026-09-10
 readtime: 9
 affiliate_text: "Para el proyecto clásico de DAW (PHP + MySQL) yo uso Hostinger Premium: unos 3€ al mes y tienes dominio y SSH incluidos"
 affiliate_url: "https://www.hostinger.com/es"

@@ -3,7 +3,7 @@ layout: article
 title: "SQL y bases de datos con IA: aprende practicando en 2026"
 description: "Guía de SQL con IA para estudiantes de DAW: laboratorio gratis, prompts que enseñan de verdad, cómo practicar sin copiar y errores que te delatan."
 category: "Guía"
-date: 2026-09-15
+date: 2026-09-14
 readtime: 7
 ---
 

@@ -3,7 +3,7 @@ layout: article
 title: "RAG local con Ollama: respuestas a tus apuntes con IA sin pagar"
 description: "Guía de RAG local con Ollama para estudiantes de DAW: embeddings con nomic-embed-text, ChromaDB y un chat 100% local con tus apuntes, gratis y offline."
 category: "Guía"
-date: 2026-09-17
+date: 2026-09-16
 readtime: 7
 ---
 

@@ -42,6 +42,7 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 35 | Guía | RAG en local con Ollama: respuestas con tus apuntes | ✅ Publicado 2026-09-19 | `rag-local-ollama-apuntes-2026`. nomic-embed-text + ChromaDB, 4 scripts, cruza con prompt injection (contexto no confiable). |
 | 36 | Guía | Prompt injection y seguridad en apps con LLM | ✅ Publicado 2026-09-19 | `prompt-injection-seguridad-apps-ia-2026`. OWASP GenAI LLM Top 10 2026 (LLM01), casos reales con MCP (Supabase service_role, postmark-mcp), 7 defensas. Cruza con guías de MCP y API OpenAI. |
 | 37 | Comparativa | Cursor vs Claude Code en 2026: IDE con agente vs agente en terminal | ✅ Publicado 2026-09-18 | `cursor-vs-claude-code-2026`. Precios sept. 2026 (Cursor Hobby/Pro/Pro+/Ultra; Claude Code en Pro/Max, sin free tier). Complementa `cursor-vs-vscode-con-ia-2026` y `claude-code-cli-review-2026`. |
+| 38 | Guía | Tu primer API REST con Spring Boot y IA | ✅ Publicado 2026-09-21 | `primera-api-rest-spring-boot-ia-daw`. Spring Initializr, controlador/entidad/JPA/H2, CORS, deploy. Java (complementa `primera-app-api-openai-python`, que es Python). |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
