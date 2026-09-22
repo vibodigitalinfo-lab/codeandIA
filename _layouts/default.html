@@ -70,8 +70,13 @@
   <script>
     (function () {
       try {
-        if (localStorage.getItem('theme') === 'light') {
+        var saved = localStorage.getItem('theme');
+        var light = saved === 'light' ||
+          (saved === null && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches);
+        if (light) {
           document.documentElement.setAttribute('data-theme', 'light');
+          var mt = document.querySelector('meta[name="theme-color"]');
+          if (mt) mt.setAttribute('content', '#fafafc');
         }
       } catch (e) {}
     })();
@@ -96,9 +101,9 @@
     "description": {{ site.description | jsonify }},
     "inLanguage": "es-ES",
     "publisher": {
-      "@type": "Person",
-      "name": "Iván",
-      "email": "ivan@codeandia.com"
+      "@type": "Organization",
+      "name": "codeandIA",
+      "url": {{ site.url | jsonify }}
     }
   }
   </script>

@@ -15,7 +15,7 @@ layout: default
     "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
     "articleSection": {{ page.category | jsonify }},
     "author": { "@type": "Person", "name": "Iván", "email": "ivan@codeandia.com" },
-    "publisher": { "@type": "Person", "name": "Iván" }
+    "publisher": { "@type": "Organization", "name": "codeandIA", "url": {{ "/" | absolute_url | jsonify }} }
   },
   {
     "@context": "https://schema.org",
