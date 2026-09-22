@@ -3,7 +3,7 @@ layout: article
 title: "Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW"
 description: "Hostinger vs Netlify para tu primer proyecto de DAW: comparo hosting de pago y plataforma gratis, cuándo elige cada uno y cuánto pagas de verdad."
 category: "Comparativa"
-date: 2026-09-20
+date: 2026-09-16
 readtime: 7
 affiliate_text: "Para el proyecto de PHP + MySQL yo uso Hostinger: unos 3 €/mes el primer año, con dominio gratis y SSH incluido."
 affiliate_url: "https://www.hostinger.com/es"

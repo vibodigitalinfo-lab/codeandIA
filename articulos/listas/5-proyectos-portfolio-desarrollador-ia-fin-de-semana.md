@@ -3,7 +3,7 @@ layout: article
 title: "5 proyectos con IA para tu portfolio en un fin de semana"
 description: "5 proyectos portfolio desarrollador con IA rápido, probados por mí, para tener algo real que mostrar el lunes."
 category: "Lista"
-date: 2026-07-28
+date: 2026-07-24
 readtime: 6
 affiliate_text: "Publica tu portfolio en minutos con Hostinger"
 affiliate_url: "https://www.hostinger.com"

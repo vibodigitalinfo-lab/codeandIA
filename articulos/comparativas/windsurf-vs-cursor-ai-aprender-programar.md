@@ -3,7 +3,7 @@ layout: article
 title: "Windsurf vs Cursor: cuál instalo si aprendo a programar en 2026"
 description: "Windsurf vs Cursor AI para aprender a programar: comparo los dos editores IA más populares para que elijas sin arrepentirte."
 category: "Comparativa"
-date: 2026-08-01
+date: 2026-07-28
 readtime: 6
 affiliate_text: "Prueba Cursor gratis y empieza a programar con IA hoy"
 affiliate_url: "https://cursor.com"

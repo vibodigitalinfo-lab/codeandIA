@@ -3,7 +3,7 @@ layout: article
 title: "7 extensiones de IA para VS Code que uso a diario (y una que quité)"
 description: "Extensiones de IA que de verdad ahorran tiempo en prácticas DAW: Copilot, Codeium, Continue, Error Lens y más. Qué hace cada una, cuánto cuesta y mi combo."
 category: "Lista"
-date: 2026-08-21
+date: 2026-08-17
 readtime: 7
 ---
 

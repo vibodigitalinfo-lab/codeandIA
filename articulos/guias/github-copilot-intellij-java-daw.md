@@ -3,7 +3,7 @@ layout: article
 title: "Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)"
 description: "Configura GitHub Copilot gratis en IntelliJ IDEA paso a paso para Java: instalar el plugin, iniciar sesión con la cuenta de estudiante, autocompletado, chat inline, tests JUnit y los límites."
 category: "Guía"
-date: 2026-08-17
+date: 2026-08-13
 readtime: 7
 ---
 

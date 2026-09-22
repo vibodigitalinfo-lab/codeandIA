@@ -3,7 +3,7 @@ layout: article
 title: "Programar con IA sin volverte dependiente: guía para estudiantes DAW"
 description: "Cómo usar la IA en clase como profesor y no como sustituto: reglas prácticas para que aprendas a programar de verdad mientras la IA te acompaña (estudiantes DAW)."
 category: "Guía"
-date: 2026-09-22
+date: 2026-09-18
 readtime: 7
 ---
 

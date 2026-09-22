@@ -3,7 +3,7 @@ layout: article
 title: "Claude Code CLI: terminal-first, agentes paralelos y su precio"
 description: "Review honesta de Claude Code: qué lo hace distinto, Dynamic Workflows, MCP nativo, hooks, pricing por tokens y si merece la pena para un estudiante."
 category: "Review"
-date: 2026-08-11
+date: 2026-08-07
 readtime: 10
 affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"

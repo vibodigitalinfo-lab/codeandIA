@@ -3,7 +3,7 @@ layout: article
 title: "DeepSeek vs ChatGPT gratis: cuál programa mejor sin pagar"
 description: "Comparativa real de DeepSeek y ChatGPT gratuitos para programar con ejemplos de código, límites y cuál merece más la pena si no quieres gastar."
 category: "Comparativa"
-date: 2026-08-04
+date: 2026-07-31
 readtime: 8
 ---
 
