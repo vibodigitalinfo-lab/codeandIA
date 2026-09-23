@@ -3,7 +3,7 @@ layout: article
 title: "Cursor Rules (.mdc): cómo configurar la IA a tu gusto"
 description: "Guía del sistema de reglas de Cursor: formato .mdc, tipos de reglas, mejores prácticas y ejemplos reales para estudiantes de DAW."
 category: "Guía"
-date: 2026-08-05
+date: 2026-07-31
 readtime: 9
 affiliate_text: "Prueba Cursor Pro y configura tus reglas para programar más rápido"
 affiliate_url: "https://cursor.com/pricing"

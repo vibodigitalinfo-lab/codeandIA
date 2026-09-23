@@ -3,7 +3,7 @@ layout: article
 title: "GitHub Copilot Agent Mode: qué es y si merece la pena"
 description: "Guía del modo Agent de Copilot: tareas multi-archivo, terminal, auto-corrección, precios en créditos IA y comparativa con Cursor y Claude Code."
 category: "Guía"
-date: 2026-08-04
+date: 2026-07-30
 readtime: 9
 affiliate_text: "Activa Copilot Pro y prueba Agent Mode en VS Code hoy"
 affiliate_url: "https://github.com/features/copilot/plans"

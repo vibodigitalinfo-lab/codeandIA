@@ -3,7 +3,7 @@ layout: article
 title: "Cómo hacer tu primer API REST con Spring Boot e IA"
 description: "Guía para DAW: crea tu primer API REST con Spring Boot usando IA desde el pom hasta el deploy, con los errores reales que me costó depurar."
 category: "Guía"
-date: 2026-09-17
+date: 2026-09-12
 readtime: 8
 ---
 

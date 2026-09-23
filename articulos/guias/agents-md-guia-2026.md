@@ -3,7 +3,7 @@ layout: article
 title: "AGENTS.md: la guía de instrucciones para IA en tus proyectos (2026)"
 description: "Guía de AGENTS.md, el estándar de instrucciones para IA en 2026: escribirlo, jerarquía por carpetas y compatibilidad con Cursor, Copilot, Codex y Claude Code."
 category: "Guía"
-date: 2026-09-08
+date: 2026-09-03
 readtime: 7
 ---
 

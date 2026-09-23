@@ -3,7 +3,7 @@ layout: article
 title: "Secrets y variables en GitHub Actions sin morir en el intento"
 description: "Guia paso a paso para usar secrets, variables y environments en GitHub Actions. Con errores comunes, ejemplos reales y trucos que nadie te cuenta."
 category: "Guía"
-date: 2026-08-29
+date: 2026-08-24
 readtime: 7
 ---
 

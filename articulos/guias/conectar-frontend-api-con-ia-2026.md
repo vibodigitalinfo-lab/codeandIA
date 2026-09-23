@@ -3,7 +3,7 @@ layout: article
 title: "Conectar tu frontend al API con IA: la guía de DAW que falta en clase"
 description: "Del HTML a la API real: cómo conectar tu frontend de DAW a un backend con fetch, resolver CORS y generar el código con IA sin morir en el intento."
 category: "Guía"
-date: 2026-09-19
+date: 2026-09-16
 readtime: 5
 ---
 

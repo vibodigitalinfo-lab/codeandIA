@@ -10,7 +10,7 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 21 | Lista | Las mejores ofertas Black Friday para programadores 2026 | ✅ Borrador 2026-09-10 | Publicar octubre. Landing page + artículos |
 | 22 | Lista | Regalos para programadores: ideas originales que de verdad usarán | ✅ Borrador 2026-09-10 | Publicar noviembre. Navidad |
 | 3 | Guía | Cómo preparar exámenes prácticos de DAW con IA (sin copiar) | ✅ Publicado (commit previo) | `preparar-examenes-practicos-daw-con-ia`. |
-| 4 | Lista | Alternativas gratis a Cursor que sí merecen la pena en 2026 | ✅ Publicado 2026-09-13 | Cubierto parcialmente: `continue-dev-vs-cursor-2026` + `zed-editor-ia-review-2026`. Faltan Windsurf/Trae/Codeium. |
+| 4 | Lista | Alternativas gratis a Cursor que sí merecen la pena en 2026 | ✅ Publicado 2026-09-13 | Superado: cubierto por `alternativas-gratis-a-cursor-2026` (23-sep): Windsurf, Trae, Zed, Cline, Copilot Free + mitos. |
 | 5 | Comparativa | Vercel vs Netlify vs GitHub Pages: dónde publicar gratis | ✅ Publicado 2026-09-13 | `vercel-vs-netlify-vs-github-pages-2026`. Sin hostinger (es gratis vs hosting). |
 | 6 | Guía | Qué hosting eligen los estudiantes de DAW: barato y fiable | ✅ Publicado 2026-09-16 | `que-hosting-elegir-estudiantes-daw-2026`. Afiliado Hostinger. Alto potencial SEO. |
 | 7 | Lista | Los 8 prompts que me salvan el curso de DAW | ✅ Publicado (commit previo) | `8-prompts-programacion-daw-2026`. |
@@ -43,6 +43,12 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 36 | Guía | Prompt injection y seguridad en apps con LLM | ✅ Publicado 2026-09-19 | `prompt-injection-seguridad-apps-ia-2026`. OWASP GenAI LLM Top 10 2026 (LLM01), casos reales con MCP (Supabase service_role, postmark-mcp), 7 defensas. Cruza con guías de MCP y API OpenAI. |
 | 37 | Comparativa | Cursor vs Claude Code en 2026: IDE con agente vs agente en terminal | ✅ Publicado 2026-09-18 | `cursor-vs-claude-code-2026`. Precios sept. 2026 (Cursor Hobby/Pro/Pro+/Ultra; Claude Code en Pro/Max, sin free tier). Complementa `cursor-vs-vscode-con-ia-2026` y `claude-code-cli-review-2026`. |
 | 38 | Guía | Tu primer API REST con Spring Boot y IA | ✅ Publicado 2026-09-21 | `primera-api-rest-spring-boot-ia-daw`. Spring Initializr, controlador/entidad/JPA/H2, CORS, deploy. Java (complementa `primera-app-api-openai-python`, que es Python). |
+| 39 | Guía | MCP para principiantes: qué es y por qué está por todas partes | ✅ Publicado 2026-09-23 | `mcp-para-principiantes-guia-2026`. Protocolo, arquitectura resumida, config en 5 min (Cursor/VS Code), 5 filtros de lo ignorable, riesgos (tool poisoning). Enlaza a prompt-injection y AGENTS.md. |
+| 40 | Guía | Aprender Java en DAW con IA y no volverte dependiente | ✅ Publicado 2026-09-23 | `aprender-java-con-ia-daw`. Prompts tutor, lectura de stack traces, ejercicios sin soluciones, errors que delatan, RD 405/2023 (Java en 1º, Spring fuera de mínimas). Enlaza SQL y Spring. |
+| 41 | Lista | Configuración de VS Code para IA en 2026 | ✅ Publicado 2026-09-23 | `configuracion-vscode-ia-2026`. Panorama 2026 (Continue→Cursor, Roo archivado), Copilot+Cline, AGENTS.md, settings.json, modelos propios (chatLanguageModels). Diferenciada de extensiones-ia-vscode (13-sep). |
+| 42 | Guía | Refactorizar código con IA sin romper nada | ✅ Publicado 2026-09-23 | `refactorizar-codigo-con-ia-sin-romper`. Rama por petición, tests de caracterización, prompt "sin cambio de comportamiento", diffs pequeños, revisión humana, límites (contexto, code smells). Enlaza git-con-ia y Qodo/CodeRabbit. |
+| 43 | Comparativa | ¿Merece la pena pagar por IA en 2026? | ✅ Publicado 2026-09-23 | `merece-la-pena-pagar-ia-2026`. Cursor/Copilot/Claude plan a plan (sept-2026), la pausa de altas de Copilot y el fin del año gratis de studente en Cursor; veredicto por presupuesto. |
+| 44 | Lista | Alternativas gratis a Cursor en 2026 que siguen vivas | ✅ Publicado 2026-09-23 | `alternativas-gratis-a-cursor-2026`. Windsurf→Devin Desktop, Continue adquirida, Copilot Free+Agent, Trae, Zed (BYOK+student), Cline, mitos. Enlaza pagar-ia, trae, zed, windsurf, continue. |
 
 **Regla:** publicar en orden de abajo a arriba (más fresco primero) o según urgencia SEO.
 
