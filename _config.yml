@@ -23,5 +23,6 @@ exclude:
   - PROMPT.md
   - prompts   # templates internos del pipeline; no deben publicarse como páginas
   - scripts   # scripts internos, no son contenido del sitio
+  - curso     # app del curso (Next.js/Stripe/Supabase): NO debe publicarse con el blog
   - fix_dates.py
   - "*.py"

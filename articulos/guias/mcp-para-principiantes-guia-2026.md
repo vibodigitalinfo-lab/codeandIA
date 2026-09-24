@@ -52,7 +52,7 @@ Un ejemplo real de servidor para una base de datos de prácticas:
 }
 ```
 
-Si estás en Windows, a veces hay que envolver el comando con `cmd /c`. Y si usas Supabase (como el proyecto que montamos en el curso), su servidor es una URL: `https://mcp.supabase.com/mcp`. Guardas el JSON, reinicias el cliente (o recargas), y listo: aparece una herramienta nueva en el chat.
+Si estás en Windows, a veces hay que envolver el comando con `cmd /c`. Y si usas Supabase, su servidor es una URL: `https://mcp.supabase.com/mcp`. Guardas el JSON, reinicias el cliente (o recargas), y listo: aparece una herramienta nueva en el chat.
 
 ## Lo que puedes ignorar (los 5 filtros)
 

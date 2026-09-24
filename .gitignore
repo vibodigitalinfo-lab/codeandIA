@@ -8,3 +8,9 @@ _jekyll/
 
 # Registro financiero personal (NO subir: el repo es público)
 finanzas/
+
+# App del curso (privada: vive en su propio repo, no en este público)
+curso/
+
+# Diario e informes internos (solo local, no público)
+_informes/
