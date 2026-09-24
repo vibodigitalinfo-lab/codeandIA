@@ -3,7 +3,7 @@ layout: article
 title: "MCP para principiantes: qué es y por qué está por todas partes"
 description: "Guía de MCP en 2026 para estudiantes: qué es el Model Context Protocol, para qué sirve de verdad, cómo configurarlo en 5 minutos y qué puedes ignorar."
 category: "Guía"
-date: 2026-09-14
+date: 2026-09-10
 readtime: 7
 ---
 

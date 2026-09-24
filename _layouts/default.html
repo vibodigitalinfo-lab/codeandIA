@@ -206,6 +206,24 @@
     })();
   </script>
 
+  <!-- Acordeón: solo un elemento <details> abierto por bloque de preguntas -->
+  <script>
+    (function () {
+      var bloques = document.querySelectorAll('.faq-list, .ofertas-faq');
+      bloques.forEach(function (bloque) {
+        var items = Array.prototype.slice.call(bloque.querySelectorAll('details'));
+        items.forEach(function (det) {
+          det.addEventListener('toggle', function () {
+            if (!det.open) return;
+            items.forEach(function (otro) {
+              if (otro !== det && otro.open) otro.open = false;
+            });
+          });
+        });
+      });
+    })();
+  </script>
+
   <!-- Traducción ES/EN invisible (sin widget ni rastro de Google): assets/translator.js -->
   <script src="{{ "/assets/translator.js" | relative_url }}"></script>
 

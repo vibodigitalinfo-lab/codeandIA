@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Aviso legal"
+description: "Aviso legal de codeandia.com: datos del titular, cumplimiento de la LSSI-CE, responsabilidad y condiciones de uso del blog."
 permalink: /aviso-legal/
 updated: 2026-09-08
 ---

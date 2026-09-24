@@ -3,7 +3,7 @@ layout: article
 title: "Trae AI IDE 2026: el editor que quiere comerse a Cursor"
 description: "Review honesta de Trae: agente autónomo gratis, modelo propio Doubao, UX china vs occidental, y si compensa cambiar desde Cursor o VS Code + Copilot."
 category: "Review"
-date: 2026-08-16
+date: 2026-08-12
 readtime: 9
 affiliate_text: "Prueba Trae gratis y compara su agente con Cursor"
 affiliate_url: "https://www.trae.ai"

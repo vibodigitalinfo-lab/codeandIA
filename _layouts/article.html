@@ -55,7 +55,7 @@ layout: default
         <span class="meta-dot">·</span><span>{{ page.readtime }} min de lectura</span>
         {% else %}
         {% assign palabras = page.content | number_of_words %}
-        {% assign mins = palabras | divided_by: 160 | plus: 1 %}
+        {% assign mins = palabras | divided_by: 160.0 | round %}
         <span class="meta-dot">·</span><span>{{ mins }} min de lectura</span>
         {% endif %}
       </div>

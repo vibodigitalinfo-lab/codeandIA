@@ -9,15 +9,14 @@ permalink: /articulos/:slug/
 plugins:
   - jekyll-sitemap
 
-# Esto es lo que hace que cada .md dentro de /articulos/ salga con una URL
-# bonita (/articulos/nombre-del-archivo/) sin que tengas que escribir un
-# "permalink" a mano en cada artículo.
+# Cada .md dentro de /articulos/<categoria>/ (guias, reviews, comparativas, listas)
+# sale publicado con su layout de artículo y la URL real que genera Jekyll
+# para páginas en subcarpeta: /articulos/<categoria>/<nombre-del-articulo>/
 defaults:
   - scope:
       path: "articulos/"   # con "/" final para que aplique a las subcarpetas (reviews/, comparativas/, guias/, listas/)
     values:
       layout: article
-      permalink: /articulos/:basename/
 
 exclude:
   - README.md

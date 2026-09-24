@@ -3,7 +3,7 @@ layout: article
 title: "Cursor AI para estudiantes: ¿merece la pena? (review en español)"
 description: "Mi cursor AI review en español tras meses usándolo: rendimiento real, precio y si merece la pena para estudiantes de DAW."
 category: "Review"
-date: 2026-07-06
+date: 2026-07-02
 readtime: 6
 affiliate_text: "Prueba Cursor gratis durante 14 días"
 affiliate_url: "https://cursor.com"

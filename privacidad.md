@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Política de privacidad"
+description: "Política de privacidad de codeandia.com: datos del responsable, newsletter, cookies, derechos RGPD y cómo retirar el consentimiento."
 permalink: /privacidad/
 updated: 2026-09-21
 ---

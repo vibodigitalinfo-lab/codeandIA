@@ -3,7 +3,7 @@ layout: article
 title: "React vs Vue con IA para tu proyecto de DAW en 2026"
 description: "React o Vue para tu proyecto de DAW: comparo ambos con la IA de copiloto, la curva de aprendizaje real y cuál te da más ventajas en prácticas y trabajo."
 category: "Comparativa"
-date: 2026-09-22
+date: 2026-09-18
 readtime: 5
 ---
 

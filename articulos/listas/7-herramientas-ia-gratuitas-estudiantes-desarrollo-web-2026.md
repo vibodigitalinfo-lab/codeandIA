@@ -3,7 +3,7 @@ layout: article
 title: "7 herramientas de IA gratuitas para estudiantes de desarrollo web"
 description: "Descubre herramientas IA gratuitas para estudiantes de desarrollo web que uso cada día para aprender, practicar y depurar código sin gastar un euro."
 category: "Lista"
-date: 2026-07-16
+date: 2026-07-12
 readtime: 5
 affiliate_text: "Si luego quieres dar el salto, Cursor tiene un plan de pago que te ahorra muchísimas horas"
 affiliate_url: "https://cursor.com"
