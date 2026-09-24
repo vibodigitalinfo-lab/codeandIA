@@ -25,7 +25,7 @@ document.getElementById('nl-form').addEventListener('submit', async (e) => {
     });
     if (res.ok) {
       document.getElementById('nl-box').innerHTML =
-        '<p class="nl-success" style="color:var(--accent,#00d4aa);font-weight:600;padding:1.5rem 0;">✅ Dentro. Revisa tu bandeja (y spam) para confirmar.</p>';
+        '<p class="nl-success" style="font-weight:600;padding:1.5rem 0;">Dentro. Revisa tu bandeja (y el spam) para confirmar.</p>';
     } else { throw new Error(); }
   } catch {
     btn.disabled = false; btn.textContent = 'Suscribirme gratis';

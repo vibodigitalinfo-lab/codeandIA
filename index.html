@@ -3,77 +3,46 @@ layout: default
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
-{% assign categorias = articulos | map: "category" | uniq | sort %}
 
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <span class="hero-badge hero-badge-live">Blog de IA para desarrolladores</span>
+      <p class="hero-kicker hand">apuntes de un estudiante de DAW</p>
       <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer <span class="hero-accent">mejor dev</span>.</h1>
-      <p class="hero-subtitle">Reviews honestas, guías y comparativas de herramientas de inteligencia artificial pensadas para programadores que quieren ir más rápido sin perder el control del código.</p>
+      <p class="hero-subtitle">Reviews, guías y comparativas de herramientas de inteligencia artificial contadas en primera persona: probadas a mano, con precios reales en España y sin humo de marketing.</p>
       <div class="hero-cta">
-        <a href="#articulos" class="btn btn-accent">Ver artículos</a>
+        <a href="#articulos" class="btn btn-accent">Leer los últimos artículos</a>
         <a href="{{ "/ofertas/" | relative_url }}" class="btn btn-outline">Ofertas y setup <span aria-hidden="true">→</span></a>
       </div>
-      <ul class="hero-trust">
-        <li>Probado a mano</li>
-        <li>Sin reviews pagadas</li>
-        <li>Precios reales en España</li>
-      </ul>
+      <p class="hero-trust">probado a mano · sin reviews pagadas · precios verificados</p>
     </div>
 
     <div class="hero-visual" aria-hidden="true">
-      <div class="code-window">
-        <div class="code-window-bar">
-          <span class="cw-dot"></span>
-          <span class="cw-dot"></span>
-          <span class="cw-dot"></span>
-          <span class="cw-title">setup.ts</span>
-        </div>
-        <pre class="code-window-body"><code><span class="c-key">const</span> <span class="c-var">dev</span> = <span class="c-key">await</span> codeandIA.<span class="c-fn">aprender</span>({
-  <span class="c-prop">ia</span>: <span class="c-str">'a tu favor'</span>,
-  <span class="c-prop">precio</span>: <span class="c-str">'real y sin humo'</span>,
-  <span class="c-prop">control</span>: <span class="c-str">'total'</span>
-});
-
-<span class="c-comment">// mejor dev, mismo control del código</span></code></pre>
-      </div>
+      <aside class="sticky-note">
+        <h2>lo que uso ahora mismo</h2>
+        <ul>
+          <li>Cursor como editor</li>
+          <li>Claude Code en la terminal</li>
+          <li>Copilot con el Student Pack</li>
+          <li>Hostinger y Namecheap para el dominio</li>
+        </ul>
+        <p>actualizado cada mes —Iv</p>
+      </aside>
     </div>
   </div>
 </section>
 
-<div class="stats">
-  <div class="container">
-    <div class="stats-grid">
-      <div class="stat">
-        <span class="stat-num">{{ articulos.size }}</span>
-        <span class="stat-label">artículos</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">{{ categorias.size }}</span>
-        <span class="stat-label">categorías</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">100%</span>
-        <span class="stat-label">probado a mano</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">4-5</span>
-        <span class="stat-label">artículos por semana</span>
-      </div>
-    </div>
-  </div>
-</div>
+<p class="note-band">escrito a mano, probado a mano · publico 4-5 artículos por semana</p>
 
 <section id="articulos" class="section">
   <div class="container">
     <div class="section-head">
       <h2 class="section-title">Artículos recientes</h2>
-      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline" style="font-size: 0.9rem; padding: 10px 20px;">Ver todos ({{ articulos.size }}) →</a>
+      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Todos los artículos <span aria-hidden="true">→</span></a>
     </div>
 
     {% if articulos.size > 0 %}
-    <div class="articles-grid" id="articles-grid">
+    <div class="articles-grid">
       {% for post in articulos limit:6 %}
       <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
         <h3 class="article-card-title">{{ post.title }}</h3>
@@ -81,6 +50,9 @@ layout: default
         <div class="article-card-meta">
           <span class="article-card-category">{{ post.category }}</span>
           <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          {% if post.readtime %}
+          <span class="article-card-readtime">{{ post.readtime }} min</span>
+          {% endif %}
         </div>
       </a>
       {% endfor %}
@@ -93,8 +65,8 @@ layout: default
 
 <section id="herramientas" class="section section-alt">
   <div class="container">
-    <h2 class="section-title">Herramientas recomendadas</h2>
-    <p class="section-intro">Las que uso de verdad y recomendaría a quien está aprendiendo a programar con IA. Cada una con su review si la he analizado a fondo.</p>
+    <h2 class="section-title">Lo que uso</h2>
+    <p class="section-intro">Las herramientas que uso de verdad y que recomendaría a quien está aprendiendo a programar con IA. Cada una con su review si la he analizado a fondo.</p>
 
     <div class="tools-grid">
 
@@ -142,7 +114,7 @@ layout: default
           <h3>Claude Code</h3>
           <span class="pill">CLI Agente</span>
         </div>
-        <p>Agente autónomo en terminal: lee repo entero, edita múltiples archivos, ejecuta tests, y lanza sub-agentes paralelos (Dynamic Workflows). Para tareas senior.</p>
+        <p>Agente autónomo en terminal: lee el repo entero, edita varios archivos, ejecuta tests y lanza sub-agentes paralelos (Dynamic Workflows). Para tareas senior.</p>
         <div class="tool-card-actions">
           <a href="https://claude.com/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
           <a href="{{ "/articulos/reviews/claude-code-cli-review-2026/" | relative_url }}" class="tool-card-review">Review Claude Code</a>
@@ -154,7 +126,7 @@ layout: default
           <h3>Warp</h3>
           <span class="pill">Terminal IA</span>
         </div>
-        <p>Terminal reescrita en Rust con bloques, IA integrada (Warp Agent), editor LSP, y compartir sesión en 1 click. Multiplataforma nativa (Mac/Linux/Win).</p>
+        <p>Terminal reescrita en Rust con bloques, IA integrada (Warp Agent), editor LSP y compartir sesión en un clic. Multiplataforma nativa (Mac/Linux/Win).</p>
         <div class="tool-card-actions">
           <a href="https://www.warp.dev/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
           <a href="{{ "/articulos/reviews/warp-terminal-ai-review-2026/" | relative_url }}" class="tool-card-review">Review Warp</a>
@@ -166,7 +138,7 @@ layout: default
           <h3>v0 by Vercel</h3>
           <span class="pill">Generación UI</span>
         </div>
-        <p>Genera interfaces React + Next.js + Tailwind + shadcn/ui desde lenguaje natural. GitHub sync nativo, deploy Vercel 1-click, MCP integrations.</p>
+        <p>Genera interfaces React + Next.js + Tailwind + shadcn/ui desde lenguaje natural. GitHub sync nativo, deploy en Vercel con un clic, MCP integrations.</p>
         <div class="tool-card-actions">
           <a href="https://v0.app/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
           <a href="{{ "/articulos/listas/v0-vercel-ia-ui-generacion-lista-herramientas/" | relative_url }}" class="tool-card-review">Lista + comparativa</a>
@@ -202,7 +174,7 @@ layout: default
           <h3>CodeRabbit</h3>
           <span class="pill">Code Review IA</span>
         </div>
-        <p>Revisa PRs automáticamente con IA: detecta bugs, seguridad, rendimiento, y sugiere fixes. Gratis para repos públicos, multi-plataforma (GH, GL, Azure, BB).</p>
+        <p>Revisa pull requests automáticamente con IA: detecta bugs, seguridad, rendimiento y sugiere fixes. Gratis para repos públicos, multi-plataforma (GH, GL, Azure, BB).</p>
         <div class="tool-card-actions">
           <a href="https://coderabbit.ai/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
           <a href="{{ "/articulos/reviews/coderabbit-review-ai-code-review/" | relative_url }}" class="tool-card-review">Review CodeRabbit</a>
@@ -214,7 +186,7 @@ layout: default
           <h3>Qodo (ex-Codium)</h3>
           <span class="pill">Testing IA</span>
         </div>
-        <p>Genera tests unitarios en tu IDE (VS Code, JetBrains) y PR-Agent open source para reviews automáticas en GitHub/GitLab. Trial 14 días.</p>
+        <p>Genera tests unitarios en tu IDE (VS Code, JetBrains) y PR-Agent open source para reviews automáticas en GitHub/GitLab. Trial de 14 días.</p>
         <div class="tool-card-actions">
           <a href="https://www.qodo.ai/" class="tool-card-btn" target="_blank" rel="noopener">Probar →</a>
           <a href="{{ "/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/" | relative_url }}" class="tool-card-review">Comparativa QA Wolf vs Qodo</a>
@@ -228,7 +200,7 @@ layout: default
 <section id="metodologia" class="section">
   <div class="container container-narrow">
     <h2 class="section-title">Cómo pruebo cada herramienta</h2>
-    <p class="about-text">No escribo de oídas. Cada herramienta que aparece aquí la he usado yo, en mi día a día como estudiante, durante semanas. Este es mi método:</p>
+    <p class="about-text">No escribo de oídas. Cada herramienta que aparece por aquí la he usado yo, en mi día a día como estudiante, durante semanas. Este es mi método:</p>
     <ol class="method-list">
       <li><strong>La uso de verdad</strong> en proyectos reales de clase o personales, no en un tutorial de cinco minutos.</li>
       <li><strong>Mido lo que importa:</strong> velocidad, límites, precio real y si te hace mejor programador o solo más rápido.</li>
@@ -260,7 +232,7 @@ layout: default
         <p>Son enlaces por los que, si compras, el blog recibe una pequeña comisión sin coste adicional para ti. Solo recomiendo herramientas que he probado yo mismo, y la presencia de un enlace de afiliado nunca cambia mi opinión.</p>
       </details>
       <details class="faq-item">
-        <summary>¿Cada cuánto publicáis contenido?</summary>
+        <summary>¿Cada cuánto publicas contenido?</summary>
         <p>Publico 4-5 artículos por semana, en tandas de reviews, comparativas y guías de herramientas de IA para desarrolladores. Puedes seguirlos todos desde la portada o suscribirte al <a href="{{ "/feed.xml" | relative_url }}">RSS</a>.</p>
       </details>
       <details class="faq-item">
@@ -279,7 +251,7 @@ layout: default
         <p>Soy Iván, estudiante de Desarrollo de Aplicaciones Web. Llevo más de un año usando herramientas de IA a diario para programar: primero por necesidad, luego por curiosidad, y ahora para contarlo por aquí.</p>
         <p>Este blog nació con un propósito claro: que quien está aprendiendo a programar sepa qué herramientas merecen la pena de verdad y cuáles son solo humo, sin marketing ni letra pequeña.</p>
         <p>Aquí encontrarás reviews honestas, comparativas y guías de herramientas de IA para desarrolladores. Todo lo que recomiendo lo he probado yo mismo.</p>
-        <p><a href="{{ "/sobre-mi/" | relative_url }}">Mi historia completa y cómo pruebo →</a></p>
+        <p><a href="{{ "/sobre-mi/" | relative_url }}">Mi historia completa y cómo pruebo <span aria-hidden="true">→</span></a></p>
       </div>
       <div class="about-facts">
         <div class="fact">Estudiante de DAW</div>
@@ -290,5 +262,3 @@ layout: default
     </div>
   </div>
 </section>
-
-

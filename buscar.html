@@ -20,29 +20,6 @@ permalink: /buscar/
   </div>
 </section>
 
-<style>
-  .search-box { margin: 0 0 2rem; }
-  .search-input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0.9rem 1.1rem;
-    font: inherit;
-    font-size: 1rem;
-    color: var(--text);
-    background: var(--bg-raised);
-    border: 1px solid var(--accent-soft);
-    border-radius: 10px;
-    outline: none;
-    transition: border-color 0.15s, box-shadow 0.15s;
-  }
-  .search-input::placeholder { color: var(--text-muted); }
-  .search-input:focus {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-soft);
-  }
-  .search-input::-webkit-search-cancel-button { cursor: pointer; }
-</style>
-
 <script type="application/json" id="search-index">
 [
 {% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}

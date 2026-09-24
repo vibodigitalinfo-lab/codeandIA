@@ -57,12 +57,12 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">
 
   <!-- Color de tema en móviles -->
-  <meta name="theme-color" content="#0d0d0f">
+  <meta name="theme-color" content="#1c140b">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
 
   <link rel="stylesheet" href="{{ "/styles.css" | relative_url }}">
 
@@ -76,7 +76,7 @@
         if (light) {
           document.documentElement.setAttribute('data-theme', 'light');
           var mt = document.querySelector('meta[name="theme-color"]');
-          if (mt) mt.setAttribute('content', '#fafafc');
+          if (mt) mt.setAttribute('content', '#f4ecdb');
         }
       } catch (e) {}
     })();
@@ -170,8 +170,8 @@
       if (!toggle) return;
 
       var metaTheme = document.querySelector('meta[name="theme-color"]');
-      var LIGHT_BG = '#fafafc';
-      var DARK_BG = '#0d0d0f';
+      var LIGHT_BG = '#f4ecdb';
+      var DARK_BG = '#1c140b';
 
       function isLight() {
         return document.documentElement.getAttribute('data-theme') === 'light';

@@ -20,12 +20,12 @@ permalink: /ofertas/
       <svg viewBox="0 0 1000 640" aria-hidden="true" focusable="false">
         <defs>
           <linearGradient id="setupScreen" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#1b1b24"/>
-            <stop offset="1" stop-color="#0b0b0e"/>
+            <stop offset="0" stop-color="#2a2118"/>
+            <stop offset="1" stop-color="#171008"/>
           </linearGradient>
           <radialGradient id="setupGlow" cx="50%" cy="50%" r="50%">
-            <stop offset="0" stop-color="rgba(123,97,255,0.18)"/>
-            <stop offset="1" stop-color="rgba(123,97,255,0)"/>
+            <stop offset="0" stop-color="#e8935c26"/>
+            <stop offset="1" stop-color="#e8935c00"/>
           </radialGradient>
         </defs>
         <rect class="setup-bg" x="0" y="0" width="1000" height="640" rx="16"/>
@@ -57,9 +57,9 @@ permalink: /ofertas/
           </g>
         </g>
         <g class="setup-part" data-part="lampara">
-          <path d="M776 262 L816 262 L884 372 L708 372 Z" fill="rgba(123,97,255,0.13)"/>
+          <path d="M776 262 L816 262 L884 372 L708 372 Z" fill="rgba(232,147,92,0.14)"/>
           <path d="M848 250 Q812 214 776 244" fill="none" stroke="#4a4a58" stroke-width="9" stroke-linecap="round"/>
-          <path d="M762 236 L822 236 L810 266 L774 266 Z" fill="#7b61ff"/>
+          <path d="M762 236 L822 236 L810 266 L774 266 Z" fill="#e8935c"/>
           <rect x="844" y="248" width="9" height="124" rx="4" fill="#4a4a58"/>
           <ellipse cx="848" cy="370" rx="36" ry="9" fill="#3a3a46"/>
         </g>
@@ -71,32 +71,32 @@ permalink: /ofertas/
           <rect x="286" y="132" width="428" height="186" rx="16" fill="#1a1a22" stroke="#2f2f3a" stroke-width="2"/>
           <rect x="300" y="146" width="400" height="158" rx="10" fill="url(#setupScreen)"/>
           <g opacity="0.92">
-            <rect x="320" y="168" width="120" height="10" rx="3" fill="#7b61ff"/>
-            <rect x="450" y="168" width="60" height="10" rx="3" fill="#00d4aa"/>
+            <rect x="320" y="168" width="120" height="10" rx="3" fill="#e8935c"/>
+            <rect x="450" y="168" width="60" height="10" rx="3" fill="#c49a6d"/>
             <rect x="320" y="192" width="180" height="10" rx="3" fill="#3a3a55"/>
-            <rect x="510" y="192" width="80" height="10" rx="3" fill="#7b61ff"/>
-            <rect x="320" y="216" width="90" height="10" rx="3" fill="#00d4aa"/>
+            <rect x="510" y="192" width="80" height="10" rx="3" fill="#e8935c"/>
+            <rect x="320" y="216" width="90" height="10" rx="3" fill="#c49a6d"/>
             <rect x="420" y="216" width="200" height="10" rx="3" fill="#3a3a55"/>
             <rect x="320" y="240" width="140" height="10" rx="3" fill="#3a3a55"/>
-            <rect x="470" y="240" width="120" height="10" rx="3" fill="#7b61ff"/>
-            <rect x="320" y="264" width="60" height="10" rx="3" fill="#00d4aa"/>
+            <rect x="470" y="240" width="120" height="10" rx="3" fill="#e8935c"/>
+            <rect x="320" y="264" width="60" height="10" rx="3" fill="#c49a6d"/>
             <rect x="390" y="264" width="150" height="10" rx="3" fill="#3a3a55"/>
           </g>
         </g>
         <g class="setup-part" data-part="webcam">
           <rect x="484" y="110" width="32" height="24" rx="9" fill="#2a2a34"/>
-          <circle cx="500" cy="122" r="6" fill="#12121a" stroke="#7b61ff" stroke-width="2"/>
+          <circle cx="500" cy="122" r="6" fill="#12121a" stroke="#e8935c" stroke-width="2"/>
         </g>
         <g class="setup-part" data-part="teclado">
           <rect x="330" y="336" width="200" height="36" rx="9" fill="#2a2a34"/>
           <line x1="340" y1="345" x2="520" y2="345" stroke="#4a4a58" stroke-width="9" stroke-dasharray="13 6"/>
           <line x1="340" y1="356" x2="520" y2="356" stroke="#4a4a58" stroke-width="9" stroke-dasharray="13 6"/>
-          <rect x="404" y="360" width="52" height="9" rx="3" fill="#7b61ff"/>
+          <rect x="404" y="360" width="52" height="9" rx="3" fill="#e8935c"/>
         </g>
         <g class="setup-part" data-part="raton">
           <ellipse cx="592" cy="354" rx="24" ry="18" fill="#2a2a34"/>
           <line x1="592" y1="340" x2="592" y2="352" stroke="#4a4a58" stroke-width="3"/>
-          <rect x="586" y="342" width="12" height="8" rx="4" fill="#7b61ff"/>
+          <rect x="586" y="342" width="12" height="8" rx="4" fill="#e8935c"/>
         </g>
       </svg>
     </div>

@@ -2,22 +2,27 @@
   <div class="nav-inner">
     <a href="{{ "/" | relative_url }}" class="logo">
       <span class="logo-code">code</span><span class="logo-ia">andIA</span>
+      <span class="logo-note" aria-hidden="true">sin humo</span>
     </a>
     <div class="nav-links" id="nav-menu">
       <a href="{{ "/articulos/" | relative_url }}">Artículos</a>
-      <a href="{{ "/buscar/" | relative_url }}">Buscar</a>
-      <a href="{{ "/ofertas/" | relative_url }}">Ofertas</a>
       <a href="{{ "/" | relative_url }}#herramientas">Herramientas</a>
-      <a href="{{ "/" | relative_url }}#faq">FAQ</a>
+      <a href="{{ "/ofertas/" | relative_url }}">Ofertas</a>
       <a href="{{ "/sobre-mi/" | relative_url }}">Sobre mí</a>
     </div>
     <div class="nav-actions">
+      <a class="nav-search" href="{{ "/buscar/" | relative_url }}" aria-label="Buscar en el blog">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </svg>
+        <span>Buscar</span>
+      </a>
       <div class="lang-switch" role="group" aria-label="Idioma / Language">
         <button class="lang-btn is-active" type="button" data-lang="es" aria-label="Español" title="Español">ES</button>
         <button class="lang-btn" type="button" data-lang="en" aria-label="English" title="English">EN</button>
       </div>
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo claro" title="Cambiar a modo claro">
-        <!-- Sol: visible en modo oscuro -->
         <svg class="theme-icon theme-icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="12" cy="12" r="4"></circle>
           <path d="M12 2v2"></path>
@@ -29,7 +34,6 @@
           <path d="m6.34 17.66-1.41 1.41"></path>
           <path d="m19.07 4.93-1.41 1.41"></path>
         </svg>
-        <!-- Luna: visible en modo claro -->
         <svg class="theme-icon theme-icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
         </svg>
