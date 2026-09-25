@@ -1,0 +1,56 @@
+---
+layout: default
+title: "Guías de herramientas de IA para programar"
+description: "Guías paso a paso de herramientas de IA para programar: cómo usar ChatGPT, Claude Code, Cursor, Copilot y más para aprender, depurar y ser más productivo. Explicadas para estudiantes."
+permalink: /guias/
+---
+
+{% assign guias = site.pages | where: "category", "Guía" | sort: "date" | reverse %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ '/' | absolute_url }}"},
+    {"@type": "ListItem", "position": 2, "name": "Guías", "item": "{{ '/guias/' | absolute_url }}"}
+  ]
+}
+</script>
+
+<section class="section section-alt">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Guías</span>
+    </nav>
+    <header class="articles-hero">
+      <h1 class="hero-title">Guías de IA para programar</h1>
+      <p>{{ guias.size }} guías paso a paso · herramientas explicadas desde cero, con ejemplos y sin humo</p>
+    </header>
+    <p class="section-intro">Guías prácticas para aprender a programar con IA y sacarle partido a herramientas como ChatGPT, Claude Code, Cursor o GitHub Copilot. Cada una explica el cómo con ejemplos concretos, pensada para quien está aprendiendo a programar.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% if guias.size > 0 %}
+    <div class="articles-grid">
+      {% for post in guias %}
+      <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
+        <h3 class="article-card-title">{{ post.title }}</h3>
+        <p class="article-card-desc">{{ post.description }}</p>
+        <div class="article-card-meta">
+          <span class="article-card-category">{{ post.category }}</span>
+          <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+          {% if post.readtime %}
+          <span class="article-card-readtime">{{ post.readtime }} min</span>
+          {% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="empty-state">Todavía no hay guías publicadas. Vuelve pronto.</p>
+    {% endif %}
+  </div>
+</section>

@@ -15,6 +15,18 @@ permalink: /articulos/
       <p>{{ articulos.size }} artículos publicados · {{ categorias.size }} categorías · 4-5 artículos nuevos por semana</p>
     </header>
 
+    <!-- Pillar pages -->
+    <div class="pillar-links">
+      <a href="{{ "/guias/" | relative_url }}" class="pillar-link">
+        <strong>Guías de IA para programar</strong>
+        <span>{% assign _g = site.pages | where: "category", "Guía" | size %}{{ _g }} guías paso a paso</span>
+      </a>
+      <a href="{{ "/reviews/" | relative_url }}" class="pillar-link">
+        <strong>Reviews de herramientas</strong>
+        <span>{% assign _r = site.pages | where: "category", "Review" | size %}{{ _r }} herramientas analizadas a fondo</span>
+      </a>
+    </div>
+
     <!-- Filtros por categoría -->
     {% if categorias.size > 1 %}
     <div class="filter-tabs" role="tablist" aria-label="Filtrar artículos por categoría">

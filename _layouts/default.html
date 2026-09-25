@@ -11,7 +11,11 @@
   <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
 
   <meta name="author" content="Iván">
+  {% if page.noindex %}
+  <meta name="robots" content="noindex,follow">
+  {% else %}
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  {% endif %}
 
   <!-- Imagen social: por categoría si existe, si no la general -->
   {% assign og_img_rel = "/og-image.png" %}
@@ -82,29 +86,42 @@
     })();
   </script>
 
-  <!-- Idioma: recupera la preferencia guardada antes de pintar (evita parpadeo) -->
-  <script>
-    (function () {
-      try {
-        if (localStorage.getItem('lang') === 'en') document.documentElement.lang = 'en';
-      } catch (e) {}
-    })();
-  </script>
-
-  <!-- Datos estructurados: sitio + autor -->
+  <!-- Datos estructurados: sitio + organización + autor -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": {{ site.title | jsonify }},
-    "url": {{ site.url | jsonify }},
-    "description": {{ site.description | jsonify }},
-    "inLanguage": "es-ES",
-    "publisher": {
-      "@type": "Organization",
-      "name": "codeandIA",
-      "url": {{ site.url | jsonify }}
-    }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": {{ site.url | append: "/" | jsonify }},
+        "name": {{ site.title | jsonify }},
+        "url": {{ site.url | append: "/" | jsonify }},
+        "description": {{ site.description | jsonify }},
+        "inLanguage": "es-ES",
+        "publisher": { "@id": {{ site.url | append: "/#organization" | jsonify }} }
+      },
+      {
+        "@type": "Organization",
+        "@id": {{ site.url | append: "/#organization" | jsonify }},
+        "name": {{ site.title | jsonify }},
+        "url": {{ site.url | append: "/" | jsonify }},
+        "description": {{ site.description | jsonify }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ "/apple-touch-icon.png" | absolute_url | jsonify }}
+        },
+        "founder": { "@id": {{ site.url | append: "/#ivan" | jsonify }} }
+      },
+      {
+        "@type": "Person",
+        "@id": {{ site.url | append: "/#ivan" | jsonify }},
+        "name": "Iván",
+        "jobTitle": "Estudiante de Desarrollo de Aplicaciones Web",
+        "description": "Autor de codeandIA: reviews, comparativas y guías de herramientas de IA para desarrolladores, probadas a mano.",
+        "url": {{ site.url | append: "/sobre-mi/" | jsonify }},
+        "email": "ivan@codeandia.com"
+      }
+    ]
   }
   </script>
 </head>
@@ -148,19 +165,6 @@
       // Cierra con la tecla Escape
       document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') close();
-      });
-    })();
-
-    
-    /* Selector de idioma ES/EN: alterna la traducción en sitio vía assets/translator.js (sin widget de Google) */
-    (function () {
-      var switcher = document.querySelector('.lang-switch');
-      if (!switcher) return;
-      switcher.addEventListener('click', function (e) {
-        var btn = e.target.closest('.lang-btn');
-        if (!btn) return;
-        var lang = btn.getAttribute('data-lang');
-        if (window.__tr) window.__tr.apply(lang);
       });
     })();
 
@@ -224,8 +228,58 @@
     })();
   </script>
 
-  <!-- Traducción ES/EN invisible (sin widget ni rastro de Google): assets/translator.js -->
-  <script src="{{ "/assets/translator.js" | relative_url }}"></script>
+  <!-- Botón copiar en bloques de código -->
+  <script>
+    (function () {
+      var pre = document.querySelectorAll('.article-content pre');
+      if (!pre.length) return;
+      pre.forEach(function (bloque, i) {
+        var wrapper = bloque.parentNode;
+        if (wrapper && wrapper.classList.contains('code-wrap')) return;
+        var wp = document.createElement('div');
+        wp.className = 'code-wrap';
+        wrapper.replaceChild(wp, bloque);
+        wp.appendChild(bloque);
+
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'code-copy';
+        btn.textContent = 'Copiar';
+        btn.dataset.copied = 'false';
+        wp.appendChild(btn);
+
+        btn.addEventListener('click', function () {
+          var texto = bloque.querySelector('code').innerText;
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(texto).then(done, done);
+          } else {
+            fallbackCopiar(texto);
+            done();
+          }
+        });
+
+        function done() {
+          btn.textContent = 'Copiado';
+          btn.dataset.copied = 'true';
+          setTimeout(function () {
+            btn.textContent = 'Copiar';
+            btn.dataset.copied = 'false';
+          }, 1800);
+        }
+
+        function fallbackCopiar(texto) {
+          var ta = document.createElement('textarea');
+          ta.value = texto;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand('copy'); } catch (e) {}
+          document.body.removeChild(ta);
+        }
+      });
+    })();
+  </script>
 
 </body>
 </html>

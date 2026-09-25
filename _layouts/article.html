@@ -3,19 +3,32 @@ layout: default
 ---
 
 <script type="application/ld+json">
+{% assign og_art = "/og-image.png" %}
+{% case page.category %}
+  {% when "Guía" %}{% assign og_art = "/og-guia.png" %}
+  {% when "Review" %}{% assign og_art = "/og-review.png" %}
+  {% when "Comparativa" %}{% assign og_art = "/og-comparativa.png" %}
+  {% when "Lista" %}{% assign og_art = "/og-lista.png" %}
+{% endcase %}
 [
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": {{ page.title | jsonify }},
     "description": {{ page.description | jsonify }},
+    "image": {
+      "@type": "ImageObject",
+      "url": {{ og_art | absolute_url | jsonify }},
+      "width": 1200,
+      "height": 630
+    },
     "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
     "dateModified": {{ page.updated | default: page.date | date_to_xmlschema | jsonify }},
     "inLanguage": "es-ES",
     "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
     "articleSection": {{ page.category | jsonify }},
-    "author": { "@type": "Person", "name": "Iván", "email": "ivan@codeandia.com" },
-    "publisher": { "@type": "Organization", "name": "codeandIA", "url": {{ "/" | absolute_url | jsonify }} }
+    "author": { "@type": "Person", "name": "Iván", "url": {{ "/sobre-mi/" | absolute_url | jsonify }} },
+    "publisher": { "@id": {{ "/" | absolute_url | append: "#organization" | jsonify }} }
   },
   {
     "@context": "https://schema.org",

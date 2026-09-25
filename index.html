@@ -70,128 +70,36 @@ layout: default
 
     <div class="tools-grid">
 
+      {% for tool in site.data.herramientas %}
+      {% assign fechas = nil %}
       <div class="tool-card">
         <div class="tool-card-top">
-          <h3>Cursor</h3>
-          <span class="pill">Editor IA</span>
+          <h3>{{ tool.nombre }}</h3>
+          <span class="pill">{{ tool.pill }}</span>
         </div>
-        <p>Editor basado en VS Code con IA integrada en toda la experiencia: chat contextual, refactor con Ctrl+K y autocompletado que entiende tu proyecto entero.</p>
+        <p>{{ tool.desc }}</p>
         <div class="tool-card-actions">
-          <a href="https://cursor.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/reviews/cursor-ai-review-espanol/" | relative_url }}" class="tool-card-review">Review Cursor</a>
-          <a href="{{ "/articulos/guias/cursor-rules-configuracion-mdc-guia/" | relative_url }}" class="tool-card-review">Guía .mdc</a>
+          {% if tool.sponsored %}
+          <a href="{{ tool.url }}" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
+          {% else %}
+          <a href="{{ tool.url }}" class="tool-card-btn" target="_blank" rel="noopener">Probar →</a>
+          {% endif %}
+          {% for enlace in tool.enlaces %}
+          {% assign art = site.pages | where: "path", enlace.path | first %}
+          {% if art %}
+          <a href="{{ art.url | relative_url }}" class="tool-card-review">{{ enlace.label }}</a>
+          {% assign fecha_art = art.updated | default: art.date %}
+          {% if fecha_art %}
+          {% if fechas == nil or fecha_art > fechas %}{% assign fechas = fecha_art %}{% endif %}
+          {% endif %}
+          {% endif %}
+          {% endfor %}
         </div>
+        {% if fechas %}
+        <p class="tool-card-updated">revisado {{ fechas | date: "%d/%m/%Y" }}</p>
+        {% endif %}
       </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>GitHub Copilot</h3>
-          <span class="pill">Asistente</span>
-        </div>
-        <p>El asistente de IA de GitHub que vive dentro de tu editor favorito. Gratis para estudiantes verificados con el Student Pack. Ahora con Agent Mode autónomo.</p>
-        <div class="tool-card-actions">
-          <a href="https://github.com/features/copilot" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/reviews/github-copilot-gratis-estudiantes/" | relative_url }}" class="tool-card-review">Review Copilot</a>
-          <a href="{{ "/articulos/guias/github-copilot-agent-mode-2026-guia/" | relative_url }}" class="tool-card-review">Guía Agent Mode</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>ChatGPT</h3>
-          <span class="pill">Chat IA</span>
-        </div>
-        <p>El chatbot de referencia para depurar, entender errores y mantener conversaciones largas con contexto. Ideal para el día a día de desarrollo.</p>
-        <div class="tool-card-actions">
-          <a href="https://chat.openai.com/?model=gpt-4" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/reviews/chatgpt-plus-para-programadores/" | relative_url }}" class="tool-card-review">Review ChatGPT Plus</a>
-          <a href="{{ "/articulos/guias/chatgpt-para-aprender-javascript-principiante/" | relative_url }}" class="tool-card-review">Guía JS con IA</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>Claude Code</h3>
-          <span class="pill">CLI Agente</span>
-        </div>
-        <p>Agente autónomo en terminal: lee el repo entero, edita varios archivos, ejecuta tests y lanza sub-agentes paralelos (Dynamic Workflows). Para tareas senior.</p>
-        <div class="tool-card-actions">
-          <a href="https://claude.com/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/reviews/claude-code-cli-review-2026/" | relative_url }}" class="tool-card-review">Review Claude Code</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>Warp</h3>
-          <span class="pill">Terminal IA</span>
-        </div>
-        <p>Terminal reescrita en Rust con bloques, IA integrada (Warp Agent), editor LSP y compartir sesión en un clic. Multiplataforma nativa (Mac/Linux/Win).</p>
-        <div class="tool-card-actions">
-          <a href="https://www.warp.dev/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/reviews/warp-terminal-ai-review-2026/" | relative_url }}" class="tool-card-review">Review Warp</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>v0 by Vercel</h3>
-          <span class="pill">Generación UI</span>
-        </div>
-        <p>Genera interfaces React + Next.js + Tailwind + shadcn/ui desde lenguaje natural. GitHub sync nativo, deploy en Vercel con un clic, MCP integrations.</p>
-        <div class="tool-card-actions">
-          <a href="https://v0.app/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/listas/v0-vercel-ia-ui-generacion-lista-herramientas/" | relative_url }}" class="tool-card-review">Lista + comparativa</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>Hostinger</h3>
-          <span class="pill">Hosting</span>
-        </div>
-        <p>Hosting barato y rápido para poner en marcha tus proyectos y tu portafolio sin complicarte. hPanel intuitivo, SSH, LiteSpeed.</p>
-        <div class="tool-card-actions">
-          <a href="https://www.hostinger.com" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/reviews/hostinger-review-2026/" | relative_url }}" class="tool-card-review">Review Hostinger</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>Namecheap</h3>
-          <span class="pill">Dominios</span>
-        </div>
-        <p>Dominios a buen precio y sin sorpresas raras en la renovación. La opción que uso para registrar dominios.</p>
-        <div class="tool-card-actions">
-          <a href="https://namecheap.pxf.io/c/7743913/386170/5618" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/" | relative_url }}" class="tool-card-review">Comparativa Namecheap vs Porkbun</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>CodeRabbit</h3>
-          <span class="pill">Code Review IA</span>
-        </div>
-        <p>Revisa pull requests automáticamente con IA: detecta bugs, seguridad, rendimiento y sugiere fixes. Gratis para repos públicos, multi-plataforma (GH, GL, Azure, BB).</p>
-        <div class="tool-card-actions">
-          <a href="https://coderabbit.ai/pricing" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          <a href="{{ "/articulos/reviews/coderabbit-review-ai-code-review/" | relative_url }}" class="tool-card-review">Review CodeRabbit</a>
-        </div>
-      </div>
-
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>Qodo (ex-Codium)</h3>
-          <span class="pill">Testing IA</span>
-        </div>
-        <p>Genera tests unitarios en tu IDE (VS Code, JetBrains) y PR-Agent open source para reviews automáticas en GitHub/GitLab. Trial de 14 días.</p>
-        <div class="tool-card-actions">
-          <a href="https://www.qodo.ai/" class="tool-card-btn" target="_blank" rel="noopener">Probar →</a>
-          <a href="{{ "/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/" | relative_url }}" class="tool-card-review">Comparativa QA Wolf vs Qodo</a>
-        </div>
-      </div>
+      {% endfor %}
 
     </div>
   </div>
