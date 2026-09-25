@@ -78,6 +78,24 @@ layout: default
 
     {% include buying-table.html %}
 
+    {% assign rutas_del_art = "" %}
+    {% for r in site.data.rutas %}
+      {% assign pos = 0 %}
+      {% for p in r.pasos %}
+        {% assign pos = pos | plus: 1 %}
+        {% if p.path == page.url %}
+          {% assign rutas_del_art = rutas_del_art | append: r.id | append: "|" | append: pos | append: "|" | append: r.pasos | size | append: ";" %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if rutas_del_art != "" %}
+    <aside class="ruta-banner" id="ruta-banner" hidden>
+      <span class="ruta-banner-label">Parte de una ruta</span>
+      <div id="ruta-banner-items"></div>
+    </aside>
+    {% endif %}
+
+    <div class="article-grid">
     <nav class="toc" id="toc" aria-label="Índice del artículo" hidden>
       <p class="toc-title">En este artículo</p>
       <ol class="toc-list" id="toc-list"></ol>
@@ -85,6 +103,7 @@ layout: default
 
     <div class="article-content" id="article-content">
       {{ content }}
+    </div>
     </div>
 
     {% if page.affiliate_text %}
@@ -103,7 +122,54 @@ layout: default
       <button class="share-btn" type="button" id="copy-link" data-url="{{ page.url | absolute_url }}">Copiar enlace</button>
     </div>
 
-    <a href="{{ "/" | relative_url }}" class="back-link">← Volver a artículos</a>
+    {% assign todos_art = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.url != page.url" | sort: "date" %}
+    {% assign anterior = false %}
+    {% assign siguiente = false %}
+    {% assign ya_siguiente = false %}
+    {% for a in todos_art %}
+      {% if a.date < page.date %}
+        {% assign anterior = a %}
+      {% endif %}
+      {% if a.date > page.date and ya_siguiente == false %}
+        {% assign siguiente = a %}
+        {% assign ya_siguiente = true %}
+      {% endif %}
+    {% endfor %}
+    {% if anterior or siguiente %}
+    <nav class="post-nav" aria-label="Artículos anterior y siguiente">
+      {% if anterior %}
+      <a class="post-nav-link post-nav-prev" href="{{ anterior.url | relative_url }}" rel="prev">
+        <span class="post-nav-label">Artículo anterior</span>
+        <span class="post-nav-title">{{ anterior.title }}</span>
+        <span class="post-nav-date">{{ anterior.date | date: "%d/%m/%Y" }}</span>
+      </a>
+      {% endif %}
+      {% if siguiente %}
+      <a class="post-nav-link post-nav-next" href="{{ siguiente.url | relative_url }}" rel="next">
+        <span class="post-nav-label">Artículo siguiente</span>
+        <span class="post-nav-title">{{ siguiente.title }}</span>
+        <span class="post-nav-date">{{ siguiente.date | date: "%d/%m/%Y" }}</span>
+      </a>
+      {% endif %}
+    </nav>
+    {% endif %}
+
+    <div class="article-tools">
+      <button class="tool-btn" id="save-article" type="button" data-url="{{ page.url | absolute_url }}" data-title="{{ page.title | escape }}" data-category="{{ page.category | escape }}" data-date="{{ page.date | date: "%Y-%m-%d" }}" aria-pressed="false">
+        <span class="tool-btn-icon" aria-hidden="true">☆</span>
+        <span class="tool-btn-label">Guardar</span>
+      </button>
+      <button class="tool-btn" id="print-article" type="button">
+        <span class="tool-btn-icon" aria-hidden="true">⎙</span>
+        <span class="tool-btn-label">Imprimir / PDF</span>
+      </button>
+      <a class="tool-btn" id="suggest-fix" href="mailto:ivan@codeandia.com?subject={{ page.title | uri_escape }}&amp;body={{ 'Sugerencia para este artículo: ' | uri_escape }}{{ page.url | absolute_url | uri_escape }}">
+        <span class="tool-btn-icon" aria-hidden="true">✎</span>
+        <span class="tool-btn-label">Sugerir mejora</span>
+      </a>
+    </div>
+
+    <a href="{{ "/articulos/" | relative_url }}" class="back-link">← Ver todos los artículos</a>
 
     {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.url != page.url" %}
     {% assign mismos = otros | where: "category", page.category | sort: "date" | reverse %}
@@ -163,6 +229,7 @@ layout: default
 
     var nav = document.getElementById('toc');
     var list = document.getElementById('toc-list');
+    var grid = document.querySelector('.article-grid');
     var h2s = heads.filter(function (h) { return h.tagName === 'H2'; });
     var links = [];
 
@@ -177,6 +244,7 @@ layout: default
         links.push(a);
       });
       nav.hidden = false;
+      if (grid) grid.classList.add('has-toc');
 
       if ('IntersectionObserver' in window) {
         var byId = {};
@@ -243,5 +311,52 @@ layout: default
         document.body.removeChild(t);
       }
     });
+  })();
+
+  /* Banner de rutas: en qué ruta está este artículo y cuánto llevas */
+  (function () {
+    var banner = document.getElementById('ruta-banner');
+    var items = document.getElementById('ruta-banner-items');
+    if (!banner || !items) return;
+
+    var crudos = {{ rutas_del_art | split: ";" | jsonify }};
+    var rutas = [];
+    (crudos || []).forEach(function (c) {
+      if (!c) return;
+      var p = c.split('|');
+      if (p.length < 4) return;
+      rutas.push({ id: p[0], pos: parseInt(p[1], 10), total: parseInt(p[2], 10) });
+    });
+    if (!rutas.length) return;
+
+    var nombres = {{ site.data.rutas | map: "titulo" | jsonify }};
+    var ids = {{ site.data.rutas | map: "id" | jsonify }};
+
+    function pintar() {
+      items.innerHTML = '';
+      rutas.forEach(function (r) {
+        var hechos = window.codeandia ? window.codeandia.obtenerPasos(r.id) : [];
+        var linea = document.createElement('p');
+        linea.className = 'ruta-banner-line';
+
+        var enlace = document.createElement('a');
+        enlace.className = 'ruta-banner-link';
+        enlace.href = '/rutas/#' + r.id;
+        var indice = ids.indexOf(r.id);
+        enlace.textContent = indice !== -1 ? nombres[indice] : r.id;
+
+        var meta = document.createElement('span');
+        meta.className = 'ruta-banner-meta';
+        meta.textContent = 'paso ' + r.pos + ' de ' + r.total + ' · ' + hechos.length + ' completados';
+
+        linea.appendChild(enlace);
+        linea.appendChild(meta);
+        items.appendChild(linea);
+      });
+      banner.hidden = false;
+    }
+
+    pintar();
+    window.addEventListener('storage', pintar);
   })();
 </script>
