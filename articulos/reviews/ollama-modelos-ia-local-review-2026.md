@@ -3,7 +3,7 @@ layout: article
 title: "Ollama: modelos de IA en local con un portátil de estudiante"
 description: "Probé Ollama durante un mes para correr modelos de IA en mi propio portátil sin pagar API: instalación, modelos que merecen la pena, límites reales y veredicto."
 category: "Review"
-date: 2026-07-30
+date: 2026-07-26
 readtime: 8
 ---
 

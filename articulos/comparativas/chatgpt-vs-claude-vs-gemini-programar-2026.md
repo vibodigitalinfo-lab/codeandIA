@@ -3,7 +3,7 @@ layout: article
 title: "ChatGPT vs Claude vs Gemini para programar en 2026"
 description: "Comparativa real de ChatGPT, Claude y Gemini para programar en 2026: precios, contexto, modo agente y cuál te conviene según tu bolsillo y tus proyectos."
 category: "Comparativa"
-date: 2026-09-20
+date: 2026-09-16
 readtime: 6
 ---
 

@@ -3,7 +3,7 @@ layout: article
 title: "Portfolio de programador con IA que consigue prácticas"
 description: "Cómo montar un portfolio que te consiga prácticas de DAW con IA: estructura, proyectos, el texto de candidatura y los fallos que me costaron entrevistas."
 category: "Guía"
-date: 2026-09-06
+date: 2026-09-02
 readtime: 7
 ---
 

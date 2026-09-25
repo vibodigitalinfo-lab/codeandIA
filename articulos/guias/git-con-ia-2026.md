@@ -3,7 +3,7 @@ layout: article
 title: "Git con IA: mensajes de commit, rebase y blame asistidos"
 description: "Aprende a usar Git con IA: mensajes de commit que explican el porqué, rebase sin miedo, blame entendible y cómo deshacer errores. Guía para DAW."
 category: "Guía"
-date: 2026-09-05
+date: 2026-09-01
 readtime: 9
 ---
 

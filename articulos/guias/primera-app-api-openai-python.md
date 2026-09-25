@@ -3,7 +3,7 @@ layout: article
 title: "Tu primera app con la API de OpenAI en Python, paso a paso"
 description: "Guía para crear tu primera app con la API de OpenAI en Python: API key, SDK, un asistente de terminal que explica errores y controlar el gasto."
 category: "Guía"
-date: 2026-08-31
+date: 2026-08-27
 readtime: 8
 ---
 

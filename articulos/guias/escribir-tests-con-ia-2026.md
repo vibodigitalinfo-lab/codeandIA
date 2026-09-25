@@ -3,7 +3,7 @@ layout: article
 title: "Escribir tests con IA en 2026: qué funciona, qué falla"
 description: "Guía para escribir tests con IA en 2026: pedir casos borde en vez de cobertura, revisar aserciones, y usar mutation testing gratis con Stryker y PIT."
 category: "Guía"
-date: 2026-09-22
+date: 2026-09-18
 readtime: 7
 ---
 

@@ -3,7 +3,7 @@ layout: article
 title: "Namecheap vs Porkbun para un dominio .es siendo estudiante"
 description: "Namecheap vs Porkbun dominio .es para estudiantes: precios, renovaciones, soporte y cuál elegí yo para mi primer proyecto."
 category: "Comparativa"
-date: 2026-07-20
+date: 2026-07-16
 readtime: 6
 affiliate_text: "Registra tu dominio .es con Namecheap desde menos de 5€"
 affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"

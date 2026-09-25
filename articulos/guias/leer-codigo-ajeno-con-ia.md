@@ -3,7 +3,7 @@ layout: article
 title: "Cómo leer código ajeno con IA: el método de 4 pasos para entenderlo de verdad"
 description: "Aprende a leer y entender código que no escribiste tú usando IA, sin quedarte con un resumen bonito que no te sirve. Método de 4 pasos con prompts concretos."
 category: "Guía"
-date: 2026-09-25
+date: 2026-09-21
 readtime: 8
 ---
 

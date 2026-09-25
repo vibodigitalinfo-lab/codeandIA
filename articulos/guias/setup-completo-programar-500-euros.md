@@ -3,7 +3,7 @@ layout: article
 title: "Setup para programar por 500€: lo que montaría yo (DAW)"
 description: "Guía de setup de estudiante para programar por 500€: silla, teclado, ratón y monitor con precios reales en Amazon. Prioridades y upgrades para llegar lejos."
 category: "Guía"
-date: 2026-08-24
+date: 2026-08-20
 readtime: 7
 affiliate_text: "Consigue la silla SIHOO M18 en Amazon con el precio comprobado"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"

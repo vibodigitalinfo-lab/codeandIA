@@ -3,7 +3,7 @@ layout: article
 title: "7 errores programando con IA (y cómo evitarlos)"
 description: "Errores reales usando Copilot, ChatGPT y Claude Code en mi primer año de DAW: confiar a ciegas, no leer el código generado, perder contexto. Con soluciones."
 category: "Lista"
-date: 2026-08-19
+date: 2026-08-15
 readtime: 8
 ---
 

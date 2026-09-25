@@ -3,7 +3,7 @@ layout: article
 title: "Vite vs Next.js vs Astro para tu primer proyecto con IA"
 description: "Qué framework elegir para tu primer proyecto web si usas IA: Vite, Next.js o Astro. Comparativa honesta de dificultad, rendimiento y cuándo tiene sentido cada uno."
 category: "Comparativa"
-date: 2026-09-25
+date: 2026-09-24
 readtime: 9
 ---
 

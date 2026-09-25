@@ -3,7 +3,7 @@ layout: article
 title: "¿Merece la pena pagar por IA en 2026? Cursor, Copilot y Claude"
 description: "Cursor vs GitHub Copilot vs Claude en 2026 para estudiantes de DAW: planes, precios, lo que te dan gratis y el veredicto por presupuesto."
 category: "Comparativa"
-date: 2026-09-17
+date: 2026-09-13
 readtime: 7
 ---
 

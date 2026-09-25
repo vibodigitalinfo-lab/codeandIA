@@ -3,7 +3,7 @@ layout: article
 title: "Prompt injection 2026: qué es y cómo proteger tu app con IA"
 description: "Guía de prompt injection para estudiantes: directa vs indirecta, por qué es el riesgo nº1 en apps con IA y agentes MCP en 2026, y 7 defensas prácticas."
 category: "Guía"
-date: 2026-09-02
+date: 2026-08-29
 readtime: 8
 ---
 
