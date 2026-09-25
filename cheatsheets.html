@@ -1,0 +1,151 @@
+---
+layout: default
+title: Cheatsheets
+description: Hojas de referencia rápidas para consultar sin leer un artículo entero: prompts para IA con código, atajos de VS Code, Git en una línea, Docker para desarrollo y regex más usadas.
+permalink: /cheatsheets/
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ '/' | absolute_url }}"},
+    {"@type": "ListItem", "position": 2, "name": "Cheatsheets", "item": "{{ '/cheatsheets/' | absolute_url }}"}
+  ]
+}
+</script>
+
+<section class="section section-alt">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span aria-current="page">Cheatsheets</span>
+    </nav>
+    <header class="articles-hero">
+      <h1 class="hero-title">Cheatsheets</h1>
+      <p>5 hojas de referencia · lo justo para tener abierto en otra pestaña mientras programas</p>
+    </header>
+    <p class="section-intro">
+      Cada hoja es un resumen sin relleno: solo los comandos, atajos y patrones que de verdad usarás.
+      Haz clic para desplegarla y usa el botón de imprimir para llevártela en PDF.
+    </p>
+    <ul class="cheat-jump" aria-label="Saltar a una hoja">
+      <li><a href="#cs-prompts">Prompts con código</a></li>
+      <li><a href="#cs-vscode">Atajos VS Code</a></li>
+      <li><a href="#cs-git">Git</a></li>
+      <li><a href="#cs-docker">Docker</a></li>
+      <li><a href="#cs-regex">Regex</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <details class="cheat-block" id="cs-prompts" open>
+      <summary>Prompts para trabajar con código con IA</summary>
+      <div class="cheat-body">
+        <p>La diferencia entre un buen resultado y uno inútil casi nunca es el modelo: es si le das contexto suficiente y le pides que no invente.</p>
+        <table class="cheat-table">
+          <thead><tr><th>Para</th><th>Escribe esto</th></tr></thead>
+          <tbody>
+            <tr><td>Entender código</td><td>"Explica qué hace este archivo sección a sección. No propongas cambios todavía."</td></tr>
+            <tr><td>Encontrar un error</td><td>"Este es el error y el código. Dime la causa más probable antes de proponer un arreglo, y dime cómo comprobarla."</td></tr>
+            <tr><td>Escribir un test</td><td>"Escribe el test para este caso límite. Si el test no detecta el fallo, no lo escribas."</td></tr>
+            <tr><td>Refactorizar</td><td>"Refactoriza esto en pasos pequeños, uno por mensaje. No cambies el comportamiento."</td></tr>
+            <tr><td>Rastrear un bug</td><td>"Actúa de revisor escéptico: qué suposiciones no verificadas hay aquí?"</td></tr>
+            <tr><td>Desbloquearte</td><td>"Dame 3 enfoques distintos con su peor caso. No me digas cuál elijas."</td></tr>
+          </tbody>
+        </table>
+        <p>Las tres reglas que más importan: <strong>dale el error entero</strong>, <strong>pide que no invente</strong> y <strong>pide un paso cada vez</strong>. Pedir diez cambios de golpe es la forma más rápida de acabar con código que no entiendes.</p>
+      </div>
+    </details>
+
+    <details class="cheat-block" id="cs-vscode">
+      <summary>Atajos de VS Code que más se usan</summary>
+      <div class="cheat-body">
+        <table class="cheat-table">
+          <thead><tr><th>Acción</th><th>Atajo</th></tr></thead>
+          <tbody>
+            <tr><td>Paleta de comandos (el atajo más útil)</td><td>Ctrl/Cmd + Shift + P</td></tr>
+            <tr><td>Abrir archivo rápido</td><td>Ctrl/Cmd + P</td></tr>
+            <tr><td>Ir a definición / volver</td><td>F12 / Ctrl/Cmd + B</td></tr>
+            <tr><td>Renombrar símbolo en todo el proyecto</td><td>F2</td></tr>
+            <tr><td>Buscar en el proyecto</td><td>Ctrl/Cmd + Shift + F</td></tr>
+            <tr><td>Sustituir en todos los archivos</td><td>Ctrl/Cmd + Shift + H</td></tr>
+            <tr><td>Mover línea arriba / abajo</td><td>Alt + ↑ / ↓</td></tr>
+            <tr><td>Duplicar línea</td><td>Shift + Alt + ↓</td></tr>
+            <tr><td>Eliminar línea</td><td>Ctrl/Cmd + Shift + K</td></tr>
+            <tr><td>Indentar / desindentar</td><td>Tab / Shift + Tab</td></tr>
+            <tr><td>Comentar o descomentar</td><td>Ctrl/Cmd + /</td></tr>
+            <tr><td>Terminal integrado</td><td>Ctrl/Cmd + `</td></tr>
+            <tr><td>Formato al guardar</td><td>Shift + Alt + F</td></tr>
+          </tbody>
+        </table>
+        <p>Si solo te aprendes uno, que sea <strong>F12</strong>. Saber ir a la definición de un símbolo y volver con Ctrl+B convierte copiar código de Stack Overflow en un proceso mucho más rápido.</p>
+      </div>
+    </details>
+
+    <details class="cheat-block" id="cs-git">
+      <summary>Git: lo que usas el 90% del tiempo</summary>
+      <div class="cheat-body">
+        <table class="cheat-table">
+          <thead><tr><th>Para</th><th>Comando</th></tr></thead>
+          <tbody>
+            <tr><td>Ver qué has cambiado</td><td>git status</td></tr>
+            <tr><td>Preparar y confirmar</td><td>git add . &amp;&amp; git commit -m "mensaje"</td></tr>
+            <tr><td>Ver el historial resumido</td><td>git log --oneline --graph</td></tr>
+            <tr><td>Crear rama y cambiar</td><td>git checkout -b mi-rama</td></tr>
+            <tr><td>Subir cambios</td><td>git push -u origin mi-rama</td></tr>
+            <tr><td>Traer cambios remotos</td><td>git pull --rebase</td></tr>
+            <tr><td>Deshacer el último commit</td><td>git commit --amend</td></tr>
+            <tr><td>Ver qué cambió, línea a línea</td><td>git diff</td></tr>
+            <tr><td>Descartar cambios locales</td><td>git restore .</td></tr>
+          </tbody>
+        </table>
+        <p>Dos reglas que te ahorran problemas: haz <strong>commit pequeño y seguido</strong> (es tu punto de vuelta si la IA te rompe el código), y antes de <code>git pull</code> en un trabajo con cambios usa siempre <code>--rebase</code> para no crear un merge commit por accidente.</p>
+      </div>
+    </details>
+
+    <details class="cheat-block" id="cs-docker">
+      <summary>Docker para desarrollo</summary>
+      <div class="cheat-body">
+        <table class="cheat-table">
+          <thead><tr><th>Para</th><th>Comando</th></tr></thead>
+          <tbody>
+            <tr><td>Construir la imagen</td><td>docker build -t mi-app .</td></tr>
+            <tr><td>Arrancar un contenedor</td><td>docker run -it --rm -p 3000:3000 mi-app</td></tr>
+            <tr><td>Levantar todo con un archivo</td><td>docker compose up -d</td></tr>
+            <tr><td>Ver los contenedores vivos</td><td>docker ps</td></tr>
+            <tr><td>Ver los logs</td><td>docker compose logs -f</td></tr>
+            <tr><td>Parar y borrar</td><td>docker compose down</td></tr>
+          </tbody>
+        </table>
+        <p>Para desarrollo, lo normal es no construir la imagen a mano:pones tu código en un volumen, lanzas la imagen y el proceso de recarga hace el resto.</p>
+      </div>
+    </details>
+
+    <details class="cheat-block" id="cs-regex">
+      <summary>Regex: las que más se usan</summary>
+      <div class="cheat-body">
+        <table class="cheat-table">
+          <thead><tr><th>Para</th><th>Patrón</th></tr></thead>
+          <tbody>
+            <tr><td>Dígitos</td><td>\d+</td></tr>
+            <tr><td>Palabras</td><td>\w+</td></tr>
+            <tr><td>Cualquier carácter</td><td>.</td></tr>
+            <tr><td>Inicio de línea</td><td>^</td></tr>
+            <tr><td>Fin de línea</td><td>$</td></tr>
+            <tr><td>Uno u otro (espacios)</td><td>\s+</td></tr>
+            <tr><td>Grupo opcional</td><td>(...)?</td></tr>
+            <tr><td>Uno de varios</td><td>[abc]</td></tr>
+            <tr><td>Uno de varios (excluido)</td><td>[^abc]</td></tr>
+            <tr><td>Cadena de correo</td><td>[\w.+-]+@[\w-]+\.[\w.]+</td></tr>
+          </tbody>
+        </table>
+        <p>En JavaScript usa siempre la bandera <code>g</code> para reemplazar todas las apariciones: <code>texto.replace(/x/g, "y")</code>. Y recuerda que <code>.</code> no salta de línea: usa <code>[\s\S]</code> o la bandera <code>s</code> cuando necesites que sí.</p>
+      </div>
+    </details>
+
+  </div>
+</section>

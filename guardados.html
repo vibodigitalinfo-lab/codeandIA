@@ -1,0 +1,139 @@
+---
+layout: default
+title: Mis guardados
+description: Los artículos que has guardado para leer después.
+permalink: /guardados/
+noindex: true
+sitemap: false
+---
+
+<section class="section section-alt">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span aria-current="page">Mis guardados</span>
+    </nav>
+    <header class="articles-hero">
+      <h1 class="hero-title">Mis guardados</h1>
+      <p>Lo que has marcado para leer después</p>
+    </header>
+    <p class="section-intro">
+      Los guardados se quedan en tu navegador, no en ningún servidor. Si borras los datos del
+      navegador o entras desde otro dispositivo, no estarán aquí.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="article-tools">
+      <a class="tool-btn" href="{{ '/articulos/' | relative_url }}">
+        <span class="tool-btn-icon" aria-hidden="true">←</span>
+        <span class="tool-btn-label">Ir a artículos</span>
+      </a>
+      <a class="tool-btn" href="{{ '/rutas/' | relative_url }}">
+        <span class="tool-btn-icon" aria-hidden="true">⇉</span>
+        <span class="tool-btn-label">Ver rutas</span>
+      </a>
+      <button class="tool-btn" id="clear-saved" type="button">
+        <span class="tool-btn-icon" aria-hidden="true">×</span>
+        <span class="tool-btn-label">Vaciar guardados</span>
+      </button>
+    </div>
+
+    <div id="saved-root">
+      <p class="empty-note">Cargando tus guardados…</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var INDICE = [
+      {% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+      {% for a in arts %}
+      {
+        url: {{ a.url | jsonify }},
+        title: {{ a.title | jsonify }},
+        description: {{ a.description | jsonify }},
+        category: {{ a.category | jsonify }},
+        date: {{ a.date | date: "%d/%m/%Y" | jsonify }}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+
+    var root = document.getElementById('saved-root');
+    var api = window.codeandia;
+    if (!root || !api) return;
+
+    function porUrl() {
+      var mapa = {};
+      INDICE.forEach(function (a) { mapa[a.url] = a; });
+      return mapa;
+    }
+
+    function pintar() {
+      var lista = api.obtenerGuardados();
+      root.innerHTML = '';
+
+      if (!lista.length) {
+        var vacio = document.createElement('p');
+        vacio.className = 'empty-note';
+        vacio.textContent = 'Todavía no has guardado nada. Cuando leas un artículo, pulsa el botón "Guardar" y aparecerá aquí.';
+        root.appendChild(vacio);
+        return;
+      }
+
+      var wrap = document.createElement('div');
+      wrap.className = 'saved-list';
+
+      var indice = porUrl();
+      lista.forEach(function (g) {
+        var a = indice[g.url] || g;
+        var item = document.createElement('article');
+        item.className = 'saved-item';
+
+        var head = document.createElement('div');
+        head.className = 'saved-head';
+
+        var link = document.createElement('a');
+        link.className = 'saved-title';
+        link.href = a.url;
+        link.textContent = a.title;
+
+        var quitar = document.createElement('button');
+        quitar.className = 'saved-remove';
+        quitar.type = 'button';
+        quitar.textContent = 'Quitar';
+        quitar.addEventListener('click', function () {
+          api.quitarArticulo(a.url);
+          pintar();
+        });
+
+        head.appendChild(link);
+        head.appendChild(quitar);
+
+        var meta = document.createElement('div');
+        meta.className = 'saved-meta';
+        meta.textContent = [a.category, a.date].filter(Boolean).join(' · ');
+
+        item.appendChild(head);
+        item.appendChild(meta);
+        wrap.appendChild(item);
+      });
+
+      root.appendChild(wrap);
+    }
+
+    var limpiar = document.getElementById('clear-saved');
+    if (limpiar) {
+      limpiar.addEventListener('click', function () {
+        if (!api.obtenerGuardados().length) return;
+        if (!window.confirm('¿Seguro que quieres vaciar todos los guardados?')) return;
+        api.vaciarGuardados();
+        pintar();
+      });
+    }
+
+    pintar();
+  })();
+</script>

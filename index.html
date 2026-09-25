@@ -41,6 +41,17 @@ layout: default
       <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Todos los artículos <span aria-hidden="true">→</span></a>
     </div>
 
+    <div id="resume-slot" hidden>
+      <div class="resume-card">
+        <div class="resume-body">
+          <span class="resume-label">Continúa leyendo</span>
+          <a class="resume-title" id="resume-title" href="#"></a>
+          <div class="resume-bar" aria-hidden="true"><span id="resume-bar" style="width:0%"></span></div>
+        </div>
+        <button class="resume-dismiss" id="resume-dismiss" type="button" aria-label="Ocultar">×</button>
+      </div>
+    </div>
+
     {% if articulos.size > 0 %}
     <div class="articles-grid">
       {% for post in articulos limit:6 %}
@@ -60,6 +71,47 @@ layout: default
     {% else %}
     <p class="empty-state">Todavía no hay artículos publicados. Vuelve pronto.</p>
     {% endif %}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Por dónde empezar</h2>
+    </div>
+    <p class="section-intro">
+      Con {{ articulos.size }} artículos publicados, lo difícil no es encontrarlos, es saber por dónde
+      empezar. Estas son las dos entradas que mejor funcionan si te acabas de llegar.
+    </p>
+
+    <div class="tools-grid">
+      <a class="tool-card" href="{{ "/rutas/" | relative_url }}">
+        <div class="tool-card-top">
+          <h3>Rutas de aprendizaje</h3>
+          <span class="pill">{{ site.data.rutas | size }} rutas</span>
+        </div>
+        <p>Recorridos ordenados con {{ site.data.rutas | map: "pasos" | map: "size" | sum }} pasos en total: qué leer primero, qué después y qué saltarte. Guardas tu progreso y sigues cuando quieras.</p>
+        <span class="pillar-link-text">Ver las rutas <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a class="tool-card" href="{{ "/cheatsheets/" | relative_url }}">
+        <div class="tool-card-top">
+          <h3>Cheatsheets</h3>
+          <span class="pill">5 hojas</span>
+        </div>
+        <p>Prompts con código, atajos de VS Code, Git, Docker y regex resumidos para tenerlos abiertos en otra pestaña mientras programas. Sin relleno.</p>
+        <span class="pillar-link-text">Abrir las hojas <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a class="tool-card" href="{{ "/articulos/" | relative_url }}">
+        <div class="tool-card-top">
+          <h3>Todos los artículos</h3>
+          <span class="pill">{{ articulos.size }}</span>
+        </div>
+        <p>El catálogo completo con filtros por categoría, búsqueda y orden por fecha. Cada artículo enlaza con el anterior y el siguiente para leer sin parar.</p>
+        <span class="pillar-link-text">Ver el catálogo <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
   </div>
 </section>
 
@@ -147,6 +199,14 @@ layout: default
         <summary>¿Puedo pedir una review o sugerir una herramienta?</summary>
         <p>¡Claro! Escríbeme a <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a> y lo tendré en cuenta. Me interesa probar herramientas que usen programadores de verdad.</p>
       </details>
+      <details class="faq-item">
+        <summary>¿Puedo guardar artículos o continuar donde lo dejé?</summary>
+        <p>Sí. Cada artículo tiene un botón <strong>Guardar</strong> y el blog recuerda por dónde ibas, así que puedes volver al que te quedaste a medias. Los guardados y el progreso se quedan en tu navegador: puedes verlos todos en <a href="{{ "/guardados/" | relative_url }}">mis guardados</a>. También puedes llevarte cualquier artículo a PDF con el botón <strong>Imprimir</strong>, y pulsar la tecla <kbd>/</kbd> para ir al buscador desde cualquier página.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Por dónde empiezo si acabo de llegar?</summary>
+        <p>Con {{ articulos.size }} artículos publicados es normal perderse, por eso hay <a href="{{ "/rutas/" | relative_url }}">rutas de aprendizaje</a>: recorridos ordenados según lo que quieras conseguir. Si solo quieres consultar cosas rápidas, están las <a href="{{ "/cheatsheets/" | relative_url }}">cheatsheets</a>.</p>
+      </details>
     </div>
   </div>
 </section>
@@ -170,3 +230,34 @@ layout: default
     </div>
   </div>
 </section>
+
+<script>
+  /* "Continúa leyendo": recupera el último artículo leído. */
+  (function () {
+    var slot = document.getElementById('resume-slot');
+    var link = document.getElementById('resume-title');
+    var barra = document.getElementById('resume-bar');
+    var cerrar = document.getElementById('resume-dismiss');
+    var api = window.codeandia;
+    if (!slot || !api) return;
+
+    try {
+      if (sessionStorage.getItem('candaias:resume-oculto')) return;
+    } catch (e) {}
+
+    var datos = api.obtenerProgreso();
+    if (!datos || !datos.url || !datos.title) return;
+
+    link.href = datos.url;
+    link.textContent = datos.title;
+    barra.style.width = Math.min(100, Math.max(5, datos.pct || 0)) + '%';
+    slot.hidden = false;
+
+    if (cerrar) {
+      cerrar.addEventListener('click', function () {
+        slot.hidden = true;
+        try { sessionStorage.setItem('candaias:resume-oculto', '1'); } catch (e) {}
+      });
+    }
+  })();
+</script>

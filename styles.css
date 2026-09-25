@@ -2286,8 +2286,27 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   line-height: 1;
 }
 
-/* ================= Banner de ruta en el artículo ================= */
+/* ================= Tarjetas de entrada (home) ================= */
 
+.tool-card a,
+a.tool-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.tool-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--shadow);
+}
+
+.pillar-link-text {
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--accent);
+}
+
+/* ================= Banner de ruta en el artículo ================= */
 .ruta-banner {
   max-width: var(--read-width);
   margin: 0 0 1.8rem;
