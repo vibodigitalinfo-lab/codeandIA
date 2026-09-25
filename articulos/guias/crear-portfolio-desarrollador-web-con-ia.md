@@ -50,3 +50,7 @@ La IA me ayudó a ir más rápido, sí. Pero también me forzó a tomar decision
 
 Si estás en DAW o estás aprendiendo desarrollo web por tu cuenta y todavía no tienes portfolio, este es el mejor momento para hacerlo. No tienes que tener cincuenta proyectos. Con dos o tres bien explicados, una presentación honesta y un dominio propio, ya tienes algo que enseñar. Y con herramientas como Cursor para el código y Hostinger para publicarlo, el proceso es mucho menos intimidante de lo que parece desde fuera.
 
+## Sigue por aquí
+
+- [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)
+- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)

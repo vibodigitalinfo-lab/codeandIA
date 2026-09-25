@@ -52,7 +52,7 @@ Añade esto a tu `~/.zshrc`:
 plugins=(git docker node npm zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
-## Paso 2: Herramientas基本icas
+## Paso 2: Herramientas básicas
 
 Instala todo lo básico de una vez:
 
@@ -268,3 +268,8 @@ Montar un setup de desarrollo en macOS parece una odisea al principio, pero una 
 Lo que más me gusta de macOS para programar es la estabilidad y la integración con herramientas Unix. Si vienes de Windows, la curva de aprendizaje es real, pero una vez que te acostumbras, es difícil volver.
 
 Mi consejo: no copies un setup entero de internet. Instala lo que te quite fricción hoy y añade cuando duela. Un setup se construye por dolor, no por descarga.
+
+## Sigue por aquí
+
+- [Setup para programar por 500€: lo que montaría yo (DAW)](/articulos/guias/setup-completo-programar-500-euros/)
+- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)

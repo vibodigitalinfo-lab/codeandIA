@@ -123,7 +123,7 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 | **MCP** | ❌ | ⚠️ Limitado | ✅ **Nativo, first-class** |
 | **Dynamic Workflows** | ❌ | ❌ | ✅ **Paralelismo masivo** |
 | **Precio base** | $10/mes (Pro) | $20/mes (Pro) | $20/mes (Pro) |
-| **Mejor para** | Usuarios VS Code,企业, GitHub ecosystem | Devs que quieren IDE IA-first | Seniors, terminal-first, workflows complejos |
+| **Mejor para** | Usuarios VS Code, empresas, GitHub ecosystem | Devs que quieren IDE IA-first | Seniors, terminal-first, workflows complejos |
 
 **Benchmarks comunidad (2026 H1)**: Cursor y Claude Code **superan a Copilot** en calidad de código, reasoning, y completitud de tareas complejas. Copilot gana en **integración enterprise (SSO, IP indemnity, Knowledge Bases)** y **ecosistema GitHub nativo**.
 

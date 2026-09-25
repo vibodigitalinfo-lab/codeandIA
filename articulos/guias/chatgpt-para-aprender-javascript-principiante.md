@@ -68,3 +68,7 @@ También tiene limitaciones técnicas: a veces se equivoca en cosas concretas, e
 
 Llevo varios meses usando ChatGPT como apoyo para aprender JavaScript y, siendo sincero, ha acelerado mi progreso más que cualquier curso o tutorial que haya encontrado. No porque sea mágico, sino porque se adapta a mí. Y eso, cuando eres principiante, vale mucho.
 
+## Sigue por aquí
+
+- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)
+- [7 errores programando con IA (y cómo evitarlos)](/articulos/listas/errores-comunes-programando-con-ia/)

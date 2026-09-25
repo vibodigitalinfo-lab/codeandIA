@@ -111,7 +111,7 @@ El objetivo era refactorizar 5 módulos clave del proyecto para que fueran mante
 - La configuración inicial es más compleja
 - No tan pulido como Cursor o Copilot
 - La calidad depende del modelo que configures
-- Necesitas有一定的技术 knowledge para configurarlo
+- Necesitas cierta base técnica para configurarlo
 
 **Resultado:** Con Claude como backend, Continue funciona casi tan bien como Cursor para refactorizaciones puntuales. Pero la experiencia no es tan fluida y a veces falla en contextos complejos.
 
@@ -163,3 +163,8 @@ Refactorizar código legacy sigue siendo duro, pero la IA lo hace mucho más man
 Lo más importante: la IA es una herramienta, no un sustituto de tu criterio como programador. Siempre revisa los cambios, siempre prueba, y siempre entiende lo que estás haciendo antes de aplicar.
 
 Si vas a meter una de estas herramientas en código que no es tuyo, hazme caso: saca primero un commit de seguridad. El resto es ensayo y error, y aquí está permitido disparar antes de apuntar, con red.
+
+## Sigue por aquí
+
+- [Refactorizar código con IA sin romper nada: mi proceso](/articulos/guias/refactorizar-codigo-con-ia-sin-romper/)
+- [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)

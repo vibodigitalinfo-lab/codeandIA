@@ -40,3 +40,6 @@ Ahora bien, si ya tienes algo más de soltura, separar dominio y hosting (domini
 
 Al final, la respuesta a qué dominio comprar para tu primer proyecto web depende de si buscas algo más internacional (.com) o algo claramente local (.es), y de que el nombre que quieres esté libre en la extensión que prefieres. Yo empezaría mirando disponibilidad antes de enamorarme de un nombre concreto, que esa parte sí que puede llevarte más tiempo del que crees.
 
+## Sigue por aquí
+
+- [Namecheap vs Porkbun para un dominio .es siendo estudiante](/articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/)

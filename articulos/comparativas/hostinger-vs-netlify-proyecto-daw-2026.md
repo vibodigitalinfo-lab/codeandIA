@@ -61,3 +61,7 @@ Concretando para los casos que se repiten en DAW:
 - **Solo necesitas un enlace que abra en el móvil**: Netlify. Ya te tienes que preocupar de que cargue rápido.
 
 Mi combinación actual: el portfolio corre en Netlify y la tienda de la práctica vive en Hostinger. No es indecisión, es que cada una está donde le toca. Lo único que haría distinto si empezara de nuevo es no pasarme un mes leyendo opiniones de gente que compara los dos como si fueran lo mismo. Se deciden por el tipo de proyecto en diez minutos, y el resto del tiempo da igual. Si me cuentas en qué módulo estás y qué te toca subir, te ahorro el mes de dudas.
+
+## Sigue por aquí
+
+- [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)

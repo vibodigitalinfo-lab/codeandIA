@@ -57,3 +57,7 @@ No hay un ganador absoluto; lo digo siempre, y también lo dije cuando [comparé
 ## Mi veredicto
 
 **ChatGPT gana en comodidad y velocidad, Claude gana en contexto y calidad de razonamiento, y Gemini gana en precio gratis.** Para un estudiante de DAW en España en 2026, mi combinación es: Gemini/Antigravity para el día a día gratis, y cuando un proyecto se me atraganta, tiro de Claude o ChatGPT de pago solo ese mes. Y recuerda que la IA no te sustituye: [programar con ellas de apoyo](/articulos/guias/aprender-java-con-ia-daw/) es la forma en que de verdad se aprende. Si quieres que te oriente con tu caso concreto (qué módulo estás haciendo, cuánto quieres gastar), escríbeme a ivan@codeandia.com.
+
+## Sigue por aquí
+
+- [ChatGPT vs Cursor AI: qué herramienta de IA uso más para programar](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)

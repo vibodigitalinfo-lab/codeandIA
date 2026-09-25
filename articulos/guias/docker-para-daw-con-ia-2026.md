@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Docker para estudiantes DAW: cómo usarlo con la IA sin morir en el intento"
+title: "Docker para estudiantes DAW: cómo usarlo con IA sin morir"
 description: "Guía de Docker para DAW: qué son los contenedores, tu primer Dockerfile y docker-compose, con la IA de copiloto y los errores reales que te vas a encontrar."
 category: "Guía"
 date: 2026-09-10

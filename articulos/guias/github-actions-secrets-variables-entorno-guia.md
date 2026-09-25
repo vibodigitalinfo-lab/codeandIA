@@ -183,7 +183,7 @@ Y al llamarla:
     api-key: ${{ secrets.API_KEY }}
 ```
 
-### USOS de secrets en多个jobs
+### USOS de secrets en varios jobs
 
 Si necesitas el mismo secret en varios jobs, simplemente repites `${{ secrets.MI_KEY }}` en cada uno. Los secrets se cargan por job, no por workflow.
 
@@ -225,3 +225,8 @@ Configurar secrets y variables en GitHub Actions parece complicado al principio,
 Lo más importante: **nunca** expongas credenciales en tu código, siempre usa secrets para datos sensibles, y aprovecha los environments para separar configuraciones por entorno.
 
 Regla de oro: si un secreto se ha filtrado una vez, da por hecho que está comprometido y rótalo. Mejor pasar por aburrido que por hacker.
+
+## Sigue por aquí
+
+- [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
+- [Git con IA: mensajes de commit, rebase y blame asistidos](/articulos/guias/git-con-ia-2026/)

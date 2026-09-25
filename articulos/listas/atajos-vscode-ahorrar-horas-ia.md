@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "15 atajos de VS Code que te van a ahorrar horas (y ni sabías que existían)"
-description: "Los atajos de teclado de VS Code que más uso para programar más rápido: navegación, edición, refactor y multitarea. Los que de verdad ahorran tiempo, no los sobrantes."
+title: "15 atajos de VS Code que te ahorrarán horas cada día"
+description: "Los atajos de teclado de VS Code que más uso para programar más rápido: navegación, edición, refactor y multitarea. Los que de verdad ahorran tiempo."
 category: "Lista"
 date: 2026-09-22
 readtime: 7
@@ -66,3 +66,7 @@ La razón por la que esto va tan unido a la IA es que el flujo de trabajo con IA
 Los atajos de VS Code son, junto con saber usar git, la inversión de tiempo más rentable que puedes hacer cuando estás empezando. No es que los atajos te hagan mejor programador: es que te devuelven el tiempo y la atención que ibas a perder peleándote con el editor. Empieza por dos esta semana, y ve añadiendo uno cada vez que sientas que algo es lento. En dos meses los tendrás todos en la memoria muscular y no volverás a tener que pensar en cómo mover el cursor.
 
 Personalmente, el que más me cambió fue `Shift+P` (la paleta de comandos), porque te da acceso a cosas que ni sabías que el editor podía hacer. Si quieres ir más allá y aprender a tocar el VS Code a fondo, te dejé una guía de [configuración de VS Code con IA](/articulos/listas/configuracion-vscode-ia-2026/) que va en esa misma línea. Y si quieres que te recomiende atajos para otro editor, escríbeme a ivan@codeandia.com y te digo. Porque al final, el mejor atajo es el que usas, y el que usas es el que te resulta natural.
+
+## Sigue por aquí
+
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

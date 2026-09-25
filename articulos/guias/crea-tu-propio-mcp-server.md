@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Crea tu propio MCP server: así conectas cualquier API a tu editor con IA"
-description: "Cómo crear un servidor MCP propio en Python para conectar tus APIs y datos al editor con IA. Guía paso a paso con el protocolo, un servidor real y cómo probarlo con Claude o Cursor."
+title: "Crea tu propio MCP server: conecta una API a tu editor"
+description: "Crea un servidor MCP propio en Python para conectar tus APIs y datos al editor con IA. Guía paso a paso, con un servidor real y cómo probarlo."
 category: "Guía"
 date: 2026-09-25
 readtime: 10
@@ -124,3 +124,7 @@ Crear tu propio servidor MCP es de esas cosas que parecen de nivel avanzado y qu
 Mi recomendación: haz el ejemplo de la lista primero (es una tarde), luego conéctalo a una API real que tengas, y verás cómo la IA pasa de responderte a *hacerte* cosas. Si te animas y quieres ir más allá, el siguiente salto natural es escribir las descripciones de las herramientas con el mismo cuidado con el que escribes un buen prompt, porque en el fondo es eso: un prompt que la IA lee antes de actuar.
 
 ¿Lo pruebas y me cuentas? Si te atascas con la configuración del editor, con el JSON, o quieres que lo adaptemos a la API de tu proyecto, escríbeme a ivan@codeandia.com y lo montamos paso a paso. Y si te ha gustado la guía, no te olvides de la parte más aburrida pero imprescindible: un buen [git bien usado](/articulos/guias/git-con-ia-2026/) por si tocas algo y tienes que volver atrás.
+
+## Sigue por aquí
+
+- [Tu primera app con la API de OpenAI en Python, paso a paso](/articulos/guias/primera-app-api-openai-python/)

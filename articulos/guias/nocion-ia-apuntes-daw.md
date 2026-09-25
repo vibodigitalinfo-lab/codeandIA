@@ -223,3 +223,8 @@ Si te montas algo parecido, **empieza simple**: una base de datos `Temas`, una p
 ---
 
 Si ya vives en Notion y me mandas a ivan@codeandia.com una captura de tu base de apuntes, te digo qué me chirría y qué aprovecharía yo sin piedad.
+
+## Sigue por aquí
+
+- [Notion vs Obsidian para estudiantes: cuál me queda mejor](/articulos/comparativas/notion-vs-obsidian-estudiantes-programacion/)
+- [RAG local con Ollama: respuestas a tus apuntes con IA sin pagar](/articulos/guias/rag-local-ollama-apuntes-2026/)

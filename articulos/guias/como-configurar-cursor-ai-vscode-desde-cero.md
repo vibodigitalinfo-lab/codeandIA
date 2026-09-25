@@ -39,3 +39,8 @@ Con esas tres cosas cambiadas, noté que las sugerencias dejaron de sentirse gen
 No te voy a decir que Cursor te va a hacer programar el doble de rápido de un día para otro, porque no es así, tiene una curva de adaptación pequeña sobre todo si estás acostumbrado a escribir todo tú a mano como me pasaba a mí. Pero en tareas repetitivas, refactorizar código viejo o entender un proyecto de un compañero que no comenta nada, el ahorro de tiempo es real y lo noto en los deberes que antes me llevaban una tarde entera.
 
 Lo que menos me convence es que en proyectos muy grandes a veces tarda un poco más en indexar todo el contexto, y en portátiles con poca RAM se puede notar algo de lag comparado con el VSCode normal. Aun así, para alguien que está estudiando DAW y quiere acostumbrarse a trabajar como se trabaja de verdad en una empresa, configurar Cursor AI en VSCode desde cero es de las mejores decisiones que he tomado este curso, y no me arrepiento de haber cambiado.
+
+## Sigue por aquí
+
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [7 extensiones de IA para VS Code que uso a diario (y una que quité)](/articulos/listas/extensiones-ia-vscode-estudiantes-2026/)

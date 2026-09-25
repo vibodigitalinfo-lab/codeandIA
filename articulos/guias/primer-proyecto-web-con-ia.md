@@ -56,3 +56,7 @@ Mirando atrás con mis primeros proyectos: habría **dibujado la web en un papel
 ## Mi veredicto
 
 **Tu primer proyecto con IA es completamente posible y es de las mejores formas de aprender… si lo troceas.** Idea pequeña, stack decidido por ti, tareas de una en una, git por delante y revisión de cada paso. La IA acelera, pero el dueño del proyecto eres tú. Porque publicar web número uno te engancha, y la segunda te sale sola. Si te estancas en alguna tarea y no sabes ni por dónde preguntarle, escríbeme a ivan@codeandia.com y te digo cómo trocearla.
+
+## Sigue por aquí
+
+- [v0 by Vercel y alternativas 2026: IA que genera interfaces](/articulos/listas/v0-vercel-ia-ui-generacion-lista-herramientas/)

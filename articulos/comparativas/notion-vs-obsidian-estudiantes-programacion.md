@@ -112,3 +112,8 @@ Lo que más me gustó de Obsidian es la **rapidez**. Abrir una nota, buscar algo
 Yo me quedo con Obsidian, pero no porque Notion sea malo. Es porque una vez que le coges el ritmo, la combinación de Markdown + plugins + control local es imbatible para un programador.
 
 ¿Y vosotros? ¿Qué usáis para organizar los apuntes de clase?
+
+## Sigue por aquí
+
+- [Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)](/articulos/guias/nocion-ia-apuntes-daw/)
+- [5 recursos gratuitos para aprender a programar con IA en español](/articulos/listas/recursos-gratuitos-aprender-programacion-con-ia/)

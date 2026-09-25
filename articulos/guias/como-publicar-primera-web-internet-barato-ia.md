@@ -40,3 +40,7 @@ Si tuviera que repetirlo, contrataría el hosting por 12 meses en vez de por 1, 
 
 Si estás en la misma situación que yo hace un mes, con un proyecto guardado esperando a que le tengas menos miedo al despliegue, te diría que el bloqueo suele ser mental, no técnico ni económico. Por menos de 5€ puedes tener tu propia web real en internet este mismo fin de semana.
 
+## Sigue por aquí
+
+- [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/)
+- [Namecheap vs Porkbun para un dominio .es siendo estudiante](/articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/)

@@ -61,3 +61,7 @@ Traducción para tu vida real: **nunca subas a DeepSeek código de las práctica
 - **Para la API barata: sí**, con el ojo puesto en el descuento off-peak, que te deja la entrada a mitad de precio.
 
 La parte de "está cambiando todo" del titular... hasta cierto punto. El impacto real es que ha forzado la guerra de precios que te ha bajado las tarifas hasta a los modelos americanos, y eso sí lo notas. Pero ni es perfecto ni va a sustituir el que aprendas a programar: te da respuestas gratis, y tú sigues teniendo la obligación de entenderlas. Si quieres poner la IA al servicio del curso sin volverte dependiente, el método que uso yo está en [preparar exámenes prácticos con IA](/articulos/guias/preparar-examenes-practicos-daw-con-ia/), sin convertirme en copión.
+
+## Sigue por aquí
+
+- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)

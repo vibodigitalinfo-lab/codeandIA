@@ -69,3 +69,6 @@ Un mes después, Ollama sigue instalado en mi máquina, pero lo uso de forma pun
 
 Si te está enganchando esto de las herramientas nuevas de IA, te recomiendo echar un vistazo a [mi review de Claude Code](/articulos/reviews/claude-code-cli-review-2026/) (otra que corre desde terminal, pero con modelos en la nube) o a la [guía de MCP](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/), que es el protocolo que permite que estos modelos se conecten con tus proyectos.
 
+## Sigue por aquí
+
+- [DeepSeek review 2026: el modelo gratuito que sigue dando guerra](/articulos/reviews/deepseek-review-2026-modelo-gratuito-codigo/)

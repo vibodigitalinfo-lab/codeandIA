@@ -114,7 +114,7 @@ Para functions de más de 100 líneas o código que heredaste de otro proyecto, 
 Crear un buen README desde cero es difícil. Hay varias herramientas de IA que generan READMEs completos:
 
 **gitreadme.dev** (web):
-- Pegas tu código o链接 tu repo
+- Pegas tu código o enlazas tu repo
 - Genera README con secciones: instalación, uso, API, contributing
 - Personalizable
 
@@ -169,3 +169,8 @@ Mi consejo: úsalas como acelerador, no como sustituto. Primero intenta hacer la
 La IA está cambiando la forma en que programamos, y estas 7 herramientas son prueba de eso. Automatizar tareas aburridas no es pereza, es ser eficiente. El tiempo que ahorras en commits y documentación lo puedes dedicar a aprender nuevas tecnologías o a crear proyectos más ambiciosos.
 
 Lo que más me he llevado de este tema es un filtro: si la tarea no me hace pensar, la automatizo. Se acabó el sentirse productivo por copiar y pegar datos de una web a otra.
+
+## Sigue por aquí
+
+- [Herramientas de IA de Google para programar en 2026: la guía](/articulos/listas/herramientas-ia-google-2026/)
+- [7 herramientas de IA gratuitas para estudiantes de desarrollo web](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/)

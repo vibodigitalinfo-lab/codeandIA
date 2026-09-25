@@ -80,3 +80,7 @@ Para que no repitas mis fallos de novato:
 Si te quedas con algo, esto es: **Copilot para el día a día, Cline (con tu API) para el agente libre, AGENTS.md en cada proyecto de prácticas, y modelos propios para no gastar de más.**
 
 No necesitas las 20 extensiones. Necesitas elegir dos (copiloto + agente), darle a la IA las reglas de tu proyecto y aprender a revisar lo que te devuelve. Si quieres ver el otro lado del péndulo —todo gratuito sin pagar una suscripción—, en [esta comparativa de copilotos](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/) y en la de [alternativas gratis a Cursor](/articulos/listas/alternativas-gratis-a-cursor-2026/) tienes cómo montar el mismo flujo sin gastar un céntimo. Y si me preguntas qué extensión conservaría si solo pudiera tener una: AGENTS.md ni siquiera es una extensión, y es la que más ha mejorado mi código con IA. Escríbeme a ivan@codeandia.com si quieres que te comparta mi `settings.json` completo.
+
+## Sigue por aquí
+
+- [15 atajos de VS Code que te ahorrarán horas cada día](/articulos/listas/atajos-vscode-ahorrar-horas-ia/)

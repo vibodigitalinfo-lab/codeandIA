@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Vite vs Next.js vs Astro para tu primer proyecto con IA"
-description: "Qué framework elegir para tu primer proyecto web si usas IA: Vite, Next.js o Astro. Comparativa honesta de dificultad, rendimiento y cuándo tiene sentido cada uno."
+description: "Qué framework elegir para tu primer proyecto web con IA: Vite, Next.js o Astro. Comparativa de dificultad, rendimiento y cuándo tiene sentido cada uno."
 category: "Comparativa"
 date: 2026-09-24
 readtime: 9
@@ -64,3 +64,7 @@ Si estás leyendo esto siendo estudiante y es tu primer proyecto serio con IA, m
 El error que veo cada año es el contrario: empezar por Next.js porque es "el que usan", quedarse una semana configuring el framework sin escribir una línea de lógica, y abandonar el proyecto. La mejor herramienta para terminar tu primer proyecto no es la más potente, es la que te deja llegar al lunes siguiente con algo funcionando. Y si al final te da igual y quieres probarlos todos, mi sugerencia es hacerlos como ejercicios: el mismo "to-do" en Vite, luego en Astro, y así ves las diferencias con tus propios ojos en vez de con vídeos de YouTube.
 
 ¿Quieres que te detalle el paso a paso de alguno en concreto? Escríbeme a ivan@codeandia.com y lo montamos juntos, que en esto de elegir stack, la mejor ayuda es tener a alguien que te diga "ese, y ya". Y si quieres ver el resultado final de un proyecto tuyo, pásate por [cómo publicar tu primera web](/articulos/guias/como-publicar-primera-web-internet-barato-ia/).
+
+## Sigue por aquí
+
+- [React vs Vue con IA para tu proyecto de DAW en 2026](/articulos/comparativas/react-vs-vue-con-ia-daw-2026/)

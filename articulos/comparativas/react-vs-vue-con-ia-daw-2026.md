@@ -60,3 +60,8 @@ Si el módulo de DAW en el que estás usa uno de los dos, no hagas caso al debat
 Da igual el que elijas, el patrón para llegar lejos con la IA es el mismo que en el resto del blog: que te enseñe, no que te escriba. Monta el proyecto con `npm create vite@latest`, elige tu framework, y ve añadiendo componentes por partes mientras te explica qué es cada prop y cada hook. Y cuando tu componente ya pinta datos del API, conéctalo con la guía de enlazar frontend y backend que publiqué — es exactamente el momento donde los dos frameworks se parecen: ambos solo necesitan un `fetch` y un manejo de estado que sepas explicar.
 
 Si te quedas entre los dos y tu decisión depende de si quieres comodidad o portafolio, dime qué módulo tienes ahora y te digo cuál encaja mejor con tu nota y tu plan de prácticas.
+
+## Sigue por aquí
+
+- [Vite vs Next.js vs Astro para tu primer proyecto con IA](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/)
+- [Tu primer proyecto web con IA: del vacío a publicarlo sin morir](/articulos/guias/primer-proyecto-web-con-ia/)

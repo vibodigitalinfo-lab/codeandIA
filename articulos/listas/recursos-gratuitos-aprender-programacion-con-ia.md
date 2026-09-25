@@ -59,3 +59,6 @@ No necesitas apuntarte a nada de pago para aprender a programar con IA en 2026. 
 
 Si te quedas con ganas de más, aquí tienes [7 herramientas de IA gratuitas para estudiantes de desarrollo](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) y una [comparativa de si te merece la pena pagar por Cursor o con VS Code gratis vas bien](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/).
 
+## Sigue por aquí
+
+- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)

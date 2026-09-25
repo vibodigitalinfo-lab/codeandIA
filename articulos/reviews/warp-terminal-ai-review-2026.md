@@ -115,3 +115,8 @@ Si ya tienes tu flujo perfeccionado en Kitty/iTerm con tmux + fzf + scripts prop
 **Mi veredicto personal**: me quedo con Warp. El salto de "buscar en history" a "buscar por bloques con IA" me ahorra tiempo real cada día. El login me fastidia, pero gano más de lo que pierdo. Si eres estudiante y quieres probar IA en terminal **hoy**, bájalo, dale a Free + tu API key, y en 10 minutos tienes Warp Agent funcionando. Si no te convence, lo desinstalas y listo.
 
 Los bloques o los amas o te retienen: va a gustos, y no pasa nada. A mí me costó tres días soltar el hábito de clicar el histórico, y desde entonces no se me ocurre volver a la terminal de otra manera. Se decide en una tarde.
+
+## Sigue por aquí
+
+- [Claude Code CLI: terminal-first, agentes paralelos y su precio](/articulos/reviews/claude-code-cli-review-2026/)
+- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)

@@ -82,3 +82,7 @@ Ojo, que no todo es gratis. Conectar servidores MCP **expande el acceso del mode
 Lo uso para dos cosas y con eso me basta: leer bases de datos reales en ejercicios de SQL y tirar de documentación actualizada con Context7. Para escribir código, mi editor ya tiene acceso a los archivos y MCP no me aporta nada. Si estás empezando, prueba el de PostgreSQL/SQLite con una base de prácticas un viernes por la tarde; cuando lo veas ejecutar una query real a tus datos, lo entiendes todo.
 
 Y si quieres el contexto de dónde encaja esto con las instrucciones que le das a la IA, este protocolo convive a diario con ficheros como **AGENTS.md, de los que te hablé [en esta guía](/articulos/guias/agents-md-guia-2026/)**. Si te atascas configurando un servidor concreto de tu módulo, escríbeme a ivan@codeandia.com y te lo dejo montado por pasos.
+
+## Sigue por aquí
+
+- [Crea tu propio MCP server: conecta una API a tu editor](/articulos/guias/crea-tu-propio-mcp-server/)

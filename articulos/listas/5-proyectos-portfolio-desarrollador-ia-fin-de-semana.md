@@ -50,3 +50,6 @@ La IA no te hace mejor programador solo por usarla, eso lo tengo claro después 
 
 Si tuviera que elegir uno solo de estos cinco para empezar, iría directo al asistente con IA integrada, porque hoy en día enseña que sabes moverte con las herramientas que se van a usar en cualquier empresa, no solo que sabes copiar sintaxis de un tutorial de YouTube.
 
+## Sigue por aquí
+
+- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)

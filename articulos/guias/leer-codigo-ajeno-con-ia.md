@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Cómo leer código ajeno con IA: el método de 4 pasos para entenderlo de verdad"
+title: "Cómo leer código ajeno con IA: método de 4 pasos"
 description: "Aprende a leer y entender código que no escribiste tú usando IA, sin quedarte con un resumen bonito que no te sirve. Método de 4 pasos con prompts concretos."
 category: "Guía"
 date: 2026-09-21
@@ -72,3 +72,7 @@ Y ojo con un detalle de seguridad: si el código viene de un repositorio ajeno, 
 Leer código ajeno con IA no es pedirle que te lo explique: es usarla como lupa que te va guiando por el código mientras tú reconstruyes el mapa. Los cuatro pasos (estructura, función, flujo, ejercicio) están diseñados para que en cada momento sepas qué preguntarle y, sobre todo, para que al final **sepas tú más que la IA**, porque habrás pasado por el código. Ese es el objetivo: salir de leer un proyecto con la capacidad de modificarlo, no con un resumen bonito que se te olvida al día siguiente.
 
 Mi consejo: aplica el método tal cual a un archivo la primera vez (aunque lleve media hora), y a partir de ahí irá más rápido porque ya sabrás qué preguntar. Y cuando estés atascado, o cuando el código esté en un framework que no controlas, esto sigue funcionando: no necesitas saber React para entender un archivo de React, solo necesitas este método y curiosidad. Si te atascas en un proyecto concreto y quieres que lo veamos juntos, escríbeme a ivan@codeandia.com. Y si lo que necesitas es justo tu primer contacto con código de proyecto real, empieza por [tu primer proyecto web con IA](/articulos/guias/primer-proyecto-web-con-ia/) y luego aplica aquí los cuatro pasos.
+
+## Sigue por aquí
+
+- [Refactorizar código con IA sin romper nada: mi proceso](/articulos/guias/refactorizar-codigo-con-ia-sin-romper/)

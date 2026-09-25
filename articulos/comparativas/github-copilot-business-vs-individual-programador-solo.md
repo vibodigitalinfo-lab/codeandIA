@@ -51,3 +51,8 @@ Si eres estudiante, desarrollador freelance o simplemente alguien que programa e
 Empieza por el plan Free si quieres probar sin comprometerte. Si lo usas tanto que llegas al límite, sube a Individual. El plan Business es una herramienta de gestión corporativa disfrazada de mejora técnica, y para un programador en solitario ese disfraz no engaña.
 
 El dinero que ahorras en no pagar Business puedes invertirlo en algo que sí note la diferencia: un dominio para tu portfolio, un curso que amplíe lo que ya sabes, o simplemente café para las sesiones largas de debugging.
+
+## Sigue por aquí
+
+- [GitHub Copilot gratis para estudiantes: cómo activarlo y si funciona](/articulos/reviews/github-copilot-gratis-estudiantes/)
+- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)

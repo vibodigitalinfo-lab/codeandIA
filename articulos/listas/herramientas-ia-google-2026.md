@@ -44,3 +44,7 @@ Bajo el paraguas de Google también pruebas **Imagen** para ilustrar tus proyect
 ## Mi veredicto
 
 **Google no gana el concurso de popularidad, pero gana el de regalos útiles.** Para un estudiante en 2026: Gemini Notebook para estudiar, Antigravity para programar gratis con la tasa más alta del mercado, y Jules para las tareas en segundo plano cuando tu repo lo pida. La ventaja para mí está en que con una cuenta gratuita tienes 4 herramientas funcionales; algo que ChatGPT no te da sin pagar. Empieza por Notion… no, perdón: empieza por Gemini Notebook, que tarda dos minutos y te va a sorprender. Y si tienes dudas de por dónde empezar según tus módulos, escríbeme a ivan@codeandia.com.
+
+## Sigue por aquí
+
+- [7 herramientas de IA para automatizar tareas aburridas](/articulos/listas/herramientas-ia-automatizar-tareas-aburridas-programador/)

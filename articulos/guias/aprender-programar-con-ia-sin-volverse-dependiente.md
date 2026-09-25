@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Programar con IA sin volverte dependiente: guía para estudiantes DAW"
-description: "Cómo usar la IA en clase como profesor y no como sustituto: reglas prácticas para que aprendas a programar de verdad mientras la IA te acompaña (estudiantes DAW)."
+description: "Cómo usar la IA en clase como profesor y no como sustituto: reglas prácticas para aprender a programar de verdad mientras la IA te acompaña."
 category: "Guía"
 date: 2026-09-05
 readtime: 7
@@ -50,3 +50,7 @@ En el módulo de servidor, por ejemplo, el fallo del mundo era que el endpoint r
 La IA va a estar en tu puesto de trabajo y va a multiplicar tu velocidad. El problema no es usarla, es usarla como mando a distancia: pedir el resultado sin hacer el camino. El que sabe programar y usa IA va el triple de rápido; el que solo sabe pedir, se queda colgado el día que le cambian las herramientas. Y eso pasa siempre.
 
 Mi consejo práctico para este curso: elige un par de ejercicios por semana y hazlos con las cinco reglas — explicar, rehacer, pedir pista, apagón y medir. No son un sacrificio, son la diferencia entre sacar el módulo copiando y llegar a las prácticas sabiendo hacer el trabajo. Si quieres, me pasas un ejercicio concreto que te traiga de cabeza y te digo por dónde empezar a controlarlo tú en vez de soltárselo a la IA.
+
+## Sigue por aquí
+
+- [Cómo usar ChatGPT para aprender JavaScript siendo principiante](/articulos/guias/chatgpt-para-aprender-javascript-principiante/)

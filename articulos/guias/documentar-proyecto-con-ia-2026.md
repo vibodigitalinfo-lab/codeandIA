@@ -51,3 +51,8 @@ Y para terminar, un detalle de git: documentar el proyecto también es tener un 
 ## El veredicto
 
 Documentar es el 10% del tiempo y el 30% de la percepción de tu trabajo. No hace falta volverse loco: un README claro, los endpoints reales listados y comentarios que expliquen el porqué ya te ponen por encima de la media de la clase. La IA es la mecanógrafa perfecta para esto — solo tienes que no dejar que sea la que piensa. Si quieres, me pasas el link de tu repo y te digo qué secciones del README le faltan para la entrega.
+
+## Sigue por aquí
+
+- [Cómo crear tu primer portfolio de desarrollador web con IA paso a paso](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/)
+- [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)

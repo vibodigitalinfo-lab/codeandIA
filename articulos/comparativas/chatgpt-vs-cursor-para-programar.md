@@ -51,3 +51,8 @@ Cursor. Sin dudarlo demasiado, pero tampoco sin haberlo pensado.
 Para programar —que es lo que hago la mayor parte del tiempo— Cursor me da más valor por el simple hecho de que el contexto del proyecto ya está ahí. No tengo que salir del editor, no tengo que pegar código, no tengo que explicar nada. Eso en una sesión de trabajo larga marca una diferencia enorme.
 
 Dicho esto, no he desinstalado ChatGPT. Hay cosas que sigo haciendo allí, sobre todo cuando necesito explorar ideas antes de tocar el teclado. Pero si alguien me dice que solo puede permitirse una herramienta de IA para programar, le digo que empiece por Cursor.
+
+## Sigue por aquí
+
+- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)
+- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)

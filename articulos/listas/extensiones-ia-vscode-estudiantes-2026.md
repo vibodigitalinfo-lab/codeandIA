@@ -131,3 +131,8 @@ Las extensiones de IA **se pisan** si tienes varias haciendo autocompletado. Una
 ---
 
 Si hay una extensión que uso mal o que se me ha escapado, me gustaría enterarme antes de que la pruebe alguien con carnet. Escríbeme a ivan@codeandia.com y montamos juntos la versión 2 de esta lista.
+
+## Sigue por aquí
+
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

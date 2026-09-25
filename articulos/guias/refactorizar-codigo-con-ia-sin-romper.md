@@ -62,3 +62,7 @@ Si tuviera que repetir mi primer refactor con IA, haría dos cosas distintas: **
 **Refactorizar con IA, bien hecho, es una de las habilidades que más te van a pagar en el primer curro** — el código heredado existe en todas las empresas y quien lo toca sin miedo vale oro. Y el "sin miedo" se consigue con un flujo, no con valor: rama por petición, tests antes, diffs pequeños, revisión humana.
 
 Ese es exactamente el tipo de práctica que te van a examinar: trabajar en ramas limpias, que la CI pase y poder explicar cada cambio que haces. Dominarlo ahora, en tus prácticas de clase, es media entrevista técnica ganada. Si quieres que te prepare una práctica real de refactor con IA (código feo + tests de caracterización + revisión), escríbeme a ivan@codeandia.com y te la dejo montada.
+
+## Sigue por aquí
+
+- [IA para refactorizar código legacy: cuál funciona mejor en 2026](/articulos/comparativas/herramientas-ia-refactorizar-codigo-legacy-2026/)

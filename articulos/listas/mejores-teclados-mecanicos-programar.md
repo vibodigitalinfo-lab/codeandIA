@@ -128,3 +128,7 @@ Si estás en DAW y pasas horas frente al teclado, invierte en uno bueno. Tus mu�
 
 Ahora, si quieres mejorar tu flujo de trabajo, combina un buen teclado con [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) o la [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/). Y si buscas herramientas gratuitas, echa un vistazo a las [7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) que uso a diario. Y si estás montando tu escritorio entero, no te pierdas mi [guía del setup completo para programar por 500€](/articulos/guias/setup-completo-programar-500-euros/).
 
+## Sigue por aquí
+
+- [Webcam para programar y hacer streaming de código en 2026](/articulos/listas/webcam-programar-streaming/)
+- [Keychron Q1 Max: el teclado que usaría para programar](/articulos/reviews/keychron-q1-max-review-2026/)

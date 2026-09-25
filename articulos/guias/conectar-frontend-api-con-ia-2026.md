@@ -56,3 +56,8 @@ Lección que pagué cara: "arregla este fetch" a la IA sin contexto es inútil. 
 ## El veredicto
 
 Conectar el front y el backend es el momento en que tu proyecto de DAW pasa de "ejercicios sueltos" a "parece una aplicación de verdad". El camino es corto: un `fetch`, controlar CORS, no inventar nombres de campos y saber mirar la pestaña Red cuando algo falla. La IA te va a ahorrar horas de escribir JavaScript repetitivo, pero el que tiene que saber qué campos espera el API eres tú. Si tu frontend y tu API se pelean y no sabes si el problema es de formato o de CORS, me pegas el error y me dices qué devuelve la pestaña Red, y te digo dónde está el fallo.
+
+## Sigue por aquí
+
+- [TypeScript para estudiantes: los 6 tipos que te ahorran depurar con IA](/articulos/guias/typescript-para-estudiantes-con-ia/)
+- [v0 by Vercel y alternativas 2026: IA que genera interfaces](/articulos/listas/v0-vercel-ia-ui-generacion-lista-herramientas/)

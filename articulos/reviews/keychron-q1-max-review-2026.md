@@ -78,3 +78,7 @@ Si estás buscando un teclado que te dure años y que sea serio para programar, 
 
 ¿Y vosotros, programáis con teclado mecánico? Si aún no habéis probado, preparaos porque no hay vuelta atrás.
 
+## Sigue por aquí
+
+- [Los 5 mejores teclados mecánicos para programar en 2026](/articulos/listas/mejores-teclados-mecanicos-programar/)
+- [Setup para programar por 500€: lo que montaría yo (DAW)](/articulos/guias/setup-completo-programar-500-euros/)

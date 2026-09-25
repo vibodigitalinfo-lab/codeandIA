@@ -163,3 +163,8 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 Mi consejo: **prueba las tres versiones gratis esta tarde**. En 30 min cada una sabrás cuál "te habla". La IA no te va a escribir el portfolio por ti, pero te quita el síndrome de la pantalla en blanco y el CSS que no centra el div.
 
 Hazme una cosa: genera la página que necesitas de verdad, no un ejemplo. Cuando veas el resultado séptima versión, entenderás en qué punto está esto del UI por prompt y qué falta.
+
+## Sigue por aquí
+
+- [Conectar tu frontend al API con IA: la guía de DAW que falta en clase](/articulos/guias/conectar-frontend-api-con-ia-2026/)
+- [Tu primer proyecto web con IA: del vacío a publicarlo sin morir](/articulos/guias/primer-proyecto-web-con-ia/)

@@ -98,3 +98,6 @@ Un consejo: antes de comprar webcam, limpia el lente. Suena absurdo, pero la mit
 
 Y si quieres combinar tu nueva webcam con un buen teclado, mira [Los 5 mejores teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/) que uso a diario. Si buscas optimizar tu flujo de trabajo, echa un vistazo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) o a las [7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) que me ayudan a programar más rápido. Y si estás montando tu escritorio desde cero, mi [guía del setup completo por 500€](/articulos/guias/setup-completo-programar-500-euros/) te lo deja todo claro.
 
+## Sigue por aquí
+
+- [Silla ergonómica barata para programar desde casa (menos de 300€)](/articulos/listas/silla-ergonomica-barata-programar/)

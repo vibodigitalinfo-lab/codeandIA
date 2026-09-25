@@ -67,3 +67,7 @@ Lo que sí te digo con seguridad: evita los registradores grandes de toda la vid
 Si tu proyecto es serio —aunque sea pequeño— merece un dominio en un registrador en el que puedas confiar. Y tanto Namecheap como Porkbun cumplen ese criterio. Yo elegí uno. Tú elige el que más te encaje.
 
 Si no lo tienes claro todavía entre un .com y un .es, mi [guía de qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) cruza los dos mundos. Y si te queda cualquier duda, escríbeme a ivan@codeandia.com.
+
+## Sigue por aquí
+
+- [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)

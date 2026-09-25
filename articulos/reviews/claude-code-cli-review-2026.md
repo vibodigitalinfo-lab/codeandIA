@@ -185,3 +185,7 @@ claude "añade health check endpoint en /actuator/health con detalles de BD y Ka
 Si tienes $20/mes y curiosidad, **prueba Claude Code una semana**. Si no te cambia el flujo, cancela. Si te lo cambia, ya sabes el coste real.
 
 Al final, Claude Code me convence por lo que casi nadie destaca: trabaja en silencio, sin ventanas ni rostro. Y eso, para concentrarse, vale su peso en oro.
+
+## Sigue por aquí
+
+- [Warp terminal: IA en la línea de comandos, ¿cambiar de iTerm/WSL?](/articulos/reviews/warp-terminal-ai-review-2026/)

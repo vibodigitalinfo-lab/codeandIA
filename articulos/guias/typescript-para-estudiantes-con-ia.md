@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "TypeScript para estudiantes: los 6 tipos que te ahorran depurar con IA"
-description: "Aprende los tipos de TypeScript que más te ahorran errores cuando programas con IA: any, unknown, interfaces y tipos unión. Con ejemplos para tu primer proyecto."
+description: "Los tipos de TypeScript que más te ahorran errores cuando programas con IA: any, unknown, interfaces y tipos unión. Con ejemplos para tu primer proyecto."
 category: "Guía"
 date: 2026-09-23
 readtime: 8
