@@ -17,3 +17,6 @@ curso/
 
 # Diario e informes internos (solo local, no público)
 _informes/
+
+# Script de control de fechas (herramienta local de validación)
+fechas_check.py

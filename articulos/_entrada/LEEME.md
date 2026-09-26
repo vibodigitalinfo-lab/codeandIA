@@ -5,7 +5,16 @@ Esta carpeta es **solo para dejar artículos nuevos pendientes de publicar**.
 ## Cómo usarla
 
 1. **Deja aquí el archivo `.md`** con tu artículo nuevo (con su portada/frontmatter).
-2. Avísame y **yo me encargo del resto**: lo moveré a la carpeta que le corresponde según su categoría, ajustaré las fechas (para que el de hoy sea siempre el último), quitaré el `# H1` duplicado si lo tiene y haré el commit + push.
+2. Avísame y **yo me encargo del resto**: lo moveré a la carpeta que le corresponde según su categoría, le asignaré la fecha correcta, quitaré el `# H1` duplicado si lo tiene y haré el commit + push.
+
+## ⏱️ La regla de las fechas (importante)
+
+**Un artículo por día. Nunca dos con la misma fecha. Nunca una fecha futura.**
+
+- Cada artículo lleva `date:` con un día distinto. Aunque se publiquen varios en la misma sesión.
+- `date:` nunca puede pasar de hoy. Un artículo con fecha de mañana es un artículo que todavía no existe.
+- Si escribes varios y no quedan días libres hasta hoy, **solo se publica el primero**: el resto se queda aquí en `_entrada/` con su `date:` provisional, y se van sacando uno a uno en días distintos.
+- La fecha de un borrador no cuenta como fecha de publicación. Al mover el archivo fuera de `_entrada/` se le pone el día real.
 
 ## Por qué existe esta carpeta
 
