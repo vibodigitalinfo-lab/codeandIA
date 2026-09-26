@@ -43,6 +43,10 @@ sitemap: false
     <div id="saved-root">
       <p class="empty-note">Cargando tus guardados…</p>
     </div>
+
+    <noscript>
+      <p class="empty-note">Esta página necesita JavaScript: los guardados se guardan en tu navegador.</p>
+    </noscript>
   </div>
 </section>
 
@@ -63,11 +67,27 @@ sitemap: false
 
     var root = document.getElementById('saved-root');
     var api = window.codeandia;
-    if (!root || !api) return;
+
+    function fallo(mensaje) {
+      if (!root) return;
+      root.innerHTML = '';
+      var p = document.createElement('p');
+      p.className = 'empty-note';
+      p.textContent = mensaje;
+      root.appendChild(p);
+    }
+
+    if (!root) return;
+    /* site.js se carga en <head> sin defer, asi que deberia existir siempre.
+       Si no existe, avisamos en vez de dejar el "Cargando..." para siempre. */
+    if (!api) {
+      fallo('No se ha podido leer el almacenamiento del navegador. Si tienes el guardado privado o bloqueadas las cookies, los guardados no funcionarán.');
+      return;
+    }
 
     function porUrl() {
       var mapa = {};
-      INDICE.forEach(function (a) { mapa[a.url] = a; });
+      INDICE.forEach(function (a) { mapa[api.normalizarUrl(a.url)] = a; });
       return mapa;
     }
 
@@ -88,22 +108,28 @@ sitemap: false
 
       var indice = porUrl();
       lista.forEach(function (g) {
-        var a = indice[g.url] || g;
+        var meta = indice[api.normalizarUrl(g.url)];
+        /* Si el articulo sigue en el sitio, usamos sus datos actuales
+           (titulo y descripcion). Si ya no esta, usamos los guardados
+           para no perder la entrada. */
+        var a = meta || g;
         var item = document.createElement('article');
         item.className = 'saved-item';
+        if (!meta) item.className += ' saved-item-obsoleto';
 
         var head = document.createElement('div');
         head.className = 'saved-head';
 
         var link = document.createElement('a');
         link.className = 'saved-title';
-        link.href = a.url;
-        link.textContent = a.title;
+        link.href = api.normalizarUrl(a.url);
+        link.textContent = a.title || 'Artículo sin título';
 
         var quitar = document.createElement('button');
         quitar.className = 'saved-remove';
         quitar.type = 'button';
         quitar.textContent = 'Quitar';
+        quitar.setAttribute('aria-label', 'Quitar de guardados: ' + (a.title || ''));
         quitar.addEventListener('click', function () {
           api.quitarArticulo(a.url);
           pintar();
@@ -112,16 +138,33 @@ sitemap: false
         head.appendChild(link);
         head.appendChild(quitar);
 
-        var meta = document.createElement('div');
-        meta.className = 'saved-meta';
-        meta.textContent = [a.category, a.date].filter(Boolean).join(' · ');
+        var lineaMeta = document.createElement('div');
+        lineaMeta.className = 'saved-meta';
+        var partes = [a.category, meta ? a.date : g.date].filter(Boolean);
+        if (!meta) partes.push('ya no está en el sitio');
+        lineaMeta.textContent = partes.join(' · ');
 
         item.appendChild(head);
-        item.appendChild(meta);
+        item.appendChild(lineaMeta);
+
+        if (a.description) {
+          var desc = document.createElement('p');
+          desc.className = 'saved-desc';
+          desc.textContent = a.description;
+          item.appendChild(desc);
+        }
+
         wrap.appendChild(item);
       });
 
       root.appendChild(wrap);
+
+      var contador = document.createElement('p');
+      contador.className = 'saved-count';
+      contador.textContent = lista.length === 1
+        ? '1 artículo guardado'
+        : lista.length + ' artículos guardados';
+      root.appendChild(contador);
     }
 
     var limpiar = document.getElementById('clear-saved');
@@ -133,6 +176,11 @@ sitemap: false
         pintar();
       });
     }
+
+    /* Si guardas un articulo en otra pestaña, esta se actualiza sola. */
+    window.addEventListener('storage', function (e) {
+      if (e.key === 'candaias:guardados') pintar();
+    });
 
     pintar();
   })();

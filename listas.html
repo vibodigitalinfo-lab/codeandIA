@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Guías de herramientas de IA para programar"
-description: "Guías paso a paso de herramientas de IA para programar: ChatGPT, Claude Code, Cursor, Copilot y más. Explicadas con ejemplos para estudiantes de DAW."
-permalink: /guias/
+title: "Listas y recursos de IA para programar"
+description: "Listas de herramientas, recursos gratuitos y atajos de IA para programar: extensiones de VS Code, prompts que funcionan, webs útiles y atajos de teclado."
+permalink: /listas/
 ---
 
-{% assign guias = site.pages | where: "category", "Guía" | sort: "date" | reverse %}
+{% assign listas = site.pages | where: "category", "Lista" | sort: "date" | reverse %}
 
 <script type="application/ld+json">
 {
@@ -13,7 +13,7 @@ permalink: /guias/
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ '/' | absolute_url }}"},
-    {"@type": "ListItem", "position": 2, "name": "Guías", "item": "{{ '/guias/' | absolute_url }}"}
+    {"@type": "ListItem", "position": 2, "name": "Listas", "item": "{{ '/listas/' | absolute_url }}"}
   ]
 }
 </script>
@@ -21,21 +21,21 @@ permalink: /guias/
 <section class="section section-alt">
   <div class="container">
     <nav class="breadcrumb" aria-label="Migas de pan">
-      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Guías</span>
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Listas</span>
     </nav>
     <header class="articles-hero">
-      <h1 class="hero-title">Guías de IA para programar</h1>
-      <p>{{ guias.size }} guías paso a paso · herramientas explicadas desde cero, con ejemplos y sin humo</p>
+      <h1 class="hero-title">Listas y recursos</h1>
+      <p>{{ listas.size }} listas de herramientas, recursos y atajos de IA para programar</p>
     </header>
-    <p class="section-intro">Guías prácticas para aprender a programar con IA y sacarle partido a herramientas como ChatGPT, Claude Code, Cursor o GitHub Copilot. Cada una explica el cómo con ejemplos concretos, pensada para quien está aprendiendo a programar.</p>
+    <p class="section-intro">Listas cortas y sin relleno: herramientas que uso, recursos gratuitos que merecen la pena, prompts que funcionan y atajos que te ahorran horas. Todo probado por mí, no copiado de listas de otros.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    {% if guias.size > 0 %}
+    {% if listas.size > 0 %}
     <div class="articles-grid">
-      {% for post in guias %}
+      {% for post in listas %}
       <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
         <h3 class="article-card-title">{{ post.title }}</h3>
         <p class="article-card-desc">{{ post.description }}</p>
@@ -50,7 +50,7 @@ permalink: /guias/
       {% endfor %}
     </div>
     {% else %}
-    <p class="empty-state">Todavía no hay guías publicadas. Vuelve pronto.</p>
+    <p class="empty-state">Todavía no hay listas publicadas. Vuelve pronto.</p>
     {% endif %}
   </div>
 </section>

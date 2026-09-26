@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Guías de herramientas de IA para programar"
-description: "Guías paso a paso de herramientas de IA para programar: ChatGPT, Claude Code, Cursor, Copilot y más. Explicadas con ejemplos para estudiantes de DAW."
-permalink: /guias/
+title: "Comparativas de herramientas de IA para programar"
+description: "Comparativas entre herramientas de IA para programar: ChatGPT, Claude, Cursor, Copilot y más. Cuál elegir según tu caso, con lo bueno y lo malo de cada una."
+permalink: /comparativas/
 ---
 
-{% assign guias = site.pages | where: "category", "Guía" | sort: "date" | reverse %}
+{% assign comparativas = site.pages | where: "category", "Comparativa" | sort: "date" | reverse %}
 
 <script type="application/ld+json">
 {
@@ -13,7 +13,7 @@ permalink: /guias/
   "@type": "BreadcrumbList",
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ '/' | absolute_url }}"},
-    {"@type": "ListItem", "position": 2, "name": "Guías", "item": "{{ '/guias/' | absolute_url }}"}
+    {"@type": "ListItem", "position": 2, "name": "Comparativas", "item": "{{ '/comparativas/' | absolute_url }}"}
   ]
 }
 </script>
@@ -21,21 +21,21 @@ permalink: /guias/
 <section class="section section-alt">
   <div class="container">
     <nav class="breadcrumb" aria-label="Migas de pan">
-      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Guías</span>
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Comparativas</span>
     </nav>
     <header class="articles-hero">
-      <h1 class="hero-title">Guías de IA para programar</h1>
-      <p>{{ guias.size }} guías paso a paso · herramientas explicadas desde cero, con ejemplos y sin humo</p>
+      <h1 class="hero-title">Comparativas</h1>
+      <p>{{ comparativas.size }} comparativas cara a cara entre herramientas de IA</p>
     </header>
-    <p class="section-intro">Guías prácticas para aprender a programar con IA y sacarle partido a herramientas como ChatGPT, Claude Code, Cursor o GitHub Copilot. Cada una explica el cómo con ejemplos concretos, pensada para quien está aprendiendo a programar.</p>
+    <p class="section-intro">Cuál herramienta elegir y por qué. Cada comparativa pone dos o más opciones frente a frente con lo que tienen en común, lo que hace cada una mejor y cuándo compensa pagar por una u otra. Sin listas de funciones, con criterios que sirvan para decidir.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    {% if guias.size > 0 %}
+    {% if comparativas.size > 0 %}
     <div class="articles-grid">
-      {% for post in guias %}
+      {% for post in comparativas %}
       <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
         <h3 class="article-card-title">{{ post.title }}</h3>
         <p class="article-card-desc">{{ post.description }}</p>
@@ -50,7 +50,7 @@ permalink: /guias/
       {% endfor %}
     </div>
     {% else %}
-    <p class="empty-state">Todavía no hay guías publicadas. Vuelve pronto.</p>
+    <p class="empty-state">Todavía no hay comparativas publicadas. Vuelve pronto.</p>
     {% endif %}
   </div>
 </section>

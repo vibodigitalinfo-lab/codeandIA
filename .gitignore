@@ -1,6 +1,9 @@
 # Config local de Claude Code
 .claude/
 
+# Instrucciones internas del repo: sin publicar ni versionar
+AGENTS.md
+
 # Dependencias de Jekyll (si algún día las instalas en local)
 Gemfile.lock
 .sass-cache/

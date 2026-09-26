@@ -155,7 +155,7 @@ layout: default
     {% endif %}
 
     <div class="article-tools">
-      <button class="tool-btn" id="save-article" type="button" data-url="{{ page.url | absolute_url }}" data-title="{{ page.title | escape }}" data-category="{{ page.category | escape }}" data-date="{{ page.date | date: "%Y-%m-%d" }}" aria-pressed="false">
+      <button class="tool-btn" id="save-article" type="button" data-url="{{ page.url | relative_url }}" data-title="{{ page.title | escape }}" data-category="{{ page.category | escape }}" data-date="{{ page.date | date: "%Y-%m-%d" }}" aria-pressed="false">
         <span class="tool-btn-icon" aria-hidden="true">☆</span>
         <span class="tool-btn-label">Guardar</span>
       </button>
@@ -171,7 +171,12 @@ layout: default
 
     <a href="{{ "/articulos/" | relative_url }}" class="back-link">← Ver todos los artículos</a>
 
-    {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.url != page.url" %}
+    {% comment %}
+      "Sigue leyendo" excluye el anterior y el siguiente: ya salen justo
+      encima en post-nav, asi que sin este filtro se veia el mismo articulo
+      dos veces seguidas en la misma pantalla.
+    {% endcomment %}
+    {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.url != anterior.url" | where_exp: "p", "p.url != siguiente.url" %}
     {% assign mismos = otros | where: "category", page.category | sort: "date" | reverse %}
     {% assign distintos = otros | where_exp: "p", "p.category != page.category" | sort: "date" | reverse %}
     {% assign relacionados = mismos | concat: distintos %}

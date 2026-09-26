@@ -149,3 +149,75 @@ permalink: /cheatsheets/
 
   </div>
 </section>
+
+<script>
+  /* Boton "Copiar" por hoja: convierte la tabla de cada cheatsheet en
+     texto plano y lo mete en el portapapeles. Un cheatsheet esta para
+     pegarlo en otro lado, no solo para leerlo en pantalla. */
+  (function () {
+    function aTexto(bloque) {
+      var lineas = [];
+      var titulo = bloque.querySelector('summary');
+      if (titulo) lineas.push('# ' + titulo.textContent.trim(), '');
+
+      bloque.querySelectorAll('table.cheat-table').forEach(function (tabla) {
+        var cabeceras = [];
+        tabla.querySelectorAll('thead th').forEach(function (th) {
+          cabeceras.push(th.textContent.trim());
+        });
+        if (cabeceras.length) lineas.push(cabeceras.join(' | '));
+
+        tabla.querySelectorAll('tbody tr').forEach(function (fila) {
+          var celdas = [];
+          fila.querySelectorAll('td').forEach(function (td) {
+            celdas.push(td.textContent.trim().replace(/\s+/g, ' '));
+          });
+          if (celdas.length) lineas.push('- ' + celdas.join(' | '));
+        });
+        lineas.push('');
+      });
+
+      /* Los parrafos sueltos que hay fuera de las tablas tambien utiles. */
+      bloque.querySelectorAll('.cheat-body > p').forEach(function (p) {
+        lineas.push(p.textContent.trim().replace(/\s+/g, ' '));
+        lineas.push('');
+      });
+
+      return lineas.join('\n').trim();
+    }
+
+    document.querySelectorAll('.cheat-block').forEach(function (bloque) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'cheat-copy';
+      btn.textContent = 'Copiar la hoja';
+
+      btn.addEventListener('click', function () {
+        var texto = aTexto(bloque);
+        var fin = function () {
+          btn.textContent = 'Copiado';
+          btn.classList.add('is-copied');
+          setTimeout(function () {
+            btn.textContent = 'Copiar la hoja';
+            btn.classList.remove('is-copied');
+          }, 1800);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(texto).then(fin, function () {});
+        } else {
+          var ta = document.createElement('textarea');
+          ta.value = texto;
+          ta.style.position = 'fixed';
+          ta.style.opacity = '0';
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand('copy'); fin(); } catch (e) {}
+          document.body.removeChild(ta);
+        }
+      });
+
+      var cuerpo = bloque.querySelector('.cheat-body');
+      if (cuerpo) cuerpo.appendChild(btn);
+    });
+  })();
+</script>

@@ -21,6 +21,14 @@ permalink: /articulos/
         <strong>Guías de IA para programar</strong>
         <span>{% assign _g = site.pages | where: "category", "Guía" | size %}{{ _g }} guías paso a paso</span>
       </a>
+      <a href="{{ "/comparativas/" | relative_url }}" class="pillar-link">
+        <strong>Comparativas</strong>
+        <span>{% assign _c = site.pages | where: "category", "Comparativa" | size %}{{ _c }} herramientas cara a cara</span>
+      </a>
+      <a href="{{ "/listas/" | relative_url }}" class="pillar-link">
+        <strong>Listas y recursos</strong>
+        <span>{% assign _l = site.pages | where: "category", "Lista" | size %}{{ _l }} listas de herramientas y atajos</span>
+      </a>
       <a href="{{ "/reviews/" | relative_url }}" class="pillar-link">
         <strong>Reviews de herramientas</strong>
         <span>{% assign _r = site.pages | where: "category", "Review" | size %}{{ _r }} herramientas analizadas a fondo</span>

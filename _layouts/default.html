@@ -70,6 +70,16 @@
 
   <link rel="stylesheet" href="{{ "/styles.css" | relative_url }}">
 
+  <!--
+    site.js va en <head> y SIN defer a propósito: lo consumen scripts inline
+    repartidos por el body (guardados, rutas, portada, banner de rutas).
+    Un defer aqui los ejecutaria DESPUES de esos inline y window.codeandia
+    llegaria undefined, rompiendo guardados, rutas y "Continúa leyendo".
+    El propio site.js aplaza su init() a DOMContentLoaded, asi que no
+    toca el DOM antes de tiempo.
+  -->
+  <script src="{{ "/assets/site.js" | relative_url }}"></script>
+
   <!-- Tema: aplica la preferencia guardada antes de pintar (evita parpadeo) -->
   <script>
     (function () {
@@ -280,8 +290,6 @@
       });
     })();
   </script>
-
-  <script src="{{ "/assets/site.js" | relative_url }}" defer></script>
 
 </body>
 </html>

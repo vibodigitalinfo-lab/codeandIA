@@ -3,7 +3,10 @@ window.codeandia = (function () {
   var CLAVE_GUARDADOS = 'candaias:guardados';
   var CLAVE_PROGRESO = 'candaias:progreso';
   var MAX_GUARDADOS = 60;
-  var MAX_HISTORIAL = 40;
+  /* Umbral para dar por "leido" un articulo y ofrecer "Continúa leyendo".
+     Antes era 70: la mayoria de la gente cierra antes y la funcion nunca
+     aparecia, que es lo mismo que no tenerla. */
+  var UMBRAL_PROGRESO = 12;
 
   function leer(clave, pordefecto) {
     try {
@@ -32,28 +35,65 @@ window.codeandia = (function () {
       .toLowerCase();
   }
 
+  /* Los guardados se guardaban con URL absoluta y el indice de la pagina
+     "Mis guardados" las tiene relativas, asi que la busqueda nunca
+     encontraba nada y se veia informacion obsoleta. Normalizamos a la
+     misma forma que emite Jekyll (path con barra final) para que ambos
+     coincided siempre, y para poder migrar lo ya guardado. */
+  function normalizarUrl(url) {
+    var s = String(url == null ? '' : url).trim();
+    if (!s) return '';
+    var m = s.match(/^[a-z][a-z0-9+.-]*:\/\/[^/]+(\/.*?)\/?$/i);
+    if (m) s = m[1];
+    if (s.charAt(0) !== '/') s = '/' + s;
+    s = s.replace(/\/+$/, '');
+    return s + '/';
+  }
+
   var api = {
     sinAcentos: sinAcentos,
+    normalizarUrl: normalizarUrl,
 
     obtenerGuardados: function () {
       var lista = leer(CLAVE_GUARDADOS, []);
-      return Array.isArray(lista) ? lista : [];
+      if (!Array.isArray(lista)) return [];
+      /* Normaliza y quita duplicados: migra en memoria lo que se guardo
+         antes con URL absoluta y evita que "Quitar" deje Twin entries. */
+      var vistos = {};
+      var limpio = [];
+      for (var i = 0; i < lista.length; i++) {
+        var g = lista[i];
+        if (!g || !g.url) continue;
+        var url = normalizarUrl(g.url);
+        if (!url || vistos[url]) continue;
+        vistos[url] = true;
+        limpio.push({
+          url: url,
+          title: g.title || '',
+          category: g.category || '',
+          date: g.date || ''
+        });
+      }
+      return limpio;
     },
 
     estaGuardado: function (url) {
-      return api.obtenerGuardados().some(function (g) { return g.url === url; });
+      var n = normalizarUrl(url);
+      return api.obtenerGuardados().some(function (g) { return g.url === n; });
     },
 
     guardarArticulo: function (datos) {
+      var n = normalizarUrl(datos.url);
+      if (!n) return false;
       var lista = api.obtenerGuardados();
-      if (api.estaGuardado(datos.url)) {
-        return api.quitarArticulo(datos.url);
+      if (lista.some(function (g) { return g.url === n; })) {
+        return api.quitarArticulo(n);
       }
       lista.unshift({
-        url: datos.url,
-        title: datos.title,
-        category: datos.category,
-        date: datos.date
+        url: n,
+        title: datos.title || '',
+        category: datos.category || '',
+        date: datos.date || ''
       });
       if (lista.length > MAX_GUARDADOS) lista = lista.slice(0, MAX_GUARDADOS);
       escribir(CLAVE_GUARDADOS, lista);
@@ -61,7 +101,8 @@ window.codeandia = (function () {
     },
 
     quitarArticulo: function (url) {
-      var lista = api.obtenerGuardados().filter(function (g) { return g.url !== url; });
+      var n = normalizarUrl(url);
+      var lista = api.obtenerGuardados().filter(function (g) { return g.url !== n; });
       escribir(CLAVE_GUARDADOS, lista);
       return false;
     },
@@ -72,16 +113,19 @@ window.codeandia = (function () {
 
     registrarProgreso: function (datos) {
       var actual = leer(CLAVE_PROGRESO, null);
-      if (actual && actual.url === datos.url) {
+      var n = normalizarUrl(datos.url);
+      if (!n) return;
+      if (actual && normalizarUrl(actual.url) === n) {
         if (typeof actual.pct === 'number' && actual.pct >= datos.pct) return;
         actual.pct = datos.pct;
         actual.title = datos.title;
+        actual.url = n;
         actual.ts = Date.now();
         escribir(CLAVE_PROGRESO, actual);
         return;
       }
       escribir(CLAVE_PROGRESO, {
-        url: datos.url,
+        url: n,
         title: datos.title,
         pct: datos.pct,
         ts: Date.now()
@@ -89,12 +133,19 @@ window.codeandia = (function () {
     },
 
     obtenerProgreso: function () {
-      return leer(CLAVE_PROGRESO, null);
+      var actual = leer(CLAVE_PROGRESO, null);
+      if (actual && actual.url) {
+        actual.url = normalizarUrl(actual.url);
+        /* Si el articulo ya esta terminado, no tiene sentido ofrecer
+           un "Continúa leyendo" que lleva a un 404. */
+        if (typeof actual.pct === 'number' && actual.pct >= 98) return null;
+      }
+      return actual;
     },
 
     progresoDeUrl: function (url) {
       var actual = api.obtenerProgreso();
-      return actual && actual.url === url && typeof actual.pct === 'number' ? actual.pct : 0;
+      return actual && actual.url === normalizarUrl(url) && typeof actual.pct === 'number' ? actual.pct : 0;
     },
 
     /* Rutas de aprendizaje: pasos completados por ruta. */
@@ -160,24 +211,30 @@ window.codeandia = (function () {
     var titulo = document.querySelector('.article-title');
     if (!contenido || !url || !titulo) return;
 
-    var destino = url.getAttribute('href');
+    var destino = normalizarUrl(url.getAttribute('href'));
     var texto = titulo.textContent.trim();
-    var avisado = false;
+    var ultimoGuardado = 0;
 
     function medir() {
-      if (avisado) return;
       var caja = contenido.getBoundingClientRect();
       var altoTotal = caja.height || 1;
       var visto = Math.min(Math.max(window.innerHeight - caja.top, 0), altoTotal);
       var pct = Math.round((visto / altoTotal) * 100);
-      if (pct >= 70) {
-        avisado = true;
-        api.registrarProgreso({ url: destino, title: texto, pct: pct });
-      }
+      if (pct < UMBRAL_PROGRESO) return;
+      /* No escribir en localStorage en cada scroll: solo cada 3 segundos. */
+      var ahora = Date.now();
+      if (ahora - ultimoGuardado < 3000) return;
+      ultimoGuardado = ahora;
+      api.registrarProgreso({ url: destino, title: texto, pct: pct });
     }
 
     window.addEventListener('scroll', medir, { passive: true });
+    /* pagehide salta al cerrar o cambiar de pestana, ahi no hay scroll
+       event, asi que sin esto se perdia el progreso al salir. */
     window.addEventListener('pagehide', medir);
+    window.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'hidden') medir();
+    });
     medir();
   }
 
