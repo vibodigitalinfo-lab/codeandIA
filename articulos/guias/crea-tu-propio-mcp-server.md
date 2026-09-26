@@ -3,7 +3,7 @@ layout: article
 title: "Crea tu propio MCP server: conecta una API a tu editor"
 description: "Crea un servidor MCP propio en Python para conectar tus APIs y datos al editor con IA. Guía paso a paso, con un servidor real y cómo probarlo."
 category: "Guía"
-date: 2026-09-25
+date: 2026-09-22
 readtime: 10
 ---
 

@@ -3,7 +3,7 @@ layout: article
 title: "De prácticas a tu primer curro con IA: preparar entrevistas técnicas"
 description: "Guía DAW para buscar tu primer trabajo: usar IA en entrevistas técnicas, challenges de código y un portfolio que impresione. Sin trampas, con estrategia real."
 category: "Guía"
-date: 2026-08-13
+date: 2026-08-10
 readtime: 10
 ---
 

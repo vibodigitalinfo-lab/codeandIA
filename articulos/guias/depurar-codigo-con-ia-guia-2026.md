@@ -3,7 +3,7 @@ layout: article
 title: "Depurar con IA: mi método para que te arregle el código de verdad"
 description: "Guía para depurar código con IA sin que te arregle el síntoma: reproducir, clasificar el error, dar contexto y pedir causa, no parche."
 category: "Guía"
-date: 2026-09-17
+date: 2026-09-14
 readtime: 7
 ---
 

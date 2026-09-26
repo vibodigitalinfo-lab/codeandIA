@@ -3,7 +3,7 @@ layout: article
 title: "Prompts de ChatGPT para corregir errores de código (nivel junior)"
 description: "Prompts chatgpt para corregir código junior que uso yo mismo cuando mi código no compila y no sé por qué."
 category: "Guía"
-date: 2026-07-10
+date: 2026-07-07
 readtime: 6
 affiliate_text: "Si depuras código todos los días, ChatGPT Plus te ahorra horas de sufrimiento"
 affiliate_url: "https://chatgpt.com/plus"

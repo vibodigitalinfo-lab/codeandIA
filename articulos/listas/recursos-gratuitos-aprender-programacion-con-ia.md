@@ -3,7 +3,7 @@ layout: article
 title: "5 recursos gratuitos para aprender a programar con IA en español"
 description: "Los recursos gratis que de verdad usé en DAW para aprender programación con IA en 2026: canales, plataformas, práctica real y comunidades en español."
 category: "Lista"
-date: 2026-08-01
+date: 2026-07-29
 readtime: 7
 ---
 

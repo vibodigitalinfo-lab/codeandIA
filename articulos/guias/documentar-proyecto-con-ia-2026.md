@@ -3,7 +3,7 @@ layout: article
 title: "Documentar tu proyecto con IA: README y código que se entienden"
 description: "Cómo escribir documentación de tu proyecto con IA sin que parezca relleno: README que explican, comentarios útiles y por qué documentar te sube nota en DAW."
 category: "Guía"
-date: 2026-09-11
+date: 2026-09-08
 readtime: 5
 ---
 

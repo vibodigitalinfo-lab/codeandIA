@@ -3,7 +3,7 @@ layout: article
 title: "Alternativas gratis a Cursor en 2026 que siguen vivas"
 description: "Alternativas gratis a Cursor en 2026 para estudiantes: Copilot Free, Trae, Zed, Cline y Continue. Qué dan de verdad y cuál probar según tu caso."
 category: "Lista"
-date: 2026-09-15
+date: 2026-09-12
 readtime: 7
 ---
 

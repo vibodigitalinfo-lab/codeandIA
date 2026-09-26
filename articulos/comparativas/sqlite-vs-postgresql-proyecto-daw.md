@@ -3,9 +3,7 @@ layout: article
 title: "SQLite vs PostgreSQL para tu proyecto de DAW"
 description: "SQLite o PostgreSQL para un proyecto de DAW: cuándo aguanta SQLite, cuándo peta y cómo hacer la migración con IA sin perder los datos que ya tenías."
 category: "Comparativa"
-# PROVISIONAL: no es fecha de publicacion. Se cambia al mover el archivo
-# fuera de _entrada/, a un dia libre y nunca posterior a hoy.
-date: 2026-09-26
+date: 2026-09-24
 readtime: 10
 ---
 

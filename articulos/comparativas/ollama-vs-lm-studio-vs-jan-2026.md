@@ -3,7 +3,7 @@ layout: article
 title: "Ollama vs LM Studio vs Jan: gestores de modelos IA locales"
 description: "Comparativa de Ollama, LM Studio y Jan para correr modelos IA en local: rendimiento, modelos, integración con tu IDE y cuál uso yo en prácticas DAW."
 category: "Comparativa"
-date: 2026-08-10
+date: 2026-08-07
 readtime: 10
 ---
 

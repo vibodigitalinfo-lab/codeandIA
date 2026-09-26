@@ -9,12 +9,20 @@ Esta carpeta es **solo para dejar artículos nuevos pendientes de publicar**.
 
 ## ⏱️ La regla de las fechas (importante)
 
-**Un artículo por día. Nunca dos con la misma fecha. Nunca una fecha futura.**
+**Se suben 4 o 5 al día. El archivo se ve como uno al día.**
 
-- Cada artículo lleva `date:` con un día distinto. Aunque se publiquen varios en la misma sesión.
-- `date:` nunca puede pasar de hoy. Un artículo con fecha de mañana es un artículo que todavía no existe.
-- Si escribes varios y no quedan días libres hasta hoy, **solo se publica el primero**: el resto se queda aquí en `_entrada/` con su `date:` provisional, y se van sacando uno a uno en días distintos.
-- La fecha de un borrador no cuenta como fecha de publicación. Al mover el archivo fuera de `_entrada/` se le pone el día real.
+Las fechas se reparten hacia atrás, así que nunca hay dos artículos el mismo día ni huecos:
+
+- Todos los artículos se publican. No se queda ninguno en `_entrada/` por falta de fecha.
+- La tanda del día se numera hacia atrás desde hoy: el primero lleva la fecha de hoy, el siguiente la de ayer, y así hasta el primero del archivo.
+- Cada vez que subes 4 o 5, el **inicio del archivo se retrasa** los mismos días. Por eso el rango de fechas se va haciendo más largo hacia atrás.
+- `date:` nunca puede pasar de hoy. Nunca hay dos artículos con la misma fecha.
+
+Resultado: desde fuera parece que publicas un artículo al día, sin huecos, y el rango no se acaba nunca.
+
+**Ejemplo.** Si hoy es el 26-sep y subes 4 artículos, y el archivo llegaba hasta el 23-sep: el primero queda el 26-sep, el segundo el 25, el tercero el 24 y el cuarto el 23. El archivo pasa a empezar 3 días antes y sigue sin huecos.
+
+**Comprobación:** `python fechas_check.py` avisa de fechas futuras, repetidas o huecos antes de commitear.
 
 ## Por qué existe esta carpeta
 

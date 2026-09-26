@@ -3,7 +3,7 @@ layout: article
 title: "15 atajos de VS Code que te ahorrarán horas cada día"
 description: "Los atajos de teclado de VS Code que más uso para programar más rápido: navegación, edición, refactor y multitarea. Los que de verdad ahorran tiempo."
 category: "Lista"
-date: 2026-09-22
+date: 2026-09-19
 readtime: 7
 ---
 

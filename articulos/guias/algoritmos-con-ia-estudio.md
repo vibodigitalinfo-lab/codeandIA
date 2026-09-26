@@ -3,7 +3,7 @@ layout: article
 title: "Algoritmos con IA: cómo estudiar sin que te haga los ejercicios"
 description: "Cómo estudiar algoritmos y estructuras de datos con IA sin que te haga los ejercicios: método por fases, prompts que te obligan a pensar y qué pedir si fallas."
 category: "Guía"
-date: 2026-09-26
+date: 2026-09-23
 readtime: 9
 ---
 

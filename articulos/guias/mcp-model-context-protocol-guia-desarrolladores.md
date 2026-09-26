@@ -3,7 +3,7 @@ layout: article
 title: "MCP (Model Context Protocol): qué es y por qué deberías conocerlo"
 description: "Guía práctica del Model Context Protocol: arquitectura, servidores y clientes, seguridad y cómo usarlo en VS Code, Cursor, Claude Code y Copilot."
 category: "Guía"
-date: 2026-07-24
+date: 2026-07-21
 readtime: 10
 affiliate_text: "Explora servidores MCP listos para usar en el registry oficial"
 affiliate_url: "https://mcp.so"

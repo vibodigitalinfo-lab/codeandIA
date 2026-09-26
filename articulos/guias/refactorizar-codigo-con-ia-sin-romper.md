@@ -3,7 +3,7 @@ layout: article
 title: "Refactorizar código con IA sin romper nada: mi proceso"
 description: "Cómo refactorizar código con IA en 2026 sin romper nada: git en rama, tests antes, prompts seguros, revisión de diffs y los límites reales de los agentes."
 category: "Guía"
-date: 2026-09-12
+date: 2026-09-09
 readtime: 7
 ---
 
