@@ -25,7 +25,7 @@ exclude:
   - prompts   # templates internos del pipeline; no deben publicarse como páginas
   - scripts   # scripts internos, no son contenido del sitio
   - curso     # app del curso (Next.js/Stripe/Supabase): NO debe publicarse con el blog
-- finanzas   # datos financieros personales: nunca en el sitio
-- experiences
+  - finanzas   # datos financieros personales: nunca en el sitio
+  - experiences
   - fix_dates.py
   - "*.py"

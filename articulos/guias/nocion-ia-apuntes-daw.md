@@ -71,6 +71,7 @@ Aquí es donde escribo. Cada fila de **Temas** tiene su página vinculada (Relac
 
 Cuando creo un tema nuevo → `New` en la base de datos `Temas` → se abre la página con esta plantilla ya puesta:
 
+{% raw %}
 ```markdown
 # {{Nombre del tema}}
 
@@ -99,6 +100,7 @@ Cuando creo un tema nuevo → `New` en la base de datos `Temas` → se abre la p
 - [ ] He resuelto las preguntas IA
 - [ ] He explicado el tema en voz alta (técnica Feynman)
 ```
+{% endraw %}
 
 **Truco:** La plantilla se crea en la base de datos `Temas` → `...` → `Templates` → `New template`. Ahora cada tema nuevo trae esto listo.
 
@@ -121,7 +123,7 @@ Cuando creo un tema nuevo → `New` en la base de datos `Temas` → se abre la p
 > **En la misma página → Ask AI → Custom prompt:**
 > ```
 > Genera 5 preguntas tipo examen DAW sobre este tema.
-> Nivel: 2º DAW, módulo {{Módulo}}.
+> Nivel: 2º DAW, módulo {% raw %}{{Módulo}}{% endraw %}.
 > Tipos: 2 opción múltiple, 2 desarrollo corto, 1 código.
 > Incluye soluciones al final en bloque aparte.
 > No uses jerga que no esté en los apuntes.
@@ -152,6 +154,7 @@ Cada práctica tiene su repo. En la base de datos `Módulos`, el campo `Repo Git
 
 **Bonus:** Uso una **GitHub Action** que al hacer push a `main` en mis repos de prácticas, crea/actualiza una página en Notion con el resumen del commit (via Notion API). Es overkill, pero mola ver en Notion "Último push: feat: add JWT auth - 3 files changed".
 
+{% raw %}
 ```yaml
 # .github/workflows/notion-sync.yml (simplificado)
 name: Sync to Notion
@@ -174,6 +177,7 @@ jobs:
             Content-Type: application/json
           data: '{"properties": {"Último push": {"rich_text": [{"text": {"content": "${{ github.event.head_commit.message }}"}}]}}}'
 ```
+{% endraw %}
 *(Requiere Notion Integration token y página compartida con la integración. Si no te apetece, saltatelo — no es esencial.)*
 
 ---

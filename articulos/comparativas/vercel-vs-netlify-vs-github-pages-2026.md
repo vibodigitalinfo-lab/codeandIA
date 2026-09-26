@@ -140,6 +140,7 @@ El primer deploy de mi portfolio me costó dos tardes de lucha: DNS que no propa
 
 No te cases con uno. **Cada proyecto elige su plataforma**:
 
+{% raw %}
 ```yaml
 # .github/workflows/deploy.yml (ejemplo: Astro → Netlify)
 name: Deploy to Netlify
@@ -163,6 +164,7 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 ```
+{% endraw %}
 
 Tienes **Actions minutes gratis (2k/mes)** para buildar donde quieras. El deploy lo mandas a Vercel, Netlify, o GH Pages según el proyecto.
 

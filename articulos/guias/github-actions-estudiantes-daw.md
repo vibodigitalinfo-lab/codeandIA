@@ -28,6 +28,7 @@ Lo que te importa saber:
 
 Todo vive en `.github/workflows/` dentro de tu repo. Cada archivo YAML es un "workflow". Ejemplo mínimo para un proyecto Java con Maven:
 
+{% raw %}
 ```yaml
 # .github/workflows/ci.yml
 name: CI
@@ -67,6 +68,7 @@ jobs:
       - name: Build completo (skip tests)
         run: mvn -B package -DskipTests
 ```
+{% endraw %}
 
 **Qué hace**: cada push a `main` o PR contra `main` → levanta Ubuntu → instala JDK 21 → compila → ejecuta tests → empaqueta el JAR. Si falla, el commit aparece con ❌ en lugar de ✅. **Sin configurar Jenkins, sin pagar un servidor, sin acordarte de ejecutar tests manualmente.**
 
@@ -76,6 +78,7 @@ jobs:
 
 Aquí va mi workflow real para un proyecto DWES con Spring Boot 3 + H2 + Testcontainers:
 
+{% raw %}
 ```yaml
 # .github/workflows/ci.yml
 name: CI - Spring Boot
@@ -133,6 +136,7 @@ jobs:
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: '--pre'
 ```
+{% endraw %}
 
 **Qué hace este workflow**:
 1. **En cada PR**: compila, ejecuta tests con cobertura, sube la cobertura a Codecov, genera una preview en Vercel.
@@ -162,7 +166,7 @@ Si necesitas tokens (Codecov, Vercel, Docker Hub), **nunca los escribas en el YA
 
 1. Ve a tu repo → **Settings → Secrets and variables → Actions → New repository secret**
 2. Añade el nombre (ej: `CODECOV_TOKEN`) y el valor
-3. En el workflow: `${{ secrets.CODECOV_TOKEN }}`
+3. En el workflow: `{% raw %}${{ secrets.CODECOV_TOKEN }}{% endraw %}`
 
 GitHub enmascara el valor en los logs (sale `***`). Si alguien hace fork de tu repo, los secrets no se copian.
 
@@ -171,6 +175,7 @@ GitHub enmascara el valor en los logs (sale `***`). Si alguien hace fork de tu r
 ## Despliegue automático: tu web sin tocar nada
 
 ### GitHub Pages (la más fácil)
+{% raw %}
 ```yaml
 # .github/workflows/deploy-pages.yml
 name: Deploy a GitHub Pages
@@ -207,8 +212,10 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 ```
+{% endraw %}
 
 ### Vercel (para proyectos Next.js/React)
+{% raw %}
 ```yaml
 # Reutiliza la action de Vercel
 - uses: amondnet/vercel-action@v25
@@ -217,6 +224,7 @@ jobs:
     vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
     vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
 ```
+{% endraw %}
 
 ---
 
@@ -247,6 +255,7 @@ jobs:
 
 ## Mi workflow real (el que uso en prácticas)
 
+{% raw %}
 ```yaml
 name: DAW CI/CD
 
@@ -284,6 +293,7 @@ jobs:
             -H "Content-Type: application/json" \
             -d '{"content": "❌ Build falló en ${{ github.repository }}: ${{ github.sha }}"}'
 ```
+{% endraw %}
 
 **Lo que hace**: compila + test + si falla, manda un aviso a Discord. Cuatro líneas que me ahorran mirar GitHub cada vez que hago push.
 

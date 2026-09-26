@@ -28,6 +28,7 @@ function Contador() {
 
 En Vue, con la composición API:
 
+{% raw %}
 ```vue
 <script setup>
 import { ref } from 'vue'
@@ -37,6 +38,7 @@ const n = ref(0)
   <button @click="n++">{{ n }}</button>
 </template>
 ```
+{% endraw %}
 
 Fíjate en la diferencia de mentalidad: React "es" JavaScript (un botón es una función que devuelve JSX), mientras que Vue separa el HTML del JavaScript en dos bloques dentro del archivo. Si vienes de hacer páginas con HTML y JS a pelo — que es tu caso en DAW — Vue te exige menos salto mental, y eso se nota en la primera semana.
 

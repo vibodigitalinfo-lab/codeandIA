@@ -35,6 +35,7 @@ Los secrets son pares de valor clave que GitHub encripta y nunca muestra en los 
 
 ### Como usarlo en tu workflow
 
+{% raw %}
 ```yaml
 name: Mi Workflow
 on: push
@@ -48,8 +49,9 @@ jobs:
           MI_API_KEY: ${{ secrets.API_KEY }}
         run: echo "La key existe: ${{ secrets.API_KEY != '' }}"
 ```
+{% endraw %}
 
-**Punto clave:** los secrets se acceden con `${{ secrets.NOMBRE_DEL_SECRET }}`. El nombre es case-sensitive, así que `api_key` y `API_KEY` son diferentes.
+**Punto clave:** los secrets se acceden con `{% raw %}${{ secrets.NOMBRE_DEL_SECRET }}{% endraw %}`. El nombre es case-sensitive, así que `api_key` y `API_KEY` son diferentes.
 
 ### Errores comunes con secrets
 
@@ -87,6 +89,7 @@ Las variables son similares a los secrets pero:
 
 ### Usarla en el workflow
 
+{% raw %}
 ```yaml
 jobs:
   build:
@@ -100,8 +103,9 @@ jobs:
           echo "Entorno: $NODE_ENV"
           echo "Versión: $APP_VERSION"
 ```
+{% endraw %}
 
-La diferencia con los secrets es que `${{ vars.NOMBRE }}` en lugar de `${{ secrets.NOMBRE }}`.
+La diferencia con los secrets es que `{% raw %}${{ vars.NOMBRE }}{% endraw %}` en lugar de `{% raw %}${{ secrets.NOMBRE }}{% endraw %}`.
 
 ## Variables por defecto de GitHub
 
@@ -119,6 +123,7 @@ GitHub también tiene variables de sistema que no necesitas crear:
 
 Estas son útiles para workflows dinámicos:
 
+{% raw %}
 ```yaml
 - name: Info del commit
   run: |
@@ -127,6 +132,7 @@ Estas son útiles para workflows dinámicos:
     echo "Commit: ${{ github.sha }}"
     echo "Autor: ${{ github.actor }}"
 ```
+{% endraw %}
 
 ## Environments: secrets por contexto
 
@@ -141,6 +147,7 @@ Si tu proyecto tiene un entorno de desarrollo y otro de producción (lo cual es 
 
 ### Usarlo en el workflow
 
+{% raw %}
 ```yaml
 jobs:
   deploy-production:
@@ -153,6 +160,7 @@ jobs:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
         run: ./deploy.sh
 ```
+{% endraw %}
 
 Esto es super potente porque el mismo workflow puede desplegar a staging con credenciales de testing y a producción con credenciales reales, simplemente cambiando el `environment`.
 
@@ -162,6 +170,7 @@ Esto es super potente porque el mismo workflow puede desplegar a staging con cre
 
 Si estás creando una composite action (una acción reutilizable), los secrets se pasan así:
 
+{% raw %}
 ```yaml
 # En la action
 inputs:
@@ -174,21 +183,25 @@ steps:
       API_KEY: ${{ inputs.api-key }}
     run: ./script.sh
 ```
+{% endraw %}
 
 Y al llamarla:
 
+{% raw %}
 ```yaml
 - uses: tu-usuario/mi-action@v1
   with:
     api-key: ${{ secrets.API_KEY }}
 ```
+{% endraw %}
 
 ### USOS de secrets en varios jobs
 
-Si necesitas el mismo secret en varios jobs, simplemente repites `${{ secrets.MI_KEY }}` en cada uno. Los secrets se cargan por job, no por workflow.
+Si necesitas el mismo secret en varios jobs, simplemente repites `{% raw %}${{ secrets.MI_KEY }}{% endraw %}` en cada uno. Los secrets se cargan por job, no por workflow.
 
 ### Validar que un secret existe
 
+{% raw %}
 ```yaml
 - name: Verificar secret
   run: |
@@ -197,6 +210,7 @@ Si necesitas el mismo secret en varios jobs, simplemente repites `${{ secrets.MI
       exit 1
     fi
 ```
+{% endraw %}
 
 ## Flujo recomendado para proyectos de clase
 
@@ -213,7 +227,7 @@ Así mi workflow de CI/CD puede correr tests con credenciales de testing y despl
 
 Porque sé que el debugging de GitHub Actions es frustrante, aquí van algunos errores reales que me han pasado:
 
-1. **Usar `${{ env.MI_KEY }}` en vez de `${{ secrets.MI_KEY }}`**: `env` solo funciona para variables que ya has seteado en el step actual
+1. **Usar `{% raw %}${{ env.MI_KEY }}{% endraw %}` en vez de `{% raw %}${{ secrets.MI_KEY }}{% endraw %}`**: `env` solo funciona para variables que ya has seteado en el step actual
 2. **Olvidar las comillas en el nombre del secret**: `${{ secrets.my secret }}` no funciona por el espacio
 3. **Usar secrets en un step `if`**: las condiciones se evalúan antes de que los secrets estén disponibles
 4. **Secrets de un fork no se copian**: cuando haces fork de un repo, los secrets no se transfieren (por seguridad)
