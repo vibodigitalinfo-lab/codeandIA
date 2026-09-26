@@ -3,8 +3,8 @@ layout: article
 title: "Regalos para programadores: ideas originales que de verdad usarán"
 description: "Regalos para programadores y estudiantes de DAW: teclados, ratones, libros, suscripciones y más. Ideas probadas con precios reales."
 category: "Lista"
-date: 2026-11-15
-readtime: 9
+date: 2026-11-12
+readtime: 6
 affiliate_text: "Consigue el Keychron V1 Max, mi regalo favorito, en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
