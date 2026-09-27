@@ -3,7 +3,7 @@ layout: article
 title: "Accesibilidad web con IA: cumplir sin inventarte reglas"
 description: "Cómo usar IA para cumplir accesibilidad en tus prácticas de DAW sin inventarte las reglas: qué delegar, qué no, y el prompt que encuentra los fallos de verdad."
 category: "Guía"
-date: 2026-09-25
+date: 2026-09-21
 readtime: 7
 ---
 
