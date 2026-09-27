@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Keychron Q1 Max: el teclado que usaría para programar"
-description: "Review completa del Keychron Q1 Max: gasket mount, wireless, QMK y switches K Pro. Si vale la pena para programar y cuánto cuesta en Amazon."
+title: "Keychron Q1 Max review: ¿el mejor teclado mecánico para programar?"
+description: "Análisis a fondo del Keychron Q1 Max: gasket mount, switches, conectividad inalámbrica y si merece la pena frente a alternativas más baratas en 2026."
 category: "Review"
 date: 2026-08-12
 readtime: 6

@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Los mejores auriculares con cancelación de ruido para estudiar en 2026"
-description: "Auriculares con cancelación de ruido para estudiar y programar: los que de verdad merecen la pena por menos de 100€, con precios reales en España."
+title: "Mejores auriculares con cancelación de ruido para estudiar en 2026"
+description: "Comparativa de cascos y auriculares con cancelación de ruido para estudiar y programar: opciones cómodas y con buen ANC por menos de 100 euros."
 category: "Lista"
 date: 2026-08-15
 readtime: 7

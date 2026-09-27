@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "ChatGPT vs Cursor AI: qué herramienta de IA uso más para programar"
-description: "ChatGPT vs Cursor para programar: comparo las dos herramientas que uso a diario como estudiante de DAW y te digo cuál me resulta más útil."
+title: "ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso"
+description: "Comparativa real entre ChatGPT y Cursor AI para programadores y estudiantes: diferencias de contexto, generación de código, flujos diarios y precio."
 category: "Comparativa"
 date: 2026-06-25
 readtime: 5

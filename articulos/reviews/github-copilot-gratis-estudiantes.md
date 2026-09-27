@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "GitHub Copilot gratis para estudiantes: cómo activarlo y si funciona"
-description: "GitHub Copilot gratis para estudiantes existe y es real. Te cuento cómo activarlo y si vale la pena después de usarlo varios meses en clase."
+title: "GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso"
+description: "Guía para activar GitHub Copilot gratis con el Student Developer Pack: requisitos, correo educativo y cómo aprovecharlo para estudiar programación."
 category: "Review"
 date: 2026-06-20
 readtime: 5
