@@ -21,7 +21,7 @@ ChatGPT es lo que abro cuando tengo una pregunta que necesita contexto o explica
 
 Ahí es donde brilla. Es un conversador. Puedes preguntarle, corregirle, pedirle que lo explique de otra forma. Si el primer bloque de código que te da no funciona, sigues en el mismo hilo, le pegas el error y continúa desde donde lo dejó. Para mí eso vale mucho, porque cuando estoy atascado no siempre sé exactamente qué pregunta hacer, y ChatGPT aguanta bien esa ambigüedad.
 
-También lo uso mucho para cosas que no son código puro: redactar un README, entender la documentación de una librería que está en inglés técnico, o pensar en cómo estructurar una base de datos antes de escribir una sola línea. Es una especie de compañero de pensamiento más que un generador de código.
+También lo uso mucho para cosas que no son código puro: redactar un [README que se entienda](/articulos/guias/documentar-proyecto-con-ia-2026/), entender la documentación de una librería que está en inglés técnico, o pensar en cómo estructurar una base de datos antes de escribir una sola línea. Es una especie de compañero de pensamiento más que un generador de código.
 
 ### Cuándo ChatGPT me frustra
 
@@ -31,7 +31,7 @@ El problema es que ChatGPT no ve tu proyecto. Le tienes que pegar el código a m
 
 Cursor es un editor de código —una especie de VS Code modificado— con IA integrada de verdad. Y eso cambia completamente la experiencia. Cuando uso Cursor, la IA ya sabe qué archivos tienes abiertos, entiende la estructura del proyecto y puede leer tu código sin que tú le expliques nada.
 
-La funcionalidad que más uso es el chat con contexto del proyecto. Puedo seleccionar un fragmento de código, pulsar Ctrl+K o abrir el chat lateral, y preguntarle algo sin necesidad de copiar ni pegar. Él ya lo ve. Eso solo ya justifica probarlo —si quieres darle una oportunidad, puedes [empezar con el plan gratuito de Cursor](https://cursor.com) sin necesidad de meter tarjeta.
+La funcionalidad que más uso es el chat con contexto del proyecto. Puedo seleccionar un fragmento de código, pulsar Ctrl+K o abrir el chat lateral, y preguntarle algo sin necesidad de copiar ni pegar. Él ya lo ve. Eso solo ya justifica probarlo —si quieres darle una oportunidad, puedes [empezar con el plan gratuito de Cursor](https://cursor.com) sin necesidad de meter tarjeta—. Si ya lo tienes instalado y quieres dejarlo fino, en la [guía de Cursor sobre VS Code](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/) está la configuración que uso.
 
 Lo que más me ha sorprendido es la función de edición en línea. Le digo en lenguaje natural lo que quiero cambiar —"añade validación de errores a esta función" o "refactoriza esto para que sea más legible"— y me muestra el diff directamente en el editor. Acepto, rechazo o modifico. Es rápido y no rompe el flujo.
 
@@ -43,7 +43,7 @@ Cuando abro un proyecto y sé lo que tengo que hacer —añadir una funcionalida
 
 Cuando estoy en fase de planificación, aprendiendo algo nuevo, o tengo un error que no entiendo, prefiero ChatGPT. La conversación fluye mejor, puedo ir y volver, y las explicaciones son más pedagógicas.
 
-El problema real es que los dos cuestan dinero. ChatGPT Plus son 20€ al mes, y Cursor tiene un plan Pro similar. Para alguien que estudia, es un gasto que hay que valorar. A mí personalmente me cuesta más justificar ChatGPT Plus desde que uso Cursor con regularidad, porque Cursor también tiene acceso a modelos potentes en su interfaz de chat. Pero ChatGPT tiene cosas que Cursor no tiene, como navegación web o el modo de proyectos con memoria.
+El problema real es que los dos cuestan dinero. [ChatGPT Plus son 20€ al mes](/articulos/reviews/chatgpt-plus-para-programadores/), y Cursor tiene un [plan Pro](/articulos/comparativas/cursor-ai-plan-pro-vs-free/) similar. Para alguien que estudia, es un gasto que hay que valorar. A mí personalmente me cuesta más justificar ChatGPT Plus desde que uso Cursor con regularidad, porque Cursor también tiene acceso a modelos potentes en su interfaz de chat. Pero ChatGPT tiene cosas que Cursor no tiene, como navegación web o el modo de proyectos con memoria.
 
 ## ¿Con cuál me quedaría si tuviera que elegir uno?
 

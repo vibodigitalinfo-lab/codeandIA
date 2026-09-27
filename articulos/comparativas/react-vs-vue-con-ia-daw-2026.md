@@ -5,6 +5,7 @@ description: "React o Vue para tu proyecto de DAW: comparo ambos con la IA de co
 category: "Comparativa"
 date: 2026-09-07
 readtime: 5
+last_modified_at: 2026-09-27
 ---
 
 Para cuando te dejan elegir framework para el proyecto de DAW, la clase se divide en dos: los que votaron React porque "es lo que piden las empresas" y los que votaron Vue porque "dicen que es más fácil". Yo probé los dos con la IA pegada al codo, y el veredicto no es el que esperaba. Esto es lo que de verdad diferencia a React y a Vue cuando tu intención es aprobar, aprender y conseguir prácticas.
@@ -46,7 +47,7 @@ Fíjate en la diferencia de mentalidad: React "es" JavaScript (un botón es una 
 
 Aunque parezca extraño, la IA nivela la balanza mucho más de lo que dicen los tutoriales. Para React, el prompt es casi mágico y el resultado viene lleno de componentes y hooks que existen de verdad. Para Vue, la IA también responde bien, pero en español se nota que aprende peor las versiones nuevas: me ha dado más de una vez `data()` en vez de `<script setup>`, la forma moderna.
 
-Mi recomendación práctica con la IA es la misma para ambos: no le pidas "la web completa de tu proyecto" — pídele componentes sueltos con su explicación. Con React, pídele el hook correcto para cada cosa; con Vue, dile "usando composition API con `<script setup>`, no Options API". Ese detalle te evita la mitad de los errores que verás por ahí.
+Mi recomendación práctica con la IA es la misma para ambos: no le pidas "la web completa de tu proyecto" — pídele componentes sueltos con su explicación. Con React, pídele el hook correcto para cada cosa; con Vue, dile "usando composition API con `<script setup>`, no Options API". Ese detalle te evita la mitad de los errores que verás por ahí. El patrón para pedirle código que no tengas que reescribir está en los [prompts de ChatGPT para corregir errores](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/).
 
 ## ¿Y cuál eliges para DAW?
 
@@ -59,7 +60,7 @@ Si el módulo de DAW en el que estás usa uno de los dos, no hagas caso al debat
 
 ## Mi consejo final
 
-Da igual el que elijas, el patrón para llegar lejos con la IA es el mismo que en el resto del blog: que te enseñe, no que te escriba. Monta el proyecto con `npm create vite@latest`, elige tu framework, y ve añadiendo componentes por partes mientras te explica qué es cada prop y cada hook. Y cuando tu componente ya pinta datos del API, conéctalo con la guía de enlazar frontend y backend que publiqué — es exactamente el momento donde los dos frameworks se parecen: ambos solo necesitan un `fetch` y un manejo de estado que sepas explicar.
+Da igual el que elijas, el patrón para llegar lejos con la IA es el mismo que en el resto del blog: que te enseñe, no que te escriba. Monta el proyecto con `npm create vite@latest`, elige tu framework, y ve añadiendo componentes por partes mientras te explica qué es cada prop y cada hook. Y cuando tu componente ya pinta datos del API, conéctalo con la [guía de enlazar frontend y backend](/articulos/guias/conectar-frontend-api-con-ia-2026/) que publiqué — es exactamente el momento donde los dos frameworks se parecen: ambos solo necesitan un `fetch` y un manejo de estado que sepas explicar.
 
 Si te quedas entre los dos y tu decisión depende de si quieres comodidad o portafolio, dime qué módulo tienes ahora y te digo cuál encaja mejor con tu nota y tu plan de prácticas.
 
