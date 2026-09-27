@@ -5,6 +5,7 @@ description: "Configura GitHub Copilot gratis en IntelliJ IDEA con tu cuenta de 
 category: "Guía"
 date: 2026-07-24
 readtime: 7
+last_modified_at: 2026-09-27
 ---
 
 Casi todos los tutoriales de Copilot que encuentras usan VS Code. Y casi todos nosotros, en el módulo de programación de DAW, estamos obligados a trabajar con Java en **IntelliJ IDEA** (en mi caso la Community, que es gratis) o en NetBeans. Cuando llegué a clase con Copilot configurado en IntelliJ, mis compañeros me preguntaron si estaba usando un truco. No es ningún truco: es el mismo GitHub Copilot, instalado en un IDE diferente.

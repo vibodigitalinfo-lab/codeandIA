@@ -1708,47 +1708,15 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   font-size: 0.98rem;
 }
 
-.newsletter-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}
-
-.newsletter-form input[type="email"] {
-  flex: 1 1 220px;
-  font: inherit;
-  font-size: 0.95rem;
-  padding: 0.65rem 0.9rem;
-  color: var(--text);
-  background: var(--bg);
-  border: 1.5px solid var(--border-strong);
-}
-
-.newsletter-form input[type="email"]:focus {
-  outline: 2px solid var(--focus-ring);
-  outline-offset: 1px;
-}
-
-.nl-btn {
-  border: 2px solid var(--accent);
-  background: var(--accent);
-  color: var(--accent-ink);
-  font-weight: 700;
-  font-family: inherit;
-  font-size: 0.9rem;
-  padding: 0.65rem 1.2rem;
-  cursor: pointer;
-  box-shadow: 4px 4px 0 var(--shadow);
-}
-
-.nl-btn:hover:not(:disabled) {
-  transform: translate(-1px, -1px);
-  box-shadow: 5px 5px 0 var(--shadow);
-}
-
-.nl-btn:disabled {
-  opacity: 0.6;
-  cursor: default;
+/* Formulario alojado por beehiiv dentro de un iframe: la API v2 no se puede usar
+   desde el navegador (401 sin API key y sin cabeceras CORS). */
+.newsletter-embed {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: 320px;
+  border: 0;
+  background: transparent;
 }
 
 .nl-note {
@@ -1761,10 +1729,14 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   color: var(--accent);
 }
 
-.nl-success {
-  color: var(--accent) !important;
-  font-weight: 600;
-  padding: 1.5rem 0;
+.nl-fallback {
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.nl-fallback a {
+  color: var(--accent);
 }
 
 /* ================= Ofertas (setup + ofertas) ================= */

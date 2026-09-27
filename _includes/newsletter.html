@@ -1,35 +1,21 @@
-<!-- newsletter form — beehiiv publication pub_bde739e1 -->
+<!-- newsletter — beehiiv, publicación pub_bde739e1-87d5-4bb5-8c03-83ecd8e1bff7
+     Se usa el formulario alojado por beehiiv (embeds.beehiiv.com) y no la API v2:
+     la API exige una API key (devuelve 401 INVALID_API_KEY) y además no manda
+     cabecera Access-Control-Allow-Origin, así que el fetch desde codeandia.com
+     lo bloquea el navegador. El embed funciona sin clave y sin CORS.
+     Si algún día cambia el ID, se copia de beehiiv → Settings → Embed. -->
 <div class="newsletter-box" id="nl-box">
   <h3 class="newsletter-title">Una vez a la semana, sin ruido</h3>
   <p class="newsletter-subtitle">Lo que de verdad me funciona programando con IA, resumido y sin relleno. Cancelas en un clic.</p>
-  <form action="https://api.beehiiv.com/v2/publications/pub_bde739e1-87d5-4bb5-8c03-83ecd8e1bff7/subscriptions" method="POST" class="newsletter-form" id="nl-form">
-    <label for="nl-email" class="visually-hidden">Email</label>
-    <input type="email" id="nl-email" name="email" placeholder="tu@email.com" required>
-    <button type="submit" class="nl-btn">Suscribirme gratis</button>
-  </form>
-  <p class="nl-note">1 email/semana · Sin spam · Cancela cuando quieras. Al suscribirte aceptas la <a href="{{ "/privacidad/" | relative_url }}">política de privacidad</a>.</p>
-</div>
 
-<script>
-document.getElementById('nl-form').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const form = e.target;
-  const btn = form.querySelector('button');
-  const email = form.email.value;
-  btn.disabled = true; btn.textContent = 'Suscribiendo...';
-  try {
-    const res = await fetch(form.action, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({ email, reactivate_existing: true, send_welcome_email: true })
-    });
-    if (res.ok) {
-      document.getElementById('nl-box').innerHTML =
-        '<p class="nl-success" style="font-weight:600;padding:1.5rem 0;">Dentro. Revisa tu bandeja (y el spam) para confirmar.</p>';
-    } else { throw new Error(); }
-  } catch {
-    btn.disabled = false; btn.textContent = 'Suscribirme gratis';
-    alert('Algo falló. Inténtalo de nuevo.');
-  }
-});
-</script>
+  <iframe
+    src="https://embeds.beehiiv.com/bde739e1-87d5-4bb5-8c03-83ecd8e1bff7"
+    class="newsletter-embed"
+    title="Formulario de suscripción a la newsletter de codeandIA"
+    loading="lazy"
+    scrolling="no"
+    data-test-id="beehiiv-embed"></iframe>
+
+  <p class="nl-note">1 email/semana · Sin spam · Cancela cuando quieras. Al suscribirte aceptas la <a href="{{ "/privacidad/" | relative_url }}">política de privacidad</a>.</p>
+  <p class="nl-fallback">¿No ves el formulario? <a href="https://codeandia.beehiiv.com/subscribe" target="_blank" rel="noopener">Suscríbete desde aquí</a>.</p>
+</div>

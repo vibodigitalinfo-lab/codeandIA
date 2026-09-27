@@ -9,6 +9,7 @@ affiliate_text: "Consigue el Logitech MX Master 3S en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 updated: 2026-09-21
+last_modified_at: 2026-09-21
 picks:
   - name: "Logitech MX Master 3S"
     price: "81,20€"

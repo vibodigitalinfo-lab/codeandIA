@@ -8,6 +8,7 @@ readtime: 7
 affiliate_text: "El Soundcore Q20i es mi recomendación calidad-precio: ANC, 40 horas y USB-C por unos 36€"
 affiliate_url: "https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21"
 affiliate_label: "Ver el Q20i en Amazon"
+last_modified_at: 2026-09-27
 ---
 
 Vivo en una casa donde a las seis de la tarde alguien siempre enciende la aspiradora, mi hermano pequeño ve el fútbol a tope y los vecinos de arriba parece que mudan muebles a diario. Cuando estoy con una práctica de DAW y el `build` de Maven falla por tercera vez, ese ruido de fondo me saca de quicio. Así que hace unos meses me puse a buscar auriculares con cancelación de ruido que no me costaran un riñón. Spoiler: no necesitas los de 300€ que salen en todos los vídeos. Te cuento los que de verdad valen la pena en 2026 y mi veredicto con los precios de hoy en España.

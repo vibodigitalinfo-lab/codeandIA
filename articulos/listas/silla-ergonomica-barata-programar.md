@@ -9,6 +9,7 @@ affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 updated: 2026-09-21
+last_modified_at: 2026-09-21
 picks:
   - name: "SIHOO Doro C300"
     price: "379,99€"

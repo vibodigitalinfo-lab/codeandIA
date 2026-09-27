@@ -19,6 +19,13 @@ layout: null
     <link>{{ "/" | absolute_url }}</link>
   </image>
   <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+  {%- comment -%}
+    Los enlaces internos de los articulos son root-relative (/articulos/...), y un lector
+    RSS no tiene base con la que resolverlos: sin esto todos apuntan a file:///articulos/...
+  {%- endcomment -%}
+  {% assign base_feed = site.url | append: "/" %}
+  {% assign feed_href = 'href="' | append: base_feed %}
+  {% assign feed_src = 'src="' | append: base_feed %}
   {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
   {% for p in articulos limit: 20 %}
   <item>
@@ -29,7 +36,7 @@ layout: null
     <pubDate>{{ p.date | date_to_rfc822 }}</pubDate>
     <category>{{ p.category }}</category>
     <dc:creator>Iván</dc:creator>
-    <content:encoded><![CDATA[{{ p.content }}]]></content:encoded>
+    <content:encoded><![CDATA[{{ p.content | replace: 'href="/', feed_href | replace: 'src="/', feed_src }}]]></content:encoded>
   </item>
   {% endfor %}
 </channel>

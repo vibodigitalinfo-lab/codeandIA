@@ -8,6 +8,7 @@ readtime: 5
 affiliate_text: "Prueba GitHub Copilot gratis con el Student Developer Pack"
 affiliate_url: "https://education.github.com/pack"
 affiliate_label: "Activar Copilot gratis"
+last_modified_at: 2026-09-27
 ---
 
 Cuando empecé primero de DAW, un compañero me habló de que había una forma de usar GitHub Copilot gratis para estudiantes. Al principio pensé que era otro de esos "trucos" que en realidad te piden la tarjeta de crédito a los dos minutos. Pero no. Es completamente real, llevo meses usándolo y aquí te cuento cómo lo activé y qué pienso de verdad, sin adornos.

@@ -8,6 +8,7 @@ readtime: 5
 affiliate_text: "Prueba Cursor gratis y lleva tu flujo de trabajo al siguiente nivel"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor AI"
+last_modified_at: 2026-09-27
 ---
 
 Llevo un tiempo usando IA para programar y la pregunta que más me hacen —tanto compañeros de clase como gente del Discord— es siempre la misma: ¿ChatGPT o Cursor? Como estudiante de DAW que tiene los dos y los usa casi a diario, voy a intentar responderte con algo más útil que una tabla de características. Voy a contarte cómo los uso yo de verdad, cuándo elijo uno u otro y por qué ninguno me ha reemplazado al otro todavía.

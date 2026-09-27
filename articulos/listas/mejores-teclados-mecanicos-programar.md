@@ -9,6 +9,7 @@ affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 updated: 2026-09-21
+last_modified_at: 2026-09-21
 picks:
   - name: "Keychron V1 Max"
     price: "141,79€"
