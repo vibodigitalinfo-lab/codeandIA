@@ -8,6 +8,7 @@ readtime: 6
 affiliate_text: "Prueba GitHub Copilot gratis durante 30 días"
 affiliate_url: "https://github.com/features/copilot"
 affiliate_label: "Activar prueba gratuita"
+last_modified_at: 2026-09-27
 ---
 
 Cuando empecé a mirar los planes de GitHub Copilot me quedé un rato parado delante de la pantalla de precios sin entender muy bien por qué existían dos opciones tan distintas. Si soy yo solo, con mi portátil, mis proyectos de clase y algún que otro proyecto personal, ¿qué me importa un plan pensado para empresas? La respuesta corta es que probablemente nada. Pero quiero explicarlo bien porque el marketing de GitHub no lo deja del todo claro, y la decisión de qué pagar cuando eres un programador que trabaja en solitario no es tan obvia como parece si te pones a leer las comparativas en inglés pensadas para CTOs.
@@ -16,7 +17,7 @@ Lo que sí tengo claro desde el principio es que el debate sobre **GitHub Copilo
 
 ## Qué ofrece cada plan y dónde está la diferencia real
 
-El plan **Individual** cuesta 10 $ al mes (o 100 $ al año) y te da lo esencial: autocompletado de código en tiempo real, chat integrado en el editor, soporte para los principales IDEs como VS Code, JetBrains o Neovim, y acceso a los modelos de IA de GitHub. Para la mayoría de estudiantes y desarrolladores freelance, esto ya es más que suficiente.
+El plan **Individual** cuesta 10 $ al mes (o 100 $ al año) y te da lo esencial: autocompletado de código en tiempo real, chat integrado en el editor, soporte para los principales IDEs como VS Code, JetBrains o Neovim, y acceso a los modelos de IA de GitHub. Para la mayoría de estudiantes y desarrolladores freelance, esto ya es más que suficiente. Y si sigues estudiando, antes de pagar nada mira [cómo activar Copilot gratis con el Student Pack](/articulos/reviews/github-copilot-gratis-estudiantes/).
 
 El plan **Business** sube a 19 $ por usuario al mes y añade cosas que, siendo honesto, están pensadas para organizaciones: gestión centralizada de políticas de uso, auditoría de logs, restricciones por organización sobre qué archivos puede sugerir Copilot, exclusión de código que coincida con repositorios públicos con detección más robusta, y soporte de SSO (Single Sign-On). También incluye la opción de que un administrador configure Copilot para todos los miembros de una organización de GitHub.
 
@@ -48,9 +49,9 @@ La respuesta es cuando las 2.000 completaciones mensuales se te queden cortas. E
 
 Si eres estudiante, desarrollador freelance o simplemente alguien que programa en sus proyectos personales sin gestionar un equipo: **Individual es tu plan**. Punto. No hay ninguna característica de Business que te vaya a hacer escribir mejor código ni más rápido cuando eres el único usuario.
 
-Empieza por el plan Free si quieres probar sin comprometerte. Si lo usas tanto que llegas al límite, sube a Individual. El plan Business es una herramienta de gestión corporativa disfrazada de mejora técnica, y para un programador en solitario ese disfraz no engaña.
+Empieza por el plan Free si quieres probar sin comprometerte. Si lo usas tanto que llegas al límite, sube a Individual. El plan Business es una herramienta de gestión corporativa disfrazada de mejora técnica, y para un programador en solitario ese disfraz no engaña. Si la duda es más de fondo —pagar o no pagar por IA— lo dejé por escrito en [¿merece la pena pagar por IA en 2026?](/articulos/comparativas/merece-la-pena-pagar-ia-2026/).
 
-El dinero que ahorras en no pagar Business puedes invertirlo en algo que sí note la diferencia: un dominio para tu portfolio, un curso que amplíe lo que ya sabes, o simplemente café para las sesiones largas de debugging.
+El dinero que ahorras en no pagar Business puedes invertirlo en algo que sí note la diferencia: un [dominio para tu portfolio](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/), un curso que amplíe lo que ya sabes, o simplemente café para las sesiones largas de debugging.
 
 ## Sigue por aquí
 

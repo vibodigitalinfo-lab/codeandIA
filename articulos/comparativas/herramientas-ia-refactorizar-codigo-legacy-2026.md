@@ -5,11 +5,12 @@ description: "Comparativa de Cursor, Copilot, Claude y Continue para refactoriza
 category: "Comparativa"
 date: 2026-08-02
 readtime: 8
+last_modified_at: 2026-09-27
 ---
 
-Heredé un proyecto de JavaScript de hace 3 años con funciones de 300 líneas, variables llamadas `data2` y `temp`, y cero tests. Toda la documentación era un README de 4 líneas. Si esto os suena, sabéis que refactorizar código legacy es una de las tareas más duras de programar.
+Heredé un proyecto de JavaScript de hace 3 años con funciones de 300 líneas, variables llamadas `data2` y `temp`, y [cero tests](/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/). Toda la documentación era un README de 4 líneas. Si esto os suena, sabéis que refactorizar código legacy es una de las tareas más duras de programar.
 
-La buena noticia es que en 2026 hay herramientas de IA que pueden ayudar. He probado 4 de las principales para refactorizar código legacy y aquí van mis conclusiones.
+La buena noticia es que en 2026 hay herramientas de IA que pueden ayudar. He probado 4 de las principales para refactorizar código legacy y aquí van mis conclusiones. Y si lo que te falta no es herramienta sino método, en [cómo refactorizar código con IA sin romperlo todo](/articulos/guias/refactorizar-codigo-con-ia-sin-romper/) está el proceso que sigo yo.
 
 ## El proyecto de prueba
 
@@ -94,7 +95,7 @@ El objetivo era refactorizar 5 módulos clave del proyecto para que fueran mante
 
 ## Continue: la opción open source
 
-**Continue** es un plugin open source para VS Code que funciona con diferentes LLMs (puedes usar Claude, GPT-4, o modelos locales).
+**Continue** es un plugin open source para VS Code que funciona con diferentes LLMs (puedes usar Claude, GPT-4, o modelos locales). Si dudas entre este y Cursor, la tengo comparada en [Continue.dev vs Cursor vs Copilot](/articulos/comparativas/continue-dev-vs-cursor-2026/).
 
 **Lo que hice:**
 - Configuré Continue con Claude como backend

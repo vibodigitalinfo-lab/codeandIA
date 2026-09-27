@@ -8,6 +8,7 @@ readtime: 8
 affiliate_text: "Prueba Warp gratis y decide si te cambia el flujo en terminal"
 affiliate_url: "https://www.warp.dev/pricing"
 affiliate_label: "Ver planes Warp"
+last_modified_at: 2026-09-27
 ---
 
 Confieso: durante años mi terminal fue "la que viene de serie" (Terminal.app en Mac, WSL en Windows, gnome-terminal en Linux). No le daba vueltas. Pero el año pasado empecé a ver a compañeros que usaban Warp y **hacían cosas en segundos que a mí me llevaban minutos**: buscar un comando que usé hace tres semanas, que la IA me escribiera un `find` complejo sin mirar la man page, compartir una sesión con un compañero para depurar juntos.
@@ -78,7 +79,7 @@ El **login obligatorio** es lo que más rechazo genera en la comunidad (Reddit, 
 
 **Créditos**: se gastan en Warp Agent (IA en la nube) y Warp Drive (sincronización). **Traes tu propio modelo (BYO)** en plan gratis = usas tu clave de OpenAI/Anthropic y no gastas créditos Warp. En planes de pago, los créditos cubren modelos de Warp (Sonnet 4, GPT-5, Grok Build, routers propios).
 
-**Para estudiante**: el plan **Free + BYO** (tu API key de OpenAI/Anthropic) te da Warp Agent gratis. Si no quieres gestionar keys, **Build a $18/mes anual ($216/año)** es lo que yo pago y me sobra. No hay descuento estudiante oficial.
+**Para estudiante**: el plan **Free + BYO** (tu API key de OpenAI/Anthropic) te da Warp Agent gratis. Si no quieres gestionar keys, **Build a $18/mes anual ($216/año)** es lo que yo pago y me sobra. No hay descuento estudiante oficial. Y si estás decidiendo cuánto dinero meter en IA al mes, tengo el tema de fondo en [¿merece la pena pagar por IA en 2026?](/articulos/comparativas/merece-la-pena-pagar-ia-2026/).
 
 ---
 
@@ -101,7 +102,7 @@ Si ya tienes tu flujo perfeccionado en Kitty/iTerm con tmux + fzf + scripts prop
 ## Conclusión: ¿cambio o me quedo donde estoy?
 
 **Cambia a Warp si:**
-- Quieres IA en terminal **sin configurar plugins, keys, MCP, nada**
+- Quieres IA en terminal **sin configurar plugins, keys, [MCP](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/), nada**
 - Valoras la UX de bloques, búsqueda visual y compartir sesión
 - Trabajas en Mac/Linux/Windows y quieres la misma experiencia en todos
 - El plan Free + BYO o Build $18/mes te encaja
@@ -112,7 +113,7 @@ Si ya tienes tu flujo perfeccionado en Kitty/iTerm con tmux + fzf + scripts prop
 - Necesitas compatibilidad 100% con TUIs extraños (k9s, lazydocker, etc.)
 - Prefieres herramienta 100% local, sin nube, sin cuentas
 
-**Mi veredicto personal**: me quedo con Warp. El salto de "buscar en history" a "buscar por bloques con IA" me ahorra tiempo real cada día. El login me fastidia, pero gano más de lo que pierdo. Si eres estudiante y quieres probar IA en terminal **hoy**, bájalo, dale a Free + tu API key, y en 10 minutos tienes Warp Agent funcionando. Si no te convence, lo desinstalas y listo.
+**Mi veredicto personal**: me quedo con Warp. El salto de "buscar en history" a "buscar por bloques con IA" me ahorra tiempo real cada día. El login me fastidia, pero gano más de lo que pierdo. Si eres estudiante y quieres probar IA en terminal **hoy**, bájalo, dale a Free + tu API key, y en 10 minutos tienes Warp Agent funcionando. Si no te convence, lo desinstalas y listo. Y si lo que buscas no es una terminal con IA sino un agente que trabaje por su cuenta, el otro camino es [Claude Code](/articulos/reviews/claude-code-cli-review-2026/).
 
 Los bloques o los amas o te retienen: va a gustos, y no pasa nada. A mí me costó tres días soltar el hábito de clicar el histórico, y desde entonces no se me ocurre volver a la terminal de otra manera. Se decide en una tarde.
 
