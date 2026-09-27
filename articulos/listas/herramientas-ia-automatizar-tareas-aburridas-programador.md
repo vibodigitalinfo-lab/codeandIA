@@ -5,6 +5,7 @@ description: "Lista de herramientas de IA que ahorran horas automatizando tareas
 category: "Lista"
 date: 2026-08-05
 readtime: 7
+last_modified_at: 2026-09-27
 ---
 
 Todos hemos estado ahí: es viernes por la tarde, quieres terminar la tarea, y te quedan 20 commits por hacer, la documentación sin escribir, y 50 tests que crear. Las tareas repetitivas de programar no solo son aburridas, sino que roban tiempo que podrías dedicar a código real.
@@ -43,7 +44,7 @@ CodeRabbit es una herramienta de IA que revisa tu código automáticamente en ca
 
 **Precio:** Gratis para repos públicos, desde $12/mes para privados
 
-Para proyectos de clase donde haces PRs con tu compañero de equipo, CodeRabbit es genial. Te ahorra tiempo de code review y aprendes mejores prácticas por el camino.
+Para proyectos de clase donde haces PRs con tu compañero de equipo, CodeRabbit es genial. Te ahorra tiempo de code review y aprendes mejores prácticas por el camino. Si quieres el análisis completo de pros, contras y precios, lo tienes en la [review de CodeRabbit](/articulos/reviews/coderabbit-review-ai-code-review/).
 
 ## 3. Mintlify para documentación
 
@@ -87,7 +88,7 @@ La calidad de los tests generados varía, pero para cubrir casos básicos ahorra
 
 ## 5. Claude/ChatGPT para refactoring
 
-Esto es más general pero extremadamente útil. Cuando tienes código spaghetti o funciones que hace mucho que no tocas, usar un LLM para refactorizar puede ahorrarte horas.
+Esto es más general pero extremadamente útil. Cuando tienes código spaghetti o funciones que hace mucho que no tocas, usar un LLM para refactorizar puede ahorrarte horas. Con método, porque sin él rompes más de lo que arreglas: en [refactorizar código con IA sin romperlo todo](/articulos/guias/refactorizar-codigo-con-ia-sin-romper/) explico cómo hacerlo paso a paso.
 
 **Mi workflow:**
 1. Copio la función o clase que quiero refactorizar
@@ -125,7 +126,7 @@ Crear un buen README desde cero es difícil. Hay varias herramientas de IA que g
 
 **Precio:** La mayoría son gratis o tienen planes gratuitos generosos
 
-Lo uso para cada proyecto nuevo. Genero el README base y luego lo adapto. Me ahorra el "ewriter's block" del README vacío.
+Lo uso para cada proyecto nuevo. Genero el README base y luego lo adapto. Me ahorra el bloqueo del folio en blanco con el README, y si buscas la plantilla que uso yo está en [documentar tu proyecto con IA](/articulos/guias/documentar-proyecto-con-ia-2026/).
 
 ## 7. AI Commit para conventional commits
 
@@ -160,7 +161,7 @@ Ninguna de estas herramientas sustituye al programador, pero juntas pueden ahorr
 
 ## Cuidado con la dependencia
 
-Un aviso importante: estas herramientas son increíbles, pero no dejes de aprender lo básico. Si solo dependes de la IA para hacer commits, documentación y tests, nunca mejorarás esas habilidades.
+Un aviso importante: estas herramientas son increíbles, pero no dejes de aprender lo básico. Si solo dependes de la IA para hacer commits, documentación y tests, nunca mejorarás esas habilidades. De hecho, le dediqué una guía completa a ese límite: [aprender a programar con IA sin volverte dependiente](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/).
 
 Mi consejo: úsalas como acelerador, no como sustituto. Primero intenta hacer la tarea tú, y luego usa la IA para optimizar o verificar tu trabajo.
 

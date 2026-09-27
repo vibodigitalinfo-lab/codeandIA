@@ -8,6 +8,7 @@ readtime: 6
 affiliate_text: "Si quieres alojar tu proyecto sin complicarte, yo usé Hostinger y me fue bien"
 affiliate_url: "https://www.hostinger.com"
 affiliate_label: "Probar Hostinger"
+last_modified_at: 2026-09-27
 ---
 
 Hace un mes tenía un proyecto de clase (una web para gestionar tareas de un grupo de estudio) metido en local, corriendo solo en mi ordenador, y me di cuenta de que llevaba semanas diciendo "esto lo subo pronto" sin subirlo nunca. El miedo no era el código, era todo lo de alrededor: dominio, hosting, certificados, DNS... cosas que en DAW nos explican por encima y que en la práctica dan bastante pereza. Así que me puse un objetivo tonto pero motivador: publicar mi primera web en internet barato con IA, gastando lo menos posible, y usando ChatGPT y Claude como apoyo cada vez que me atascara. Spoiler: al final me gasté 4,80€ y tardé una tarde de sábado, no un mes.
@@ -20,7 +21,7 @@ Yo comparé precios en Namecheap antes de decidirme, porque tienen promociones a
 
 ### Cómo repartí el presupuesto real
 
-Al final mis 4,80€ se fueron así: 1,80€ por un dominio .site en Namecheap con descuento de primer año, y 2,99€ del primer mes de hosting compartido en Hostinger, que además incluía SSL gratuito y un asistente de instalación con un paso a paso bastante claro para quien no ha tocado un panel de hosting en su vida. No metí publicidad de por medio, ni upsells de "protección de dominio" que te intentan colar en el checkout: eso lo desmarqué todo.
+Al final mis 4,80€ se fueron así: 1,80€ por un dominio .site en Namecheap con descuento de primer año, y 2,99€ del primer mes de hosting compartido en Hostinger, que además incluía SSL gratuito y un asistente de instalación con un paso a paso bastante claro para quien no ha tocado un panel de hosting en su vida (si dudas entre ambos proveedores, los tengo comparados en [Hostinger vs Namecheap para tu primer dominio](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/)). No metí publicidad de por medio, ni upsells de "protección de dominio" que te intentan colar en el checkout: eso lo desmarqué todo.
 
 ## Dónde entra la IA en publicar tu primera web
 
@@ -30,9 +31,9 @@ Lo que no hice fue pedirle a la IA que me generara el código de la web entero s
 
 ## Paso a paso de cómo subí mi web sin gastar de más
 
-Primero compré el dominio en Namecheap, sin activar ningún complemento adicional; solo el dominio pelado. Después contraté el hosting compartido más básico de Hostinger, el que viene con un solo sitio web permitido, que es todo lo que necesitaba para este proyecto. Luego conecté el dominio al hosting cambiando los nameservers desde el panel de Namecheap hacia los que me dio Hostinger, ese paso fue el único que me dio verdadero dolor de cabeza porque tardó casi 6 horas en propagarse y yo creía que lo había roto todo.
+Primero compré el dominio en Namecheap, sin activar ningún complemento adicional; solo el dominio pelado. Antes de elegir extensión y proveedor miré [qué dominio tiene sentido para un primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/), porque equivocarse de nombre o pagar de más por renovaciones absurdas se nota luego. Después contraté el hosting compartido más básico de Hostinger, el que viene con un solo sitio web permitido, que es todo lo que necesitaba para este proyecto. Luego conecté el dominio al hosting cambiando los nameservers desde el panel de Namecheap hacia los que me dio Hostinger, ese paso fue el único que me dio verdadero dolor de cabeza porque tardó casi 6 horas en propagarse y yo creía que lo había roto todo.
 
-Con el dominio ya apuntando bien, subí mi proyecto por FTP usando FileZilla, que es gratuito, y activé el SSL desde el propio panel de Hostinger con un clic, sin necesidad de tocar terminal ni configurar nada de Let's Encrypt a mano. Y ya. En menos de un día tenía mi tarea de clase corriendo en un dominio real, con https y todo.
+Con el dominio ya apuntando bien, subí mi proyecto por FTP usando FileZilla, que es gratuito, y activé el SSL desde el propio panel de Hostinger con un clic, sin necesidad de tocar terminal ni configurar nada de Let's Encrypt a mano. Y ya. En menos de un día tenía mi tarea de clase corriendo en un dominio real, con https y todo. Si tu proyecto es solo HTML, CSS y JS y no quieres pagar un solo euro, en [Vercel vs Netlify vs GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) tienes la alternativa sin coste mensual.
 
 ## Lo que aprendí y lo que cambiaría
 
