@@ -1710,6 +1710,12 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
 
 /* Formulario alojado por beehiiv dentro de un iframe: la API v2 no se puede usar
    desde el navegador (401 sin API key y sin cabeceras CORS). */
+.newsletter-embed-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+}
+
 .newsletter-embed {
   display: block;
   width: 100%;
@@ -1717,6 +1723,19 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   height: 320px;
   border: 0;
   background: transparent;
+}
+
+.newsletter-fallback {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--bg);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.newsletter-fallback .btn {
+  margin-top: 0.75rem;
 }
 
 .nl-note {
