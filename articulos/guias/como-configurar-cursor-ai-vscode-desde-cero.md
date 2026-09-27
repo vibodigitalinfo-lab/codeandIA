@@ -45,3 +45,4 @@ Lo que menos me convence es que en proyectos muy grandes a veces tarda un poco m
 
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
 - [7 extensiones de IA para VS Code que uso a diario (y una que quité)](/articulos/listas/extensiones-ia-vscode-estudiantes-2026/)
+- [GitHub Copilot Business vs Individual para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)

@@ -57,4 +57,4 @@ Y cuando la tengas bien montada, guarda los prompts que te funcionan. Yo tengo l
 
 - [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)
 - [Git con IA: mensajes de commit, rebase y blame asistidos](/articulos/guias/git-con-ia-2026/)
-- [TypeScript para estudiantes: los 6 tipos que te ahorran depurar con IA](/articulos/guias/typescript-para-estudiantes-con-ia/)
+- [IA para refactorizar código legacy: cuál funciona mejor en 2026](/articulos/comparativas/herramientas-ia-refactorizar-codigo-legacy-2026/)

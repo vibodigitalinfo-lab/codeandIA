@@ -58,5 +58,6 @@ Y no te quedes solo con Copilot: el pack incluye bastante más cosas (dominio, h
 ## Sigue por aquí
 
 - [GitHub Copilot Business vs Individual para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)
+- [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
 - [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
 - [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)

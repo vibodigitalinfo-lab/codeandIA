@@ -61,4 +61,4 @@ Ninguna de estas herramientas sustituye entender lo que estás haciendo, eso ya 
 
 - [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/)
 - [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
-- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)
+- [Notion vs Obsidian para estudiantes: cuál me queda mejor](/articulos/comparativas/notion-vs-obsidian-estudiantes-programacion/)

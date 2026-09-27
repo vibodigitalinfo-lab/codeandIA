@@ -36,9 +36,9 @@ También usé ChatGPT para redactar los textos de los proyectos. No para que los
 
 ## Cómo publicar el portfolio: hosting real vs GitHub Pages
 
-Esta parte también tiene su historia. GitHub Pages es gratis y está bien para empezar, pero tiene una limitación que a mí me importó: la URL queda algo así como `tuusuario.github.io/miportfolio`, y eso no da la mejor impresión si quieres mandárselo a alguien con pinta profesional.
+Esta parte también tiene su historia. GitHub Pages es gratis y está bien para empezar, pero tiene una limitación que a mí me importó: la URL queda algo así como `tuusuario.github.io/miportfolio`, y eso no da la mejor impresión si quieres mandárselo a alguien con pinta profesional. Las diferencias entre opciones gratuitas y de pago las comparé en [Vercel vs Netlify vs GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/).
 
-Por eso terminé contratando un dominio y hosting con [Hostinger](https://www.hostinger.com/es). El precio es bastante razonable —menos de 3€ al mes en los planes de entrada— y el proceso de subir los archivos por FTP o a través de su panel es bastante sencillo. La diferencia entre tener `tuportfolio.es` y la URL de GitHub la noté incluso en cómo yo mismo me presentaba. Es un detalle pequeño, pero cuando llevas tu portfolio a una entrevista o lo pones en LinkedIn, importa.
+Por eso terminé contratando un dominio y hosting con [Hostinger](https://www.hostinger.com/es) (si dudas con Namecheap, mira [Hostinger vs Namecheap para tu primer dominio](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/)). El precio es bastante razonable —menos de 3€ al mes en los planes de entrada— y el proceso de subir los archivos por FTP o a través de su panel es bastante sencillo. La diferencia entre tener `tuportfolio.es` y la URL de GitHub la noté incluso en cómo yo mismo me presentaba. Es un detalle pequeño, pero cuando llevas tu portfolio a una entrevista o lo pones en LinkedIn, importa. Y si dudas sobre qué proyectos meter, en [5 proyectos de portfolio para un fin de semana](/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/) tienes ideas concretas.
 
 La instalación de un certificado SSL también viene incluida, así que la URL empieza por `https://` sin tener que hacer nada especial. Eso antes era un dolor de cabeza.
 
@@ -54,3 +54,4 @@ Si estás en DAW o estás aprendiendo desarrollo web por tu cuenta y todavía no
 
 - [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)
 - [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)
+- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)

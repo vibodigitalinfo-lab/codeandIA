@@ -45,3 +45,4 @@ Si estás en la misma situación que yo hace un mes, con un proyecto guardado es
 
 - [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/)
 - [Namecheap vs Porkbun para un dominio .es siendo estudiante](/articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/)
+- [SQLite vs PostgreSQL para tu proyecto de DAW](/articulos/comparativas/sqlite-vs-postgresql-proyecto-daw/)

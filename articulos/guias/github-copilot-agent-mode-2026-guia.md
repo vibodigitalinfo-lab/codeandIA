@@ -155,4 +155,4 @@ Agent Mode sigue exigiéndome más de lo que regala: cuanto más contexto le doy
 
 - [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
 - [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
-- [AGENTS.md: la guía de instrucciones para IA en tus proyectos (2026)](/articulos/guias/agents-md-guia-2026/)
+- [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)

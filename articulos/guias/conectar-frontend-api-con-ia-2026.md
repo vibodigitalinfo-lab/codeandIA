@@ -19,7 +19,7 @@ fetch("http://localhost:8080/api/alumnos")
   .then(alumnos => console.log(alumnos));
 ```
 
-Ese bloque parece trivial, pero detrás hay dos trampas que van a aparecer sí o sí, y aquí está lo bueno: si ya hiciste la API con mi guía de Spring Boot, estos son los dos puntos donde ella y tú te chocáis.
+Ese bloque parece trivial, pero detrás hay dos trampas que van a aparecer sí o sí, y aquí está lo bueno: si ya hiciste la API con mi [guía de tu primera API REST en Spring Boot](/articulos/guias/primera-api-rest-spring-boot-ia-daw/), estos son los dos puntos donde ella y tú te chocáis.
 
 ## La trampa número uno: los nombres de los campos
 
@@ -31,7 +31,7 @@ Mi técnica con la IA: primero imprimo el JSON real con `console.log(alumnos)`, 
 
 Aquí llega la dichosa barrera roja. Si tu frontend está en un sitio y la API en otro (distinto puerto cuenta como distinto sitio), el navegador bloquea la petición por seguridad y te muestra el clásico "has been blocked by CORS policy". El mensaje da miedo, pero la solución es sencilla: la API debe decir al navegador "este otro origen puede llamarme".
 
-En Spring Boot, la forma más rápida para tu proyecto de DAW es el `@CrossOrigin` en el controlador, que ya dejé resuelto en la guía de la primera API. Punto importante: la IA te va a proponer un montón de configuraciones de CORS con filtros y beans; para un proyecto de clase, el `@CrossOrigin` basta y es mucho más fácil de explicar cuando te pregunten.
+En Spring Boot, la forma más rápida para tu proyecto de DAW es el `@CrossOrigin` en el controlador, que ya dejé resuelto en la [guía de la primera API REST](/articulos/guias/primera-api-rest-spring-boot-ia-daw/). Punto importante: la IA te va a proponer un montón de configuraciones de CORS con filtros y beans; para un proyecto de clase, el `@CrossOrigin` basta y es mucho más fácil de explicar cuando te pregunten. Y si en vez de HTML plano usas un framework moderno, en la [comparativa de React vs Vue con IA](/articulos/comparativas/react-vs-vue-con-ia-daw-2026/) tienes cómo llamar al fetch en cada uno.
 
 ## El patrón que te saca de apuros: pintar, enviar y esperar
 
@@ -60,4 +60,5 @@ Conectar el front y el backend es el momento en que tu proyecto de DAW pasa de "
 ## Sigue por aquí
 
 - [TypeScript para estudiantes: los 6 tipos que te ahorran depurar con IA](/articulos/guias/typescript-para-estudiantes-con-ia/)
-- [v0 by Vercel y alternativas 2026: IA que genera interfaces](/articulos/listas/v0-vercel-ia-ui-generacion-lista-herramientas/)
+- [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
+- [Git con IA: mensajes de commit, rebase y blame asistidos](/articulos/guias/git-con-ia-2026/)

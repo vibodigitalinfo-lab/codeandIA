@@ -49,4 +49,4 @@ Para mí la señal clara fue cuando empecé a chocar con el límite de peticione
 
 - [Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/)
 - [¿Merece la pena pagar por IA en 2026? Cursor, Copilot y Claude](/articulos/comparativas/merece-la-pena-pagar-ia-2026/)
-- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)
+- [GitHub Copilot Business vs Individual para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)

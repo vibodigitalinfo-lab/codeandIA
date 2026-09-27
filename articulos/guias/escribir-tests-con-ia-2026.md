@@ -56,4 +56,4 @@ Y una cosa de cobertura: **tirar de "100% de cobertura" como meta es una trampa*
 
 - [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
 - [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)
-- [TypeScript para estudiantes: los 6 tipos que te ahorran depurar con IA](/articulos/guias/typescript-para-estudiantes-con-ia/)
+- [IA para refactorizar código legacy: cuál funciona mejor en 2026](/articulos/comparativas/herramientas-ia-refactorizar-codigo-legacy-2026/)

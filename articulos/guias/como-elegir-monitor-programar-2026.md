@@ -52,7 +52,7 @@ La comparación automática de la web de AOC: panel IPS con negros grisáceos co
 
 ## Ergonomía: mide antes de comprar
 
-Esta es la parte que nadie mira y la que más afecta a tu espalda. Comprueba tres cosas:
+Esta es la parte que nadie mira y la que más afecta a tu espalda. De hecho, junto a una [silla ergonómica que sirva](/articulos/listas/silla-ergonomica-barata-programar/) y un [ratón ergonómico](/articulos/listas/raton-ergonomico-programadores/), la altura del monitor decide si terminas el día con dolor de cuello o no. Comprueba tres cosas:
 
 - **Ajuste de altura.** Es el más importante. Si la pantalla no sube y baja, vas a acabar con la cabeza inclinada, y en dos semanas te va a doler el cuello. Prioriza esto por encima de la tasa de refresco, sin excepción.
 - **Inclinación.** Al menos unos 15 grados hacia atrás y hacia delante.
@@ -64,9 +64,9 @@ Y el soporte **VESA** (normalmente 75x75 o 100x100), por si más adelante quiere
 
 Si vas con portátil, el **USB-C con Power Delivery** es la diferencia entre un escritorio limpio y un caos de cables. Un solo cable te da imagen, datos y carga.
 
-Aquí viene la trampa: el monitor se anuncia con los vatios que entrega, no con los que acepta. Un monitor que entrega 140W entrega como mucho 60W por USB si el cable es el correcto, y mucho menos por un USB-A. Comprueba los vatios de carga reales del monitor, no los vatios de entrega, y míralos junto a los que gasta tu portátil. Si los números no cuadran, te toca cargador aparte.
+Aquí viene la trampa: el monitor se anuncia con los vatios que entrega, no con los que acepta. Un monitor que entrega 140W entrega como mucho 60W por USB si el cable es el correcto, y mucho menos por un USB-A. Comprueba los vatios de carga reales del monitor, no los vatios de entrega, y míralos junto a los que gasta tu portátil. Si los números no cuadran, te toca cargador aparte. Si buscas un [dock USB-C](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) que lo resuelva todo, esa comparativa tiene una sección de accesorios.
 
-Si tu portátil solo tiene USB-A, no es problema: usas un cable HDMI o DisplayPort y el cargador aparte. Renunciar al USB-C no debe hacerte descartar un monitor, pero conviene que sea una decisión y no una sorpresa.
+Si tu portátil solo tiene USB-A, no es problema: usas un cable HDMI o DisplayPort y el cargador aparte. Renunciar al USB-C no debe hacerte descartar un monitor, pero conviene que sea una decisión y no una sorpresa. Si estás eligiendo portátil, la [guía de qué comprar para DAW](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/) te dice qué puertos buscar.
 
 ## Qué buscar en cada franja de precio
 
@@ -98,4 +98,4 @@ Y si lo que quieres es comparar con criterio los modelos que hay ahora mismo, la
 
 - [Comparativa de monitores ultrawide para programar](/articulos/comparativas/monitor-ultrawide-programar/) — Xiaomi, LG, Dell y AOC con el precio real de cada uno.
 - [Setup completo por 500 euros](/articulos/guias/setup-completo-programar-500-euros/) — el orden en que conviene gastar cuando el presupuesto es justo.
-- [Ofertas para programadores](/ofertas/) — todos los productos que uso, con la fecha en que comprobé cada precio.
+- [Qué portátil comprar para estudiar DAW en 2026](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/) — el equilibrio RAM/CPU/pantalla que necesitas.
