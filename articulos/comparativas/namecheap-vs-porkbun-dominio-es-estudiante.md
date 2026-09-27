@@ -40,7 +40,7 @@ Esto para mí fue casi más importante que el precio. Como estudiante de DAW, no
 
 **Porkbun** tiene una interfaz que me gustó bastante. Es moderna, limpia, y la gestión de DNS es directa. Sin capas innecesarias, sin que tengas que buscar dónde está cada cosa. Para alguien que empieza y no quiere pelearse con un panel anticuado, Porkbun se siente bien.
 
-**Namecheap** tiene su propio panel llamado Freenom... no, perdón, su panel es el de Namecheap directamente. La gestión de DNS también es sencilla, con una vista de Advanced DNS que te permite añadir registros sin complicaciones. Lleva más años en el mercado y la documentación disponible online es enorme. Si tienes una duda, hay un tutorial, un hilo en Reddit o una respuesta en su propio knowledge base que ya te la resuelve.
+**Namecheap** tiene su propio panel, y además lleva más años en el mercado que Porkbun. La gestión de DNS también es sencilla, con una vista de Advanced DNS que te permite añadir registros sin complicaciones. La documentación disponible online es enorme. Si tienes una duda, hay un tutorial, un hilo en Reddit o una respuesta en su propio knowledge base que ya te la resuelve.
 
 Eso, siendo realistas, vale mucho cuando estás aprendiendo. Googlear un error y que te salga documentación oficial de Namecheap con los pasos claros te ahorra tiempo de verdad.
 
