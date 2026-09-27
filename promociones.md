@@ -134,7 +134,8 @@ así que se indexa en esta lista en vez de usar %b.
               {% if p.nota %}<p class="sp-note">{{ p.nota }}</p>{% endif %}
               {% if p.verificado %}
               {% assign v = p.verificado | split: "-" %}
-              <p class="sp-verificado">Precio comprobado el {{ v[2] | plus: 0 }} de {{ meses_es[v[1] | plus: 0 | minus: 1] }} de {{ v[0] }}.</p>
+              {% assign vmi = v[1] | plus: 0 | minus: 1 %}
+              <p class="sp-verificado">Precio comprobado el {{ v[2] | plus: 0 }} de {{ meses_es[vmi] }} de {{ v[0] }}.</p>
               {% endif %}
             </li>
             {% endfor %}

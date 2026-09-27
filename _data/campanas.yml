@@ -41,13 +41,3 @@
   titulo: "Regalos originales que un programador va a usar de verdad"
   resumen: "Teclados, ratones, libros y suscripciones, con el criterio de no regalar un gadget que acaba en un cajón."
   url: "/articulos/listas/regalos-programadores-navidad-2026/"
-
-# TEMPORAL: fecha pasada a proposito, para comprobar en la pagina publicada
-# que la rama "ya publicada" renderiza el enlace. Quitar antes de publicar.
-- id: prueba-temporal
-  fecha: 2026-09-01
-  fecha_texto: "1 de septiembre"
-  etiqueta: "Prueba"
-  titulo: "Tarjeta de prueba (BORRAR)"
-  resumen: "Esta tarjeta existe solo para verificar el enlace en la build real."
-  url: "/articulos/listas/silla-ergonomica-barata-programar/"
