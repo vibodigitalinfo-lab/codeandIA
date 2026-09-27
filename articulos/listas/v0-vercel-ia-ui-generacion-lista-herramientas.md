@@ -160,6 +160,8 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 
 **Para estudiante DAW**: **v0 Free + Bolt Free** cubren el 90% de casos (portfolio, prácticas web, componentes). **Lovable** solo si tu proyecto final de curso **necesita backend real** y no quieres perder tiempo en auth/BD.
 
+Un aviso honesto sobre este tipo de herramientas: el HTML sale limpio, pero lo que no te dan es criterio de accesibilidad. Botones que no son botones, contraste justísimo y `div` donde debería ir un `label` pasan el filtro de "se ve bien" y suspenden el de "se puede usar". Antes de entregar, dedicate media hora a [la accesibilidad web con IA](/articulos/guias/accesibilidad-web-con-ia-daw-2026/), que es justo el peaje que te cobran en la corrección.
+
 Mi consejo: **prueba las tres versiones gratis esta tarde**. En 30 min cada una sabrás cuál "te habla". La IA no te va a escribir el portfolio por ti, pero te quita el síndrome de la pantalla en blanco y el CSS que no centra el div.
 
 Hazme una cosa: genera la página que necesitas de verdad, no un ejemplo. Cuando veas el resultado séptima versión, entenderás en qué punto está esto del UI por prompt y qué falta.

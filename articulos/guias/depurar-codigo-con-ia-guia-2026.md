@@ -52,3 +52,9 @@ También haría **una buena config de contexto** (un `AGENTS.md` con las reglas 
 **Depurar con IA funciona de verdad, pero solo si el método está de tu lado.** La culpa casi nunca es de la IA: es de cómo le estamos pidiendo. Reproduce, clasifica, da contexto, pide causa y revisa línea a línea. Con esas cinco cosas, la IA pasa de "adivinadora de parches" a "compañera de depuración": te da la hipótesis, y tú decides si es cierta.
 
 Y cuando la tengas bien montada, guarda los prompts que te funcionan. Yo tengo los míos para errores de compilación, runtime y lógica en [esta lista de prompts para corregir errores](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/). Si te atascas en un error concreto de tus módulos y no consigues que la IA te dé una causa que cuadre, escríbeme a ivan@codeandia.com con el código y te digo qué contexto le falta.
+
+## Sigue por aquí
+
+- [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)
+- [Git con IA: mensajes de commit, rebase y blame asistidos](/articulos/guias/git-con-ia-2026/)
+- [TypeScript para estudiantes: los 6 tipos que te ahorran depurar con IA](/articulos/guias/typescript-para-estudiantes-con-ia/)

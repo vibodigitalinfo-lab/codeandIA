@@ -74,3 +74,9 @@ El error que más tiempo me comió fue el de los **volúmenes**: la base de dato
 Cuando tu API de Spring, tu base de datos y tu frontend arrancan con un solo `docker compose up -d`, y el profe dice "ponlo en marcha" y lo ves funcionar en su portátil, te das cuenta de que el esfuerzo valió la pena. Docker no es obligatorio en DAW, pero en las prácticas de empresa te lo encontrarás sí o sí, y llegar sabiendo leer (y arreglar) un compose te separa de la mitad de la clase.
 
 Mi consejo: no empieces con el Dockerfile de tu proyecto real. Empieza por el `nginx` suelto de arriba, luego un contenedor Node, y el día siguiente ya con compose. Ve en pasos pequeños, pídele a la IA las explicaciones, y si te quedas atascado con un puerto o un volumen, me lo cuentas cuando quieras y te digo por dónde tirar.
+
+## Sigue por aquí
+
+- [Cómo hacer tu primer API REST con Spring Boot e IA](/articulos/guias/primera-api-rest-spring-boot-ia-daw/)
+- [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
+- [Conectar tu frontend al API con IA: la guía de DAW que falta en clase](/articulos/guias/conectar-frontend-api-con-ia-2026/)

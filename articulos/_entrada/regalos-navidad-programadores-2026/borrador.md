@@ -3,7 +3,7 @@ layout: default
 title: "Regalos para programadores: todas las ideas de Navidad 2026"
 description: "Hub Navidad codeandIA: regalos para programadores por presupuesto, para estudiantes que aprenden a programar y gadgets de setup. Ideas que de verdad se usan."
 permalink: /regalos-navidad-programadores-2026/
-date: 2026-11-10
+date: 2026-12-01
 sitemap: true
 ---
 

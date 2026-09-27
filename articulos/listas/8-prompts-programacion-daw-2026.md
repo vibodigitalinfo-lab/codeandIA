@@ -83,3 +83,9 @@ Con esta filosofía, la IA pasa de ser una máquina de hacer tareas a ser exacta
 
 Si todavía estás trasteando qué papel le das a la IA en el curso, te cuento [el método que uso para preparar exámenes prácticos sin volverme dependiente](/articulos/guias/preparar-examenes-practicos-daw-con-ia/), que es la otra mitad de esta historia. Y si te da pereza copiar prompts a mano, llévate la idea de fondo a tu propia forma de preguntar: restricción, contexto concreto y "no me des la solución, dame la pista". Con eso ya vas mejor que con el prompt más largo del mundo.
 
+
+## Sigue por aquí
+
+- [7 herramientas de IA para automatizar tareas aburridas](/articulos/listas/herramientas-ia-automatizar-tareas-aburridas-programador/)
+- [Algoritmos con IA: cómo estudiar sin que te haga los ejercicios](/articulos/guias/algoritmos-con-ia-estudio/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)

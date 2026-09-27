@@ -63,3 +63,9 @@ Ahí sí: **Cursor Pro+ / Claude Max / ChatGPT Pro**. Pero espera a que te lo pa
 **En 2026, para un estudiante de DAW con presupuesto de pocas narices, la respuesta es: no hace falta pagar hasta que el proyecto lo pida.** El pack gratis (Copilot Free + un chat + Cursor Hobby) tiene agent module, autocompletado y contexto para aprobar el curso entero. En cuanto un proyecto de prácticas o un curro te meta horas de picoteo sostenido, entonces sí, los 20 €/mes de Cursor o Claude se pagan solos.
 
 Lo que me ha liado todo el año es lo inestable de los planes de estudiante: un día quitan el gratis de Cursor, otro pausan las altas de Copilot. Mi consejo real: **no montes tu estrategia de aprendizaje sobre un plan gratis que puede desaparecer de un mes a otro**. Que lo gratis te sirva para aprender, y que la decisión de pagar sea tuya, cuando el proyecto la justifique, no cuando el descuento lo diga. Si quieres que valore tu caso concreto (módulos, proyectos, presupuesto), escríbeme a ivan@codeandia.com y te digo cuál de los tres te sale a cuenta de verdad.
+
+## Sigue por aquí
+
+- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)
+- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
+- [7 herramientas de IA gratuitas para estudiantes de desarrollo web](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/)

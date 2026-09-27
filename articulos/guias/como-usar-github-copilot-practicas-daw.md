@@ -42,3 +42,9 @@ Después de un año usándolo casi a diario, mi opinión es que sí merece la pe
 
 Ahora que estoy en segundo lo veo de otra forma. Ya tengo la base y lo uso más como lo que es, un compañero que te propone cosas y tú decides si las aceptas, las cambias o las tiras a la basura. Para las prácticas de clase, para los proyectos de módulo y sobre todo para cuando se te acumulan tres entregas la misma semana, Copilot es de las pocas herramientas de IA que realmente he integrado en mi rutina de estudio y no he abandonado a los dos meses como me pasó con otras.
 
+
+## Sigue por aquí
+
+- [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
+- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
+- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)

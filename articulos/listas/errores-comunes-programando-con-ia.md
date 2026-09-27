@@ -152,3 +152,9 @@ No sugieras cambios de estilo, solo lógica."
 ---
 
 De todos estos, el que más me costó fue el primero: la confianza ciega. El resto vino solo. Si te reconoces en cualquiera de ellos, ya estás a medio camino de no cometerlo.
+
+## Sigue por aquí
+
+- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)
+- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)
+- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)

@@ -70,3 +70,9 @@ Y al final, siendo honestos, esto es lo que importa: que la herramienta no se co
 
 Si te quedas con VS Code, aprovecha y aprende bien [cómo usar GitHub Copilot en las prácticas de DAW](/articulos/guias/como-usar-github-copilot-practicas-daw/). Y si decides que quieres el modo agente serio, esta [guía del Agent Mode de Copilot](/articulos/guias/github-copilot-agent-mode-2026-guia/) y la [de Cursor Pro vs Free](/articulos/comparativas/cursor-ai-plan-pro-vs-free/) te sacan de dudas.
 
+
+## Sigue por aquí
+
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [15 atajos de VS Code que te ahorrarán horas cada día](/articulos/listas/atajos-vscode-ahorrar-horas-ia/)

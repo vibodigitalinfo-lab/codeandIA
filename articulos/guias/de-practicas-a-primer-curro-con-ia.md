@@ -196,3 +196,9 @@ Después damelo a mí para que lo intente.
 ---
 
 Si me escribes a ivan@codeandia.com contándome qué parte de la entrevista te mete más miedo, te digo cómo la atacaría yo con lo de esta guía. Sin guion, con lo que de verdad me funcionó.
+
+## Sigue por aquí
+
+- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)
+- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)
+- [Cómo crear tu primer portfolio de desarrollador web con IA paso a paso](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/)

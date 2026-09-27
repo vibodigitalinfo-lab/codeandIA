@@ -73,3 +73,9 @@ Este es el mío, que imprimo mentalmente cada vez que actualizo el portfolio:
 La clave de todo esto es que la IA te ha dado la *velocidad* para ir de cero a un portfolio digno en días, pero el argumento (qué eres y por qué te eligen) sigue siendo tuyo. Cuando lo entiendes así, el portfolio deja de ser estrés y se convierte en lo que debería haber sido desde el principio: una herramienta de venta, no un diario de código.
 
 Y si me escribes a ivan@codeandia.com contándome qué has subido ya, te digo la primera cosa que cambiaría. Y la segunda, si te veo motivado.
+
+## Sigue por aquí
+
+- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
+- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)

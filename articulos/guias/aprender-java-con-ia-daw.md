@@ -56,3 +56,9 @@ Da igual cómo hayas llegado a tu código: hay errores que el profesor (y despu�
 **Aprender Java con IA es la mejor decisión del primer año… si tú escribes, ella corrige.** La IA no te va a quitar el miedo a la POO, pero sí te ahorra las dos horas de "por qué no compila esto" y te enseña a depurar como lo haría alguien con experiencia. El coste real es cero (los models gratuitos sobran para esto) y el beneficio es que llegues al examen pudiendo defender **cada línea que entregas**.
 
 Empieza esta tarde: abre tu proyecto, escribe una clase a mano con tu intento de herencia, y pídele el prompt 1 antes de que te dé la solución. Cuando la tengas, pídele el prompt 2 con el primer error que te salga y aprende a leerlo sola. Y si quieres, mándame tu temario al correo ivan@codeandia.com y te preparo una tanda de ejercicios tipo examen para entrenar con la IA.
+
+## Sigue por aquí
+
+- [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
+- [Cómo usar ChatGPT para aprender JavaScript siendo principiante](/articulos/guias/chatgpt-para-aprender-javascript-principiante/)
+- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)

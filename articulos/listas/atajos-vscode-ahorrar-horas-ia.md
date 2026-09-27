@@ -70,3 +70,5 @@ Personalmente, el que más me cambió fue `Shift+P` (la paleta de comandos), por
 ## Sigue por aquí
 
 - [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
+- [7 extensiones de IA para VS Code que uso a diario (y una que quité)](/articulos/listas/extensiones-ia-vscode-estudiantes-2026/)
+- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)

@@ -65,3 +65,9 @@ Y no me equivocaría al decirte que con esta forma de trabajar he tardado el dob
 
 Si quieres los prompts exactos que uso en cada fase (los de explicación, los de generar ejercicios, los de corregir con pistas), los tienes todos en [los 8 prompts que me salvan el curso de DAW](/articulos/listas/8-prompts-programacion-daw-2026/), listos para copiar. Y si aún no has montado tu flujo de IA en el editor, esta [guía de cómo usar GitHub Copilot en las prácticas](/articulos/guias/como-usar-github-copilot-practicas-daw/) te viene bien.
 
+
+## Sigue por aquí
+
+- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)
+- [Algoritmos con IA: cómo estudiar sin que te haga los ejercicios](/articulos/guias/algoritmos-con-ia-estudio/)
+- [SQL y bases de datos con IA: aprende practicando en 2026](/articulos/guias/aprender-sql-con-ia-daw-2026/)

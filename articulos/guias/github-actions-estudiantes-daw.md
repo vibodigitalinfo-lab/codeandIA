@@ -306,3 +306,5 @@ Si montas un workflow que te ahorra una hora semanal, cuéntamelo: escríbeme a 
 ## Sigue por aquí
 
 - [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
+- [Git con IA: mensajes de commit, rebase y blame asistidos](/articulos/guias/git-con-ia-2026/)
+- [Docker para estudiantes DAW: cómo usarlo con IA sin morir](/articulos/guias/docker-para-daw-con-ia-2026/)

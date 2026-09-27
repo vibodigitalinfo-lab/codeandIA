@@ -228,7 +228,7 @@ Así mi workflow de CI/CD puede correr tests con credenciales de testing y despl
 Porque sé que el debugging de GitHub Actions es frustrante, aquí van algunos errores reales que me han pasado:
 
 1. **Usar `{% raw %}${{ env.MI_KEY }}{% endraw %}` en vez de `{% raw %}${{ secrets.MI_KEY }}{% endraw %}`**: `env` solo funciona para variables que ya has seteado en el step actual
-2. **Olvidar las comillas en el nombre del secret**: `${{ secrets.my secret }}` no funciona por el espacio
+2. **Olvidar las comillas en el nombre del secret**: `{% raw %}${{ secrets.my secret }}{% endraw %}` no funciona por el espacio
 3. **Usar secrets en un step `if`**: las condiciones se evalúan antes de que los secrets estén disponibles
 4. **Secrets de un fork no se copian**: cuando haces fork de un repo, los secrets no se transfieren (por seguridad)
 

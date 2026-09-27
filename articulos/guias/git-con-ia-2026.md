@@ -106,3 +106,9 @@ Esto encaja con el día a día que cuento en [GitHub Actions para DAW](/articulo
 Git sigue siendo de lo menos glamuroso de programar y de lo que más dinero te ahorra a medio plazo. La IA no te quita el trabajo de entender qué hiciste: te quita el trabajo de recordarlo. Y en un examen práctico o una primera entrevista, que te pregunten por tu historial y puedas explicarlo commit a commit es la diferencia entre parecer estudiante y parecer programador.
 
 Empieza hoy: crea un repo de práctica, deja un commit feo a propósito y dedícale una tarde a los comandos de aquí. Cuando dentro de un mes entiendas tu propio historial de un vistazo, dime si Git todavía te da miedo.
+
+## Sigue por aquí
+
+- [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)
+- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)
+- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)

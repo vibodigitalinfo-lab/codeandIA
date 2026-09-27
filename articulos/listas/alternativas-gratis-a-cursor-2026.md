@@ -56,3 +56,9 @@ Esto es lo que uso yo en modo "temporada de vacas flacas": **VS Code + Copilot F
 **En 2026, "alternativa gratis a Cursor" ya no existe como una única herramienta: es una combinación.** Copilot Free + Cline + un chat te da más de lo que te daba comprar un IDE solo, y sin gastar. La lista vieja de "descárgate Windsurf" está muerta; la nueva lista se monta en tu editor de siempre con dos piezas libres y una mentalidad: la IA gratis no es peor, simplemente se usa en trozos.
 
 Y el mejor consejo de todos los que me han funcionado: **no bases tu estudio en el plan gratis de una sola herramienta, porque en 2026 los planes gratis se mueven de un mes a otro**. Monta tu vector con varias piezas y así nunca dependerás de un descuento para aprender. Si quieres que te monte la combinación a tu medida (módulos, editor, presupuesto cero), escríbeme a ivan@codeandia.com y te la dejo lista.
+
+## Sigue por aquí
+
+- [7 herramientas de IA gratuitas para estudiantes de desarrollo web](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/)
+- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

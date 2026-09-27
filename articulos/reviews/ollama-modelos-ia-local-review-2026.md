@@ -72,3 +72,5 @@ Si te está enganchando esto de las herramientas nuevas de IA, te recomiendo ech
 ## Sigue por aquí
 
 - [DeepSeek review 2026: el modelo gratuito que sigue dando guerra](/articulos/reviews/deepseek-review-2026-modelo-gratuito-codigo/)
+- [Ollama vs LM Studio vs Jan: gestores de modelos IA locales](/articulos/comparativas/ollama-vs-lm-studio-vs-jan-2026/)
+- [RAG local con Ollama: respuestas a tus apuntes con IA sin pagar](/articulos/guias/rag-local-ollama-apuntes-2026/)

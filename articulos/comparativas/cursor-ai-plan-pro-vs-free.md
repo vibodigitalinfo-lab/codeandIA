@@ -44,3 +44,9 @@ Si al final decides dar el salto, yo directamente entré desde la web de Cursor 
 
 Para mí la señal clara fue cuando empecé a chocar con el límite de peticiones rápidas antes de que acabara la semana, no ya el mes. Si te suena esto, o si trabajas en proyectos con muchos archivos donde el contexto completo del repo marca la diferencia, Pro te va a compensar casi seguro. Si en cambio programas de forma esporádica, para trabajos puntuales o para aprender sin prisa, yo me quedaría en Free hasta que notes que el límite te frena de verdad. No hay prisa por pagar algo que todavía no necesitas, eso también lo aprendí a base de gastar dinero en herramientas que luego apenas tocaba.
 
+
+## Sigue por aquí
+
+- [Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/)
+- [¿Merece la pena pagar por IA en 2026? Cursor, Copilot y Claude](/articulos/comparativas/merece-la-pena-pagar-ia-2026/)
+- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)

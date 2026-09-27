@@ -62,8 +62,16 @@ Dos cosas que la IA no debe decidir por ti. La primera: si te añade **Spring Se
 
 Y una herramienta que casi nadie usa: la consola de H2 en `http://localhost:8080/h2-console`, con la URL `jdbc:h2:mem:testdb`. Ahí ves si tu `save()` guardó de verdad o si el POST devolvió 200 pero no persistió nada. Un vistazo y sabes si el fallo está en la entidad o en el controlador.
 
+Eso sí: H2 es memoria y se borra cada vez que reinicias. En cuanto el proyecto tenga datos que no quieres perder, tienes que decidir motor de verdad, y ahí la elección ya no es trivial: lo tienes explicado en [SQLite vs PostgreSQL para tu proyecto de DAW](/articulos/comparativas/sqlite-vs-postgresql-proyecto-daw/).
+
 ## El deploy: lo que diferencia un 5 de un 10
 
 El profe no dijo "súbela", pero la diferencia entre enseñar el proyecto en local y enseñar una URL que abre en el móvil es abismal. Para un estático hay mil opciones gratis; para una API con JPA necesitas algo que ejecute Java. Aquí el socio más rápido para un estudiante es un hosting con Tomcat: subes el `.jar` generado por Maven, configuras la base y listo. Es el mismo Hostinger que analicé en mi [review de Hostinger](/articulos/reviews/hostinger-review-2026/) y que comparo con la alternativa gratis en la [guía de qué hosting elegir en DAW](/articulos/guias/que-hosting-elegir-estudiantes-daw-2026/), donde está la letra pequeña de los planes.
 
 No hace falta que lo hagas el primer día. El veredicto real es el de siempre: la API entera la hiciste tú, con la IA ejerciendo de profesor y traductor, no de autómata. Mi consejo final para el módulo es que dediques la primera sesión a entender el `GET` que devuelve `List.of()`, porque cuando ese endpoint responde, ya tienes el 80% del camino andado. El 20% restante es variar los verbos HTTP y aguantar los CORS de la práctica siguiente. Si el tuyo se cuelga en el segundo endpoint, me lo cuentas cuando quieras y te digo por dónde tirar.
+
+## Sigue por aquí
+
+- [Conectar tu frontend al API con IA: la guía de DAW que falta en clase](/articulos/guias/conectar-frontend-api-con-ia-2026/)
+- [Docker para estudiantes DAW: cómo usarlo con IA sin morir](/articulos/guias/docker-para-daw-con-ia-2026/)
+- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)

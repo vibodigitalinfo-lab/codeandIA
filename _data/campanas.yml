@@ -5,38 +5,44 @@
 # o posterior; antes se muestra como texto plano. Ver AGENTS.md, sección
 # "Campañas con fecha".
 #
+# Fechas comprobadas: el Black Friday 2026 es el VIERNES 27 DE NOVIEMBRE
+# (el dia siguiente a Accion de Gracias, jueves 26) y el Cyber Monday el
+# lunes 30. Las piezas de Black Friday salen el propio dia del Black Friday
+# para que los precios del articulo sean los reales, no los de un mes antes.
+# Las de Navidad van en diciembre, que es cuando se compran los regalos.
+#
 # OJO con las URLs: los dos `article` no llevan `permalink` en su frontmatter,
 # así que su URL la decide la ruta del fichero al publicarlos. Si mueves
 # articulos/_entrada/<slug>/borrador.md a una carpeta que no sea
 # articulos/listas/, hay que corregir aquí la url o ese enlace dara 404.
 
 - id: black-friday-lista
-  fecha: 2026-10-30
-  fecha_texto: "30 de octubre"
+  fecha: 2026-11-27
+  fecha_texto: "27 de noviembre"
   etiqueta: "Black Friday"
   titulo: "Las mejores ofertas Black Friday para programadores"
   resumen: "Hosting, teclados, monitores, ratones y herramientas de IA, con el precio que estaba antes y el que se queda."
   url: "/articulos/listas/mejores-ofertas-black-friday-programadores-2026/"
 
 - id: black-friday-hub
-  fecha: 2026-11-05
-  fecha_texto: "5 de noviembre"
+  fecha: 2026-11-27
+  fecha_texto: "27 de noviembre"
   etiqueta: "Black Friday"
   titulo: "Black Friday para programadores: índice de la temporada"
   resumen: "Todas las guías de la semana negra en un solo sitio, ordenadas por presupuesto y por momento de compra."
   url: "/black-friday-programadores-2026/"
 
 - id: navidad-hub
-  fecha: 2026-11-10
-  fecha_texto: "10 de noviembre"
+  fecha: 2026-12-01
+  fecha_texto: "1 de diciembre"
   etiqueta: "Navidad"
   titulo: "Regalos de Navidad para programadores"
   resumen: "Ideas por presupuesto y por persona, desde el detalle barato hasta el regalo que se usa cada día."
   url: "/regalos-navidad-programadores-2026/"
 
 - id: navidad-lista
-  fecha: 2026-11-12
-  fecha_texto: "12 de noviembre"
+  fecha: 2026-12-08
+  fecha_texto: "8 de diciembre"
   etiqueta: "Navidad"
   titulo: "Regalos originales que un programador va a usar de verdad"
   resumen: "Teclados, ratones, libros y suscripciones, con el criterio de no regalar un gadget que acaba en un cajón."

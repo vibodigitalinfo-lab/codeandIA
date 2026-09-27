@@ -61,3 +61,9 @@ Si estás en DAW y no puedes pagarte una suscripción, **regístrate en las dos 
 Si te sobran 20€ al mes, empieza por Claude Pro por la herramienta Claude Code. Si ya pagas Cursor, no necesitas pagar por las dos plataformas: Cursor ya incluye acceso a modelos por su cuenta.
 
 Si quieres compararlo con otras opciones para estudiantes, también tengo la [comparativa de Cursor vs VS Code con IA](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/) y la de [Cursor vs GitHub Copilot para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/). Y si el dinero es tema, la [lista de 7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) incluye otras que me han salvado más de una tarde.
+
+## Sigue por aquí
+
+- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)
+- [Cursor vs Claude Code en 2026: ¿IDE con agente o agente en terminal?](/articulos/comparativas/cursor-vs-claude-code-2026/)
+- [Herramientas de IA de Google para programar en 2026: la guía](/articulos/listas/herramientas-ia-google-2026/)

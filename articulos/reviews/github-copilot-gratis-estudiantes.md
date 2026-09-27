@@ -52,6 +52,10 @@ Lo que no haría es depender de él desde el primer día sin tener ninguna base.
 
 Si quieres probarlo, el punto de entrada es el [GitHub Student Developer Pack](https://education.github.com/pack). El proceso de solicitud es sencillo y si tienes correo educativo, normalmente lo aprueban rápido. Merece la pena hacerlo ya.
 
+Y no te quedes solo con Copilot: el pack incluye bastante más cosas (dominio, hosting, IDEs, créditos) que suelen pasarse por alto. Te lo dejo desglosado en [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/).
+
 ## Sigue por aquí
 
 - [GitHub Copilot Business vs Individual para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)
+- [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
+- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)

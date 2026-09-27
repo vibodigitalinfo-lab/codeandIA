@@ -80,6 +80,8 @@ Luego, cuando el bolsillo diga, agua al ultrawide. Pero nunca antes de tener la 
 
 Y si todavía estás con el portátil de clase, empieza por ahí: te cuento [qué portátil comprar para estudiar DAW en 2026](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/) y [qué hosting elegir para tus prácticas](/articulos/guias/que-hosting-elegir-estudiantes-daw-2026/) antes de gastarte un euro en extras.
 
+Y si el presupuesto no da para 500€ sino para mucho menos, no intentes repartircé. Hay una sola compra que cambia tu día a día y el resto puede esperar: lo resumo en [si solo puedes comprar una cosa para programar, empieza aquí](/articulos/guias/si-solo-puedes-comprar-una-cosa-programar/).
+
 ¿Y tú? ¿Cuál es el primer gasto que harías (o que hiciste) en tu setup? Cuéntamelo, seguro que hay más de una historia con la silla de cocina de por medio.
 
 ## Sigue por aquí

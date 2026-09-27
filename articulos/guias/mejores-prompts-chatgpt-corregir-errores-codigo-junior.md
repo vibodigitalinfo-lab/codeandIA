@@ -48,3 +48,9 @@ No digo que sea obligatorio desde el primer día de clase, pero si ya estás en 
 
 Al final, la diferencia entre corregir código como un junior perdido y corregir código como alguien que está aprendiendo de verdad no está en la herramienta, está en cómo le preguntas. Estos prompts no son magia, son solo la forma en que yo he ido aprendiendo a pedir ayuda sin dejar de entender lo que hago.
 
+
+## Sigue por aquí
+
+- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)
+- [Los 8 prompts que me salvan el curso de DAW (con ejemplos reales)](/articulos/listas/8-prompts-programacion-daw-2026/)
+- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)

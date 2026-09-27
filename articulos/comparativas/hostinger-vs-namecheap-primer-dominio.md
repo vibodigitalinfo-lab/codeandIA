@@ -47,3 +47,9 @@ Si ya tienes claro dónde vas a alojar tu proyecto (Vercel, Railway, un VPS prop
 En mi caso, tengo dominios en los dos. No porque sea indeciso, sino porque empecé con Hostinger cuando lo tenía todo junto y luego registré otros dominios en Namecheap cuando empecé a desplegar en otros sitios. Ninguno me ha fallado. La diferencia real está en para qué lo usas, no en cuál es objetivamente mejor.
 
 Lo que sí te digo: no te quedes paralizado comparando durante horas. Un dominio `.com` cuesta entre 10 y 15 euros al año. El error más grande que puedes cometer es no registrar nada porque no te decides.
+
+## Sigue por aquí
+
+- [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)
+- [Namecheap vs Porkbun para un dominio .es siendo estudiante](/articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/)
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)

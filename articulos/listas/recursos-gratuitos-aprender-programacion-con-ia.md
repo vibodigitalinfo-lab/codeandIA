@@ -62,3 +62,5 @@ Si te quedas con ganas de más, aquí tienes [7 herramientas de IA gratuitas par
 ## Sigue por aquí
 
 - [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)
+- [Algoritmos con IA: cómo estudiar sin que te haga los ejercicios](/articulos/guias/algoritmos-con-ia-estudio/)
+- [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/)

@@ -71,3 +71,9 @@ Para el día a día del ciclo, con proyectos de Java, algo de Python y bastante 
 Si estás pensando en suscribirte a uno de los dos y programas principalmente para web o necesitas las herramientas integradas, [ChatGPT Plus](https://chatgpt.com/upgrade) es una apuesta sólida que muchos programadores usan a diario con buenos resultados. Si vienes de un perfil más de backend o estudias un ciclo como yo, dale una oportunidad seria a Claude antes de decidir.
 
 Lo que no recomiendo es fiarse solo de comparativas de hace seis meses. Los dos modelos han cambiado bastante y seguirán cambiando. Lo mejor que puedes hacer es probarlos con tu código real, con tus errores reales, y ver cuál te da más en tu contexto específico.
+
+## Sigue por aquí
+
+- [GPT-5 vs Claude: cuál programa mejor en 2026](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/)
+- [ChatGPT vs Cursor AI: qué herramienta de IA uso más para programar](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
+- [ChatGPT Plus para programadores: ¿merece la pena pagar 20€ al mes?](/articulos/reviews/chatgpt-plus-para-programadores/)

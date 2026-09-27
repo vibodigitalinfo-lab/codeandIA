@@ -197,3 +197,9 @@ La IA no va a quitarte el trabajo. **Va a quitarle el trabajo a quien no la sepa
 ---
 
 De la lista, tengo curiosidad por saber cuál va a probar cada uno primero. Si me lo dices a ivan@codeandia.com, la uso de titular de la próxima comparativa.
+
+## Sigue por aquí
+
+- [MCP (Model Context Protocol): qué es y por qué deberías conocerlo](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/)
+- [Prompt injection 2026: qué es y cómo proteger tu app con IA](/articulos/guias/prompt-injection-seguridad-apps-ia-2026/)
+- [7 herramientas de IA para automatizar tareas aburridas](/articulos/listas/herramientas-ia-automatizar-tareas-aburridas-programador/)

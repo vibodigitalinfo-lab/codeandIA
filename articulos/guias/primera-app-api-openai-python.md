@@ -135,3 +135,9 @@ Empieza hoy:
 4. Ponle límite de gasto antes de nada.
 
 La primera vez que veas tu app responder vía API vas a pensar que es magia. No lo es: es una librería, una key y un prompt. Cuando el prompt te domine a ti, es buen momento para volver a esta guía.
+
+## Sigue por aquí
+
+- [Prompt injection 2026: qué es y cómo proteger tu app con IA](/articulos/guias/prompt-injection-seguridad-apps-ia-2026/)
+- [Conectar tu frontend al API con IA: la guía de DAW que falta en clase](/articulos/guias/conectar-frontend-api-con-ia-2026/)
+- [Cómo hacer tu primer API REST con Spring Boot e IA](/articulos/guias/primera-api-rest-spring-boot-ia-daw/)

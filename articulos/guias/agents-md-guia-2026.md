@@ -119,3 +119,9 @@ Empieza hoy:
 4. Actualízalo cada vez que cambie algo de tu setup.
 
 Si en tu equipo el AGENTS.md molesta más de lo que ayuda, es normal: estos ficheros se escriben cuando algo se rompe, no antes. Empieza con dos reglas y ve añadiendo cuando sangre.
+
+## Sigue por aquí
+
+- [Cursor Rules (.mdc): cómo configurar la IA a tu gusto](/articulos/guias/cursor-rules-configuracion-mdc-guia/)
+- [Crea tu propio MCP server: conecta una API a tu editor](/articulos/guias/crea-tu-propio-mcp-server/)
+- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)

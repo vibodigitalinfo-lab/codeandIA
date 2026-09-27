@@ -61,3 +61,9 @@ Si tuviera que decir uno solo, mi veredicto es que **el Q20i es el único auricu
 Lo que me importa decirte: no te hace falta gastar 300€ en unos auriculares para estudiar. La diferencia entre unos de 36€ y unos de 300€ existe, pero no es el 800% de diferencia de precio. Empieza por el Q20i y, si con el tiempo te quedas corto, ya subes de nivel.
 
 Y si aprovechas para montar tu rincón de estudio, tengo la [guía del setup completo para programar por 500€](/articulos/guias/setup-completo-programar-500-euros/) silla, teclado, ratón y monitor con lo que cuesta cada uno, o la [lista de auriculares, webcam y sillas ergonómicas](/articulos/listas/silla-ergonomica-barata-programar/) que también me pedís mucho. Primero los oídos, luego el resto.
+
+## Sigue por aquí
+
+- [Los 5 mejores teclados mecánicos para programar en 2026](/articulos/listas/mejores-teclados-mecanicos-programar/)
+- [Algoritmos con IA: cómo estudiar sin que te haga los ejercicios](/articulos/guias/algoritmos-con-ia-estudio/)
+- [Ratón ergonómico para programadores: adiós al dolor de muñeca](/articulos/listas/raton-ergonomico-programadores/)

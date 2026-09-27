@@ -48,3 +48,5 @@ Bajo el paraguas de Google también pruebas **Imagen** para ilustrar tus proyect
 ## Sigue por aquí
 
 - [7 herramientas de IA para automatizar tareas aburridas](/articulos/listas/herramientas-ia-automatizar-tareas-aburridas-programador/)
+- [7 herramientas de IA gratuitas para estudiantes de desarrollo web](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/)
+- [Tu primera app con la API de OpenAI en Python, paso a paso](/articulos/guias/primera-app-api-openai-python/)

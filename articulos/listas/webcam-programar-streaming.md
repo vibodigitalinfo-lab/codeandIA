@@ -101,3 +101,5 @@ Y si quieres combinar tu nueva webcam con un buen teclado, mira [Los 5 mejores t
 ## Sigue por aquí
 
 - [Silla ergonómica barata para programar desde casa (desde 135€)](/articulos/listas/silla-ergonomica-barata-programar/)
+- [Cómo crear tu primer portfolio de desarrollador web con IA paso a paso](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/)
+- [Los mejores auriculares con cancelación de ruido para estudiar en 2026](/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/)

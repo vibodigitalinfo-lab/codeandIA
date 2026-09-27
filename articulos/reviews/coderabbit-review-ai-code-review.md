@@ -96,3 +96,9 @@ Dicho esto: **no des permisos a repos con secretos reales en producción** sin r
 Lo que **no** hace: sustituir la revisión humana. CodeRabbit pilla bugs mecánicos, patrones conocidos y seguridad básica. No entiende la lógica de negocio de tu aplicación, no sabe si el algoritmo es el óptimo para tu caso, y a veces sugiere "limpieza" que solo añade complejidad. Úsalo como **red de seguridad**, no como árbitro final.
 
 Prueba una semana: configuración por defecto y un repo tuyo de verdad. Si no te pilla ningún bug en siete días, me debes una explicación de por qué tus repos están tan limpios.
+
+## Sigue por aquí
+
+- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)
+- [QA Wolf vs Qodo: testing con IA para estudiantes (opinión real)](/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/)
+- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)

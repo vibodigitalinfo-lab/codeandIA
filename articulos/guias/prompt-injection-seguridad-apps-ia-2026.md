@@ -99,3 +99,9 @@ No te va a pasar si tus apps de prácticas no tienen accesos a nada sensible... 
 Y si te atreves, lo fácil: este verano dale a un chatbot la tarea de resumir una web y pídele que luego te diga "qué harías si el resumen incluyera instrucciones ocultas". La teoría no se aprende hasta que la ves funcionar.
 
 Si te llevas una sola cosa de este artículo: trata el output de la IA como la respuesta de un usuario desconocido. Con eso en la cabeza, el LLM01 se defiende casi solo.
+
+## Sigue por aquí
+
+- [Tu primera app con la API de OpenAI en Python, paso a paso](/articulos/guias/primera-app-api-openai-python/)
+- [MCP (Model Context Protocol): qué es y por qué deberías conocerlo](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/)
+- [AGENTS.md: la guía de instrucciones para IA en tus proyectos (2026)](/articulos/guias/agents-md-guia-2026/)

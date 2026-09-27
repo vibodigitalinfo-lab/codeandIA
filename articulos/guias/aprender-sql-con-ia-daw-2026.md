@@ -82,3 +82,9 @@ Empieza esta tarde:
 4. El viernes, llama al prompt 2 y revisa tus consultas como "senior".
 
 Cuando sepas qué módulo de bases de datos te toca, mándame un correo a ivan@codeandia.com con el temario y te devuelvo diez ejercicios por cada tipo de query que vayas a ver.
+
+## Sigue por aquí
+
+- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
+- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)
+- [Algoritmos con IA: cómo estudiar sin que te haga los ejercicios](/articulos/guias/algoritmos-con-ia-estudio/)

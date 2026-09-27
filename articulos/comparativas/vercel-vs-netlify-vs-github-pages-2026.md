@@ -180,3 +180,9 @@ Tienes **Actions minutes gratis (2k/mes)** para buildar donde quieras. El deploy
 Yo tengo **los tres configurados**. Cada repo sabe a dónde va. No hay drama.
 
 No lo pienses más: publica esta tarde algo tuyo en la que más te llame y deja el enlace en tu CV. El sitio perfecto que nunca se sube no cuenta. El feo que está en internet, sí.
+
+## Sigue por aquí
+
+- [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)
+- [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
+- [Cómo crear tu primer portfolio de desarrollador web con IA paso a paso](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/)

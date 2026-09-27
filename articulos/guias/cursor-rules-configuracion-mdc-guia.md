@@ -251,3 +251,9 @@ Sin reglas, Cursor es un junior entusiasta que a veces acierta y a veces la lía
 Mi recomendación: empieza con **3-4 reglas Always/File-scoped** que cubran lo básico (stack, arquitectura, testing). Añade **Intelligent** para cosas transversales. Cuando Cursor falle en algo repetido, **escribe una regla para ese caso**. En dos semanas tienes un "manual de estilo ejecutable" que te ahorra revisar PRs propios.
 
 El mejor .mdc es el que revisas cada dos semanas, no el que escribes a lo grande el primer día. Trátalo como código: edítalo, rompe reglas, y conserva solo lo que te ahorre discusiones.
+
+## Sigue por aquí
+
+- [AGENTS.md: la guía de instrucciones para IA en tus proyectos (2026)](/articulos/guias/agents-md-guia-2026/)
+- [15 atajos de VS Code que te ahorrarán horas cada día](/articulos/listas/atajos-vscode-ahorrar-horas-ia/)
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

@@ -189,3 +189,5 @@ Al final, Claude Code me convence por lo que casi nadie destaca: trabaja en sile
 ## Sigue por aquí
 
 - [Warp terminal: IA en la línea de comandos, ¿cambiar de iTerm/WSL?](/articulos/reviews/warp-terminal-ai-review-2026/)
+- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)
+- [Cursor vs Claude Code en 2026: ¿IDE con agente o agente en terminal?](/articulos/comparativas/cursor-vs-claude-code-2026/)

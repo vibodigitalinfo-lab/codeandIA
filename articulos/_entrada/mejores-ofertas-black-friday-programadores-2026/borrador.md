@@ -3,7 +3,7 @@ layout: article
 title: "Las mejores ofertas Black Friday para programadores 2026"
 description: "Ofertas Black Friday 2026 para programadores: hosting, teclados, monitores, ratones y herramientas con descuentos reales verificados."
 category: "Lista"
-date: 2026-10-30
+date: 2026-11-27
 readtime: 5
 affiliate_text: "Consigue el Keychron V1 Max, mi teclado favorito, en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
@@ -116,6 +116,6 @@ El Black Friday es una oportunidad, no una obligación. Compra con cabeza, no co
 
 ## Cuándo se publica este artículo
 
-Este artículo se publica a finales de octubre para que tenga tiempo de indexarse antes del Black Friday (27 de noviembre de 2026). Si lo estás leyendo después, algunos precios pueden haber cambiado, pero las recomendaciones de productos siguen siendo válidas.
+Este artículo sale el **viernes 27 de noviembre de 2026**, el día del Black Friday. No antes a propósito: los precios de este artículo están comprobados el día que se publica, y publicar un mes antes significaría dar precios que ya no son los de la oferta.
 
-Las ofertas reales se actualizarán en la [página de ofertas del blog](/ofertas/) durante la semana del Black Friday. Si quieres estar al tanto, échale un ojo.
+Si lo estás leyendo en Cyber Week, la [página de ofertas del blog](/ofertas/) se actualiza durante la semana con el precio que hay ese día. Si lo lees mucho después, fíjate en la fecha de cada tarjeta antes de comprar.

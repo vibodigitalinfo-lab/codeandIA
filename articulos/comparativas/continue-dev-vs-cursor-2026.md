@@ -129,3 +129,9 @@ No es religión: es **usar la herramienta que menos fricción pone ese día**. C
 ---
 
 Al final esta comparativa se reduce a una pregunta: ¿prefieres gratis, abierto y laborioso, o de pago, pulido y que te deja trabajar? Mi respuesta cambió con el presupuesto, y no me avergüenza admitirlo. La tuya dependerá del momento del curso en el que estés, y eso también es perfectamente válido.
+
+## Sigue por aquí
+
+- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
+- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

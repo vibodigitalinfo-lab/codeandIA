@@ -45,6 +45,8 @@ Llegará el momento (normalmente hacia la tarde) en que algo no funciona y pegue
 
 También te va a tocar algo que no te esperas: **los estilos**. La IA te propone un CSS bonito, lo pegas, y te queda una web que parece de un plugin. Yo lo que hago es pedirle pocas clases, colores que decido yo y que mire la web en el móvil, porque [el diseño responsive en un primer proyecto](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/) se descuida mucho. El "que se vea bien en un móvil" es una tarea más; no un extra.
 
+Si cuando le pides estilos te devuelve cuarenta clases dentro de un `div`, no es que esté equivocado: es que no sabe cuándo parar. Para eso está [Tailwind con IA: cómo evitar 40 clases en un div](/articulos/guias/tailwind-con-ia-guia-2026/), que es la forma de cortar ese estilo de golpe.
+
 ## Paso 5: publícalo, aunque "no esté listo"
 
 El truco final: **no existe el proyecto listo, existe el proyecto publicado**. Publicar pronto (aunque esté a medias) te obliga a tocar cosas reales: subir, ver la URL, romperla, arreglarla. Esas segundas de "no me carga" son el mejor profesor, y [dominar y dónde alojarla](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) se hacen mucho menos tristes cuando tu web ya se ve en un móvil de verdad.
@@ -60,3 +62,5 @@ Mirando atrás con mis primeros proyectos: habría **dibujado la web en un papel
 ## Sigue por aquí
 
 - [v0 by Vercel y alternativas 2026: IA que genera interfaces](/articulos/listas/v0-vercel-ia-ui-generacion-lista-herramientas/)
+- [Vite vs Next.js vs Astro para tu primer proyecto con IA](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/)
+- [Accesibilidad web con IA: cumplir sin inventarte reglas](/articulos/guias/accesibilidad-web-con-ia-daw-2026/)

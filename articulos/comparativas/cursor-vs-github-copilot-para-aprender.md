@@ -44,3 +44,9 @@ Dicho esto, si eres estudiante y el precio es un problema real, Copilot gratis s
 
 La pregunta que yo me hago ahora no es cuál de las dos es mejor en abstracto. Es cuál me ayuda más a convertirme en mejor programador. Y ahí, por ahora, Cursor me está ganando.
 
+
+## Sigue por aquí
+
+- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
+- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
+- [GitHub Copilot gratis para estudiantes: cómo activarlo y si funciona](/articulos/reviews/github-copilot-gratis-estudiantes/)

@@ -123,3 +123,9 @@ Mi veredicto: no compres una silla de 900€. Compra una de las de esta lista, s
 
 Y ya que estás montando tu setup para programar en casa, te cuento cómo [publicar tu primera web](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) con un presupuesto pequeño, qué [hosting elegí y por qué](/articulos/reviews/hostinger-review-2026/) en mi review, o cómo llenar tu portfolio con [5 proyectos de IA en un fin de semana](/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/). Primero la silla, luego el resto. Y si quieres el escritorio entero, en mi [guía para montar tu setup completo por 500€](/articulos/guias/setup-completo-programar-500-euros/) tienes el teclado, el ratón y todo lo que falta, cada cosa con su precio.
 
+
+## Sigue por aquí
+
+- [Si solo puedes comprar una cosa para programar, empieza aquí](/articulos/guias/si-solo-puedes-comprar-una-cosa-programar/)
+- [Monitor ultrawide para programar: el que yo usaría en 2026](/articulos/comparativas/monitor-ultrawide-programar/)
+- [Ratón ergonómico para programadores: adiós al dolor de muñeca](/articulos/listas/raton-ergonomico-programadores/)

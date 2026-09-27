@@ -84,3 +84,5 @@ No necesitas las 20 extensiones. Necesitas elegir dos (copiloto + agente), darle
 ## Sigue por aquí
 
 - [15 atajos de VS Code que te ahorrarán horas cada día](/articulos/listas/atajos-vscode-ahorrar-horas-ia/)
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
+- [7 extensiones de IA para VS Code que uso a diario (y una que quité)](/articulos/listas/extensiones-ia-vscode-estudiantes-2026/)

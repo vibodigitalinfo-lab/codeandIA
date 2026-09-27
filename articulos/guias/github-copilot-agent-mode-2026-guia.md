@@ -150,3 +150,9 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 Si tienes Student Pack, **activa Copilot Pro y prueba Agent Mode esta tarde**. Cuesta $0 y en 30 min sabes si te cambia el flujo. Si no tienes Student Pack, $10/mes es bajo riesgo.
 
 Agent Mode sigue exigiéndome más de lo que regala: cuanto más contexto le doy, mejor me sale. Pero el día que le encargué una tarea entera y volví con el café, entendí a qué sabe esto en 2026.
+
+## Sigue por aquí
+
+- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
+- [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
+- [AGENTS.md: la guía de instrucciones para IA en tus proyectos (2026)](/articulos/guias/agents-md-guia-2026/)

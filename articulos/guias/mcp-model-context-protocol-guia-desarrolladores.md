@@ -244,3 +244,9 @@ MCP no es "otra cosa que aprender". Es **la capa que hace que el resto de herram
 En 2026, **saber MCP es tan básico como saber Docker o GitHub Actions**. No porque sea obligatorio hoy, sino porque dentro de 6 meses **todas las herramientas de IA lo usarán por defecto** y quien no lo entienda irá a remolque.
 
 Empieza por un MCP inútil pero tuyo: un server que te diga el tiempo o que lea tu lista de la compra. Aprender el mecanismo con algo sin importancia es la diferencia entre entender y copiar.
+
+## Sigue por aquí
+
+- [MCP para principiantes: qué es y por qué está por todas partes](/articulos/guias/mcp-para-principiantes-guia-2026/)
+- [Crea tu propio MCP server: conecta una API a tu editor](/articulos/guias/crea-tu-propio-mcp-server/)
+- [AGENTS.md: la guía de instrucciones para IA en tus proyectos (2026)](/articulos/guias/agents-md-guia-2026/)

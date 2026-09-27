@@ -109,3 +109,9 @@ La pista práctica que más me ha servido: cuando pidas código a la IA, **píde
 TypeScript parece un añadido de Symfony cuando llevas tres meses con JavaScript, y durante un tiempo lo es. Pero en cuanto la IA te genera veinte archivos, los tipos pasan a ser lo único que te dice qué está pasando, y sin ellos estás leyendo código a ciegas. No aprendas todo el lenguaje: aprende estos seis tipos, pídele a la IA que los use, y deja que el editor haga de policía. El día que este tutorial te sirva, ya será porque los estás usando sin pensar.
 
 Si quieres ver estos tipos aplicados a algo real, el mejor sitio es un proyecto pequeño con formulario y API, como el que monto en [tu primer proyecto web con IA](/articulos/guias/primer-proyecto-web-con-ia/) o cuando [conectas un frontend a una API](/articulos/guias/conectar-frontend-api-con-ia-2026/). Y si te atascas con un error que no sabes leer, mándamelo a ivan@codeandia.com y lo miramos juntos.
+
+## Sigue por aquí
+
+- [Cómo crear tu primer portfolio de desarrollador web con IA paso a paso](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/)
+- [Tailwind con IA: cómo evitar 40 clases en un div](/articulos/guias/tailwind-con-ia-guia-2026/)
+- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)

@@ -130,3 +130,9 @@ Si estás en DAW y notas molestias en la muñeca, no esperes. Cambia el ratón a
 
 Si quieres combinar buen hardware con buenas herramientas, echa un vistazo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) para ver cómo optimizar tu flujo de código. Y si aún estás decidiendo entre asistentes de IA, aquí tienes una [comparativa de Claude AI vs ChatGPT Plus](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/) que te puede ayudar. Y si estás montando tu escritorio de cero, en mi [guía del setup por 500€](/articulos/guias/setup-completo-programar-500-euros/) te lo dejo todo ordenado, precios incluidos.
 
+
+## Sigue por aquí
+
+- [Los 5 mejores teclados mecánicos para programar en 2026](/articulos/listas/mejores-teclados-mecanicos-programar/)
+- [Silla ergonómica barata para programar desde casa (desde 135€)](/articulos/listas/silla-ergonomica-barata-programar/)
+- [Cómo elegir monitor para programar sin gastar 400€](/articulos/guias/como-elegir-monitor-programar-2026/)

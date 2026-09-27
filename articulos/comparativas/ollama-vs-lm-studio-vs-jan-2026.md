@@ -157,3 +157,9 @@ Cuando necesito una segunda opinión en Java, escribo `ai "¿por qué falla este
 ---
 
 Después de instalar, configurar y borrar los tres un par de veces, mi conclusión es que no hay ganador: hay etapa. Cuando el portátil me apriete, volveré a releerme estos benchmarks y probablemente vuelva a cambiar de gestor. No le tengas miedo a migrar.
+
+## Sigue por aquí
+
+- [Ollama: modelos de IA en local con un portátil de estudiante](/articulos/reviews/ollama-modelos-ia-local-review-2026/)
+- [RAG local con Ollama: respuestas a tus apuntes con IA sin pagar](/articulos/guias/rag-local-ollama-apuntes-2026/)
+- [Tu primera app con la API de OpenAI en Python, paso a paso](/articulos/guias/primera-app-api-openai-python/)

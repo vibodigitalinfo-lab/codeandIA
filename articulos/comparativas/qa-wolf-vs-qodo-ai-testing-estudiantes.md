@@ -107,3 +107,9 @@ Antes de pagar nada, **esto ya está en tu stack**:
 **Conclusión**: para estudiante de DAW, **QA Wolf no tiene sentido** (precio, enfoque producción). **Qodo sí**: PR-Agent es open source, el plugin IDE genera tests unitarios reales, y el trial de 14 días te da para evaluar si el plan Team ($30/mes equipo) compensa. Empieza por PR-Agent en tu repo de prácticas y verás el valor en el primer PR.
 
 Mi recomendación: usa el plan gratuito hasta que un test te muerda a las tres de la tarde rompiendo lo que funcionaba por la mañana. Esa semana entenderás de golpe por qué la gente paga por esto.
+
+## Sigue por aquí
+
+- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)
+- [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
+- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)

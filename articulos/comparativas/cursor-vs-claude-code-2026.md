@@ -74,3 +74,9 @@ Y si vienes del mundo GitHub Copilot, esta comparativa es la que te conviene par
 No hay ganador absoluto, y eso está bien. Cursor te enseña, Claude Code te ejecuta. En 2026, con 20 euros al mes y un portátil normalito, puedes tener la experiencia de agente real igual que un senior: la barrera de entrada para programar bien con IA sigue siendo la misma que siempre, entender lo que estás haciendo.
 
 Mi recomendación final es que elijas con el presupuesto y el módulo que te toca hoy, no con el hype de la semana. Si me mandas a ivan@codeandia.com tu caso (editor, lenguaje y lo que llevas gastado), te digo cuál cogería yo y por qué.
+
+## Sigue por aquí
+
+- [Cursor AI Pro vs Free: qué incluye cada plan y cuándo pagar](/articulos/comparativas/cursor-ai-plan-pro-vs-free/)
+- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)
+- [Warp terminal: IA en la línea de comandos, ¿cambiar de iTerm/WSL?](/articulos/reviews/warp-terminal-ai-review-2026/)

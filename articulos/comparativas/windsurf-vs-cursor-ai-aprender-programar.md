@@ -61,3 +61,9 @@ Si me preguntas directamente: **Cursor**. No porque Windsurf sea malo, sino porq
 Windsurf tiene cosas que me gustan, especialmente lo fluido que se siente el agente cuando funciona. Si ya tuvieras experiencia y quisieras velocidad pura para un proyecto personal, igual lo vería diferente. Pero en esta etapa, prefiero entender antes que ir rápido.
 
 La realidad es que los dos los puedes probar gratis, así que tampoco tienes que fiarte solo de lo que cuento aquí. Instala Cursor una semana, luego Windsurf otra semana, y decide con tu propio criterio. Eso es exactamente lo que hice yo, y no me arrepiento de haber tardado en elegir.
+
+## Sigue por aquí
+
+- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)
+- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)
+- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)

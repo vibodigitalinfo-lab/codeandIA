@@ -66,3 +66,5 @@ Ese es exactamente el tipo de práctica que te van a examinar: trabajar en ramas
 ## Sigue por aquí
 
 - [IA para refactorizar código legacy: cuál funciona mejor en 2026](/articulos/comparativas/herramientas-ia-refactorizar-codigo-legacy-2026/)
+- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)
+- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)

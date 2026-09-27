@@ -51,6 +51,10 @@ La IA va a estar en tu puesto de trabajo y va a multiplicar tu velocidad. El pro
 
 Mi consejo práctico para este curso: elige un par de ejercicios por semana y hazlos con las cinco reglas — explicar, rehacer, pedir pista, apagón y medir. No son un sacrificio, son la diferencia entre sacar el módulo copiando y llegar a las prácticas sabiendo hacer el trabajo. Si quieres, me pasas un ejercicio concreto que te traiga de cabeza y te digo por dónde empezar a controlarlo tú en vez de soltárselo a la IA.
 
+Y si el módulo que te está costando es el de algoritmos, el problema es casi siempre el mismo pero con un matiz extra: la IA te resuelve el ejercicio y no te queda nada. El método para estudiar esa parte sin que te lo haga está en [Algoritmos con IA: cómo estudiar sin que te haga los ejercicios](/articulos/guias/algoritmos-con-ia-estudio/).
+
 ## Sigue por aquí
 
 - [Cómo usar ChatGPT para aprender JavaScript siendo principiante](/articulos/guias/chatgpt-para-aprender-javascript-principiante/)
+- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)
+- [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)

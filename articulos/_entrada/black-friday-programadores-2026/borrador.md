@@ -3,7 +3,7 @@ layout: default
 title: "Black Friday para programadores 2026: las ofertas que valen"
 description: "Hub Black Friday codeandIA: ofertas de teclados, hosting, dominios e IA para programar. Guías, cupones y estrategia para gastar bien en Black Friday 2026."
 permalink: /black-friday-programadores-2026/
-date: 2026-11-05
+date: 2026-11-27
 sitemap: true
 ---
 
@@ -26,7 +26,7 @@ sitemap: true
 
 # Black Friday para programadores 2026: la guía completa de ofertas
 
-> **HUB DE TEMPORADA** · Published 5-nov-2026. El Black Friday 2026 es el **viernes 27 de noviembre** y el Cyber Monday el **lunes 30**.
+> **HUB DE TEMPORADA** · El Black Friday 2026 es el **viernes 27 de noviembre** y el Cyber Monday el **lunes 30**.
 
 Tu centro de operaciones para el Black Friday 2026: aquí se van enlazando todas las guías y ofertas que de verdad merecen la pena para programadores. Sin humo, sin listas eternas de mierda — lo que funciona.
 
@@ -34,15 +34,9 @@ Tu centro de operaciones para el Black Friday 2026: aquí se van enlazando todas
 
 - **[Las mejores ofertas Black Friday para programadores 2026](/articulos/listas/mejores-ofertas-black-friday-programadores-2026/)** — el paraguas de todo lo bueno de esta semana.
 
-### Se publica en breve
+### Se irá completando
 
-Estas piezas se van publicando según entra en la cadena. Los enlaces se activan el día de su publicación:
-
-- **Qué comprar en Black Friday para programadores** — estrategia y lista mental para no comprar por impulso. *Publica el 6-nov.*
-- **Mejores teclados mecánicos en oferta Black Friday** — si es para programar, es por aquí. *Publica el 9-nov.*
-- **Ofertas hosting y dominios en Black Friday** — Hostinger, Namecheap, Porkbun. *Publica el 13-nov.*
-- **Cupones y ofertas IA para programar en Black Friday** — Cursor, Copilot, Warp, Trae y compañía. *Publica el 18-nov.*
-- **Cyber Monday para programadores 2026** — el suplemento post-ofertas. *Publica el 25-nov.*
+Estas piezas se van publicado durante la temporada y se van añadiendo aquí según entran en la cadena. Si algo no aparece, es que todavía no existe: prefiero un hub corto y cierto a uno lleno de enlaces rotos.
 
 ## El criterio
 

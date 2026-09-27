@@ -65,3 +65,5 @@ La parte de "está cambiando todo" del titular... hasta cierto punto. El impacto
 ## Sigue por aquí
 
 - [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)
+- [DeepSeek vs ChatGPT gratis: cuál programa mejor sin pagar](/articulos/comparativas/deepseek-vs-chatgpt-gratuitos-para-programar/)
+- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)

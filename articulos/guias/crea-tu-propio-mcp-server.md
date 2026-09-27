@@ -128,3 +128,5 @@ Mi recomendación: haz el ejemplo de la lista primero (es una tarde), luego con�
 ## Sigue por aquí
 
 - [Tu primera app con la API de OpenAI en Python, paso a paso](/articulos/guias/primera-app-api-openai-python/)
+- [MCP (Model Context Protocol): qué es y por qué deberías conocerlo](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/)
+- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)

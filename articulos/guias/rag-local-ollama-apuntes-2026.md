@@ -132,3 +132,9 @@ Es además el complemento perfecto al flujo que ya te enseñé: en el [guía de 
 Y si algún día te piden en prácticas "dar contexto de la documentación a un chat interno", ya sabes exactamente qué piezas usa.
 
 El día que le pregunté a mi RAG por un apunte de Java y me respondió mejor que yo, decidí que este proyecto venía para quedarse. Que te parezca poco secreto es buena señal de que funciona.
+
+## Sigue por aquí
+
+- [Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)](/articulos/guias/nocion-ia-apuntes-daw/)
+- [SQL y bases de datos con IA: aprende practicando en 2026](/articulos/guias/aprender-sql-con-ia-daw-2026/)
+- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)

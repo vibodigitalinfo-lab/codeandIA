@@ -68,3 +68,5 @@ El error que veo cada año es el contrario: empezar por Next.js porque es "el qu
 ## Sigue por aquí
 
 - [React vs Vue con IA para tu proyecto de DAW en 2026](/articulos/comparativas/react-vs-vue-con-ia-daw-2026/)
+- [Tailwind con IA: cómo evitar 40 clases en un div](/articulos/guias/tailwind-con-ia-guia-2026/)
+- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)

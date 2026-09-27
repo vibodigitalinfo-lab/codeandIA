@@ -98,3 +98,9 @@ Me quedo con **Zed como editor principal** para proyectos propios y prácticas d
 Para el **proyecto final de curso** (donde el profe exige IntelliJ para Java y a veces Windows nativo), sigo usando IntelliJ + Copilot. No es religión: es usar la herramienta que menos fricción pone ese día.
 
 En Windows sigue siendo promesa, pero la dirección está clara. Lo probaré a fondo el día que su versión para Windows deje de llamarse preview; hasta entonces, VS Code e IntelliJ no corren peligro en mi máquina.
+
+## Sigue por aquí
+
+- [Trae AI IDE 2026: el editor que quiere comerse a Cursor](/articulos/reviews/trae-ai-ide-review-2026/)
+- [Warp terminal: IA en la línea de comandos, ¿cambiar de iTerm/WSL?](/articulos/reviews/warp-terminal-ai-review-2026/)
+- [Cursor vs Claude Code en 2026: ¿IDE con agente o agente en terminal?](/articulos/comparativas/cursor-vs-claude-code-2026/)

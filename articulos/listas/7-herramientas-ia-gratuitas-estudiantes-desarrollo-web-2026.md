@@ -56,3 +56,9 @@ Al final el orden en el que las uso importa más que la lista en sí. Para enten
 
 Ninguna de estas herramientas sustituye entender lo que estás haciendo, eso ya lo he aprendido a las malas en un examen práctico donde no podía usar nada de esto. Pero para aprender más rápido, para no bloquearte solo delante de un error, y para practicar sin gastar dinero que en muchos casos ni tenemos, estas siete son las que de verdad me han funcionado este año.
 
+
+## Sigue por aquí
+
+- [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/)
+- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
+- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)

@@ -76,3 +76,5 @@ Mi consejo: aplica el método tal cual a un archivo la primera vez (aunque lleve
 ## Sigue por aquí
 
 - [Refactorizar código con IA sin romper nada: mi proceso](/articulos/guias/refactorizar-codigo-con-ia-sin-romper/)
+- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)
+- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)

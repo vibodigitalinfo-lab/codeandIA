@@ -114,3 +114,9 @@ Mi recomendación final: el Xiaomi G34WQi. A 249,95€ te da 3440x1440, ajuste d
 
 Si montas tu portafolio con [5 proyectos de portfolio con IA](/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/), un ultrawide te ahorra horas de frustración con el layout. Y para desplegar esos proyectos, mi [review de Hostinger](/articulos/reviews/hostinger-review-2026/) te ayuda a elegir hosting sin perder tiempo. Y si estás montando el escritorio completo, en mi [guía de setup por 500€](/articulos/guias/setup-completo-programar-500-euros/) te ordeno todas las prioridades y los precios que hay hoy.
 
+
+## Sigue por aquí
+
+- [Cómo elegir monitor para programar sin gastar 400€](/articulos/guias/como-elegir-monitor-programar-2026/)
+- [Escritorio elevable para programar: cuál comprar y a qué altura](/articulos/comparativas/standing-desk-programar-2026/)
+- [Silla ergonómica barata para programar desde casa (desde 135€)](/articulos/listas/silla-ergonomica-barata-programar/)

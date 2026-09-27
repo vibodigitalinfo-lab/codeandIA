@@ -86,3 +86,5 @@ Y si quieres el contexto de dónde encaja esto con las instrucciones que le das 
 ## Sigue por aquí
 
 - [Crea tu propio MCP server: conecta una API a tu editor](/articulos/guias/crea-tu-propio-mcp-server/)
+- [MCP (Model Context Protocol): qué es y por qué deberías conocerlo](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/)
+- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)

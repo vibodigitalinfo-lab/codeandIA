@@ -68,3 +68,9 @@ Si volviera a empezar, lo tendría clarísimo: **contrataría un plan compartido
 Para un proyecto de DAW con PHP y MySQL, no necesitas magia ni gastarte 15€ al mes. Necesitas un plan compartido con SSH, MySQL, dominio y SSL incluidos, y mirar la letra pequeña de la renovación. Con eso, cualquier proyecto del ciclo se despliega sin drama. Si tuviera que poner un número: **compra por 3€ al mes, revisa la renovación y no pagues más hasta que tu proyecto tenga usuarios de verdad.**
 
 Si estás montando tu primer despliegue, también te puede venir bien mi [guía del dominio que compraría para tu primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) y el [paso a paso para publicar tu primera web barata](/articulos/guias/como-publicar-primera-web-internet-barato-ia/). Con hosting, dominio y despliegue resueltos, lo único que te queda es el código: que no es poco.
+
+## Sigue por aquí
+
+- [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/)
+- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)
+- [Docker para estudiantes DAW: cómo usarlo con IA sin morir](/articulos/guias/docker-para-daw-con-ia-2026/)

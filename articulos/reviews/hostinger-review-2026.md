@@ -48,3 +48,9 @@ Si en cambio estás pensando en desplegar una aplicación con contenedores Docke
 
 Mi conclusión honesta: para empezar en DAW y tener un sitio donde desplegar tus proyectos reales sin gastar mucho, [Hostinger](https://www.hostinger.com/es) cumple. No es el hosting más potente ni el más flexible, pero para lo que necesitamos en este punto del ciclo hace bien su trabajo. Yo ya llevo varios meses con el plan activo y no he tenido caídas ni sustos inesperados, que al final es lo que más importa cuando presentas una práctica delante del profesor.
 
+
+## Sigue por aquí
+
+- [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/)
+- [Qué hosting contratar para tu primer proyecto de DAW en 2026](/articulos/guias/que-hosting-elegir-estudiantes-daw-2026/)
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)

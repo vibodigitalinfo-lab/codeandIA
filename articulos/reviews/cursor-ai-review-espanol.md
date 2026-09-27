@@ -48,3 +48,9 @@ Usándolo bien, como un asistente que te explica, sugiere y corrige, sí que not
 
 Si estás en DAW o en cualquier ciclo de informática y te lo estás pensando, mi consejo es que lo pruebes durante las dos semanas gratis y lo midas con un proyecto tuyo real. Eso te dirá más que cualquier review, incluida esta.
 
+
+## Sigue por aquí
+
+- [Cursor AI Pro vs Free: qué incluye cada plan y cuándo pagar](/articulos/comparativas/cursor-ai-plan-pro-vs-free/)
+- [Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/)
+- [GitHub Copilot gratis para estudiantes: cómo activarlo y si funciona](/articulos/reviews/github-copilot-gratis-estudiantes/)

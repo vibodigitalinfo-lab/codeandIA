@@ -99,3 +99,9 @@ Yo uso DeepSeek y ChatGPT como si fueran un calculadora: me ahorran tiempo en co
 Si estás empezando en DAW y no quieres gastar dinero, **los dos son válidos**. Prueba los dos una semana con tus proyectos reales y queda con lo que mejor te vaya a ti. No hay respuesta mágica, pero sí hay herramientas que te pueden hacer la vida más fácil sin que notes el bolsillo.
 
 Y si al final te animas con algo de pago, echa un ojo a [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) — es el editor que combina VS Code con IA y tiene versión gratuita que merece la pena probar.
+
+## Sigue por aquí
+
+- [DeepSeek review 2026: el modelo gratuito que sigue dando guerra](/articulos/reviews/deepseek-review-2026-modelo-gratuito-codigo/)
+- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
+- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)

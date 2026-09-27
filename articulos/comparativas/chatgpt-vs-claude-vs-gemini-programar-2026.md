@@ -61,3 +61,5 @@ No hay un ganador absoluto; lo digo siempre, y también lo dije cuando [comparé
 ## Sigue por aquí
 
 - [ChatGPT vs Cursor AI: qué herramienta de IA uso más para programar](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
+- [DeepSeek review 2026: el modelo gratuito que sigue dando guerra](/articulos/reviews/deepseek-review-2026-modelo-gratuito-codigo/)
+- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)

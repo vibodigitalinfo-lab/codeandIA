@@ -42,3 +42,9 @@ No me arrepiento de haberme suscrito. Para el nivel de uso que le doy —proyect
 
 Ese momento en el que el límite te corta a mitad de algo importante es exactamente cuando sabes que Plus tiene sentido para ti.
 
+
+## Sigue por aquí
+
+- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)
+- [ChatGPT vs Cursor AI: qué herramienta de IA uso más para programar](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
+- [DeepSeek review 2026: el modelo gratuito que sigue dando guerra](/articulos/reviews/deepseek-review-2026-modelo-gratuito-codigo/)

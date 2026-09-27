@@ -51,3 +51,9 @@ Y una cosa de cobertura: **tirar de "100% de cobertura" como meta es una trampa*
 ## Mi veredicto
 
 **Escribir tests con IA funciona de maravilla si no le pides cobertura, sino casos límite, y si revisas sus aserciones como revisarías a un compañero flojo en el grupo.** Mi rutina: lista de casos borde con la IA, tests uno a uno con aserción única, confirmar que fallan antes de que pasen, y mutation testing con Stryker o PIT para que me diga dónde me queda débil. Con eso, la IA pasa de "tramposa que escribe tests que pasan de cualquier forma" a "detective de casos raros". Y lo mejor: los [estudios y tendencias de 2026](/articulos/listas/tendencias-ia-para-devs-2026/) apuntan a que esto solo va a mejorar, así que aprender el hábito hoy te deja en buen sitio. Si quieres que te mire una función de tu módulo y te diga qué casos límite le faltan, escríbeme a ivan@codeandia.com.
+
+## Sigue por aquí
+
+- [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
+- [Cómo leer código ajeno con IA: método de 4 pasos](/articulos/guias/leer-codigo-ajeno-con-ia/)
+- [TypeScript para estudiantes: los 6 tipos que te ahorran depurar con IA](/articulos/guias/typescript-para-estudiantes-con-ia/)

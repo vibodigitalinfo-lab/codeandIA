@@ -134,3 +134,9 @@ Si arreglan 1, 2 y 3 en los próximos 3 meses, **me planto en Trae para todo lo 
 
 *Descargo: este artículo no está patrocinado. El enlace de descarga es afiliado (me llevo comisión si te registras), pero mi opinión es la que he contado: lo bueno, lo malo, y lo que me hace volver a Cursor.*
 
+
+## Sigue por aquí
+
+- [Zed: el editor en Rust con IA integrada, ¿alternativa a VS Code?](/articulos/reviews/zed-editor-ia-review-2026/)
+- [Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/)
+- [Claude Code CLI: terminal-first, agentes paralelos y su precio](/articulos/reviews/claude-code-cli-review-2026/)
