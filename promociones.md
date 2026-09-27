@@ -7,9 +7,16 @@ permalink: /ofertas/
 
 <div class="container">
 
+{% comment %}
+Los meses en español. El filtro date de Jekyll sale en inglés ("27 Sep 2026"),
+así que se indexa en esta lista en vez de usar %b.
+{% endcomment %}
+{% assign meses_es = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+
 <section class="ofertas-hero">
   <h1>Ofertas para programadores</h1>
-  <p>Descuentos reales en herramientas y productos que uso. Actualizado cada semana.</p>
+  <p>Descuentos reales en herramientas y productos que uso. Precios comprobados en la página del vendedor el <strong>27 de septiembre de 2026</strong>.</p>
+  <p class="ofertas-hero-note">Cuando un precio ha subido respecto a lo que publicaba antes, lo corrijo en vez de dejarlo. Los desgloses de cada festividad están más abajo.</p>
 </section>
 
 <section class="ofertas-section" id="setup">
@@ -83,6 +90,13 @@ permalink: /ofertas/
             <rect x="390" y="264" width="150" height="10" rx="3" fill="#3a3a55"/>
           </g>
         </g>
+        <g class="setup-part" data-part="auriculares">
+          <path d="M470 96 Q500 74 530 96" fill="none" stroke="#4a4a58" stroke-width="10" stroke-linecap="round"/>
+          <rect x="456" y="92" width="22" height="34" rx="11" fill="#3a3a46"/>
+          <rect x="522" y="92" width="22" height="34" rx="11" fill="#3a3a46"/>
+          <rect x="456" y="92" width="22" height="34" rx="11" fill="none" stroke="#e8935c" stroke-width="2.5"/>
+          <rect x="522" y="92" width="22" height="34" rx="11" fill="none" stroke="#e8935c" stroke-width="2.5"/>
+        </g>
         <g class="setup-part" data-part="webcam">
           <rect x="484" y="110" width="32" height="24" rx="9" fill="#2a2a34"/>
           <circle cx="500" cy="122" r="6" fill="#12121a" stroke="#e8935c" stroke-width="2"/>
@@ -118,6 +132,10 @@ permalink: /ofertas/
                 <span class="sp-price">{{ p.precio }}</span>
               </a>
               {% if p.nota %}<p class="sp-note">{{ p.nota }}</p>{% endif %}
+              {% if p.verificado %}
+              {% assign v = p.verificado | split: "-" %}
+              <p class="sp-verificado">Precio comprobado el {{ v[2] | plus: 0 }} de {{ meses_es[v[1] | plus: 0 | minus: 1] }} de {{ v[0] }}.</p>
+              {% endif %}
             </li>
             {% endfor %}
           </ul>
@@ -140,17 +158,17 @@ permalink: /ofertas/
         <span class="oferta-date">Septiembre 2026</span>
       </div>
       <h3>Hostinger — Hosting Premium desde 2,59€/mes</h3>
-      <p class="oferta-excerpt">Hosting compartido con dominio gratis el primer año, SSL, backups y 100 GB SSD. Ideal para proyectos de DAW y portfolios.</p>
+      <p class="oferta-excerpt">Hosting compartido con dominio gratis el primer año, SSL y backups. El plan Premium incluye 20 GB SSD, suficiente para desplegar los proyectos de DAW y el portfolio.</p>
       <a href="https://www.hostinger.es/hosting-web" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver oferta en Hostinger →</a>
     </div>
 
     <div class="oferta-card">
       <div class="oferta-meta">
         <span class="oferta-category">Dominios</span>
-        <span class="oferta-date">Septiembre 2026</span>
+        <span class="oferta-date">Precio sin verificar</span>
       </div>
-      <h3>Namecheap — Dominio .com desde 5,98€/año</h3>
-      <p class="oferta-excerpt">Registro de dominio .com con WhoisGuard gratis para siempre. Panel sencillo y renovación sin sorpresas.</p>
+      <h3>Namecheap — Dominio .com con WhoisGuard gratis</h3>
+      <p class="oferta-excerpt">Registro de dominio .com con privacidad WhoisGuard incluida y panel sencillo. Namecheap bloquea la comprobación automática, así que no te doy una cifra: mira el precio en la página antes de comprar.</p>
       <a href="https://namecheap.pxf.io/c/7743913/386170/5618" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Buscar dominio en Namecheap →</a>
     </div>
 
@@ -179,7 +197,7 @@ permalink: /ofertas/
         <span class="oferta-category">Ratón</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech MX Master 3S — 88,72€ en Amazon</h3>
+      <h3>Logitech MX Master 3S — 81,20€ en Amazon</h3>
       <p class="oferta-excerpt">Ratón ergonómico flagship: MagSpeed scroll, 8000 DPI, sobre cristal, clics discretos, multi-dispositivo (3), 70 días batería, carga rápida USB-C.</p>
       <a href="https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -189,9 +207,39 @@ permalink: /ofertas/
         <span class="oferta-category">Monitor</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
+      <h3>Xiaomi G34WQi 34" Curvo — 249,95€ en Amazon</h3>
+      <p class="oferta-excerpt">Monitor 34" UltraWide VA de 3440x1440, 180Hz y ajuste de altura. La misma resolución que el LG por menos de la mitad de precio: es mi ultrawide recomendado ahora mismo.</p>
+      <a href="https://www.amazon.es/dp/B0D1HQK5G5?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Monitor</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
       <h3>LG 34WN80C-B 34" UltraWide — 450€ en Amazon</h3>
-      <p class="oferta-excerpt">Monitor 34" UltraWide IPS (3440x1440), 60Hz, USB-C con 60W PD, ajuste de altura y VESA. El mejor ultrawide para código.</p>
+      <p class="oferta-excerpt">Monitor 34" UltraWide IPS (3440x1440) con USB-C de 60W, el mejor panel de la lista. Ojo: LG ha descontinuado la gama, así que es stock de un modelo de 2019. Solo si quieres un solo cable.</p>
       <a href="https://www.amazon.es/dp/B083QT6Z8R?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Auriculares</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>Soundcore Q20i — 35,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Auriculares Bluetooth con cancelación de ruido híbrida, Hi-Res y 40 horas de batería. Con ruido de casa al lado, es lo que más concentra del setup.</p>
+      <a href="https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+    </div>
+
+    <div class="oferta-card">
+      <div class="oferta-meta">
+        <span class="oferta-category">Auriculares</span>
+        <span class="oferta-date">Septiembre 2026</span>
+      </div>
+      <h3>Sony WH-CH720N — 69,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Diadema con cancelación de ruido y 35 horas de batería. Si quieres dar el salto en aislamiento, esta es la diferencia que se nota.</p>
+      <a href="https://www.amazon.es/dp/B0BTDX26B2?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -199,8 +247,8 @@ permalink: /ofertas/
         <span class="oferta-category">Silla</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>SIHOO M18 — 179,99€ en Amazon</h3>
-      <p class="oferta-excerpt">Silla ergonómica con soporte lumbar ajustable, malla transpirable, reposacabezas y reposabrazos 2D. Mejor opción sub-200€.</p>
+      <h3>SIHOO M18 — 199,99€ en Amazon</h3>
+      <p class="oferta-excerpt">Silla ergonómica con soporte lumbar ajustable, malla transpirable, reposacabezas y reposabrazos 2D. La mejor relación ergonomía-precio de la lista, y por debajo de los 200€ con todo montado.</p>
       <a href="https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
@@ -209,7 +257,7 @@ permalink: /ofertas/
         <span class="oferta-category">Webcam</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech C920s Pro HD — 65€ en Amazon</h3>
+      <h3>Logitech C920s Pro HD — 66,80€ en Amazon</h3>
       <p class="oferta-excerpt">Webcam 1080p/30fps con privacidad integrada, enfoque automático, corrección luz baja. Estándar para streaming y llamadas.</p>
       <a href="https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -297,6 +345,38 @@ permalink: /ofertas/
   </div>
 </section>
 
+<section class="ofertas-section" id="festividades">
+  <h2>Festividades: cuándo comprar y cuánto esperar</h2>
+  <p>Black Friday y Navidad concentran los descuentos de todo el año en el mismo mes, y también el mayor número de precios inflados. Te digo qué se prepara para cada fecha y qué no merece la pena esperar.</p>
+
+  <div class="fest-grid">
+    {% assign hoy = site.time | date: "%Y-%m-%d" %}
+    {% for c in site.data.campanas %}
+    {% assign fecha = c.fecha | date: "%Y-%m-%d" %}
+    {% assign ya_live = false %}
+    {% if hoy >= fecha %}{% assign ya_live = true %}{% endif %}
+    <div class="fest-card{% if ya_live %} is-live{% endif %}">
+      <div class="oferta-meta">
+        <span class="oferta-category">{{ c.etiqueta }}</span>
+        <span class="oferta-date">{{ c.fecha_texto }}</span>
+      </div>
+      <h3>{{ c.titulo }}</h3>
+      <p class="oferta-excerpt">{{ c.resumen }}</p>
+      {% if ya_live %}
+      <a href="{{ c.url | relative_url }}" class="affiliate-btn">Leer la guía →</a>
+      {% else %}
+      <p class="fest-waiting" data-cuenta="{{ fecha }}">Disponible el {{ c.fecha_texto }}.</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="fest-nota">
+    <h3>Lo que no voy a hacer</h3>
+    <p>No te voy a poner un precio "rebajado" la semana antes de Black Friday para que parezca una oferta. Los precios de cada campaña se comprueban el día que se publica, no antes, y aquí arriba verás la fecha exacta de cada comprobación. Si un producto baja de verdad, lo verás en su tarjeta con la fecha al lado.</p>
+  </div>
+</section>
+
 <section class="ofertas-section" id="guias">
   <h2>Guías de compra</h2>
   <p>Artículos con comparativas y precios reales para que elijas bien.</p>
@@ -304,10 +384,11 @@ permalink: /ofertas/
   <div class="ofertas-grid">
     {% for article in site.pages %}
       {% if article.path contains 'articulos/' and article.category == "Lista" %}
+        {% assign am = article.date | date: "%m" | plus: 0 | minus: 1 %}
         <a href="{{ article.url | relative_url }}" class="oferta-card">
           <div class="oferta-meta">
             <span class="oferta-category">{{ article.category }}</span>
-            <span class="oferta-date">{{ article.date | date: "%d %b %Y" }}</span>
+            <span class="oferta-date">{{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
           </div>
           <h3>{{ article.title }}</h3>
           <p class="oferta-excerpt">{{ article.description }}</p>
@@ -422,6 +503,39 @@ permalink: /ofertas/
   });
 
   if (chips[0]) select(chips[0].getAttribute('data-part'));
+})();
+
+// Cuenta atrás de las campañas de temporada: añade los días que faltan al
+// texto de espera. Se para sola en cuanto llega la fecha, para no dejar un
+// "0 días" colgando.
+(function () {
+  var hoy = new Date();
+  hoy.setHours(0, 0, 0, 0);
+  var nodos = Array.prototype.slice.call(document.querySelectorAll('.fest-waiting[data-cuenta]'));
+  if (!nodos.length) return;
+
+  function texto(objetivo) {
+    var dias = Math.round((objetivo - hoy) / 86400000);
+    if (dias <= 0) return null;
+    if (dias === 1) return 'Mañana';
+    if (dias < 31) return 'En ' + dias + ' días';
+    return 'En ' + Math.round(dias / 30) + ' meses';
+  }
+
+  nodos.forEach(function (n) {
+    var bruto = n.getAttribute('data-cuenta');
+    if (!bruto) return;
+    var partes = bruto.split('-');
+    var objetivo = new Date(Number(partes[0]), Number(partes[1]) - 1, Number(partes[2]));
+    objetivo.setHours(0, 0, 0, 0);
+    var t = texto(objetivo);
+    if (!t) {
+      return;
+    }
+    var base = n.textContent;
+    n.textContent = base + ' · ' + t;
+    n.classList.add('is-cuenta');
+  });
 })();
 </script>
 

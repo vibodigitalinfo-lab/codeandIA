@@ -26,11 +26,11 @@ Si ignoras esto y compras un teclado de 200€ antes que una silla decente, en s
 
 Aquí va mi propuesta para que te entre en 500€ de verdad. Es lo que yo haría hoy con ese presupuesto:
 
-### 1. La silla (179,99€) — no negocies con esto
+### 1. La silla (199,99€) — no negocies con esto
 
-Mi primera recomendación es la **SIHOO M18**. Por 180 euros te da reposabrazos ajustables, soporte lumbar que no se va de madre y un respaldo de malla que aguanta sesiones de 8 horas. No es la silla de tus sueños, pero es la diferencia entre acabar el día con la espalda entera o hecha polvo.
+Mi primera recomendación es la **SIHOO M18**. Por 200 euros te da reposabrazos ajustables, soporte lumbar que no se va de madre y un respaldo de malla que aguanta sesiones de 8 horas. No es la silla de tus sueños, pero es la diferencia entre acabar el día con la espalda entera o hecha polvo.
 
-Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/): ahí tienes opciones desde los 135 hasta los 327€ con su pros y contras reales. Pero si me preguntas, por debajo de 130€ se empieza a pagar cara la ergonomía.
+Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/): ahí tienes opciones desde los 135 hasta los 380€ con su pros y contras reales. Pero si me preguntas, por debajo de 130€ se empieza a pagar cara la ergonomía.
 
 ### 2. El teclado (67,99€) — mecánico sin arruinarte
 
@@ -44,20 +44,20 @@ Yo sé lo que es acabar el día con la muñeca pinchando. Mi fisio me lo dijo cl
 
 Ten ojo: este es el punto donde SIEMPRE hay gente que se salta la regla y compra gaming barato. No lo hagas. Empieza por el vertical. En mi [guía de ratones ergonómicos](/articulos/listas/raton-ergonomico-programadores/) tienes el resto de opciones y por qué el vertical gana.
 
-### 4. La pantalla — aquí decides tú (y te sobran ~200€)
+### 4. La pantalla — aquí decides tú (y te sobran ~180€)
 
-Cuenta rápida: 179,99 + 67,99 + 49,95 = **297,93€**. Te quedan **unos 200€** para la pantalla y los extras. Y aquí es donde hay que ser honesto:
+Cuenta rápida: 199,99 + 67,99 + 49,95 = **317,93€**. Te quedan **unos 180€** para la pantalla y los extras. Y aquí es donde hay que ser honesto:
 
 - Si ya tienes un portátil de 15" con buena pantalla, **súmale un brazo o soporte de monitor** (25-35€) para ponértelo a la altura de los ojos y gastar el resto en salud.
 - Si quieres una pantalla externa, con 100-150€ te llevas una de 24" IPS decente. No es la panacea, pero para código cumple de sobra.
 - Si puedes estirarte un poco, mi [comparativa de monitores ultrawide](/articulos/comparativas/monitor-ultrawide-programar/) te explica que el salto al LG 34" (450€) es LO mejor que puedes comprar más adelante. Pero no te endeudes por ello en el mes uno.
 
-### 5. Los extras baratos que de verdad se notan (unos 45€)
+### 5. Los extras baratos que de verdad se notan (unos 42€)
 
 Para el presupuesto de 500€, dos extras de poquísimo dinero cambian tu día a día:
 
-- **Lámpara de flexo** (22€): luz sobre el teclado por la noche, tus ojos lo agradecen y deja de competir con la pantalla.
-- **Reposapiés** (19€): te obliga a estar sentado con la cadera bien apoyada. Suena tonto, pero es una de las cosas que más me alivia la zona lumbar.
+- **Lámpara de flexo** (21,98€): luz sobre el teclado por la noche, tus ojos lo agradecen y deja de competir con la pantalla.
+- **Reposapiés** (19,85€): te obliga a estar sentado con la cadera bien apoyada. Suena tonto, pero es una de las cosas que más me alivia la zona lumbar.
 
 Con estos dos y la resta del presupuesto, cierras el setup por debajo de 500€. Piérdete nada.
 
@@ -65,10 +65,10 @@ Con estos dos y la resta del presupuesto, cierras el setup por debajo de 500€.
 
 El setup de 500€ es un campamento base sólido. Cuando vayas ganando dinero con prácticas o curro esporádico, esto es lo que yo subiría, en este orden:
 
-1. **El monitor ultrawide LG 34WN80C-B (450€):** el mayor salto de productividad que existe. IDE a la izquierda, navegador a la derecha, terminal abajo, sin cambiar de ventana. Me jugaría una mano por uno.
-2. **Teclado Keychron V1 Max (142€):** más construcción, QMK/VIA de serie.
-3. **Ratón MX Master 3S (89€):** el scroll magnético y el botón lateral son otra liga.
-4. **Silla SIHOO Doro C300 (327€):** cuando la espalda ya te pida el lumbar dinámico.
+1. **El monitor ultrawide LG 34WN80C-B (450€):** el mayor salto de productividad que existe. IDE a la izquierda, navegador a la derecha, terminal abajo, sin cambiar de ventana. Me jugaría una mano por uno. Aviso: LG ya no lo fabrica, así que es el último de stock a precio de modelo antiguo.
+2. **Teclado Keychron V1 Max (141,79€):** más construcción, QMK/VIA de serie.
+3. **Ratón MX Master 3S (81,20€):** el scroll magnético y el botón lateral son otra liga.
+4. **Silla SIHOO Doro C300 (379,99€):** cuando la espalda ya te pida el lumbar dinámico.
 
 Ese sería mi "setup top de estudiante con trabajillos". Son upgrades que se pueden ir comprando poco a poco, cada uno una mejora clara sobre lo que ya tienes.
 

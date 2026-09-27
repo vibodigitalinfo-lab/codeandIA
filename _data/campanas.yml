@@ -1,0 +1,53 @@
+# Campañas de temporada que se anuncian en /ofertas/.
+#
+# Cada entrada corresponde a una página que vive en articulos/_entrada/ hasta
+# su fecha. El enlace de la tarjeta se activa solo cuando hoy ya es esa fecha
+# o posterior; antes se muestra como texto plano. Ver AGENTS.md, sección
+# "Campañas con fecha".
+#
+# OJO con las URLs: los dos `article` no llevan `permalink` en su frontmatter,
+# así que su URL la decide la ruta del fichero al publicarlos. Si mueves
+# articulos/_entrada/<slug>/borrador.md a una carpeta que no sea
+# articulos/listas/, hay que corregir aquí la url o ese enlace dara 404.
+
+- id: black-friday-lista
+  fecha: 2026-10-30
+  fecha_texto: "30 de octubre"
+  etiqueta: "Black Friday"
+  titulo: "Las mejores ofertas Black Friday para programadores"
+  resumen: "Hosting, teclados, monitores, ratones y herramientas de IA, con el precio que estaba antes y el que se queda."
+  url: "/articulos/listas/mejores-ofertas-black-friday-programadores-2026/"
+
+- id: black-friday-hub
+  fecha: 2026-11-05
+  fecha_texto: "5 de noviembre"
+  etiqueta: "Black Friday"
+  titulo: "Black Friday para programadores: índice de la temporada"
+  resumen: "Todas las guías de la semana negra en un solo sitio, ordenadas por presupuesto y por momento de compra."
+  url: "/black-friday-programadores-2026/"
+
+- id: navidad-hub
+  fecha: 2026-11-10
+  fecha_texto: "10 de noviembre"
+  etiqueta: "Navidad"
+  titulo: "Regalos de Navidad para programadores"
+  resumen: "Ideas por presupuesto y por persona, desde el detalle barato hasta el regalo que se usa cada día."
+  url: "/regalos-navidad-programadores-2026/"
+
+- id: navidad-lista
+  fecha: 2026-11-12
+  fecha_texto: "12 de noviembre"
+  etiqueta: "Navidad"
+  titulo: "Regalos originales que un programador va a usar de verdad"
+  resumen: "Teclados, ratones, libros y suscripciones, con el criterio de no regalar un gadget que acaba en un cajón."
+  url: "/articulos/listas/regalos-programadores-navidad-2026/"
+
+# TEMPORAL: fecha pasada a proposito, para comprobar en la pagina publicada
+# que la rama "ya publicada" renderiza el enlace. Quitar antes de publicar.
+- id: prueba-temporal
+  fecha: 2026-09-01
+  fecha_texto: "1 de septiembre"
+  etiqueta: "Prueba"
+  titulo: "Tarjeta de prueba (BORRAR)"
+  resumen: "Esta tarjeta existe solo para verificar el enlace en la build real."
+  url: "/articulos/listas/silla-ergonomica-barata-programar/"

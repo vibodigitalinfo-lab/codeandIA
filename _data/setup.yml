@@ -1,11 +1,21 @@
+# Piezas del setup con precios verificados en la pagina real del vendedor.
+# El campo `verificado` es la fecha en que se comprobo el precio en la pagina.
+# Al cambiar un precio, cambiar tambien `verificado` y comprobarlo en la pagina real.
+
 - id: monitor
   nombre: Monitor
   emoji: "🖥️"
   productos:
     - nombre: 'LG 34WN80C-B 34" UltraWide'
-      precio: "450€"
+      precio: "450,00€"
       url: "https://www.amazon.es/dp/B083QT6Z8R?tag=codeandia-21"
-      nota: "IPS 3440x1440 con USB-C de 60W. El ultrawide que recomiendo para programar."
+      nota: "IPS 3440x1440 con USB-C de 60W. El de mejor panel, pero LG ya no lo fabrica: es un modelo de 2019."
+      verificado: "2026-09-27"
+    - nombre: 'Xiaomi G34WQi 34" Curvo'
+      precio: "249,95€"
+      url: "https://www.amazon.es/dp/B0D1HQK5G5?tag=codeandia-21"
+      nota: "VA 3440x1440, 180 Hz y ajuste de altura. La mitad de precio que el LG para la misma resolución."
+      verificado: "2026-09-27"
 
 - id: brazo
   nombre: Soporte de monitor
@@ -15,10 +25,12 @@
       precio: "25,99€"
       url: "https://www.amazon.es/dp/B082MLVXRR?tag=codeandia-21"
       nota: "El más barato que cumple. Libera el escritorio y regula altura e inclinación."
+      verificado: "2026-09-27"
     - nombre: "HUANUO Soporte Doble 13-32\" (9 kg)"
       precio: "35,99€"
       url: "https://www.amazon.es/dp/B0GK6DT5SF?tag=codeandia-21"
       nota: "Reforzado, aguanta monitores pesados o un ultrawide."
+      verificado: "2026-09-27"
 
 - id: teclado
   nombre: Teclado
@@ -28,45 +40,67 @@
       precio: "141,79€"
       url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
       nota: "75% inalámbrico, QMK/VIA y hot-swappable. Mi relación calidad-precio favorita."
+      verificado: "2026-09-27"
     - nombre: "Royal Kludge RK84ES"
       precio: "67,99€"
       url: "https://www.amazon.es/dp/B0GVJRGLHX?tag=codeandia-21"
       nota: "La entrada más barata a un mecánico con layout español."
+      verificado: "2026-09-27"
 
 - id: raton
   nombre: Ratón
   emoji: "🖱️"
   productos:
     - nombre: "Logitech MX Master 3S"
-      precio: "88,72€"
+      precio: "81,20€"
       url: "https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21"
       nota: "El que uso a diario: multi-dispositivo, scroll MagSpeed y botones para atajos."
+      verificado: "2026-09-27"
     - nombre: "Logitech Lift Vertical"
       precio: "49,95€"
       url: "https://www.amazon.es/dp/B07W4DGC27?tag=codeandia-21"
       nota: "Vertical y ergonómico. La opción más inteligente si te duele la muñeca."
+      verificado: "2026-09-27"
 
 - id: silla
   nombre: Silla
   emoji: "🪑"
   productos:
     - nombre: "SIHOO M18"
-      precio: "179,99€"
+      precio: "199,99€"
       url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
-      nota: "Soporte lumbar, malla y reposabrazos 2D. La mejor opción sub-200€."
+      nota: "Soporte lumbar, malla y reposabrazos 2D. La mejor relación ergonomía-precio de la lista."
+      verificado: "2026-09-27"
     - nombre: "SIHOO Doro C300"
-      precio: "326,99€"
+      precio: "379,99€"
       url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
-      nota: "Si quieres subir de gama sin irte a precios de oficina premium."
+      nota: "Subes de gama con lumbar dinámico y reposabrazos sincronizados, sin ir a precio de oficina premium."
+      verificado: "2026-09-27"
+
+- id: auriculares
+  nombre: Auriculares
+  emoji: "🎧"
+  productos:
+    - nombre: "Soundcore Q20i"
+      precio: "35,99€"
+      url: "https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21"
+      nota: "Cancelación de ruido híbrida y 40 h de batería. Con la aspiradora de casa, concentrate de verdad."
+      verificado: "2026-09-27"
+    - nombre: "Sony WH-CH720N"
+      precio: "69,99€"
+      url: "https://www.amazon.es/dp/B0BTDX26B2?tag=codeandia-21"
+      nota: "Si quieres mejor cancelación y asumir el doble: es el salto de gama que más se nota."
+      verificado: "2026-09-27"
 
 - id: webcam
   nombre: Webcam
   emoji: "🎥"
   productos:
     - nombre: "Logitech C920s Pro HD"
-      precio: "65,00€"
+      precio: "66,80€"
       url: "https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21"
       nota: "1080p con tapa de privacidad. Estándar para clases y entrevistas."
+      verificado: "2026-09-27"
 
 - id: lampara
   nombre: Lámpara
@@ -76,6 +110,7 @@
       precio: "21,98€"
       url: "https://www.amazon.es/dp/B0D8PY8CRD?tag=codeandia-21"
       nota: "3 temperaturas de color y brillo regulable. Para programar de noche sin forzar la vista."
+      verificado: "2026-09-27"
 
 - id: escritorio
   nombre: Escritorio
@@ -85,10 +120,12 @@
       precio: "319,99€"
       url: "https://www.amazon.es/dp/B0CNH1X67H?tag=codeandia-21"
       nota: "La entrada accesible al mundo standing desk, con tablero en roble."
+      verificado: "2026-09-27"
     - nombre: "FLEXISPOT Elevable 2 Motores"
       precio: "399,99€"
       url: "https://www.amazon.es/dp/B0H2GNZ7ZM?tag=codeandia-21"
       nota: "Dos motores, 300 kg de carga y memoria de 4 alturas. La inversión que cuida la espalda."
+      verificado: "2026-09-27"
 
 - id: reposapies
   nombre: Reposapiés
@@ -98,3 +135,4 @@
       precio: "19,85€"
       url: "https://www.amazon.es/dp/B0FJ8G5SDV?tag=codeandia-21"
       nota: "Altura e inclinación regulables con base antideslizante. Barato y se nota."
+      verificado: "2026-09-27"

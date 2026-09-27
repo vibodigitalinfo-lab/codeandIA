@@ -2030,6 +2030,89 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   font-size: 0.95rem;
 }
 
+.ofertas-hero-note {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  max-width: 42rem;
+  margin-top: 0.5rem;
+}
+
+.sp-verificado {
+  margin: 0.3rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  opacity: 0.75;
+}
+
+/* Festividades */
+
+.fest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.4rem;
+}
+
+.fest-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 1.2rem 1.3rem;
+  background: var(--surface);
+  border: 1.5px solid var(--border-strong);
+  box-shadow: 5px 5px 0 var(--shadow);
+}
+
+.fest-card.is-live {
+  border-color: var(--accent);
+  box-shadow: 5px 5px 0 var(--accent);
+}
+
+.fest-card h3 {
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.fest-card .affiliate-btn {
+  align-self: flex-start;
+  margin-top: 0.4rem;
+}
+
+.fest-waiting {
+  margin: 0.4rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.oferta-date.is-cuenta {
+  color: var(--accent-text);
+}
+
+.fest-nota {
+  margin-top: 1.8rem;
+  padding: 1.2rem 1.4rem;
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+}
+
+.fest-nota h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.fest-nota p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 /* ================= Pié de página ================= */
 
 .footer {

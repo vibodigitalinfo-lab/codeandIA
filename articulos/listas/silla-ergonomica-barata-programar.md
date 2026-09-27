@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Silla ergonómica barata para programar desde casa (menos de 300€)"
+title: "Silla ergonómica barata para programar desde casa (desde 135€)"
 description: "Las mejores sillas ergonómicas baratas para programar: IKEA Markus, SIHOO, Amazon Basics y más con precios reales."
 category: "Lista"
 date: 2026-06-20
@@ -11,7 +11,7 @@ affiliate_label: "Ver en Amazon"
 updated: 2026-09-21
 picks:
   - name: "SIHOO Doro C300"
-    price: "326,99€"
+    price: "379,99€"
     best_for: "La que más ayuda en jornadas largas"
     url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
     badge: "Mi pick"
@@ -33,9 +33,9 @@ Me pasó a finales de 2024. Llevaba tres meses de curso de Desarrollo de Aplicac
 
 La espalda no perdona. Cuando trabajas 8 horas al día delante de un portátil, la silla es más importante que el ordenador. Yo lo aprendí por las malas: acabé en el fisio, y el fisio me lo dijo claro: "cambia la silla o cambia de hobby".
 
-El problema es el precio. Una Herman Miller o una Steelcase cuestan más de 900€. Fuera de presupuesto para un estudiante de DAW. La buena noticia: hay sillas ergonómicas decentes por menos de 300€. He probado varias y he hablado con otros devs que trabajan desde casa. Estas son las cinco que merecen la pena.
+El problema es el precio. Una Herman Miller o una Steelcase cuestan más de 900€. Fuera de presupuesto para un estudiante de DAW. La buena noticia: hay sillas ergonómicas decentes desde 135€, y solo una que de verdad seSale de los 300€. He probado varias y he hablado con otros devs que trabajan desde casa. Estas son las cinco que merecen la pena.
 
-## Las 5 mejores sillas ergonómicas por menos de 300€
+## Las 5 mejores sillas ergonómicas para programar (desde 135€)
 
 ### IKEA Markus: el clásico que nunca se equivoca
 
@@ -51,9 +51,9 @@ Lo que más me gusta: la relación calidad-precio. 200€ por una silla que te a
 
 Si no sabes por dónde empezar, esta es la respuesta. Es la que menos riesgo tiene.
 
-### SIHOO Doro C300: la nueva estrella bajo los 300€
+### SIHOO Doro C300: la nueva estrella, y la única que supera los 300€
 
-Esta es la silla que más hype está generando en foros de programadores. La SIHOO Doro C300 cuesta unos 327€ en Amazon España, un poco por encima del límite de los 300€. Si puedes estirar el presupuesto, es la que más me ha ayudado.
+Esta es la silla que más hype está generando en foros de programadores. La SIHOO Doro C300 cuesta 379,99€ en Amazon España, y es la única de esta lista que se sale del rango barato. Si puedes estirar el presupuesto, es la que más me ha ayudado.
 
 Su gran ventaja es el soporte lumbar dinámico. La zona lumbar se adapta a tus movimientos cuando te reclinas o cambias de postura. No es un cojín fijo: sigue tu espalda. Después de una hora escribiendo código sin levantar la cabeza del monitor, lo agradeces.
 
@@ -65,7 +65,7 @@ Un detalle que me gustó: la inclinación del asiento se ajusta por separado del
 
 ¿Peor momento? El ensamblaje. La caja viene con tornillos en bolsas sin etiquetar y tardé una hora en montarla. El manual es genérico para varios modelos. No es un drama, pero prepara un destornillador y paciencia.
 
-No la he probado durante años, solo semanas. Pero es mi candidata a mejor compra en 2026 si puedes estirarte un poco por encima de los 300€. Y con la bajada de precio reciente (a 327€), está bastante más cerca del límite de los 300€ de lo que parece.
+No la he probado durante años, solo semanas. Pero es mi candidata a mejor compra en 2026 si puedes estirarte hasta los 380€. Ojo: no es una silla barata en términos absolutos, es la mejor compra dentro de un presupuesto medio.
 
 ### Clatina Mellet: el reposacabezas incluido que casi nadie ve
 
