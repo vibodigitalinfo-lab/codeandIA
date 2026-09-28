@@ -149,7 +149,7 @@ Cuando necesito una segunda opinión en Java, escribo `ai "¿por qué falla este
 
 ## Lo que nadie te dice de los modelos locales
 
-1. **Los 7B no son Claude**. Son buenos para explicar código, completar líneas simples, y generar boilerplate. No los uses para diseñar arquitecturas complejas.
+1. **Los 7B no son Claude**. Son buenos para explicar código, completar líneas simples, y generar código repetido. No los uses para diseñar arquitecturas complejas.
 2. **La RAM es el cuello de botella**. Con 16 GB puedes correr 7B tranquilos. Con 8 GB, 3B o nada. Los 13B y 32B necesitan 32+ GB.
 3. **GPU acelera mucho**, pero el modelo carga en RAM igualmente. Con 6 GB de VRAM puedes cargar un 7B completo en GPU; con 4 GB, se divide CPU+GPU (más lento pero funciona).
 4. **Son perfectos para código sensible**. Si estás en prácticas con datos de empresa o un examen sin WiFi, un modelo local es tu mejor amigo.

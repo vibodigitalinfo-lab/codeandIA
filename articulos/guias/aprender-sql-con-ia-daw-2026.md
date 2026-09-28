@@ -9,11 +9,11 @@ readtime: 7
 
 SQL tiene fama injusta. En DAW nadie le da miedo al principio —tres `SELECT` para aprobar el módulo y a otra cosa— y luego resulta que es, de lejos, la habilidad que más se pide en las ofertas junior que miran los estudiantes. Es feo de asumir, pero es así: no hay stack moderno sin base de datos.
 
-La buena noticia es que SQL es seguramente **la asignatura más fácil de aprender con IA en 2026**: los errores son crípticos pero los modelos los pillan de una, el feedback es inmediato y el terreno de prácticas es gratis. La mala noticia: la IA también permite estudiar fatal si la usas como ChatGPT para copiar en vez de como profesor particular. Te explico el sistema que a mí me funcionó.
+La buena noticia es que SQL es seguramente **la asignatura más fácil de aprender con IA en 2026**: los errores son crípticos pero los modelos los pillan de una, la corrección es inmediata y el terreno de prácticas es gratis. La mala noticia: la IA también permite estudiar fatal si la usas como ChatGPT para copiar en vez de como profesor particular. Te explico el sistema que a mí me funcionó.
 
 ## Por qué la IA es perfecta para aprender SQL
 
-- **Feedback inmediato que ningún profesor te da a las 11 de la noche**: le pegas tu query rota y te dice en dos líneas dónde falla.
+- **Corrección inmediata que ningún profesor te da a las 11 de la noche**: le pegas tu query rota y te dice en dos líneas dónde falla.
 - **Explica el "por qué"**: puedes pedirle que te cuente *por qué* un `LEFT JOIN` te duplica filas, no solo qué pegaste mal.
 - **Puedes tener base de datos y datos de prueba en segundos**: montar un entorno real de MySQL en prácticas es un deporte de riesgo; con SQLite lo tienes en un minuto.
 - **No juzga**: el error de las 14:00 te lo corrige igual que el de las 9:00.
@@ -45,7 +45,7 @@ Estos son los cuatro que repito cada semana:
 
 **2. "Revisa mi query como un entrevistador senior: ¿hay N+1? ¿índices? ¿algo de rendimiento?"** Cuando ya sabes escribir consultas, este prompt te mete los conceptos profesionales que no estudiamos en el módulo: `EXPLAIN`, planes de ejecución, por qué un `SELECT *` en un `JOIN` de 5 tablas es un pecado.
 
-**3. "Quiero practicar [tema]. Dame 5 ejercicios en orden de dificultad y corrígelos como un profesor"** Entrena el feedback en cadena: le dices tu solución, te la corrige y te da la siguiente. Es la experiencia profesor particular más barata que he encontrado.
+**3. "Quiero practicar [tema]. Dame 5 ejercicios en orden de dificultad y corrígelos como un profesor"** Entrena la corrección en cadena: le dices tu solución, te la corrige y te da la siguiente. Es la experiencia profesor particular más barata que he encontrado.
 
 **4. "Explica este plan de ejecución como si tuviera 12 años"** `EXPLAIN QUERY PLAN` o el equivalente de tu base te escupe cosas ilegibles; el modelo las traduce. Es como ver la respuesta del servidor, pero en español.
 

@@ -205,7 +205,7 @@ description: "Tests unitarios con JUnit 5 + Mockito + AssertJ"
 ---
 description: "Workflow de git: ramas, commits, PRs, revisión"
 ---
-## Git workflow
+## Flujo de trabajo con git
 - Rama por issue: `feat/123-add-jwt-auth`, `fix/456-npe-order-service`
 - Commits: Conventional Commits (`feat:`, `fix:`, `docs:`, `refactor:`, `test:`)
 - PR: título = commit principal, descripción = qué + por qué + cómo testear

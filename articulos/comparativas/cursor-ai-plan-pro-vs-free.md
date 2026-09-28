@@ -36,7 +36,7 @@ Desde que Cursor cambió a un sistema basado en créditos en vez de peticiones f
 
 ## Cursor AI plan pro vs free: la pregunta del precio
 
-La comparación de precio en sí es sencilla: gratis frente a 20 dólares al mes. Lo que no es tan sencillo es calcular si esos 20 dólares te los ahorras en tiempo. A mí me salen las cuentas rápido porque curro haciendo webs por encargo además de estudiar, y una hora que me ahorro escribiendo boilerplate o depurando un bug tonto vale más que esos 20 dólares. Pero si Cursor lo usas solo para las prácticas de clase dos tardes por semana, igual todavía no te compensa y el free te sobra de largo.
+La comparación de precio en sí es sencilla: gratis frente a 20 dólares al mes. Lo que no es tan sencillo es calcular si esos 20 dólares te los ahorras en tiempo. A mí me salen las cuentas rápido porque curro haciendo webs por encargo además de estudiar, y una hora que me ahorro escribiendo código repetido o depurando un bug tonto vale más que esos 20 dólares. Pero si Cursor lo usas solo para las prácticas de clase dos tardes por semana, igual todavía no te compensa y el free te sobra de largo.
 
 Si al final decides dar el salto, yo directamente entré desde la web de Cursor y probé Pro, sin planes raros ni permanencias.
 

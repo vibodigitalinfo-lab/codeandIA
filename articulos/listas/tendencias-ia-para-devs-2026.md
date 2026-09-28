@@ -36,7 +36,7 @@ claude  # abre el agente en tu directorio actual
 # DTO, tests, y actualiza application.properties. Solo le dices "yes".
 ```
 
-**Lo que esto cambia**: Dejas de hacer boilerplate (CRUDs, configuraciones, tests básicos) y pasas a **revisar y diseñar**. Los seniors no escriben menos código — escriben código más importante.
+**Lo que esto cambia**: Dejas de hacer código repetido (CRUDs, configuraciones, tests básicos) y pasas a **revisar y diseñar**. Los seniors no escriben menos código — escriben código más importante.
 
 ---
 
@@ -172,7 +172,7 @@ void createOrder_insufficientStock_reservesAndNotifies() { ... }
    - "Este método podría ser O(1) en lugar de O(n) con un HashMap"
    - "Falta manejar la excepción IOException aquí"
 
-**Lo que esto cambia**: En tu proyecto de DAW, CodeRabbit te da **feedback de code review automáticamente** en cada PR. Es como tener un senior revisando tu código las 24 horas. Y lo mejor: si estás en un equipo de clase, todos aprenden de los comentarios.
+**Lo que esto cambia**: En tu proyecto de DAW, CodeRabbit te da **comentarios de la revisión de código automáticamente** en cada PR. Es como tener un senior revisando tu código las 24 horas. Y lo mejor: si estás en un equipo de clase, todos aprenden de los comentarios.
 
 ---
 

@@ -71,11 +71,11 @@ Actúa como un entrevistador técnico de una empresa que contrata developers jun
 Hazme una pregunta de live coding de dificultad media.
 Solo dame el enfoque general, no el código.
 Si me equivoco, explícame por qué.
-Cuando lo resuelva, dame feedback de calidad del código y sugerencias.
+Cuando lo resuelva, dame una revisión de la calidad del código y sugerencias.
 Empezamos ahora:
 ```
 
-**Lo que esto simula**: el ritmo de una entrevista real. Tienes que articular tu razonamiento en voz alta (o escribiendo), recibir feedback inmediato, y ajustar. Es como un mock interview pero sin la presión social.
+**Lo que esto simula**: el ritmo de una entrevista real. Tienes que articular tu razonamiento en voz alta (o escribiendo), recibir correcciones inmediatas, y ajustar. Es como un mock interview pero sin la presión social.
 
 ### Qué preguntar después de cada ejercicio
 
@@ -120,7 +120,7 @@ Tu portfolio es lo primero que ven. Si huele a "lo hizo ChatGPT", pierdes puntos
 | **Resolver bugs** | "¿Por qué falla esta query N+1 en JPA?" | Pedir que te escriba toda la lógica |
 | **Tests** | "Genera tests de edge cases para este método" | Usar los tests sin leerlos ni entenderlos |
 | **Documentación** | "Revisa mi README y sugiere mejoras" | Dejar que escriba todo el README |
-| **Deploy** | "Configura GitHub Actions para deploy en Vercel" | Copiar sin entender el workflow |
+| **Deploy** | "Configura GitHub Actions para deploy en Vercel" | Copiar sin entender el flujo de trabajo |
 
 **Mi truco personal**: después de que la IA me ayuda con algo, **me lo explico a mí mismo**. Si no puedo explicar por qué funciona, no lo entiendo y no lo incluyo en mi portfolio. El entrevistador va a preguntar "¿por qué hiciste esto así?" y necesitas saber responder.
 
@@ -155,7 +155,7 @@ Después damelo a mí para que lo intente.
 | F Herramienta | Qué hace | Cuándo usarla |
 |---|---|---|
 | **GitHub Copilot** | Completado en vivo, explicaciones de código | Practicar live coding, entender soluciones |
-| **ChatGPT / Claude** | Mock interviews, system design, feedback | Preparación general, behavioral questions |
+| **ChatGPT / Claude** | Mock interviews, system design, revisión | Preparación general, behavioral questions |
 | **Ollama + qwen2.5-coder** | Entrenamiento offline, sin límites | Sin WiFi, exámenes, prácticas con NDA |
 | **Claude Code** | Code review profundo, arquitectura | Revisar tu portfolio, mejorar código existente |
 | **Notion AI** | Organizar preguntas, trackear progreso | Llevar registro de qué temas dominas |

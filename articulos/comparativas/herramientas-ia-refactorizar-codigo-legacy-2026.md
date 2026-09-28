@@ -127,7 +127,7 @@ El objetivo era refactorizar 5 módulos clave del proyecto para que fueran mante
 | Precio | $20/mes | $10/mes | Gratis/Pro | Gratis (+LLM) |
 | Curva de aprendizaje | Baja | Muy baja | Baja | Media |
 
-## Mi workflow recomendado
+## Mi flujo recomendado
 
 Después de probar las 4, este es el flujo que mejor me funciona para refactorizar código legacy:
 

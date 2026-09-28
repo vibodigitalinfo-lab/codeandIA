@@ -23,7 +23,7 @@ La regla que interioricé después de varios sustos: **la IA puede escribir cód
 
 **2. "Explícame este `Exception` sin decirme qué línea cambiar."** Esta es la joya. Pegas el stack trace completo y le pides la causa, no el parche. Aprender a leer un stack trace en Java es el 50% de aprobar: la IA te enseña a recorrerlo tú. Cuando entiendes qué te está diciendo `NullPointerException` en la línea 14, dejas de odiar Java.
 
-**3. "Dame 5 ejercicios de [herencia / colecciones / JDBC] sin soluciones, y corrígeme el mío."** Reutilizo este patrón para todo. La IA te genera retos en orden de dificultad y corrige tu solución como un profesor. Es entrenamiento gratis con feedback inmediato, que es justo lo que no te da el instituto a las 11 de la noche.
+**3. "Dame 5 ejercicios de [herencia / colecciones / JDBC] sin soluciones, y corrígeme el mío."** Reutilizo este patrón para todo. La IA te genera retos en orden de dificultad y corrige tu solución como un profesor. Es entrenamiento gratis con corrección inmediata, que es justo lo que no te da el instituto a las 11 de la noche.
 
 **4. "Explícame hacia atrás: qué he aceptado de lo que acabo de copiar de Internet."** Cuando sí usas código de fuera (de la IA, de un tutorial), le pegas el fragmento y le pides que te lo explique **como si lo estuvieras defendiendo**. Es la forma más rápida de convertir texto ajeno en conocimiento propio.
 

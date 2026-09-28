@@ -4,7 +4,7 @@ title: "Crea tu propio MCP server: conecta una API a tu editor"
 description: "Crea un servidor MCP propio en Python para conectar tus APIs y datos al editor con IA. Guía paso a paso, con un servidor real y cómo probarlo."
 category: "Guía"
 date: 2026-09-14
-readtime: 10
+readtime: 12
 ---
 
 Si ya has leído lo que es el Model Context Protocol (te lo expliqué en [la guía de MCP para principiantes](/articulos/guias/mcp-para-principiantes-guia-2026/)), seguro que te ha pasado como a mí: te quedas con las ganas de conectarlo a *tus* cosas, no solo a las que otro ya publicó. ¿Y si tu lista de tareas del curso estuviera en una API? ¿Y si quisieras que la IA consultara tu base de datos de apuntes, o los datos de tu API de weather, sin copiar y pegar? Eso es justo lo que puedes hacer, y no es tan difícil como parece cuando te lo pongas. En esta guía montamos un servidor MCP propio, de principio a fin, en Python, y lo conectamos a un editor con IA. Es el paso natural después de entender qué es: dejar de consumir herramientas ajenas y empezar a exponer las tuyas.
@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
 Fíjate en lo poco que hay. Tres funciones, tres decoradores, y ya tienes un servidor MCP que expone tres herramientas. Lo bonito de esto es que la lógica de negocio (aquí, una lista en memoria) es independiente del protocolo: cuando quieras conectarlo a una base de datos real o a tu API del curso, solo cambias el cuerpo de las funciones. El andamiaje MCP no se toca.
 
-Y un detalle que parece pequeño pero lo es todo: **las descripciones en las herramientas**. "Devuelve la lista de tareas pendientes" es mucho mejor que "lista tareas". La IA decide si llamar a una herramienta o no basándose en esas descripciones, así que escribirlas para la IA es parte del trabajo, no un adorno. Si te interesa el mindset de cómo escribir estas descripciones, es el mismo que uso en [la guía de agents.md](/articulos/guias/agents-md-guia-2026/), donde explico cómo darle a la IA contexto para que sepa qué hacer.
+Y un detalle que parece pequeño pero lo es todo: **las descripciones en las herramientas**. "Devuelve la lista de tareas pendientes" es mucho mejor que "lista tareas". La IA decide si llamar a una herramienta o no basándose en esas descripciones, así que escribirlas para la IA es parte del trabajo, no un adorno. Si te interesa la mentalidad de cómo escribir estas descripciones, es el mismo que uso en [la guía de agents.md](/articulos/guias/agents-md-guia-2026/), donde explico cómo darle a la IA contexto para que sepa qué hacer.
 
 ## Paso 3: conectarlo a tu editor
 

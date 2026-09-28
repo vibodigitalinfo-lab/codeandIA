@@ -5,6 +5,8 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% assign rutas_total_pasos = 0 %}
+{% for r in site.data.rutas %}{% assign rutas_total_pasos = rutas_total_pasos | plus: r.pasos.size %}{% endfor %}
 
 <section class="hero">
   <div class="container hero-grid">
@@ -92,7 +94,7 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
           <h3>Rutas de aprendizaje</h3>
           <span class="pill">{{ site.data.rutas | size }} rutas</span>
         </div>
-        <p>Recorridos ordenados con {{ site.data.rutas | map: "pasos" | map: "size" | sum }} pasos en total: qué leer primero, qué después y qué saltarte. Guardas tu progreso y sigues cuando quieras.</p>
+        <p>Recorridos ordenados con {{ rutas_total_pasos }} pasos en total: qué leer primero, qué después y qué saltarte. Guardas tu progreso y sigues cuando quieras.</p>
         <span class="pillar-link-text">Ver las rutas <span aria-hidden="true">→</span></span>
       </a>
 

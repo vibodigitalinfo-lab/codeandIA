@@ -90,7 +90,7 @@ La calidad de los tests generados varía, pero para cubrir casos básicos ahorra
 
 Esto es más general pero extremadamente útil. Cuando tienes código spaghetti o funciones que hace mucho que no tocas, usar un LLM para refactorizar puede ahorrarte horas. Con método, porque sin él rompes más de lo que arreglas: en [refactorizar código con IA sin romperlo todo](/articulos/guias/refactorizar-codigo-con-ia-sin-romper/) explico cómo hacerlo paso a paso.
 
-**Mi workflow:**
+**Mi flujo de trabajo:**
 1. Copio la función o clase que quiero refactorizar
 2. Le pido a Claude que la reescriba con mejores prácticas
 3. Reviso los cambios (NUNCA acepto sin revisar)

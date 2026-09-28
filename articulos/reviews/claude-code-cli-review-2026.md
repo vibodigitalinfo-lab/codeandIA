@@ -134,7 +134,7 @@ Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as
 | **Calidad inconsistente** | ✅ A veces brillante, a veces alucina librerías. Requiere supervisión. |
 | **Trust erosion** | ✅ Casos documentados: steganographic tracking en outputs, source map leaks, bloqueo a terceros (claude-code-router). Forced auto-updates. |
 | **Solo Claude** | ✅ No puedes usar GPT-5, Grok, Gemini. Si Claude falla en tu stack, no hay fallback. |
-| **Curva de aprendizaje** | ✅ Requiere pensar en "agentes y workflows", no en "prompts". |
+| **Curva de aprendizaje** | ✅ Requiere pensar en "agentes y flujos de trabajo", no en "prompts". |
 
 ---
 

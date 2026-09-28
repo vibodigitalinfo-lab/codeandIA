@@ -15,7 +15,7 @@ Lleva dos años acompañándome y hoy es, de largo, el fichero que más horas de
 
 **AGENTS.md es un fichero Markdown, en la raíz de tu repositorio, que le dice a las herramientas de IA cómo deben comportarse en TU proyecto concreto.**
 
-Piensa en él como el manual de onboarding para un compañero nuevo: qué comandos construir y testear, qué formato de código usas, qué styleguide sigues y, sobre todo, qué NO debe hacer. La IA no lo lee siempre (depende de la herramienta y del contexto), pero cuando lo lee, tu trabajo mejora muchísimo.
+Piensa en él como el manual de bienvenida para un compañero nuevo: qué comandos construir y testear, qué formato de código usas, qué styleguide sigues y, sobre todo, qué NO debe hacer. La IA no lo lee siempre (depende de la herramienta y del contexto), pero cuando lo lee, tu trabajo mejora muchísimo.
 
 No es un invento mío ni de una herramienta. Se estandarizó en agosto de 2025 de la mano de OpenAI, Google, Cursor y otros, y en diciembre de 2025 se donó a la **Linux Foundation (Agentic AI Foundation)**, la misma gobernanza que tiene MCP. Hoy lo usan más de 60.000 repositorios en GitHub.
 

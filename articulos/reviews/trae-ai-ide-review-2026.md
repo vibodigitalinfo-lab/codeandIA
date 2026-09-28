@@ -26,7 +26,7 @@ La promesa: "Cursor Pro gratis para siempre". La realidad: **el agente es potent
 
 Descargas el `.exe` (Windows), `.dmg` (Mac) o `.AppImage` (Linux). **No hay versión web ni portable real**. Al abrirlo, te pide login (Google/GitHub/email) y te obliga a aceptar sus términos de uso de datos. Aquí ya pierdes a los paranoicos de privacidad: **tu código y contexto viajan a servidores de ByteDance en China/Singapur**. No hay opción local tipo Continue + Ollama.
 
-El onboarding te pregunta qué lenguajes usas, si quieres importar settings de VS Code/Cursor, y te muestra un tour del agente. **Importa extensiones y atajos de VS Code casi perfecto** (mejor que Cursor, que a veces pierde keybindings). En 3 minutos tienes tu entorno clonado.
+La configuración inicial te pregunta qué lenguajes usas, si quieres importar settings de VS Code/Cursor, y te muestra un tour del agente. **Importa extensiones y atajos de VS Code casi perfecto** (mejor que Cursor, que a veces pierde keybindings). En 3 minutos tienes tu entorno clonado.
 
 ---
 
@@ -118,7 +118,7 @@ Trae es **ligeramente más ligero que Cursor** (fork más limpio, menos bloat). 
 
 ## Lo que Trae necesita para ser mi daily driver
 
-1. **Panel Builder redimensionable / movable** (confirmado en roadmap 2026 Q2)
+1. **Panel Builder redimensionable / movable** (confirmado en la hoja de ruta de 2026 Q2)
 2. **Checkpoints manuales en medio del plan**
 3. **Side-by-side diff nativo**
 4. **Opción "no enviar a la nube" para proyectos marcados** (aunque sea modelo local más pequeño)

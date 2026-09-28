@@ -23,7 +23,7 @@ La diferencia de mentalidad es la clave: en Cursor tú pilotas y la IA está en 
 
 ## Cómo trabajan en el día a día
 
-Con Cursor, mi flujo de prácticas es: abro el proyecto, selecciono el bloque que da problemas, el agente lo cambia y yo reviso el diff verde y rojo. Es cómodo, visual y perfecto cuando estás aprendiendo porque ves *exactamente* qué línea toca. Tab completions me escribe boilerplate que copiaba antes, y el chat contextual entiende la selección sin que tenga que explicarle el proyecto entero (esto lo cuento mejor en la [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)).
+Con Cursor, mi flujo de prácticas es: abro el proyecto, selecciono el bloque que da problemas, el agente lo cambia y yo reviso el diff verde y rojo. Es cómodo, visual y perfecto cuando estás aprendiendo porque ves *exactamente* qué línea toca. Tab completions me escribe el código que antes copiaba, y el chat contextual entiende la selección sin que tenga que explicarle el proyecto entero (esto lo cuento mejor en la [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)).
 
 Con Claude Code, el flujo cambia: le pido "arregla el bug de la sesión en el carrito" y él explora solo, edita, ejecuta el servidor, corre un test y me muestra el cambio. La primera vez da respeto, porque hace mucho de golpe. La segunda vez entiendes su poder real: tareas que cruzan varios archivos, que antes me costaban toda la tarde, él las hace mientras yo reviso los resultados.
 
