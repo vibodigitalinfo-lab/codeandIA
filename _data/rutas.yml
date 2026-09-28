@@ -31,6 +31,8 @@
       nota: "Ajustes concretos que ahorran tiempo."
     - path: "/articulos/listas/extensiones-ia-vscode-estudiantes-2026/"
       nota: "Las pocas extensiones que sí valen la pena."
+    - path: "/articulos/guias/programar-de-noche-vista-2026/"
+      nota: "Cuidar la vista mientras aguantas las horas."
 
 - id: elegir-herramienta
   titulo: "Elegir tu editor y tu asistente"
@@ -71,6 +73,8 @@
       nota: "La decisión de framework que más discusión genera."
     - path: "/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/"
       nota: "Cinco ideas para tener algo que enseñar."
+    - path: "/articulos/guias/regex-con-ia-guia-daw-2026/"
+      nota: "Validar formularios y limpiar datos sin pelearte con los patrones."
 
 - id: codigo-calidad
   titulo: "Que el código no se rompa"
@@ -89,6 +93,10 @@
       nota: "Cómo tocar código viejo con ayuda."
     - path: "/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/"
       nota: "Automatizar la revisión de tests."
+    - path: "/articulos/comparativas/vitest-vs-jest-2026/"
+      nota: "Elegir el runner de tests y no pelearte con la configuración."
+    - path: "/articulos/comparativas/biome-vs-eslint-prettier-2026/"
+      nota: "Un solo binario para formatear y analizar el código."
     - path: "/articulos/reviews/coderabbit-review-ai-code-review/"
       nota: "Revisión automática en el pull request."
 
@@ -129,3 +137,5 @@
       nota: "Tu primera app con un modelo dentro."
     - path: "/articulos/guias/prompt-injection-seguridad-apps-ia-2026/"
       nota: "No todo lo que pide la IA se puede hacer."
+    - path: "/articulos/reviews/codex-cli-openai-review-2026/"
+      nota: "El agente de OpenAI en la terminal, con su sandbox de solo lectura por defecto."
