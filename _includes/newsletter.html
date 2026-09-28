@@ -1,16 +1,29 @@
-<!-- newsletter — beehiiv, publicación pub_bde739e1-87d5-4bb5-8c03-83ecd8e1bff7
-     Se usa el formulario alojado por beehiiv (embeds.beehiiv.com) y no la API v2:
-     la API exige una API key (devuelve 401 INVALID_API_KEY) y además no manda
-     cabecera Access-Control-Allow-Origin, así que el fetch desde codeandia.com
-     lo bloquea el navegador. El embed funciona sin clave y sin CORS.
-     Si algún día cambia el ID, se copia de beehiiv → Settings → Embed. -->
+<!-- newsletter — beehiiv
+     Dominio real de la publicación: https://newsletter.codeandia.com
+     (`codeandia.beehiiv.com/subscribe` redirige allí, así que es equivalente,
+      pero usamos el destino final para no gastar un salto de redirección).
+
+     Por qué NO hay iframe de embeds.beehiiv.com por defecto:
+     el ID que se usaba antes (bde739e1-87d5-4bb5-8c03-83ecd8e1bff7) es el
+     publication_id de la publicación, NO el external embed id. La API de
+     beehiiv responde 404 con {"message":"External embed not found"} y el
+     iframe pinta su propia pantalla "Not found" — que es un error de cliente,
+     así que el evento load se dispara igual y ningún fallback en JS puede
+     detectarlo desde el sitio.
+
+     Para recuperar el formulario en línea hay que poner aquí el embed id de
+     beehiiv → Settings → Embed (es un UUID distinto al de la publicación).
+     Mientras esté vacío, se muestra el botón, que funciona siempre. -->
+{% assign nl_embed = site.newsletter.embed_id | default: "" | strip %}
+{% assign nl_url = site.newsletter.subscribe_url | default: "https://newsletter.codeandia.com/subscribe" %}
 <div class="newsletter-box" id="nl-box">
   <h3 class="newsletter-title">Una vez a la semana, sin ruido</h3>
   <p class="newsletter-subtitle">Lo que de verdad me funciona programando con IA, resumido y sin relleno. Cancelas en un clic.</p>
 
   <div class="newsletter-embed-wrapper">
+    {% if nl_embed != "" %}
     <iframe
-      src="https://embeds.beehiiv.com/bde739e1-87d5-4bb5-8c03-83ecd8e1bff7"
+      src="https://embeds.beehiiv.com/{{ nl_embed }}"
       class="newsletter-embed"
       title="Formulario de suscripción a la newsletter de codeandIA"
       loading="lazy"
@@ -19,55 +32,15 @@
       referrerpolicy="no-referrer-when-downgrade"
       sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
     </iframe>
-    <!-- Fallback visible si el iframe falla o es bloqueado -->
-    <div class="newsletter-fallback" style="display: none;">
-      <p style="margin: 0.5rem 0; color: var(--text-muted); font-size: 0.9rem;">
-        El formulario no se ha podido cargar.
-      </p>
-      <a href="https://codeandia.beehiiv.com/subscribe"
-         target="_blank"
-         rel="noopener"
-         class="btn"
-         style="display: inline-block; margin-top: 0.5rem;">
-        Suscríbete en la web de beehiiv →
-      </a>
-    </div>
+    {% endif %}
+    <p class="nl-lead">
+      Escríbeme y te añado a la lista. Un email por semana, sin spam y con un
+      enlace para darte de baja cuando quieras.
+    </p>
+    <a href="{{ nl_url }}" target="_blank" rel="noopener" class="btn newsletter-cta">
+      Suscríbete gratis →
+    </a>
   </div>
 
   <p class="nl-note">1 email/semana · Sin spam · Cancela cuando quieras. Al suscribirte aceptas la <a href="{{ "/privacidad/" | relative_url }}">política de privacidad</a>.</p>
-  <p class="nl-fallback">¿No ves el formulario? <a href="https://codeandia.beehiiv.com/subscribe" target="_blank" rel="noopener">Suscríbete desde aquí</a>.</p>
 </div>
-
-<script>
-  (function () {
-    var iframe = document.querySelector('.newsletter-embed');
-    var fallback = document.querySelector('.newsletter-fallback');
-    if (!iframe || !fallback) return;
-
-    // Si el iframe no carga en 5s, mostramos el fallback
-    var timeout = setTimeout(function () {
-      fallback.style.display = 'block';
-      iframe.style.display = 'none';
-    }, 5000);
-
-    iframe.addEventListener('load', function () {
-      clearTimeout(timeout);
-      // Verificamos que el iframe tenga contenido (no sea error 404/blank)
-      try {
-        var doc = iframe.contentDocument || iframe.contentWindow.document;
-        if (!doc || !doc.body || doc.body.innerHTML.trim() === '') {
-          fallback.style.display = 'block';
-          iframe.style.display = 'none';
-        }
-      } catch (e) {
-        // Cross-origin: no podemos inspeccionar, asumimos que carga
-      }
-    });
-
-    iframe.addEventListener('error', function () {
-      clearTimeout(timeout);
-      fallback.style.display = 'block';
-      iframe.style.display = 'none';
-    });
-  })();
-</script>

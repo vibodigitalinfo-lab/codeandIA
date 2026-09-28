@@ -5,6 +5,18 @@ baseurl: ""
 markdown: kramdown
 permalink: /articulos/:slug/
 
+# Newsletter (beehiiv).
+#   subscribe_url -> donde vive la publicación; abre el formulario de alta.
+#   embed_id     -> external embed id de beehiiv (Settings → Embed) para poder
+#                   meter el formulario en línea dentro de un iframe.
+#                   OJO: NO es el publication_id. Con el publication_id la API
+#                   de beehiiv responde 404 "External embed not found" y el
+#                   iframe se pinta con su propia pantalla "Not found".
+#                   Vacío = se muestra solo el botón, que siempre funciona.
+newsletter:
+  subscribe_url: "https://newsletter.codeandia.com/subscribe"
+  embed_id: ""
+
 # Plugin de sitemap automático (permitido por GitHub Pages)
 plugins:
   - jekyll-sitemap

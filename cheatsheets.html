@@ -27,7 +27,8 @@ permalink: /cheatsheets/
     </header>
     <p class="section-intro">
       Cada hoja es un resumen sin relleno: solo los comandos, atajos y patrones que de verdad usarás.
-      Haz clic para desplegarla y usa el botón de imprimir para llevártela en PDF.
+      Haz clic en el título para desplegarla, y usa <strong>Copiar</strong> para llevártela en texto o
+      <strong>Imprimir</strong> para guardarla en PDF.
     </p>
     <ul class="cheat-jump" aria-label="Saltar a una hoja">
       <li><a href="#cs-prompts">Prompts con código</a></li>
@@ -121,7 +122,7 @@ permalink: /cheatsheets/
             <tr><td>Parar y borrar</td><td>docker compose down</td></tr>
           </tbody>
         </table>
-        <p>Para desarrollo, lo normal es no construir la imagen a mano:pones tu código en un volumen, lanzas la imagen y el proceso de recarga hace el resto.</p>
+        <p>Para desarrollo, lo normal es no construir la imagen a mano: pones tu código en un volumen, lanzas la imagen y el proceso de recarga hace el resto.</p>
       </div>
     </details>
 
@@ -151,9 +152,10 @@ permalink: /cheatsheets/
 </section>
 
 <script>
-  /* Boton "Copiar" por hoja: convierte la tabla de cada cheatsheet en
-     texto plano y lo mete en el portapapeles. Un cheatsheet esta para
-     pegarlo en otro lado, no solo para leerlo en pantalla. */
+  /* Por cada hoja: botón "Copiar" (la tabla a texto plano, que es para lo que
+     sirve una chuleta) y botón "Imprimir" (solo esa hoja, en PDF).
+     También hace que los enlaces de la lista de arriba abran la hoja: si el
+     destino está plegado, el salto no se ve y parece un enlace roto. */
   (function () {
     function aTexto(bloque) {
       var lineas = [];
@@ -177,7 +179,7 @@ permalink: /cheatsheets/
         lineas.push('');
       });
 
-      /* Los parrafos sueltos que hay fuera de las tablas tambien utiles. */
+      /* Los parrafos sueltos que hay fuera de las tablas tambien son utiles. */
       bloque.querySelectorAll('.cheat-body > p').forEach(function (p) {
         lineas.push(p.textContent.trim().replace(/\s+/g, ' '));
         lineas.push('');
@@ -186,15 +188,34 @@ permalink: /cheatsheets/
       return lineas.join('\n').trim();
     }
 
+    function copiar(texto) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(texto);
+      }
+      var ta = document.createElement('textarea');
+      ta.value = texto;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+      return null;
+    }
+
     document.querySelectorAll('.cheat-block').forEach(function (bloque) {
+      var cuerpo = bloque.querySelector('.cheat-body');
+      if (!cuerpo) return;
+
+      var barra = document.createElement('div');
+      barra.className = 'cheat-acciones';
+
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'cheat-copy';
       btn.textContent = 'Copiar la hoja';
-
       btn.addEventListener('click', function () {
-        var texto = aTexto(bloque);
-        var fin = function () {
+        var avisa = function () {
           btn.textContent = 'Copiado';
           btn.classList.add('is-copied');
           setTimeout(function () {
@@ -202,22 +223,53 @@ permalink: /cheatsheets/
             btn.classList.remove('is-copied');
           }, 1800);
         };
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(texto).then(fin, function () {});
-        } else {
-          var ta = document.createElement('textarea');
-          ta.value = texto;
-          ta.style.position = 'fixed';
-          ta.style.opacity = '0';
-          document.body.appendChild(ta);
-          ta.select();
-          try { document.execCommand('copy'); fin(); } catch (e) {}
-          document.body.removeChild(ta);
-        }
+        var p = copiar(aTexto(bloque));
+        if (p && p.then) p.then(avisa, function () {});
+        else avisa();
       });
 
-      var cuerpo = bloque.querySelector('.cheat-body');
-      if (cuerpo) cuerpo.appendChild(btn);
+      var btnPrint = document.createElement('button');
+      btnPrint.type = 'button';
+      btnPrint.className = 'cheat-print';
+      btnPrint.textContent = 'Imprimir esta hoja';
+      btnPrint.addEventListener('click', function () {
+        /* Para imprimir solo esta hoja hay que abrirla (una <details> plegada
+           imprime solo el titulo) y ocultar las demas. Se guarda el estado
+           previo de cada bloque y se restaura al terminar. */
+        var bloques = document.querySelectorAll('.cheat-block');
+        var previo = [];
+        bloques.forEach(function (b) {
+          previo.push(b.open);
+          b.open = false;
+        });
+        bloque.open = true;
+        bloque.setAttribute('data-printing', '');
+        document.body.setAttribute('data-printing-cheat', '');
+
+        var titulo = bloque.querySelector('summary');
+        var anterior = document.title;
+        if (titulo) document.title = titulo.textContent.trim();
+
+        window.print();
+
+        document.title = anterior;
+        document.body.removeAttribute('data-printing-cheat');
+        bloque.removeAttribute('data-printing');
+        bloques.forEach(function (b, i) { b.open = previo[i]; });
+      });
+
+      barra.appendChild(btn);
+      barra.appendChild(btnPrint);
+      cuerpo.appendChild(barra);
+    });
+
+    /* La lista de arriba: abrir la hoja antes de saltar al hash. Sin esto se
+       aterriza sobre un <details> plegado y el enlace parece no funcionar. */
+    document.querySelectorAll('.cheat-jump a[href^="#"]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        var destino = document.getElementById(a.getAttribute('href').slice(1));
+        if (destino && destino.tagName === 'DETAILS') destino.open = true;
+      });
     });
   })();
 </script>

@@ -1725,17 +1725,18 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   background: transparent;
 }
 
-.newsletter-fallback {
-  margin-top: 1rem;
-  padding: 1rem;
-  background: var(--bg);
-  border: 1px dashed var(--border);
-  border-radius: 8px;
-  text-align: center;
+.nl-lead {
+  margin: 0 0 0.9rem;
+  font-size: 0.98rem;
+  color: var(--text-body);
 }
 
-.newsletter-fallback .btn {
-  margin-top: 0.75rem;
+.newsletter-cta {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.7rem 1.4rem;
 }
 
 .nl-note {
@@ -1745,16 +1746,6 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
 }
 
 .nl-note a {
-  color: var(--accent);
-}
-
-.nl-fallback {
-  margin-top: 0.4rem;
-  font-size: 0.82rem;
-  color: var(--text-muted);
-}
-
-.nl-fallback a {
   color: var(--accent);
 }
 
@@ -2431,30 +2422,23 @@ a.tool-card:hover {
 
 /* ================= Rutas de aprendizaje ================= */
 
-.rutas-grid {
-  display: grid;
-  gap: 1.2rem;
-  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
-}
-
-.ruta-card {
+.rutas-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.55rem;
-  padding: 1.2rem 1.25rem;
+  gap: 1.6rem;
+}
+
+.ruta {
+  padding: 1.5rem 1.6rem 1.6rem;
   border: 1.5px solid var(--border-strong);
   background: var(--surface);
   box-shadow: 4px 4px 0 var(--shadow);
-  text-align: left;
-  cursor: pointer;
-  font: inherit;
-  color: inherit;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.ruta-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--shadow);
+  /* las migas #id de la cabecera y de cada articulo apuntan aqui: sin esto el
+     titulo queda debajo de la barra de navegacion fija */
+  scroll-margin-top: 5.5rem;
 }
 
 .ruta-card-nivel {
@@ -2467,66 +2451,47 @@ a.tool-card:hover {
   color: var(--accent);
   border: 1px solid var(--accent);
   padding: 0.15rem 0.45rem;
+  white-space: nowrap;
 }
 
-.ruta-card-title {
+.ruta-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.ruta-title {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
   line-height: 1.25;
   color: var(--text);
   margin: 0;
 }
 
-.ruta-card-desc {
-  font-size: 0.93rem;
-  line-height: 1.55;
+.ruta-resumen {
+  margin: 0 0 0.2rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
   color: var(--text-body);
-  margin: 0;
 }
 
-.ruta-card-meta {
-  margin-top: auto;
-  padding-top: 0.4rem;
+.ruta-estado {
+  margin: 0;
   font-family: var(--font-mono);
-  font-size: 0.74rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
-  display: flex;
-  justify-content: space-between;
-  gap: 0.5rem;
 }
 
-.ruta-card-meta .ruta-progress {
-  color: var(--accent-text);
-}
-
-.ruta-panel {
-  margin-top: 1.4rem;
-  padding: 1.4rem 1.5rem;
-  border: 1.5px solid var(--border-strong);
-  background: var(--surface);
-  box-shadow: 4px 4px 0 var(--shadow);
-}
-
-.ruta-panel[hidden] {
-  display: none;
-}
-
-.ruta-panel-head {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  align-items: baseline;
-  justify-content: space-between;
-  margin-bottom: 0.4rem;
-}
-
-.ruta-panel-title {
-  font-family: var(--font-serif);
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--text);
-  margin: 0;
+.ruta-aviso {
+  margin: 1.6rem 0 0;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--border);
 }
 
 .ruta-bar {
@@ -2553,14 +2518,21 @@ a.tool-card:hover {
 }
 
 .ruta-paso {
+  border: 1.5px solid var(--border);
+  background: var(--bg-raised);
+  transition: border-color 0.15s ease;
+}
+
+.ruta-paso-caja {
   display: flex;
   gap: 0.75rem;
   align-items: flex-start;
   padding: 0.7rem 0.8rem;
-  border: 1.5px solid var(--border);
-  background: var(--bg-raised);
   cursor: pointer;
-  transition: border-color 0.15s ease;
+}
+
+.ruta-paso-caja.is-solo-lectura {
+  cursor: default;
 }
 
 .ruta-paso:hover {
@@ -2884,6 +2856,41 @@ a.tool-card:hover {
   background: var(--surface-3, var(--surface-2));
 }
 
+.cheat-block {
+  scroll-margin-top: 5.5rem;
+}
+
+.cheat-acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px dashed var(--border);
+}
+
+.cheat-print {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem 0.9rem;
+  background: transparent;
+  color: var(--text-body);
+  border: 1.5px solid var(--border-strong);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.cheat-print:hover {
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+.cheat-print:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .cheat-jump {
   display: flex;
   flex-wrap: wrap;
@@ -3053,5 +3060,58 @@ a.tool-card:hover {
 
   .heading-anchor {
     display: none;
+  }
+
+  /* ================= Chuletas y rutas al imprimir ================= */
+
+  .cheat-jump,
+  .cheat-acciones,
+  .cheat-copy,
+  .cheat-print,
+  .articles-hero,
+  .section-intro,
+  .ruta-aviso,
+  .ruta-paso-caja input {
+    display: none !important;
+  }
+
+  .cheat-block,
+  .ruta {
+    border: none;
+    box-shadow: none;
+    background: #fff;
+    padding: 0;
+    page-break-inside: avoid;
+  }
+
+  .ruta + .ruta {
+    page-break-before: always;
+  }
+
+  /* Cuando se pulsa "Imprimir esta hoja" solo sale esa. */
+  body[data-printing-cheat] .cheat-block {
+    display: none;
+  }
+
+  body[data-printing-cheat] .cheat-block[data-printing] {
+    display: block;
+  }
+
+  .cheat-block > summary {
+    font-size: 16pt;
+    margin-bottom: 0.6rem;
+  }
+
+  .cheat-body p,
+  .cheat-table td,
+  .cheat-table th,
+  .ruta-resumen,
+  .ruta-paso-nota,
+  .ruta-paso-titulo {
+    color: #000;
+  }
+
+  .cheat-table {
+    font-size: 10.5pt;
   }
 }

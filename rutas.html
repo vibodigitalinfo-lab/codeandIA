@@ -5,6 +5,9 @@ description: "Siete rutas guiadas para aprender a programar con IA de verdad: de
 permalink: /rutas/
 ---
 
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" %}
+{% assign total_pasos = site.data.rutas | map: "pasos" | map: "size" | sum %}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -33,13 +36,13 @@ permalink: /rutas/
     </nav>
     <header class="articles-hero">
       <h1 class="hero-title">Rutas de aprendizaje</h1>
-      <p>{{ site.data.rutas | size }} rutas guiadas · {{ site.data.rutas | map: "pasos" | map: "size" | sum }} pasos en total para aprender a programar con IA de verdad</p>
+      <p>{{ site.data.rutas | size }} rutas guiadas · {{ total_pasos }} pasos en total para aprender a programar con IA de verdad</p>
     </header>
     <p class="section-intro">
-      Con 96 artículos publicados, empezar por el primero no siempre es la mejor idea. Estas siete rutas
-      ordenan lo que ya hay en un recorrido con sentido: qué leer primero, qué después y qué puedes
-      saltarte si ya lo controlas. El progreso se guarda en tu navegador, así que puedes venir mañana y
-      seguir justo donde lo dejaste.
+      Con {{ arts | size }} artículos publicados, empezar por el primero no siempre es la mejor idea. Estas
+      siete rutas ordenan lo que ya hay en un recorrido con sentido: qué leer primero, qué después y qué
+      puedes saltarte si ya lo controlas. El progreso se guarda en tu navegador, así que puedes venir mañana
+      y seguir justo donde lo dejaste.
     </p>
 
     <ul class="cheat-jump" aria-label="Ir a una ruta">
@@ -52,158 +55,104 @@ permalink: /rutas/
 
 <section class="section">
   <div class="container">
-
-    <div class="rutas-grid" id="rutas-grid">
+    <ol class="rutas-lista">
       {% for r in site.data.rutas %}
-      <button class="ruta-card" type="button" data-ruta="{{ r.id }}" aria-controls="ruta-panel">
-        <span class="ruta-card-nivel">{{ r.nivel }}</span>
-        <h2 class="ruta-card-title">{{ r.titulo }}</h2>
-        <p class="ruta-card-desc">{{ r.resumen }}</p>
-        <span class="ruta-card-meta">
-          <span>{{ r.pasos | size }} pasos</span>
-          <span class="ruta-progress" data-progress="{{ r.id }}"></span>
-        </span>
-      </button>
-      {% endfor %}
-    </div>
+      <li class="ruta" id="{{ r.id }}" data-ruta="{{ r.id }}">
+        <div class="ruta-head">
+          <span class="ruta-card-nivel">{{ r.nivel }}</span>
+          <h2 class="ruta-title">{{ r.titulo }}</h2>
+        </div>
+        <p class="ruta-resumen">{{ r.resumen }}</p>
 
-    <div class="ruta-panel" id="ruta-panel" hidden>
-      <div class="ruta-panel-head">
-        <h2 class="ruta-panel-title" id="ruta-panel-title"></h2>
-        <span class="ruta-card-nivel" id="ruta-panel-nivel"></span>
-      </div>
-      <p id="ruta-panel-resumen"></p>
-      <div class="ruta-bar" aria-hidden="true"><span id="ruta-panel-bar" style="width:0%"></span></div>
-      <p class="ruta-card-meta" id="ruta-panel-estado" style="margin-top:0;padding-top:0"></p>
-      <ol class="ruta-pasos" id="ruta-panel-pasos"></ol>
-    </div>
+        <div class="ruta-bar" aria-hidden="true"><span data-bar="{{ r.id }}" style="width:0%"></span></div>
+        <p class="ruta-estado" data-estado="{{ r.id }}">0 de {{ r.pasos | size }} pasos completados</p>
+
+        <ol class="ruta-pasos">
+          {% for p in r.pasos %}
+          {% assign art = site.pages | where: "url", p.path | first %}
+          <li class="ruta-paso" data-ruta="{{ r.id }}" data-indice="{{ forloop.index0 }}">
+            <label class="ruta-paso-caja">
+              <input type="checkbox" data-ruta="{{ r.id }}" data-indice="{{ forloop.index0 }}">
+              <span class="ruta-paso-body">
+                <span class="ruta-paso-tag">{{ art.category }}</span>
+                <a class="ruta-paso-titulo" href="{{ p.path }}">{{ art.title | default: p.path }}</a>
+                <span class="ruta-paso-nota">{{ p.nota }}</span>
+              </span>
+            </label>
+          </li>
+          {% endfor %}
+        </ol>
+      </li>
+      {% endfor %}
+    </ol>
+
+    <p class="ruta-aviso">
+      El progreso se guarda solo en este navegador (en el almacenamiento local). Si borras los datos del
+      sitio o cambias de dispositivo, empieza de cero.
+    </p>
   </div>
 </section>
 
 <script>
   (function () {
-    var RUTAS = [
-      {% for r in site.data.rutas %}
-      {
-        id: {{ r.id | jsonify }},
-        titulo: {{ r.titulo | jsonify }},
-        nivel: {{ r.nivel | jsonify }},
-        resumen: {{ r.resumen | jsonify }},
-        pasos: [
-          {% for p in r.pasos %}
-          {% assign art = site.pages | where: "url", p.path | first %}
-          {
-            path: {{ p.path | jsonify }},
-            nota: {{ p.nota | jsonify }},
-            title: {{ art.title | default: p.path | jsonify }},
-            category: {{ art.category | jsonify }}
-          }{% unless forloop.last %},{% endunless %}
-          {% endfor %}
-        ]
-      }{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ];
-    var grid = document.getElementById('rutas-grid');
-    var panel = document.getElementById('ruta-panel');
-    if (!grid || !panel) return;
-
-    var titulo = document.getElementById('ruta-panel-title');
-    var nivel = document.getElementById('ruta-panel-nivel');
-    var resumen = document.getElementById('ruta-panel-resumen');
-    var pasos = document.getElementById('ruta-panel-pasos');
-    var barra = document.getElementById('ruta-panel-bar');
-    var estado = document.getElementById('ruta-panel-estado');
     var api = window.codeandia;
+    var cajas = document.querySelectorAll('.ruta-paso-caja input[type="checkbox"]');
+    if (!cajas.length) return;
 
-    function porId(id) {
-      for (var i = 0; i < RUTAS.length; i++) {
-        if (RUTAS[i].id === id) return RUTAS[i];
+    /* Sin el almacenamiento local no hay donde guardar el progreso: se deja la
+       lista de pasos como lectura, que ya es útil. */
+    if (!api || typeof api.alternarPaso !== 'function') {
+      for (var d = 0; d < cajas.length; d++) {
+        cajas[d].disabled = true;
+        cajas[d].closest('.ruta-paso-caja').classList.add('is-solo-lectura');
       }
-      return null;
     }
 
-    function pintarProgreso() {
-      RUTAS.forEach(function (r) {
-        var el = document.querySelector('[data-progress="' + r.id + '"]');
-        if (!el) return;
-        var hecho = api ? api.obtenerPasos(r.id).length : 0;
-        el.textContent = hecho > 0 ? hecho + '/' + r.pasos.length : '';
+    function total(id) {
+      return document.querySelectorAll('.ruta-paso[data-ruta="' + id + '"]').length;
+    }
+
+    function pintar(rutaId) {
+      var hechos = api ? api.obtenerPasos(rutaId) : [];
+      var t = total(rutaId);
+      var barra = document.querySelector('[data-bar="' + rutaId + '"]');
+      var estado = document.querySelector('[data-estado="' + rutaId + '"]');
+      if (barra) barra.style.width = (hechos.length / t * 100) + '%';
+      if (estado) {
+        estado.textContent = hechos.length === t
+          ? 'Ruta completada. Buen trabajo.'
+          : hechos.length + ' de ' + t + ' pasos completados';
+      }
+    }
+
+    function pintarTodo() {
+      var rutas = document.querySelectorAll('.ruta[data-ruta]');
+      for (var i = 0; i < rutas.length; i++) pintar(rutas[i].getAttribute('data-ruta'));
+    }
+
+    function marcar() {
+      for (var i = 0; i < cajas.length; i++) {
+        var c = cajas[i];
+        var rutaId = c.getAttribute('data-ruta');
+        var indice = parseInt(c.getAttribute('data-indice'), 10);
+        var hechos = api ? api.obtenerPasos(rutaId) : [];
+        c.checked = hechos.indexOf(indice) !== -1;
+        c.closest('.ruta-paso').classList.toggle('is-done', c.checked);
+      }
+    }
+
+    for (var j = 0; j < cajas.length; j++) {
+      cajas[j].addEventListener('change', function () {
+        if (!api) return;
+        var rutaId = this.getAttribute('data-ruta');
+        var indice = parseInt(this.getAttribute('data-indice'), 10);
+        api.alternarPaso(rutaId, indice);
+        this.closest('.ruta-paso').classList.toggle('is-done', this.checked);
+        pintar(rutaId);
       });
     }
 
-    function pintarPanel(r) {
-      var hechos = api ? api.obtenerPasos(r.id) : [];
-      titulo.textContent = r.titulo;
-      nivel.textContent = r.nivel;
-      resumen.textContent = r.resumen;
-      barra.style.width = (hechos.length / r.pasos.length * 100) + '%';
-      estado.textContent = hechos.length === r.pasos.length
-        ? 'Ruta completada. Buen trabajo.'
-        : hechos.length + ' de ' + r.pasos.length + ' pasos completados';
-
-      pasos.innerHTML = '';
-      r.pasos.forEach(function (p, i) {
-        var li = document.createElement('li');
-        li.className = 'ruta-paso';
-        if (hechos.indexOf(i) !== -1) li.classList.add('is-done');
-
-        var caja = document.createElement('label');
-        var input = document.createElement('input');
-        input.type = 'checkbox';
-        input.checked = hechos.indexOf(i) !== -1;
-        input.addEventListener('change', function () {
-          var nuevos = api ? api.alternarPaso(r.id, i) : [];
-          if (input.checked) li.classList.add('is-done');
-          else li.classList.remove('is-done');
-          barra.style.width = (nuevos.length / r.pasos.length * 100) + '%';
-          estado.textContent = nuevos.length === r.pasos.length
-            ? 'Ruta completada. Buen trabajo.'
-            : nuevos.length + ' de ' + r.pasos.length + ' pasos completados';
-          pintarProgreso();
-        });
-
-        var body = document.createElement('div');
-        body.className = 'ruta-paso-body';
-        var tag = document.createElement('span');
-        tag.className = 'ruta-paso-tag';
-        tag.textContent = p.category || '';
-        var link = document.createElement('a');
-        link.className = 'ruta-paso-titulo';
-        link.href = p.path;
-        link.textContent = p.title || p.path;
-        var nota = document.createElement('span');
-        nota.className = 'ruta-paso-nota';
-        nota.textContent = p.nota || '';
-        body.appendChild(tag);
-        body.appendChild(link);
-        body.appendChild(nota);
-
-        caja.appendChild(input);
-        caja.appendChild(body);
-        li.appendChild(caja);
-        pasos.appendChild(li);
-      });
-
-      panel.hidden = false;
-    }
-
-    grid.addEventListener('click', function (e) {
-      var card = e.target.closest('.ruta-card');
-      if (!card) return;
-      var r = porId(card.getAttribute('data-ruta'));
-      if (r) pintarPanel(r);
-    });
-
-    if (window.location.hash) {
-      var inicial = porId(window.location.hash.slice(1));
-      if (inicial) pintarPanel(inicial);
-    }
-
-    window.addEventListener('hashchange', function () {
-      var r = porId(window.location.hash.slice(1));
-      if (r) pintarPanel(r);
-    });
-
-    pintarProgreso();
+    marcar();
+    pintarTodo();
   })();
 </script>
