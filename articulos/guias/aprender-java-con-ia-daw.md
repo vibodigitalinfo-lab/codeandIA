@@ -3,7 +3,7 @@ layout: article
 title: "Aprender Java en DAW con IA y no volverte dependiente"
 description: "Cómo usar la IA para estudiar Java en DAW: prompts tutor, leer stack traces, ejercicios sin soluciones y la regla de no entregar código que no entiendas."
 category: "Guía"
-date: 2026-08-20
+date: 2026-08-15
 readtime: 7
 ---
 

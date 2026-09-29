@@ -3,7 +3,7 @@ layout: article
 title: "Lámpara de escritorio para programar: la que de verdad va bien"
 description: "Cómo elegir lámpara de escritorio para programar por la noche: temperatura de color, brillo y la opción barata que uso, con precio real en Amazon."
 category: "Guía"
-date: 2026-09-28
+date: 2026-09-23
 readtime: 5
 affiliate_text: "La lámpara LED de flexo es la que uso para programar de noche: 3 temperaturas y brillo regulable por 21,98€"
 affiliate_url: "https://www.amazon.es/dp/B0D8PY8CRD?tag=codeandia-21"

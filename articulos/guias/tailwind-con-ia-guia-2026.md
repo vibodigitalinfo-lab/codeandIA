@@ -3,7 +3,7 @@ layout: article
 title: "Tailwind con IA: cómo evitar 40 clases en un div"
 description: "Cómo usar IA con Tailwind sin acabar con un div de 40 clases: los 3 patrones que siempre genera mal, los prompts que los evitan y cómo refactorizar."
 category: "Guía"
-date: 2026-09-11
+date: 2026-09-06
 readtime: 9
 ---
 

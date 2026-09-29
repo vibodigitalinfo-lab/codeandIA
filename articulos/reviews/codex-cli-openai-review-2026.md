@@ -3,7 +3,7 @@ layout: article
 title: "Codex CLI de OpenAI en 2026: el agente que uso en la terminal"
 description: "Codex CLI de OpenAI es el agente en terminal, gratis y abierto: instalación, AGENTS.md, modos de sandbox, codex exec y qué tal se comporta programando."
 category: "Review"
-date: 2026-09-21
+date: 2026-09-16
 readtime: 9
 ---
 

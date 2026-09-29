@@ -3,7 +3,7 @@ layout: article
 title: "Code review con IA: que no te suban código roto"
 description: "Cómo revisar un pull request con IA sin sustos: preparar el diff, pedir hallazgos con severidad, automatizar con los revisores y saber qué no hace la IA."
 category: "Guía"
-date: 2026-09-24
+date: 2026-09-19
 readtime: 7
 ---
 

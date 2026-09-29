@@ -3,7 +3,7 @@ layout: article
 title: "Si solo puedes comprar una cosa para programar, empieza aquí"
 description: "Con 50, 200 o 300 euros llegas al mismo sitio. El orden real de compra del puesto de trabajo, con precios verificados y qué no comprar todavía."
 category: "Guía"
-date: 2026-09-13
+date: 2026-09-08
 readtime: 6
 affiliate_text: "Mira la SIHOO M18, la silla que más me ha recomendado la gente"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"

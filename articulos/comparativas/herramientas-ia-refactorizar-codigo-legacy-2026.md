@@ -3,7 +3,7 @@ layout: article
 title: "IA para refactorizar código legacy: cuál funciona mejor en 2026"
 description: "Comparativa de Cursor, Copilot, Claude y Continue para refactorizar codigo viejo. Mi experiencia real con proyectos heredados y codigo spaghetti."
 category: "Comparativa"
-date: 2026-07-22
+date: 2026-07-17
 readtime: 8
 last_modified_at: 2026-09-27
 ---

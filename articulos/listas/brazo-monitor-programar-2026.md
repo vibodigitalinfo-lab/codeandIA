@@ -3,7 +3,7 @@ layout: article
 title: "Brazo de monitor para programar: más altura, mejor cuello"
 description: "Los mejores brazos y soportes para monitor según el escritorio: dobles, reforzados y baratos, con precios reales de hoy en Amazon España."
 category: "Lista"
-date: 2026-09-27
+date: 2026-09-22
 readtime: 5
 affiliate_text: "El ErGear de doble soporte es mi recomendación calidad-precio: libera el escritorio por 25,99€"
 affiliate_url: "https://www.amazon.es/dp/B082MLVXRR?tag=codeandia-21"

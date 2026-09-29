@@ -3,7 +3,7 @@ layout: article
 title: "Biome vs ESLint + Prettier en 2026: qué pongo en mis prácticas"
 description: "Biome promete sustituir a ESLint y Prettier con un único binario en Rust. Comparo velocidad, cobertura de reglas, migración y qué te conviene."
 category: "Comparativa"
-date: 2026-09-20
+date: 2026-09-15
 readtime: 8
 ---
 
