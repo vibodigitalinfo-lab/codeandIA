@@ -3,7 +3,7 @@ layout: article
 title: "GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso"
 description: "Guía para activar GitHub Copilot gratis con el Student Developer Pack: requisitos, correo educativo y cómo aprovecharlo para estudiar programación."
 category: "Review"
-date: 2026-06-12
+date: 2026-06-09
 readtime: 5
 affiliate_text: "Prueba GitHub Copilot gratis con el Student Developer Pack"
 affiliate_url: "https://education.github.com/pack"

@@ -3,7 +3,7 @@ layout: article
 title: "Programar de noche sin romperte la vista: lo que funciona"
 description: "Las gafas de luz azul no previenen la fatiga visual: lo dicen la Cochrane y la Sociedad Española de Oftalmología. Te cuento qué funciona al programar de noche."
 category: "Guía"
-date: 2026-09-20
+date: 2026-09-17
 readtime: 7
 ---
 

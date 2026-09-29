@@ -3,7 +3,7 @@ layout: article
 title: "GitHub Copilot CLI vs Codex CLI en 2026: cuál para tu curso"
 description: "Comparo la CLI de GitHub Copilot y la de Codex de OpenAI para programar en la terminal: cuenta, precio, permisos y cuál le gana al estudiante de DAW."
 category: "Comparativa"
-date: 2026-09-29
+date: 2026-09-26
 readtime: 7
 ---
 

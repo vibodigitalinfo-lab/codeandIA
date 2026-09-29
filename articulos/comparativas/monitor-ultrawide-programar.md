@@ -3,7 +3,7 @@ layout: article
 title: "Monitor ultrawide para programar: el que yo usaría en 2026"
 description: "Comparo monitores ultrawide para programar con precios reales: LG, Xiaomi, Dell y AOC. Cuál merece la pena para código."
 category: "Comparativa"
-date: 2026-06-10
+date: 2026-06-07
 readtime: 11
 affiliate_text: "Consigue el Xiaomi G34WQi 34\" en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0D1HQK5G5?tag=codeandia-21"

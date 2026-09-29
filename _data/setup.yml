@@ -23,6 +23,9 @@
 - id: brazo
   nombre: Soporte de monitor
   emoji: "🦾"
+  articulo:
+    url: "/articulos/listas/brazo-monitor-programar-2026/"
+    label: "Brazo de monitor: más altura, mejor cuello"
   productos:
     - nombre: "ErGear Soporte Doble 13-32\""
       precio: "25,99€"
@@ -123,6 +126,9 @@
 - id: lampara
   nombre: Lámpara
   emoji: "💡"
+  articulo:
+    url: "/articulos/guias/lampara-escritorio-programar-noche/"
+    label: "Lámpara de escritorio: cómo elegirla"
   productos:
     - nombre: "Lámpara LED Flexo de Escritorio"
       precio: "21,98€"
@@ -151,6 +157,9 @@
 - id: reposapies
   nombre: Reposapiés
   emoji: "🦶"
+  articulo:
+    url: "/articulos/guias/reposapies-programar-espalda/"
+    label: "Reposapiés: lo que alivia la espalda"
   productos:
     - nombre: "Reposapiés MAGIC SELECT Ajustable"
       precio: "19,85€"

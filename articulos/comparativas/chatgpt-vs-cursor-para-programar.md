@@ -3,7 +3,7 @@ layout: article
 title: "ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso"
 description: "Comparativa real entre ChatGPT y Cursor AI para programadores y estudiantes: diferencias de contexto, generación de código, flujos diarios y precio."
 category: "Comparativa"
-date: 2026-06-17
+date: 2026-06-14
 readtime: 5
 affiliate_text: "Prueba Cursor gratis y lleva tu flujo de trabajo al siguiente nivel"
 affiliate_url: "https://cursor.com"

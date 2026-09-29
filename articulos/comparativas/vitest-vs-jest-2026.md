@@ -3,7 +3,7 @@ layout: article
 title: "Jest vs Vitest en 2026: qué runner de tests elijo en DAW"
 description: "Jest y Vitest ejecutan los mismos tests, pero no se parecen en nada por dentro. Comparo velocidad, ESM, TypeScript, mocks y cuándo conviene migrar en DAW."
 category: "Comparativa"
-date: 2026-09-22
+date: 2026-09-19
 readtime: 9
 ---
 

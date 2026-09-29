@@ -3,7 +3,7 @@ layout: article
 title: "7 herramientas de IA para automatizar tareas aburridas"
 description: "Lista de herramientas de IA que ahorran horas automatizando tareas repetitivas: commits, documentacion, testing, code review y mas. Probadas en 2026."
 category: "Lista"
-date: 2026-07-28
+date: 2026-07-25
 readtime: 7
 last_modified_at: 2026-09-27
 ---

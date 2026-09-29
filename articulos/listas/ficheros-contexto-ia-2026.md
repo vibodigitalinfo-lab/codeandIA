@@ -3,7 +3,7 @@ layout: article
 title: "5 ficheros de contexto que tu IA lee antes que tú"
 description: "AGENTS.md, .cursorrules, .editorconfig, .gitignore y tus dotfiles: los ficheros con los que tu agente sabe qué hacer y por qué deberías repasarlos hoy."
 category: "Lista"
-date: 2026-09-25
+date: 2026-09-22
 readtime: 7
 ---
 
