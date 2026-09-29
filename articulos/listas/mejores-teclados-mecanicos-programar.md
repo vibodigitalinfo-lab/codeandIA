@@ -8,11 +8,11 @@ readtime: 9
 affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-updated: 2026-09-21
-last_modified_at: 2026-09-21
+updated: 2026-09-29
+last_modified_at: 2026-09-29
 picks:
   - name: "Keychron V1 Max"
-    price: "141,79€"
+    price: "~136€"
     best_for: "Mejor calidad-precio para empezar"
     url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
     badge: "Mi pick"
@@ -57,7 +57,7 @@ Si buscas el mejor teclado mecánico para programar sin compromisos, este es mi 
 
 ## Keychron V1 Max: Relación calidad-precio imbatible
 
-El Keychron V1 Max cuesta unos 142€. Es bastante más barato que el Q1 Pro y conserva casi todas sus características.
+El Keychron V1 Max cuesta unos 136€. Es bastante más barato que el Q1 Pro y conserva casi todas sus características.
 
 También tiene QMK y VIA. Puedo personalizar teclas igual que en el modelo premium. Para alguien que empieza con teclados mecánicos, esto es oro: sin drivers ni software propietario, todo desde el navegador.
 
@@ -65,7 +65,7 @@ El hot-swap está incluido. Puedo probar switches diferentes sin soldar. Si mañ
 
 El build quality es sorprendente por este precio. El case es de plástico ABS sólido, no de aluminio como el Q1 Pro, pero los estabilizadores no rattan (ese ruido molesto de la barra espaciadora barata) y se siente robusto.
 
-Lo que no tiene comparado con el Q1 Pro: el gasket mount es más básico y el acabado no llega al nivel del aluminio premium. Pero sí es inalámbrico (Bluetooth y 2,4 GHz), trae los switches Gateron Jupiter Red de serie y por 142€ la relación calidad-precio es difícil de superar.
+Lo que no tiene comparado con el Q1 Pro: el gasket mount es más básico y el acabado no llega al nivel del aluminio premium. Pero sí es inalámbrico (Bluetooth y 2,4 GHz), trae los switches Gateron Jupiter Red de serie y por unos 136€ la relación calidad-precio es difícil de superar.
 
 Es mi recomendación para estudiantes de DAW que quieren su primer teclado mecánico de calidad sin romper el presupuesto. Conectado a VS Code o Cursor, la diferencia con un membrane es inmediata.
 
@@ -121,7 +121,7 @@ Para el portátil, uso un Keychron V1 Max en el coworking. Es más ligero, cuest
 
 El Royal Kludge RK84 quedó como backup en el estudio. Lo muestro a compañeros de DAW cuando preguntan si vale la pena cambiar a mecánico.
 
-¿Necesitas 170€ para programar mejor? No. El Keychron V1 Max a 142€ cubre el 90% de lo que necesitas. La diferencia entre un membrane y un mecánico de 142€ es mucho mayor que entre uno de 142€ y uno de 170€.
+¿Necesitas 170€ para programar mejor? No. El Keychron V1 Max a 136€ cubre el 90% de lo que necesitas. La diferencia entre un membrane y un mecánico de 136€ es mucho mayor que entre uno de 136€ y uno de 170€.
 
 Lo que sí importa: switches hot-swappable (para probar sin comprometer), QMK/VIA (para personalizar atajos) y un layout 75% o TKL (funcional sin ocupar mucho espacio).
 

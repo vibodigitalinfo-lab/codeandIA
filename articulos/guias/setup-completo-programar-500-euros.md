@@ -8,6 +8,7 @@ readtime: 7
 affiliate_text: "Consigue la silla SIHOO M18 en Amazon con el precio comprobado"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
+last_modified_at: 2026-09-29
 ---
 
 Cuando empecé DAW monté mi "setup" a lo loco: una silla de cocina, el portátil sobre una tabla, un ratón de 10 euros que me dejó muerto de hombro. En tres semanas ya me dolía la espalda. No es ninguna broma: el hardware malo se ve gratis hasta que te sale caro en dolores.
@@ -26,17 +27,17 @@ Si ignoras esto y compras un teclado de 200€ antes que una silla decente, en s
 
 Aquí va mi propuesta para que te entre en 500€ de verdad. Es lo que yo haría hoy con ese presupuesto:
 
-### 1. La silla (199,99€) — no negocies con esto
+### 1. La silla (182,39€) — no negocies con esto
 
-Mi primera recomendación es la **SIHOO M18**. Por 200 euros te da reposabrazos ajustables, soporte lumbar que no se va de madre y un respaldo de malla que aguanta sesiones de 8 horas. No es la silla de tus sueños, pero es la diferencia entre acabar el día con la espalda entera o hecha polvo.
+Mi primera recomendación es la **SIHOO M18**. Por 182 euros te da reposabrazos ajustables, soporte lumbar que no se va de madre y un respaldo de malla que aguanta sesiones de 8 horas. No es la silla de tus sueños, pero es la diferencia entre acabar el día con la espalda entera o hecha polvo.
 
-Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/): ahí tienes opciones desde los 135 hasta los 380€ con su pros y contras reales. Pero si me preguntas, por debajo de 130€ se empieza a pagar cara la ergonomía.
+Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/): ahí tienes opciones desde los 135 hasta los ~300€ con su pros y contras reales. Pero si me preguntas, por debajo de 130€ se empieza a pagar cara la ergonomía.
 
 ### 2. El teclado (67,99€) — mecánico sin arruinarte
 
 Un mecánico es de las mejores mejoras calidad-precio que puedes hacer. El **Royal Kludge RK84ES** (layout español) cuesta **68€** y te da teclas hot-swappable: si más adelante quieres unos switches más suaves, los cambias sin soldar nada, como quien cambia de asignatura.
 
-Es la recomendación de presupuesto en mi [lista de teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/). Si puedes estirarte a un **Keychron V1 Max por 142€**, subes un escalón de construcción y personalización (QMK/VIA, personalizas hasta los atajos). Pero el RK84 es el punto dulce barato.
+Es la recomendación de presupuesto en mi [lista de teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/). Si puedes estirarte a un **Keychron V1 Max por unos 136€**, subes un escalón de construcción y personalización (QMK/VIA, personalizas hasta los atajos). Pero el RK84 es el punto dulce barato.
 
 ### 3. El ratón (49,95€) — tu muñeca te lo agradecerá
 
@@ -44,9 +45,9 @@ Yo sé lo que es acabar el día con la muñeca pinchando. Mi fisio me lo dijo cl
 
 Ten ojo: este es el punto donde SIEMPRE hay gente que se salta la regla y compra gaming barato. No lo hagas. Empieza por el vertical. En mi [guía de ratones ergonómicos](/articulos/listas/raton-ergonomico-programadores/) tienes el resto de opciones y por qué el vertical gana.
 
-### 4. La pantalla — aquí decides tú (y te sobran ~180€)
+### 4. La pantalla — aquí decides tú (y te sobran ~200€)
 
-Cuenta rápida: 199,99 + 67,99 + 49,95 = **317,93€**. Te quedan **unos 180€** para la pantalla y los extras. Y aquí es donde hay que ser honesto:
+Cuenta rápida: 182,39 + 67,99 + 49,95 = **300,33€**. Te quedan **unos 200€** para la pantalla y los extras. Y aquí es donde hay que ser honesto:
 
 - Si ya tienes un portátil de 15" con buena pantalla, **súmale un brazo o soporte de monitor** (25-35€) para ponértelo a la altura de los ojos y gastar el resto en salud.
 - Si quieres una pantalla externa, con 100-150€ te llevas una de 24" IPS decente. No es la panacea, pero para código cumple de sobra.
@@ -66,9 +67,9 @@ Con estos dos y la resta del presupuesto, cierras el setup por debajo de 500€.
 El setup de 500€ es un campamento base sólido. Cuando vayas ganando dinero con prácticas o curro esporádico, esto es lo que yo subiría, en este orden:
 
 1. **El monitor ultrawide LG 34WN80C-B (450€):** el mayor salto de productividad que existe. IDE a la izquierda, navegador a la derecha, terminal abajo, sin cambiar de ventana. Me jugaría una mano por uno. Aviso: LG ya no lo fabrica, así que es el último de stock a precio de modelo antiguo.
-2. **Teclado Keychron V1 Max (141,79€):** más construcción, QMK/VIA de serie.
-3. **Ratón MX Master 3S (81,20€):** el scroll magnético y el botón lateral son otra liga.
-4. **Silla SIHOO Doro C300 (379,99€):** cuando la espalda ya te pida el lumbar dinámico.
+2. **Teclado Keychron V1 Max (unos 136€):** más construcción, QMK/VIA de serie.
+3. **Ratón MX Master 3S (unos 100€):** el scroll magnético y el botón lateral son otra liga.
+4. **Silla SIHOO Doro C300 (294,49€):** cuando la espalda ya te pida el lumbar dinámico.
 
 Ese sería mi "setup top de estudiante con trabajillos". Son upgrades que se pueden ir comprando poco a poco, cada uno una mejora clara sobre lo que ya tienes.
 
