@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Regalos para programadores: todas las ideas de Navidad 2026"
-description: "Hub Navidad codeandIA: regalos para programadores por presupuesto, para estudiantes que aprenden a programar y gadgets de setup. Ideas que de verdad se usan."
+description: "Hub Navidad codeandIA: el paraguas de regalos para programadores por presupuesto, para estudiantes que aprenden a programar y gadgets de setup. Ideas que de verdad se usan."
 permalink: /regalos-navidad-programadores-2026/
 date: 2026-12-01
 sitemap: true
@@ -9,7 +9,7 @@ sitemap: true
 
 # Regalos Navidad 2026 para programadores: el centro de ideas
 
-> **HUB DE TEMPORADA** · Publicado 10-nov-2026.
+> **HUB DE TEMPORADA** · Los enlaces se activan el día de publicación de cada pieza.
 
 La sección de regalos para este diciembre: ideas organizadas por presupuesto y por persona, todas de cosas que se usan a diario y no acaban en un cajón.
 
@@ -17,16 +17,11 @@ La sección de regalos para este diciembre: ideas organizadas por presupuesto y 
 
 ### Se publica en breve
 
-Los enlaces se activan el día de su publicación:
-
-- **Regalos para programadores: ideas originales que de verdad usarán** — el paraguas. *Publica el 12-nov.*
-- **Regalos por presupuesto: <30€, <60€ y <100€** — no necesitas un riñón. *Publica el 16-nov.*
-- **Regalos para estudiantes que aprenden a programar** — para DAW y carrera. *Publica el 20-nov.*
-- **Gadgets de setup en regalo** — teclados, ratón, brazo monitor, silla. *Publica el 24-nov.*
+- **Regalos para programadores: ideas originales que de verdad usarán** — el paraguas con las recomendaciones por presupuesto. *Publica el 8 de diciembre.*
 
 ## Quién es el destino
 
-- **El estudiante de informática**: la pieza para estudiantes es la que te interesa.
+- **El estudiante de informática**: los regalos pensados para DAW y carrera.
 - **El que ya curra con una notebook de la empresa**: ergonomía >> specs.
 - **El que "no necesita nada"**: regala útil, no decorativo.
 

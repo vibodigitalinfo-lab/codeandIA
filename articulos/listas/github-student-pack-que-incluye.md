@@ -3,7 +3,7 @@ layout: article
 title: "GitHub Student Pack: qué incluye y cuánto te ahorra"
 description: "Qué herramientas te da GitHub gratis por ser estudiante, cuáles merecen la pena aprovechar y cuáles son solo ruido en el catálogo."
 category: "Lista"
-date: 2026-09-23
+date: 2026-09-19
 readtime: 6
 affiliate_text: "Mira el portátil que uso para DAW, con 16 GB de RAM"
 affiliate_url: "https://www.amazon.es/dp/B0DHRQ18G1?tag=codeandia-21"

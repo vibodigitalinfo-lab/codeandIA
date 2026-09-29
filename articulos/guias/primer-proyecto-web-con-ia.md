@@ -3,7 +3,7 @@ layout: article
 title: "Tu primer proyecto web con IA: del vacío a publicarlo sin morir"
 description: "Cómo diseñar tu primer proyecto web con IA para aprender de verdad: idea pequeña, stack mínimo, tareas cortas, git desde el día uno y publicación gratis."
 category: "Guía"
-date: 2026-09-09
+date: 2026-09-05
 readtime: 7
 ---
 

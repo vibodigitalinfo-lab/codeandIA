@@ -140,6 +140,9 @@ así que se indexa en esta lista en vez de usar %b.
             </li>
             {% endfor %}
           </ul>
+          {% if parte.articulo %}
+          <p class="sp-guia"><a href="{{ parte.articulo.url | relative_url }}">Guía completa: {{ parte.articulo.label }} →</a></p>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
@@ -380,11 +383,11 @@ así que se indexa en esta lista en vez de usar %b.
 
 <section class="ofertas-section" id="guias">
   <h2>Guías de compra</h2>
-  <p>Artículos con comparativas y precios reales para que elijas bien.</p>
+  <p>Todos los artículos que terminan en un enlace de afiliado: comparativas, listas, reviews y guías con precios reales para que elijas bien.</p>
 
   <div class="ofertas-grid">
     {% for article in site.pages %}
-      {% if article.path contains 'articulos/' and article.category == "Lista" %}
+      {% if article.path contains 'articulos/' and article.affiliate_url and article.path != page.path %}
         {% assign am = article.date | date: "%m" | plus: 0 | minus: 1 %}
         <a href="{{ article.url | relative_url }}" class="oferta-card">
           <div class="oferta-meta">

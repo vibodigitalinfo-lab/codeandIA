@@ -5,6 +5,9 @@
 - id: monitor
   nombre: Monitor
   emoji: "🖥️"
+  articulo:
+    url: "/articulos/comparativas/monitor-ultrawide-programar/"
+    label: "Monitor ultrawide para programar: cómo elegir"
   productos:
     - nombre: 'LG 34WN80C-B 34" UltraWide'
       precio: "450,00€"
@@ -35,6 +38,9 @@
 - id: teclado
   nombre: Teclado
   emoji: "⌨️"
+  articulo:
+    url: "/articulos/listas/mejores-teclados-mecanicos-programar/"
+    label: "Los mejores teclados mecánicos para programar"
   productos:
     - nombre: "Keychron V1 Max (Gateron Red)"
       precio: "141,79€"
@@ -50,6 +56,9 @@
 - id: raton
   nombre: Ratón
   emoji: "🖱️"
+  articulo:
+    url: "/articulos/listas/raton-ergonomico-programadores/"
+    label: "Ratón ergonómico para programadores"
   productos:
     - nombre: "Logitech MX Master 3S"
       precio: "81,20€"
@@ -65,6 +74,9 @@
 - id: silla
   nombre: Silla
   emoji: "🪑"
+  articulo:
+    url: "/articulos/listas/silla-ergonomica-barata-programar/"
+    label: "Silla ergonómica barata para programar"
   productos:
     - nombre: "SIHOO M18"
       precio: "199,99€"
@@ -80,6 +92,9 @@
 - id: auriculares
   nombre: Auriculares
   emoji: "🎧"
+  articulo:
+    url: "/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/"
+    label: "Auriculares con cancelación de ruido"
   productos:
     - nombre: "Soundcore Q20i"
       precio: "35,99€"
@@ -95,6 +110,9 @@
 - id: webcam
   nombre: Webcam
   emoji: "🎥"
+  articulo:
+    url: "/articulos/listas/webcam-programar-streaming/"
+    label: "Webcam para programar y hacer streaming"
   productos:
     - nombre: "Logitech C920s Pro HD"
       precio: "66,80€"
@@ -115,6 +133,9 @@
 - id: escritorio
   nombre: Escritorio
   emoji: "🪵"
+  articulo:
+    url: "/articulos/comparativas/standing-desk-programar-2026/"
+    label: "Escritorio elevable: cuál comprar"
   productos:
     - nombre: "Escritorio Elevable Eléctrico 140x70"
       precio: "319,99€"

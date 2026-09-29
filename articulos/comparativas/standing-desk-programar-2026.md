@@ -3,7 +3,7 @@ layout: article
 title: "Escritorio elevable para programar: cuál comprar y a qué altura"
 description: "Qué gana y qué pierdes al trabajar de pie, la altura correcta para tu monitor y dos modelos de escritorio elevable con precios reales de Amazon."
 category: "Comparativa"
-date: 2026-09-21
+date: 2026-09-17
 readtime: 7
 affiliate_text: "Mira el escritorio elevable de 319,99€ que uso"
 affiliate_url: "https://www.amazon.es/dp/B0CNH1X67H?tag=codeandia-21"

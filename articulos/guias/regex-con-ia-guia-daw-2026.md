@@ -3,7 +3,7 @@ layout: article
 title: "Regex con IA: cómo aprender expresiones regulares en DAW"
 description: "Las expresiones regulares son la parte de JavaScript que más cuesta. Te enseño a pedirle a una IA que te las explique token a token y no te suelte un monstruo."
 category: "Guía"
-date: 2026-09-25
+date: 2026-09-21
 readtime: 7
 ---
 
