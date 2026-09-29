@@ -25,9 +25,9 @@ El problema de fondo es físico. En una mesa de estudio típica de 80 por 60 cen
 
 ## Mi elección: Sidorenko XXL por 16,97€
 
-Me quedé con la Sidorenko XXL de 900 por 400 milímetros, que en Amazon.es cuesta **16,97€** y acumula más de 16.000 valoraciones con una nota media de 4,6 sobre 5. Tiene base de goma antideslizante, superficie textil tipo control y bordes rematados para que no se despeluchen. No voy a fingir que la llevo desde hace años, pero a ese precio y con ese número de comentarios, es la opción con la que menos riesgo corres.
+Me quedé con la [**Sidorenko XXL**](https://www.amazon.es/dp/B07CBHX4DB?tag=codeandia-21) de 900 por 400 milímetros, que en Amazon.es cuesta **16,97€** y acumula más de 16.000 valoraciones con una nota media de 4,6 sobre 5. Tiene base de goma antideslizante, superficie textil tipo control y bordes rematados para que no se despeluchen. No voy a fingir que la llevo desde hace años, pero a ese precio y con ese número de comentarios, es la opción con la que menos riesgo corres.
 
-La alternativa con más nombre es la **Cooler Master MP511**, por **19,18€**, con borde cosido y una superficie más rugosa que da más precisión en movimientos cortos. Es la típica que eligen los que juegan, y si mueves poco el ratón, el extra se nota. Yo me quedo con la Sidorenko porque a igualdad de trabajo el precio manda y porque el tamaño XXL es lo que de verdad cambia la experiencia.
+La alternativa con más nombre es la [**Cooler Master MP511**](https://www.amazon.es/dp/B0943VL2JR?tag=codeandia-21), por **19,18€**, con borde cosido y una superficie más rugosa que da más precisión en movimientos cortos. Es la típica que eligen los que juegan, y si mueves poco el ratón, el extra se nota. Yo me quedo con la Sidorenko porque a igualdad de trabajo el precio manda y porque el tamaño XXL es lo que de verdad cambia la experiencia.
 
 ## La nota honesta
 

@@ -15,19 +15,19 @@ Como todo friki del software, he comprado objetos que en la oficina parecían in
 
 ## Teclado numérico programable EPOMAKER EK21: 43,99€
 
-El más friki de la lista. Es un teclado de solo números, pero no para hacer cuentas: tiene 20 teclas y una perilla programables, y se conecta por cable, por 2,4 GHz o por Bluetooth, así que le sirve también a una tablet. Yo lo uso de mando de macros: una tecla abre la terminal del proyecto, otra ejecuta las pruebas, otra hace el commit, y la perilla sube el zoom del editor y controla el volumen. Se programa con VIA, sin instalar nada raro, y una vez configurado no hay vuelta atrás: los atajos que antes dabas a medias ahora son un solo toque.
+El más friki de la lista: el [EPOMAKER EK21](https://www.amazon.es/dp/B0FD3FQZHN?tag=codeandia-21), un teclado de solo números, pero no para hacer cuentas: tiene 20 teclas y una perilla programables, y se conecta por cable, por 2,4 GHz o por Bluetooth, así que le sirve también a una tablet. Yo lo uso de mando de macros: una tecla abre la terminal del proyecto, otra ejecuta las pruebas, otra hace el commit, y la perilla sube el zoom del editor y controla el volumen. Se programa con VIA, sin instalar nada raro, y una vez configurado no hay vuelta atrás: los atajos que antes dabas a medias ahora son un solo toque.
 
 ## Pizarra de escritura LCD Xiaomi de 13,5 pulgadas: 16,45€
 
-Un papel infinito de verdad. Escribes con el lápiz que incluye, el botón borra todo en un momento, y con el bloqueo de escritura no pierdes el dibujo aunque pulses el botón. La uso para esquemas rápidos de arquitectura, para planear el código del día y para garabatear los diagramas que luego transcribo. No mancha, no gasta folios y cabe en la funda del portátil. Es de esas compras que parecen tontería y que le quitan el 80% de los folios a tu mesa.
+Un papel infinito de verdad: la [pizarra Xiaomi Mi LCD de 13,5 pulgadas](https://www.amazon.es/dp/B08LHLYCWT?tag=codeandia-21). Escribes con el lápiz que incluye, el botón borra todo en un momento, y con el bloqueo de escritura no pierdes el dibujo aunque pulses el botón. La uso para esquemas rápidos de arquitectura, para planear el código del día y para garabatear los diagramas que luego transcribo. No mancha, no gasta folios y cabe en la funda del portátil. Es de esas compras que parecen tontería y que le quitan el 80% de los folios a tu mesa.
 
 ## Tableta de dibujo HUION Inspiroy H640P: 34,73€
 
-Para los diagramas que la pizarra no captura bien y para escribir a mano sobre capturas. El lápiz va sin batería, la tableta se conecta por USB y funciona con cualquier programa de dibujo. La uso para marcar sobre las capturas de un error que quiero explicar en la web y para esbozar el diseño antes de abrir el editor. No esperes la calidad de una tableta profesional con pantalla, pero por debajo de 40€ no hay nada que le haga sombra.
+Para los diagramas que la pizarra no captura bien y para escribir a mano sobre capturas: la [HUION Inspiroy H640P](https://www.amazon.es/dp/B075V1ZSLY?tag=codeandia-21). El lápiz va sin batería, la tableta se conecta por USB y funciona con cualquier programa de dibujo. La uso para marcar sobre las capturas de un error que quiero explicar en la web y para esbozar el diseño antes de abrir el editor. No esperes la calidad de una tableta profesional con pantalla, pero por debajo de 40€ no hay nada que le haga sombra.
 
 ## Cubo antiestrés de 12 caras: 11,99€
 
-El más barato y el que más a mano tengo. Mientras el código compila, los tests corren o una web tarda en responder, tengo algo que hacer con las manos que no sea morderse las uñas ni coger el móvil. Tiene caras con rotores, botones, interruptores y una bola de gel; es pequeño, cabe en el bolsillo y puede usarse en silencio, que en clase se agradece. Suena a tontería, pero la espera de la compilación se te va con algo que hacer.
+El más barato y el que más a mano tengo: este [cubo antiestrés de 12 caras](https://www.amazon.es/dp/B0CJ8Z9T7M?tag=codeandia-21). Mientras el código compila, los tests corren o una web tarda en responder, tengo algo que hacer con las manos que no sea morderse las uñas ni coger el móvil. Tiene caras con rotores, botones, interruptores y una bola de gel; es pequeño, cabe en el bolsillo y puede usarse en silencio, que en clase se agradece. Suena a tontería, pero la espera de la compilación se te va con algo que hacer.
 
 ## La regla común
 
