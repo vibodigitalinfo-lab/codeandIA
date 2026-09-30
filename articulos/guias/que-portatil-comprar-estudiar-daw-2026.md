@@ -8,6 +8,7 @@ readtime: 9
 affiliate_text: "El Acer Aspire Go 15 (Ryzen 7, 16 GB, 512 GB) está en stock y es la compra más segura para DAW ahora mismo"
 affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver el Aspire Go 15 en Amazon"
+last_modified_at: 2026-09-30
 ---
 
 Antes de empezar segundo de DAW, mi portátil era uno de esos de gama baja con 8 GB de RAM y me pasaba las clases cerrando pestañas a toda velocidad para que no se me colgara el IDE. Un día, con el entorno levantado, el navegador con la documentación y MySQL corriendo a la vez, el portátil se quedó congelado durante una práctica. Ese día decidí que había que cambiar de máquina. He tardado en encontrar lo que buscaba y he aprendido a base de devoluciones y de leer especificaciones hasta que se me cruzan los ojos. Si estás mirando portátil para el ciclo, esto es lo que de verdad importa y lo que yo compraría en 2026.
@@ -32,7 +33,7 @@ Con esas pautas, estos son los que considero las compras sensatas de 2026. He pu
 
 ### Acer Aspire Go 15: mi recomendación (y está en stock)
 
-Es el que hoy recomiendo porque, además de buenas specs, está disponible: el [Acer Aspire Go 15 con Ryzen 7 5825U, 16 GB y 512 GB](https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21) está en stock en Amazon y suele moverse alrededor de los 580€. El Ryzen 7 5825U es una CPU de ocho núcleos que, aunque sea de generación anterior, rinde muy bien en multitarea y trata muy bien el consumo de batería. El teclado de los Aspire Go es de los que menos me duelen en sesiones largas y el precio es competitivo.
+Es el que hoy recomiendo porque, además de buenas specs, está disponible: el [Acer Aspire Go 15 con Ryzen 7 5825U, 16 GB y 512 GB](https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21) está en stock en Amazon a 549,00€ ahora mismo. El Ryzen 7 5825U es una CPU de ocho núcleos que, aunque sea de generación anterior, rinde muy bien en multitarea y trata muy bien el consumo de batería. El teclado de los Aspire Go es de los que menos me duelen en sesiones largas y el precio es competitivo.
 
 Como contra: es un portátil más de "oficina" que de "potencia bruta", y la pantalla es de 60 Hz y con colores justos. Para programar va perfecto; para editar vídeo o jugar, olvídate. Pero para un ciclo de DAW, con 16 GB y SSD de 512 GB, cumple de sobra.
 
@@ -44,7 +45,7 @@ Ojo con una cosa: al escribir esto, la ficha del Lenovo está **sin stock** en A
 
 ### El de 32 GB, si lo prefieres a largo plazo
 
-Y si puedes estirar el presupuesto, existe la variante del [Acer Aspire Go 15 con 32 GB de RAM y 512 GB](https://www.amazon.es/dp/B0F452KYSS?tag=codeandia-21). Es lo mismo que el Aspire Go 15 de antes, pero con el doble de memoria, que hoy es overkill para el ciclo... salvo que vayas a encadenar máquinas virtuales en tercero, en cuyo caso es dinero bien gastado. Yo no lo compraría de entrada, pero si el precio baja y te sobra, es una opción a tener en cuenta.
+Y si puedes estirar el presupuesto, existe la variante del [Acer Aspire Go 15 con 32 GB de RAM y 512 GB](https://www.amazon.es/dp/B0F452KYSS?tag=codeandia-21). Es lo mismo que el Aspire Go 15 de antes, pero con el doble de memoria, que hoy es overkill para el ciclo... salvo que vayas a encadenar máquinas virtuales en tercero, en cuyo caso es dinero bien gastado. Eso sí, ahora mismo la variante de 32 GB está **sin stock en Amazon España**, así que si reaparece a buen precio, es una opción a tener en cuenta.
 
 ## Los errores que debes evitar
 

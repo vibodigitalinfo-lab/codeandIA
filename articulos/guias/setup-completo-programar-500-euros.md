@@ -8,7 +8,7 @@ readtime: 7
 affiliate_text: "Consigue la silla SIHOO M18 en Amazon con el precio comprobado"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 Cuando empecé DAW monté mi "setup" a lo loco: una silla de cocina, el portátil sobre una tabla, un ratón de 10 euros que me dejó muerto de hombro. En tres semanas ya me dolía la espalda. No es ninguna broma: el hardware malo se ve gratis hasta que te sale caro en dolores.
@@ -33,13 +33,13 @@ Mi primera recomendación es la **SIHOO M18**. Por 182 euros te da reposabrazos 
 
 Si tu presupuesto es más justo aún, echa un vistazo a mi [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/): ahí tienes opciones desde los 135 hasta los ~300€ con su pros y contras reales. Pero si me preguntas, por debajo de 130€ se empieza a pagar cara la ergonomía.
 
-### 2. El teclado (67,99€) — mecánico sin arruinarte
+### 2. El teclado (84,99€) — mecánico sin arruinarte
 
-Un mecánico es de las mejores mejoras calidad-precio que puedes hacer. El **Royal Kludge RK84ES** (layout español) cuesta **68€** y te da teclas hot-swappable: si más adelante quieres unos switches más suaves, los cambias sin soldar nada, como quien cambia de asignatura.
+Un mecánico es de las mejores mejoras calidad-precio que puedes hacer. El **Royal Kludge RK84ES** (layout español) cuesta **85€** y te da teclas hot-swappable: si más adelante quieres unos switches más suaves, los cambias sin soldar nada, como quien cambia de asignatura.
 
 Es la recomendación de presupuesto en mi [lista de teclados mecánicos](/articulos/listas/mejores-teclados-mecanicos-programar/). Si puedes estirarte a un **Keychron V1 Max por unos 136€**, subes un escalón de construcción y personalización (QMK/VIA, personalizas hasta los atajos). Pero el RK84 es el punto dulce barato.
 
-### 3. El ratón (49,95€) — tu muñeca te lo agradecerá
+### 3. El ratón (49,99€) — tu muñeca te lo agradecerá
 
 Yo sé lo que es acabar el día con la muñeca pinchando. Mi fisio me lo dijo claro: "o cambias de ratón o cambias de hobby". El **Logitech Lift Vertical** a **50€** es la entrada más inteligente a un ratón ergonómico: te obliga a una postura natural de la mano sin pagar el precio de un MX Master.
 
@@ -47,11 +47,11 @@ Ten ojo: este es el punto donde SIEMPRE hay gente que se salta la regla y compra
 
 ### 4. La pantalla — aquí decides tú (y te sobran ~200€)
 
-Cuenta rápida: 182,39 + 67,99 + 49,95 = **300,33€**. Te quedan **unos 200€** para la pantalla y los extras. Y aquí es donde hay que ser honesto:
+Cuenta rápida: 182,39 + 84,99 + 49,99 = **317,37€**. Te quedan **unos 180€** para la pantalla y los extras. Y aquí es donde hay que ser honesto:
 
 - Si ya tienes un portátil de 15" con buena pantalla, **súmale un brazo o soporte de monitor** (25-35€) para ponértelo a la altura de los ojos y gastar el resto en salud.
 - Si quieres una pantalla externa, con 100-150€ te llevas una de 24" IPS decente. No es la panacea, pero para código cumple de sobra.
-- Si puedes estirarte un poco, mi [comparativa de monitores ultrawide](/articulos/comparativas/monitor-ultrawide-programar/) te explica que el salto al LG 34" (450€) es LO mejor que puedes comprar más adelante. Pero no te endeudes por ello en el mes uno.
+- Si puedes estirarte un poco, mi [comparativa de monitores ultrawide](/articulos/comparativas/monitor-ultrawide-programar/) te explica que el salto a un ultrawide es LO mejor que puedes comprar más adelante. El LG 34" que recomiendo allí ya no está en Amazon España; hoy el hueco lo cubre el Xiaomi G34WQi por 249,00€. Pero no te endeudes por ello en el mes uno.
 
 ### 5. Los extras baratos que de verdad se notan (unos 42€)
 
@@ -66,7 +66,7 @@ Con estos dos y la resta del presupuesto, cierras el setup por debajo de 500€.
 
 El setup de 500€ es un campamento base sólido. Cuando vayas ganando dinero con prácticas o curro esporádico, esto es lo que yo subiría, en este orden:
 
-1. **El monitor ultrawide LG 34WN80C-B (450€):** el mayor salto de productividad que existe. IDE a la izquierda, navegador a la derecha, terminal abajo, sin cambiar de ventana. Me jugaría una mano por uno. Aviso: LG ya no lo fabrica, así que es el último de stock a precio de modelo antiguo.
+1. **El monitor ultrawide (Xiaomi G34WQi, 249,00€):** el mayor salto de productividad que existe. IDE a la izquierda, navegador a la derecha, terminal abajo, sin cambiar de ventana. Me jugaría una mano por uno. El LG 34" que recomiendo en la comparativa ya no está en Amazon España; el Xiaomi da la misma resolución y está en stock.
 2. **Teclado Keychron V1 Max (unos 136€):** más construcción, QMK/VIA de serie.
 3. **Ratón MX Master 3S (unos 100€):** el scroll magnético y el botón lateral son otra liga.
 4. **Silla SIHOO Doro C300 (294,49€):** cuando la espalda ya te pida el lumbar dinámico.

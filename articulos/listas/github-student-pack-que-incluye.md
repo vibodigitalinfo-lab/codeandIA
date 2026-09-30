@@ -6,8 +6,9 @@ category: "Lista"
 date: 2026-09-11
 readtime: 6
 affiliate_text: "Mira el portátil que uso para DAW, con 16 GB de RAM"
-affiliate_url: "https://www.amazon.es/dp/B0DHRQ18G1?tag=codeandia-21"
+affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
+last_modified_at: 2026-09-30
 ---
 
 El Student Pack de GitHub es el programa de descuentos para estudiantes más generoso que existe, y de los pocos que te da herramientas profesionales de verdad sin que tengas que buscar señales de oferta en un newsletter.

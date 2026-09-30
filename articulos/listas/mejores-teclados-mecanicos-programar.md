@@ -8,8 +8,8 @@ readtime: 9
 affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-updated: 2026-09-29
-last_modified_at: 2026-09-29
+updated: 2026-09-30
+last_modified_at: 2026-09-30
 picks:
   - name: "Keychron V1 Max"
     price: "~136€"
@@ -17,7 +17,7 @@ picks:
     url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
     badge: "Mi pick"
   - name: "Royal Kludge RK84ES"
-    price: "67,99€"
+    price: "84,99€"
     best_for: "El más barato que vale la pena"
     url: "https://www.amazon.es/dp/B0GVJRGLHX?tag=codeandia-21"
   - name: "Keychron Q1 Pro"
@@ -85,7 +85,7 @@ Para programación pura, prefiero mecánicos. Pero este teclado cumple bien si e
 
 ## Royal Kludge RK84: El más barato que vale la pena
 
-El Royal Kludge RK84 cuesta unos 68€. Es el teclado mecánico más barato que recomendaría sin dudar.
+El Royal Kludge RK84 cuesta unos 85€. Es el teclado mecánico más barato que recomendaría sin dudar.
 
 Tiene hot-swap, lo que es raro a este precio. Puedo poner Cherry MX Brown o cualquier switch compatible de 3 pines. El modding es fácil: lubricar los switches, cambiar keycaps de PBT por ABS, añadir espuma al case. Comunidades de Reddit muestran RK84 que suenan como teclados de 150€ después de un mod sencillo.
 

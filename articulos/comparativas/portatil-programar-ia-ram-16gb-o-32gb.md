@@ -6,8 +6,9 @@ category: "Comparativa"
 date: 2026-09-07
 readtime: 7
 affiliate_text: "Mira el portátil con 16 GB que te recomiendo en la guía"
-affiliate_url: "https://www.amazon.es/dp/B0DHRQ18G1?tag=codeandia-21"
+affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
+last_modified_at: 2026-09-30
 ---
 
 Pregunté en cuatro foros cuál era la característica que más condicionaba de un portátil para programar. Cuatro respuestas distintas, y ninguna fue la pantalla, la tarjeta gráfica ni el procesador. Todas fueron la memoria.

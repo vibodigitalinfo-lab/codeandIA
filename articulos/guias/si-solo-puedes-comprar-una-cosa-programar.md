@@ -8,7 +8,7 @@ readtime: 6
 affiliate_text: "Mira la SIHOO M18, la silla que más me ha recomendado la gente"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 Cuando empezé en DAW me dio por comprar un teclado de 80 euros, un ratón de 40 y unos auriculares con cancelación de ruido. No tenía silla. Trabajaba en un comedor con una silla de madera que no se movía.
@@ -58,7 +58,7 @@ Aquí es donde se va el dinero de la gente que no sabe por dónde empezar, y es 
 
 **Un teclado de 80€ como primera compra.** Sí, es un teclado mejor. No, no es lo que te hace productivo. La diferencia entre un teclado de 40€ y uno de 140€ es apreciable, pero no es lo que te va a doler en la espalda. Y si te pasas la semana probando switches en lugar de programar, has comprado un juguete caro.
 
-**Un ultrawide de 450€.** Existe y es otra cosa, pero es un monitor de 2019 que el fabricante ya no fabrica. Por 249,00€ tienes la misma resolución. La [comparativa de ultrawides](/articulos/comparativas/monitor-ultrawide-programar/) te da los cuatro con precios reales.
+**Un ultrawide de 450€.** El LG 34" es un monitor de 2019 que el fabricante ya no fabrica, y ahora mismo no está en Amazon España. Por 249,00€ tienes la misma resolución. La [comparativa de ultrawides](/articulos/comparativas/monitor-ultrawide-programar/) te da los cuatro con precios reales.
 
 **Un escritorio elevable de 400€** siendo tu primera compra. Es un mueble grande, irreversible y caro. Y funciona solo si la pantalla está bien altura, así que primero la pantalla, luego el escritorio, y este va el último en la lista.
 

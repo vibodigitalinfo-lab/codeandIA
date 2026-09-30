@@ -211,7 +211,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Monitor</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Xiaomi G34WQi 34" Curvo — 249,95€ en Amazon</h3>
+      <h3>Xiaomi G34WQi 34" Curvo — 249,00€ en Amazon</h3>
       <p class="oferta-excerpt">Monitor 34" UltraWide VA de 3440x1440, 180Hz y ajuste de altura. La misma resolución que el LG por menos de la mitad de precio: es mi ultrawide recomendado ahora mismo.</p>
       <a href="https://www.amazon.es/dp/B0D1HQK5G5?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -221,9 +221,9 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Monitor</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>LG 34WN80C-B 34" UltraWide — 450€ en Amazon</h3>
-      <p class="oferta-excerpt">Monitor 34" UltraWide IPS (3440x1440) con USB-C de 60W, el mejor panel de la lista. Ojo: LG ha descontinuado la gama, así que es stock de un modelo de 2019. Solo si quieres un solo cable.</p>
-      <a href="https://www.amazon.es/dp/B083QT6Z8R?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
+      <h3>AOC CU34G2XP 34" UltraWide — 266,39€ en Amazon</h3>
+      <p class="oferta-excerpt">Monitor 34" UltraWide VA (3440x1440) de 180Hz con USB, altavoces y jack integrados. Sustituye al LG 34" (descontinuado): el budget más completo por euro. El Xiaomi tiene mejor pantalla por menos.</p>
+      <a href="https://www.amazon.es/dp/B0CNH24KTM?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
     <div class="oferta-card">
@@ -271,7 +271,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Ratón</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech Lift Vertical — 49,95€ en Amazon</h3>
+      <h3>Logitech Lift Vertical — 49,99€ en Amazon</h3>
       <p class="oferta-excerpt">Ratón vertical ergonómico, inalámbrico Bluetooth/Logi Bolt, clics silenciosos, 4 botones. Reduce la tensión en la muñeca para sesiones largas de código.</p>
       <a href="https://www.amazon.es/dp/B07W4DGC27?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -281,7 +281,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Teclado</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Royal Kludge RK84ES — 67,99€ en Amazon</h3>
+      <h3>Royal Kludge RK84ES — 84,99€ en Amazon</h3>
       <p class="oferta-excerpt">Teclado mecánico 75% inalámbrico, hot-swappable, RGB, layout español. El mejor budget para empezar con mecánicos sin romper el presupuesto.</p>
       <a href="https://www.amazon.es/dp/B0GVJRGLHX?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
