@@ -929,6 +929,12 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   font-style: italic;
 }
 
+/* Cuando la review lleva mucho sin revisarse, el aviso va en el color de
+   atencion: es mejor que una fecha bonita puesta al dia por la maquetacion. */
+.tool-card-updated-stale {
+  color: var(--accent, #b4552d);
+}
+
 /* ================= Método (listas numeradas) ================= */
 
 .method-list {

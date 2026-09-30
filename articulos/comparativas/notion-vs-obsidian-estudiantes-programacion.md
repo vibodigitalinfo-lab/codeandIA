@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Notion vs Obsidian para estudiantes: cuál me queda mejor"
-description: "Comparo Notion y Obsidian para organizar apuntes, proyectos y seguimiento del código como estudiante de DAW: fortalezas, debilidades y mi elección final."
+description: "Comparo Notion y Obsidian para organizar apuntes, proyectos y seguimiento del código como estudiante de DAW: fortalezas, inconvenientes y mi elección final."
 category: "Comparativa"
 date: 2026-07-21
 readtime: 7

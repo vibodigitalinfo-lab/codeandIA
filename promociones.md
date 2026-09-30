@@ -442,9 +442,10 @@ así que se indexa en esta lista en vez de usar %b.
     <p>Todos los precios que muestro son verificados en la fecha indicada. Los enlaces van directos al producto (no a búsquedas). Si un enlace no funciona o la oferta ha expirado, lo actualizo lo antes posible. Puedes contactarme si ves algo desactualizado.</p>
   </details>
 
-  <details>
+<details>
     <summary>¿Recomiendas algún producto específicamente?</summary>
-    <p>Todos los productos que menciono son los que yo usaría o uso. No vendo lo que no probaría. En cada artículo doy mi opinión honesta con pros y contras.</p>
+    <p>No, y por eso hay que ser claro con qué criterio trabajo. Del <strong>software</strong> casi todo lo de esta web lo he usado yo en proyectos reales: por eso cada review abre con una ficha de prueba. Del <strong>hardware</strong> es distinto: parte lo tengo montado en mi escritorio y otra parte lo he elegido investigando a fondo, pero no lo he tenido en la mano. Por eso en cada tarjeta de esta página está la fecha en la que comprobaste el precio y, cuando el producto no es mío, no te voy a vender la experiencia de haberlo usado.</p>
+    <p>Lo que no hago en ningún caso es recomendar algo solo por la comisión. Los enlaces de afiliado no condicionan mi opinión, y si algo no me convence lo digo en el artículo, aunque me quite comisión.</p>
   </details>
 
   <details>
@@ -477,7 +478,7 @@ así que se indexa en esta lista en vez de usar %b.
     {
       "@type": "Question",
       "name": "¿Recomiendas algún producto específicamente?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Todos los productos que menciono son los que yo usaría o uso. No vendo lo que no probaría. En cada artículo doy mi opinión honesta con pros y contras." }
+      "acceptedAnswer": { "@type": "Answer", "text": "No, y hay que distinguir. Casi todo el software lo he usado yo en proyectos reales, y por eso cada review abre con una ficha de prueba. Del hardware, parte lo tengo en mi escritorio y otra parte lo he elegido investigando, sin haberlo tenido en la mano. Los enlaces de afiliado no condicionan mi opinión." }
     },
     {
       "@type": "Question",

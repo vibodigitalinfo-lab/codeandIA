@@ -41,7 +41,7 @@ Un caso concreto: tenía una práctica de acceso a datos con JDBC en Java que me
 
 Aquí viene la parte incómoda. Cursor tiene un plan gratuito que te deja probar lo esencial, pero está bastante limitado en el número de peticiones al mes. El plan Pro cuesta alrededor de 20 dólares al mes, lo que para un estudiante no es una cifra menor.
 
-Mi opinión sincera: si programas todos los días, aunque sea para prácticas de clase, el tiempo que te ahorra justifica el precio. Si solo tocas código una vez a la semana para hacer la entrega mínima, probablemente no. Yo lo pagué un mes para probarlo a fondo antes de decidirme, que es exactamente lo que te propone [su periodo de prueba gratuito de 14 días](https://cursor.com). Te recomiendo hacer lo mismo: úsalo en un proyecto real tuyo, no en algo inventado, y decide con eso.
+Mi opinión sincera: si programas todos los días, aunque sea para prácticas de clase, el tiempo que te ahorra justifica el precio. Si solo tocas código una vez a la semana para hacer la entrega mínima, probablemente no. Mi prueba fue esta: **estuve un mes con el plan de pago** en un proyecto real de clase, y lo que pagué no fue solo la licencia, sino el trabajo de familiarizarme con el editor antes de poder medir nada. Así que una suscripción corta y vigilada es la forma honesta de decidir: pruébalo en un proyecto tuyo, no inventado, y míralo con calma.
 
 Lo que no haría es suscribirme sin haberlo probado antes. El marketing es muy bueno y es fácil dejarse llevar. Si todavía no te decides, también tengo una comparativa de [Windsurf vs Cursor AI](/articulos/comparativas/windsurf-vs-cursor-ai-aprender-programar/) para que veas las alternativas antes de lanzarte.
 

@@ -4,7 +4,8 @@ title: "Depurar con IA: mi método para que te arregle el código de verdad"
 description: "Guía para depurar código con IA sin que te arregle el síntoma: reproducir, clasificar el error, dar contexto y pedir causa, no parche."
 category: "Guía"
 date: 2026-08-21
-readtime: 7
+updated: 2026-09-30
+readtime: 10
 last_modified_at: 2026-09-30
 ---
 
@@ -27,13 +28,69 @@ Esto es lo que hago ahora cada vez que algo se rompe, y me ha quitado horas:
 - **Runtime**: se la da en tiempo de ejecución (null, índices fuera de rango, conexión). Aquí la IA brilla: suele verlo rápido.
 - **Lógica**: no hay error, pero el resultado es raro (te saca las notas descolocadas, el total no cuadra). Aquí es donde más se equivoca la IA si no le das contexto.
 
-No es lo mismo "me da error al compilar" que "compila pero el total es incorrecto". Yo me di cuenta de que el 80% de mis preguntas mal hechas mezclaban estos tres casos sin decirlo.
+No es lo mismo "me da error al compilar" que "compila pero el total es incorrecto". Casi todas mis preguntas mal hechas mezclaban estos tres casos sin decirlo, y por eso la IA me contestaba cosas que no me servían.
+
+Los tres se ven distintos en la consola, y eso es justo lo primero que hay que leer antes de abrir el chat:
+
+```text
+# 1. Compilación: el lenguaje te dice la línea exacta
+[ERROR] .../Alumno.java:[24,5] incompatible types: String cannot be converted to int
+
+# 2. Runtime: compila bien y revienta al ejecutar
+java.lang.NullPointerException: Cannot invoke "Alumno.getNombre()" because "a" is null
+	at Controller.listar(Controller.java:41)
+	at Controller.main(Controller.java:12)
+```
+
+El primero se arregla leyendo el mensaje. El segundo te dice el método y la línea, pero **no te dice por qué** ese objeto es nulo: eso sí es trabajo tuyo y de la IA.
+
+El tercero, el de **lógica**, no imprime nada en consola. Esa es la diferencia: con las notas `[8, 5, 7]` el promedio te sale 6,75 cuando debería ser 6,67, y no hay ninguna pista en pantalla. Es el único caso en el que de verdad dependes de la IA, y por eso el paso 2 (clasificar) es el que más te ahorra tiempo.
+
+```text
+Entrada:  [8, 5, 7]
+Esperado: 6.67
+Sale:    6.75
+```
+
+Divide entre el número total de notas en vez de entre las notas válidas, y siempre te va a salir 6.75. Si además hay una nota a cero y divides sin filtrar, eso revienta al ejecutar con un `ArithmeticException: / by zero`: mismo origen, distinto síntoma.
 
 **3. Dale contexto, no solo el error.** Mi plantilla favorita ahora es: *"Estoy haciendo X en [lenguaje/módulo]. Espero que pase Y, pero pasa Z. Este es el fragmento. ¿Por qué?"*. Ojo al "por qué": pido **causa, no parche**. Si la respuesta empieza con "aquí tienes el código corregido", paro y reescribo: le pido que me explique la causa primero y la solución después. Esto cambia todo, porque lo que yo necesito como estudiante es entender, no copiar.
+
+En la práctica, esto es lo que le paso a un `NullPointerException`:
+
+```text
+Contexto: DAO de Alumno con Spring Data JPA, getNombre() en la entidad.
+Espero: que listar() devuelva la lista con nombre.
+Pasa: NullPointerException en Controller.listar línea 41, "a" is null.
+Pregunta: ¿qué puede ser null aquí? Dame tres hipótesis y cómo comprobar
+cada una. NO me des el arreglo todavía.
+```
+
+Las tres hipótesis que me salieron fueron: la consulta devuelve vacía, el mapeo no inicializa el campo, o el `Optional` se está desenvoliendo mal. La comprobación de cada una es un `System.out.println` de diez segundos. Eso es depurar; lo otro es adivinar.
 
 **4. El parche también se revisa línea a línea.** Cuando me da una solución, la leo y pregunto *"¿qué has cambiado y por qué?"*. Si en la explicación no me cuadra algo, no lo pego. He pasado de "funciona" a "sé por qué funciona" y esa es la diferencia de la que hablo siempre en [la lista de errores que cometí programando con IA](/articulos/listas/errores-comunes-programando-con-ia/).
 
 **5. Usa la IA para que escriba el test que reproduce**, no para arreglar. Si sospechas qué función falla, pídele un test pequeño que la ponga a prueba con tus datos. Verlo fallar primero y pasar después es la prueba de que estaba roto y de que el arreglo es de verdad. Esto engancha muy bien con [escribir tests con IA](/articulos/guias/escribir-tests-con-ia-2026/), porque el hábito de testear antes de arreglar es el mismo.
+
+El prompt que uso, con el caso límite ya metido, es este:
+
+```text
+Escribe un test unitario para esta función, en JUnit 5.
+Caso: lista vacía.
+Si el test pasa con el código actual, el test está mal: no lo escribas.
+No modifiques la función.
+```
+
+Y lo que devuelve, en JUnit 5, con el caso vacío resuelto:
+
+```java
+@Test
+void mediaDeListaVaciaDebeSerCero() {
+    assertEquals(0.0, Calcular.media(List.of()), 0.001);
+}
+```
+
+Ese test es el que te da la razón: si falla antes del arreglo y pasa después, el bug estaba donde pensabas y no en otro sitio.
 
 ## Errores que cometí (para que no los repitas)
 

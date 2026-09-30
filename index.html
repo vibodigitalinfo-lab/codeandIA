@@ -122,12 +122,17 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
 <section id="herramientas" class="section section-alt">
   <div class="container">
     <h2 class="section-title">Lo que uso</h2>
-    <p class="section-intro">Las herramientas que uso de verdad y que recomendaría a quien está aprendiendo a programar con IA. Cada una con su review si la he analizado a fondo.</p>
+    <p class="section-intro">
+      Las herramientas que uso de verdad y que recomendaría a quien está aprendiendo a programar con IA.
+      La fecha de cada tarjeta es la de la <strong>última revisión de esa review</strong>: si no la he vuelto a
+      mirar, no te ladeo con una fecha puesta al día por brillante que parezca.
+    </p>
 
     <div class="tools-grid">
 
       {% for tool in site.data.herramientas %}
-      {% assign fechas = nil %}
+      {% assign revisada = nil %}
+      {% assign publicada = nil %}
       <div class="tool-card">
         <div class="tool-card-top">
           <h3>{{ tool.nombre }}</h3>
@@ -145,13 +150,17 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
           {% if art %}
           <a href="{{ art.url | relative_url }}" class="tool-card-review">{{ enlace.label }}</a>
           {% if art.updated %}
-          {% if fechas == nil or art.updated > fechas %}{% assign fechas = art.updated %}{% endif %}
+          {% if revisada == nil or art.updated > revisada %}{% assign revisada = art.updated %}{% endif %}
+          {% else %}
+          {% if publicada == nil or art.date > publicada %}{% assign publicada = art.date %}{% endif %}
           {% endif %}
           {% endif %}
           {% endfor %}
         </div>
-        {% if fechas %}
-        <p class="tool-card-updated">revisado {{ fechas | date: "%d/%m/%Y" }}</p>
+        {% if revisada %}
+        <p class="tool-card-updated">revisado el {{ revisada | date: "%d/%m/%Y" }}</p>
+        {% elsif publicada %}
+        <p class="tool-card-updated tool-card-updated-stale">publicada el {{ publicada | date: "%d/%m/%Y" }}, sin revisar desde entonces</p>
         {% endif %}
       </div>
       {% endfor %}
