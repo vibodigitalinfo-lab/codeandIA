@@ -5,7 +5,7 @@ description: "Explora todos los artículos de codeandIA: reviews, comparativas, 
 permalink: /articulos/
 ---
 
-{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 {% assign categorias = articulos | map: "category" | uniq | sort %}
 
 <section class="section section-alt">
@@ -19,19 +19,19 @@ permalink: /articulos/
     <div class="pillar-links">
       <a href="{{ "/guias/" | relative_url }}" class="pillar-link">
         <strong>Guías de IA para programar</strong>
-        <span>{% assign _g = site.pages | where: "category", "Guía" | size %}{{ _g }} guías paso a paso</span>
+        <span>{% assign _g = site.pages | where: "category", "Guía" | where_exp: "p", "p.layout != 'redirect'" | size %}{{ _g }} guías paso a paso</span>
       </a>
       <a href="{{ "/comparativas/" | relative_url }}" class="pillar-link">
         <strong>Comparativas</strong>
-        <span>{% assign _c = site.pages | where: "category", "Comparativa" | size %}{{ _c }} herramientas cara a cara</span>
+        <span>{% assign _c = site.pages | where: "category", "Comparativa" | where_exp: "p", "p.layout != 'redirect'" | size %}{{ _c }} herramientas cara a cara</span>
       </a>
       <a href="{{ "/listas/" | relative_url }}" class="pillar-link">
         <strong>Listas y recursos</strong>
-        <span>{% assign _l = site.pages | where: "category", "Lista" | size %}{{ _l }} listas de herramientas y atajos</span>
+        <span>{% assign _l = site.pages | where: "category", "Lista" | where_exp: "p", "p.layout != 'redirect'" | size %}{{ _l }} listas de herramientas y atajos</span>
       </a>
       <a href="{{ "/reviews/" | relative_url }}" class="pillar-link">
         <strong>Reviews de herramientas</strong>
-        <span>{% assign _r = site.pages | where: "category", "Review" | size %}{{ _r }} herramientas analizadas a fondo</span>
+        <span>{% assign _r = site.pages | where: "category", "Review" | where_exp: "p", "p.layout != 'redirect'" | size %}{{ _r }} herramientas analizadas a fondo</span>
       </a>
     </div>
 

@@ -5,6 +5,7 @@ description: "Comparo la CLI de GitHub Copilot y la de Codex de OpenAI para prog
 category: "Comparativa"
 date: 2026-09-17
 readtime: 7
+last_modified_at: 2026-09-30
 ---
 
 En la review de [Codex CLI de OpenAI](/articulos/reviews/codex-cli-openai-review-2026/) terminé diciendo que era la forma más barata de tener un agente de terminal si ya pagas ChatGPT. Lo que no dije, porque me lo preguntasteis varios por correo, es qué pasa si lo comparas con la CLI del otro gigante: la de **GitHub Copilot**. Las dos corren en tu terminal, leen tu repositorio y editan ficheros por ti, pero la decisión entre una y otra no es técnica: es de cuenta, de dinero y de cómo te comporta la IA. Voy a contarte cómo las he usado en las prácticas este mes y qué haría un estudiante de DAW con cabeza.
@@ -70,6 +71,6 @@ La decisión real de un estudiante es esta: **usa el que ya tengas, y si no tien
 
 ## Sigue por aquí
 
-- [Codex CLI de OpenAI en 2026: el agente que uso en la terminal](/articulos/reviews/codex-cli-openai-review-2026/)
+- [Codex CLI de OpenAI en 2026: el agente de terminal gratis y abierto](/articulos/reviews/codex-cli-openai-review-2026/)
 - [Claude Code CLI: terminal-first, agentes paralelos y su precio](/articulos/reviews/claude-code-cli-review-2026/)
 - [AGENTS.md: la guía de instrucciones para IA en tus proyectos](/articulos/guias/agents-md-guia-2026/)

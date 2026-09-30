@@ -54,8 +54,8 @@ permalink: /cheatsheets/
             <tr><td>Encontrar un error</td><td>"Este es el error y el código. Dime la causa más probable antes de proponer un arreglo, y dime cómo comprobarla."</td></tr>
             <tr><td>Escribir un test</td><td>"Escribe el test para este caso límite. Si el test no detecta el fallo, no lo escribas."</td></tr>
             <tr><td>Refactorizar</td><td>"Refactoriza esto en pasos pequeños, uno por mensaje. No cambies el comportamiento."</td></tr>
-            <tr><td>Rastrear un bug</td><td>"Actúa de revisor escéptico: qué suposiciones no verificadas hay aquí?"</td></tr>
-            <tr><td>Desbloquearte</td><td>"Dame 3 enfoques distintos con su peor caso. No me digas cuál elijas."</td></tr>
+            <tr><td>Rastrear un bug</td><td>"Actúa de revisor escéptico: ¿qué suposiciones no verificadas hay aquí?"</td></tr>
+            <tr><td>Desbloquearte</td><td>"Dame 3 enfoques distintos con su peor caso. ¿No me digas cuál elijo?"</td></tr>
           </tbody>
         </table>
         <p>Las tres reglas que más importan: <strong>dale el error entero</strong>, <strong>pide que no invente</strong> y <strong>pide un paso cada vez</strong>. Pedir diez cambios de golpe es la forma más rápida de acabar con código que no entiendes.</p>
@@ -70,7 +70,7 @@ permalink: /cheatsheets/
           <tbody>
             <tr><td>Paleta de comandos (el atajo más útil)</td><td>Ctrl/Cmd + Shift + P</td></tr>
             <tr><td>Abrir archivo rápido</td><td>Ctrl/Cmd + P</td></tr>
-            <tr><td>Ir a definición / volver</td><td>F12 / Ctrl/Cmd + B</td></tr>
+            <tr><td>Ir a definición / volver</td><td>F12 / Alt + ←</td></tr>
             <tr><td>Renombrar símbolo en todo el proyecto</td><td>F2</td></tr>
             <tr><td>Buscar en el proyecto</td><td>Ctrl/Cmd + Shift + F</td></tr>
             <tr><td>Sustituir en todos los archivos</td><td>Ctrl/Cmd + Shift + H</td></tr>
@@ -80,10 +80,10 @@ permalink: /cheatsheets/
             <tr><td>Indentar / desindentar</td><td>Tab / Shift + Tab</td></tr>
             <tr><td>Comentar o descomentar</td><td>Ctrl/Cmd + /</td></tr>
             <tr><td>Terminal integrado</td><td>Ctrl/Cmd + `</td></tr>
-            <tr><td>Formato al guardar</td><td>Shift + Alt + F</td></tr>
+            <tr><td>Formatear documento</td><td>Shift + Alt + F</td></tr>
           </tbody>
         </table>
-        <p>Si solo te aprendes uno, que sea <strong>F12</strong>. Saber ir a la definición de un símbolo y volver con Ctrl+B convierte copiar código de Stack Overflow en un proceso mucho más rápido.</p>
+        <p>Si solo te aprendes uno, que sea <strong>F12</strong>. Saber ir a la definición de un símbolo y volver con <strong>Alt + ←</strong> convierte copiar código de Stack Overflow en un proceso mucho más rápido.</p>
       </div>
     </details>
 
@@ -99,7 +99,7 @@ permalink: /cheatsheets/
             <tr><td>Crear rama y cambiar</td><td>git checkout -b mi-rama</td></tr>
             <tr><td>Subir cambios</td><td>git push -u origin mi-rama</td></tr>
             <tr><td>Traer cambios remotos</td><td>git pull --rebase</td></tr>
-            <tr><td>Deshacer el último commit</td><td>git commit --amend</td></tr>
+            <tr><td>Deshacer el último commit</td><td>git reset --soft HEAD~1</td></tr>
             <tr><td>Ver qué cambió, línea a línea</td><td>git diff</td></tr>
             <tr><td>Descartar cambios locales</td><td>git restore .</td></tr>
           </tbody>
@@ -137,7 +137,7 @@ permalink: /cheatsheets/
             <tr><td>Cualquier carácter</td><td>.</td></tr>
             <tr><td>Inicio de línea</td><td>^</td></tr>
             <tr><td>Fin de línea</td><td>$</td></tr>
-            <tr><td>Uno u otro (espacios)</td><td>\s+</td></tr>
+            <tr><td>Espacios en blanco</td><td>\s+</td></tr>
             <tr><td>Grupo opcional</td><td>(...)?</td></tr>
             <tr><td>Uno de varios</td><td>[abc]</td></tr>
             <tr><td>Uno de varios (excluido)</td><td>[^abc]</td></tr>

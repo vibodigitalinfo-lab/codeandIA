@@ -3,8 +3,8 @@ layout: page
 title: "Aviso legal"
 description: "Aviso legal de codeandia.com: datos del titular, cumplimiento de la LSSI-CE, responsabilidad y condiciones de uso del blog."
 permalink: /aviso-legal/
-updated: 2026-09-08
-last_modified_at: 2026-09-08
+updated: 2026-09-30
+last_modified_at: 2026-09-30
 ---
 
 ## 1. Datos identificativos
@@ -13,7 +13,7 @@ En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad d
 
 - **Titular:** Iván
 - **Email de contacto:** <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
-- **Actividad:** Blog sobre herramientas de inteligencia artificial para programadores.
+- **Actividad:** Blog divulgativo sobre herramientas de inteligencia artificial para programar, con guías de estudio y recomendaciones de hardware y accesorios para el puesto de trabajo.
 
 ## 2. Objeto del sitio
 
@@ -24,6 +24,12 @@ Este blog publica contenido informativo y educativo sobre herramientas de inteli
 Algunos enlaces de esta web son **enlaces de afiliado**. Esto significa que, si compras a través de ellos, el autor puede recibir una comisión por parte del vendedor, **sin ningún coste adicional para ti**.
 
 El autor participa en programas de afiliación de empresas como proveedores de hosting, dominios y herramientas de software que recomienda y utiliza de forma habitual.
+
+### Programa de Afiliados de Amazon
+
+Como Asociado de Amazon, gano ingresos por las compras adscritas que cumplen los requisitos aplicables.
+
+Los precios de los productos que aparecen en los artículos y en la página de ofertas se comprueban a mano y llevan la fecha en la que se verificaron. Amazon puede cambiarlos en cualquier momento: **el precio válido es siempre el que figura en la ficha del producto en Amazon** en el momento de la compra, no el que aparece en este blog.
 
 **Compromiso de transparencia:** solo se recomiendan productos o servicios que se han probado personalmente o de los que se tiene conocimiento directo. La presencia de un enlace de afiliado no condiciona la opinión expresada en el contenido.
 

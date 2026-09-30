@@ -5,6 +5,7 @@ description: "Guía para depurar código con IA sin que te arregle el síntoma: 
 category: "Guía"
 date: 2026-08-21
 readtime: 7
+last_modified_at: 2026-09-30
 ---
 
 Lunes por la tarde en el módulo de programación, delante del IntelliJ, con un `NullPointerException` que no había por donde cogerlo. El profe había dejado caer que "con una IA bien usada esto lo tienes en diez minutos", y ahí estaba yo: pegando el stack trace entero en el chat y recibiendo una respuesta que apuntaba a una línea que no era. La IA me había dado una pista (más o menos), pero yo no había sabido pedírsela. Metí la misma pregunta de otra forma, la IA me pasó un parche, y el código se rompió por otro lado. Ese día entendí que **depurar con IA no es preguntarle qué falla: es tener un método para que la respuesta te sirva**. Te cuento el mío.
@@ -19,7 +20,7 @@ El truco es invertir los papeles: **tú eres el detective, la IA es tu ayudante 
 
 Esto es lo que hago ahora cada vez que algo se rompe, y me ha quitado horas:
 
-**1. Reproduce el error antes de tocar nada.** Si no puedes reproducirlo y explicarlo en una frase, no tienes un error, tienes un rumor. Con suelo hacer un "caso mínimo": quitar partes del código hasta que el fallo siga apareciendo. El mínimo reproducible es oro: se lo das a la IA y dejas de mandarle diez ficheros por si acaso. En DAW este paso es doblemente útil: montar el caso mínimo en un ejercicio de clase te obliga a entender qué parte del código depende de qué.
+**1. Reproduce el error antes de tocar nada.** Si no puedes reproducirlo y explicarlo en una frase, no tienes un error, tienes un rumor. Lo que suelo hacer es montar un "caso mínimo": quitar partes del código hasta que el fallo siga apareciendo. El mínimo reproducible es oro: se lo das a la IA y dejas de mandarle diez ficheros por si acaso. En DAW este paso es doblemente útil: montar el caso mínimo en un ejercicio de clase te obliga a entender qué parte del código depende de qué.
 
 **2. Clasifica el error.** Antes de preguntar, decide qué tipo de fallo es:
 - **Compilación**: el lenguaje te dice dónde. Este normalmente lo resuelve el propio IDE.

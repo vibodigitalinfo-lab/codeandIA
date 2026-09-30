@@ -4,7 +4,7 @@ title: "Alfombrilla XXL para programar: la que de verdad descansa tu muñeca"
 description: "Alfombrillas XXL para programar que cubren teclado y ratón con precios reales en Amazon: Sidorenko y Retoo, y por qué el tamaño grande importa."
 category: "Lista"
 date: 2026-09-23
-readtime: 4
+readtime: 5
 affiliate_text: "Consigue la alfombrilla XXL Sidorenko 900x400 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B07CBHX4DB?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
@@ -42,6 +42,10 @@ No tiene nada de lujoso: es goma por abajo y tela por arriba. Pero es justo lo q
 ## La alternativa barata: la Retoo de 900x400 (unos 10 euros)
 
 Si quieres empezar sin gastar, la [alfombrilla Retoo de 900x400](https://www.amazon.es/dp/B0B4K83F57?tag=codeandia-21) sale por unos **9,63 euros**. Mismo tamaño, base antideslizante y superficie de baja fricción. La diferencia se nota en el grosor y en los bordes, pero para el primer año de DAW cumple de sobra y te protege la muñeca igual.
+
+## La alternativa con más nombre: Cooler Master MP511 (19,18 euros)
+
+Si quieres una superficie más rugosa y un borde cosido más grueso, la [Cooler Master MP511](https://www.amazon.es/dp/B0943VL2JR?tag=codeandia-21) sale por unos **19,18 euros**. Es una alfombrilla nacida para jugar, con más agarre en movimientos cortos; si programas moviendo poco el ratón, ese extra se nota. Yo sigo con la Sidorenko porque a igualdad de trabajo el precio manda, pero es la alternativa que recomiendo si te apetece gastar un poco más.
 
 ## Mi veredicto
 

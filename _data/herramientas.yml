@@ -23,7 +23,7 @@
 - nombre: ChatGPT
   pill: Chat IA
   desc: "El chatbot de referencia para depurar, entender errores y mantener conversaciones largas con contexto. Ideal para el día a día de desarrollo."
-  url: https://chat.openai.com/?model=gpt-4
+  url: https://chatgpt.com/
   sponsored: true
   enlaces:
     - label: "Review ChatGPT Plus"
@@ -33,7 +33,7 @@
 
 - nombre: Claude Code
   pill: CLI Agente
-  desc: "Agente autónomo en terminal: lee el repo entero, edita varios archivos, ejecuta tests y lanza sub-agentes paralelos (Dynamic Workflows). Para tareas senior."
+  desc: "Agente autónomo en terminal: lee el repo entero, edita varios archivos, ejecuta tests y lanza sub-agentes paralelos (Dynamic Workflows). Lo reservo para las tareas gordas, las que me ahorrarían una tarde entera."
   url: https://claude.com/pricing
   sponsored: true
   enlaces:

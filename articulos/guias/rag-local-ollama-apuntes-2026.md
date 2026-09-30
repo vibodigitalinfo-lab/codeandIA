@@ -5,6 +5,7 @@ description: "Guía de RAG local con Ollama para estudiantes de DAW: embeddings 
 category: "Guía"
 date: 2026-08-03
 readtime: 7
+last_modified_at: 2026-09-30
 ---
 
 Cuando empecé DAW, mi sistema de estudio era una pesadilla: apuntes de MySQL por aquí, PDFs de Java por allá, y media docena de tabs de apuntes abiertas. Preguntarle algo a ChatGPT funcionaba, pero la respuesta era genérica: no conocía MIS apuntes, ni el guion de MI profesor, ni los ejercicios que hacíamos en clase.
@@ -135,6 +136,6 @@ El día que le pregunté a mi RAG por un apunte de Java y me respondió mejor qu
 
 ## Sigue por aquí
 
-- [Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)](/articulos/guias/nocion-ia-apuntes-daw/)
+- [Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)](/articulos/guias/notion-ia-apuntes-daw/)
 - [SQL y bases de datos con IA: aprende practicando en 2026](/articulos/guias/aprender-sql-con-ia-daw-2026/)
 - [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)

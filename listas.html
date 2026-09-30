@@ -5,7 +5,7 @@ description: "Listas de herramientas, recursos gratuitos y atajos de IA para pro
 permalink: /listas/
 ---
 
-{% assign listas = site.pages | where: "category", "Lista" | sort: "date" | reverse %}
+{% assign listas = site.pages | where: "category", "Lista" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 
 <script type="application/ld+json">
 {

@@ -39,7 +39,7 @@ Codeium es un autocompletado de código gratuito que usa extensiones de VS Code,
 
 Uso Copilot para lo diario y Continue para que me explique lo que no entiendo. Cline aparece cuando hay que refactorizar algo pesado, y Ollama si quiero probar cosas sin subir una línea a la nube. No hace falta activarlas todas a la vez: empieza por una (Copilot o Codeium) y añade las demás cuando veas que de verdad las necesitas.
 
-Si ya te has cansado de que la IA te complete los apuntes y quieres un editor que la lleve dentro desde el arranque, echa un vistazo a mi [comparativa de VS Code con Copilot vs Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/).
+Si ya te has cansado de que la IA te complete los apuntes y quieres un editor que la lleve dentro desde el arranque, echa un vistazo a mi [comparativa de VS Code con Copilot vs Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/). Y si quieres el catálogo largo, con las que tengo instaladas y la que quité, está en [7 extensiones de IA para VS Code que uso a diario](/articulos/listas/extensiones-ia-vscode-estudiantes-2026/).
 
 ## Sigue por aquí
 

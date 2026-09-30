@@ -35,6 +35,7 @@ permalink: /sobre-mi/
       <li><strong>También cuento lo malo.</strong> Si algo no me convence, lo digo. No me pagan por recomendar.</li>
     </ol>
     <p class="about-text">Algunos enlaces son de afiliado: si compras desde aquí, recibo una pequeña comisión sin coste extra para ti. Eso mantiene el blog gratis y no condiciona mi opinión ni una línea.</p>
+    <p class="about-text">Uso herramientas de IA para escribir y revisar, y lo cuento sin rodeos en <a href="{{ "/como-trabajamos/" | relative_url }}">cómo trabajamos con IA</a>.</p>
   </div>
 </section>
 

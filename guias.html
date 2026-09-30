@@ -5,7 +5,7 @@ description: "Guías paso a paso de herramientas de IA para programar: ChatGPT, 
 permalink: /guias/
 ---
 
-{% assign guias = site.pages | where: "category", "Guía" | sort: "date" | reverse %}
+{% assign guias = site.pages | where: "category", "Guía" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 
 <script type="application/ld+json">
 {

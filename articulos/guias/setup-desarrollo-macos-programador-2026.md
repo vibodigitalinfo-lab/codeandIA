@@ -1,10 +1,11 @@
 ---
 layout: article
 title: "Setup de desarrollo en macOS desde cero: la guía que me faltó"
-description: "Guia completa para configurar macOS como entorno de desarrollo en 2026. Homebrew, terminal, IDE, Git, Docker y los mejores ajustes para programar."
+description: "Guía completa para configurar macOS como entorno de desarrollo en 2026: Homebrew, terminal, IDE, Git, Docker y los ajustes que de verdad ahorran tiempo."
 category: "Guía"
 date: 2026-07-18
 readtime: 7
+last_modified_at: 2026-09-30
 ---
 
 Cuando compré mi primer Mac para programar, me encontré con un sistema operativo que no tenía nada que ver con Windows. No sabía dónde estaba la terminal, no entendía Homebrew, y la primera vez que intenté instalar Node.js me saltaron 5 errores diferentes.

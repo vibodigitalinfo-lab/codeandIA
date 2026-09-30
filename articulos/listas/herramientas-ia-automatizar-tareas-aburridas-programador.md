@@ -1,11 +1,11 @@
 ---
 layout: article
 title: "7 herramientas de IA para automatizar tareas aburridas"
-description: "Lista de herramientas de IA que ahorran horas automatizando tareas repetitivas: commits, documentacion, testing, code review y mas. Probadas en 2026."
+description: "Lista de herramientas de IA que ahorran horas automatizando tareas repetitivas: commits, documentación, pruebas, revisión de código y más. Probadas en 2026."
 category: "Lista"
 date: 2026-07-16
 readtime: 7
-last_modified_at: 2026-09-27
+last_modified_at: 2026-09-30
 ---
 
 Todos hemos estado ahí: es viernes por la tarde, quieres terminar la tarea, y te quedan 20 commits por hacer, la documentación sin escribir, y 50 tests que crear. Las tareas repetitivas de programar no solo son aburridas, sino que roban tiempo que podrías dedicar a código real.

@@ -1,13 +1,14 @@
 ---
 layout: article
-title: "Claude Code CLI: terminal-first, agentes paralelos y su precio"
+title: "Claude Code CLI: la terminal manda, agentes en paralelo y su precio"
 description: "Review honesta de Claude Code: qué lo hace distinto, Dynamic Workflows, MCP nativo, hooks, pricing por tokens y si merece la pena para un estudiante."
 category: "Review"
 date: 2026-06-28
-readtime: 10
+readtime: 12
 affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"
 affiliate_label: "Ver planes Claude"
+last_modified_at: 2026-09-30
 ---
 
 La primera vez que vi a un senior usar Claude Code en directo, pensé: "esto es trampa". Escribió en la terminal: `claude "refactoriza todo el módulo de pagos a arquitectura hexagonal, añade tests, y actualiza la doc"`. **Y lo hizo**. En 20 minutos. Lo que a mí me habría llevado dos días.
@@ -23,7 +24,7 @@ Te cuento qué es, cómo se diferencia de Cursor y Copilot, qué cuesta realment
 | **UI principal** | **Terminal (CLI)** | IDE (fork VS Code) | Extensiones IDE |
 | **Modelo** | Solo Claude (Opus/Sonnet/Haiku/Fable) | Multi-modelo (Grok, Composer, Sonnet, etc.) | Multi-modelo |
 | **Contexto** | **Lee repo entero a demanda** | Índice propio (potente) | Índice semántico VS Code |
-| **MCP** | ✅ **Nativo, first-class** | ⚠️ Limitado | ❌ |
+| **MCP** | ✅ **Nativo, first-class** | ✅ Cliente MCP | ✅ Cliente MCP (`.vscode/mcp.json`) |
 | **Dynamic Workflows** | ✅ **10-100s sub-agentes paralelos** | ❌ | ❌ |
 | **Hooks** | ✅ Deterministas (pre-tool, post-tool, etc.) | ❌ | ❌ |
 | **Agent SDK** | ✅ Construye tus propios agentes | ❌ | ❌ |
@@ -62,6 +63,8 @@ Gestión multi-sesión: ves todas tus sesiones activas, su estado, coste en toke
 ## Pricing real (septiembre 2026) — el elefante en la habitación
 
 Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as-you-go** (consola Anthropic) o planes Pro/Max/Team que incluyen "uso moderado/alto" de Claude Code.
+
+**Ojo con la moneda:** Anthropic factura en dólares (USD). Las cifras de abajo son las oficiales de su web; al pagar desde España se aplica el cambio del día y los impuestos, así que el cargo en euros sale algo distinto. Comprueba el precio en su página antes de suscribirte.
 
 ### Planes de suscripción (incluyen acceso a Claude Code)
 
@@ -132,7 +135,7 @@ Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as
 |---------|----------|
 | **Coste impredecible / alto** | ✅ Real. Un mes intenso = $200-500. No hay hard cap en Pro/Max. |
 | **Calidad inconsistente** | ✅ A veces brillante, a veces alucina librerías. Requiere supervisión. |
-| **Trust erosion** | ✅ Casos documentados: steganographic tracking en outputs, source map leaks, bloqueo a terceros (claude-code-router). Forced auto-updates. |
+| **Cambios de condiciones** | ✅ Anthropic mueve a menudo los límites de uso, los modelos disponibles y las condiciones de los planes. Antes de pagar, mira su página de precios y los límites del plan que te toque. |
 | **Solo Claude** | ✅ No puedes usar GPT-5, Grok, Gemini. Si Claude falla en tu stack, no hay fallback. |
 | **Curva de aprendizaje** | ✅ Requiere pensar en "agentes y flujos de trabajo", no en "prompts". |
 

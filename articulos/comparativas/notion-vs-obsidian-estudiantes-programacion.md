@@ -1,11 +1,11 @@
 ---
 layout: article
 title: "Notion vs Obsidian para estudiantes: cuál me queda mejor"
-description: "Comparo Notion y Obsidian para organizar apuntes, proyectos y seguimiento de codigo como estudiante DAW. Fueras, debilidades y mi eleccion final."
+description: "Comparo Notion y Obsidian para organizar apuntes, proyectos y seguimiento del código como estudiante de DAW: fortalezas, debilidades y mi elección final."
 category: "Comparativa"
 date: 2026-07-21
 readtime: 7
-last_modified_at: 2026-09-27
+last_modified_at: 2026-09-30
 ---
 
 Llevo usando Notion desde que empecé el ciclo y funciona bien, pero últimamente me topé con Obsidian y me dejó pensando. Los dos son excelentes para organizar apuntes de programación, pero son filosofías muy distintas. En esta comparativa os cuento mi experiencia con ambos y por qué al final me quedé con uno (spoiler: no es el que esperaba).
@@ -116,5 +116,5 @@ Yo me quedo con Obsidian, pero no porque Notion sea malo. Es porque una vez que 
 
 ## Sigue por aquí
 
-- [Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)](/articulos/guias/nocion-ia-apuntes-daw/)
+- [Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)](/articulos/guias/notion-ia-apuntes-daw/)
 - [5 recursos gratuitos para aprender a programar con IA en español](/articulos/listas/recursos-gratuitos-aprender-programacion-con-ia/)

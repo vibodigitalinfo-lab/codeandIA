@@ -4,7 +4,7 @@ title: "Curso de programación con IA para estudiantes DAW"
 description: "Curso práctico de codeandIA para aprender a programar con IA: método paso a paso, ejercicios reales y rutas guiadas para estudiantes de DAW. Próximamente."
 permalink: /curso/
 updated: 2026-09-28
-last_modified_at: 2026-09-28
+last_modified_at: 2026-09-30
 ---
 
 <p>En el blog te cuento qué herramientas de IA funcionan de verdad y cuáles son humo. El curso va un paso más allá: <strong>te acompaña por orden</strong> para pasar de «la IA me hace los ejercicios» a «la IA me enseña a hacerlos yo».</p>
@@ -29,4 +29,4 @@ last_modified_at: 2026-09-28
 
 Todavía no está abierto. Cuando lo esté te aviso con un email, sin humo: lo que he montado hasta ahora está en <a href="{{ "/rutas/" | relative_url }}">las rutas de aprendizaje</a>, que ya puedes usar hoy mismo.
 
-{% include newsletter.html %}
+{% comment %}La newsletter la pinta el pie de página (footer.html): no la repito aquí o saldría dos veces.{% endcomment %}

@@ -15,7 +15,7 @@ así que se indexa en esta lista en vez de usar %b.
 
 <section class="ofertas-hero">
   <h1>Ofertas para programadores</h1>
-  <p>Descuentos reales en herramientas y productos que uso. Precios comprobados en la página del vendedor el <strong>30 de septiembre de 2026</strong>.</p>
+  <p>Precios de catálogo comprobados a mano en la página del vendedor el <strong>30 de septiembre de 2026</strong>. Aquí no verás descuentos inventados ni precios tachados: si algo está rebajado de verdad, lo pongo; si no, lo dejo con su precio real.</p>
   <p class="ofertas-hero-note">Cuando un precio ha subido respecto a lo que publicaba antes, lo corrijo en vez de dejarlo. Los desgloses de cada festividad están más abajo.</p>
 </section>
 
@@ -222,7 +222,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-date">Septiembre 2026</span>
       </div>
       <h3>AOC CU34G2XP 34" UltraWide — 266,39€ en Amazon</h3>
-      <p class="oferta-excerpt">Monitor 34" UltraWide VA (3440x1440) de 180Hz con USB, altavoces y jack integrados. Sustituye al LG 34" (descontinuado): el budget más completo por euro. El Xiaomi tiene mejor pantalla por menos.</p>
+      <p class="oferta-excerpt">Monitor 34" UltraWide VA (3440x1440) de 180Hz con USB, altavoces y jack integrados. Lo dejo como alternativa por conectividad, pero para el mismo formato el Xiaomi de arriba tiene mejor panel y cuesta menos: si no necesitas los puertos, ve al Xiaomi.</p>
       <a href="https://www.amazon.es/dp/B0CNH24KTM?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
 
@@ -383,22 +383,41 @@ así que se indexa en esta lista en vez de usar %b.
 
 <section class="ofertas-section" id="guias">
   <h2>Guías de compra</h2>
-  <p>Todos los artículos que terminan en un enlace de afiliado: comparativas, listas, reviews y guías con precios reales para que elijas bien.</p>
+  <p>Todos los artículos que terminan en un enlace de afiliado, ordenados del más reciente al más antiguo y separados en dos bloques: el hardware de escritorio y las herramientas de IA. Los precios son los que figuran en cada artículo, con su fecha de comprobación.</p>
 
+  {% assign con_afiliado = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.affiliate_url" | sort: "date" | reverse %}
+  {% assign ofertas_hardware = con_afiliado | where_exp: "p", "p.category == 'Lista'" %}
+  {% assign ofertas_ia = con_afiliado | where_exp: "p", "p.category != 'Lista'" %}
+
+  <h3 class="ofertas-subtitle">Hardware y escritorio para programar</h3>
   <div class="ofertas-grid">
-    {% for article in site.pages %}
-      {% if article.path contains 'articulos/' and article.affiliate_url and article.path != page.path %}
-        {% assign am = article.date | date: "%m" | plus: 0 | minus: 1 %}
-        <a href="{{ article.url | relative_url }}" class="oferta-card">
-          <div class="oferta-meta">
-            <span class="oferta-category">{{ article.category }}</span>
-            <span class="oferta-date">{{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
-          </div>
-          <h3>{{ article.title }}</h3>
-          <p class="oferta-excerpt">{{ article.description }}</p>
-          <span class="affiliate-btn">Leer artículo →</span>
-        </a>
-      {% endif %}
+    {% for article in ofertas_hardware %}
+      {% assign am = article.date | date: "%m" | plus: 0 | minus: 1 %}
+      <a href="{{ article.url | relative_url }}" class="oferta-card">
+        <div class="oferta-meta">
+          <span class="oferta-category">{{ article.category }}</span>
+          <span class="oferta-date">{{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
+        </div>
+        <h3>{{ article.title }}</h3>
+        <p class="oferta-excerpt">{{ article.description }}</p>
+        <span class="affiliate-btn">Leer artículo →</span>
+      </a>
+    {% endfor %}
+  </div>
+
+  <h3 class="ofertas-subtitle">Herramientas de IA y software</h3>
+  <div class="ofertas-grid">
+    {% for article in ofertas_ia %}
+      {% assign am = article.date | date: "%m" | plus: 0 | minus: 1 %}
+      <a href="{{ article.url | relative_url }}" class="oferta-card">
+        <div class="oferta-meta">
+          <span class="oferta-category">{{ article.category }}</span>
+          <span class="oferta-date">{{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
+        </div>
+        <h3>{{ article.title }}</h3>
+        <p class="oferta-excerpt">{{ article.description }}</p>
+        <span class="affiliate-btn">Leer artículo →</span>
+      </a>
     {% endfor %}
   </div>
 </section>

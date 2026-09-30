@@ -1,11 +1,11 @@
 ---
 layout: article
 title: "IA para refactorizar código legacy: cuál funciona mejor en 2026"
-description: "Comparativa de Cursor, Copilot, Claude y Continue para refactorizar codigo viejo. Mi experiencia real con proyectos heredados y codigo spaghetti."
+description: "Comparativa de Cursor, Copilot, Claude y Continue para refactorizar código viejo: mi experiencia real con proyectos heredados y código espagueti."
 category: "Comparativa"
 date: 2026-07-13
 readtime: 8
-last_modified_at: 2026-09-27
+last_modified_at: 2026-09-30
 ---
 
 Heredé un proyecto de JavaScript de hace 3 años con funciones de 300 líneas, variables llamadas `data2` y `temp`, y [cero tests](/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/). Toda la documentación era un README de 4 líneas. Si esto os suena, sabéis que refactorizar código legacy es una de las tareas más duras de programar.

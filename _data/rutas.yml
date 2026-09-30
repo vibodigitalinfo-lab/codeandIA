@@ -41,7 +41,7 @@
   pasos:
     - path: "/articulos/comparativas/chatgpt-vs-cursor-para-programar/"
       nota: "La comparación base antes de mirar nada más."
-    - path: "/articulos/comparativas/cursor-vs-github-copilot-para-aprender/"
+    - path: "/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/"
       nota: "Si estudias, el precio importa. Esta es la clave."
     - path: "/articulos/comparativas/continue-dev-vs-cursor-2026/"
       nota: "La alternativa open source, en serio."
@@ -127,7 +127,7 @@
 - id: agentes-y-mcp
   titulo: "Agentes, MCP y contexto"
   nivel: "Avanzado"
-  resumen: "La parte que todo el mundo copia en tutoriales y casi nadie explica bien: cómo la IA lee tus proyecto."
+  resumen: "La parte que todo el mundo copia en tutoriales y casi nadie explica bien: cómo la IA lee tus proyectos."
   pasos:
     - path: "/articulos/guias/mcp-para-principiantes-guia-2026/"
       nota: "Qué es MCP, sin humo."
@@ -146,6 +146,6 @@
     - path: "/articulos/reviews/codex-cli-openai-review-2026/"
       nota: "El agente de OpenAI en la terminal, con su sandbox de solo lectura por defecto."
     - path: "/articulos/reviews/gemini-cli-review-2026/"
-      nota: "El agente de Google en la terminal, con baremo gratis en AI Studio."
+      nota: "El agente de Google en la terminal, con plan gratuito en AI Studio."
     - path: "/articulos/comparativas/github-copilot-cli-vs-codex-cli-2026/"
       nota: "Codex CLI y Copilot CLI en la arena: con qué quedarse según tu plan."

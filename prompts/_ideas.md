@@ -17,7 +17,7 @@ Formato: `| Categoría | Título | SEO clave | Monetización | Notas |`
 | 8 | Comparativa | Cursor vs VS Code con IA: ¿sigue mereciendo cambiar? | ✅ Publicado (commit previo) | `cursor-vs-vscode-con-ia-2026`. |
 | 9 | Comparativa | GPT-5 vs Claude: qué modelo da mejor código en 2026 | ✅ Publicado 2026-09-15 | `gpt-5-vs-claude-para-programar-2026`. SWE-bench Pro + Terminal-Bench, planes gratis. |
 | 10 | Guía | Cómo montar tu portfolio y que te dé prácticas de DAW | ✅ Publicado 2026-09-20 | `portfolio-que-consigue-practicas-daw`. Continuación del portfolio-ia. |
-| 11 | Guía | Notion + IA para apuntes de DAW: mi sistema real | ✅ Publicado 2026-09-13 | `nocion-ia-apuntes-daw`: 3 BDs + plantilla + prompts. Avisa del add-on $10. |
+| 11 | Guía | Notion + IA para apuntes de DAW: mi sistema real | ✅ Publicado 2026-09-13 | `notion-ia-apuntes-daw`: 3 BDs + plantilla + prompts. Avisa del add-on $10. |
 | 12 | Lista | 7 extensiones de IA para VSCode que uso a diario | ✅ Publicado 2026-09-13 | `extensiones-ia-vscode-estudiantes-2026`: 7 + la que quité (Tabnine). |
 | 13 | Comparativa | Hostinger vs Netlify para tu primer proyecto de DAW | ✅ Publicado 2026-09-21 | `hostinger-vs-netlify-proyecto-daw-2026`. Hosting de pago vs plataforma gratis, veredicto por caso de uso. Afiliado Hostinger. |
 | 14 | Review | DeepSeek review: el modelo gratuito que está cambiando todo | ✅ Publicado 2026-09-13 | `deepseek-review-2026-modelo-gratuito-codigo`. V4.1-Flash, API barata, privacidad. |

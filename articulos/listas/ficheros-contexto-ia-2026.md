@@ -5,6 +5,7 @@ description: "AGENTS.md, .cursorrules, .editorconfig, .gitignore y tus dotfiles:
 category: "Lista"
 date: 2026-09-13
 readtime: 7
+last_modified_at: 2026-09-30
 ---
 
 Cuando trabajas con un agente de estos que corren en tu repositorio, hay un momento que pasa desapercibido: nada más arrancar, la IA va a mirar una serie de ficheros de configuración para decidir cómo comportarse. Tú nunca los miras porque son invisibles, pero ella los lee como un contrato. Y lo que hay dentro de ellos, o lo que falta, decide si el agente respeta tus reglas o si hace lo que le da la gana con el proyecto. Esta es la lista de los cinco que más me han salvado, en el orden en que los revisaría hoy un estudiante de DAW que quiere que su IA trabaje con criterio.
@@ -74,4 +75,4 @@ Y si no sabes qué lecturas hace tu editor primero, la respuesta corta es la mis
 
 - [AGENTS.md: la guía de instrucciones para IA en tus proyectos](/articulos/guias/agents-md-guia-2026/)
 - [Configuración de VS Code para IA en 2026](/articulos/listas/configuracion-vscode-ia-2026/)
-- [Codex CLI de OpenAI en 2026, el agente que uso en la terminal](/articulos/reviews/codex-cli-openai-review-2026/)
+- [Codex CLI de OpenAI en 2026, el agente de terminal gratis y abierto](/articulos/reviews/codex-cli-openai-review-2026/)

@@ -5,6 +5,7 @@ description: "Gemini CLI es el agente de terminal de Google: instalación, cómo
 category: "Review"
 date: 2026-09-16
 readtime: 6
+last_modified_at: 2026-09-30
 ---
 
 Google llevaba un año llenándonos la cabeza con agentes: los tienes en el editor, en la web y en sus planes de pago, todos repasados en [las herramientas de IA de Google](/articulos/listas/herramientas-ia-google-2026/). La pieza que me faltaba era la del sitio donde vivo cuando programo: la terminal. Hace unas semanas la lanzaron con todo el mohín del mundo y decidí dejarla una temporada en las prácticas para contarte si es una alternativa real a [Codex CLI](/articulos/reviews/codex-cli-openai-review-2026/) y a [Claude Code](/articulos/reviews/claude-code-cli-review-2026/), o si es Google añadiendo una pestaña más.
@@ -54,6 +55,6 @@ Si ya pagas ChatGPT, la cuenta te sale rentable con Codex. Si ya vives en el uni
 
 ## Sigue por aquí
 
-- [Codex CLI de OpenAI en 2026: el agente que uso en la terminal](/articulos/reviews/codex-cli-openai-review-2026/)
+- [Codex CLI de OpenAI en 2026: el agente de terminal gratis y abierto](/articulos/reviews/codex-cli-openai-review-2026/)
 - [Las herramientas de IA de Google para programar en 2026](/articulos/listas/herramientas-ia-google-2026/)
 - [GitHub Copilot CLI vs Codex CLI en 2026, cuál para tu curso](/articulos/comparativas/github-copilot-cli-vs-codex-cli-2026/)

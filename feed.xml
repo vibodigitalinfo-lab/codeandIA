@@ -26,7 +26,7 @@ layout: null
   {% assign base_feed = site.url | append: "/" %}
   {% assign feed_href = 'href="' | append: base_feed %}
   {% assign feed_src = 'src="' | append: base_feed %}
-  {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+  {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
   {% for p in articulos limit: 20 %}
   <item>
     <title>{{ p.title | xml_escape }}</title>

@@ -5,7 +5,7 @@ description: "Comparativas entre herramientas de IA para programar: ChatGPT, Cla
 permalink: /comparativas/
 ---
 
-{% assign comparativas = site.pages | where: "category", "Comparativa" | sort: "date" | reverse %}
+{% assign comparativas = site.pages | where: "category", "Comparativa" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 
 <script type="application/ld+json">
 {

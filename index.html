@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "codeandIA — Herramientas de IA para programadores"
+title: "Herramientas de IA para programadores en España"
 description: "Reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios reales en España."
 ---
 
-{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 {% assign rutas_total_pasos = 0 %}
 {% for r in site.data.rutas %}{% assign rutas_total_pasos = rutas_total_pasos | plus: r.pasos.size %}{% endfor %}
 
@@ -13,7 +13,7 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     <div class="hero-copy">
       <p class="hero-kicker hand">apuntes de un estudiante de DAW</p>
       <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer <span class="hero-accent">mejor dev</span>.</h1>
-      <p class="hero-subtitle">Reviews, guías y comparativas de herramientas de inteligencia artificial contadas en primera persona: probadas a mano, con precios reales en España y sin humo de marketing.</p>
+      <p class="hero-subtitle">Reviews, guías y comparativas de herramientas de IA para programar, probadas a mano con precios reales en España.</p>
       <div class="hero-cta">
         <a href="#articulos" class="btn btn-accent">Leer los últimos artículos</a>
         <a href="{{ "/ofertas/" | relative_url }}" class="btn btn-outline">Ofertas y setup <span aria-hidden="true">→</span></a>
@@ -25,18 +25,59 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
       <aside class="sticky-note">
         <h2>lo que uso ahora mismo</h2>
         <ul>
-          <li>Cursor como editor</li>
+          <li>VS Code con Copilot en el día a día</li>
           <li>Claude Code en la terminal</li>
-          <li>Copilot con el Student Pack</li>
+          <li>Cursor instalado, no lo uso a diario</li>
           <li>Hostinger y Namecheap para el dominio</li>
         </ul>
-        <p>actualizado cada mes —Iván</p>
+        <p>la actualizo cada vez que cambio de herramienta —Iván</p>
       </aside>
     </div>
   </div>
 </section>
 
-<p class="note-band">escrito a mano, probado a mano · un artículo nuevo cada día</p>
+<p class="note-band">probado a mano · sin reviews pagadas · un artículo nuevo cada día · <a href="{{ "/como-trabajamos/" | relative_url }}">cómo trabajamos</a></p>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">Por dónde empezar</h2>
+    </div>
+    <p class="section-intro">
+      Con {{ articulos.size }} artículos publicados, lo difícil no es encontrarlos, es saber por dónde
+      empezar. Estas son las tres entradas que mejor funcionan si acabas de llegar.
+    </p>
+
+    <div class="tools-grid">
+      <a class="tool-card" href="{{ "/rutas/" | relative_url }}">
+        <div class="tool-card-top">
+          <h3>Rutas de aprendizaje</h3>
+          <span class="pill">{{ site.data.rutas | size }} rutas</span>
+        </div>
+        <p>Recorridos ordenados con {{ rutas_total_pasos }} pasos en total: qué leer primero, qué después y qué saltarte. Guardas tu progreso y sigues cuando quieras.</p>
+        <span class="pillar-link-text">Ver las rutas <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a class="tool-card" href="{{ "/cheatsheets/" | relative_url }}">
+        <div class="tool-card-top">
+          <h3>Cheatsheets</h3>
+          <span class="pill">5 hojas</span>
+        </div>
+        <p>Prompts con código, atajos de VS Code, Git, Docker y regex resumidos para tenerlos abiertos en otra pestaña mientras programas. Sin relleno.</p>
+        <span class="pillar-link-text">Abrir las hojas <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a class="tool-card" href="{{ "/articulos/" | relative_url }}">
+        <div class="tool-card-top">
+          <h3>Todos los artículos</h3>
+          <span class="pill">{{ articulos.size }}</span>
+        </div>
+        <p>El catálogo completo con filtros por categoría, búsqueda y orden por fecha. Cada artículo enlaza con el anterior y el siguiente para leer sin parar.</p>
+        <span class="pillar-link-text">Ver el catálogo <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
 
 <section id="articulos" class="section">
   <div class="container">
@@ -78,47 +119,6 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
   </div>
 </section>
 
-<section class="section section-alt">
-  <div class="container">
-    <div class="section-head">
-      <h2 class="section-title">Por dónde empezar</h2>
-    </div>
-    <p class="section-intro">
-      Con {{ articulos.size }} artículos publicados, lo difícil no es encontrarlos, es saber por dónde
-      empezar. Estas son las tres entradas que mejor funcionan si te acabas de llegar.
-    </p>
-
-    <div class="tools-grid">
-      <a class="tool-card" href="{{ "/rutas/" | relative_url }}">
-        <div class="tool-card-top">
-          <h3>Rutas de aprendizaje</h3>
-          <span class="pill">{{ site.data.rutas | size }} rutas</span>
-        </div>
-        <p>Recorridos ordenados con {{ rutas_total_pasos }} pasos en total: qué leer primero, qué después y qué saltarte. Guardas tu progreso y sigues cuando quieras.</p>
-        <span class="pillar-link-text">Ver las rutas <span aria-hidden="true">→</span></span>
-      </a>
-
-      <a class="tool-card" href="{{ "/cheatsheets/" | relative_url }}">
-        <div class="tool-card-top">
-          <h3>Cheatsheets</h3>
-          <span class="pill">5 hojas</span>
-        </div>
-        <p>Prompts con código, atajos de VS Code, Git, Docker y regex resumidos para tenerlos abiertos en otra pestaña mientras programas. Sin relleno.</p>
-        <span class="pillar-link-text">Abrir las hojas <span aria-hidden="true">→</span></span>
-      </a>
-
-      <a class="tool-card" href="{{ "/articulos/" | relative_url }}">
-        <div class="tool-card-top">
-          <h3>Todos los artículos</h3>
-          <span class="pill">{{ articulos.size }}</span>
-        </div>
-        <p>El catálogo completo con filtros por categoría, búsqueda y orden por fecha. Cada artículo enlaza con el anterior y el siguiente para leer sin parar.</p>
-        <span class="pillar-link-text">Ver el catálogo <span aria-hidden="true">→</span></span>
-      </a>
-    </div>
-  </div>
-</section>
-
 <section id="herramientas" class="section section-alt">
   <div class="container">
     <h2 class="section-title">Lo que uso</h2>
@@ -144,9 +144,8 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
           {% assign art = site.pages | where: "path", enlace.path | first %}
           {% if art %}
           <a href="{{ art.url | relative_url }}" class="tool-card-review">{{ enlace.label }}</a>
-          {% assign fecha_art = art.updated | default: art.date %}
-          {% if fecha_art %}
-          {% if fechas == nil or fecha_art > fechas %}{% assign fechas = fecha_art %}{% endif %}
+          {% if art.updated %}
+          {% if fechas == nil or art.updated > fechas %}{% assign fechas = art.updated %}{% endif %}
           {% endif %}
           {% endif %}
           {% endfor %}
@@ -164,7 +163,7 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
 <section id="metodologia" class="section">
   <div class="container container-narrow">
     <h2 class="section-title">Cómo pruebo cada herramienta</h2>
-    <p class="about-text">No escribo de oídas. Cada herramienta que aparece por aquí la he usado yo, en mi día a día como estudiante, durante semanas. Este es mi método:</p>
+    <p class="about-text">No escribo de oídas. El software que aparece por aquí lo he usado yo en mi día a día como estudiante, y el hardware que recomiendo lo tengo montado en mi escritorio. Este es mi método:</p>
     <ol class="method-list">
       <li><strong>La uso de verdad</strong> en proyectos reales de clase o personales, no en un tutorial de cinco minutos.</li>
       <li><strong>Mido lo que importa:</strong> velocidad, límites, precio real y si te hace mejor programador o solo más rápido.</li>
@@ -181,23 +180,11 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     <div class="faq-list">
       <details class="faq-item">
         <summary>¿Cuál es la mejor IA para programar siendo principiante?</summary>
-        <p>Si empiezas, te recomiendo <a href="{{ "/articulos/reviews/cursor-ai-review-espanol/" | relative_url }}">Cursor</a>: su chat contextual te ayuda a entender tu propio código, no solo a autocompletar. Y si eres estudiante, <a href="{{ "/articulos/reviews/github-copilot-gratis-estudiantes/" | relative_url }}">GitHub Copilot</a> gratis con el Student Pack es un gran punto de partida. Depende de si prefieres un editor completo o un asistente dentro del tuyo.</p>
-      </details>
-      <details class="faq-item">
-        <summary>¿Hay herramientas de IA gratis para estudiantes?</summary>
-        <p>Sí. GitHub Copilot es gratis con el <a href="https://education.github.com/pack" target="_blank" rel="nofollow sponsored noopener">Student Developer Pack</a>. Cursor tiene un plan gratuito con un límite mensual de peticiones que da bastante de sí. Y ChatGPT tiene una versión gratuita, aunque con límites de mensajes.</p>
+        <p>Si empiezas, quédate en <strong>VS Code con GitHub Copilot gratis</strong> (lo tienes con el Student Pack): sigues en el editor que ya usa tu clase y la IA solo entra cuando la llamas. Cuando tengas un proyecto de verdad, prueba <a href="{{ "/articulos/reviews/cursor-ai-review-espanol/" | relative_url }}">Cursor</a> un fin de semana: su chat contextual ayuda mucho en refactors largos. Comparo los dos en <a href="{{ "/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/" | relative_url }}">VS Code con Copilot gratis vs Cursor</a>.</p>
       </details>
       <details class="faq-item">
         <summary>¿Merece la pena pagar ChatGPT Plus?</summary>
         <p>Depende de cuánto lo uses. Si trabajas a diario con contexto largo o te quedas sin mensajes en los peores momentos, puede valer la pena. Te lo cuento con detalle en mi <a href="{{ "/articulos/reviews/chatgpt-plus-para-programadores/" | relative_url }}">análisis de ChatGPT Plus</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary>¿Qué son los enlaces de afiliado?</summary>
-        <p>Son enlaces por los que, si compras, el blog recibe una pequeña comisión sin coste adicional para ti. Solo recomiendo herramientas que he probado yo mismo, y la presencia de un enlace de afiliado nunca cambia mi opinión.</p>
-      </details>
-      <details class="faq-item">
-        <summary>¿Cada cuánto publicas contenido?</summary>
-        <p>Publico un artículo nuevo cada día, alternando reviews, comparativas y guías de herramientas de IA para desarrolladores. Puedes verlos todos desde la portada o suscribirte al <a href="{{ "/feed.xml" | relative_url }}">RSS</a>.</p>
       </details>
       <details class="faq-item">
         <summary>¿Puedo pedir una review o sugerir una herramienta?</summary>

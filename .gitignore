@@ -22,3 +22,5 @@ _informes/
 fechas_check.py
 .vercel
 .env*
+# Plan de negocio interno: nunca en el repo publico
+plan-ingresos-y-gestoria.md

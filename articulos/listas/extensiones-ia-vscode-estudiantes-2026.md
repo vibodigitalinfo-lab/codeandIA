@@ -130,7 +130,7 @@ Las extensiones de IA **se pisan** si tienes varias haciendo autocompletado. Una
 
 ---
 
-Si hay una extensión que uso mal o que se me ha escapado, me gustaría enterarme antes de que la pruebe alguien con carnet. Escríbeme a ivan@codeandia.com y montamos juntos la versión 2 de esta lista.
+Si hay una extensión que uso mal o que se me ha escapado, me gustaría enterarme antes de que la pruebe alguien con carnet. Escríbeme a [ivan@codeandia.com](mailto:ivan@codeandia.com) y montamos juntos la versión 2 de esta lista. Y si solo quieres las que no cuestan nada, en [5 extensiones de IA gratis en VS Code](/articulos/listas/extensiones-vs-code-ia-gratis-programar/) tienes ese mismo filtro aplicado.
 
 ## Sigue por aquí
 

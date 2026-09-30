@@ -4,7 +4,7 @@ title: "VS Code con Copilot gratis vs Cursor: cuál usar estudiando"
 description: "VS Code con Copilot gratis vs Cursor como estudiante: qué cambia de verdad en tu día a día, qué pide cada uno y cuál elegir según tu caso."
 category: "Comparativa"
 date: 2026-09-30
-readtime: 4
+readtime: 5
 affiliate_text: "Si la IA te convence, mira el portátil con 16 GB que uso en la guía"
 affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
@@ -48,6 +48,12 @@ Cursor es un editor que nació con la IA dentro: cada atajo, cada panel y cada d
 | Quieres que la IA escriba más código que tú en prácticas largas | Cursor |
 | Todavía no tienes verificado el Student Pack | VS Code + Cursor (su plan gratuito) |
 | Código con datos sensibles | VS Code + modelos locales (Ollama) |
+
+## El riesgo real de aprender con autocompletado
+
+Con Copilot me pasó lo típico: había días en los que terminaba un ejercicio sin entender del todo qué había pasado. La sugerencia aparece en gris, pulsas Tab y sigues. Es tan rápido que no te das cuenta de que has delegado el pensar.
+
+Con Cursor el riesgo es el mismo, pero el chat te obliga a explicar qué quieres, y al preguntar aprendes. La regla que me funciona en los dos: antes de aceptar un bloque, ser capaz de explicar en voz alta qué hace cada línea. Si no puedes, no lo aceptes.
 
 ## Mi recomendación como estudiante
 

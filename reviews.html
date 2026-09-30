@@ -5,7 +5,7 @@ description: "Reviews honestas de herramientas de IA para programar: Cursor, Cop
 permalink: /reviews/
 ---
 
-{% assign reviews = site.pages | where: "category", "Review" | sort: "date" | reverse %}
+{% assign reviews = site.pages | where: "category", "Review" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 
 <script type="application/ld+json">
 {

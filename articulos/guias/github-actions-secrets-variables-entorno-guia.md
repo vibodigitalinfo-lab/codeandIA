@@ -1,10 +1,11 @@
 ---
 layout: article
 title: "Secrets y variables en GitHub Actions sin morir en el intento"
-description: "Guia paso a paso para usar secrets, variables y environments en GitHub Actions. Con errores comunes, ejemplos reales y trucos que nadie te cuenta."
+description: "Guía paso a paso para usar secrets, variables y environments en GitHub Actions, con los errores comunes, ejemplos reales y los trucos que casi nadie te cuenta."
 category: "Guía"
 date: 2026-07-20
 readtime: 7
+last_modified_at: 2026-09-30
 ---
 
 Cuando empecé con GitHub Actions, me pasé una tarde entera intentando pasar una API key a mi workflow. No funcionaba, el error no decía nada útil, y estaba a punto de meter la key directamente en el archivo YAML (spoiler: eso es un error GRAVE).
