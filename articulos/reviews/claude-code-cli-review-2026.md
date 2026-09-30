@@ -1,23 +1,24 @@
 ---
 layout: article
 title: "Claude Code CLI: la terminal manda, agentes en paralelo y su precio"
-description: "Review honesta de Claude Code: qué lo hace distinto, Dynamic Workflows, MCP nativo, hooks, pricing por tokens y si merece la pena para un estudiante."
+description: "Review honesta de Claude Code: qué lo hace distinto, los sub-agentes en paralelo, MCP nativo, hooks, el precio por tokens y si compensa."
 category: "Review"
 date: 2026-06-28
-readtime: 12
+updated: 2026-09-30
+readtime: 14
 version: "Claude Code CLI con Opus 4.7 (plan Pro, 20 $/mes)"
 tiempo: "una sesión intensiva de 22 minutos sobre ~80 archivos"
 proyecto: "migración Spring Boot 2.7→3.3 y Java 17→21 en las prácticas"
-limites: "coste variable por tokens (un mes intenso ronda los 200-500 $)"
+limites: "el coste va por tokens y sube sin aviso; los límites de uso de los planes los cambia Anthropic cuando quiere"
 affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"
 affiliate_label: "Ver planes Claude"
 last_modified_at: 2026-09-30
 ---
 
-La primera vez que vi a un senior usar Claude Code en directo, pensé: "esto es trampa". Escribió en la terminal: `claude "refactoriza todo el módulo de pagos a arquitectura hexagonal, añade tests, y actualiza la doc"`. **Y lo hizo**. En 20 minutos. Lo que a mí me habría llevado dos días.
+La primera vez que vi a alguien con experiencia usando Claude Code en directo, pensé: "esto es trampa". Escribió en la terminal: `claude "refactoriza todo el módulo de pagos a arquitectura hexagonal, añade tests y actualiza la documentación"`. **Y lo hizo**. En 20 minutos. Lo que a mí me habría llevado dos días.
 
-Claude Code no es un autocompletado, no es un chat en el IDE, **es un agente autónomo que vive en tu terminal**. Lee tu repo entero, edita múltiples archivos, ejecuta comandos, corre tests, y itera hasta que todo pasa. Y lo que es más loco: puede lanzar **decenas de sub-agentes en paralelo** para verificar su propio trabajo (Dynamic Workflows).
+Claude Code no es un autocompletado, no es un chat en el IDE, **es un agente autónomo que vive en tu terminal**. Lee tu repo entero, edita varios archivos, ejecuta comandos, corre los tests e itera hasta que todo pasa. Y lo que más llama la atención: puede lanzar **decenas de sub-agentes en paralelo** para verificar su propio trabajo.
 
 Te cuento qué es, cómo se diferencia de Cursor y Copilot, qué cuesta realmente (ojo: tokens), y si tiene sentido para un estudiante de DAW.
 
@@ -26,124 +27,125 @@ Te cuento qué es, cómo se diferencia de Cursor y Copilot, qué cuesta realment
 | | **Claude Code** | **Cursor** | **Copilot** |
 |---|-----------------|------------|-------------|
 | **UI principal** | **Terminal (CLI)** | IDE (fork VS Code) | Extensiones IDE |
-| **Modelo** | Solo Claude (Opus/Sonnet/Haiku/Fable) | Multi-modelo (Grok, Composer, Sonnet, etc.) | Multi-modelo |
+| **Modelo** | Solo Claude | Multi-modelo | Multi-modelo |
 | **Contexto** | **Lee repo entero a demanda** | Índice propio (potente) | Índice semántico VS Code |
-| **MCP** | ✅ **Nativo, first-class** | ✅ Cliente MCP | ✅ Cliente MCP (`.vscode/mcp.json`) |
-| **Dynamic Workflows** | ✅ **10-100s sub-agentes paralelos** | ❌ | ❌ |
-| **Hooks** | ✅ Deterministas (pre-tool, post-tool, etc.) | ❌ | ❌ |
-| **Agent SDK** | ✅ Construye tus propios agentes | ❌ | ❌ |
-| **Git/PRs** | ✅ Nativo (`git`, `gh`) | ✅ | ✅ |
-| **Computer Use** | ✅ Abre apps, navega, ejecuta herramientas | ❌ | ❌ |
+| **MCP** | Nativo, de serie | Cliente MCP | Cliente MCP (`.vscode/mcp.json`) |
+| **Dynamic Workflows** | Sí, sub-agentes en paralelo | No | No |
+| **Hooks** | Sí, deterministas (pre-tool, post-tool) | No | No |
+| **Agent SDK** | Sí, construyes tus propios agentes | No | No |
+| **Git/PRs** | Nativo (`git`, `gh`) | Sí | Sí |
+| **Computer Use** | Sí, abre apps y navegador | No | No |
 
 **La diferencia filosófica**: Cursor y Copilot son **"IA dentro del editor"**. Claude Code es **"IA que usa el editor (y la terminal, y el navegador, y lo que haga falta) como herramientas"**.
 
 ---
 
-## Características únicas 2026
+## Lo más diferencial: sub-agentes en paralelo
+Claude escribe **andamiajes en JavaScript** (*harnesses*) que lanzan sub-agentes en paralelo. Ejemplos:
+- **Verificación adversarial**: un agente escribe código y **otros cinco intentan romperlo** (casos límite, seguridad, rendimiento, corrección). Solo pasa si todos fallan.
+- **Torneo**: tres agentes proponen soluciones distintas al mismo problema y un juez elige la mejor.
+- **Revisión en abanico**: 50 agentes revisan 50 archivos en paralelo para buscar fallos.
 
-### Dynamic Workflows (mayo 2026) — lo más diferencial
-Claude escribe **harnesses en JavaScript** que lanzan sub-agentes en paralelo. Ejemplos reales:
-- **Adversarial verification**: un agente escribe código, **otros 5 intentan romperlo** (fuzzing, edge cases, security, performance, correctness). Solo pasa si todos fallan.
-- **Tournament**: 3 agentes proponen soluciones distintas al mismo problema → un juez elige la mejor.
-- **Fan-out verification**: 50 agentes revisan 50 archivos en paralelo para encontrar bugs.
+Esto no es "ingeniería de prompts". Es **orquestación programática de agentes**: escribes el andamiaje una vez y lo reutilizas.
 
-Esto no es "prompt engineering". Es **orquestación programática de agentes**. Tú escribes el harness una vez, lo reusas siempre.
+### Tareas programadas (Routines)
+Trabajos que se lanzan solos o desde una API: "cada noche a las 3, revisa dependencias obsoletas y abre PRs". Corre en la nube de Anthropic, no en tu máquina.
 
-### Routines (abril 2026)
-Tareas programadas o disparadas por API: "cada noche a las 3am, revisa dependencias obsoletas y abre PRs". Corre en la nube de Anthropic, no en tu máquina.
+### Computer Use
+Claude Code **abre el navegador, navega a la documentación de una API, lee la especificación, vuelve a la terminal y escribe el cliente**. O abre Postman, prueba un endpoint y genera el código.
 
-### Computer Use (marzo 2026)
-Claude Code **abre el navegador, navega a la doc de una API, lee la especificación, vuelve a la terminal y escribe el cliente**. O abre Postman, prueba un endpoint, y genera el código. Es "Computer Use" de Anthropic expuesto en CLI.
+### Agent View
+Gestión de varias sesiones a la vez: ves cuáles están activas, su estado, el coste en tokens y saltas entre ellas.
 
-### Agent View (mayo 2026)
-Gestión multi-sesión: ves todas tus sesiones activas, su estado, coste en tokens, y puedes saltar entre ellas.
-
-### CLAUDE.md + Auto-memory
-- **CLAUDE.md** en la raíz del repo = instrucciones persistentes para TODAS las sesiones (estilo proyecto, convenciones, comandos útiles).
-- **Auto-memory**: aprende de tus correcciones entre sesiones ("la próxima vez usa `MapStruct` no mapping manual") y lo aplica solo.
+### CLAUDE.md y memoria automática
+- **CLAUDE.md** en la raíz del repo = instrucciones que se aplican a TODAS las sesiones (estilo del proyecto, convenciones, comandos útiles).
+- **Memoria automática**: aprende de tus correcciones entre sesiones ("la próxima vez usa `MapStruct`, no mapeo manual") y lo aplica solo.
 
 ---
 
-## Pricing real (precios de junio de 2026) — el elefante en la habitación
+## Precio: el elefante en la habitación
 
-Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as-you-go** (consola Anthropic) o planes Pro/Max/Team que incluyen "uso moderado/alto" de Claude Code.
+Claude Code **no tiene precio fijo mensual por uso ilimitado**. Vas por dos vías: la **API pay-as-you-go** (consola de Anthropic, se paga lo que consumas) o los **planes Pro/Max/Team**, que incluyen una cantidad de uso de Claude Code incluida.
 
-**Aviso de fecha:** los números de esta sección son los que Anthropic tenía publicados cuando escribí la review (junio de 2026). Precios y límites de uso son lo que antes se queda viejo en este sector, así que míralos en su web antes de pagar.
+**Aviso de fecha:** la tabla de abajo es la que Anthropic tenía publicada cuando escribí esto (junio de 2026). Este es el sector donde antes caducan los precios, así que **contrata siempre desde la [página oficial de precios](https://claude.com/pricing)** y no desde una tabla mía.
 
-**Ojo con la moneda:** Anthropic factura en dólares (USD). Las cifras de abajo son las oficiales de su web; al pagar desde España se aplica el cambio del día y los impuestos, así que el cargo en euros sale algo distinto. Comprueba el precio en su página antes de suscribirte.
+**Ojo con la moneda:** Anthropic factura en dólares (USD). Las cifras de abajo son las oficiales de su web; al pagar desde España se aplica el cambio del día y los impuestos, así que el cargo en euros sale algo distinto.
 
 ### Planes de suscripción (incluyen acceso a Claude Code)
 
-| Plan | Mensual | Anual | Acceso Claude Code | Para quién |
-|------|---------|-------|-------------------|------------|
-| **Free** | $0 | — | ❌ **No incluido** | Chat web solo |
-| **Pro** | $20 | $17/mes ($200) | ✅ Uso moderado | Uso diario ligero-medio |
-| **Max 5x** | $100 | — | ✅ Uso diario codebases grandes | Power users |
-| **Max 20x** | $200 | — | ✅ Intensivo | Heavy users |
-| **Team Standard** | $25/seat | $20/seat | ✅ 2-150 seats | Equipos |
-| **Team Premium** | $125/seat | $100/seat | ✅ 5× Pro | Equipos intensivos |
-| **Enterprise** | $20/seat+API | Anual | ✅ API rates | Enterprise |
+| Plan | Mensual | Anual | Acceso a Claude Code | Para quién |
+|------|---------|-------|----------------------|------------|
+| **Free** | $0 | — | **No incluido** | Solo chat web |
+| **Pro** | $20 | $17/mes ($200) | Sí, uso moderado | Uso diario ligero-medio |
+| **Max 5x** | $100 | — | Sí, para codebases grandes | Uso intenso |
+| **Max 20x** | $200 | — | Sí, uso intensivo | Uso muy intenso |
+| **Team Standard** | $25/asiento | $20/asiento | Sí, 2-150 asientos | Equipos |
+| **Team Premium** | $125/asiento | $100/asiento | Sí, 5× Pro | Equipos intensivos |
+| **Enterprise** | $20/asiento+API | Anual | Sí, a precio API | Empresa |
 
 ### API Pay-as-you-go (consola) — si te pasas del plan
 
-| Modelo | Input $/MTok | Output $/MTok |
-|--------|--------------|---------------|
-| **Opus 5** | $5 | $25 |
-| **Sonnet 5** | $2 | $10 |
-| **Haiku 4.5** | $1 | $5 |
-| **Fable 5.1** | $10 | $50 |
+El precio por token cambia cada pocos meses y hay más modelos cada temporada, así que **no copio aquí la tabla**: se queda obsoleta y te haría pagar sobre datos míos. Los precios vigentes están en la [página oficial de precios de Anthropic](https://platform.claude.com/docs/pricing), desglosados por modelo en **dólares por millón de tokens de entrada y de salida**.
 
-**Estimación real de coste**: una sesión Agent de 30 min en repo mediano (~50 archivos, tests, builds) gasta **$1-5 en Opus/Sonnet**. Un día intenso (4-5 sesiones) = **$10-25**. Un mes = **$200-500** si lo usas a diario para tareas gordas.
+Lo que sí puedo decirte es la forma que tiene, porque es la que hace que el coste sea cambiante:
 
-**Para estudiante**: **Pro ($20/mes o $200/año)** es la entrada. Incluye "uso moderado" de Claude Code. Si te pasas, pagas API rates. **No hay descuento estudiante**. ¿Merece la pena? Solo si vas a usarlo **diariamente para tareas complejas** (migraciones, arquitectura, debugging profundo). Para autocompletado y chat, Copilot Pro ($10, gratis Student) o Cursor Hobby (gratis) salen más a cuenta.
+- **La entrada y la salida no cuestan lo mismo.** Los tokens de salida son bastante más caros que los de entrada, así que una respuesta larga y razonada cuesta bastante más que un prompt corto.
+- **El modelo que elijas marca el precio.** No es lo mismo una sesión con el modelo más potente que con uno pequeño, y el coste se multiplica.
+- **Los sub-agentes se multiplican.** Lanzas decenas de agentes en paralelo y cada uno lee parte del repo y responde: la factura también. Es la razón principal por la que el gasto mensual se dispara sin que se note en pantalla.
+
+**Estimación de coste**: una sesión de agente de 30 min en un repo mediano (unos 50 archivos, con tests y build) se mueve en el orden de **1 a 5 dólares**; un día con 4 o 5 sesiones, del orden de **10 a 25**. **Esto es un orden de magnitud, no una factura**: te lo doy para que te hagas una idea de si el plan te compensa, no para que calcules lo que vas a pagar. La cifra real sale de la consola, que lleva el desglose token a token.
+
+**Para estudiante**: **el plan Pro** es la entrada. Incluye una cantidad moderada de uso de Claude Code. Si te pasas, pagas a precio de API. **No hay descuento para estudiantes**. ¿Merece la pena? Solo si lo vas a usar **a diario para tareas complejas** (migraciones, arquitectura, debugging profundo). Para autocompletado y chat, [Copilot](/articulos/reviews/github-copilot-gratis-estudiantes/) con el Student Pack o el plan gratuito de Cursor salen mucho más a cuenta.
 
 ---
 
 ## Mi experiencia real: migración real en prácticas
 
-**Proyecto**: monolito Spring Boot 2.7 → 3.3 + Java 17 → 21 + JUnit 4 → 5 + Micrometer + OpenTelemetry + Kubernetes manifests. ~80 archivos.
+**Proyecto**: un monolito de Spring Boot 2.7 a 3.3, con Java 17 a 21, JUnit 4 a 5, Micrometer, OpenTelemetry y manifiestos de Kubernetes. Unos 80 archivos.
 
-**Prompt**: `claude "migra este proyecto a Spring Boot 3.3 y Java 21. Actualiza todas las dependencias, fixa breaking changes, actualiza tests, y genera Kubernetes manifests listos para ArgoCD"`.
+**Instrucción**: `claude "migra este proyecto a Spring Boot 3.3 y Java 21. Actualiza todas las dependencias, corrige lo que rompa, actualiza los tests y genera los manifiestos de Kubernetes listos para ArgoCD"`.
 
 **Qué pasó**:
-1. **Leyó todo el repo** (pom.xml, 40+ clases Java, 30+ tests, Dockerfile, docker-compose, GitHub Actions). 2 min.
-2. **Planificó** 12 pasos (output en terminal con checkboxes).
-3. **Ejecutó en bucle**: editó pom.xml → `./mvnw compile` → fix errors → editó código → `./mvnw test` → fix tests → generó K8s manifests → `kubectl apply --dry-run`.
-4. **Duración total**: 22 minutos. **Coste**: ~$3.50 (Opus 4.7 en ese momento).
-5. **Resultado**: build passed, tests passed (247/247), manifests validados. Tuve que ajustar 2 configs de OpenTelemetry a mano.
+1. **Leyó todo el repo** (pom.xml, más de 40 clases Java, 30 tests, Dockerfile, docker-compose, GitHub Actions). 2 min.
+2. **Planificó** 12 pasos (los muestra en la terminal con casillas).
+3. **Executó en bucle**: editó pom.xml → `./mvnw compile` → corrigió errores → editó código → `./mvnw test` → corrigió tests → generó los manifiestos de K8s → `kubectl apply --dry-run`.
+4. **Duración total**: 22 minutos.
+5. **Resultado**: compilación correcta, los 247 tests en verde y manifiestos validados. Tuve que ajustar a mano dos configuraciones de OpenTelemetry.
 
 **Lo que NO hizo bien**:
-- En un test de integración complejo, mockó mal un `WebClient` y tardó 4 iteraciones en arreglarlo.
-- Generó un `application.yml` con propiedades deprecated de Spring Boot 3.1 (las quitó en siguiente iteración).
-- **No sabe tu lógica de negocio**. Si el algoritmo de pricing tiene un bug de redondeo, no lo pilla salvo que se lo digas.
+- En un test de integración complejo, simuló mal un `WebClient` y tardó cuatro intentos en arreglarlo.
+- Generó un `application.yml` con propiedades que Spring Boot 3.1 ya había marcado como obsoletas (las quitó en la iteración siguiente).
+- **No conoce tu lógica de negocio**. Si el algoritmo de cálculo de precios tiene un fallo de redondeo, no lo pilla salvo que se lo digas.
 
 ---
 
-## Claude Code vs Cursor vs Copilot: mi valoración, sin benchmarks
+## Cómo lo valoro
 
-| Métrica | Claude Code | Cursor | Copilot Agent |
+**Aviso sobre la tabla siguiente:** es mi impresión de un estudiante que ha usado las tres en clase. **No he medido nada con tests automáticos ni con tiempos**, así que tómatela como criterio personal y no como una medición. Si lo que necesitas es un dato duro, aquí no lo tienes.
+
+| Criterio | Claude Code | Cursor | Copilot Agent |
 |---------|-------------|--------|---------------|
-| **Calidad código complejo** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| **Reasoning multi-paso** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| **Control contexto** | ⭐⭐⭐⭐⭐ (lee todo) | ⭐⭐⭐⭐ (índice) | ⭐⭐⭐ (selección) |
-| **Velocidad** | ⭐⭐⭐ (más lento, piensa más) | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Coste predecible** | ⭐ (tokens) | ⭐⭐⭐⭐ (flat) | ⭐⭐⭐ (créditos) |
-| **Integración enterprise** | ⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ |
-| **Extensibilidad (MCP, hooks, SDK)** | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐ |
+| **Calidad en código complejo** | La mejor de las tres para mí | Buena | Irregular |
+| **Razonamiento multi-paso** | La mejor de las tres para mí | Buena | Irregular |
+| **Control del contexto** | Lee todo el repo | Índice | Selección |
+| **Velocidad** | Más lento: piensa antes de escribir | Rápido | El más rápido |
+| **Coste predecible** | El peor: va por tokens | Plano, cuota fija | A créditos |
+| **Integración en empresa** | Pobre | Pobre | La mejor |
+| **Extensibilidad (MCP, hooks, SDK)** | La mejor | Pobre | Pobre |
 
-**Mi valoración tras usar los tres en clase** (esto no es un benchmark: no he medido con tests automáticos, es la impresión de un estudiante con proyectos reales): **Claude Code gana en tareas "senior" (arquitectura, migraciones, debugging profundo, refactors transversales). Cursor gana en el día a día (velocidad, UX, precio plano). Copilot gana en lo que no es código (SSO, licencias, ecosistema de GitHub).**
+**Mi valoración**: **Claude Code gana en tareas "senior" (arquitectura, migraciones, debugging profundo, refactors transversales). Cursor gana en el día a día (velocidad, UX, precio plano). Copilot gana en lo que no es código (licencias, SSO, ecosistema de GitHub).**
 
 ---
 
-## Lo que critico (y confirman otros usuarios)
+## Lo que critico
 
-| Crítica | Realidad |
+| Crítica | Mi lectura |
 |---------|----------|
-| **Coste impredecible / alto** | ✅ Real. Un mes intenso = $200-500. No hay hard cap en Pro/Max. |
-| **Calidad inconsistente** | ✅ A veces brillante, a veces alucina librerías. Requiere supervisión. |
-| **Cambios de condiciones** | ✅ Anthropic mueve a menudo los límites de uso, los modelos disponibles y las condiciones de los planes. Antes de pagar, mira su página de precios y los límites del plan que te toque. |
-| **Solo Claude** | ✅ No puedes usar GPT-5, Grok, Gemini. Si Claude falla en tu stack, no hay fallback. |
-| **Curva de aprendizaje** | ✅ Requiere pensar en "agentes y flujos de trabajo", no en "prompts". |
+| **Coste impredecible / alto** | Real. El gasto va por tokens y sube sin que se note. Si te importa el techo, ponlo tú en la consola antes de empezar. |
+| **Calidad inconsistente** | Real. A veces brillante, a veces se inventa librerías. Hay que supervisar. |
+| **Cambios de condiciones** | Real. Anthropic mueve a menudo los límites de uso, los modelos disponibles y las condiciones de los planes. Antes de pagar, mira su página de precios. |
+| **Solo Claude** | Real. No puedes usar GPT-5, Grok ni Gemini. Si Claude falla con tu stack, no hay plan B. |
+| **Curva de aprendizaje** | Real. Hay que pensar en "agentes y flujos de trabajo", no en "prompts". |
 
 ---
 
@@ -179,19 +181,19 @@ claude "añade health check endpoint en /actuator/health con detalles de BD y Ka
 
 **Sí, si**:
 - Eres senior / lead / arquitecto y haces tareas complejas a diario (migraciones, refactors gordos, debugging de producción).
-- Valoras **MCP nativo, Dynamic Workflows, hooks, Agent SDK** para automatizar tu flujo.
-- Aceptas coste variable por tokens y sabes estimar/controlar uso.
-- Vives en terminal y odias cambiar de ventana.
+- Valoras **MCP nativo, los sub-agentes en paralelo, los hooks y el Agent SDK** para automatizar tu flujo.
+- Aceptas un coste variable por tokens y sabes vigilarlo.
+- Vives en la terminal y odias cambiar de ventana.
 
 **No, si**:
-- Eres estudiante / junior y buscas **autocompletado + chat barato**. Copilot Pro ($10, gratis Student) o Cursor Hobby (gratis) te dan 90% del valor por 10% del coste.
+- Eres estudiante o junior y buscas **autocompletado y chat baratos**. [Copilot Pro](/articulos/reviews/github-copilot-gratis-estudiantes/) (gratis con el Student Pack) o el plan gratuito de Cursor te dan casi todo el valor por una fracción del coste.
 - Necesitas **precio plano mensual** sin sorpresas.
 - Tu stack principal no encaja bien con Claude (ej. mucho C++ legacy, embedded, lenguajes niche donde GPT-5/Grok rinden mejor).
-- Te importa **privacidad/confianza** y los episodios de tracking/leaks te echan para atrás.
+- Te importa la privacidad y prefieres una herramienta donde el código no salga de tu máquina. Ojo: eso descarta Claude Code, porque es un servicio en la nube y no se puede ejecutar en local. Para eso está [Ollama](/articulos/reviews/ollama-modelos-ia-local-review-2026/).
 
-**Mi setup actual**: **Copilot Pro (gratis Student)** para día a día en VS Code. **Claude Code Pro ($20/mes)** para las 2-3 tareas gordas por semana donde la autonomía real me ahorra horas. **Cursor** instalado pero en desuso.
+**Mi setup actual**: **Copilot Pro** (gratis con el Student Pack) para el día a día en VS Code. **Claude Code Pro** para las dos o tres tareas gordas de la semana, donde la autonomía real me ahorra horas. **Cursor** instalado, pero en desuso.
 
-Si tienes $20/mes y curiosidad, **prueba Claude Code una semana**. Si no te cambia el flujo, cancela. Si te lo cambia, ya sabes el coste real.
+Si tienes $20 al mes y curiosidad, **prueba Claude Code una semana**. Si no te cambia el flujo, cancelas. Si te lo cambia, ya sabes lo que cuesta.
 
 Al final, Claude Code me convence por lo que casi nadie destaca: trabaja en silencio, sin ventanas ni rostro. Y eso, para concentrarse, vale su peso en oro.
 

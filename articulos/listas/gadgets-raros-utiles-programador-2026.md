@@ -20,7 +20,7 @@ El más friki de la lista: el [EPOMAKER EK21](https://www.amazon.es/dp/B0FD3FQZH
 
 ## Pizarra de escritura LCD Xiaomi de 13,5 pulgadas: 16,45€
 
-Un papel infinito de verdad: la [pizarra Xiaomi Mi LCD de 13,5 pulgadas](https://www.amazon.es/dp/B08LHLYCWT?tag=codeandia-21). Escribes con el lápiz que incluye, el botón borra todo en un momento, y con el bloqueo de escritura no pierdes el dibujo aunque pulses el botón. La uso para esquemas rápidos de arquitectura, para planear el código del día y para garabatear los diagramas que luego transcribo. No mancha, no gasta folios y cabe en la funda del portátil. Es de esas compras que parecen tontería y que le quitan el 80% de los folios a tu mesa.
+Un papel infinito de verdad: la [pizarra Xiaomi Mi LCD de 13,5 pulgadas](https://www.amazon.es/dp/B08LHLYCWT?tag=codeandia-21). Escribes con el lápiz que incluye, el botón borra todo en un momento, y con el bloqueo de escritura no pierdes el dibujo aunque pulses el botón. La uso para esquemas rápidos de arquitectura, para planear el código del día y para garabatear los diagramas que luego transcribo. No mancha, no gasta folios y cabe en la funda del portátil. Es de esas compras que parecen tontería y que acaban dejando la mesa sin un solo papel a la vista.
 
 ## Tableta de dibujo HUION Inspiroy H640P: 34,73€
 

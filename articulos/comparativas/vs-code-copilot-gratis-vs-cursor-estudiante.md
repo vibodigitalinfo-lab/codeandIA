@@ -4,7 +4,8 @@ title: "VS Code con Copilot gratis vs Cursor: cuál usar estudiando"
 description: "VS Code con Copilot gratis vs Cursor como estudiante: qué cambia de verdad en tu día a día, qué pide cada uno y cuál elegir según tu caso."
 category: "Comparativa"
 date: 2026-09-30
-readtime: 5
+updated: 2026-09-30
+readtime: 6
 last_modified_at: 2026-09-30
 ---
 
@@ -18,7 +19,7 @@ Por un lado tienes **Copilot en VS Code**, que como estudiante es gratis con el 
 
 VS Code es un editor al que la IA se le añade: es el de toda la vida, con una extensión que te completa y te chatea. No se mete con tu forma de trabajar hasta que tú la invocas. Es lo predecible.
 
-Cursor es un editor que nació con la IA dentro: cada atajo, cada panel y cada diálogo están pensados para colaborar con un modelo. Es ideal si quieres que la IA participe desde el minuto cero. La letra pequeña: cada poco actualizan el modo de uso gratuito y amenazan con pedirte dinero si usas la IA a tope.
+Cursor es un editor que nació con la IA dentro: cada atajo, cada panel y cada diálogo están pensados para colaborar con un modelo. Es ideal si quieres que la IA participe desde el minuto cero. La letra pequeña es otra: el plan gratuito tiene límites de uso y los cambian con frecuencia, así que no lo des por seguro para un trimestre entero de prácticas.
 
 ## Qué ganas con cada uno
 
@@ -43,8 +44,14 @@ Cursor es un editor que nació con la IA dentro: cada atajo, cada panel y cada d
 | Quieres mantener tu flujo de VS Code actual | VS Code + Copilot |
 | Empezando a programar y necesitas explicaciones | VS Code + Copilot (y la extensión Continue) |
 | Quieres que la IA escriba más código que tú en prácticas largas | Cursor |
-| Todavía no tienes verificado el Student Pack | VS Code + Cursor (su plan gratuito) |
+| No tienes el Student Pack | VS Code + Copilot en su plan gratuito |
 | Código con datos sensibles | VS Code + modelos locales (Ollama) |
+
+### Y si no tienes el Student Pack
+
+Mucha gente da por hecho que el Copilot gratis viene con el Student Pack y no es así: **también hay un plan gratuito de Copilot** sin nada que verificar, con un límite de peticiones al mes. Para el día a día de unas prácticas va sobrado; cuando te quedes corto, ahí sí entras en la parte de Student Pack.
+
+Los precios y los límites concretos cambian bastante, así que míralos en la [página oficial de Copilot](https://github.com/features/copilot/plans) antes de decidir. Lo que no cambia es el orden: empieza por el plan gratuito y solo paga si has llegado al techo.
 
 ## El riesgo real de aprender con autocompletado
 
@@ -56,7 +63,7 @@ Con Cursor el riesgo es el mismo, pero el chat te obliga a explicar qué quieres
 
 Empieza con **VS Code y Copilot gratis**. Es lo que menos te distrae, lo que ya conoce tu profesor y lo que comparte entorno con el resto de asignaturas. Cuando te sientas cómodo y tengas un proyecto de verdad, pruébate un fin de semana con Cursor y decide con la sensación de haber trabajado en ambos.
 
-El editor importa menos que la constancia: cualquiera de los dos te deja el mismo código volando en el repositorio. Si quieres más herramientas gratuitas alrededor, en mi [lista de extensiones de VS Code con IA gratis](/articulos/listas/extensiones-vs-code-ia-gratis-programar/) tienes el resto del ecosistema.
+El editor importa menos que la constancia: los dos te guardan el código igual de bien en el repositorio. Lo que de verdad te va a separar del aprobado es el criterio con el que aceptas lo que te generan, y eso no depende del editor. Si quieres más herramientas gratuitas alrededor, en mi [lista de extensiones de VS Code con IA gratis](/articulos/listas/extensiones-vs-code-ia-gratis-programar/) tienes el resto del ecosistema. Y si lo que te preocupa es justo delegar el pensar, en [aprender a programar con IA sin volverte dependiente](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/) están las cinco reglas que aplico en ambos.
 
 ## Sigue por aquí
 
