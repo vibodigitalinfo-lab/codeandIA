@@ -3,6 +3,7 @@ layout: default
 title: "Sobre mí"
 description: "Soy Iván, estudiante de Desarrollo de Aplicaciones Web. Escribo reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y con precios reales en España."
 permalink: /sobre-mi/
+last_modified_at: 2026-09-30
 ---
 
 <section class="section section-alt">

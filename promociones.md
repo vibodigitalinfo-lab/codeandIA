@@ -3,6 +3,7 @@ layout: default
 title: "Ofertas para programadores"
 description: "Las mejores ofertas y descuentos para programadores y estudiantes de DAW: Black Friday, Navidad y ofertas especiales."
 permalink: /ofertas/
+last_modified_at: 2026-09-30
 ---
 
 <div class="container">

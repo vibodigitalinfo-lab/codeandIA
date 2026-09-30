@@ -3,6 +3,7 @@ layout: default
 title: "Cómo trabajamos con IA"
 description: "En codeandIA uso herramientas de IA como asistentes de escritura y de búsqueda, pero cada artículo pasa por revisión humana. Esto es lo que hace la IA y lo que hago yo."
 permalink: /como-trabajamos/
+last_modified_at: 2026-09-30
 ---
 
 <section class="section section-alt">
