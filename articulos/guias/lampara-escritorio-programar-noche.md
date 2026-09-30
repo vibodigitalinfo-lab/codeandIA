@@ -3,12 +3,13 @@ layout: article
 title: "Lámpara de escritorio para programar: la que de verdad va bien"
 description: "Cómo elegir lámpara de escritorio para programar por la noche: temperatura de color, brillo y la opción barata que uso, con precio real en Amazon."
 category: "Guía"
+tema: hardware
 date: 2026-09-19
 readtime: 5
 affiliate_text: "La lámpara LED de flexo es la que uso para programar de noche: 3 temperaturas y brillo regulable por 21,98€"
 affiliate_url: "https://www.amazon.es/dp/B0D8PY8CRD?tag=codeandia-21"
 affiliate_label: "Ver la lámpara en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 Programar a oscuras es peor de lo que parece. No hablo de no ver las teclas: hablo de que el contraste entre una pantalla muy clara y una habitación a oscuras hace trabajar a la pupila de más, y al final de una tarde de prácticas se nota en picor y en el dolor de cabeza. Lo aprendí con la metodología del error: estuve tres meses con la habitación a oscuras, convencido de que "total, la pantalla ilumina".

@@ -3,6 +3,7 @@ layout: article
 title: "Alfombrilla XXL para programar: la que de verdad descansa tu muñeca"
 description: "Alfombrillas XXL para programar que cubren teclado y ratón con precios reales en Amazon: Sidorenko y Retoo, y por qué el tamaño grande importa."
 category: "Lista"
+tema: hardware
 date: 2026-09-23
 readtime: 5
 affiliate_text: "Consigue la alfombrilla XXL Sidorenko 900x400 en Amazon"

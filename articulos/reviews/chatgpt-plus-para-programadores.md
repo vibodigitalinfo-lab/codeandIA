@@ -8,9 +8,13 @@ readtime: 4
 affiliate_text: "Prueba ChatGPT Plus un mes y decide tú mismo"
 affiliate_url: "https://chatgpt.com/upgrade"
 affiliate_label: "Probar ChatGPT Plus"
+updated: 2026-09-30
+last_modified_at: 2026-09-30
 ---
 
 Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho tiempo me resistí a pagar. Me parecía una locura soltar 20€ al mes siendo estudiante, con la versión gratuita ahí disponible. Pero llegó un momento en el que el límite de mensajes me cortaba justo cuando estaba depurando un error, o me quedaba sin acceso a GPT-4o en los peores momentos. Así que me lo planteé con método: ¿ChatGPT Plus para programadores realmente cambia algo, o es marketing?
+
+**Actualización (30/09/2026):** este artículo es de junio. Cuando lo escribí, Plus servía GPT-4o; desde entonces ha salido una generación nueva y la comparo en [GPT-5 vs Claude para programar](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/). Lo que sigue vigente de esta review es lo que no depende del modelo: el corte del límite de mensajes, el contexto largo y cuándo compensa pagar.
 
 ## Lo que de verdad cambió cuando me pasé a Plus
 

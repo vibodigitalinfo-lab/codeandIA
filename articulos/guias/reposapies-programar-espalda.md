@@ -3,12 +3,13 @@ layout: article
 title: "Reposapiés para programar: lo que más alivia la espalda"
 description: "Por qué un reposapiés mejora tu postura al programar y cuál elegir: regulable, antideslizante y barato, con precio real en Amazon España."
 category: "Guía"
+tema: hardware
 date: 2026-09-20
 readtime: 5
 affiliate_text: "El reposapiés ajustable MAGIC SELECT es el que uso: altura y inclinación regulables por 19,85€"
 affiliate_url: "https://www.amazon.es/dp/B0FJ8G5SDV?tag=codeandia-21"
 affiliate_label: "Ver el reposapiés en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 El accesorio más ridículo que vi en una lista de "productividad" era un reposapiés. Pensé: "¿en serio, para eso pagas?" Y luego resultó que era de las pocas cosas de esa lista que sí funcionan. No te voy a vender que es mágico, pero hay una razón física de por qué un reposapiés te alivia la espalda, y tiene que ver con cómo te sientas cuando programa, no con estética.

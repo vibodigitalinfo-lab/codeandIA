@@ -3,12 +3,13 @@ layout: article
 title: "Power bank para programar: cargar sin cables sueltos"
 description: "Power banks con cable USB-C integrado para sobrevivir el día fuera de casa: Anker con 30W por 19,99€ y INIU con 45W. Precios reales."
 category: "Lista"
+tema: hardware
 date: 2026-09-25
 readtime: 4
 affiliate_text: "El power bank Anker Zolo de 10000 mAh con 30W y cable USB-C integrado, por 19,99€"
 affiliate_url: "https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21"
 affiliate_label: "Ver el power bank en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 El aula donde estudio tiene enchufes solo en la mitad de los asientos. Por la tarde, la batería del portátil lleva dos horas encendida y el que se sienta en el lado malo pierde. El arreglo que uso es un power bank con cable integrado: no es un capricho, es lo que te permite aguantar el día fuera de casa sin llevar un cargador y un cable sueltos rebotando en la mochila.

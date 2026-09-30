@@ -5,7 +5,7 @@ description: "Cinco extensiones de VS Code con IA gratis para programar y estudi
 category: "Lista"
 date: 2026-09-28
 readtime: 4
-affiliate_text: "Mira el portátil con 16 GB que te recomiendo en la guía"
+affiliate_text: "Para los modelos locales que cuento arriba, lo que te frena es la RAM: este es el portátil con 16 GB que uso"
 affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-09-30

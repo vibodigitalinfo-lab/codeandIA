@@ -3,6 +3,7 @@ layout: article
 title: "Portátil para programar con IA: 16 GB o 32 GB de RAM"
 description: "Por qué la memoria es la característica que decide si un portátil aguanta dos años de desarrollo, y qué ocurre de verdad cuando te quedas sin ella."
 category: "Comparativa"
+tema: hardware
 date: 2026-09-03
 readtime: 7
 affiliate_text: "Mira el portátil con 16 GB que te recomiendo en la guía"

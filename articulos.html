@@ -3,6 +3,7 @@ layout: default
 title: "Todos los artículos"
 description: "Explora todos los artículos de codeandIA: reviews, comparativas, guías y listas de herramientas de IA para desarrolladores. Filtra por categoría, busca por palabra clave."
 permalink: /articulos/
+last_modified_at: 2026-09-30
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
@@ -18,8 +19,8 @@ permalink: /articulos/
     <!-- Pillar pages -->
     <div class="pillar-links">
       <a href="{{ "/guias/" | relative_url }}" class="pillar-link">
-        <strong>Guías de IA para programar</strong>
-        <span>{% assign _g = site.pages | where: "category", "Guía" | where_exp: "p", "p.layout != 'redirect'" | size %}{{ _g }} guías paso a paso</span>
+        <strong>Guías paso a paso</strong>
+        <span>{% assign _g = site.pages | where: "category", "Guía" | where_exp: "p", "p.layout != 'redirect'" | size %}{{ _g }} guías de IA, hardware y flujo de trabajo</span>
       </a>
       <a href="{{ "/comparativas/" | relative_url }}" class="pillar-link">
         <strong>Comparativas</strong>

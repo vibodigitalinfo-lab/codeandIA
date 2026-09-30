@@ -3,6 +3,7 @@ layout: article
 title: "Monta tu puesto de estudio de DAW con poco dinero"
 description: "Monta tu puesto de estudio de DAW con poco dinero y sin caos: alfombrilla XXL, hub USB-C, monitor y silla, en el orden de compra correcto."
 category: "Guía"
+tema: hardware
 date: 2026-09-27
 readtime: 4
 affiliate_text: "Consigue la silla SIHOO M18 en Amazon con el precio comprobado"

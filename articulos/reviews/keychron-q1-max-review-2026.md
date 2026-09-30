@@ -3,12 +3,13 @@ layout: article
 title: "Keychron Q1 Max review: ¿el mejor teclado mecánico para programar?"
 description: "Análisis a fondo del Keychron Q1 Max: gasket mount, switches, conectividad inalámbrica y si merece la pena frente a alternativas más baratas en 2026."
 category: "Review"
+tema: hardware
 date: 2026-07-23
 readtime: 6
 affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está disponible en Amazon.es, por unos 136€"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver el V1 Max en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 Llevo meses tirándole indirectas a mi setup. Primero fue el [monitor ultrawide](/articulos/guias/como-elegir-monitor-programar-2026/), después el [ratón ergonómico](/articulos/listas/raton-ergonomico-programadores/), y ahora toca el teclado. Porque programar 8 horas con un teclado de oficina de 20 euros no es sostenible, os lo digo por experiencia.

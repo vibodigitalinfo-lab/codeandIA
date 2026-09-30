@@ -5,9 +5,6 @@ description: "VS Code con Copilot gratis vs Cursor como estudiante: qué cambia 
 category: "Comparativa"
 date: 2026-09-30
 readtime: 5
-affiliate_text: "Si la IA te convence, mira el portátil con 16 GB que uso en la guía"
-affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
-affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-09-30
 ---
 

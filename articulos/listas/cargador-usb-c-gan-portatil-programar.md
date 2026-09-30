@@ -3,6 +3,7 @@ layout: article
 title: "Cargador USB-C GaN de 65W para programar sin el ladrillo original"
 description: "Un cargador USB-C GaN de 65W cabe en la mochila y carga portátil, móvil y tablet a la vez. Dos opciones con precio real en Amazon para programar."
 category: "Lista"
+tema: hardware
 date: 2026-09-24
 readtime: 3
 affiliate_text: "Consigue el cargador UGREEN Nexode 65W con tres puertos en Amazon"

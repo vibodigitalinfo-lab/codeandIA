@@ -78,6 +78,26 @@
     - path: "/articulos/guias/regex-con-ia-guia-daw-2026/"
       nota: "Validar formularios y limpiar datos sin pelearte con los patrones."
 
+- id: publicar-y-pagar
+  titulo: "Publicar en internet sin arruinarte"
+  nivel: "Intermedio"
+  resumen: "Dominio, hosting y despliegue: lo mínimo para que tu proyecto exista fuera de tu ordenador."
+  pasos:
+    - path: "/articulos/guias/que-dominio-comprar-primer-proyecto-web/"
+      nota: "Dónde comprar el dominio y qué mirar."
+    - path: "/articulos/guias/como-publicar-primera-web-internet-barato-ia/"
+      nota: "Publicar barato y que aguante."
+    - path: "/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/"
+      nota: "Hosting con precio o alojamiento gratuito."
+    - path: "/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/"
+      nota: "Las tres opciones de despliegue automático."
+    - path: "/articulos/guias/git-con-ia-2026/"
+      nota: "Git bien montado evita casi todo desastre."
+    - path: "/articulos/guias/github-actions-estudiantes-daw/"
+      nota: "Desplegar sin tocar el servidor a mano."
+    - path: "/articulos/guias/docker-para-daw-con-ia-2026/"
+      nota: "Que funcione en tu máquina y en la de los demás."
+
 - id: codigo-calidad
   titulo: "Que el código no se rompa"
   nivel: "Avanzado"

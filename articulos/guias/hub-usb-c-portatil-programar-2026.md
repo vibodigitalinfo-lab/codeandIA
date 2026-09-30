@@ -3,12 +3,13 @@ layout: article
 title: "Cómo elegir un hub USB-C para programar"
 description: "El portátil se queda corto de puertos. Te explico qué mirar en un hub USB-C (HDMI, PD, velocidad) y cuál elegir según tu caso, con precios reales."
 category: "Guía"
+tema: hardware
 date: 2026-09-26
 readtime: 4
 affiliate_text: "El hub NOVOO de 7 puertos con HDMI y carga de 100W, por 26,99€, el que uso"
 affiliate_url: "https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21"
 affiliate_label: "Ver el hub en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 Los portátiles modernos han ganado en ligereza y batería a costa de los puertos. En el que usamos en clase quedan dos conectores USB-C: uno lo ocupa el cargador y el otro se va turnando entre el teclado, el ratón y un disco duro. La solución no es cambiar de portátil, es comprar un hub USB-C.

@@ -3,12 +3,13 @@ layout: article
 title: "Soporte para portátil: cuál comprar para programar"
 description: "El portátil te deja la pantalla a media altura. Te explico qué buscar en un soporte y mi elección para estudiante, con precio real en Amazon España."
 category: "Guía"
+tema: hardware
 date: 2026-09-21
 readtime: 4
 affiliate_text: "El soporte UGREEN de aluminio con 5 alturas y bolsita de transporte, por 23,99€"
 affiliate_url: "https://www.amazon.es/dp/B08TLVKBMJ?tag=codeandia-21"
 affiliate_label: "Ver el soporte en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 La primera regla de la postura cuando programas es que la pantalla quede cerca de la altura de los ojos. Y la regla que casi todo el mundo viola es que el portátil, él solo, no puede cumplirla: su pantalla queda tan baja que miras desde arriba y acabas doblando el cuello hacia delante. Si la pantalla principal es la del propio portátil, el apaño es un soporte.

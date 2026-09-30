@@ -3,6 +3,7 @@ layout: article
 title: "Ratón ergonómico para programadores: adiós al dolor de muñeca"
 description: "Los mejores ratones ergonómicos para programar: Logitech MX Master, ratones verticales y opciones baratas para evitar dolor de muñeca."
 category: "Lista"
+tema: hardware
 date: 2026-05-28
 readtime: 10
 affiliate_text: "Consigue el Logitech MX Master 3S en Amazon"

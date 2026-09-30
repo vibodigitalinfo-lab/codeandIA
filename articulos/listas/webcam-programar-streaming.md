@@ -3,12 +3,13 @@ layout: article
 title: "Webcam para programar y hacer streaming de código en 2026"
 description: "Las mejores webcams para programar y hacer streaming de código: Logitech, Elgato y Razer con precios reales en España."
 category: "Lista"
+tema: hardware
 date: 2026-05-26
 readtime: 9
 affiliate_text: "Consigue la Logitech C920s Pro HD con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 Hace un mes hice mi primera sesión de pair programming en directo con un compañero de DAW. Me conecté por Discord, compartí pantalla y activé la webcam. Se veía todo borroso. Mi cara estaba oscura, el fondo iluminado y el texto de VS Code apenas se distinguía. Me pasé media hora ajustando foco y luz en vez de programar.

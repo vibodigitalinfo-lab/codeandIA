@@ -1,5 +1,6 @@
 ---
 layout: default
+last_modified_at: 2026-09-30
 ---
 
 <script type="application/ld+json">
@@ -133,7 +134,7 @@ layout: default
       <button class="share-btn" type="button" id="copy-link" data-url="{{ page.url | absolute_url }}">Copiar enlace</button>
     </div>
 
-    {% assign todos_art = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.url != page.url" | sort: "date" %}
+    {% assign todos_art = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.url != page.url" | sort: "date" %}
     {% assign anterior = false %}
     {% assign siguiente = false %}
     {% assign ya_siguiente = false %}
@@ -187,9 +188,20 @@ layout: default
       encima en post-nav, asi que sin este filtro se veia el mismo articulo
       dos veces seguidas en la misma pantalla.
     {% endcomment %}
-    {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.url != anterior.url" | where_exp: "p", "p.url != siguiente.url" %}
-    {% assign mismos = otros | where: "category", page.category | sort: "date" | reverse %}
-    {% assign distintos = otros | where_exp: "p", "p.category != page.category" | sort: "date" | reverse %}
+    {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.url != anterior.url" | where_exp: "p", "p.url != siguiente.url" %}
+    {% comment %}
+      Los articulos de hardware llevan `tema: hardware` en el frontmatter. Si el
+      articulo actual es de hardware, "Sigue leyendo" se queda dentro del
+      hardware; si no, lo saca. Asi una guia de depuracion no termina
+      recomendando un hub USB-C.
+    {% endcomment %}
+    {% if page.tema == "hardware" %}
+      {% assign candidatos = otros | where_exp: "p", "p.tema == 'hardware'" %}
+    {% else %}
+      {% assign candidatos = otros | where_exp: "p", "p.tema != 'hardware'" %}
+    {% endif %}
+    {% assign mismos = candidatos | where: "category", page.category | sort: "date" | reverse %}
+    {% assign distintos = candidatos | where_exp: "p", "p.category != page.category" | sort: "date" | reverse %}
     {% assign relacionados = mismos | concat: distintos %}
     {% if relacionados.size > 0 %}
     <aside class="related">

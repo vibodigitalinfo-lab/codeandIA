@@ -3,6 +3,7 @@ layout: article
 title: "Cómo elegir monitor para programar sin gastar 400€"
 description: "Resolución, tamaño, panel y conexiones explicados sin rodeos, con precios reales de Amazon España para que elijas el monitor que te toca."
 category: "Guía"
+tema: hardware
 date: 2026-09-06
 readtime: 8
 affiliate_text: "Mira el Xiaomi G34WQi, mi recomendación para el ultrawide"

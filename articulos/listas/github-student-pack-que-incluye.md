@@ -5,9 +5,6 @@ description: "Qué herramientas te da GitHub gratis por ser estudiante, cuáles 
 category: "Lista"
 date: 2026-09-07
 readtime: 6
-affiliate_text: "Mira el portátil que uso para DAW, con 16 GB de RAM"
-affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
-affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-09-30
 ---
 

@@ -3,6 +3,7 @@ layout: article
 title: "Los 5 mejores teclados mecánicos para programar en 2026"
 description: "Comparo los mejores teclados mecánicos para programar: Keychron, Logitech y opciones baratas con precios reales en España."
 category: "Lista"
+tema: hardware
 date: 2026-05-30
 readtime: 9
 affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"

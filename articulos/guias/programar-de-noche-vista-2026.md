@@ -3,8 +3,10 @@ layout: article
 title: "Programar de noche sin romperte la vista: lo que funciona"
 description: "Las gafas de luz azul no previenen la fatiga visual: lo dicen la Cochrane y la Sociedad Española de Oftalmología. Te cuento qué funciona al programar de noche."
 category: "Guía"
+tema: hardware
 date: 2026-09-08
 readtime: 7
+last_modified_at: 2026-09-30
 ---
 
 Me gasté 30 euros en unas gafas con filtro de luz azul porque me dolía la cabeza al final de una tarde de prácticas. El envase prometía «protección digital». Llevo un mes usándolas y la verdad es que el dolor de cabeza sigue apareciendo igual. Resultó que no era culpa de mi pantalla, sino de la evidencia: la fatiga visual digital existe, es real y es muy común, pero las gafas de luz azul no la previenen. Lo cuento porque me costó el dinero y porque es la clase de mito que se vende en todas partes.

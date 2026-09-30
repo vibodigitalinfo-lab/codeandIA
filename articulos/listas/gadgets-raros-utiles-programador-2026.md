@@ -3,12 +3,13 @@ layout: article
 title: "Gadgets raros para programar que de verdad uso"
 description: "Gadgets frikis que parecen un capricho y no lo son: teclado numérico programable, pizarra LCD, tableta de dibujo y un cubo. Con precios reales."
 category: "Lista"
+tema: hardware
 date: 2026-09-29
 readtime: 4
 affiliate_text: "El teclado numérico programable EPOMAKER EK21 con perilla y macros, por 43,99€"
 affiliate_url: "https://www.amazon.es/dp/B0FD3FQZHN?tag=codeandia-21"
 affiliate_label: "Ver el teclado numérico en Amazon"
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 ---
 
 Como todo friki del software, he comprado objetos que en la oficina parecían inútiles y que luego resultaron ser exactamente lo que necesitaba. De toda esa colección, hay cuatro que sigo usando a los meses, y no porque sean raros, sino porque cada uno corta un hábito feo del día a día. Van con el precio real que tienen hoy en Amazon España.

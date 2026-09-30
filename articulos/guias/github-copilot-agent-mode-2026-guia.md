@@ -8,6 +8,7 @@ readtime: 9
 affiliate_text: "Activa Copilot Pro y prueba Agent Mode en VS Code hoy"
 affiliate_url: "https://github.com/features/copilot/plans"
 affiliate_label: "Ver planes Copilot"
+last_modified_at: 2026-09-30
 ---
 
 Hasta abril 2025, GitHub Copilot era "autocompletado en esteroides" (modo Chat) o "edita varios archivos si se los seleccionas" (modo Edit). **Agent Mode cambió las reglas**: ahora Copilot **planifica, edita múltiples archivos, ejecuta comandos en terminal, ve los errores, y se corrige solo en bucle** hasta que la tarea funciona.
@@ -125,7 +126,7 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 | **Precio base** | $10/mes (Pro) | $20/mes (Pro) | $20/mes (Pro) |
 | **Mejor para** | Usuarios VS Code, empresas, GitHub ecosystem | Devs que quieren IDE IA-first | Seniors, terminal-first, flujos de trabajo complejos |
 
-**Benchmarks comunidad (2026 H1)**: Cursor y Claude Code **superan a Copilot** en calidad de código, reasoning, y completitud de tareas complejas. Copilot gana en **integración enterprise (SSO, IP indemnity, Knowledge Bases)** y **ecosistema GitHub nativo**.
+**Mi impresión tras probarlos en el mismo proyecto** (nada de benchmarks ajenos: es mi experiencia, y en tareas nuevas puede cambiar): Cursor y Claude Code **me dan mejor código que Copilot** en calidad, razonamiento y en terminar tareas complejas de principio a fin. Copilot gana en **integración con GitHub (SSO, licencias, Knowledge Bases)** y en **vivir dentro de VS Code, que es el editor de clase**.
 
 ---
 

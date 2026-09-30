@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Guías de herramientas de IA para programar"
-description: "Guías paso a paso de herramientas de IA para programar: ChatGPT, Claude Code, Cursor, Copilot y más. Explicadas con ejemplos para estudiantes de DAW."
+title: "Guías de IA y hardware para programar (paso a paso)"
+description: "Guías paso a paso para programar con IA y montar tu equipo: ChatGPT, Claude Code, Cursor, Copilot, monitores y teclados, explicadas para estudiantes de DAW."
 permalink: /guias/
+last_modified_at: 2026-09-30
 ---
 
 {% assign guias = site.pages | where: "category", "Guía" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
@@ -24,10 +25,10 @@ permalink: /guias/
       <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Guías</span>
     </nav>
     <header class="articles-hero">
-      <h1 class="hero-title">Guías de IA para programar</h1>
-      <p>{{ guias.size }} guías paso a paso · herramientas explicadas desde cero, con ejemplos y sin humo</p>
+      <h1 class="hero-title">Guías de IA y hardware para programar</h1>
+      <p>{{ guias.size }} guías paso a paso · herramientas y equipo explicados desde cero, con ejemplos y sin humo</p>
     </header>
-    <p class="section-intro">Guías prácticas para aprender a programar con IA y sacarle partido a herramientas como ChatGPT, Claude Code, Cursor o GitHub Copilot. Cada una explica el cómo con ejemplos concretos, pensada para quien está aprendiendo a programar.</p>
+    <p class="section-intro">Guías prácticas para aprender a programar con IA y para montar el equipo donde lo haces: ChatGPT, Claude Code, Cursor o GitHub Copilot, y también monitores, teclados o el escritorio. Cada una explica el cómo con ejemplos concretos, pensada para quien está aprendiendo a programar.</p>
   </div>
 </section>
 

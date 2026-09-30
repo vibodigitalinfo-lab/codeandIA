@@ -3,6 +3,7 @@ layout: default
 title: "Reviews de herramientas de IA para programar"
 description: "Reviews honestas de herramientas de IA para programar: Cursor, Copilot, ChatGPT y Claude Code. Probadas a mano, con precios reales y también lo que falla."
 permalink: /reviews/
+last_modified_at: 2026-09-30
 ---
 
 {% assign reviews = site.pages | where: "category", "Review" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
@@ -25,9 +26,9 @@ permalink: /reviews/
     </nav>
     <header class="articles-hero">
       <h1 class="hero-title">Reviews de IA para programar</h1>
-      <p>{{ reviews.size }} herramientas analizadas a fondo · usadas en proyectos reales, con precios de España</p>
+      <p>{{ reviews.size }} herramientas probadas y contadas en primera persona · usadas en proyectos reales, con precios de España</p>
     </header>
-    <p class="section-intro">Analizo cada herramienta durante semanas en proyectos reales de clase y personales: cuánto cuesta de verdad, qué hace bien, dónde falla y si merece la pena para quien está aprendiendo a programar. Sin reviews pagadas.</p>
+    <p class="section-intro">Pruebo cada herramienta yo mismo, en proyectos de clase o personales, antes de escribir sobre ella: cuánto cuesta de verdad, qué hace bien, dónde falla y si merece la pena para quien está aprendiendo a programar. Cuando la review es a fondo lo digo; cuando son primeras impresiones, también. Sin reviews pagadas.</p>
   </div>
 </section>
 

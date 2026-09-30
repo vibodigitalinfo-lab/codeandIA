@@ -3,13 +3,14 @@ layout: article
 title: "Silla ergonómica barata para programar desde casa (desde 135€)"
 description: "Las mejores sillas ergonómicas baratas para programar: IKEA Markus, SIHOO, Amazon Basics y más con precios reales."
 category: "Lista"
+tema: hardware
 date: 2026-05-27
 readtime: 10
 affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 updated: 2026-09-29
-last_modified_at: 2026-09-29
+last_modified_at: 2026-09-30
 picks:
   - name: "SIHOO Doro C300"
     price: "294,49€"

@@ -60,9 +60,11 @@ Gestión multi-sesión: ves todas tus sesiones activas, su estado, coste en toke
 
 ---
 
-## Pricing real (septiembre 2026) — el elefante en la habitación
+## Pricing real (precios de junio de 2026) — el elefante en la habitación
 
 Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as-you-go** (consola Anthropic) o planes Pro/Max/Team que incluyen "uso moderado/alto" de Claude Code.
+
+**Aviso de fecha:** los números de esta sección son los que Anthropic tenía publicados cuando escribí la review (junio de 2026). Precios y límites de uso son lo que antes se queda viejo en este sector, así que míralos en su web antes de pagar.
 
 **Ojo con la moneda:** Anthropic factura en dólares (USD). Las cifras de abajo son las oficiales de su web; al pagar desde España se aplica el cambio del día y los impuestos, así que el cargo en euros sale algo distinto. Comprueba el precio en su página antes de suscribirte.
 
@@ -113,7 +115,7 @@ Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as
 
 ---
 
-## Claude Code vs Cursor vs Copilot: benchmarks comunidad 2026 H1
+## Claude Code vs Cursor vs Copilot: mi valoración, sin benchmarks
 
 | Métrica | Claude Code | Cursor | Copilot Agent |
 |---------|-------------|--------|---------------|
@@ -125,11 +127,11 @@ Claude Code **no tiene precio fijo mensual por uso ilimitado**. Usa **API pay-as
 | **Integración enterprise** | ⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ |
 | **Extensibilidad (MCP, hooks, SDK)** | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐ |
 
-**Consenso Reddit/HN 2026**: **Claude Code gana en tareas "senior" (arquitectura, migraciones, debugging profundo, refactors transversales). Cursor gana en día a día (velocidad, UX, precio plano). Copilot gana en enterprise (SSO, IP indemnity, Knowledge Bases, ecosistema GitHub).**
+**Mi valoración tras usar los tres en clase** (esto no es un benchmark: no he medido con tests automáticos, es la impresión de un estudiante con proyectos reales): **Claude Code gana en tareas "senior" (arquitectura, migraciones, debugging profundo, refactors transversales). Cursor gana en el día a día (velocidad, UX, precio plano). Copilot gana en lo que no es código (SSO, licencias, ecosistema de GitHub).**
 
 ---
 
-## Lo que la comunidad critica (y yo confirmo)
+## Lo que critico (y confirman otros usuarios)
 
 | Crítica | Realidad |
 |---------|----------|

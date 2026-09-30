@@ -17,8 +17,9 @@ así que se indexa en esta lista en vez de usar %b.
 <section class="ofertas-hero">
   <h1>Ofertas para programadores</h1>
   <p>Precios de catálogo comprobados a mano en la página del vendedor el <strong>30 de septiembre de 2026</strong>. Aquí no verás descuentos inventados ni precios tachados: si algo está rebajado de verdad, lo pongo; si no, lo dejo con su precio real.</p>
-  <p class="ofertas-hero-note">Cuando un precio ha subido respecto a lo que publicaba antes, lo corrijo en vez de dejarlo. Los desgloses de cada festividad están más abajo.</p>
 </section>
+
+{% include affiliate-disclosure.html %}
 
 <section class="ofertas-section" id="setup">
   <h2>Tu setup, pieza a pieza</h2>
@@ -352,7 +353,7 @@ así que se indexa en esta lista en vez de usar %b.
 
 <section class="ofertas-section" id="festividades">
   <h2>Festividades: cuándo comprar y cuánto esperar</h2>
-  <p>Black Friday y Navidad concentran los descuentos de todo el año en el mismo mes, y también el mayor número de precios inflados. Te digo qué se prepara para cada fecha y qué no merece la pena esperar.</p>
+  <p>Black Friday y Navidad concentran los descuentos de todo el año en el mismo mes, y también el mayor número de precios inflados. Te digo qué se prepara para cada fecha y qué no merece la pena esperar. Las piezas se escriben por adelantado y se publican el día que marca cada tarjeta, con los precios comprobados ese mismo día: por eso las que aún no han salido aparecen sin enlace.</p>
 
   <div class="fest-grid">
     {% assign hoy = site.time | date: "%Y-%m-%d" %}
@@ -370,7 +371,7 @@ así que se indexa en esta lista en vez de usar %b.
       {% if ya_live %}
       <a href="{{ c.url | relative_url }}" class="affiliate-btn">Leer la guía →</a>
       {% else %}
-      <p class="fest-waiting" data-cuenta="{{ fecha }}">Disponible el {{ c.fecha_texto }}.</p>
+      <p class="fest-waiting" data-cuenta="{{ fecha }}">Se publica el {{ c.fecha_texto }}. Ese día compruebo los precios y se activa el enlace.</p>
       {% endif %}
     </div>
     {% endfor %}
@@ -397,7 +398,7 @@ así que se indexa en esta lista en vez de usar %b.
       <a href="{{ article.url | relative_url }}" class="oferta-card">
         <div class="oferta-meta">
           <span class="oferta-category">{{ article.category }}</span>
-          <span class="oferta-date">{{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
+          <span class="oferta-date">Guía del {{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
         </div>
         <h3>{{ article.title }}</h3>
         <p class="oferta-excerpt">{{ article.description }}</p>
@@ -413,7 +414,7 @@ así que se indexa en esta lista en vez de usar %b.
       <a href="{{ article.url | relative_url }}" class="oferta-card">
         <div class="oferta-meta">
           <span class="oferta-category">{{ article.category }}</span>
-          <span class="oferta-date">{{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
+          <span class="oferta-date">Guía del {{ article.date | date: "%d" | plus: 0 }} de {{ meses_es[am] }} de {{ article.date | date: "%Y" }}</span>
         </div>
         <h3>{{ article.title }}</h3>
         <p class="oferta-excerpt">{{ article.description }}</p>

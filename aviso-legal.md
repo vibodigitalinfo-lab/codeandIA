@@ -27,7 +27,7 @@ El autor participa en programas de afiliación de empresas como proveedores de h
 
 ### Programa de Afiliados de Amazon
 
-Como Asociado de Amazon, gano ingresos por las compras adscritas que cumplen los requisitos aplicables.
+Como Asociado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.
 
 Los precios de los productos que aparecen en los artículos y en la página de ofertas se comprueban a mano y llevan la fecha en la que se verificaron. Amazon puede cambiarlos en cualquier momento: **el precio válido es siempre el que figura en la ficha del producto en Amazon** en el momento de la compra, no el que aparece en este blog.
 
