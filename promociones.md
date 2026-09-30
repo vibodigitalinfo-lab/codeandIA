@@ -15,7 +15,7 @@ así que se indexa en esta lista en vez de usar %b.
 
 <section class="ofertas-hero">
   <h1>Ofertas para programadores</h1>
-  <p>Descuentos reales en herramientas y productos que uso. Precios comprobados en la página del vendedor el <strong>27 de septiembre de 2026</strong>.</p>
+  <p>Descuentos reales en herramientas y productos que uso. Precios comprobados en la página del vendedor el <strong>30 de septiembre de 2026</strong>.</p>
   <p class="ofertas-hero-note">Cuando un precio ha subido respecto a lo que publicaba antes, lo corrijo en vez de dejarlo. Los desgloses de cada festividad están más abajo.</p>
 </section>
 
@@ -201,7 +201,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Ratón</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech MX Master 3S — 81,20€ en Amazon</h3>
+      <h3>Logitech MX Master 3S — 99,99€ en Amazon</h3>
       <p class="oferta-excerpt">Ratón ergonómico flagship: MagSpeed scroll, 8000 DPI, sobre cristal, clics discretos, multi-dispositivo (3), 70 días batería, carga rápida USB-C.</p>
       <a href="https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -211,7 +211,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Monitor</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Xiaomi G34WQi 34" Curvo — 249,00€ en Amazon</h3>
+      <h3>Xiaomi G34WQi 34" Curvo — 239,00€ en Amazon</h3>
       <p class="oferta-excerpt">Monitor 34" UltraWide VA de 3440x1440, 180Hz y ajuste de altura. La misma resolución que el LG por menos de la mitad de precio: es mi ultrawide recomendado ahora mismo.</p>
       <a href="https://www.amazon.es/dp/B0D1HQK5G5?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -231,7 +231,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Auriculares</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Soundcore Q20i — 35,99€ en Amazon</h3>
+      <h3>Soundcore Q20i — 29,99€ en Amazon</h3>
       <p class="oferta-excerpt">Auriculares Bluetooth con cancelación de ruido híbrida, Hi-Res y 40 horas de batería. Con ruido de casa al lado, es lo que más concentra del setup.</p>
       <a href="https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -251,7 +251,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Silla</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>SIHOO M18 — 199,99€ en Amazon</h3>
+      <h3>SIHOO M18 — 182,39€ en Amazon</h3>
       <p class="oferta-excerpt">Silla ergonómica con soporte lumbar ajustable, malla transpirable, reposacabezas y reposabrazos 2D. La mejor relación ergonomía-precio de la lista, y por debajo de los 200€ con todo montado.</p>
       <a href="https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -271,7 +271,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Ratón</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>Logitech Lift Vertical — 49,99€ en Amazon</h3>
+      <h3>Logitech Lift Vertical — 49,95€ en Amazon</h3>
       <p class="oferta-excerpt">Ratón vertical ergonómico, inalámbrico Bluetooth/Logi Bolt, clics silenciosos, 4 botones. Reduce la tensión en la muñeca para sesiones largas de código.</p>
       <a href="https://www.amazon.es/dp/B07W4DGC27?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
@@ -301,7 +301,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-category">Setup</span>
         <span class="oferta-date">Septiembre 2026</span>
       </div>
-      <h3>HUANUO Soporte Monitor Doble (13-32", 9kg) — 35,99€ en Amazon</h3>
+      <h3>HUANUO Soporte Monitor Doble (13-32", 9kg) — 34,99€ en Amazon</h3>
       <p class="oferta-excerpt">Brazo dual reforzado, soporta 9kg por brazo. Gestión de cables integrada, rotación 360°, VESA 75/100. Para monitores pesados o ultrawide.</p>
       <a href="https://www.amazon.es/dp/B0GK6DT5SF?tag=codeandia-21" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Ver en Amazon →</a>
     </div>
