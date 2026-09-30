@@ -5,9 +5,14 @@ description: "Review honesta de Zed: rendimiento en Rust, IA nativa (Anthropic +
 category: "Review"
 date: 2026-07-11
 readtime: 7
+version: "Zed (Rust) con Claude 3.5 Sonnet; en Windows anda aún en preview"
+tiempo: "tres semanas de uso"
+proyecto: "prácticas Spring Boot + React (un monolito de ~3k archivos) y un bug del frontend en pareja"
+limites: "no trae terminal propia ni edita varios archivos él solo; el ecosistema de extensiones es pequeño"
 affiliate_text: "Prueba Zed gratis y decide si te cambia el flujo de edición"
 affiliate_url: "https://zed.dev"
 affiliate_label: "Descargar Zed"
+last_modified_at: 2026-09-30
 ---
 
 Llevo meses viendo a gente en Twitter (y en clase) que jura que **Zed les ha cambiado la vida**. "Es VS Code pero rápido", "la IA está integrada de forma nativa", "colaboración en tiempo real sin plugins". Suena bien, pero también suena a marketing. Me lo bajé hace tres semanas para un proyecto de prácticas (Spring Boot + React, el típico de DAW) y esto es lo que he encontrado.

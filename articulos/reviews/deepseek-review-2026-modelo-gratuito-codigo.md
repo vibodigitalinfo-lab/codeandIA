@@ -5,6 +5,11 @@ description: "Mi review honesta de DeepSeek en 2026: qué incluye el plan gratis
 category: "Review"
 date: 2026-07-25
 readtime: 8
+version: "DeepSeek V4.1-Flash (gratis) con contexto de 1M"
+tiempo: "casi a diario desde principios de 2025"
+proyecto: "flujo de DAW: CRUD de prácticas, tests y refactors con Copilot al lado"
+limites: "el código pasa por servidores en China continental; ojo con lo que pegas"
+last_modified_at: 2026-09-30
 ---
 
 Empecé a usar DeepSeek a principios de 2025, cuando todo el mundo hablaba del R1 gratis que rivalizaba con modelos de pago. Lo curioso es que un año y medio después sigo usándolo casi a diario, y sigue siendo gratis. Antes de escribir esto me he releído su documentación con fecha de hoy para no contarte humo: te cuento qué hay de verdad detrás del modelo chino, cómo programa para un estudiante de DAW y qué letra pequeña no te van a contar en las noticias.

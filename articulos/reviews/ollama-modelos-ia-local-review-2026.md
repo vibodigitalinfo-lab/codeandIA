@@ -5,6 +5,11 @@ description: "Probé Ollama durante un mes para correr modelos de IA en mi propi
 category: "Review"
 date: 2026-06-29
 readtime: 8
+version: "llama3.2:3b, qwen2.5:7b, phi4:14b y deepseek-r1:8b"
+tiempo: "un mes entero en el flujo real de clase y proyecto personal"
+proyecto: "portátil de 16 GB sin GPU dedicada: ejercicios de DAW y queries de MySQL"
+limites: "alucina más que los modelos grandes, va lento y no te da autocompletado en el editor"
+last_modified_at: 2026-09-30
 ---
 
 A finales del curso pasado me di cuenta de que estaba pagando tres cosas a la vez: ChatGPT Plus, GitHub Copilot Pro y Cursor. No era que las usara todas a todas horas, era más bien el miedo a quedarme sin ellas el día que hicieran falta. Y un día, mirando las facturas juntas, pensé: esto no tiene sentido para un estudiante de DAW.

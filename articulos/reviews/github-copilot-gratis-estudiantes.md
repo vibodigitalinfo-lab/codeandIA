@@ -5,10 +5,14 @@ description: "Guía para activar GitHub Copilot gratis con el Student Developer 
 category: "Review"
 date: 2026-05-31
 readtime: 5
+version: "Copilot Pro por el Student Developer Pack (gratis; antes 10 $/mes)"
+tiempo: "varios meses de uso continuo"
+proyecto: "prácticas de DAW (Java, PHP, SQL) y proyectos personales"
+limites: "el autocompletado invita a aceptar sin entender: no piensa por ti"
 affiliate_text: "Prueba GitHub Copilot gratis con el Student Developer Pack"
 affiliate_url: "https://education.github.com/pack"
 affiliate_label: "Activar Copilot gratis"
-last_modified_at: 2026-09-27
+last_modified_at: 2026-09-30
 ---
 
 Cuando empecé primero de DAW, un compañero me habló de que había una forma de usar GitHub Copilot gratis para estudiantes. Al principio pensé que era otro de esos "trucos" que en realidad te piden la tarjeta de crédito a los dos minutos. Pero no. Es completamente real, llevo meses usándolo y aquí te cuento cómo lo activé y qué pienso de verdad, sin adornos.

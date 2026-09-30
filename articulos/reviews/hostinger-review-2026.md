@@ -5,9 +5,14 @@ description: "Mi experiencia real con Hostinger: si es fiable para alojar tu pri
 category: "Review"
 date: 2026-06-17
 readtime: 5
+version: "plan Premium compartido (LiteSpeed, hPanel), ~2-3 €/mes con descuento"
+tiempo: "varios meses con el plan activo"
+proyecto: "el proyecto de DAW (CRUD con Laravel y Spring Boot) subido a producción"
+limites: "compartido: nada de Docker ni PostgreSQL de serie y se atraganta con joins pesados"
 affiliate_text: "Prueba Hostinger con descuento y empieza a desplegar ya"
 affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
+last_modified_at: 2026-09-30
 ---
 
 Cuando estás en segundo de DAW y tienes tu primera aplicación web lista para salir al mundo, lo primero que te planteas es dónde la subes. Yo llevaba semanas buscando un hosting que no me costara un riñón y que no fuera un dolor de cabeza para configurar. Al final caí en Hostinger, y en este artículo te cuento exactamente qué me encontré: lo bueno, lo regular y lo que nadie te dice antes de contratar. Si todavía no tienes claro si necesitas hosting o prefieres algo gratis, tengo una guía de [cómo publicar tu primera web gratis](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) que te puede servir para empezar.

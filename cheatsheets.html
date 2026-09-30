@@ -123,7 +123,7 @@ last_modified_at: 2026-09-30
             <tr><td>Parar y borrar</td><td>docker compose down</td></tr>
           </tbody>
         </table>
-        <p>Para desarrollo, lo normal es no construir la imagen a mano: pones tu código en un volumen, lanzas la imagen y el proceso de recarga hace el resto.</p>
+        <p>En desarrollo no reconstruyes la imagen en cada cambio: montas tu código con un volumen (bind mount) añadiendo <code>volumes: - .:/app</code> en el <code>docker-compose.yml</code>, y el proceso de la imagen (por ejemplo, el <em>hot reload</em> de tu framework) detecta el cambio y recarga solo. Si al hacer <code>docker compose down</code> pierdes los datos, el problema casi siempre es que la base de datos no tiene un volumen con nombre: declara uno (<code>volumes: dbdata: {}</code> y móntalo en el contenedor de la BD) antes del primer <code>up</code>.</p>
       </div>
     </details>
 

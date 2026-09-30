@@ -1,13 +1,14 @@
 ---
 layout: article
 title: "Cursor AI Pro vs Free: qué incluye cada plan y cuándo pagar"
-description: "Comparo cursor AI plan pro vs free español con mi propia experiencia: límites reales, precio y cuándo vale la pena pasarte a Pro."
+description: "Comparo el plan gratuito de Cursor y el Pro con los límites reales que me he encontrado: peticiones, modelos, velocidad y cuándo compensa pasar a pagar."
 category: "Comparativa"
 date: 2026-06-15
 readtime: 5
 affiliate_text: "Si ya sabes que vas a necesitar más límite, prueba Cursor Pro sin vueltas"
 affiliate_url: "https://cursor.com/pricing"
 affiliate_label: "Probar Cursor Pro"
+last_modified_at: 2026-09-30
 ---
 
 Llevo usando Cursor desde segundo de DAW, primero con el plan gratuito porque no tenía ni un euro suelto para software, y ahora con Pro desde hace unos meses. Así que cuando alguien me pregunta sobre cursor AI plan pro vs free en español, no te voy a soltar la típica tabla comparativa de una web genérica. Te voy a contar lo que me pasó a mí, con mis límites agotados a mitad de mes y esa sensación de "venga, un prompt más" que todos hemos tenido.

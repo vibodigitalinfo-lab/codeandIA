@@ -5,9 +5,14 @@ description: "Analizo CodeRabbit, la IA que revisa pull requests: precios, compa
 category: "Review"
 date: 2026-06-22
 readtime: 7
+version: "plan gratis (5 reviews/hora) y subido a Essentials (24 $/mes) para probarlo entero"
+tiempo: "varias semanas revisando las entregas del ciclo"
+proyecto: "prácticas de DAW con entregas por pull request (API REST de Spring Boot)"
+limites: "sus propuestas de estilo son opinables y en el plan gratis no las puedes acallar"
 affiliate_text: "Prueba CodeRabbit gratis en repos públicos y decide si te compensa"
 affiliate_url: "https://coderabbit.ai/pricing"
 affiliate_label: "Ver planes CodeRabbit"
+last_modified_at: 2026-09-30
 ---
 
 Llevo semanas viendo cómo mis compañeros del ciclo se pasan horas revisando código a mano en GitHub, comentando línea por línea cosas que una IA podría pillar en segundos. El problema es que la mayoría piensa que "revisión con IA" es cosa de empresas grandes o que cuesta un riñón. CodeRabbit me llamó la atención porque tiene **plan gratis para repos públicos** y, siendo estudiante, eso ya es un filtro importante.

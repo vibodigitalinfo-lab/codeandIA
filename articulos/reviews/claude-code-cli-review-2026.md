@@ -5,6 +5,10 @@ description: "Review honesta de Claude Code: qué lo hace distinto, Dynamic Work
 category: "Review"
 date: 2026-06-28
 readtime: 12
+version: "Claude Code CLI con Opus 4.7 (plan Pro, 20 $/mes)"
+tiempo: "una sesión intensiva de 22 minutos sobre ~80 archivos"
+proyecto: "migración Spring Boot 2.7→3.3 y Java 17→21 en las prácticas"
+limites: "coste variable por tokens (un mes intenso ronda los 200-500 $)"
 affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"
 affiliate_label: "Ver planes Claude"

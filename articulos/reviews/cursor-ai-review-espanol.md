@@ -5,9 +5,14 @@ description: "Mi cursor AI review en español tras meses usándolo: rendimiento 
 category: "Review"
 date: 2026-06-01
 readtime: 6
+version: "plan Pro (~20 $/mes) tras meses usando solo el plan gratuito"
+tiempo: "un mes de pago a fondo, con meses gratis anteriores"
+proyecto: "prácticas de DAW: JDBC en Java, web HTML/CSS/JS, PHP con MySQL y scripts Python"
+limites: "el plan gratis se queda corto en peticiones y no debería sustituir aprender a programar"
 affiliate_text: "Prueba Cursor gratis durante 14 días"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor gratis"
+last_modified_at: 2026-09-30
 ---
 
 Cuando empecé el segundo año de DAW me prometí que iba a dejar de luchar contra el código y empezar a trabajar con él. Llevaba meses escuchando hablar de Cursor por todas partes, y al final me rendí a la curiosidad. Esta es mi cursor AI review en español después de haberlo usado de verdad, no de haberlo abierto diez minutos para hacer capturas de pantalla.

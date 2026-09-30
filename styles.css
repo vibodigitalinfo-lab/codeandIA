@@ -668,6 +668,11 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   color: var(--text-body);
 }
 
+.about-subtitle {
+  margin: 2rem 0 0;
+  font-size: 1.1rem;
+}
+
 /* ================= Lista editorial de artículos ================= */
 
 .articles-grid {
@@ -1474,6 +1479,50 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   font-size: 0.88rem;
   color: var(--text-muted);
   margin: 0;
+}
+
+/* Ficha de prueba de las reviews */
+
+.test-card {
+  max-width: var(--read-width);
+  margin: 1.4rem 0;
+  padding: 1.1rem 1.2rem;
+  border: 1.5px solid var(--border-strong);
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+}
+
+.test-card-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.7rem;
+}
+
+.test-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.6rem 1.1rem;
+  margin: 0;
+}
+
+.test-card-grid dt {
+  font-weight: 700;
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.1rem;
+}
+
+.test-card-grid dd {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 0.92rem;
 }
 
 /* Tabla de compra rápida */

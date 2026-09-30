@@ -5,9 +5,14 @@ description: "Review honesta de Trae: agente autónomo gratis, modelo propio Dou
 category: "Review"
 date: 2026-07-12
 readtime: 9
+version: "Trae estable (fork de Code-OSS) con su modelo Doubao-1.5-pro"
+tiempo: "mes y medio conviviendo con Cursor y VS Code"
+proyecto: "el microservicio de pagos con Stripe de las prácticas (12 endpoints, Testcontainers)"
+limites: "no hay modo local: tu código sale de tu máquina hacia los servidores de ByteDance"
 affiliate_text: "Prueba Trae gratis y compara su agente con Cursor"
 affiliate_url: "https://www.trae.ai"
 affiliate_label: "Descargar Trae"
+last_modified_at: 2026-09-30
 ---
 
 Llevo mes y medio con Trae instalado junto a Cursor y VS Code. No es que haya tirado los otros dos — de hecho, Cursor sigue siendo mi daily driver para prácticas Java — pero Trae me ha sorprendido lo suficiente como para dedicarle este artículo. **Es el primer editor "IA-first" que no te cobra por el agente autónomo**. Y eso, siendo estudiante, cambia las reglas del juego.

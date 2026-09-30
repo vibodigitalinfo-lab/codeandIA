@@ -14,26 +14,6 @@
     - path: "/articulos/listas/recursos-gratuitos-aprender-programacion-con-ia/"
       nota: "El resto del catálogo sin coste."
 
-- id: entorno-de-trabajo
-  titulo: "Montar tu entorno de trabajo"
-  nivel: "Desde cero"
-  resumen: "Del portátil a la configuración del editor: tener todo listo antes de escribir la primera línea."
-  pasos:
-    - path: "/articulos/guias/que-portatil-comprar-estudiar-daw-2026/"
-      nota: "Qué specs importan de verdad para programar."
-    - path: "/articulos/guias/setup-completo-programar-500-euros/"
-      nota: "La lista completa, sin gastar de más."
-    - path: "/articulos/guias/setup-desarrollo-macos-programador-2026/"
-      nota: "Si has elegido Mac: terminal, git y el resto."
-    - path: "/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/"
-      nota: "Dejar el editor listo para pedirle ayuda a la IA."
-    - path: "/articulos/listas/configuracion-vscode-ia-2026/"
-      nota: "Ajustes concretos que ahorran tiempo."
-    - path: "/articulos/listas/extensiones-ia-vscode-estudiantes-2026/"
-      nota: "Las pocas extensiones que sí valen la pena."
-    - path: "/articulos/guias/programar-de-noche-vista-2026/"
-      nota: "Cuidar la vista mientras aguantas las horas."
-
 - id: elegir-herramienta
   titulo: "Elegir tu editor y tu asistente"
   nivel: "Intermedio"
@@ -53,6 +33,26 @@
       nota: "El que más se parece a Cursor y es gratis."
     - path: "/articulos/reviews/zed-editor-ia-review-2026/"
       nota: "Rápido, para quien odia esperar."
+
+- id: entorno-de-trabajo
+  titulo: "Montar tu entorno de trabajo"
+  nivel: "Desde cero"
+  resumen: "Del portátil a la configuración del editor: tener todo listo antes de escribir la primera línea."
+  pasos:
+    - path: "/articulos/guias/que-portatil-comprar-estudiar-daw-2026/"
+      nota: "Qué specs importan de verdad para programar."
+    - path: "/articulos/guias/setup-completo-programar-500-euros/"
+      nota: "La lista completa, sin gastar de más."
+    - path: "/articulos/guias/setup-desarrollo-macos-programador-2026/"
+      nota: "Si has elegido Mac: terminal, git y el resto."
+    - path: "/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/"
+      nota: "Dejar el editor listo para pedirle ayuda a la IA."
+    - path: "/articulos/listas/configuracion-vscode-ia-2026/"
+      nota: "Ajustes concretos que ahorran tiempo."
+    - path: "/articulos/listas/extensiones-ia-vscode-estudiantes-2026/"
+      nota: "Las pocas extensiones que sí valen la pena."
+    - path: "/articulos/guias/programar-de-noche-vista-2026/"
+      nota: "Cuidar la vista mientras aguantas las horas."
 
 - id: primer-proyecto
   titulo: "Sacar tu primer proyecto adelante"
@@ -123,26 +123,6 @@
       nota: "Revisar un pull request sin que nadie suba código roto."
     - path: "/articulos/reviews/coderabbit-review-ai-code-review/"
       nota: "Revisión automática en el pull request."
-
-- id: publicar-y-pagar
-  titulo: "Publicar en internet sin arruinarte"
-  nivel: "Intermedio"
-  resumen: "Dominio, hosting y despliegue: lo mínimo para que tu proyecto exista fuera de tu ordenador."
-  pasos:
-    - path: "/articulos/guias/que-dominio-comprar-primer-proyecto-web/"
-      nota: "Dónde comprar el dominio y qué mirar."
-    - path: "/articulos/guias/como-publicar-primera-web-internet-barato-ia/"
-      nota: "Publicar barato y que aguante."
-    - path: "/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/"
-      nota: "Hosting con precio o alojamiento gratuito."
-    - path: "/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/"
-      nota: "Las tres opciones de despliegue automático."
-    - path: "/articulos/guias/git-con-ia-2026/"
-      nota: "Git bien montado evita casi todo desastre."
-    - path: "/articulos/guias/github-actions-estudiantes-daw/"
-      nota: "Desplegar sin tocar el servidor a mano."
-    - path: "/articulos/guias/docker-para-daw-con-ia-2026/"
-      nota: "Que funcione en tu máquina y en la de los demás."
 
 - id: agentes-y-mcp
   titulo: "Agentes, MCP y contexto"

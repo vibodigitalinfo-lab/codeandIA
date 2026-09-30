@@ -1,7 +1,7 @@
 """Verificación integral de calidad de codeandIA según AGENTS.md
 
 Comprueba:
-1. Fechas: sin futuras, sin repetidas, sin huecos (fechas_check.py)
+1. Fechas: sin futuras, sin repetidas, sin huecos de más de 3 días (fechas_check.py)
 2. Fechas de revisión: coherentes con last_modified_at (marcar_actualizado.py --check)
 3. Enlaces internos: sin 404 ni rutas inexistentes
 4. Frontmatter YAML válido en todos los artículos

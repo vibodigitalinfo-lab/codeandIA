@@ -6,6 +6,10 @@ category: "Review"
 tema: hardware
 date: 2026-07-23
 readtime: 6
+version: "Keychron Q1 Max con switches K Pro Red (QMK/VIA)"
+tiempo: "unas 3 semanas de uso diario"
+proyecto: "programando 8 horas al día en el puesto de estudio"
+limites: "pesa y ocupa mucho para trabajar en el portátil; el dongle 2.4 GHz se come un puerto USB"
 affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está disponible en Amazon.es, por unos 136€"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver el V1 Max en Amazon"

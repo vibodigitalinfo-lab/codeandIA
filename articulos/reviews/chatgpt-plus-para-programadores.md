@@ -1,10 +1,14 @@
 ---
 layout: article
 title: "ChatGPT Plus para programadores: ¿merece la pena pagar 20€ al mes?"
-description: "Analizo si ChatGPT Plus para programadores vale lo que cuesta: velocidad, GPT-4o, contexto largo y lo que gratis no te da."
+description: "Analizo si ChatGPT Plus vale lo que cuesta para programar: el corte de mensajes, el contexto largo, la velocidad y qué te da la versión gratis por comparar."
 category: "Review"
 date: 2026-06-02
 readtime: 4
+version: "ChatGPT Plus (20 €/mes); en junio de 2026 montaba el GPT-4o"
+tiempo: "varios meses a diario para clase y proyectos"
+proyecto: "proyecto de fin de módulo con varios archivos abiertos a la vez"
+limites: "límite de mensajes con el modelo potente y 20 € fijos al mes quieras o no"
 affiliate_text: "Prueba ChatGPT Plus un mes y decide tú mismo"
 affiliate_url: "https://chatgpt.com/upgrade"
 affiliate_label: "Probar ChatGPT Plus"

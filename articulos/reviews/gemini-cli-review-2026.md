@@ -5,6 +5,10 @@ description: "Gemini CLI es el agente de terminal de Google: instalación, cómo
 category: "Review"
 date: 2026-09-16
 readtime: 6
+version: "@google/gemini-cli con la clave gratis de AI Studio"
+tiempo: "una temporada entera en las prácticas, desde que se lanzó"
+proyecto: "la API REST de Spring Boot como conejillo de indias"
+limites: "pide confirmación a cada rato y Google cambia el nombre a los productos cada poco"
 last_modified_at: 2026-09-30
 ---
 

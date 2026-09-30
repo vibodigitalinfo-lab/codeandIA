@@ -1,0 +1,20 @@
+{% if page.version or page.tiempo or page.proyecto or page.limites %}
+<aside class="test-card" aria-label="Ficha de prueba">
+  <span class="test-card-tag">Cómo lo probé</span>
+  <dl class="test-card-grid">
+    {% if page.version %}
+    <div><dt>Versión</dt><dd>{{ page.version }}</dd></div>
+    {% endif %}
+    <div><dt>Fecha</dt><dd>{{ page.date | date: "%d/%m/%Y" }}</dd></div>
+    {% if page.tiempo %}
+    <div><dt>Tiempo de uso</dt><dd>{{ page.tiempo }}</dd></div>
+    {% endif %}
+    {% if page.proyecto %}
+    <div><dt>Proyecto</dt><dd>{{ page.proyecto }}</dd></div>
+    {% endif %}
+    {% if page.limites %}
+    <div><dt>Límites</dt><dd>{{ page.limites }}</dd></div>
+    {% endif %}
+  </dl>
+</aside>
+{% endif %}
