@@ -3,7 +3,7 @@ layout: article
 title: "Reposapiés para programar: lo que más alivia la espalda"
 description: "Por qué un reposapiés mejora tu postura al programar y cuál elegir: regulable, antideslizante y barato, con precio real en Amazon España."
 category: "Guía"
-date: 2026-09-24
+date: 2026-09-20
 readtime: 5
 affiliate_text: "El reposapiés ajustable MAGIC SELECT es el que uso: altura y inclinación regulables por 19,85€"
 affiliate_url: "https://www.amazon.es/dp/B0FJ8G5SDV?tag=codeandia-21"

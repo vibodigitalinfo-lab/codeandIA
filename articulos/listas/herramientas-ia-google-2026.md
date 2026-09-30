@@ -3,7 +3,7 @@ layout: article
 title: "Herramientas de IA de Google para programar en 2026: la guía"
 description: "Gemini Notebook, Antigravity, Jules, AI Studio y planes Gemini: las herramientas de IA de Google para programar en 2026 y cuáles merecen tu tiempo gratis."
 category: "Lista"
-date: 2026-08-27
+date: 2026-08-23
 readtime: 6
 ---
 

@@ -3,7 +3,7 @@ layout: article
 title: "Cómo elegir un hub USB-C para programar"
 description: "El portátil se queda corto de puertos. Te explico qué mirar en un hub USB-C (HDMI, PD, velocidad) y cuál elegir según tu caso, con precios reales."
 category: "Guía"
-date: 2026-09-28
+date: 2026-09-26
 readtime: 4
 affiliate_text: "El hub NOVOO de 7 puertos con HDMI y carga de 100W, por 26,99€, el que uso"
 affiliate_url: "https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21"

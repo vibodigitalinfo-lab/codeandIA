@@ -3,7 +3,7 @@ layout: article
 title: "Mejores auriculares con cancelación de ruido para estudiar en 2026"
 description: "Comparativa de cascos y auriculares con cancelación de ruido para estudiar y programar: opciones cómodas y con buen ANC por menos de 100 euros."
 category: "Lista"
-date: 2026-07-30
+date: 2026-07-26
 readtime: 7
 affiliate_text: "El Soundcore Q20i es mi recomendación calidad-precio: ANC, 40 horas y USB-C por unos 38€"
 affiliate_url: "https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21"

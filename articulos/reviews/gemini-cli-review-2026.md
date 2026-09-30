@@ -3,7 +3,7 @@ layout: article
 title: "Gemini CLI en 2026: el agente de Google que corre en tu terminal"
 description: "Gemini CLI es el agente de terminal de Google: instalación, cómo lee tu repositorio, permisos, precio con AI Studio y si le gana a Codex CLI o Claude Code."
 category: "Review"
-date: 2026-09-20
+date: 2026-09-16
 readtime: 6
 ---
 

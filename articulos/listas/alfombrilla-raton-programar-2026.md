@@ -3,7 +3,7 @@ layout: article
 title: "Alfombrillas de ratón XXL para programar"
 description: "La alfombrilla XXL es la mejora más barata para un escritorio pequeño: te da espacio para ratón y teclado. Dos opciones con precio real en Amazon España."
 category: "Lista"
-date: 2026-09-26
+date: 2026-09-22
 readtime: 4
 affiliate_text: "La alfombrilla Sidorenko XXL de 900 x 400 mm con base antideslizante, por 16,97€"
 affiliate_url: "https://www.amazon.es/dp/B07CBHX4DB?tag=codeandia-21"

@@ -3,7 +3,7 @@ layout: article
 title: "Leer documentación con IA: del manual a tu código"
 description: "Cómo usar la IA para entender la documentación oficial sin que te mienta: leer el manual, anclar la pregunta, verificar la versión y pedir ejemplos mínimos."
 category: "Guía"
-date: 2026-09-18
+date: 2026-09-14
 readtime: 6
 ---
 

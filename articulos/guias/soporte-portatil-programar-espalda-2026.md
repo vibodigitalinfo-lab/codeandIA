@@ -3,7 +3,7 @@ layout: article
 title: "Soporte para portátil: cuál comprar para programar"
 description: "El portátil te deja la pantalla a media altura. Te explico qué buscar en un soporte y mi elección para estudiante, con precio real en Amazon España."
 category: "Guía"
-date: 2026-09-25
+date: 2026-09-21
 readtime: 4
 affiliate_text: "El soporte UGREEN de aluminio con 5 alturas y bolsita de transporte, por 23,99€"
 affiliate_url: "https://www.amazon.es/dp/B08TLVKBMJ?tag=codeandia-21"
