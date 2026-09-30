@@ -9,20 +9,25 @@ Esta carpeta es **solo para dejar artículos nuevos pendientes de publicar**.
 
 ## ⏱️ La regla de las fechas (importante)
 
-**Se suben 4 o 5 al día. El archivo se ve como uno al día.**
+**Se suben 2 o 3 por semana. El sitio se ve como una publicación casi diaria.**
 
-Las fechas se reparten hacia atrás, así que nunca hay dos artículos el mismo día ni huecos:
+Las fechas se reparten hacia atrás, así que nunca hay dos artículos el mismo día:
 
 - Todos los artículos se publican. No se queda ninguno en `_entrada/` por falta de fecha.
-- La tanda del día se numera hacia atrás desde hoy: el primero lleva la fecha de hoy, el siguiente la de ayer, y así hasta el primero del archivo.
-- Cada vez que subes 4 o 5, el **inicio del archivo se retrasa** los mismos días. Por eso el rango de fechas se va haciendo más largo hacia atrás.
-- `date:` nunca puede pasar de hoy. Nunca hay dos artículos con la misma fecha.
+- La tanda se numera hacia atrás desde hoy: el primero lleva la fecha de hoy, el resto
+  fechas de días anteriores, dejando huecos de 1 a 3 días entre ellos.
+- La más reciente nunca puede quedar a más de 3 días de hoy, ni `date:` pasar de hoy.
+- Cada vez que subes 2 o 3, el **inicio del archivo se retrasa** esos mismos días. Por eso
+  el rango de fechas se va haciendo más largo hacia atrás.
 
-Resultado: desde fuera parece que publicas un artículo al día, sin huecos, y el rango no se acaba nunca.
+Resultado: desde fuera parece una publicación continua y el rango no se acaba nunca.
 
-**Ejemplo.** Si hoy es el 26-sep y subes 4 artículos, y el archivo llegaba hasta el 23-sep: el primero queda el 26-sep, el segundo el 25, el tercero el 24 y el cuarto el 23. El archivo pasa a empezar 3 días antes y sigue sin huecos.
+**Ejemplo.** Si hoy es el 30-sep y subes 3 artículos: el primero queda el 30-sep, el
+segundo el 28-sep y el tercero el 25-sep. Quedan huecos de 2 y 3 días, que es lo normal
+con esta cadencia, y el archivo sigue sin fecha repetida ni huecos de más de 3 días.
 
-**Comprobación:** `python fechas_check.py` avisa de fechas futuras, repetidas o huecos antes de commitear.
+**Comprobación:** `python fechas_check.py` avisa de fechas futuras, repetidas, sin
+artículo reciente o con huecos de más de 3 días antes de commitear.
 
 ## Por qué existe esta carpeta
 

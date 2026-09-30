@@ -40,7 +40,7 @@ last_modified_at: 2026-09-30
   <div class="container container-narrow">
     <h2 class="section-title">La promesa</h2>
     <p class="about-text">El resultado es una mezcla de la velocidad de la IA y el criterio de una persona. Si algún día publico algo generado de principio a fin sin revisarlo, lo diré en el propio artículo. Y seguiré contando lo malo de las herramientas, porque no me pagan por recomendar.</p>
-    <p class="about-text">Los precios se comprueban la fecha que aparece en cada artículo, y si cambian, la ficha se actualiza. Las reseñas y comparativas son <a href="{{ "/sobre-mi/" | relative_url }}">mi opinión</a> después de usar cada herramienta en proyectos reales.</p>
+    <p class="about-text">Los precios se comprueban la fecha que aparece en cada artículo, y si cambian, se actualiza la tarjeta de la portada. Las reseñas y comparativas son <a href="{{ "/sobre-mi/" | relative_url }}">mi opinión</a> después de usar cada herramienta en proyectos reales: cada review abre con una ficha de prueba con la versión, el tiempo de uso, el proyecto y los límites que encontré.</p>
     <p class="about-text"><a href="{{ "/articulos/" | relative_url }}">Ver los artículos →</a></p>
   </div>
 </section>

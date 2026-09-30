@@ -8,6 +8,8 @@ readtime: 6
 affiliate_text: "Prueba Cursor gratis y empieza a programar con IA hoy"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor gratis"
+updated: 2026-09-30
+last_modified_at: 2026-09-30
 ---
 
 Llevo unos meses en el ciclo de DAW y desde el principio me obsesioné con encontrar el editor perfecto. No uno cualquiera, sino uno con IA integrada que me ayudara a entender el código mientras lo escribía, no que simplemente lo escupiera sin explicarme nada. Así que pasé semanas alternando entre **Windsurf y Cursor AI** antes de quedarme con uno. Si estás en la misma situación y buscas la comparativa windsurf vs cursor AI para aprender a programar, esto es lo que encontré.
@@ -48,7 +50,7 @@ Lo que más uso a día de hoy es `Ctrl + K` para editar un bloque concreto y el 
 
 Ninguno de los dos es completamente gratis si lo usas todos los días. Pero hay matices importantes.
 
-Cursor tiene un plan gratuito bastante generoso para empezar: 2.000 completaciones y 50 peticiones al chat de modelos lentos al mes. Para un estudiante que está aprendiendo y no programa ocho horas al día, puede aguantar bien. El plan Pro cuesta 20 dólares al mes, que no es barato, pero incluye acceso a GPT-4o y Claude sin restricciones raras. Puedes [probar Cursor gratis](https://cursor.com) sin meter tarjeta desde el principio, lo que siempre es de agradecer.
+Cursor tiene un plan gratuito, el **Hobby**, que no pide tarjeta y da justo lo necesario para abrirte el editor: autocompletado con su modelo Auto y peticiones limitadas del agente, sin cifra publicada. Para un estudiante que está aprendiendo y no programa ocho horas al día, puede aguantar bien. El plan Pro cuesta 20 dólares al mes, que no es barato, y desde 2026 ya no se mide en un número cerrado de peticiones: el autocompletado pasa a ser ilimitado, el agente tiene límites ampliados y entras a los modelos de frontera. El matiz que conviene saber: el consumo se reparte en dos bolsas (modelos de Cursor y una cantidad incluida de uso de modelos de terceros), así que esos 20 dólares son 20 dólares de uso real, no un contingent de peticiones. Puedes [probar Cursor gratis](https://cursor.com) sin meter tarjeta desde el principio, lo que siempre es de agradecer.
 
 Windsurf también tiene plan gratuito, pero los créditos de Cascade —el modo agente— se agotan con una velocidad que no esperaba. Para usar las funciones que lo hacen especial, acabas necesitando el plan Pro antes de lo que crees.
 

@@ -12,10 +12,11 @@ limites: "no hay modo local: tu código sale de tu máquina hacia los servidores
 affiliate_text: "Prueba Trae gratis y compara su agente con Cursor"
 affiliate_url: "https://www.trae.ai"
 affiliate_label: "Descargar Trae"
+updated: 2026-09-30
 last_modified_at: 2026-09-30
 ---
 
-Llevo mes y medio con Trae instalado junto a Cursor y VS Code. No es que haya tirado los otros dos — de hecho, Cursor sigue siendo mi daily driver para prácticas Java — pero Trae me ha sorprendido lo suficiente como para dedicarle este artículo. **Es el primer editor "IA-first" que no te cobra por el agente autónomo**. Y eso, siendo estudiante, cambia las reglas del juego.
+Llevo mes y medio con Trae instalado junto a Cursor y VS Code. No es que haya tirado los otros dos —de hecho, para las prácticas de Java sigo con VS Code y Copilot, y a Cursor lo abro de vez en cuando— pero Trae me ha sorprendido lo suficiente como para dedicarle este artículo. **Es el primer editor "IA-first" que no te cobra por el agente autónomo**. Y eso, siendo estudiante, cambia las reglas del juego.
 
 ---
 
@@ -58,8 +59,8 @@ Lo probé con un proyecto real de prácticas DWES: **un microservicio de pagos c
 ## Doubao-1.5-pro: el modelo "secreto"
 
 ByteDance no publica benchmarks abiertos, pero en mi uso diario:
-- **Java/Spring**: nivel Sonnet 3.5 / GPT-4o. Entiende anotaciones, ciclo de vida Bean, JPA.
-- **TypeScript/React**: sorprendentemente bueno, mejor que Cursor con GPT-4o en componentes shadcn/ui.
+- **Java/Spring**: nivel Sonnet 3.5 / GPT-5.6. Entiende anotaciones, ciclo de vida Bean, JPA.
+- **TypeScript/React**: sorprendentemente bueno, mejor que Cursor con GPT-5.6 en componentes shadcn/ui.
 - **SQL/migrations**: escribe Flyway/Liquibase correcto a la primera.
 - **Contexto de repo**: indexa todo el workspace al abrir (tarda ~30 seg en proyecto mediano). Usa RAG + grafo de llamadas.
 
@@ -110,7 +111,7 @@ Trae es **ligeramente más ligero que Cursor** (fork más limpio, menos bloat). 
 | **Estudiante DAW, presupuesto $0, quiere agente real** | **Prueba Trae 2 semanas**. Si te acostumbras a la UX, te ahorras $20/mes de Cursor Pro. |
 | **Ya pagas Cursor Pro y te va bien** | **No cambies**. La UX de Cursor (diff, checkpoints, git, madurez) vale los $20. |
 | **Privacidad crítica / offline / NDA** | **Ni se te ocurra**. Continue + Ollama o Copilot (telemetry off). |
-| **Side projects React/Next.js, quieres velocidad** | Trae brilla aquí. Builder + Doubao en TS/React es **más rápido que Cursor + GPT-4o**. |
+| **Side projects React/Next.js, quieres velocidad** | Trae brilla aquí. Builder + Doubao en TS/React es **más rápido que Cursor + GPT-5.6**. |
 | **Java enterprise / Spring Boot serio** | **Cursor o Copilot**. Trae se pierde en proyectos grandes con muchos módulos Maven. |
 
 **Mi setup real hoy**:
@@ -137,7 +138,7 @@ Si arreglan 1, 2 y 3 en los próximos 3 meses, **me planto en Trae para todo lo 
 
 ---
 
-*Descargo: este artículo no está patrocinado. El enlace de descarga es afiliado (me llevo comisión si te registras), pero mi opinión es la que he contado: lo bueno, lo malo, y lo que me hace volver a Cursor.*
+*Descargo: este artículo no está patrocinado. El enlace de descarga es afiliado (me llevo comisión si te registras), pero mi opinión es la que he contado: lo bueno, lo malo, y por qué aun así las prácticas las hago en VS Code con Copilot.*
 
 
 ## Sigue por aquí
