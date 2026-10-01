@@ -1,0 +1,98 @@
+---
+layout: default
+title: "Setup para programar: el escritorio completo, pieza a pieza"
+description: "Todo mi setup para programar de DAW, pieza a pieza y con precios comprobados: monitor, teclado, silla, escritorio y los accesorios que de verdad importan."
+permalink: /setup/
+updated: 2026-09-30
+last_modified_at: 2026-09-30
+---
+
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" %}
+{% assign con_setup = arts | where: "tema", "hardware" %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ '/' | absolute_url }}"},
+    {"@type": "ListItem", "position": 2, "name": "Setup", "item": "{{ '/setup/' | absolute_url }}"}
+  ]
+}
+</script>
+
+<section class="section section-alt">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Setup</span>
+    </nav>
+    <header class="articles-hero">
+      <h1 class="hero-title">Mi setup para programar</h1>
+      <p>{{ con_setup.size }} piezas explicadas una a una, con el precio que comprobé y la fecha de la comprobación</p>
+    </header>
+    <p class="section-intro">Esta es la parte del blog que no es de IA, y conviene ser claro de por qué: **parte de esto lo tengo montado en mi escritorio y parte lo he elegido investigando**. Cuando es algo que tengo en la mesa lo digo en la guía; cuando es una recomendación por especificaciones, también. En ninguna de las dos versiones te vendo la experiencia de haber usado algo que no he usado. Lo que sí hay en todas es el precio y la fecha en que lo miré.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Las piezas, con precio comprobado</h2>
+    <p class="section-intro">Los precios vienen de <code>_data/setup.yml</code>, que es el mismo archivo que alimenta la sección de setup de <a href="{{ '/ofertas/' | relative_url }}">Ofertas</a>. Si un precio cambia, se cambia ahí y se actualiza la fecha; no se edita a mano en dos sitios.</p>
+
+    <div class="setup-grid">
+      {% for parte in site.data.setup %}
+      <div class="oferta-card">
+        <div class="oferta-meta">
+          <span class="oferta-category">{{ parte.nombre }}</span>
+        </div>
+        {% if parte.articulo %}
+        <h3><a href="{{ parte.articulo.url | relative_url }}">{{ parte.nombre }}</a></h3>
+        {% else %}
+        <h3>{{ parte.nombre }}</h3>
+        {% endif %}
+
+        <ul class="setup-productos">
+          {% for prod in parte.productos %}
+          <li>
+            <a href="{{ prod.url }}" rel="sponsored nofollow noopener" target="_blank">{{ prod.nombre }}</a>
+            <span class="setup-precio">{{ prod.precio }}</span>
+            {% if prod.verificado %}
+            <span class="oferta-date">comprobado el {{ prod.verificado | date: "%d/%m/%Y" }}</span>
+            {% endif %}
+            {% if prod.nota %}<span class="setup-nota">{{ prod.nota }}</span>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+
+        {% if parte.articulo %}
+        <p class="sp-guia"><a href="{{ parte.articulo.url | relative_url }}">Guía completa: {{ parte.articulo.label }} →</a></p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Las guías completas del setup</h2>
+    <p class="section-intro">Si no quieres mirar precios sueltos y prefieres el porqué: estas son las {{ con_setup.size }} piezas explicadas a fondo, con lo que funciona y lo que no.</p>
+
+    <div class="articles-grid">
+      {% for a in con_setup %}
+      <a href="{{ a.url | relative_url }}" class="article-card" data-category="{{ a.category | slugify }}">
+        <div class="card-meta">
+          <span class="card-category">{{ a.category }}</span>
+          <span class="card-date">{{ a.date | date: "%d/%m/%Y" }}</span>
+        </div>
+        <h3 class="card-title">{{ a.title }}</h3>
+        <p class="card-excerpt">{{ a.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
+
+    <p class="section-note">Si lo que buscas es la parte de IA del sitio, está en <a href="{{ '/articulos/' | relative_url }}">Artículos</a> y en las <a href="{{ '/rutas/' | relative_url }}">Rutas de aprendizaje</a>. El setup es un apartado aparte a propósito: mezclarlo con las guías de herramientas diluye lo que hace cada una.</p>
+  </div>
+</section>
+
+{% include newsletter.html %}

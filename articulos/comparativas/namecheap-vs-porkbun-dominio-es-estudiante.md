@@ -70,6 +70,7 @@ Si no lo tienes claro todavía entre un .com y un .es, mi [guía de qué dominio
 
 ## Sigue por aquí
 
+- [Hosting y dominios para tu primer proyecto de DAW](/hosting/)
 - [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)
 - [Hostinger vs Namecheap: dónde comprar tu primer dominio](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/)
 - [Qué hosting contratar para tu primer proyecto de DAW en 2026](/articulos/guias/que-hosting-elegir-estudiantes-daw-2026/)

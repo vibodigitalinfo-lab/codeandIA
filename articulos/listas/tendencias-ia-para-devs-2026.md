@@ -82,7 +82,7 @@ claude  # abre el agente en tu directorio actual
 |---|---|---|---|
 | **Qwen2.5-Coder 7B** | 7B | 6 GB | Code review, explicación, tests |
 | **DeepSeek-Coder-V3-Lite** | 16B (MoE) | 12 GB | Generación completa, arquitectura |
-| **CodeLlama 3.3 70B** (Q4) | 70B | 40 GB | Lo más cercano a GPT-4 local |
+| **CodeLlama 3.3 70B** (Q4) | 70B | 40 GB | Lo más cercano al nivel de un GPT-4 en local |
 | **Phi-4-Mini** | 3.8B | 4 GB | Snippets rápidos, muy ligero |
 | **Granite-Code 8B** | 8B | 6 GB | Enterprise, Java/Spring |
 

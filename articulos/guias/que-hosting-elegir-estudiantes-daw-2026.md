@@ -71,6 +71,7 @@ Si estás montando tu primer despliegue, también te puede venir bien mi [guía 
 
 ## Sigue por aquí
 
+- [Hosting y dominios para tu primer proyecto de DAW](/hosting/)
 - [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/)
 - [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)
 - [Docker para estudiantes DAW: cómo usarlo con IA sin morir](/articulos/guias/docker-para-daw-con-ia-2026/)

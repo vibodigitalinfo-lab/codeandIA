@@ -42,6 +42,7 @@ Al final, la respuesta a qué dominio comprar para tu primer proyecto web depend
 
 ## Sigue por aquí
 
+- [Hosting y dominios para tu primer proyecto de DAW](/hosting/)
 - [Namecheap vs Porkbun para un dominio .es siendo estudiante](/articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/)
 - [Hostinger vs Namecheap: dónde comprar tu primer dominio](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/)
 - [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)

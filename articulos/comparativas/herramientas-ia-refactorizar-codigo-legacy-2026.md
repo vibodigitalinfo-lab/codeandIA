@@ -95,7 +95,7 @@ El objetivo era refactorizar 5 módulos clave del proyecto para que fueran mante
 
 ## Continue: la opción open source
 
-**Continue** es un plugin open source para VS Code que funciona con diferentes LLMs (puedes usar Claude, GPT-4, o modelos locales). Si dudas entre este y Cursor, la tengo comparada en [Continue.dev vs Cursor vs Copilot](/articulos/comparativas/continue-dev-vs-cursor-2026/).
+**Continue** es un plugin open source para VS Code que funciona con diferentes LLMs (puedes usar Claude, GPT-5, o modelos locales). Si dudas entre este y Cursor, la tengo comparada en [Continue.dev vs Cursor vs Copilot](/articulos/comparativas/continue-dev-vs-cursor-2026/).
 
 **Lo que hice:**
 - Configuré Continue con Claude como backend

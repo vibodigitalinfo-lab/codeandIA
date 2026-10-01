@@ -64,6 +64,7 @@ Mi combinación actual: el portfolio corre en Netlify y la tienda de la práctic
 
 ## Sigue por aquí
 
+- [Hosting y dominios para tu primer proyecto de DAW](/hosting/)
 - [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)
 - [Hostinger vs Namecheap: dónde comprar tu primer dominio](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/)
 - [Docker para estudiantes DAW: cómo usarlo con IA sin morir](/articulos/guias/docker-para-daw-con-ia-2026/)

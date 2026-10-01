@@ -4,6 +4,8 @@ title: "DeepSeek vs ChatGPT gratis: cuál programa mejor sin pagar"
 description: "Comparativa real de DeepSeek y ChatGPT gratuitos para programar con ejemplos de código, límites y cuál merece más la pena si no quieres gastar."
 category: "Comparativa"
 date: 2026-06-21
+updated: 2026-09-30
+last_modified_at: 2026-09-30
 readtime: 8
 ---
 
@@ -16,6 +18,8 @@ La respuesta corta: los dos son muy buenos, pero para cosas distintas. No es tan
 ## Qué ofrece cada uno gratis
 
 **DeepSeek Chat** es un modelo chino que se ha hecho enorme este año. La versión gratuita te da acceso a su modelo V3, que es sorprendentemente bueno con código. Tiene una ventana de contexto amplia y no te limita demasiado las conversaciones al día. Lo único: a veces hay cola cuando hay mucho tráfico, porque los servidores se saturan. Además, su interfaz es muy básica: no tiene plugins, ni modo voz, ni nada de eso. Solo tú, el chat y el código.
+
+**Aviso sobre los modelos (30/09/2026):** este artículo es de junio y compara lo que tenían los dos chatbots gratuitos en ese momento: GPT-4o mini por un lado y los modelos abiertos de DeepSeek por otro. Desde entonces han salido generaciones nuevas, así que **el modelo concreto de hoy ya no es este**: lo que sigue describiendo es la diferencia de enfoque (uno cerrado y con búsqueda web, otro abierto y local), que sí aguanta. Para los modelos vigentes ahora, la comparación está al día en [GPT-5 vs Claude para programar](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/).
 
 **ChatGPT gratuito** usa GPT-4o mini, que es una versión recortada del GPT-4o. Es rápido, nunca tiene cola, y funciona desde el navegador sin complicaciones. El problema es que GPT-4o mini tiene menos capacidad que el modelo completo, y eso se nota cuando le das tareas complejas. Si quieres ver qué tal funciona la versión completa, tengo una [review de ChatGPT Plus para programadores](/articulos/reviews/chatgpt-plus-para-programadores/) bastante honesta. A cambio, tienes búsqueda web integrada y el modo canvas para ver y editar código de forma más visual, cosas que en DeepSeek no existen en la versión gratis.
 
@@ -60,7 +64,7 @@ No todo es código. Hay que hablar de lo que te puedes encontrar si usas estos m
 
 **ChatGPT gratuito:**
 - La ventana de contexto es más pequeña que en DeepSeek, y eso se nota en proyectos grandes
-- GPT-4o mini no es tan potente como el modelo completo, especialmente en razonamiento complejo
+- En junio, GPT-4o mini no era tan potente como el modelo completo, sobre todo en razonamiento complejo. Es el punto débil que tendría que revisar si decides comparar hoy
 - Tiene límites de uso diario, aunque generosos para uso normal
 - Incluye búsqueda web integrada, lo cual a veces salva la vida cuando necesitas documentación actualizada
 - El modo canvas es una pasada para editar código visualmente sin copiar y pegar

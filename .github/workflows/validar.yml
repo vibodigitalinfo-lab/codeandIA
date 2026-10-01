@@ -1,0 +1,52 @@
+name: Validar
+
+# El build de Pages es el de GitHub por defecto (no hay workflow de build aqui,
+# a proposito: anadirlo podria romper el despliegue). Este workflow solo
+# comprueba lo que se puede comprobar sin Jekyll: fechas, ficha de las reviews
+# y que el YAML siga parseando.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fechas sin repetir ni futuras
+        run: python fechas_check.py
+
+      - name: Fechas de revision coherentes
+        run: python scripts/marcar_actualizado.py --check
+
+      # La promesa de /como-trabajamos/ ("cada review abre con una ficha de
+      # prueba") no la hacia cumplir nadie: un review nuevo sin ficha se
+      # publicaba igual. Aqui falla la build si vuelve a pasar.
+      - name: Ficha de prueba completa en las reviews
+        run: python scripts/auditar_reviews.py
+
+      - name: El YAML de _config.yml parsea
+        run: |
+          python - <<'PY'
+          import sys, yaml
+          try:
+              yaml.safe_load(open('_config.yml', encoding='utf-8'))
+          except Exception as e:
+              # Un YAML roto tira la build de Pages de forma opaca
+              # ("did not find expected key while parsing"), asi que aqui se
+              # ve el error de verdad.
+              print('YAML invalido en _config.yml: %s' % e)
+              sys.exit(1)
+          print('_config.yml parsea')
+          PY

@@ -1,0 +1,97 @@
+---
+layout: default
+title: Hosting y dominios para tu primer proyecto de DAW
+description: "Todo lo que he escrito sobre dónde publicar tu primer proyecto web: qué hosting elegir, comparativas de proveedores y dónde comprar el dominio, con los precios que comprobé y la fecha."
+permalink: /hosting/
+updated: 2026-09-30
+last_modified_at: 2026-09-30
+---
+
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "{{ '/' | absolute_url }}"},
+    {"@type": "ListItem", "position": 2, "name": "Hosting y dominios", "item": "{{ '/hosting/' | absolute_url }}"}
+  ]
+}
+</script>
+
+<section class="section section-alt">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Hosting y dominios</span>
+    </nav>
+    <header class="articles-hero">
+      <h1 class="hero-title">Hosting y dominios para tu primer proyecto</h1>
+      <p>Dónde publicar lo que construyes: qué hosting contratar, dónde comprar el dominio y qué proveedor gana en cada caso</p>
+    </header>
+    <p class="section-intro">Todo lo que escribí sobre hosting y dominios, ordenado por la pregunta que te estés haciendo. Los precios que aparecen son los que comprobé en su día, con la fecha al lado: si ha cambiado, lo verás en cada artículo.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <h2 class="section-title">Si te estás preguntando qué hosting elegir</h2>
+    <p class="section-intro">Por aquí empieza: es la pregunta más común y la que menos opciones tiene si lo que necesitas es algo sencillo.</p>
+
+    <div class="articles-grid">
+      {% assign поряд = "articulos/reviews/hostinger-review-2026.md|articulos/guias/que-hosting-elegir-estudiantes-daw-2026.md|articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026.md" %}
+      {% for item in orden | split: "|" %}
+      {% assign slug = item | split: "/" | last | remove: ".md" %}
+      {% for a in arts %}
+      {% if a.url contains slug %}
+      <a href="{{ a.url | relative_url }}" class="article-card" data-category="{{ a.category | slugify }}">
+        <div class="card-meta">
+          <span class="card-category">{{ a.category }}</span>
+          <span class="card-date">{{ a.date | date: "%d/%m/%Y" }}</span>
+        </div>
+        <h3 class="card-title">{{ a.title }}</h3>
+        <p class="card-excerpt">{{ a.description }}</p>
+      </a>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+
+    <h2 class="section-title">Si lo que quieres es comprar el dominio</h2>
+    <p class="section-intro">El hosting y el dominio son dos cuentas distintas y se compran en sitios distintos. Esto es lo que escribí de cada una.</p>
+
+    <div class="articles-grid">
+      {% assign orden2 = "articulos/guias/que-dominio-comprar-primer-proyecto-web.md|articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante.md|articulos/comparativas/hostinger-vs-namecheap-primer-dominio.md" %}
+      {% for item in orden2 | split: "|" %}
+      {% assign slug = item | split: "/" | last | remove: ".md" %}
+      {% for a in arts %}
+      {% if a.url contains slug %}
+      <a href="{{ a.url | relative_url }}" class="article-card" data-category="{{ a.category | slugify }}">
+        <div class="card-meta">
+          <span class="card-category">{{ a.category }}</span>
+          <span class="card-date">{{ a.date | date: "%d/%m/%Y" }}</span>
+        </div>
+        <h3 class="card-title">{{ a.title }}</h3>
+        <p class="card-excerpt">{{ a.description }}</p>
+      </a>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+
+    <h2 class="section-title">El orden que yo seguiría</h2>
+    <p class="section-intro">Si no has publicado nada todavía, no empieces por el hosting. El orden que menos dinero te hace falta es este:</p>
+
+    <ol class="method-list">
+      <li><strong>El dominio primero</strong>, y barato: mira la <a href="{{ '/articulos/guias/que-dominio-comprar-primer-proyecto-web/' | relative_url }}">guía de qué dominio comprar</a>. Es lo que va a ver la gente y lo más difícil de cambiar después.</li>
+      <li><strong>El hosting, con lo más básico que exista</strong>. Para una práctica de clase o un portfolio, un plan de nivel bajo sobra. La <a href="{{ '/articulos/guias/que-hosting-elegir-estudiantes-daw-2026/' | relative_url }}">guía de qué hosting elegir</a> explica qué mirar para no pagar por cosas que no necesitas.</li>
+      <li><strong>Si el hosting te da miedo, no lo decidas aún</strong>. En la DAW te van a salir GitHub Pages, Netlify o Vercel gratis, y mi <a href="{{ '/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/' | relative_url }}">comparativa Hostinger vs Netlify</a> sale de justo esa decisión.</li>
+      <li><strong>Añade el dominio al final</strong>. Muchos paneles de hosting incluyen el primer año; si compras los dos por separado acabas pagando dos renovaciones que no habías contado.</li>
+    </ol>
+
+    <p class="section-note">Todos los artículos de esta página están enlazados entre sí, así que puedes leerlos en cualquier orden. Si solo vas a leer uno, que sea la review de <a href="{{ '/articulos/reviews/hostinger-review-2026/' | relative_url }}">Hostinger</a>: es la que tiene la ficha de prueba con lo que me pasó al cobrarme y lo que no me cobraron.</p>
+  </div>
+</section>
+
+{% include newsletter.html %}
