@@ -5,7 +5,9 @@ description: "Codex CLI de OpenAI es el agente en terminal, gratis y abierto: in
 category: "Review"
 date: 2026-09-12
 readtime: 9
+updated: 2026-09-30
 version: "@openai/codex en npm (Apache-2.0) con GPT-5.6, contando con el plan Plus"
+tiempo: "tres sesiones largas sobre el mismo repositorio, con el código ya escrito por mí"
 proyecto: "la API REST de Spring Boot de las prácticas"
 limites: "flojea en frontend y el plan Plus tiene límite de sesiones por ventana de tiempo"
 last_modified_at: 2026-09-30

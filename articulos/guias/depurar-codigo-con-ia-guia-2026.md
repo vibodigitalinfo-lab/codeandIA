@@ -25,7 +25,7 @@ Esto es lo que hago ahora cada vez que algo se rompe, y me ha quitado horas:
 
 **2. Clasifica el error.** Antes de preguntar, decide qué tipo de fallo es:
 - **Compilación**: el lenguaje te dice dónde. Este normalmente lo resuelve el propio IDE.
-- **Runtime**: se la da en tiempo de ejecución (null, índices fuera de rango, conexión). Aquí la IA brilla: suele verlo rápido.
+- **Runtime**: aparece en tiempo de ejecución (null, índices fuera de rango, conexión). Aquí la IA brilla: suele verlo rápido.
 - **Lógica**: no hay error, pero el resultado es raro (te saca las notas descolocadas, el total no cuadra). Aquí es donde más se equivoca la IA si no le das contexto.
 
 No es lo mismo "me da error al compilar" que "compila pero el total es incorrecto". Casi todas mis preguntas mal hechas mezclaban estos tres casos sin decirlo, y por eso la IA me contestaba cosas que no me servían.

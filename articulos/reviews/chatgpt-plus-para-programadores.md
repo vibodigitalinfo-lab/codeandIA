@@ -24,7 +24,7 @@ Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho
 
 La diferencia más inmediata no fue la calidad de las respuestas, sino la ausencia de interrupciones. Con la versión gratuita, en cuanto llegaba a un rato de trabajo intenso, aparecía el cartel de "has alcanzado el límite". Con Plus eso desapareció. Para mí, que a veces paso dos o tres horas seguidas trabajando en un proyecto de clase o en algo personal, eso solo ya justifica bastante el precio.
 
-Pero hay más. GPT-4o en la versión de pago responde notablemente más rápido, y cuando estás en modo depuración —pegando errores, preguntando por qué falla algo, pidiendo que reescriba una función— esa velocidad importa. No tienes que esperar diez segundos entre cada mensaje. El flujo de trabajo se mantiene.
+Pero hay más. GPT-4o en la versión de pago respondía notablemente más rápido que en la gratuita, y cuando estás en modo depuración —pegando errores, preguntando por qué falla algo, pidiendo que reescriba una función— esa velocidad importa. No tienes que esperar diez segundos entre cada mensaje. El flujo de trabajo se mantiene. El modelo concreto de hoy es otro, así que la comparación vigente está en [GPT-5 vs Claude para programar](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/).
 
 ### El contexto largo: el cambio que menos esperaba
 
