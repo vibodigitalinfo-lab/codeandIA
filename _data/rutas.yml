@@ -133,6 +133,8 @@
       nota: "Qué es MCP, sin humo."
     - path: "/articulos/guias/agents-md-guia-2026/"
       nota: "El archivo que decide cómo trabaja tu agente."
+    - path: "/articulos/guias/angular-con-ia-ficheros-reglas-2026/"
+      nota: "Cómo tener al framework de tu parte cuando escribes con IA."
     - path: "/articulos/listas/ficheros-contexto-ia-2026/"
       nota: "Los ficheros que tu agente lee antes de trabajar contigo."
     - path: "/articulos/guias/github-copilot-agent-mode-2026-guia/"
