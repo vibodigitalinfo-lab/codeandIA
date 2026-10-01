@@ -4,6 +4,7 @@ title: "Angular con IA: los ficheros de reglas que te da el framework"
 description: "Angular 22 trae un fichero de reglas para cada editor con IA, llms.txt y un servidor MCP. Cómo configurarlos para que el copiloto no te dé código de 2019."
 category: "Guía"
 date: 2026-10-01
+last_modified_at: 2026-10-01
 readtime: 9
 ---
 
