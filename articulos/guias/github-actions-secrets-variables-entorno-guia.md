@@ -5,7 +5,7 @@ description: "Guía paso a paso para usar secrets, variables y environments en G
 category: "Guía"
 date: 2026-07-20
 readtime: 7
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-01
 ---
 
 Cuando empecé con GitHub Actions, me pasé una tarde entera intentando pasar una API key a mi workflow. No funcionaba, el error no decía nada útil, y estaba a punto de meter la key directamente en el archivo YAML (spoiler: eso es un error GRAVE).
@@ -240,6 +240,8 @@ Configurar secrets y variables en GitHub Actions parece complicado al principio,
 Lo más importante: **nunca** expongas credenciales en tu código, siempre usa secrets para datos sensibles, y aprovecha los environments para separar configuraciones por entorno.
 
 Regla de oro: si un secreto se ha filtrado una vez, da por hecho que está comprometido y rótalo. Mejor pasar por aburrido que por hacker.
+
+Un workflow que despliega bien es el que te permite subir el proyecto a una URL y enseñarlo en la entrevista. Para eso, [qué plataforma gratuita usar para publicarlo](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) y [qué dominio comprar para el primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/): son las dos decisiones que van detrás de cada deploy.
 
 ## Sigue por aquí
 

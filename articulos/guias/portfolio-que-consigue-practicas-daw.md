@@ -5,6 +5,7 @@ description: "Cómo montar un portfolio que te consiga prácticas de DAW con IA:
 category: "Guía"
 date: 2026-08-06
 readtime: 7
+last_modified_at: 2026-10-01
 ---
 
 ## Mi primer portfolio era un cajón desordenado
@@ -73,6 +74,8 @@ Este es el mío, que imprimo mentalmente cada vez que actualizo el portfolio:
 La clave de todo esto es que la IA te ha dado la *velocidad* para ir de cero a un portfolio digno en días, pero el argumento (qué eres y por qué te eligen) sigue siendo tuyo. Cuando lo entiendes así, el portfolio deja de ser estrés y se convierte en lo que debería haber sido desde el principio: una herramienta de venta, no un diario de código.
 
 Y si me escribes a ivan@codeandia.com contándome qué has subido ya, te digo la primera cosa que cambiaría. Y la segunda, si te veo motivado.
+
+Para el hosting, lo normal en un portfolio de DAW es no pagar nada: lo tienes resuelto en [Vercel frente a Netlify y GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/). Y cuando quieras que el enlace se vea serio en la candidatura, [qué dominio comprar](/articulos/guias/que-dominio-comprar-primer-proyecto-web/).
 
 ## Sigue por aquí
 
