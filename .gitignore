@@ -18,8 +18,11 @@ curso/
 # Diario e informes internos (solo local, no público)
 _informes/
 
-# Script de control de fechas (herramienta local de validación)
-fechas_check.py
+# fechas_check.py ya NO se ignora: la CI lo ejecuta en cada push y sin el el
+# workflow "Validar" falla. No tiene datos personales, solo fechas de los
+# artículos, que ya son públicas.
+#
+# .vercel y .env* siguen fuera: eso sí son secretos.
 .vercel
 .env*
 # Plan de negocio interno: nunca en el repo publico
