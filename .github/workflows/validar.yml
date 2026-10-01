@@ -24,6 +24,11 @@ jobs:
         with:
           python-version: '3.12'
 
+      # fechas_check.py, auditar_reviews.py y el paso de _config.yml usan
+      # PyYAML. El runner no lo trae de serie.
+      - name: Instalar dependencias
+        run: pip install --quiet pyyaml
+
       - name: Fechas sin repetir ni futuras
         run: python fechas_check.py
 
