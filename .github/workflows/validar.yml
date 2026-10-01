@@ -55,3 +55,63 @@ jobs:
               sys.exit(1)
           print('_config.yml parsea')
           PY
+
+      # El log de Pages esta capado a 4096 caracteres y el error real sale al
+      # final, asi que un fallo de Liquid se lee como "Build with Jekyll
+      # failed" sin mas. Esta comprobacion adelanta los dos fallos que ya han
+      # roto la build: un assign con comillas desbalanceadas (Liquid ve el "
+      # como cierre de cadena) y un frontmatter que no parsea.
+      #
+      # feed.xml se deja fuera a proposito: sus assigns construyen HTML de
+      # las entradas y traen comillas legitimas.
+      - name: Liquid y frontmatter saneables
+        run: |
+          python - <<'PY'
+          import io, os, re, sys, yaml
+
+          fallos = []
+
+          for raiz, dirs, files in os.walk('.'):
+              dirs[:] = [d for d in dirs
+                         if d not in ('.git', '_site', 'node_modules')]
+              for f in files:
+                  if not f.endswith(('.html', '.md')):
+                      continue
+                  rel = os.path.join(raiz, f).replace('\\', '/')
+                  if rel.startswith(('./AGENTS', './README', './PROMPT')):
+                      continue
+                  texto = io.open(rel, encoding='utf-8',
+                                  errors='replace').read()
+
+                  m = re.match(r'^---\r?\n(.*?)\r?\n---', texto, re.S)
+                  if m:
+                      try:
+                          yaml.safe_load(m.group(1))
+                      except Exception as e:
+                          fallos.append('%s: frontmatter invalido: %s'
+                                        % (rel, str(e).split('\n')[0]))
+
+                  for i, linea in enumerate(texto.splitlines(), 1):
+                      a = re.search(
+                          r'\{%-?\s*assign\s+(\w+)\s*=\s*(.*?)\s*-?%\}',
+                          linea)
+                      if not a:
+                          continue
+                      valor = a.group(2)
+                      # where_exp/where legitimos traen comillas internas,
+                      # pero un string plano con un " de mas es el fallo
+                      # que tiro la build el 2026-10-01.
+                      if valor.count('"') > 2 and '|' in valor \
+                              and '.md' in valor:
+                          fallos.append('%s:%d assign con comillas raras: %s'
+                                        % (rel, i, valor[:70]))
+                      if valor.count('"') % 2:
+                          fallos.append('%s:%d comillas sin cerrar: %s'
+                                        % (rel, i, valor[:70]))
+
+          for f in fallos:
+              print('FALLO %s' % f)
+          if fallos:
+              sys.exit(1)
+          print('Liquid y frontmatter correctos')
+          PY

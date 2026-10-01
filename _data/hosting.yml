@@ -1,0 +1,12 @@
+- titulo: "Si te estás preguntando qué hosting elegir"
+  intro: "Por aquí empieza: es la pregunta más común y la que menos opciones tiene si lo que necesitas es algo sencillo."
+  articulos:
+    - /articulos/reviews/hostinger-review-2026/
+    - /articulos/guias/que-hosting-elegir-estudiantes-daw-2026/
+    - /articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/
+- titulo: "Si lo que quieres es comprar el dominio"
+  intro: "El hosting y el dominio son dos cuentas distintas y se compran en sitios distintos. Esto es lo que escribí de cada una."
+  articulos:
+    - /articulos/guias/que-dominio-comprar-primer-proyecto-web/
+    - /articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/
+    - /articulos/comparativas/hostinger-vs-namecheap-primer-dominio/
