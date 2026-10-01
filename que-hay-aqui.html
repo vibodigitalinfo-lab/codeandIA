@@ -1,0 +1,107 @@
+---
+layout: default
+title: "Qué hay en codeandIA"
+description: "Un índice para saber dónde está cada cosa: artículos sobre IA para programar, rutas guiadas, cheatsheets, setup de escritorio, hosting y dominios, ofertas y las páginas que explican cómo pruebo lo que escribo."
+permalink: /que-hay-aqui/
+last_modified_at: 2026-10-01
+---
+
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" %}
+{% assign guias = arts | where: "category", "Guía" %}
+{% assign comparativas = arts | where: "category", "Comparativa" %}
+{% assign listas = arts | where: "category", "Lista" %}
+{% assign reviews = arts | where: "category", "Review" %}
+{% assign hardware = arts | where: "tema", "hardware" %}
+{% assign total_pasos = 0 %}
+{% for r in site.data.rutas %}{% assign total_pasos = total_pasos | plus: r.pasos.size %}{% endfor %}
+
+<section class="section section-alt">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Migas de pan">
+      <a href="{{ '/' | relative_url }}">Inicio</a> <span aria-hidden="true">/</span> <span>Qué hay aquí</span>
+    </nav>
+    <header class="articles-hero">
+      <h1 class="hero-title">Qué hay en codeandIA</h1>
+      <p>Apuntes de un estudiante de DAW sobre programar con IA. Esto es el índice del sitio: qué hay en cada apartado y para qué te sirve.</p>
+    </header>
+    <p class="section-intro">Hay {{ arts | size }} artículos. Casi todos son sobre herramientas de IA para programar, pero también hay un setup de escritorio y un bloque de hosting y dominios, porque publicar lo que construyes es parte de lo mismo. Cada bloque va en su propia página y no se mezclan entre sí.</p>
+    <p class="section-note">Si vienes por primera vez, la lectura que menos esfuerzo te va a costar es esta: <a href="{{ '/sobre-mi/' | relative_url }}">Sobre mí</a>, <a href="{{ '/como-trabajamos/' | relative_url }}">Cómo trabajamos con IA</a> y <a href="{{ '/' | relative_url }}#metodologia">Cómo pruebo cada herramienta</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Aprender a programar con IA</h2>
+    <p class="section-intro">Es el bloque principal del blog: herramientas de IA para programar, probadas a mano.</p>
+
+    <div class="index-cards">
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/articulos/' | relative_url }}">Todos los artículos</a></h3>
+        <p>{{ arts | size }} artículos filtrables por categoría y con buscador. Reviews, comparativas, guías y listas, cada uno con su fecha de revisión.</p>
+      </div>
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/rutas/' | relative_url }}">Rutas de aprendizaje</a></h3>
+        <p>{{ site.data.rutas.size }} rutas guiadas con {{ total_pasos }} pasos en total. No es leer artículos sueltos: es un orden con sentido, del entorno al primer proyecto publicado.</p>
+      </div>
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/cheatsheets/' | relative_url }}">Cheatsheets</a></h3>
+        <p>Hojas de referencia para consultar sin leer un artículo entero: prompts con código, atajos de VS Code, Git, Docker y regex.</p>
+        <p class="index-card-meta">{% if site.data.cheatsheets %}{{ site.data.cheatsheets.size }} hojas{% endif %}</p>
+      </div>
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/buscar/' | relative_url }}">Buscar</a></h3>
+        <p>Buscador sobre todo el contenido, artículos y cheatsheets a la vez.</p>
+      </div>
+    </div>
+
+    <div class="index-counts">
+      <a class="index-count" href="{{ '/guias/' | relative_url }}"><strong>{{ guias | size }}</strong> guías</a>
+      <a class="index-count" href="{{ '/comparativas/' | relative_url }}"><strong>{{ comparativas | size }}</strong> comparativas</a>
+      <a class="index-count" href="{{ '/reviews/' | relative_url }}"><strong>{{ reviews | size }}</strong> reviews</a>
+      <a class="index-count" href="{{ '/listas/' | relative_url }}"><strong>{{ listas | size }}</strong> listas</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Lo que no es de IA</h2>
+    <p class="section-intro">Dos bloques aparte, porque son otra cosa y mezclados con las guías de IA pierden sentido. Van con precios y fecha de comprobación.</p>
+
+    <div class="index-cards">
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/setup/' | relative_url }}">Setup de escritorio</a></h3>
+        <p>Monitor, teclado, silla, escritorio y los accesorios que de verdad importan. Lo que tengo en la mesa y lo que solo he elegido investigando van marcados como son, y en ambos casos con el precio y la fecha en que lo miré.</p>
+        <p class="index-card-meta">{{ hardware | size }} guías</p>
+      </div>
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/hosting/' | relative_url }}">Hosting y dominios</a></h3>
+        <p>Dónde publicar lo que construyes: qué hosting contratar, dónde comprar el dominio y qué proveedor gana en cada caso. Incluye el orden de compra que menos dinero te hace gastar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Lo que cambia y lo que queda</h2>
+    <p class="section-intro">Ofertas de hosting y dominios cuando las hay, enlaces guardados y los cambios legales. Lo que no cambia nunca es el método.</p>
+
+    <div class="index-cards">
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/ofertas/' | relative_url }}">Ofertas</a></h3>
+        <p>Black Friday, Navidad y ofertas de los proveedores que pruebo. Con la fecha de cuando la comprobé, porque estas cosas caducan.</p>
+      </div>
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/guardados/' | relative_url }}">Mis guardados</a></h3>
+        <p>Lo que me guardo para consultar. Es una página personal, no entra en el buscador ni en Google.</p>
+      </div>
+      <div class="index-card">
+        <h3 class="index-card-title"><a href="{{ '/feed.xml' | relative_url }}">RSS</a></h3>
+        <p>Si prefieres leerlo en tu propio lector, el feed está aquí.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include newsletter.html %}

@@ -6,14 +6,14 @@ category: "Review"
 date: 2026-06-28
 updated: 2026-09-30
 readtime: 14
-version: "Claude Code CLI con Opus 4.7 (plan Pro, 20 $/mes)"
+version: "Claude Code CLI con Opus 4.7 (plan Pro, 20 $/mes). Probado en junio de 2026; desde entonces hay versiones más nuevas, así que lo que sigue describe esa versión concreta"
 tiempo: "una sesión intensiva de 22 minutos sobre ~80 archivos"
 proyecto: "migración Spring Boot 2.7→3.3 y Java 17→21 en las prácticas"
 limites: "el coste va por tokens y sube sin aviso; los límites de uso de los planes los cambia Anthropic cuando quiere"
 affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"
 affiliate_label: "Ver planes Claude"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-01
 ---
 
 La primera vez que vi a alguien con experiencia usando Claude Code en directo, pensé: "esto es trampa". Escribió en la terminal: `claude "refactoriza todo el módulo de pagos a arquitectura hexagonal, añade tests y actualiza la documentación"`. **Y lo hizo**. En 20 minutos. Lo que a mí me habría llevado dos días.
@@ -30,7 +30,7 @@ Te cuento qué es, cómo se diferencia de Cursor y Copilot, qué cuesta realment
 | **Modelo** | Solo Claude | Multi-modelo | Multi-modelo |
 | **Contexto** | **Lee repo entero a demanda** | Índice propio (potente) | Índice semántico VS Code |
 | **MCP** | Nativo, de serie | Cliente MCP | Cliente MCP (`.vscode/mcp.json`) |
-| **Dynamic Workflows** | Sí, sub-agentes en paralelo | No | No |
+| **Dynamic Workflows** | Sí, script de orquestación con sub-agentes en paralelo | Sub-agentes (`/multitask`) | `'/fleet'` en la CLI |
 | **Hooks** | Sí, deterministas (pre-tool, post-tool) | No | No |
 | **Agent SDK** | Sí, construyes tus propios agentes | No | No |
 | **Git/PRs** | Nativo (`git`, `gh`) | Sí | Sí |
@@ -47,6 +47,8 @@ Claude escribe **andamiajes en JavaScript** (*harnesses*) que lanzan sub-agentes
 - **Revisión en abanico**: 50 agentes revisan 50 archivos en paralelo para buscar fallos.
 
 Esto no es "ingeniería de prompts". Es **orquestación programática de agentes**: escribes el andamiaje una vez y lo reutilizas.
+
+> **Aviso sobre la versión (actualizado el 30/09/2026).** La Dynamic Workflows que describo aquí es real y sigue vigente, pero mi prueba es de **junio de 2026 con Opus 4.7**. Desde entonces Anthropic ha sacado versiones nuevas y ha cambiado algún detalle de cómo se lanza (la palabra activadora y el comando de esfuerzo cambiaron de nombre). Lo que no cambia es el patrón: el script decide el reparto de los subagentes, no el modelo turno a turno.
 
 ### Tareas programadas (Routines)
 Trabajos que se lanzan solos o desde una API: "cada noche a las 3, revisa dependencias obsoletas y abre PRs". Corre en la nube de Anthropic, no en tu máquina.

@@ -2181,11 +2181,11 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
-  gap: 2.2rem;
-  padding: 2.8rem 0 2.2rem;
-}
+    display: grid;
+    grid-template-columns: 1.3fr repeat(4, 1fr);
+    gap: 2rem;
+    padding: 2.8rem 0 2.2rem;
+  }
 
 .footer-brand {
   display: flex;
@@ -2823,6 +2823,83 @@ a.tool-card:hover {
   border-color: var(--accent);
 }
 
+/* ================= Índice (/que-hay-aqui/) ================= */
+
+.index-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.8rem;
+}
+
+.index-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.3rem 1.4rem;
+}
+
+.index-card-title {
+  margin: 0 0 0.6rem;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.index-card-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.index-card-title a:hover {
+  color: var(--accent-text);
+  text-decoration: underline;
+}
+
+.index-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.index-card-meta {
+  margin-top: 0.7rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.index-counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.index-count {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+.index-count strong {
+  color: var(--accent-text);
+  font-size: 1.05rem;
+}
+
+.index-count:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
 /* ================= Setup (/setup/) ================= */
 
 /* Reutiliza el aspecto de .oferta-card: son las mismas fichas de producto,
@@ -3053,6 +3130,14 @@ a.tool-card:hover {
     grid-template-columns: 1fr;
   }
 
+  .index-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .index-counts {
+    gap: 0.6rem;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 2.6rem;
@@ -3075,6 +3160,19 @@ a.tool-card:hover {
 
   .footer-grid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* El pie paso de 3 a 5 columnas al reorganizarlo por bloques, asi que
+   hace falta un escalon intermedio: en tablet 3 columnas y en movil 1. */
+@media (max-width: 1000px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
   }
 }
 

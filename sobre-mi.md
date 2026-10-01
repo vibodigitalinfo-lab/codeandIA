@@ -3,7 +3,7 @@ layout: default
 title: "Sobre mí"
 description: "Soy Iván, estudiante de Desarrollo de Aplicaciones Web. Escribo reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y con precios reales en España."
 permalink: /sobre-mi/
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-01
 ---
 
 <section class="section section-alt">
@@ -21,7 +21,7 @@ last_modified_at: 2026-09-30
       <li><strong>Reviews:</strong> una herramienta por artículo, usada semanas en proyectos reales de clase, con lo bueno y lo malo.</li>
       <li><strong>Comparativas:</strong> dos o más opciones frente a frente, con precios reales y el caso de uso recomendado.</li>
       <li><strong>Guías:</strong> paso a paso para hacer cosas concretas con IA (apuntes, Git, SQL, un portfolio que dé prácticas).</li>
-      <li><strong>Listas:</strong> teclados, monitores, extensiones, recursos, con precios de tiendas españolas y enlaces honestos.</li>
+      <li><strong>Listas:</strong> teclados, monitores, extensiones, recursos, con precios de tiendas españolas y enlaces honestos. Aquí es donde más se nota la diferencia: el software lo he probado, el hardware lo he estudiado.</li>
     </ul>
   </div>
 </section>
@@ -30,7 +30,8 @@ last_modified_at: 2026-09-30
   <div class="container container-narrow">
     <h2 class="section-title">Cómo pruebo cada herramienta</h2>
     <ol class="method-list">
-      <li><strong>La uso de verdad.</strong> En proyectos reales, no en un tutorial de cinco minutos ni leyendo su blog.</li>
+      <li><strong>Las de software, las uso de verdad.</strong> Editors, asistentes de IA, CLIs y herramientas de código las pruebo en proyectos reales de clase, no en un tutorial de cinco minutos ni leyendo su blog. Cuando algo no lo he podido probar, el artículo lo dice arriba.</li>
+      <li><strong>El hardware lo elijo investigando.</strong> Monitor, teclado, silla, escritorio y periféricos casi ninguno los tengo comprados: son recomendaciones por especificaciones, por precio y por opiniones que contrasto. No te voy a vender la experiencia de haber usado algo que no he usado. Lo que sí hago es poner siempre el precio y la fecha en que lo miré.</li>
       <li><strong>Mido lo que importa:</strong> velocidad, límites, precio real y si te hace mejor programador o solo más rápido.</li>
       <li><strong>Actualizo.</strong> Si cambian precios, planes o funciones, edito el artículo.</li>
       <li><strong>También cuento lo malo.</strong> Si algo no me convence, lo digo. No me pagan por recomendar.</li>

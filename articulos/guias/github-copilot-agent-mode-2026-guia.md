@@ -8,7 +8,7 @@ readtime: 9
 affiliate_text: "Activa Copilot Pro y prueba Agent Mode en VS Code hoy"
 affiliate_url: "https://github.com/features/copilot/plans"
 affiliate_label: "Ver planes Copilot"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-01
 ---
 
 Hasta abril 2025, GitHub Copilot era "autocompletado en esteroides" (modo Chat) o "edita varios archivos si se los seleccionas" (modo Edit). **Agent Mode cambió las reglas**: ahora Copilot **planifica, edita múltiples archivos, ejecuta comandos en terminal, ve los errores, y se corrige solo en bucle** hasta que la tarea funciona.
@@ -125,6 +125,8 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 | **Dynamic Workflows** | ❌ | ❌ | ✅ **Paralelismo masivo** |
 | **Precio base** | $10/mes (Pro) | $20/mes (Pro) | $20/mes (Pro) |
 | **Mejor para** | Usuarios VS Code, empresas, GitHub ecosystem | Devs que quieren IDE IA-first | Seniors, terminal-first, flujos de trabajo complejos |
+
+> **Sobre los dos ❌ de la fila Dynamic Workflows.** Aquí comparo **Copilot Agent Mode**, que es el modo dentro de VS Code, no la CLI de Copilot. Esa CLI sí tiene paralelismo masivo desde su comando `'/fleet'`, así que el ❌ no significa que Copilot no pueda hacerlo: significa que el modo de VS Code no lo hace. Lo mismo con Cursor, que tiene sub-agentes en paralelo pero sin el script de orquestación que escribe Claude Code. La diferencia real no es "quién puede", sino quién decide el reparto de los subagentes: en Claude Code lo decide un script.
 
 **Mi impresión tras probarlos en el mismo proyecto** (nada de benchmarks ajenos: es mi experiencia, y en tareas nuevas puede cambiar): Cursor y Claude Code **me dan mejor código que Copilot** en calidad, razonamiento y en terminar tareas complejas de principio a fin. Copilot gana en **integración con GitHub (SSO, licencias, Knowledge Bases)** y en **vivir dentro de VS Code, que es el editor de clase**.
 
