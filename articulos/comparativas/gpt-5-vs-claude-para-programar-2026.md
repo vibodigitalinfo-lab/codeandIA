@@ -4,6 +4,8 @@ title: "GPT-5 vs Claude: cuál programa mejor en 2026"
 description: "GPT-5 vs Claude para programar en 2026: benchmarks reales, planes gratuitos y mi experiencia en proyectos de DAW para decidir cuál usar."
 category: "Comparativa"
 date: 2026-07-27
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 readtime: 8
 ---
 
@@ -11,9 +13,9 @@ Cada vez que los profesores de DAW nos sueltan un módulo nuevo, la pregunta del
 
 ## Qué son hoy estos dos modelos
 
-Para no marear: el 17 de septiembre de 2026 la familia GPT-5 va por la 5.6, y la familia Claude ha pasado por Fable 5, Opus 5 y el nuevo Sonnet 5. Te lo resumo rápido:
+Para no marear: comprobado el 2 de octubre de 2026, la familia GPT-5 va por la 5.6, y la familia Claude ha pasado por Fable 5, Opus 5 y el nuevo Sonnet 5. Te lo resumo rápido:
 
-**OpenAI:** El modelo barato y suficiente para el día a día es el GPT-5.6 Luna, que es el que llevas gratis en ChatGPT Free. Si pagas Plus (20 dólares al mes), accedes al GPT-5.6 Sol, el más potente. Las últimas novedades que importan: OpenAI recortó los precios de la API un 20% hace dos meses para competir, y hay un modelo gratuito con textos "ilimitados" desde agosto de 2026, aunque las herramientas como análisis de archivos o generación sí tienen límites reales que no publican con precisión.
+**OpenAI:** El modelo barato y suficiente para el día a día es el GPT-5.6 Luna, que es el que llevas gratis en ChatGPT Free. Si pagas Plus (20 dólares al mes), accedes al GPT-5.6 Sol, el más potente. Las últimas novedades que importan: OpenAI recortó los precios de la API un 20% en septiembre de 2026 para competir, y hay un modelo gratuito con textos "ilimitados" desde agosto de 2026, aunque las herramientas como análisis de archivos o generación sí tienen límites reales que no publican con precisión.
 
 **Anthropic:** El ganador gratuito de esta batalla es el Claude Sonnet 5: es el modelo que llevas con la cuenta gratis, y con 1 millón de tokens de contexto es el más capaz de lo que te dan sin gastar un euro. Pro, a 20 dólares al mes, te abre Opus y el modo Fable (los más potentes del mercado). Anthropic sí tiene límites de mensajes publicados para Free: en torno a 15-40 mensajes por ventana de 5 horas, aunque eso varía mucho según el tamaño de los mensajes.
 

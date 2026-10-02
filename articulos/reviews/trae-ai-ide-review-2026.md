@@ -13,7 +13,7 @@ affiliate_text: "Prueba Trae gratis y compara su agente con Cursor"
 affiliate_url: "https://www.trae.ai"
 affiliate_label: "Descargar Trae"
 updated: 2026-09-30
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-02
 ---
 
 Llevo mes y medio con Trae instalado junto a Cursor y VS Code. No es que haya tirado los otros dos —de hecho, para las prácticas de Java sigo con VS Code y Copilot, y a Cursor lo abro de vez en cuando— pero Trae me ha sorprendido lo suficiente como para dedicarle este artículo. **Es el primer editor "IA-first" que no te cobra por el agente autónomo**. Y eso, siendo estudiante, cambia las reglas del juego.
@@ -43,7 +43,7 @@ Trae no tiene "chat" y "composer" separados. Tiene **Builder**. Le dices "crea u
 1. **Planifica** (te muestra pasos, archivos a crear/modificar)
 2. **Pide confirmación** antes de tocar código (puedes editar el plan)
 3. **Ejecuta** archivo a archivo, corriendo tests y compilando entre medias
-4. **Se auto-corribe** si falla el build (lee el error, arregla, reintenta)
+4. **Se autocorrige** si falla el build (lee el error, arregla, reintenta)
 
 Lo probé con un proyecto real de prácticas DWES: **un microservicio de pagos con Stripe, 12 endpoints, 3 entidades JPA, tests de integración con Testcontainers**. Builder lo sacó en **22 minutos** (vs 35-40 min haciéndolo yo con Copilot Agent). La diferencia: **Trae no te pregunta "¿aplico esto?" en cada archivo**; ejecuta el plan completo y te avisa al final. Si falla, reintenta solo.
 

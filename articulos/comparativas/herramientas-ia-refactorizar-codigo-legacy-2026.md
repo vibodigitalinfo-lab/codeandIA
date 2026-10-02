@@ -4,8 +4,9 @@ title: "IA para refactorizar código legacy: cuál funciona mejor en 2026"
 description: "Comparativa de Cursor, Copilot, Claude y Continue para refactorizar código viejo: mi experiencia real con proyectos heredados y código espagueti."
 category: "Comparativa"
 date: 2026-07-13
+updated: 2026-10-02
 readtime: 8
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-02
 ---
 
 Heredé un proyecto de JavaScript de hace 3 años con funciones de 300 líneas, variables llamadas `data2` y `temp`, y [cero tests](/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/). Toda la documentación era un README de 4 líneas. Si esto os suena, sabéis que refactorizar código legacy es una de las tareas más duras de programar.
@@ -38,7 +39,7 @@ El objetivo era refactorizar 5 módulos clave del proyecto para que fueran mante
 - Entiende el contexto de todo el proyecto
 - Puede hacer cambios en múltiples archivos a la vez
 - Respeta las convenciones existentes del código
-- Los resultados son bastante buenos (80% útil sin edits)
+- Los resultados son bastante buenos: la mayoría de los 5 módulos del proyecto de prueba salieron utilizables sin que yo tocara una línea. Es mi conteo manual sobre esos 5 módulos, no un porcentaje medido con herramienta.
 
 **Desventajas:**
 - A veces cambia cosas que no debería
@@ -118,13 +119,15 @@ El objetivo era refactorizar 5 módulos clave del proyecto para que fueran mante
 
 ## Comparativa directa
 
+Ojo con esta tabla antes de leerla: las estrellas son **mi impresión** después de refactorizar los 5 módulos del proyecto de prueba de arriba con cada herramienta. No es una medición automática ni un benchmark, así que tómala como resumen de lo que conté más arriba, no como una nota oficial.
+
 | Criterio | Cursor | Copilot | Claude | Continue |
 |---|---|---|---|---|
 | Refactorización grande | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Cambios puntuales | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Análisis/arquitectura | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
 | Velocidad | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ |
-| Precio | $20/mes | $10/mes | Gratis/Pro | Gratis (+LLM) |
+| Precio | $20/mes | $10/mes | Incluido en Pro ($20) | Gratis (+LLM) |
 | Curva de aprendizaje | Baja | Muy baja | Baja | Media |
 
 ## Mi flujo recomendado
