@@ -5,14 +5,15 @@ description: "Review honesta de Warp terminal: bloques, IA integrada, precios, W
 category: "Review"
 date: 2026-06-23
 readtime: 8
-version: "Warp reescrito en Rust (plan Build, 18 $/mes con facturación anual)"
+version: "Warp reescrito en Rust (plan Build, 18 $/mes con facturación anual; 20 $/mes al mes); comprobado el 2 de octubre de 2026"
 tiempo: "un par de meses de uso diario"
 proyecto: "prácticas con Docker, Kubernetes y CI/CD"
 limites: "exige login obligatorio incluso en el plan gratis"
 affiliate_text: "Prueba Warp gratis y decide si te cambia el flujo en terminal"
 affiliate_url: "https://www.warp.dev/pricing"
 affiliate_label: "Ver planes Warp"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 Confieso: durante años mi terminal fue "la que viene de serie" (Terminal.app en Mac, WSL en Windows, gnome-terminal en Linux). No le daba vueltas. Pero el año pasado empecé a ver a compañeros que usaban Warp y **hacían cosas en segundos que a mí me llevaban minutos**: buscar un comando que usé hace tres semanas, que la IA me escribiera un `find` complejo sin mirar la man page, compartir una sesión con un compañero para depurar juntos.
@@ -71,7 +72,7 @@ El **login obligatorio** es lo que más rechazo genera en la comunidad (Reddit, 
 
 ---
 
-## Precios reales (septiembre 2026, anual = ~10% descuento)
+## Precios reales (comprobados el 2 de octubre de 2026; el anual sale unos 10 % más barato)
 
 | Plan | Mensual | Anual | Créditos/mes | Para quién |
 |------|---------|-------|--------------|------------|

@@ -4,12 +4,13 @@ title: "Gemini CLI en 2026: el agente de Google que corre en tu terminal"
 description: "Gemini CLI es el agente de terminal de Google: instalación, cómo lee tu repositorio, permisos, precio con AI Studio y si le gana a Codex CLI o Claude Code."
 category: "Review"
 date: 2026-09-16
-readtime: 6
+readtime: 7
 version: "@google/gemini-cli con la clave gratis de AI Studio"
 tiempo: "una temporada entera en las prácticas, desde que se lanzó"
 proyecto: "la API REST de Spring Boot como conejillo de indias"
 limites: "pide confirmación a cada rato y Google cambia el nombre a los productos cada poco"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 Google llevaba un año llenándonos la cabeza con agentes: los tienes en el editor, en la web y en sus planes de pago, todos repasados en [las herramientas de IA de Google](/articulos/listas/herramientas-ia-google-2026/). La pieza que me faltaba era la del sitio donde vivo cuando programo: la terminal. Hace unas semanas la lanzaron con todo el mohín del mundo y decidí dejarla una temporada en las prácticas para contarte si es una alternativa real a [Codex CLI](/articulos/reviews/codex-cli-openai-review-2026/) y a [Claude Code](/articulos/reviews/claude-code-cli-review-2026/), o si es Google añadiendo una pestaña más.
@@ -30,10 +31,10 @@ En Windows lo suyo es WSL, como pasa con el resto de agentes de terminal. La ins
 
 Aquí Google hace una jugada que no esperaba. Puedes usarlo con una **clave de API de AI Studio**, el laboratorio gratuito de Google, o conectarlo a tu cuenta de Gemini para que el consumo salga del plan que ya tengas.
 
-- **Con clave de AI Studio** funciona gratis y sin suscripción, con límites por ventana de tiempo. Es la puerta de entrada que no tiene nadie más hoy: un agente de terminal sin pasar por caja.
+- **Con clave de AI Studio** funciona gratis y sin suscripción. Los límites que ponían el 2 de octubre de 2026, según el README oficial del proyecto, son **60 peticiones por minuto y 1.000 por día** con cuenta personal de Google. Es la puerta de entrada que no tiene nadie más hoy: un agente de terminal sin pasar por caja.
 - **Con tu plan de Gemini** el uso cuenta dentro de lo que ya pagas o del nivel gratuito del plan. Si eres de los que usa Gemini para el resto de tu vida digital, esto es lo que te ahorra una suscripción más.
 
-Los modelos que mueve por defecto son los de Gemini con razonamiento, y dejan elegir entre el modelo de siempre y las variantes rápidas para lo que escribe respuestas cortas. Sin los precios de cada plan aquí, porque los tienes actualizados en [herramientas de IA de Google](/articulos/listas/herramientas-ia-google-2026/); lo que sí te confirmo es que no pide tajada extra por la herramienta en sí.
+Los modelos que mueve por defecto son los de **Gemini 3**, con ventana de contexto de **1 millón de tokens**, y dejan elegir entre el modelo de siempre y las variantes rápidas para lo que escribe respuestas cortas. Sin los precios de cada plan aquí, porque los tienes actualizados en [herramientas de IA de Google](/articulos/listas/herramientas-ia-google-2026/); lo que sí te confirmo es que la herramienta en sí no pide tajada extra. Y si necesitas más que 1.000 peticiones al día, con una cuenta de pago los límites suben.
 
 ## Mi experiencia real: lo que hace bien
 

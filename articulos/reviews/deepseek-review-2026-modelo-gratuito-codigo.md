@@ -4,12 +4,13 @@ title: "DeepSeek review 2026: el modelo gratuito que sigue dando guerra"
 description: "Mi review honesta de DeepSeek en 2026: qué incluye el plan gratis, cómo programa de verdad, precios de la API y la letra pequeña de la privacidad."
 category: "Review"
 date: 2026-07-25
-readtime: 8
+readtime: 9
 version: "DeepSeek V4.1-Flash (gratis) con contexto de 1M"
 tiempo: "casi a diario desde principios de 2025"
 proyecto: "flujo de DAW: CRUD de prácticas, tests y refactors con Copilot al lado"
 limites: "el código pasa por servidores en China continental; ojo con lo que pegas"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 Empecé a usar DeepSeek a principios de 2025, cuando todo el mundo hablaba del R1 gratis que rivalizaba con modelos de pago. Lo curioso es que un año y medio después sigo usándolo casi a diario, y sigue siendo gratis. Antes de escribir esto me he releído su documentación con fecha de hoy para no contarte humo: te cuento qué hay de verdad detrás del modelo chino, cómo programa para un estudiante de DAW y qué letra pequeña no te van a contar en las noticias.
@@ -47,7 +48,15 @@ Para el estudiante de DAW, el resumen es claro: para aprender, refactorizar y de
 
 ## La API: la más barata del mercado, con truco
 
-Si algún día montas algo que consuma IA por código (un asistente propio, un bot, automatizaciones), la API de DeepSeek es brutalmente barata. El modelo `deepseek-flash` (V4.1-Flash) está en torno a **0,15 dólares por millón de tokens de entrada y 0,60 por millón de salida**, y tiene la gracia del descuento off-peak: fuera de horas punta la tarifa baja a la mitad (en los fines de semana, todo el día). Además usa el mismo formato de API que OpenAI: cambias la `base_url` y tu código que llamaba a OpenAI funciona casi sin tocarlo.
+Si algún día montas algo que consuma IA por código (un asistente propio, un bot, automatizaciones), la API de DeepSeek es brutalmente barata. Con V4.1-Flash, por millón de tokens, la tabla oficial que comprobé el 2 de octubre de 2026 da esto:
+
+| Concepto | Fuera de punta | Hora punta |
+|---|---|---|
+| Entrada con caché | 0,003 $ | 0,006 $ |
+| Entrada sin caché | 0,15 $ | 0,30 $ |
+| Salida | 0,60 $ | 1,20 $ |
+
+La hora punta son las **01:00 a 04:00 UTC y las 06:00 a 10:00 UTC, de lunes a viernes**, así que la mitad de precio la consigues de madrugada o a la hora de la comida, no solo el fin de semana. Y si lo que consumes mucho es el mismo contexto otra vez (el típico caso de un chat con histórico), la entrada cacheada sale ridícula: tres milésimas por millón. Además usa el mismo formato de API que OpenAI: cambias la `base_url` y tu código que llamaba a OpenAI funciona casi sin tocarlo.
 
 Si te parece que mola para un proyecto de clase, ojo con una cosa: esa economía la paga alguien. Y ese alguien eres tú leyendo sus condiciones de uso.
 
@@ -63,7 +72,7 @@ Traducción para tu vida real: **nunca subas a DeepSeek código de las práctica
 
 - **Para aprender y practicar código sin pagar: sí, sin dudarlo.** Es la mejor opción gratuita sin límites que he probado, con un rendimiento muy cerca de modelos de pago en el día a día de DAW.
 - **Para proyectos sensibles o datos de empresa: no.** Ahí la privacidad lo descalifica y punto.
-- **Para la API barata: sí**, con el ojo puesto en el descuento off-peak, que te deja la entrada a mitad de precio.
+- **Para la API barata: sí**, con el ojo puesto en el descuento fuera de punta, que te deja la entrada y la salida a la mitad de precio si escribes el código de madrugada.
 
 La parte de "está cambiando todo" del titular... hasta cierto punto. El impacto real es que ha forzado la guerra de precios que te ha bajado las tarifas hasta a los modelos americanos, y eso sí lo notas. Pero ni es perfecto ni va a sustituir el que aprendas a programar: te da respuestas gratis, y tú sigues teniendo la obligación de entenderlas. Si quieres poner la IA al servicio del curso sin volverte dependiente, el método que uso yo está en [preparar exámenes prácticos con IA](/articulos/guias/preparar-examenes-practicos-daw-con-ia/), sin convertirme en copión.
 

@@ -9,7 +9,8 @@ version: "llama3.2:3b, qwen2.5:7b, phi4:14b y deepseek-r1:8b"
 tiempo: "un mes entero en el flujo real de clase y proyecto personal"
 proyecto: "portátil de 16 GB sin GPU dedicada: ejercicios de DAW y queries de MySQL"
 limites: "alucina más que los modelos grandes, va lento y no te da autocompletado en el editor"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 A finales del curso pasado me di cuenta de que estaba pagando tres cosas a la vez: ChatGPT Plus, GitHub Copilot Pro y Cursor. No era que las usara todas a todas horas, era más bien el miedo a quedarme sin ellas el día que hicieran falta. Y un día, mirando las facturas juntas, pensé: esto no tiene sentido para un estudiante de DAW.
@@ -41,7 +42,7 @@ Esto es lo que aprendí después de un mes: la etiqueta no lo es todo, el tamañ
 - **`phi4:14b`**: lo probé por las ganas de ver más "inteligencia", pero en mi portátil se arrastraba. Si tienes una GPU decente, seguro que rinde más; yo no.
 - **`deepseek-r1:8b`**: el que más me gustó como compañero de razonamiento, cuando le pides que piense paso a paso. Es lento en mi máquina, pero cuando le das una función de Java y le pides "encuentra el fallo", se nota que razona en voz alta.
 
-No me líes con las versiones exactas porque en esto salen modelos nuevos cada pocos meses. La idea que te tienes que llevar: los modelos de 3B no son tontos, los de 7B ya se defienden, y a partir de 8-14B en un portátil sin gráfica buena empiezas a depender de la paciencia.
+No me leas con las versiones exactas porque en esto salen modelos nuevos cada pocos meses. Los tres que uso en este artículo los he vuelto a comprobar en la biblioteca de Ollama el 2 de octubre de 2026 y siguen disponibles: `llama3.2:3b`, `qwen2.5:7b` y `deepseek-r1:8b`. La idea que te tienes que llevar: los modelos de 3B no son tontos, los de 7B ya se defienden, y a partir de 8-14B en un portátil sin gráfica buena empiezas a depender de la paciencia.
 
 ## Para qué me ha servido de verdad
 

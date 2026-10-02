@@ -4,15 +4,16 @@ title: "CodeRabbit 2026: ¿merece la pena la IA que revisa tus PRs?"
 description: "Analizo CodeRabbit, la IA que revisa pull requests: precios, comparativa con Copilot, el incidente de seguridad y si vale la pena para un estudiante."
 category: "Review"
 date: 2026-06-22
-readtime: 7
-version: "plan gratis (5 reviews/hora) y subido a Essentials (24 $/mes) para probarlo entero"
+readtime: 8
+version: "plan gratis en repos públicos (5 reviews/hora) y subido a Essentials (24 $/mes anual); precios comprobados el 2 de octubre de 2026"
 tiempo: "varias semanas revisando las entregas del ciclo"
 proyecto: "prácticas de DAW con entregas por pull request (API REST de Spring Boot)"
 limites: "sus propuestas de estilo son opinables y en el plan gratis no las puedes acallar"
 affiliate_text: "Prueba CodeRabbit gratis en repos públicos y decide si te compensa"
 affiliate_url: "https://coderabbit.ai/pricing"
 affiliate_label: "Ver planes CodeRabbit"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 Llevo semanas viendo cómo mis compañeros del ciclo se pasan horas revisando código a mano en GitHub, comentando línea por línea cosas que una IA podría pillar en segundos. El problema es que la mayoría piensa que "revisión con IA" es cosa de empresas grandes o que cuesta un riñón. CodeRabbit me llamó la atención porque tiene **plan gratis para repos públicos** y, siendo estudiante, eso ya es un filtro importante.
@@ -49,16 +50,18 @@ Lo que **no me gustó**: a veces sugiere refactors de estilo que son opinables (
 
 ## Precios: ¿qué te cuesta siendo estudiante?
 
-Aquí está la tabla real a septiembre 2026 (precios anuales, que son un 10-20% más baratos que mensuales):
+Esta es la tabla real, comprobada el 2 de octubre de 2026. Ojo con cómo se cobra: los importes de la tabla son **facturados al año**, y al mes salen bastante más caros (Essentials 30 $, Team 60 $):
 
 | Plan | Precio/año por dev | Qué incluye | Límite reviews/hora |
 |------|-------------------|-------------|---------------------|
 | **Gratis (OSS)** | $0 | Solo repos públicos | 5 |
 | **Essentials** | $24/mes ($288/año) | 5 MCP, 1 multi-repo | 5 |
 | **Team** | $48/mes ($576/año) | 10 MCP, 5 multi-repo, Triage | 8 |
-| **Advanced** | $72/mes ($864/año) | 15 MCP, 10 multi-repo, Security scans | - |
+| **Advanced** | $72/mes ($864/año) | 15 MCP, 10 multi-repo, Security scans | 10 |
 
 **Clave importante**: **solo cuentan como "asiento" los creadores de PR**. Si tu equipo son 5 pero solo 3 abren PRs habitualmente, pagas 3 asientos. Los revisores pasan gratis.
+
+**Y hay dos costes que van aparte**: si te pasas del límite horario de la tabla, cada review de más cuesta **0,25 $ por fichero revisado**, y el CodeRabbit Agent cobra **0,40 $ por minuto de agente**. El plan gratis de repos públicos sí es gratis de verdad y sin fecha de caducidad: lo único que tiene es ese tope de 5 reviews por hora y desarrollador.
 
 Para un estudiante solo: el plan **gratis en repos públicos** cubre portfolio, prácticas públicas y proyectos open source. Si haces prácticas en repo privado de la empresa/uni, toca Essentials ($24/mes). No hay descuento estudiante oficial (lo pregunté en soporte), pero el plan gratis es generoso comparado con competidores.
 
