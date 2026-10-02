@@ -1531,6 +1531,16 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   font-size: 0.92rem;
 }
 
+/* De donde sale cada dato de la ficha */
+.test-card-source {
+  margin: 0.85rem 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--text-muted);
+}
+
 /* Tabla de compra rápida */
 
 .buying-table {

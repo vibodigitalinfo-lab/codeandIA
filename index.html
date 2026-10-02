@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Herramientas de IA para programadores en España"
-description: "Reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios reales en España."
+description: "Reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios comprobados desde España: moneda, impuestos y fecha."
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
@@ -13,12 +13,12 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     <div class="hero-copy">
       <p class="hero-kicker hand">apuntes de un estudiante de DAW</p>
       <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer <span class="hero-accent">mejor dev</span>.</h1>
-      <p class="hero-subtitle">Reviews, guías y comparativas de herramientas de IA para programar, probadas a mano con precios reales en España.</p>
+      <p class="hero-subtitle">Reviews, guías y comparativas de herramientas de IA para programar, probadas a mano y con precios comprobados desde España: te digo la moneda, los impuestos y la fecha.</p>
       <div class="hero-cta">
         <a href="#articulos" class="btn btn-accent">Leer los últimos artículos</a>
         <a href="{{ "/ofertas/" | relative_url }}" class="btn btn-outline">Ofertas y setup <span aria-hidden="true">→</span></a>
       </div>
-      <p class="hero-trust">probado a mano · sin reviews pagadas · precios verificados</p>
+      <p class="hero-trust">probado a mano · sin reviews pagadas · precios con fecha e impuestos</p>
     </div>
 
     <div class="hero-visual" aria-hidden="true">

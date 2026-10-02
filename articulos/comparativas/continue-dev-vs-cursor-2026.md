@@ -5,6 +5,7 @@ description: "Continue.dev, Cursor y GitHub Copilot cara a cara: precios, privac
 category: "Comparativa"
 date: 2026-07-06
 readtime: 9
+last_modified_at: 2026-10-02
 ---
 
 Llevo años usando GitHub Copilot en el editor, Cursor me lo instalé este curso, y hace dos meses me metí Continue.dev (open source, MIT) con Ollama local para no mandar código a la nube. Tres formas de "IA que te ayuda a programar", tres precios, tres filosofías. Te las comparo **con números reales y experiencia de prácticas DAW**, no con el marketing de cada uno.
@@ -63,6 +64,8 @@ Un estudiante me preguntó: "¿Instalo Cursor o sigo con Copilot?" Otro: "¿Cont
 ---
 
 ## Ronda 3: Autocompletado (el día a día real)
+
+Las estrellas de esta tabla son **mi impresión** después de probarlas en el mismo repositorio, no una medición automática ni un benchmark. Los milisegundos de latencia son orientativos y cambiarán en tu máquina, según el modelo y la conexión.
 
 | | Copilot | Cursor (Tab) | Continue (local qwen2.5-coder:7b) |
 |---|---|---|---|
