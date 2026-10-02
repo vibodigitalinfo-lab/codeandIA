@@ -4,15 +4,16 @@ title: "Hostinger 2026: ¿es fiable para tu primer proyecto de DAW?"
 description: "Mi experiencia real con Hostinger: si es fiable para alojar tu primer proyecto de DAW sin morir en el intento."
 category: "Review"
 date: 2026-06-17
-readtime: 5
-version: "plan Premium compartido (LiteSpeed, hPanel), ~2-3 €/mes con descuento"
+readtime: 6
+version: "plan Premium compartido (LiteSpeed, hPanel), 2,59 €/mes con descuento (comprobado el 2 de octubre de 2026)"
 tiempo: "varios meses con el plan activo"
 proyecto: "el proyecto de DAW (CRUD con Laravel y Spring Boot) subido a producción"
 limites: "compartido: nada de Docker ni PostgreSQL de serie y se atraganta con joins pesados"
 affiliate_text: "Prueba Hostinger con descuento y empieza a desplegar ya"
 affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 Cuando estás en segundo de DAW y tienes tu primera aplicación web lista para salir al mundo, lo primero que te planteas es dónde la subes. Yo llevaba semanas buscando un hosting que no me costara un riñón y que no fuera un dolor de cabeza para configurar. Al final caí en Hostinger, y en este artículo te cuento exactamente qué me encontré: lo bueno, lo regular y lo que nadie te dice antes de contratar. Si todavía no tienes claro si necesitas hosting o prefieres algo gratis, tengo una guía de [cómo publicar tu primera web gratis](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) que te puede servir para empezar.
@@ -21,7 +22,7 @@ Spoiler: no es perfecto, pero para la keyword que más me importaba al buscarlo 
 
 ## Qué incluye el plan de Hostinger que usé
 
-Contraté el plan Premium Shared Hosting, que en el momento de escribir esto rondaba los 2-3€ al mes con descuento de entrada. Viene con un hPanel propio (nada de cPanel de toda la vida), SSL gratuito con Let's Encrypt, un dominio gratis el primer año y soporte para PHP, Node.js, Python y bases de datos MySQL.
+Contraté el plan Premium Shared Hosting, que cuando lo escribí rondaba los 2-3 € al mes con descuento de entrada. Lo he vuelto a comprobar en la tabla oficial el 2 de octubre de 2026 y los precios siguen en ese orden: 1,49 € al mes el Single, **2,59 € el Premium**, 3,79 € el Unlimited y 7,99 € el Cloud Startup. O sea, la cifra que tenías en mente sigue siendo válida. Viene con un hPanel propio (nada de cPanel de toda la vida), SSL gratuito con Let's Encrypt, un dominio gratis el primer año y soporte para PHP, Node.js, Python y bases de datos MySQL.
 
 Para un proyecto de DAW típico —un CRUD con Laravel o Spring Boot conectado a una base de datos relacional— eso cubre lo básico sin tener que pagar más. Lo que más me sorprendió fue que el hPanel es bastante intuitivo. No tienes que saber qué es un VirtualHost para desplegar una app; hay asistentes paso a paso que te llevan de la mano.
 

@@ -5,7 +5,8 @@ description: "Qué herramientas te da GitHub gratis por ser estudiante, cuáles 
 category: "Lista"
 date: 2026-09-07
 readtime: 6
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 El Student Pack de GitHub es el programa de descuentos para estudiantes más generoso que existe, y de los pocos que te da herramientas profesionales de verdad sin que tengas que buscar señales de oferta en un newsletter.
@@ -24,7 +25,7 @@ Lo único que me chirría es que algunas te piden que no te des de baja. Si la p
 
 Estas son las que he usado o comprobado durante el último año, con el ahorro anual estimado frente a comprar a precio normal.
 
-**GitHub Copilot, gratis.** No es lo más caro del pack, pero es lo más útil. Sin coste y sin límite de uso relevante, es lo que de verdad te acorta el día a día. Se activa en el Visual Studio Code que ya estás usando, sin cambiar el editor.
+**GitHub Copilot, gratis.** No es lo más caro del pack, pero es lo más útil. Sin coste y con el autocompletado sin límite de peticiones, es lo que de verdad te acorta el día a día. Se activa en el Visual Studio Code que ya estás usando, sin cambiar el editor. Ojo: el plan de estudiante se llama Copilot Student y el chat y los agentes sí están limitados; para escribir código, da igual. Precios y diferencias comprobados el 2 de octubre de 2026.
 
 **JetBrains All Products, sobre 60€ al año.** Si programas en IntelliJ, PyCharm, WebStorm o GoLand, este es el punto fuerte del programa. Cualquiera de esos editores cuesta unos 200€ al año, y el pack te lo deja en una fracción. El ahorro es la cifra de dos años de un editor de pago.
 

@@ -5,15 +5,16 @@ description: "Análisis a fondo del Keychron Q1 Max: gasket mount, switches, con
 category: "Review"
 tema: hardware
 date: 2026-07-23
-readtime: 6
+readtime: 7
 version: "Keychron Q1 Max con switches K Pro Red (QMK/VIA)"
 tiempo: "unas 3 semanas de uso diario"
 proyecto: "programando 8 horas al día en el puesto de estudio"
 limites: "pesa y ocupa mucho para trabajar en el portátil; el dongle 2.4 GHz se come un puerto USB"
-affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está disponible en Amazon.es, por unos 136€"
+affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está disponible en Amazon.es, a 136,62 € (comprobado el 2 de octubre de 2026)"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver el V1 Max en Amazon"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 Llevo meses tirándole indirectas a mi setup. Primero fue el [monitor ultrawide](/articulos/guias/como-elegir-monitor-programar-2026/), después el [ratón ergonómico](/articulos/listas/raton-ergonomico-programadores/), y ahora toca el teclado. Porque programar 8 horas con un teclado de oficina de 20 euros no es sostenible, os lo digo por experiencia.
@@ -60,7 +61,7 @@ Y como es QMK, toda la configuración es open source. Si sabes un poco de C, pue
 
 ## ¿Para quién es este teclado?
 
-Vamos al grano. El Keychron Q1 Max cuesta **alrededor de 250 euros**, y en Amazon España es difícil de encontrar: la ficha que había quedó descatalogada y hoy no hay una oferta fiable. No es barato. Pero hay que ponerlo en contexto:
+Vamos al grano. En la tienda oficial de Keychron España, el Q1 Max cuesta **242,99 € la versión ISO** y **269,99 € la versión US**, con precios comprobados el 2 de octubre de 2026. En Amazon España, en cambio, sigue sin haber una oferta fiable: la ficha aparece como no disponible y no se sabe cuándo vuelva. No es barato. Pero hay que ponerlo en contexto:
 
 - Es un teclado con carcasa de aluminio CNC
 - Gasket mount de serie
@@ -80,7 +81,7 @@ Si comparas con opciones similares de marcas como Mode, Keycult o Custom Keyboar
 
 Llevo usándolo unas 3 semanas y no vuelvo atrás. La diferencia al programar es notable: menos fatiga en los dedos, mejor experiencia de escritura, y personalización total con VIA.
 
-Si estás buscando un teclado que te dure años y que sea serio para programar, el Keychron Q1 Max es una inversión que merece la pena... siempre que lo encuentres, porque en Amazon España no hay una ficha fiable ahora mismo. Si quieres la experiencia Keychron sin complicarte, el [Keychron V1 Max](https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21) es la alternativa que yo recomiendo: mantiene QMK/VIA, hot-swap y el formato 75%, y ronda los 136€. Si tu presupuesto es aún más ajustado, mira el Keychron V3, con cosas similares a menor precio. Y si quieres comparar con el resto de opciones antes de decidir, tengo la lista de [los mejores teclados mecánicos para programar](/articulos/listas/mejores-teclados-mecanicos-programar/) con precios actualizados.
+Si estás buscando un teclado que te dure años y que sea serio para programar, el Keychron Q1 Max es una inversión que merece la pena... siempre que lo encuentres, porque en la tienda oficial algunas variantes están en backorder y en Amazon España la ficha continúa sin precio. Si quieres la experiencia Keychron sin complicarte, el [Keychron V1 Max](https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21) es la alternativa que yo recomiendo: mantiene QMK/VIA, hot-swap y el formato 75%, y cuesta 136,62 € (Amazon.es, comprobado el 2 de octubre de 2026). Si tu presupuesto es aún más ajustado, mira el Keychron V3, con cosas similares a menor precio. Y si quieres comparar con el resto de opciones antes de decidir, tengo la lista de [los mejores teclados mecánicos para programar](/articulos/listas/mejores-teclados-mecanicos-programar/) con precios actualizados.
 
 ¿Y vosotros, programáis con teclado mecánico? Si aún no habéis probado, preparaos porque no hay vuelta atrás.
 

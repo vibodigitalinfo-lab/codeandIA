@@ -13,7 +13,7 @@ limites: "el coste va por tokens y sube sin aviso; los límites de uso de los pl
 affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"
 affiliate_label: "Ver planes Claude"
-last_modified_at: 2026-10-01
+last_modified_at: 2026-09-30
 ---
 
 La primera vez que vi a alguien con experiencia usando Claude Code en directo, pensé: "esto es trampa". Escribió en la terminal: `claude "refactoriza todo el módulo de pagos a arquitectura hexagonal, añade tests y actualiza la documentación"`. **Y lo hizo**. En 20 minutos. Lo que a mí me habría llevado dos días.

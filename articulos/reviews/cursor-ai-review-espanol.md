@@ -4,15 +4,16 @@ title: "Cursor AI para estudiantes: ¿merece la pena? (review en español)"
 description: "Mi cursor AI review en español tras meses usándolo: rendimiento real, precio y si merece la pena para estudiantes de DAW."
 category: "Review"
 date: 2026-06-01
-readtime: 6
-version: "plan Pro (~20 $/mes) tras meses usando solo el plan gratuito"
+readtime: 7
+version: "plan Pro (20 $/mes) tras meses usando solo el plan gratuito; precio comprobado el 2 de octubre de 2026"
 tiempo: "un mes de pago a fondo, con meses gratis anteriores"
 proyecto: "prácticas de DAW: JDBC en Java, web HTML/CSS/JS, PHP con MySQL y scripts Python"
 limites: "el plan gratis se queda corto en peticiones y no debería sustituir aprender a programar"
 affiliate_text: "Prueba Cursor gratis durante 14 días"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor gratis"
-last_modified_at: 2026-09-30
+updated: 2026-10-02
+last_modified_at: 2026-10-02
 ---
 
 Cuando empecé el segundo año de DAW me prometí que iba a dejar de luchar contra el código y empezar a trabajar con él. Llevaba meses escuchando hablar de Cursor por todas partes, y al final me rendí a la curiosidad. Esta es mi cursor AI review en español después de haberlo usado de verdad, no de haberlo abierto diez minutos para hacer capturas de pantalla.
@@ -39,7 +40,9 @@ Un caso concreto: tenía una práctica de acceso a datos con JDBC en Java que me
 
 ## El precio: ¿se puede justificar siendo estudiante?
 
-Aquí viene la parte incómoda. Cursor tiene un plan gratuito que te deja probar lo esencial, pero está bastante limitado en el número de peticiones al mes. El plan Pro cuesta alrededor de 20 dólares al mes, lo que para un estudiante no es una cifra menor.
+Aquí viene la parte incómoda. Cursor tiene un plan gratuito que te deja probar lo esencial, pero está bastante limitado en el número de peticiones al mes. El plan Pro cuesta **20 dólares al mes** (comprobado el 2 de octubre de 2026), lo que para un estudiante no es una cifra menor. Y ojo con un detalle que la gente suele pasar por alto: desde finales de 2025 los planes de pago son **por consumo**. Los 20 dólares no son uso infinito, sino que incluyen unos 20 dólares de uso de modelos de terceros; si los quemas, o si el agente se pasa de elegante, puedes ver un cobro extra o tener que esperar al reinicio del mes.
+
+Si 20 dólares te parecen muchos, el escalón de arriba no mejora lo que vas a usar, solo paga más gente: Pro+ cuesta 60 dólares al mes y Ultra 200. Para un portfolio o unas prácticas, Pro es el único escalón de esa tabla que se plantea en serio.
 
 Mi opinión sincera: si programas todos los días, aunque sea para prácticas de clase, el tiempo que te ahorra justifica el precio. Si solo tocas código una vez a la semana para hacer la entrega mínima, probablemente no. Mi prueba fue esta: **estuve un mes con el plan de pago** en un proyecto real de clase, y lo que pagué no fue solo la licencia, sino el trabajo de familiarizarme con el editor antes de poder medir nada. Así que una suscripción corta y vigilada es la forma honesta de decidir: pruébalo en un proyecto tuyo, no inventado, y míralo con calma.
 
