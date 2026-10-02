@@ -1,37 +1,35 @@
-<!-- newsletter — beehiiv
+<!-- newsletter — beehiiv (formulario embebido v3)
      Dominio real de la publicación: https://newsletter.codeandia.com
      (`codeandia.beehiiv.com/subscribe` redirige allí, así que es equivalente,
       pero usamos el destino final para no gastar un salto de redirección).
 
-     Por qué NO hay iframe de embeds.beehiiv.com por defecto:
-     el ID que se usaba antes (bde739e1-87d5-4bb5-8c03-83ecd8e1bff7) es el
-     publication_id de la publicación, NO el external embed id. La API de
-     beehiiv responde 404 con {"message":"External embed not found"} y el
-     iframe pinta su propia pantalla "Not found" — que es un error de cliente,
-     así que el evento load se dispara igual y ningún fallback en JS puede
-     detectarlo desde el sitio.
+     Cómo funciona: el id de `site.newsletter.form_id` es el data-beehiiv-form
+     del snippet de beehiiv → Settings → Embed. El loader de la v3 mete su
+     propio iframe justo detrás de este <script>, así que no hay iframe a
+     mano aquí: el que pone el loader es el que trae el formulario.
 
-     Para recuperar el formulario en línea hay que poner aquí el embed id de
-     beehiiv → Settings → Embed (es un UUID distinto al de la publicación).
-     Mientras esté vacío, se muestra el botón, que funciona siempre. -->
-{% assign nl_embed = site.newsletter.embed_id | default: "" | strip %}
+     Por qué NO el publication_id (pub_bde739e1-...): ese devuelve 404 en
+     https://subscribe-forms.beehiiv.com/api/v3/forms/<id> con
+     {"success":false,"message":"External embed not found"}, y el loader no
+     pinta nada ni avisa. La v1 (embeds.beehiiv.com/<id>) daba un 404 solo
+     después de ejecutar JavaScript, que es el peor modo de fallo: parece que
+     funciona.
+
+     Para comprobar que el id es bueno, sin navegador:
+       GET https://subscribe-forms.beehiiv.com/api/v3/forms/<form_id>
+     Si responde 200 con "publication", el formulario existe.
+
+     Mientras form_id esté vacío, se muestra solo el enlace, que siempre
+     funciona. -->
+{% assign nl_form = site.newsletter.form_id | default: "" | strip %}
 {% assign nl_url = site.newsletter.subscribe_url | default: "https://newsletter.codeandia.com/subscribe" %}
 <div class="newsletter-box" id="nl-box">
   <h3 class="newsletter-title">Una vez a la semana, sin ruido</h3>
   <p class="newsletter-subtitle">Cada semana te escribo con lo que de verdad me está funcionando programando con IA: guías, comparativas y herramientas probadas. Cero relleno, cero spam, te das de baja en un clic.</p>
 
   <div class="newsletter-embed-wrapper">
-    {% if nl_embed != "" %}
-    <iframe
-      src="https://embeds.beehiiv.com/{{ nl_embed }}"
-      class="newsletter-embed"
-      title="Formulario de suscripción a la newsletter de codeandIA"
-      loading="lazy"
-      scrolling="no"
-      data-test-id="beehiiv-embed"
-      referrerpolicy="no-referrer-when-downgrade"
-      sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
-    </iframe>
+    {% if nl_form != "" %}
+    <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="{{ nl_form }}"></script>
     {% endif %}
     <p class="nl-fallback">¿Problemas con el formulario? <a href="{{ nl_url }}" target="_blank" rel="noopener">Suscríbete desde la página de beehiiv →</a></p>
   </div>

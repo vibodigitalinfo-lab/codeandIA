@@ -1763,21 +1763,13 @@ section[id], h1[id], h2[id], h3[id], h4[id] {
   font-size: 0.98rem;
 }
 
-/* Formulario alojado por beehiiv dentro de un iframe: la API v2 no se puede usar
-   desde el navegador (401 sin API key y sin cabeceras CORS). */
+/* Formulario de beehiiv v3: lo inyecta el loader
+   (subscribe-forms.beehiiv.com/v3/loader.js) con su propio iframe, ya
+   dimensionado por él. No hay iframe nuestro que estilizar, solo el hueco. */
 .newsletter-embed-wrapper {
   position: relative;
   width: 100%;
   max-width: 520px;
-}
-
-.newsletter-embed {
-  display: block;
-  width: 100%;
-  max-width: 520px;
-  height: 320px;
-  border: 0;
-  background: transparent;
 }
 
 .newsletter-cta {

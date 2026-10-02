@@ -7,15 +7,18 @@ permalink: /articulos/:slug/
 
 # Newsletter (beehiiv).
 #   subscribe_url -> donde vive la publicación; abre el formulario de alta.
-#   embed_id     -> external embed id de beehiiv (Settings → Embed) para poder
-#                   meter el formulario en línea dentro de un iframe.
-#                   OJO: NO es el publication_id. Con el publication_id la API
-#                   de beehiiv responde 404 "External embed not found" y el
-#                   iframe se pinta con su propia pantalla "Not found".
-#                   Vacío = se muestra solo el botón, que siempre funciona.
+#   form_id       -> id del formulario embebido v3 de beehiiv. Es el valor del
+#                   atributo data-beehiiv-form del snippet que da beehiiv en
+#                   Settings → Embed:
+#                   <script async src="https://subscribe-forms.beehiiv.com/v3/
+#                   loader.js" data-beehiiv-form="<form_id>"></script>
+#                   OJO: NO es el publication_id (pub_bde739e1-... ni el UUID a
+#                   secas). Ese da 404 en /api/v3/forms/<id> y el loader se
+#                   queda sin pintar nada, sin error visible en consola.
+#                   Vacío = no se carga el formulario y solo queda el enlace.
 newsletter:
   subscribe_url: "https://newsletter.codeandia.com/subscribe"
-  embed_id: ""
+  form_id: "398125df-9699-4fa2-acc2-220e805c74a8"
 
 # Plugin de sitemap automático (permitido por GitHub Pages)
 plugins:
