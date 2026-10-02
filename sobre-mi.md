@@ -18,7 +18,7 @@ last_modified_at: 2026-10-01
   <div class="container container-narrow">
     <h2 class="section-title">Qué encontrarás aquí</h2>
     <ul class="method-list">
-      <li><strong>Reviews:</strong> una herramienta por artículo, usada semanas en proyectos reales de clase, con lo bueno y lo malo.</li>
+      <li><strong>Reviews:</strong> una herramienta por artículo, con lo bueno y lo malo. El tiempo que le dedico va en la ficha de prueba de cada una, porque no es el mismo: hay herramientas que se prueban en una tarde y otras que llevan semanas.</li>
       <li><strong>Comparativas:</strong> dos o más opciones frente a frente, con precios reales y el caso de uso recomendado.</li>
       <li><strong>Guías:</strong> paso a paso para hacer cosas concretas con IA (apuntes, Git, SQL, un portfolio que dé prácticas).</li>
       <li><strong>Listas:</strong> teclados, monitores, extensiones, recursos, con precios de tiendas españolas y enlaces honestos. Aquí es donde más se nota la diferencia: el software lo he probado, el hardware lo he estudiado.</li>
@@ -34,9 +34,9 @@ last_modified_at: 2026-10-01
       <li><strong>El hardware lo elijo investigando.</strong> Monitor, teclado, silla, escritorio y periféricos casi ninguno los tengo comprados: son recomendaciones por especificaciones, por precio y por opiniones que contrasto. No te voy a vender la experiencia de haber usado algo que no he usado. Lo que sí hago es poner siempre el precio y la fecha en que lo miré.</li>
       <li><strong>Mido lo que importa:</strong> velocidad, límites, precio real y si te hace mejor programador o solo más rápido.</li>
       <li><strong>Actualizo.</strong> Si cambian precios, planes o funciones, edito el artículo.</li>
-      <li><strong>También cuento lo malo.</strong> Si algo no me convence, lo digo. No me pagan por recomendar.</li>
+      <li><strong>También cuento lo malo.</strong> Si algo no me convence, lo digo. Y si algo me gusta, también lo digo.</li>
     </ol>
-    <p class="about-text">Algunos enlaces son de afiliado: si compras desde aquí, recibo una pequeña comisión sin coste extra para ti. Eso mantiene el blog gratis y no condiciona mi opinión ni una línea.</p>
+    <p class="about-text">Nadie me paga por escribir un artículo. Lo que sí hay son enlaces de afiliado: si compras a través de ellos cobro una comisión, sin coste extra para ti, y por eso los artículos de producto llevan el aviso de transparencia al principio. Que esa comisión llegue a cambiar una valoración, nunca lo ha hecho: cuando algo no me convence, el artículo lo dice igual.</p>
     <p class="about-text">Uso herramientas de IA para escribir y revisar, y lo cuento sin rodeos en <a href="{{ "/como-trabajamos/" | relative_url }}">cómo trabajamos con IA</a>.</p>
   </div>
 </section>
