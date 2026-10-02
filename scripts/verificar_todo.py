@@ -19,6 +19,8 @@ import sys
 import yaml
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from rutas import rutas_validas, enlace_roto
 
 def error(msg):
     print(f"  [ERROR] {msg}")
@@ -48,17 +50,8 @@ def verificar():
     articulos = sorted(glob.glob(os.path.join(RAIZ, "articulos", "*", "*.md")))
     articulos_validos = [p for p in articulos if "_entrada" not in p]
 
-    # Recopilar URLs válidas para enlaces
-    site_pages = [
-        '/', '/articulos', '/guias', '/comparativas', '/listas', '/reviews',
-        '/cheatsheets', '/rutas', '/ofertas', '/sobre-mi', '/buscar',
-        '/guardados', '/aviso-legal', '/privacidad'
-    ]
-    urls = set(site_pages)
-    for p in articulos_validos:
-        rel = os.path.relpath(p, os.path.join(RAIZ, "articulos")).replace("\\", "/")
-        slug = rel.replace(".md", "")
-        urls.add(f"/articulos/{slug}")
+    # Recopilar URLs válidas para enlaces, leyendo las rutas reales del repo
+    urls = rutas_validas(RAIZ)
 
     categorias_validas = {"Guía", "Comparativa", "Lista", "Review"}
 
@@ -132,8 +125,7 @@ def verificar():
         # Enlaces internos rotos
         enlaces = re.findall(r'\]\((/[^\)\s#]*)', cuerpo)
         for link in enlaces:
-            t = link.rstrip("/") or "/"
-            if t not in urls and not t.startswith("/assets") and not t.startswith("/feed"):
+            if enlace_roto(link, urls):
                 error(f"{rel}: enlace roto a '{link}'")
                 fallos += 1
 

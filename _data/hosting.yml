@@ -10,3 +10,7 @@
     - /articulos/guias/que-dominio-comprar-primer-proyecto-web/
     - /articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante/
     - /articulos/comparativas/hostinger-vs-namecheap-primer-dominio/
+- titulo: "Si no quieres pagar nada"
+  intro: "Para un portfolio o una práctica de clase, hosting de pago no hace falta. Estas tres plataformas gratuitas cubren el caso y no piden tarjeta."
+  articulos:
+    - /articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/

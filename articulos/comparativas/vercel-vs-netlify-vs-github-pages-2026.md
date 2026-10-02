@@ -5,6 +5,7 @@ description: "Comparativa real de las 3 plataformas gratis para deploy: límites
 category: "Comparativa"
 date: 2026-07-09
 readtime: 8
+last_modified_at: 2026-10-02
 ---
 
 El primer deploy de mi portfolio me costó dos tardes de lucha: DNS que no propagaba, build que fallaba en una y funcionaba en otra, límites de banda ancha que no entendía. Ahora, cada vez que termino un proyecto de prácticas o un side project, **tengo clara cuál uso y por qué**. Te ahorro las vueltas: comparo Vercel, Netlify y GitHub Pages con lo que de verdad importa a un estudiante.
@@ -183,6 +184,7 @@ No lo pienses más: publica esta tarde algo tuyo en la que más te llame y deja 
 
 ## Sigue por aquí
 
+- [Hosting y dominios para tu primer proyecto de DAW](/hosting/)
 - [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)
 - [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
 - [Cómo crear tu primer portfolio de desarrollador web con IA paso a paso](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/)

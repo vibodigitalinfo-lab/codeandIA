@@ -9,6 +9,10 @@ Gemfile.lock
 .sass-cache/
 _jekyll/
 
+# Bytecode de los scripts de auditoría (verificar_todo.py importa rutas.py)
+__pycache__/
+*.pyc
+
 # Registro financiero personal (NO subir: el repo es público)
 finanzas/
 
