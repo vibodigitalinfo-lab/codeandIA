@@ -5,7 +5,7 @@ description: "GPT-5 vs Claude para programar en 2026: benchmarks reales, planes 
 category: "Comparativa"
 date: 2026-07-27
 updated: 2026-10-02
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 readtime: 8
 ---
 
@@ -62,7 +62,7 @@ Si estás en DAW y no puedes pagarte una suscripción, **regístrate en las dos 
 
 Si te sobran 20€ al mes, empieza por Claude Pro por la herramienta Claude Code. Si ya pagas Cursor, no necesitas pagar por las dos plataformas: Cursor ya incluye acceso a modelos por su cuenta.
 
-Si quieres compararlo con otras opciones para estudiantes, también tengo la [comparativa de Cursor vs VS Code con IA](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/) y la de [Cursor vs GitHub Copilot para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/). Y si el dinero es tema, la [lista de 7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) incluye otras que me han salvado más de una tarde.
+Si quieres compararlo con otras opciones para estudiantes, también tengo mi [comparativa de VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/). Y si el dinero es tema, la [lista de 7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) incluye otras que me han salvado más de una tarde.
 
 ## Sigue por aquí
 

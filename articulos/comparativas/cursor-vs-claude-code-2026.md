@@ -5,7 +5,7 @@ description: "Comparo Cursor y Claude Code en 2026: precios reales para un estud
 category: "Comparativa"
 date: 2026-08-04
 updated: 2026-10-02
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 readtime: 8
 ---
 
@@ -25,7 +25,7 @@ La diferencia de mentalidad es la clave: en Cursor tú pilotas y la IA está en 
 
 ## Cómo trabajan en el día a día
 
-Con Cursor, mi flujo de prácticas es: abro el proyecto, selecciono el bloque que da problemas, el agente lo cambia y yo reviso el diff verde y rojo. Es cómodo, visual y perfecto cuando estás aprendiendo porque ves *exactamente* qué línea toca. Tab completions me escribe el código que antes copiaba, y el chat contextual entiende la selección sin que tenga que explicarle el proyecto entero (esto lo cuento mejor en la [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)).
+Con Cursor, mi flujo de prácticas es: abro el proyecto, selecciono el bloque que da problemas, el agente lo cambia y yo reviso el diff verde y rojo. Es cómodo, visual y perfecto cuando estás aprendiendo porque ves *exactamente* qué línea toca. Tab completions me escribe el código que antes copiaba, y el chat contextual entiende la selección sin que tenga que explicarle el proyecto entero (esto lo cuento mejor en la [comparativa de VS Code con Copilot frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)).
 
 Con Claude Code, el flujo cambia: le pido "arregla el bug de la sesión en el carrito" y él explora solo, edita, ejecuta el servidor, corre un test y me muestra el cambio. La primera vez da respeto, porque hace mucho de golpe. La segunda vez entiendes su poder real: tareas que cruzan varios archivos, que antes me costaban toda la tarde, él las hace mientras yo reviso los resultados.
 

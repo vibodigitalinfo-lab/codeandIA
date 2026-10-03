@@ -13,7 +13,7 @@ affiliate_text: "Prueba Trae gratis y compara su agente con Cursor"
 affiliate_url: "https://www.trae.ai"
 affiliate_label: "Descargar Trae"
 updated: 2026-09-30
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Llevo mes y medio con Trae instalado junto a Cursor y VS Code. No es que haya tirado los otros dos —de hecho, para las prácticas de Java sigo con VS Code y Copilot, y a Cursor lo abro de vez en cuando— pero Trae me ha sorprendido lo suficiente como para dedicarle este artículo. **Es el primer editor "IA-first" que no te cobra por el agente autónomo**. Y eso, siendo estudiante, cambia las reglas del juego.
@@ -144,5 +144,5 @@ Si arreglan 1, 2 y 3 en los próximos 3 meses, **me planto en Trae para todo lo 
 ## Sigue por aquí
 
 - [Zed: el editor en Rust con IA integrada, ¿alternativa a VS Code?](/articulos/reviews/zed-editor-ia-review-2026/)
-- [Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/)
+- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
 - [Claude Code CLI: terminal-first, agentes paralelos y su precio](/articulos/reviews/claude-code-cli-review-2026/)

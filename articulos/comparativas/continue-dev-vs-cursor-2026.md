@@ -5,7 +5,7 @@ description: "Continue.dev, Cursor y GitHub Copilot cara a cara: precios, privac
 category: "Comparativa"
 date: 2026-07-06
 readtime: 9
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Llevo años usando GitHub Copilot en el editor, Cursor me lo instalé este curso, y hace dos meses me metí Continue.dev (open source, MIT) con Ollama local para no mandar código a la nube. Tres formas de "IA que te ayuda a programar", tres precios, tres filosofías. Te las comparo **con números reales y experiencia de prácticas DAW**, no con el marketing de cada uno.
@@ -136,5 +136,5 @@ Al final esta comparativa se reduce a una pregunta: ¿prefieres gratis, abierto 
 ## Sigue por aquí
 
 - [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
-- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)
+- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
 - [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

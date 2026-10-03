@@ -8,7 +8,7 @@ readtime: 5
 affiliate_text: "Si ya sabes que vas a necesitar más límite, prueba Cursor Pro sin vueltas"
 affiliate_url: "https://cursor.com/pricing"
 affiliate_label: "Probar Cursor Pro"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-03
 ---
 
 Llevo usando Cursor desde segundo de DAW, primero con el plan gratuito porque no tenía ni un euro suelto para software, y ahora con Pro desde hace unos meses. Así que cuando alguien me pregunta sobre cursor AI plan pro vs free en español, no te voy a soltar la típica tabla comparativa de una web genérica. Te voy a contar lo que me pasó a mí, con mis límites agotados a mitad de mes y esa sensación de "venga, un prompt más" que todos hemos tenido.
@@ -48,6 +48,6 @@ Para mí la señal clara fue cuando empecé a chocar con el límite de peticione
 
 ## Sigue por aquí
 
-- [Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/)
+- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
 - [¿Merece la pena pagar por IA en 2026? Cursor, Copilot y Claude](/articulos/comparativas/merece-la-pena-pagar-ia-2026/)
 - [GitHub Copilot Business vs Individual para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)

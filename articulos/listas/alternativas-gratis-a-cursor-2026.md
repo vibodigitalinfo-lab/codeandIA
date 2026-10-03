@@ -5,6 +5,7 @@ description: "Alternativas gratis a Cursor en 2026 para estudiantes: Copilot Fre
 category: "Lista"
 date: 2026-08-19
 readtime: 7
+last_modified_at: 2026-10-03
 ---
 
 Sé el momento exacto en el que empiezas a mirar alternativas a Cursor: cuando el autocompletado premium se acaba y el plan Pro (20 $ al mes) te recuerda que eres estudiante. Yo estuve ahí este trimestre, y en 2026 la cosa tiene un matiz nuevo: **la mayoría de "alternativas gratis" que encuentras en listas viejas ya no existen como las describen**. Windsurf ya no es Windsurf, Codeium desapareció, Continue la compró Cursor… Me vais a perdonar, pero toca actualizar la lista. Esto es lo que sigue vivo de verdad en septiembre de 2026.
@@ -60,5 +61,5 @@ Y el mejor consejo de todos los que me han funcionado: **no bases tu estudio en 
 ## Sigue por aquí
 
 - [7 herramientas de IA gratuitas para estudiantes de desarrollo web](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/)
-- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)
+- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
 - [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

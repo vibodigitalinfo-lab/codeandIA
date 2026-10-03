@@ -5,7 +5,7 @@ description: "Configura GitHub Copilot gratis en IntelliJ IDEA con tu cuenta de 
 category: "Guía"
 date: 2026-07-04
 readtime: 7
-last_modified_at: 2026-10-01
+last_modified_at: 2026-10-03
 ---
 
 Casi todos los tutoriales de Copilot que encuentras usan VS Code. Y casi todos nosotros, en el módulo de programación de DAW, estamos obligados a trabajar con Java en **IntelliJ IDEA** (en mi caso la Community, que es gratis) o en NetBeans. Cuando llegué a clase con Copilot configurado en IntelliJ, mis compañeros me preguntaron si estaba usando un truco. No es ningún truco: es el mismo GitHub Copilot, instalado en un IDE diferente.
@@ -73,7 +73,7 @@ Eso sí: **revisa lo que genera**. Copilot a veces te hace un test que valida el
 
 Escribo la lógica del ejercicio **primero**, con Copilot como acelerador del tecleo, y dejo el chat para cuando estoy atascado o para que me genere los tests al final. Raro. Suena raro, pero me va mejor que dejar que la IA haga todo de golpe: llego al examen con criterio, no con ejercicios copiados.
 
-Si al final quieres algo más potente que el autocompletado, te recomiendo leer si te merece la pena [Cursor sobre VS Code con IA](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/), y si tu proyecto crece, la [guía del modo agente](/articulos/guias/github-copilot-agent-mode-2026-guia/) para tareas de varios archivos.
+Si al final quieres algo más potente que el autocompletado, te recomiendo mi [comparativa de VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/), y si tu proyecto crece, la [guía del modo agente](/articulos/guias/github-copilot-agent-mode-2026-guia/) para tareas de varios archivos.
 
 Y cuando lo tengas terminado, toca enseñarlo: en la [comparativa de Vercel, Netlify y GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) tienes las tres opciones gratuitas explicadas para publicarlo sin pagar, y en [qué dominio comprar para tu primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) cuánto cuesta de verdad tener dirección propia.
 

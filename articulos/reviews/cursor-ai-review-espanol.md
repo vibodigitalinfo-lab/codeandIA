@@ -13,7 +13,7 @@ affiliate_text: "Prueba Cursor gratis durante 14 días"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor gratis"
 updated: 2026-10-02
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Cuando empecé el segundo año de DAW me prometí que iba a dejar de luchar contra el código y empezar a trabajar con él. Llevaba meses escuchando hablar de Cursor por todas partes, y al final me rendí a la curiosidad. Esta es mi cursor AI review en español después de haberlo usado de verdad, no de haberlo abierto diez minutos para hacer capturas de pantalla.
@@ -22,7 +22,7 @@ La respuesta corta es que sí, me ha cambiado bastante la forma de programar. Pe
 
 ## Qué es Cursor y cómo funciona realmente
 
-Cursor es un editor de código basado en VS Code que tiene IA integrada a nivel profundo, no como una extensión pegada con cinta adhesiva. La diferencia con GitHub Copilot, que también he usado, es que Cursor entiende el contexto de todo tu proyecto, no solo del archivo que tienes abierto. Puedes seleccionar varios archivos, pegarle un mensaje de error y pedirle que encuentre dónde está el problema. Funciona. Si quieres ver cómo se compara con otras opciones de IA para programar, tengo una [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/) que te puede ayudar a decidir.
+Cursor es un editor de código basado en VS Code que tiene IA integrada a nivel profundo, no como una extensión pegada con cinta adhesiva. La diferencia con GitHub Copilot, que también he usado, es que Cursor entiende el contexto de todo tu proyecto, no solo del archivo que tienes abierto. Puedes seleccionar varios archivos, pegarle un mensaje de error y pedirle que encuentre dónde está el problema. Funciona. Si quieres ver cómo se compara con otras opciones de IA para programar, tengo una [comparativa de VS Code con Copilot frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/) que te puede ayudar a decidir.
 
 Lo más útil del día a día es el chat lateral, que yo llamo "el compañero que siempre está despierto". Cuando me quedo atascado con algo de JavaScript o no entiendo por qué mi consulta SQL devuelve basura, le pregunto directamente. No siempre acierta a la primera, pero la mayoría de veces me da una pista que me desbloquea en dos minutos. Antes tardaba media hora buscando en Stack Overflow.
 
@@ -60,5 +60,5 @@ Si estás en DAW o en cualquier ciclo de informática y te lo estás pensando, m
 ## Sigue por aquí
 
 - [Cursor AI Pro vs Free: qué incluye cada plan y cuándo pagar](/articulos/comparativas/cursor-ai-plan-pro-vs-free/)
-- [Cursor vs VS Code con IA en 2026: ¿sigue mereciendo la pena cambiar?](/articulos/comparativas/cursor-vs-vscode-con-ia-2026/)
+- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
 - [GitHub Copilot gratis para estudiantes: cómo activarlo y si funciona](/articulos/reviews/github-copilot-gratis-estudiantes/)

@@ -13,7 +13,7 @@ affiliate_text: "Prueba GitHub Copilot gratis con el Student Developer Pack"
 affiliate_url: "https://education.github.com/pack"
 affiliate_label: "Activar Copilot gratis"
 updated: 2026-10-02
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Cuando empecé primero de DAW, un compañero me habló de que había una forma de usar GitHub Copilot gratis para estudiantes. Al principio pensé que era otro de esos "trucos" que en realidad te piden la tarjeta de crédito a los dos minutos. Pero no. Es completamente real, llevo meses usándolo y aquí te cuento cómo lo activé y qué pienso de verdad, sin adornos.
@@ -58,7 +58,7 @@ Aquí viene la parte honesta. Llevo varios meses usándolo en clase y en proyect
 
 Para las cosas del día a día en DAW, Copilot es muy útil. Cuando estás haciendo formularios en Java, lógica repetitiva en PHP, o incluso consultas SQL que siempre tienen la misma estructura, las sugerencias son bastante acertadas. No tienes que pensar en la sintaxis, puedes centrarte en la lógica. Eso cuando estás aprendiendo ayuda, porque reduces la fricción de "¿cómo era esto exactamente?"
 
-Donde me genera más dudas es precisamente en el aprendizaje. Hay momentos en los que acepto una sugerencia sin entender del todo qué hace, y eso a largo plazo puede ser un problema. Si estás en primero y todavía estás interiorizando cómo funciona un bucle o una clase, Copilot puede hacer que pases por encima de conceptos que luego te van a hacer falta. Si quieres ver cómo se compara con otras opciones, tengo una [comparativa de Cursor vs GitHub Copilot](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/) para que veas las diferencias.
+Donde me genera más dudas es precisamente en el aprendizaje. Hay momentos en los que acepto una sugerencia sin entender del todo qué hace, y eso a largo plazo puede ser un problema. Si estás en primero y todavía estás interiorizando cómo funciona un bucle o una clase, Copilot puede hacer que pases por encima de conceptos que luego te van a hacer falta. Si quieres ver cómo se compara con otras opciones, tengo una [comparativa de VS Code con Copilot frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/) para que veas las diferencias.
 
 Mi forma de usarlo es esta: primero intento resolver el problema por mi cuenta. Si me quedo bloqueado más de lo razonable, miro la sugerencia, pero la leo y la entiendo antes de aceptarla. No es la forma más rápida, pero es la que más me está aportando.
 

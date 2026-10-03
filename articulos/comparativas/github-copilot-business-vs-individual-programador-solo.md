@@ -9,7 +9,7 @@ affiliate_text: "Prueba GitHub Copilot gratis durante 30 días"
 affiliate_url: "https://github.com/features/copilot"
 affiliate_label: "Activar prueba gratuita"
 updated: 2026-10-02
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Cuando empecé a mirar los planes de GitHub Copilot me quedé un rato parado delante de la pantalla de precios sin entender muy bien por qué existían dos opciones tan distintas. Si soy yo solo, con mi portátil, mis proyectos de clase y algún que otro proyecto personal, ¿qué me importa un plan pensado para empresas? La respuesta corta es que probablemente nada. Pero quiero explicarlo bien porque el marketing de GitHub no lo deja del todo claro, y la decisión de qué pagar cuando eres un programador que trabaja en solitario no es tan obvia como parece si te pones a leer las comparativas en inglés pensadas para CTOs.
@@ -57,4 +57,4 @@ El dinero que ahorras en no pagar Business puedes invertirlo en algo que sí not
 ## Sigue por aquí
 
 - [GitHub Copilot gratis para estudiantes: cómo activarlo y si funciona](/articulos/reviews/github-copilot-gratis-estudiantes/)
-- [Cursor vs GitHub Copilot 2026: cuál es mejor para aprender](/articulos/comparativas/cursor-vs-github-copilot-para-aprender/)
+- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
