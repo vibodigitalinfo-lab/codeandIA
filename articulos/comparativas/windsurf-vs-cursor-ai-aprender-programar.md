@@ -4,11 +4,11 @@ title: "Windsurf vs Cursor: cuál instalo si aprendo a programar en 2026"
 description: "Windsurf vs Cursor AI para aprender a programar: comparo los dos editores IA más populares para que elijas sin arrepentirte."
 category: "Comparativa"
 date: 2026-06-18
-readtime: 6
+readtime: 9
 affiliate_text: "Prueba Cursor gratis y empieza a programar con IA hoy"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor gratis"
-updated: 2026-09-30
+updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
 
@@ -18,7 +18,7 @@ Llevo unos meses en el ciclo de DAW y desde el principio me obsesioné con encon
 
 ## Qué es cada uno y por qué los comparo juntos
 
-Windsurf es el editor de Codeium, una empresa que lleva tiempo en el mundo de los asistentes de código. Cursor, en cambio, es un fork de VS Code construido desde cero con la idea de que la IA no sea un plugin pegado encima, sino parte del editor desde el día uno. Los dos se dirigen al mismo público: desarrolladores que quieren que la IA sea su copiloto, no un añadido decorativo.
+Windsurf nació como el editor de Codeium, una empresa que lleva tiempo en el mundo de los asistentes de código. **Ojo con el nombre**: Cognition compró Windsurf el 14 de julio de 2025 y el 2 de junio de 2026 lo rebautizó como **Devin Desktop**, así que hoy `windsurf.com` te lleva a `devin.ai` y la documentación vive en `docs.devin.ai`. El producto es el mismo de siempre; lo que cambia es la marca y el precio. Cursor, en cambio, es un fork de VS Code construido desde cero con la idea de que la IA no sea un plugin pegado encima, sino parte del editor desde el día uno. Los dos se dirigen al mismo público: desarrolladores que quieren que la IA sea su copiloto, no un añadido decorativo.
 
 Los comparo juntos porque son los dos que más suenan ahora mismo cuando buscas herramientas de IA para programar. No porque sean los únicos, sino porque han conseguido algo que GitHub Copilot solo en VS Code no logra: una experiencia donde el editor y la IA parecen un solo producto.
 
@@ -30,9 +30,11 @@ Windsurf me conquistó en los primeros días. La instalación es limpia, la inte
 
 El problema que fui notando con el tiempo es que Windsurf a veces es *demasiado* proactivo. Me refiero a que toma decisiones por ti sin que del todo entiendas qué ha pasado. Funciona, sí, pero si estás aprendiendo, hay algo raro en que tu código mejore sin que tú sepas exactamente cómo. Es como si alguien te hiciera los deberes: el resultado está, pero la lección no la has aprendido.
 
-### El límite de mensajes gratuitos duele más de lo que parece
+### El límite de uso gratuito duele más de lo que parece
 
-Otro punto que me fastidió bastante: el plan gratuito de Windsurf tiene un límite de créditos de "Flow" que se acaba antes de que te des cuenta. Un día vas con el proyecto y de repente la IA te dice que se te han terminado los créditos. Cuando estás aprendiendo y metes la pata constantemente —que es lo normal— ese límite se nota mucho. Puedes pasarte la tarde generando y corrigiendo errores, y en un momento dado te quedas sin margen hasta el día siguiente.
+Otro punto que me fastidió bastante: el plan gratuito de Windsurf se queda corto antes de que te des cuenta. Un día vas con el proyecto y de repente la IA te dice que se te ha acabado la cuota. Cuando estás aprendiendo y metes la pata constantemente —que es lo normal— ese límite se nota mucho. Puedes pasarte la tarde generando y corrigiendo errores, y en un momento dado te quedas sin margen hasta el día siguiente.
+
+Un aviso para los que leen esto en 2026: los "créditos de Flow" ya no existen. En marzo de 2026 el sistema de créditos por prompt se sustituyó por una **cuota diaria y semanal** según plan, que además se reparte entre el editor, la CLI y las sesiones en la nube.
 
 ---
 
@@ -52,7 +54,7 @@ Ninguno de los dos es completamente gratis si lo usas todos los días. Pero hay 
 
 Cursor tiene un plan gratuito, el **Hobby**, que no pide tarjeta y da justo lo necesario para abrirte el editor: autocompletado con su modelo Auto y peticiones limitadas del agente, sin cifra publicada. Para un estudiante que está aprendiendo y no programa ocho horas al día, puede aguantar bien. El plan Pro cuesta 20 dólares al mes, que no es barato, y desde 2026 ya no se mide en un número cerrado de peticiones: el autocompletado pasa a ser ilimitado, el agente tiene límites ampliados y entras a los modelos de frontera. El matiz que conviene saber: el consumo se reparte en dos bolsas (modelos de Cursor y una cantidad incluida de uso de modelos de terceros), así que esos 20 dólares son 20 dólares de uso real, no un contingent de peticiones. Puedes [probar Cursor gratis](https://cursor.com) sin meter tarjeta desde el principio, lo que siempre es de agradecer.
 
-Windsurf también tiene plan gratuito, pero los créditos de Cascade —el modo agente— se agotan con una velocidad que no esperaba. Para usar las funciones que lo hacen especial, acabas necesitando el plan Pro antes de lo que crees.
+Windsurf (hoy Devin Desktop) también tiene plan gratuito, pero la cuota de Cascade —el modo agente— se agota con una velocidad que no esperaba. Para usar las funciones que lo hacen especial, acabas necesitando el plan Pro antes de lo que crees, y ese Pro **cuesta 20 $ al mes**: antes de la compra por Cognition costaba 15 $, así que si te llevas un artículo antiguo con la cifra vieja ya está desfasado. Los suscriptores que ya estaban dentro antes del cambio de marzo de 2026 mantienen 15 $ de forma indefinida, pero eso no te servirá si te subscribes ahora. El resto de la gama: Max a 200 $ y Teams desde 80 $ al mes más 40 $ por asiento completo.
 
 ---
 

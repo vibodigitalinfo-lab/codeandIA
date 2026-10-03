@@ -4,8 +4,9 @@ title: "Notion vs Obsidian para estudiantes: cuál me queda mejor"
 description: "Comparo Notion y Obsidian para organizar apuntes, proyectos y seguimiento del código como estudiante de DAW: fortalezas, inconvenientes y mi elección final."
 category: "Comparativa"
 date: 2026-07-21
-readtime: 7
-last_modified_at: 2026-09-30
+updated: 2026-10-03
+readtime: 9
+last_modified_at: 2026-10-03
 ---
 
 Llevo usando Notion desde que empecé el ciclo y funciona bien, pero últimamente me topé con Obsidian y me dejó pensando. Los dos son excelentes para organizar apuntes de programación, pero son filosofías muy distintas. En esta comparativa os cuento mi experiencia con ambos y por qué al final me quedé con uno (spoiler: no es el que esperaba).
@@ -80,11 +81,11 @@ He visto compañeros con bases de datos de Notion de 500 páginas que tardan 3-4
 | Caracteristica | Notion | Obsidian |
 |---|---|---|
 | Gratis | Si (limitado) | Si (todo incluido) |
-| Plan personal | 10€/mes | 50€ un pago (Sync opcional) |
+| Plan personal | Plus a 9,50 €/mes (o gratis para estudiantes) | App gratis sin límites; el Sync es aparte, 4 $/mes pagando el año |
 | Almacenamiento | En la nube | Local (tu disco) |
 | Sync entre dispositivos | Incluido | 4€/mes (Sync) o gratis con iCloud |
 
-Notion te da todo en la nube por 10€ al mes. Obsidian es gratis y si quieres sync entre dispositivos pagas 50€ una vez (Sync service) o usas iCloud/Google Drive gratis.
+Notion te da todo en la nube por 9,50 € al mes, y con el correo universitario el plan Plus te sale gratis (limitado a un miembro). Obsidian es gratis sin cuentas ni límites; si quieres sync entre dispositivos, el Sync oficial son 4 $/mes si pagas el año (5 $ si pagas mes a mes) y **tiene un 40 % de descuento para estudiantes y docentes**, así que te queda en unos 2,40 $/mes. La licencia comercial de Obsidian, que solo hace falta si la usas en el trabajo, son 50 $ por usuario y año: no es un pago único como se suele decir.
 
 Para un estudiante, Obsidian es más barato a largo plazo. Pero Notion gratis es más que suficiente para empezar.
 

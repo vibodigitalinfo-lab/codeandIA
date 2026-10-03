@@ -4,7 +4,7 @@ title: "Trae AI IDE 2026: el editor que quiere comerse a Cursor"
 description: "Review honesta de Trae: agente autónomo gratis, modelo propio Doubao, UX china vs occidental, y si compensa cambiar desde Cursor o VS Code + Copilot."
 category: "Review"
 date: 2026-07-12
-readtime: 9
+readtime: 10
 version: "Trae estable (fork de Code-OSS) con su modelo Doubao-1.5-pro"
 tiempo: "mes y medio conviviendo con Cursor y VS Code"
 proyecto: "el microservicio de pagos con Stripe de las prácticas (12 endpoints, Testcontainers)"
@@ -12,7 +12,7 @@ limites: "no hay modo local: tu código sale de tu máquina hacia los servidores
 affiliate_text: "Prueba Trae gratis y compara su agente con Cursor"
 affiliate_url: "https://www.trae.ai"
 affiliate_label: "Descargar Trae"
-updated: 2026-09-30
+updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
 
@@ -64,7 +64,7 @@ ByteDance no publica benchmarks abiertos, pero en mi uso diario:
 - **SQL/migrations**: escribe Flyway/Liquibase correcto a la primera.
 - **Contexto de repo**: indexa todo el workspace al abrir (tarda ~30 seg en proyecto mediano). Usa RAG + grafo de llamadas.
 
-**Coste real**: **$0**. Sin límites de requests, sin "fast/slow", sin cuota mensual. El modelo corre en su infra. Si mañana ByteDance decide cobrar, te avisan (dicen). De momento, **es el único agente autónomo real gratis sin asteriscos**.
+**Coste real**: **$0 en el plan Free**, pero ya no es tan ilimitado como se contó al salir. Hoy el Free solo trabaja en **modo Auto**, con uso limitado, el autocompletado **topado en 5.000 al mes** y **2 tareas en la nube simultáneas**. Para el resto está Pro a **20 $/mes**, que mete 20 $ de uso, autocompletado sin límite y 10 tareas en paralelo; Pro+ a 60 $ y Ultra a 200 $ con acceso anticipado a modelos. Pagando el año ahorras un 17 %. Así que la frase "Cursor Pro gratis para siempre" se cumple en el precio, no en las cuotas. Si mañana ByteDance decide cobrar, te avisan (dicen). De momento, **es el único agente autónomo real que sigue siendo gratis**, aunque con cuotas y no del todo sin asteriscos.
 
 ---
 

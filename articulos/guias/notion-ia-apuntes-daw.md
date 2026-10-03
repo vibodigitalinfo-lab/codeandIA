@@ -4,8 +4,9 @@ title: "Notion + IA para apuntes de DAW: mi sistema real (bases y plantillas)"
 description: "Cómo uso Notion con IA para apuntes de DAW: bases por módulo, plantillas, resúmenes automáticos y sync con GitHub. Lo que funciona y lo que no."
 category: "Guía"
 date: 2026-07-07
-readtime: 10
-last_modified_at: 2026-09-30
+updated: 2026-10-03
+readtime: 12
+last_modified_at: 2026-10-03
 ---
 
 Empecé el curso con una carpeta de Google Drive llamada `DAW 2025-26` y dentro 40 PDFs sueltos, capturas de pizarra, y un `apuntes.txt` que nunca abrí. A noviembre ya no encontraba nada. Me pasé a Notion, le metí IA, y **ahora mi sistema de apuntes es lo único que me deja estudiar para los exámenes sin pánico**. Te lo enseño entero: bases de datos, plantillas, prompts que uso, y los errores que cometí.
@@ -19,15 +20,15 @@ Empecé el curso con una carpeta de Google Drive llamada `DAW 2025-26` y dentro 
 | **Obsidian** | 2 semanas | Plugins de IA = configurar API keys, pagar, mantener. Quería algo que *funcione ya*. |
 | **OneNote** | 1 mes | Búsqueda mala, sin bases de datos, IA (Copilot) solo en 365 empresarial. |
 | **Papel + escáner** | Curso pasado | No buscas "excepción NullPointer en UserService" en papel. |
-| **Notion + IA** | **Desde noviembre** | IA nativa (gratis 20 respuestas/día), bases de datos relacionales, plantillas, sincroniza en todos lados. |
+| **Notion + IA** | **Desde noviembre** | IA nativa (con prueba limitada en el plan gratis y ya incluida en los de pago), bases de datos relacionales, plantillas, sincroniza en todos lados. |
 
-**Lo que Notion IA me da gratis (plan Personal, sep 2026):**
-- 20 respuestas IA / día (reset a medianoche)
-- Resumir página, extraer acción items, traducir, mejorar redacción
-- Generar contenido desde cero ("esquema de examen de BBDD")
-- **No** incluye: búsqueda semántica en todo el workspace (eso es Notion AI add-on $10/mes)
+**Lo que Notion IA me da gratis (plan Free, oct 2026):**
+- Una prueba de Notion AI: generar y editar documentos, rellenar bases de datos automáticamente, resumir, traducir y mejorar la redacción
+- Preguntar sobre lo que hay en tu espacio de trabajo, con límites de uso
+- Enterprise Search y el modo de investigación en beta y con alcance limitado
+- Retención de datos de 30 días en los datos que mandas a la IA
 
-Para mí, **20/día sobran** si los usas con cabeza (ver prompts abajo).
+Dos avisos útiles: ya **no existe el add-on de Notion AI de 10 $/mes**, la IA viene dentro del plan. Y si eres de DAW, el **plan Plus es gratis para estudiantes y docentes** (limitado a un miembro) con solo registrarte con tu correo universitario. Para mí, la prueba del plan gratis da de sobra para el curso si los usas con cabeza (ver prompts abajo).
 
 ---
 
@@ -208,7 +209,7 @@ jobs:
 ## Lo que haría diferente si volviera a empezar
 
 - **Empezaría desde día 1** con las 3 bases de datos. Migrar 3 meses de PDFs sueltos me costó 6 horas.
-- **No compraría Notion AI add-on ($10/mes)**. El plan gratis + prompts bien hechos da para todo el curso.
+- **No compraría nada**. El add-on de Notion AI de 10 $/mes ya no existe: la IA va incluida en los planes, y el **Plus es gratis para estudiantes** con correo universitario. El plan gratis con prompts bien hechos da para todo el curso.
 - **Usaría la vista "Tablero Kanban" por Estado** (`Pendiente` → `En clase` → `Repasado` → `Dominado`) para arrastrar temas visualmente.
 - **Compartiría la base de datos `Módulos` con 2-3 compañeros** (Notion permite compartir solo una BD). Así todos ven fechas de examen y recursos.
 

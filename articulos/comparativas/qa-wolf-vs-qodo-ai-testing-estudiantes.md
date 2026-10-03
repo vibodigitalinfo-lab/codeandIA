@@ -4,7 +4,9 @@ title: "QA Wolf vs Qodo: testing con IA para estudiantes (opinión real)"
 description: "Comparo QA Wolf y Qodo para testing con IA: precios, enfoque, qué incluye el plan gratis, y cuál merece la pena para prácticas de DAW y portfolio."
 category: "Comparativa"
 date: 2026-06-24
-readtime: 6
+updated: 2026-10-03
+last_modified_at: 2026-10-03
+readtime: 7
 affiliate_text: "Prueba Qodo gratis con PR-Agent open source y genera tests en tu IDE"
 affiliate_url: "https://github.com/qodo-ai/pr-agent"
 affiliate_label: "Ver Qodo PR-Agent en GitHub"
@@ -30,7 +32,7 @@ Empecé a buscar herramientas de testing con IA. Dos nombres salían siempre: **
 
 **Funding**: $36M Series B (2025-2026). G2: 4.8/5 (100+ reviews).
 
-**¿Para estudiantes?** **No**. Está pensado para equipos de producto que necesitan cobertura YA y tienen presupuesto. El modelo pay-per-run se come la beca en dos sprints. El plan gratis no existe (demo + PoC).
+**¿Para estudiantes?** **No**. Está pensado para equipos de producto que necesitan cobertura YA y tienen presupuesto. El modelo pay-per-run se come la beca en dos sprints. No hay plan gratis permanente, pero sí prueba gratuita del Platform: solo empiezas a pagar cuando gastas créditos y minutos de runner.
 
 ---
 

@@ -4,7 +4,9 @@ title: "Ollama vs LM Studio vs Jan: gestores de modelos IA locales"
 description: "Comparativa de Ollama, LM Studio y Jan para correr modelos IA en local: rendimiento, modelos, integración con tu IDE y cuál uso yo en prácticas DAW."
 category: "Comparativa"
 date: 2026-07-14
-readtime: 10
+updated: 2026-10-03
+last_modified_at: 2026-10-03
+readtime: 11
 ---
 
 Si en algún momento te has planteado ejecutar modelos de IA sin mandar tu código a la nube — porque estás en prácticas con NDA, porque te quedaste sin internet en un examen, o porque simplemente no quieres pagar API — estás ante la misma pregunta que yo: **¿Ollama, LM Studio o Jan?** Los tres hacen más o menos lo mismo (cargar un modelo local y dejar que lo uses), pero tienen diferencias que te cambian el día a día. Llevo meses usando los tres alternadamente y aquí te cuento lo que de verdad importa para un estudiante de DAW que programa en Java, TypeScript y Python.
@@ -16,7 +18,7 @@ Si en algún momento te has planteado ejecutar modelos de IA sin mandar tu códi
 | | Ollama | LM Studio | Jan |
 |---|---|---|---|
 | **Qué es** | CLI + daemon de fondo | Aplicación de escritorio con GUI | Aplicación de escritorio independiente |
-| **Precios** | Gratis, open source (MIT) | Gratis (core), $15/mes Pro (sync) | Gratis, open source (GPLv3) |
+| **Precios** | Gratis, open source (MIT) | Gratis (core). La nube es aparte: Bionic+ a 20 $/mes y Pro a 100 $/mes | Gratis, open source (GPLv3) |
 | **Plataforma** | macOS, Linux, Windows (CLI) | macOS, Linux, Windows (GUI) | macOS, Linux, Windows (GUI) |
 | **Modelos** | Ollama Library (100+) | HuggingFace Hub (miles) | HuggingFace Hub + Jan Hub |
 | **Formato** | GGUF, GGUF-specific registry | GGUF (binarios Mac) | GGUF, GGUF binarios, ONNX |

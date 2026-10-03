@@ -4,7 +4,9 @@ title: "7 extensiones de IA para VS Code que uso a diario (y una que quité)"
 description: "Extensiones de IA que de verdad ahorran tiempo en prácticas DAW: Copilot, Codeium, Continue, Error Lens y más. Qué hace cada una, cuánto cuesta y mi combo."
 category: "Lista"
 date: 2026-07-08
-readtime: 7
+updated: 2026-10-03
+last_modified_at: 2026-10-03
+readtime: 9
 ---
 
 El marketplace de VS Code tiene **cientos** de extensiones con "AI" en el nombre. La mayoría son envolturas alrededor de la misma API, te piden clave, y al final no usan. Yo he probado unas 20 este curso. Estas 7 son las que **siguen instaladas** y las que uso de verdad cada semana en prácticas. La octava la quité y te cuento por qué.
@@ -31,10 +33,12 @@ Desactivo en YAML/Markdown porque alucina claves y frontmatter.
 
 ---
 
-## 2. Codeium (la alternativa gratis sin cuenta estudiante)
+## 2. Codeium, ahora Windsurf Plugin dentro de Devin Desktop (la alternativa gratis sin cuenta estudiante)
 
-**Qué hace:** Autocompletado + chat, **gratis ilimitado** para uso individual. Modelos propios + GPT-3.5/4 opcional.
-**Coste:** **Gratis** (Individual), $15/mes Teams.
+**Qué hace:** Autocompletado + chat, gratis para uso individual, con los modelos propios de Cognition (la serie SWE) y los de Anthropic, OpenAI y Google.
+**Coste:** **Gratis** el plan Free. El Pro **subió a 20 $/mes** (antes 15 $) y el plan de equipo es Teams, desde 80 $/mes más 40 $ por asiento completo.
+
+Lo que más te cambia la agenda: Codeium ya no es una empresa aparte. Cognition la compró en 2025 y en junio de 2026 el editor pasó a llamarse **Devin Desktop**, así que la extensión sigue funcionando y la puedes seguir usando gratis, pero el precio que verás al pagar es el de Devin.
 **Por qué está aquí:** La tengo **como respaldo** cuando Copilot se queda sin cuota (raro en plan estudiante, pero pasa) o cuando quiero una segunda opinión. El autocompletado es ligeramente menos preciso en Java, pero en **Python/JS/TS va muy bien**. El chat (`Ctrl+Shift+P` → Codeium Chat) entiende contexto de repo.
 
 **Cuándo la uso:** Proyectos personales en Python/React, o cuando Copilot falla en un patrón raro de Spring Boot.
@@ -71,7 +75,7 @@ ollama pull qwen2.5-coder:7b
 ## 5. GitLens (Git + IA = superpoder)
 
 **Qué hace:** Git blame, history, comparar ramas, autores, **y ahora "AI Commit Message"** (genera mensaje de commit con IA).
-**Coste:** Gratis (core), $9/mes Pro para features de equipo.
+**Coste:** La extensión es gratis (plan Community) **mientras trabajes con repos locales y remotos públicos**. En cuanto necesitas repos privados ya no compras una licencia de GitLens suelta: la extensión ahora forma parte de la plataforma GitKraken, y el plan Pro está en **10 $/asiento/mes pagando el año** (Advanced, 14 $). Ahí vienen las funciones de IA y de equipo.
 **Por qué está aquí:** El **blame inline** (`git blame` en cada línea al pasar ratón) me dice quién tocó qué y cuándo. En prácticas grupales, "¿quién rompió esto?" se responde en segundos. La feature de **commit message con IA** (`GitLens: Commit` → botón de IA) escribe mensajes convencionales tipo `feat: add user authentication` basándose en tu diff. Ahorra el "fix stuff" de siempre.
 
 ---
@@ -79,7 +83,7 @@ ollama pull qwen2.5-coder:7b
 ## 6. Thunder Client (REST Client) + AI
 
 **Qué hace:** Cliente HTTP dentro de VS Code (como Postman pero ligero). **Nueva feature IA**: "Generate request from description" → escribes "POST login con email y password, devuelve JWT" y te genera la request con headers, body, variables.
-**Coste:** Gratis (core), Pro $30/año para sync/equipos.
+**Coste:** Gratis el core. Los planes de pago son **Starter a 3 $/usuario/mes pagando el año**, Business a 7 $ y Enterprise a 16 $. Lo que se paga no es el sync: son el CLI y la integración con CI/CD, los entornos compartidos entre equipo y el número de ejecuciones de colecciones (250 al mes en Starter).
 **Por qué está aquí:** En DAW hacemos **REST APIs constante**. Thunder Client me evita abrir Postman. La IA genera la request base y yo la ajusto. Guarda colecciones en el repo (`.thunder-client/`) → todo en Git.
 
 ---

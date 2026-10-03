@@ -4,7 +4,7 @@ title: "GitHub Student Pack: qué incluye y cuánto te ahorra"
 description: "Qué herramientas te da GitHub gratis por ser estudiante, cuáles merecen la pena aprovechar y cuáles son solo ruido en el catálogo."
 category: "Lista"
 date: 2026-09-07
-readtime: 8
+readtime: 9
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
@@ -21,7 +21,7 @@ Para entrar necesitas una cuenta de GitHub y acreditar que estudias, con un corr
 
 Ojo con la diferencia entre las dos cosas: hay ofertas del pack que son "un año gratis" (1Password, por ejemplo) y ofertas que siguen vigentes mientras tu cuenta siga siendo de estudiante (GitHub Pro). Lo primero caduca cuando cumple el año; lo segundo depende de que renueves la verificación.
 
-No hay periodo de prueba ni cuota oculta: las herramientas con descuento te dan el plan de pago mientras seas estudiante.
+Ojo con la letra petite: no todas las ofertas son "mientras seas estudiante". GitHub Pro es mientras dura la matrícula, pero otras tienen un plazo fijo (Heroku son 24 meses, por ejemplo) y algunas exigen tarjeta y te cobran el excedente.
 
 Lo único que me chirría es que algunas te piden que no te des de baja. Si la plataforma detecta una cancelación, a veces te sube el precio de golpe. Tenlo en cuenta al comparar una herramienta con descuento frente a su alternativa gratuita.
 
@@ -44,7 +44,7 @@ Estas son las que he usado o comprobado, con el ahorro estimado frente a comprar
 
 **Microsoft Visual Studio Dev Essentials.** No es Visual Studio Pro: es la versión Community de Visual Studio, y además Pluralsight y un crédito de 200 $ de Azure el primer mes. Si haces C++ o .NET, entra; si solo tocas el Visual Studio Code, sáltatelo.
 
-**Heroku, 13 USD de crédito al mes durante 24 meses.** Para quien quiere desplegar algo de verdad. Da para una app pequeña sin pagar infraestructura.
+**Heroku, 13 USD de crédito al mes durante 24 meses.** Para quien quiere desplegar algo de verdad. Son 312 USD en total y da para una app pequeña sin pagar infraestructura: un dyno Eco (5 $/mes por 1.000 horas), una Postgres Mini (5 $) y una Key-Value Mini (3 $). **La trampa**: te piden tarjeta de crédito o débito válida, y lo que gastes por encima de esos 13 $ al mes te lo cobran de tu bolsillo. Los créditos no se acumulan y no sirven para add-ons de terceros, así que cualquier add-on de pago lo facturas tú.
 
 ## Las que están y no te vas a guardar
 

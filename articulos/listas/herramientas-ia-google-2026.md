@@ -4,10 +4,12 @@ title: "Herramientas de IA de Google para programar en 2026: la guía"
 description: "Gemini Notebook, Antigravity, Jules, AI Studio y planes Gemini: las herramientas de IA de Google para programar en 2026 y cuáles merecen tu tiempo gratis."
 category: "Lista"
 date: 2026-08-23
-readtime: 6
+updated: 2026-10-03
+last_modified_at: 2026-10-03
+readtime: 8
 ---
 
-A Google le pasa algo gracioso: tiene de las mejores herramientas de IA para programar… y casi nadie las conoce porque cambian de nombre cada pocos meses. NotebookLM ahora es Gemini Notebook, Gemini Code Assist ahora es Antigravity, y los planes de Gemini se reorganizan dos veces al año. Resultado: hay estudiantes pagando por cosas que Google regala, y otros desaprovechando lo que ya tienen con su cuenta. Para que no pierdas el hilo, aquí va mi lista de las herramientas de IA de Google que de verdad uso (y alguna que solo pruebo), con lo que cuestan en septiembre de 2026. Es la guía hermana de la comparativa [ChatGPT vs Claude vs Gemini para programar](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/), pero centrada en lo de Google.
+A Google le pasa algo gracioso: tiene de las mejores herramientas de IA para programar… y casi nadie las conoce porque cambian de nombre cada pocos meses. NotebookLM ahora es Gemini Notebook, Gemini Code Assist ahora es Antigravity, y los planes de Gemini se reorganizan dos veces al año. Resultado: hay estudiantes pagando por cosas que Google regala, y otros desaprovechando lo que ya tienen con su cuenta. Para que no pierdas el hilo, aquí va mi lista de las herramientas de IA de Google que de verdad uso (y alguna que solo pruebo), con lo que cuestan en octubre de 2026. Es la guía hermana de la comparativa [ChatGPT vs Claude vs Gemini para programar](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/), pero centrada en lo de Google.
 
 ## 1. Gemini Notebook (antes NotebookLM): la mejor para estudiar módulos
 
@@ -19,7 +21,7 @@ Para un alumno de DAW el combo es: apuntes del módulo metidos ahí, resumen de 
 
 ## 2. Antigravity (antes Gemini Code Assist): el regalo de código gratis
 
-Aquí está el secreto que pocos conocen: el **plan individual gratis de Antigravity** te da **6.000 peticiones de código al día** más 240 chats de código al día. Sí, leíste bien: seis mil. Es de largo lo más generoso del sector y para un estudiante es un regalo. Y desde el 18 de junio de 2026 Google migró la extensión de Gemini Code Assist y la Gemini CLI a **Antigravity / Antigravity CLI**, así que si tenías una extensión instalada, ya sabes a dónde va a tirar.
+Aquí está el secreto que pocos conocen: el **plan individual gratis de Antigravity** te da **autocompletado en la pestaña ilimitado** y **peticiones de comandos ilimitadas**, sin tarjeta y sin Trials que se acaben; eso sí es lo que la web oficial llama *unlimited Tab completions* y *unlimited Command requests*, y solo queda un matiz: el plan marca unos **límites semanales básicos**, así que si te pasas de golpe la semana te topan. Lo generoso es que de plano te cubren las dos mecánicas principales del IDE. Para subir el techo están **Google AI Pro** (más límites y un pool de créditos de IA flexible) y **Google AI Ultra** por encima. Y desde el 18 de junio de 2026 Google migró la extensión de Gemini Code Assist y la Gemini CLI a **Antigravity / Antigravity CLI**, así que si tenías una extensión instalada, ya sabes a dónde va a tirar.
 
 Con eso puedes hacer lo que hago yo en [la lista de prompts para tus módulos](/articulos/listas/8-prompts-programacion-daw-2026/): autocompletado, conversar con el código y tener un agente que toque el repositorio. Su talón de Aquiles es el contexto grande en proyectos largos: la versión gratuita nota la diferencia contra Claude Pro, pero para el día a día DAW sobra. Cuando un proyecto me pide más, echo mano de [comparar el coste de pagar](/articulos/comparativas/merece-la-pena-pagar-ia-2026/).
 
@@ -30,10 +32,10 @@ Jules es el palo "agente asíncrono" de Google: le das un *issue* de GitHub, le 
 ## 4. La app Gemini y la API: todos los planes en una frase
 
 - **Gemini gratis**: con ventana de uso de 5 horas y límites diarios. Suficiente para preguntas sueltas; se agota en una tarde de proyecto.
-- **AI Plus** (4,99 hasta 7,99 €/mes según región): el empujón de contexto para el día a día.
-- **AI Pro** (19,99 €/mes): aquí es donde yo me movería si Google fuera mi IA principal; te desbloquea lo mejor de Gemini Notebook, Jules con más margen y la app con contexto largo.
-- **AI Ultra** (99,99 a 199,99 €/mes): para uso intensivo/empresarial; casi nadie en el curso lo necesita.
-- Cuidado con el "he oído que dan un año gratis a estudiantes": esa promo existe en EE. UU., pero **en España no aplica**. No te fíes de los reels.
+- **AI Plus** (4,99 €/mes con 400 GB; 9,99 € la variante de 2 TB): el empujón de contexto para el día a día.
+- **AI Pro** (21,99 €/mes con 5 TB): aquí es donde yo me movería si Google fuera mi IA principal; te desbloquea lo mejor de Gemini Notebook, Jules con más margen y la app con contexto largo.
+- **AI Ultra** (99,99 € la 5x y 219,99 € la 20x): para uso intensivo/empresarial; casi nadie en el curso lo necesita.
+- Y al revés de lo que se dice en los reels: el año gratis **sí existe en España**. Desde el 19 de agosto de 2026 Google da 12 meses de AI Plus a universitarios de España y de más de 140 países. Pásalo en [gemini.google/es/students](https://gemini.google/es/students/): 18 años o más, matrícula verificada con SheerID, cuenta personal y tarjeta obligatoria. Al terminar el año se cobra 4,99 €/mes salvo que canceles, así que ponte un recordatorio. Canjeable hasta el 31 de diciembre de 2026.
 
 Y si lo tuyo es cacharrear, **AI Studio** (gratis, con límites) sigue siendo la forma más rápida de probar los modelos Gemini y sacar la API key: si un día quieres hacer un proyecto con la API de Gemini para el portafolio, por ahí empiezas.
 

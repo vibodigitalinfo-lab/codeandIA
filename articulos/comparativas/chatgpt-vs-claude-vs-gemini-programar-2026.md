@@ -5,7 +5,7 @@ description: "Comparativa real de ChatGPT, Claude y Gemini para programar en 202
 category: "Comparativa"
 date: 2026-08-20
 updated: 2026-10-03
-readtime: 6
+readtime: 8
 last_modified_at: 2026-10-03
 ---
 
@@ -15,9 +15,9 @@ En clase la pregunta es semanal: *"¿tú qué usas, ChatGPT, Claude o Gemini?"*.
 
 **ChatGPT** (OpenAI):
 - **Gratis**: sí, con límites de uso por ventana (en la práctica, unas horas). Suficiente para preguntas sueltas.
-- **Go**: 8 $/mes (el antiguo "Plus básico" que lanzaron en 2025).
+- **Go**: 8 $/mes, el precio de EE. UU.; en algunos países se cobra en moneda local. Es el plan barato que OpenAI lanzó a nivel mundial en enero de 2026, por debajo del Plus clásico.
 - **Plus**: 20 $/mes, el clásico; te da contextos largos y acceso a modelos de razonamiento.
-- **Pro**: 100 a 200 $/mes, para uso intensivo de investigación.
+- **Pro**: 200 $/mes, para uso intensivo de investigación.
 - Lo interesante: los planes de pago incluyen **Codex**, el agente de código, y que pagues 20 $ al mes te da esto sin sorpresas. Además, desde 2025 el límite de la versión gratis abarca ChatGPT, o sea que lo usas también para imágenes y búsqueda.
 
 **Claude** (Anthropic):
@@ -28,10 +28,10 @@ En clase la pregunta es semanal: *"¿tú qué usas, ChatGPT, Claude o Gemini?"*.
 
 **Gemini** (Google):
 - **Gratis**: sí, con límites diarios y ventana de 5 horas igual que Claude. A mí se me agota con un proyecto de tarde.
-- **AI Plus**: entre 4,99 y 7,99 €/mes según región.
-- **AI Pro**: 19,99 €/mes.
-- **AI Ultra**: 99,99 a 199,99 €/mes.
-- Ojo, estudiantes: en EE. UU. hay promos de un año gratis del plan superior, pero **en España no aparecen**; no te fíes de los clips de TikTok que lo pintan como universal.
+- **AI Plus**: 4,99 €/mes con 400 GB (hay una variante de 2 TB a 9,99 €).
+- **AI Pro**: 21,99 €/mes con 5 TB.
+- **AI Ultra**: 99,99 €/mes la variante 5x (20 TB) y 219,99 € la 20x (30 TB).
+- **Ojo, estudiantes**: desde el 19 de agosto de 2026 Google regala **12 meses de Google AI Plus gratis** a universitarios de España y de más de 140 países (en España es el Plus de 400 GB con el doble de límites; el Pro gratis sigue siendo solo de EE. UU.). Págalo en [gemini.google/es/students](https://gemini.google/es/students/): hay que tener 18 años, verificar la matrícula con SheerID desde una cuenta personal (no vale la de la universidad) y **añadir una tarjeta**, porque al acabar el año pasa a 4,99 €/mes solo si no cancelas. Se puede canjear hasta el 31 de diciembre de 2026.
 
 ## El contexto: de cuánta ventana hablamos
 
@@ -43,7 +43,7 @@ Esto es lo que yo miraría antes que nada. En 2026 "chatear con la IA" es la par
 
 - **Claude Code**: el más cómodo de arrancar con Claude de fondo. Te lee el proyecto, te propone diffs y hasta deja tareas trabajando. Para proyectos de DAW largos es una gozada.
 - **Codex (ChatGPT)**: integrado en el IDE y con una lógica de "ejecuta, falla, corrige" que con ejercicios de clase funciona muy bien. La velocidad es lo que mejor valoro.
-- **Gemini** en versión móvil/web es más conversacional, pero su salto agente es **Antigravity** (antes Gemini Code Assist): gratis en su plan individual con 6.000 peticiones de código al día, y desde junio de 2026 las extensiones de Gemini Code Assist se han ido moviendo ahí. Si tu proyecto es GitHub, **Jules** (el agente de tareas en segundo plano de Google) también es una opción tremenda para "mándame un PR que arregle este issue".
+- **Gemini** en versión móvil/web es más conversacional, pero su salto agente es **Antigravity** (antes Gemini Code Assist): gratis en su plan individual con autocompletado y peticiones de comandos ilimitadas (con límites semanales básicas en el uso intensivo), y desde junio de 2026 las extensiones de Gemini Code Assist se han ido moviendo ahí. Si tu proyecto es GitHub, **Jules** (el agente de tareas en segundo plano de Google) también es una opción tremenda para "mándame un PR que arregle este issue".
 
 Esto lo cuento con más detalle en [la lista de herramientas IA de Google](/articulos/listas/herramientas-ia-google-2026/), porque Google pierde la batalla del "chat de moda" pero gana la de darte cosas gratis.
 
@@ -51,8 +51,8 @@ Esto lo cuento con más detalle en [la lista de herramientas IA de Google](/arti
 
 No hay un ganador absoluto; lo digo siempre, y también lo dije cuando [comparé GPT-5 con Claude](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/) o [los gratuitos entre sí](/articulos/comparativas/deepseek-vs-chatgpt-gratuitos-para-programar/). La decisión es tuya según tu bolsillo y tu proyecto:
 
-- **Si no vas a pagar nada**: Gemini gratis aguanta más que ChatGPT gratis si eres constante (los 6.000 de código al día de Antigravity son la mejor lotería gratis del sector), y Claude gratis es el que más cómodo te deja cuando el modelo está "iluminado". Yo iría primero a Gemini para probar y a ChatGPT para respuestas de una tanda corta.
-- **Si puedes pagar unos 8-10 al mes**: ChatGPT Go (8 $) o Google AI Plus (4,99-7,99 € según región). Para estudiantes, el salto de precio-no-cambio suele decepcionar; lo he visto con [ChatGPT Plus](/articulos/reviews/chatgpt-plus-para-programadores/) y el diferencial real está en los agentes.
+- **Si no vas a pagar nada**: Gemini gratis aguanta más que ChatGPT gratis si eres constante (el autocompletado y los comandos ilimitados de Antigravity son la mejor lotería gratis del sector), y Claude gratis es el que más cómodo te deja cuando el modelo está "iluminado". Yo iría primero a Gemini para probar y a ChatGPT para respuestas de una tanda corta.
+- **Si puedes pagar unos 8-10 al mes**: ChatGPT Go (8 $) o Google AI Plus (4,99 €, o gratis un año si eres universitario y lo pides antes del 31 de diciembre de 2026). Para estudiantes, el salto de precio-no-cambio suele decepcionar; lo he visto con [ChatGPT Plus](/articulos/reviews/chatgpt-plus-para-programadores/) y el diferencial real está en los agentes.
 - **Si puedes pagar 20 $/mes**: aquí me inclino por **Claude Pro si trabajas en proyectos grandes** y por **ChatGPT Plus si quieres rapidez y Codex**. Es el empate más igualado de la lista.
 - **Si quieres un agente que trabaje mientras tú estás en clase**: Codex o Claude Code según la IA que ya uses; de JavaScript no te juzgo, que [cada uno tiene su manía](/articulos/comparativas/cursor-vs-claude-code-2026/).
 

@@ -4,7 +4,9 @@ title: "v0 by Vercel y alternativas 2026: IA que genera interfaces"
 description: "Lista comparativa de v0, Bolt, Lovable, y herramientas de generación UI con IA. Precios, stack, limitaciones, y cuál elegir para portfolio, landing, o app real."
 category: "Lista"
 date: 2026-06-30
-readtime: 9
+updated: 2026-10-03
+last_modified_at: 2026-10-03
+readtime: 12
 affiliate_text: "Prueba v0 gratis y genera tu primera UI en minutos"
 affiliate_url: "https://v0.app/pricing"
 affiliate_label: "Ver planes v0"
@@ -25,11 +27,11 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 - Backend: **Neon (PostgreSQL serverless) + Drizzle ORM + Better Auth** (desde 2026)
 - Extras: Python/SQL, React Three Fiber, **Nuxt 3** (marzo 2026)
 
-**Precios (sep 2026)**:
+**Precios (oct 2026)**:
 
 | Plan | Mensual | Créditos/mes | Límites |
 |------|---------|--------------|---------|
-| **Free** | $0 | **$5/mes** | 7 msgs/día, modelos base |
+| **Free** | $0 | Ninguno incluido | 7 mensajes/día, modelos base |
 | **Plus** | **$30** | $30 + $2/día | Todos los modelos, compra extra, team collab |
 | **Business** | **$100** | Todo + | Training opt-out default, SSO |
 | **Enterprise** | Custom | Full | SSO, RBAC, SLAs, no training |
@@ -47,7 +49,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 - **Solo React/Next.js/Tailwind** (Nuxt añadido 2026, pero secundario). Si usas Vue/Svelte/Astro/Remix, no es tu herramienta.
 - **Cloud-only**: no self-host, no offline.
 - **Black box**: el código generado a veces tiene patrones que no entiendes. En prod, toca auditar.
-- **Coste acumula**: $30-200/mes si lo usas a diario. Free ($5/mes) se queda corto rápido.
+- **Coste acumula**: $30-100/mes si lo usas a diario. El Free son 7 mensajes al día y sin créditos incluidos, así que se queda corto rápido. Ojo: el plan **Ultra ya no existe**, la gama se quedó en Free, Plus, Business y Enterprise. Para usuarios nuevos hay 5 $ de crédito único al registrarte, que es lo único gratis que verás sin tarjeta.
 - **Middleware complejo**: auth, i18n, rate-limiting a veces necesita mano humana.
 
 ---
@@ -62,10 +64,12 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 
 | Plan | Mensual | Qué incluye |
 |------|---------|-------------|
-| **Free** | $0 | Proyectos ilimitados, 50 MB, público |
-| **Pro** | $20 | Proyectos privados, 1 GB, custom domain, GitHub sync |
-| **Team** | $40/user | Colaboración, SSO, billing centralizado |
-| **Enterprise** | Custom | Todo + SLAs, on-prem WebContainers |
+| **Free** | $0 | 300.000 tokens/día y 1M al mes, proyectos públicos **y privados**, 10 MB por archivo, marca de Bolt, hasta 333.000 peticiones web |
+| **Pro** | $25 | Sin tope diario, desde 10M tokens/mes, sin marca, 100 MB por archivo, 1M de peticiones web, dominio propio, SEO boosting |
+| **Teams** | $30/miembro | Billing centralizado, permisos por rol, registro NPM privado |
+| **Enterprise** | Custom | SSO, logs de auditoría, cumplimiento y soporte 24/7 |
+
+Un detalle que suele confundir: el límite no son los mensajes, son los **tokens**, y la mayor parte se va en sincronizar el sistema de ficheros del proyecto con la IA. Cuanto más grande es el repo, más tokens gasta cada mensaje. Los tokens no usados de un plan de pago se guardan un mes extra.
 
 **Lo bueno**:
 - **Cero latencia**: editas y ves el resultado INSTANTÁNEO. No hay round-trip a servidor.
@@ -85,20 +89,22 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 
 **Qué es**: Enfoque **producto, no código**. "Describe tu idea → app funcional con auth, BD, pagos, email". Backend: **Supabase (PostgreSQL + Auth + Realtime + Storage + Edge Functions)**.
 
-**Precios (sep 2026)**:
+**Precios (oct 2026)**:
 
 | Plan | Mensual | Qué incluye |
 |------|---------|-------------|
-| **Free** | $0 | 5 proyectos, 100 MB, público |
-| **Launch** | $25 | Proyectos ilimitados, custom domain, GitHub sync |
-| **Scale** | $100 | Team collab, SSO, priority support |
-| **Enterprise** | Custom | Dedicated infra, SLA, compliance |
+| **Free** | $0 | 5 créditos de build al día (30 al mes), 20 créditos de Cloud, 4 de IA |
+| **Pro** | desde **$25** | 100 créditos/mes, dominios propios, sin marca, proyectos privados, descarga del código |
+| **Business** | desde **$50** | Lo de Pro + SSO, permisos por rol y salida del entrenamiento por defecto |
+| **Enterprise** | Custom | Precio por volumen de créditos |
+
+Dos cosas que sorprenden: **no se cobra por asiento**, sino por créditos, así que invitar a tu grupo no sube la factura (lo que se agota es el crédito compartido). Y hay **descuento para estudiantes** con correo universitario en `lovable.dev/students`. Pagando el año el Pro de 100 créditos sale a 21 $/mes. Si te quedas corto, una recarga de 50 créditos cuesta 15 $ en Pro.
 
 **Lo bueno**:
 - **Supabase nativo**: auth (email, OAuth, magic link), BD real, realtime, storage, edge functions. **Listo para prod**.
 - **Prompts en lenguaje de negocio**: "marketplace de freelancers con chat, pagos Stripe, reviews" → te monta todo.
 - **GitHub sync** bidireccional. Puedes tocar código y Lovable respeta tus cambios.
-- **Precios claros**: incluye Supabase en el plan (hasta límites).
+- **Precios claros**: se paga por créditos y el hosting en Lovable Cloud va cubierto con la grant mensual mientras la app no reciba mucho tráfico.
 
 **Lo malo**:
 - **Menos control granular**: v0/Bolt te dejan editar el Tailwind class a class. Lovable es más "caja negra".
@@ -119,7 +125,7 @@ Pero v0 no está solo. **Bolt.new** corre en el navegador (WebContainers), **Lov
 | **Offline** | ❌ | ✅ (tras carga) | ❌ |
 | **Export/ownership** | ✅ Código tuyo, deploy donde quieras | ✅ Código tuyo, export ZIP/GitHub | ✅ Código tuyo, GitHub sync |
 | **Curva aprendizaje** | Media (Next.js, shadcn) | Baja (tu stack) | Baja (enfoque producto) |
-| **Coste entrada** | Free $5/mes | Free (generoso) | Free (5 proyectos) |
+| **Coste entrada** | Free (7 msgs/día) | Free (generoso) | Free (5 créditos/día) |
 | **Mejor para** | **Devs React/Next.js, portfolio, SaaS serios** | **Devs multi-stack, prototipos rápidos, offline** | **Founders, MVPs con auth/BD/pagos YA** |
 
 ---

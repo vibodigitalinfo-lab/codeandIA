@@ -5,7 +5,7 @@ description: "Precios de IA para programar en octubre de 2026: Copilot, Claude, 
 category: "Comparativa"
 date: 2026-10-02
 updated: 2026-10-03
-readtime: 11
+readtime: 12
 last_modified_at: 2026-10-03
 ---
 
@@ -13,23 +13,23 @@ Hay una pregunta que me llega por el grupo de clase cada pocas semanas y que sie
 
 La he hecho. Y la respuesta corta es que **con 0 $ llegas al 80 %**, que con 10 $ vas sobrado y que los veinte dólares solo tienen sentido si el agente de la terminal es parte de tu flujo de trabajo, no un extra.
 
-> **Sobre la moneda:** casi todos los planes de pago de IA se anuncian en **dólares** (OpenAI, Anthropic, Cursor, Zed, Warp). No hay un precio oficial en euros para la mayoría, así que lo que pagas en € depende de tu país y de los impuestos. Aquí pongo siempre el precio oficial en dólares.
+> **Sobre la moneda:** casi todos los planes de pago de IA se anuncian en **dólares** (OpenAI, Anthropic, Cursor, Zed, Warp, Devin), salvo los de Google, que tienen tarifa propia en euros. No hay un precio oficial en euros para la mayoría, así que lo que pagas en € depende de tu país y de los impuestos. Aquí pongo siempre el precio oficial en dólares.
 
-**Aviso de fechas**: todos los precios de esta comparativa están comprobados el 2 de octubre de 2026 contra las páginas oficiales de cada producto, porque en este sector un artículo de hace dos meses ya no vale nada. Están en **dólares**; en España hay que sumarle el 21 % de IVA, así que 20 $ se te van a 24 $ en la factura.
+**Aviso de fechas**: todos los precios de esta comparativa están comprobados el 3 de octubre de 2026 contra las páginas oficiales de cada producto, porque en este sector un artículo de hace dos meses ya no vale nada. Están en **dólares**; en España hay que sumarle el 21 % de IVA, así que 20 $ se te van a 24 $ en la factura.
 
 ## La tabla corta
 
 | Herramienta | Plan | Precio al mes | Para qué te sirve |
 |---|---|---|---|
-| **Gemini CLI** | Gratis con cuenta Google | **0 $** | Agente de terminal: 60 peticiones por minuto y 1.000 al día |
+| **Gemini CLI** | Gratis con cuenta Google | **0 $** | Agente de terminal: 60 peticiones por minuto y 1.000 al día (250/día si entras con clave de API) |
 | **DeepSeek** | Chat web | **0 $** | Preguntar, entender errores y revisar código |
 | **Ollama / LM Studio** | Modelos en local | **0 $** | Modelo propio en tu portátil, sin enviar una línea de código |
-| **CodeRabbit** | Repositorios públicos | **0 $** | Revisión de código en abierto: 5 revisiones por hora |
+| **CodeRabbit** | Repositorios públicos | **0 $** | Revisión de código gratis **para siempre** en repos públicos; el límite de 5 revisiones/hora es del plan de pago |
 | **GitHub Copilot** | Estudiante verificado | **0 $** | Autocompletado ilimitado; chat y agentes, limitados |
 | **GitHub Copilot** | Pro | **10 $** | Autocompletado y agentes en el IDE, la CLI y GitHub.com |
 | **Zed** | Pro | **10 $** | Modelos alojados en el editor y predicciones ilimitadas |
 | **Claude** | Pro | **17 $ con pago anual / 20 $ al mes** | Claude Code en la terminal, entre otras cosas |
-| **Warp** | Build | **18 $ con pago anual / 20 $ al mes** | Terminal con bloques y 1.500 créditos de IA |
+| **Warp** | Build | **20 $** | Terminal con bloques y 1.500 créditos de IA (ya no hay descuento por pago anual) |
 | **ChatGPT** | Plus | **20 $** | Razonamiento avanzado y más límites (la API va aparte) |
 | **Cursor** | Pro | **20 $** | El editor con el modo agente más pulido del mercado |
 | **Claude** | Max | **desde 100 $** | Cinco o veinte veces más uso de Claude Code |
@@ -39,7 +39,7 @@ La he hecho. Y la respuesta corta es que **con 0 $ llegas al 80 %**, que con 10 
 
 Empiezo por aquí porque es la que casi nadie hace bien. **No es que uses un juguete**: es que combinas cuatro cosas que no compiten entre sí.
 
-1. **Gemini CLI, agente de terminal gratis.** Con una clave gratuita de AI Studio tienes 60 peticiones por minuto y 1.000 al día. Para una tarde de prácticas eso de sobra. Está explicado en [la review de Gemini CLI](/articulos/reviews/gemini-cli-review-2026/).
+1. **Gemini CLI, agente de terminal gratis.** Con una cuenta de Google tienes 60 peticiones por minuto y 1.000 al día; si entras con una clave de API sin pagar, el techo baja a 250 al día y solo a modelos Flash. Para una tarde de prácticas eso de sobra. Está explicado en [la review de Gemini CLI](/articulos/reviews/gemini-cli-review-2026/).
 2. **DeepSeek en el chat, sin límite y sin pagar.** Es lo que uso para entender por qué falla un `NullPointerException` cuando ya he mirado veinte minutos. La review cuenta también lo que no debes mandarle: el código de la empresa.
 3. **Un modelo local con Ollama**, si tu portátil aguanta. Cuesta 0 $, es privado y va lento, pero para tareas pequeñas funciona. Los tres modelos que uso están en [la guía de Ollama](/articulos/reviews/ollama-modelos-ia-local-review-2026/).
 4. **Copilot gratis para estudiantes verificados.** El autocompletado no tiene límite de peticiones; lo que sí está limitado es el chat y el modo agente. Está en [la review de Copilot para estudiantes](/articulos/reviews/github-copilot-gratis-estudiantes/).
@@ -60,7 +60,7 @@ Los dos cuestan lo mismo, así que la decisión es de gusto: si quieres el asist
 Aquí es donde la mayoría se equivoca, porque paga sin saber qué está comprando.
 
 - **Claude Pro (17 $ al mes pagando el año, 20 $ pagando mes a mes) y ChatGPT Plus (20 $)**. Los dos traen el asistente de razonamiento potente y, en el caso de Claude, el acceso a Claude Code en la terminal. Si vas a usar agentes de verdad para escribir código y ejecutar pruebas, aquí es donde se nota. **Ojo con un detalle**: ChatGPT Plus **no** incluye uso de la API; eso se factura aparte en otra parte.
-- **Warp Build (18 $ al año, 20 $ al mes)** son 1.500 créditos de IA al mes. Si lo que te gusta es la terminal y no el editor, tiene su sentido; si te gusta la terminal de VS Code, es un gasto de lujo.
+- **Warp Build, 20 $ al mes**, son 1.500 créditos de IA al mes. Si lo que te gusta es la terminal y no el editor, tiene su sentido; si te gusta la terminal de VS Code, es un gasto de lujo.
 - **Cursor Pro (20 $)** sigue siendo el editor con el agente más redondo del mercado, pero desde que le quitaron el año gratis a los estudiantes en junio de 2026, es el que más duele pagar.
 
 Si te fijas en la etiqueta, Claude, ChatGPT y Cursor cuestan lo mismo. Si te fijas en lo que haces con ellos, **Claude es el único de los tres que te da un agente programador de verdad**; los otros dos te dan un asistente muy bueno dentro de una conversación.
