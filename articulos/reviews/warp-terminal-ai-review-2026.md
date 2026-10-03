@@ -112,7 +112,7 @@ Si ya tienes tu flujo perfeccionado en Kitty/iTerm con tmux + fzf + scripts prop
 - Quieres IA en terminal **sin configurar plugins, keys, [MCP](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/), nada**
 - Valoras la UX de bloques, búsqueda visual y compartir sesión
 - Trabajas en Mac/Linux/Windows y quieres la misma experiencia en todos
-- El plan Free + BYO o Build $18/mes te encaja
+- El plan Free + BYO o Build a 20 $/mes te encaja
 
 **Quédate en tu terminal si:**
 - Eres power user de tmux + fzf + scripts bash personalizados y no quieres reaprender
