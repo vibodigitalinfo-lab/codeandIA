@@ -4,7 +4,9 @@ title: "ChatGPT vs Claude vs Gemini para programar en 2026"
 description: "Comparativa real de ChatGPT, Claude y Gemini para programar en 2026: precios, contexto, modo agente y cuál te conviene según tu bolsillo y tus proyectos."
 category: "Comparativa"
 date: 2026-08-20
+updated: 2026-10-03
 readtime: 6
+last_modified_at: 2026-10-03
 ---
 
 En clase la pregunta es semanal: *"¿tú qué usas, ChatGPT, Claude o Gemini?"*. Cada uno defiende su bando como si fuese un equipo de fútbol, y la verdad es que casi todos copiamos del que le funcionó el primer día y no miramos atrás. El problema es que eso era razonable en 2024, pero en 2026 las tres opciones han cambiado muchísimo: precios, límites y sobre todo el **modo agente**, que se ha vuelto la diferencia real. Me he pasado dos semanas probando las tres con ejercicios de los módulos y esto es lo que he encontrado. Y aviso: hablo de precios y límites de septiembre de 2026, que en este sector cambian cada pocos meses.
@@ -13,10 +15,10 @@ En clase la pregunta es semanal: *"¿tú qué usas, ChatGPT, Claude o Gemini?"*.
 
 **ChatGPT** (OpenAI):
 - **Gratis**: sí, con límites de uso por ventana (en la práctica, unas horas). Suficiente para preguntas sueltas.
-- **Go**: 8 €/mes (el antiguo "Plus básico" que lanzaron en 2025).
-- **Plus**: 20 €/mes, el clásico; te da contextos largos y acceso a modelos de razonamiento.
-- **Pro**: 100 a 200 €/mes, para uso intensivo de investigación.
-- Lo interesante: los planes de pago incluyen **Codex**, el agente de código, y que pagues 20 € al mes te da esto sin sorpresas. Además, desde 2025 el límite de la versión gratis abarca ChatGPT, o sea que lo usas también para imágenes y búsqueda.
+- **Go**: 8 $/mes (el antiguo "Plus básico" que lanzaron en 2025).
+- **Plus**: 20 $/mes, el clásico; te da contextos largos y acceso a modelos de razonamiento.
+- **Pro**: 100 a 200 $/mes, para uso intensivo de investigación.
+- Lo interesante: los planes de pago incluyen **Codex**, el agente de código, y que pagues 20 $ al mes te da esto sin sorpresas. Además, desde 2025 el límite de la versión gratis abarca ChatGPT, o sea que lo usas también para imágenes y búsqueda.
 
 **Claude** (Anthropic):
 - **Gratis**: sí, con una **ventana de uso de 5 horas** en la que se agota pronto (según el día, entre 5 y 10 mensajes para programación pesada).
@@ -50,8 +52,8 @@ Esto lo cuento con más detalle en [la lista de herramientas IA de Google](/arti
 No hay un ganador absoluto; lo digo siempre, y también lo dije cuando [comparé GPT-5 con Claude](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/) o [los gratuitos entre sí](/articulos/comparativas/deepseek-vs-chatgpt-gratuitos-para-programar/). La decisión es tuya según tu bolsillo y tu proyecto:
 
 - **Si no vas a pagar nada**: Gemini gratis aguanta más que ChatGPT gratis si eres constante (los 6.000 de código al día de Antigravity son la mejor lotería gratis del sector), y Claude gratis es el que más cómodo te deja cuando el modelo está "iluminado". Yo iría primero a Gemini para probar y a ChatGPT para respuestas de una tanda corta.
-- **Si puedes pagar 8-10 €/mes**: ChatGPT Go o Google AI Plus. Para estudiantes, el salto de precio-no-cambio suele decepcionar; lo he visto con [ChatGPT Plus](/articulos/reviews/chatgpt-plus-para-programadores/) y el diferencial real está en los agentes.
-- **Si puedes pagar 20 €/mes**: aquí me inclino por **Claude Pro si trabajas en proyectos grandes** y por **ChatGPT Plus si quieres rapidez y Codex**. Es el empate más igualado de la lista.
+- **Si puedes pagar unos 8-10 al mes**: ChatGPT Go (8 $) o Google AI Plus (4,99-7,99 € según región). Para estudiantes, el salto de precio-no-cambio suele decepcionar; lo he visto con [ChatGPT Plus](/articulos/reviews/chatgpt-plus-para-programadores/) y el diferencial real está en los agentes.
+- **Si puedes pagar 20 $/mes**: aquí me inclino por **Claude Pro si trabajas en proyectos grandes** y por **ChatGPT Plus si quieres rapidez y Codex**. Es el empate más igualado de la lista.
 - **Si quieres un agente que trabaje mientras tú estás en clase**: Codex o Claude Code según la IA que ya uses; de JavaScript no te juzgo, que [cada uno tiene su manía](/articulos/comparativas/cursor-vs-claude-code-2026/).
 
 ## Mi veredicto

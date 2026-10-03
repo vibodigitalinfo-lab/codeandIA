@@ -1,18 +1,21 @@
 ---
 layout: article
-title: "Cuánto cuesta la IA para programar: 0 €, 10 € o 20 € al mes"
+title: "Cuánto cuesta la IA para programar: 0 $, 10 $ o 20 $ al mes"
 description: "Precios de IA para programar en octubre de 2026: Copilot, Claude, ChatGPT Plus, Cursor, Zed, Warp, Gemini CLI y DeepSeek, con tres presupuestos reales."
 category: "Comparativa"
 date: 2026-10-02
+updated: 2026-10-03
 readtime: 11
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Hay una pregunta que me llega por el grupo de clase cada pocas semanas y que siempre acaba en la misma discusión: **¿cuánto os gastáis vosotros en IA al mes?** El que lo tiene claro responde con veinte dólares, el que no lo tiene claro contesta "gratis" sin saber si su límite de peticiones se le acaba a media tarde, y casi nadie ha hecho la cuenta de lo que realmente consume un trimestre de prácticas.
 
-La he hecho. Y la respuesta corta es que **con 0 euros llegas al 80 %**, que con 10 euros vas sobrado y que los veinte dólares solo tienen sentido si el agente de la terminal es parte de tu flujo de trabajo, no un extra.
+La he hecho. Y la respuesta corta es que **con 0 $ llegas al 80 %**, que con 10 $ vas sobrado y que los veinte dólares solo tienen sentido si el agente de la terminal es parte de tu flujo de trabajo, no un extra.
 
-> **Aviso de fechas**: todos los precios de esta comparativa están comprobados el 2 de octubre de 2026 contra las páginas oficiales de cada producto, porque en este sector un artículo de hace dos meses ya no vale nada. Están en **dólares**; en España hay que sumarle el 21 % de IVA, así que 20 $ se te van a 24 $ en la factura.
+> **Sobre la moneda:** casi todos los planes de pago de IA se anuncian en **dólares** (OpenAI, Anthropic, Cursor, Zed, Warp). No hay un precio oficial en euros para la mayoría, así que lo que pagas en € depende de tu país y de los impuestos. Aquí pongo siempre el precio oficial en dólares.
+
+**Aviso de fechas**: todos los precios de esta comparativa están comprobados el 2 de octubre de 2026 contra las páginas oficiales de cada producto, porque en este sector un artículo de hace dos meses ya no vale nada. Están en **dólares**; en España hay que sumarle el 21 % de IVA, así que 20 $ se te van a 24 $ en la factura.
 
 ## La tabla corta
 
@@ -38,7 +41,7 @@ Empiezo por aquí porque es la que casi nadie hace bien. **No es que uses un jug
 
 1. **Gemini CLI, agente de terminal gratis.** Con una clave gratuita de AI Studio tienes 60 peticiones por minuto y 1.000 al día. Para una tarde de prácticas eso de sobra. Está explicado en [la review de Gemini CLI](/articulos/reviews/gemini-cli-review-2026/).
 2. **DeepSeek en el chat, sin límite y sin pagar.** Es lo que uso para entender por qué falla un `NullPointerException` cuando ya he mirado veinte minutos. La review cuenta también lo que no debes mandarle: el código de la empresa.
-3. **Un modelo local con Ollama**, si tu portátil aguanta. Cuesta 0 €, es privado y va lento, pero para tareas pequeñas funciona. Los tres modelos que uso están en [la guía de Ollama](/articulos/reviews/ollama-modelos-ia-local-review-2026/).
+3. **Un modelo local con Ollama**, si tu portátil aguanta. Cuesta 0 $, es privado y va lento, pero para tareas pequeñas funciona. Los tres modelos que uso están en [la guía de Ollama](/articulos/reviews/ollama-modelos-ia-local-review-2026/).
 4. **Copilot gratis para estudiantes verificados.** El autocompletado no tiene límite de peticiones; lo que sí está limitado es el chat y el modo agente. Está en [la review de Copilot para estudiantes](/articulos/reviews/github-copilot-gratis-estudiantes/).
 
 Con esa combinación llegas hasta mayo sin pagar nada. La calidad no es la de un plan de veinte dólares, pero para prácticas de DAW, para explicaros y para la parte del proyecto final donde lo que necesitas es que alguien te diga qué está mal, sí es suficiente.
@@ -86,11 +89,11 @@ La hora punta son de 01:00 a 04:00 UTC y de 06:00 a 10:00 UTC, de lunes a vierne
 
 | Presupuesto | Qué contratas | Cuándo lo elijo |
 |---|---|---|
-| **0 €/mes** | Gemini CLI + DeepSeek + Copilot de estudiante + un modelo local | Estás aprendiendo: si ya controlas el tema, te quedas corto en cuanto empiece el proyecto de grupo |
-| **10 €/mes** | Copilot Pro o Zed Pro, pero no los dos | Es el punto dulce de la mayoría de estudiantes |
-| **30 €/mes** | Un plan de 20 $ más otro de 10 $ | Tienes que hacer dos cosas distintas: un editor con agente y un agente en la terminal |
+| **0 $/mes** | Gemini CLI + DeepSeek + Copilot de estudiante + un modelo local | Estás aprendiendo: si ya controlas el tema, te quedas corto en cuanto empiece el proyecto de grupo |
+| **10 $/mes** | Copilot Pro o Zed Pro, pero no los dos | Es el punto dulce de la mayoría de estudiantes |
+| **30 $/mes** | Un plan de 20 $ más otro de 10 $ | Tienes que hacer dos cosas distintas: un editor con agente y un agente en la terminal |
 
-**Mi veredicto**: con 0 euros haces el curso entero. Con 10 euros vas cómodo. Los veinte dólares tienen sentido solo si la IA es una parte de tu trabajo y no una ayuda puntual, y los cien euros no son para ti.
+**Mi veredicto**: con 0 $ haces el curso entero. Con 10 $ vas cómodo. Los veinte dólares tienen sentido solo si la IA es una parte de tu trabajo y no una ayuda puntual, y los cien euros no son para ti.
 
 Y si lo que quieres decidir es si merece la pena pagar en absoluto, eso lo tienes desmontado punto por punto en [¿merece la pena pagar por IA en 2026?](/articulos/comparativas/merece-la-pena-pagar-ia-2026/). Si ya has decidido que sí y lo que quieres es la factura exacta, esta es tu tabla.
 

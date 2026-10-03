@@ -1,22 +1,24 @@
 ---
 layout: article
-title: "ChatGPT Plus para programadores: ¿merece la pena pagar 20€ al mes?"
+title: "ChatGPT Plus para programadores: ¿merece la pena pagar 20 $ al mes?"
 description: "Analizo si ChatGPT Plus vale lo que cuesta para programar: el corte de mensajes, el contexto largo, la velocidad y qué te da la versión gratis por comparar."
 category: "Review"
 date: 2026-06-02
 readtime: 4
-version: "ChatGPT Plus (20 €/mes); en junio de 2026 montaba el GPT-4o"
+version: "ChatGPT Plus (20 $/mes, precio oficial en dólares); en junio de 2026 montaba el GPT-4o"
 tiempo: "varios meses a diario para clase y proyectos"
 proyecto: "proyecto de fin de módulo con varios archivos abiertos a la vez"
-limites: "límite de mensajes con el modelo potente y 20 € fijos al mes quieras o no"
+limites: "límite de mensajes con el modelo potente y 20 $ fijos al mes quieras o no"
 affiliate_text: "Prueba ChatGPT Plus un mes y decide tú mismo"
 affiliate_url: "https://chatgpt.com/upgrade"
 affiliate_label: "Probar ChatGPT Plus"
-updated: 2026-09-30
-last_modified_at: 2026-09-30
+updated: 2026-10-03
+last_modified_at: 2026-10-03
 ---
 
-Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho tiempo me resistí a pagar. Me parecía una locura soltar 20€ al mes siendo estudiante, con la versión gratuita ahí disponible. Pero llegó un momento en el que el límite de mensajes me cortaba justo cuando estaba depurando un error, o me quedaba sin acceso a GPT-4o en los peores momentos. Así que me lo planteé con método: ¿ChatGPT Plus para programadores realmente cambia algo, o es marketing?
+Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho tiempo me resistí a pagar. Me parecía una locura soltar 20 $ al mes siendo estudiante, con la versión gratuita ahí disponible. Pero llegó un momento en el que el límite de mensajes me cortaba justo cuando estaba depurando un error, o me quedaba sin acceso a GPT-4o en los peores momentos. Así que me lo planteé con método: ¿ChatGPT Plus para programadores realmente cambia algo, o es marketing?
+
+**Sobre el precio:** OpenAI publica Plus en **20 USD al mes** y esa es la cifra que uso aquí. No hay un precio oficial en euros: lo que pagas en € depende de tu país y de los impuestos, así que el importe puede varier.
 
 **Actualización (30/09/2026):** este artículo es de junio. Cuando lo escribí, Plus servía GPT-4o; desde entonces ha salido una generación nueva y la comparo en [GPT-5 vs Claude para programar](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/). Lo que sigue vigente de esta review es lo que no depende del modelo: el corte del límite de mensajes, el contexto largo y cuándo compensa pagar.
 
@@ -32,7 +34,7 @@ Esto no lo vi venir. ChatGPT Plus tiene acceso a ventanas de contexto más grand
 
 ## Lo que sigue sin convencerme del todo
 
-No todo es perfecto. Los 20€ al mes son fijos, y hay semanas que apenas lo uso porque estoy con exámenes o el proyecto no requiere tanta ayuda de IA. En esos casos siento que estoy tirando dinero. También es verdad que para cosas básicas —explicar un concepto, hacer un ejercicio sencillo de JavaScript o generar algo de CSS— la versión gratuita da exactamente lo mismo.
+No todo es perfecto. Los 20 $ al mes son fijos, y hay semanas que apenas lo uso porque estoy con exámenes o el proyecto no requiere tanta ayuda de IA. En esos casos siento que estoy tirando dinero. También es verdad que para cosas básicas —explicar un concepto, hacer un ejercicio sencillo de JavaScript o generar algo de CSS— la versión gratuita da exactamente lo mismo.
 
 Tampoco me parece que el acceso a GPT-4o sea ilimitado de verdad. Hay un límite de mensajes con el modelo más potente, aunque es bastante más generoso que en la versión free. Cuando lo superas, te cambia automáticamente a un modelo menos capaz, y eso a veces pilla desprevenido.
 

@@ -4,7 +4,7 @@ title: "GPT-5 vs Claude: cuál programa mejor en 2026"
 description: "GPT-5 vs Claude para programar en 2026: benchmarks reales, planes gratuitos y mi experiencia en proyectos de DAW para decidir cuál usar."
 category: "Comparativa"
 date: 2026-07-27
-updated: 2026-10-02
+updated: 2026-10-03
 last_modified_at: 2026-10-03
 readtime: 8
 ---
@@ -43,7 +43,7 @@ Aquí la comparativa cambia bastante, y es donde se nota que las dos empresas ti
 
 ## El plan de pago: ¿merece la pena?
 
-Si decides invertir 20€ al mes, ahí sí que se pone interesante. Los dos planes Pro valen lo mismo y los dos te dan acceso a modelos potentes.
+Si decides invertir 20 $ al mes, ahí sí que se pone interesante. Los dos planes Pro valen lo mismo y los dos te dan acceso a modelos potentes.
 
 Claude Pro te da Opus y el acceso a Claude Code, que es una bestia en terminal. GPT-5 Plus te da Sol y la herramienta Codex. Los benchmarks dicen que Claude gana en código complejo, OpenAI en terminal. La diferencia real para un estudiante de DAW, en mi opinión, es mínima en el plan de pago: lo que importa es que ya de base los dos planes gratuitos te dan más de lo que necesitas para el 90% de las cosas del curso.
 
@@ -60,7 +60,7 @@ Mi setup actual para DAW es este:
 
 Si estás en DAW y no puedes pagarte una suscripción, **regístrate en las dos plataformas y úsalas en bloque**: consumes los 30-40 mensajes de Claude en una sesión, y mientras se reinicia el límite tiras de ChatGPT. Eso, combinado con Cursor, te da un arsenal gratuito que hace veinte años era ciencia ficción.
 
-Si te sobran 20€ al mes, empieza por Claude Pro por la herramienta Claude Code. Si ya pagas Cursor, no necesitas pagar por las dos plataformas: Cursor ya incluye acceso a modelos por su cuenta.
+Si te sobran 20 $ al mes, empieza por Claude Pro por la herramienta Claude Code. Si ya pagas Cursor, no necesitas pagar por las dos plataformas: Cursor ya incluye acceso a modelos por su cuenta.
 
 Si quieres compararlo con otras opciones para estudiantes, también tengo mi [comparativa de VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/). Y si el dinero es tema, la [lista de 7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) incluye otras que me han salvado más de una tarde.
 
