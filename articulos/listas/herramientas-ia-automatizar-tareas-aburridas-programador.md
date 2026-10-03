@@ -4,8 +4,9 @@ title: "7 herramientas de IA para automatizar tareas aburridas"
 description: "Lista de herramientas de IA que ahorran horas automatizando tareas repetitivas: commits, documentación, pruebas, revisión de código y más. Probadas en 2026."
 category: "Lista"
 date: 2026-07-16
-readtime: 7
-last_modified_at: 2026-09-30
+updated: 2026-10-03
+readtime: 8
+last_modified_at: 2026-10-03
 ---
 
 Todos hemos estado ahí: es viernes por la tarde, quieres terminar la tarea, y te quedan 20 commits por hacer, la documentación sin escribir, y 50 tests que crear. Las tareas repetitivas de programar no solo son aburridas, sino que roban tiempo que podrías dedicar a código real.
@@ -23,7 +24,7 @@ Honestamente, escribir buenos mensajes de commit es de las tareas más aburridas
 
 **Tiempo ahorrado:** ~5 minutos al día (se acumula)
 
-**Precio:** Incluido en Copilot Individual ($10/mes)
+**Precio:** Incluido en Copilot Pro ($10/mes) y gratis en Copilot Student
 
 No es perfecto y a veces hay que ajustar el mensaje, pero el 80% de las veces es suficiente. Para un estudiante que hace 10-15 commits al día, es una barbaridad de tiempo.
 

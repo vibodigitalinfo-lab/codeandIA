@@ -4,7 +4,9 @@ title: "IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama"
 description: "Guía para integrar IA en tu terminal: instalar y configurar Claude Code, GitHub Copilot CLI y modelos locales con Ollama. Casos reales de prácticas DAW."
 category: "Guía"
 date: 2026-07-10
-readtime: 7
+updated: 2026-10-03
+last_modified_at: 2026-10-03
+readtime: 8
 ---
 
 El año pasado mi terminal era solo `cd`, `ls`, `git add .` y `npm run dev`. Este curso, la IA se ha colado en la línea de comandos y **ha cambiado cómo hago las prácticas de DAW**: desde generar un `Dockerfile` multi-stage hasta depurar un `NullPointerException` en Spring Boot sin abrir el navegador. Te cuento cómo lo tengo montado yo, qué uso cada herramienta y los errores que cometí al principio.
@@ -20,7 +22,7 @@ Las tres que uso yo:
 | Herramienta | Qué hace | Coste | Mejor para |
 |---|---|---|---|
 | **Claude Code** | Agente autónomo en CLI, lee repo entero, ejecuta comandos | $20/mes (Pro) o $100/mes (Max) | Refactors grandes, migraciones, debugging profundo |
-| **GitHub Copilot CLI** | `gh copilot suggest/explain` — comandos y explicaciones | Incluido en Copilot Individual ($10/mes) | "¿Cómo hago X en bash?", explicar errores de build |
+| **GitHub Copilot CLI** | `gh copilot suggest/explain` — comandos y explicaciones | Incluido en Copilot Pro ($10/mes) y gratis en Copilot Student | "¿Cómo hago X en bash?", explicar errores de build |
 | **Ollama + shell** | Modelos locales (qwen2.5-coder, codellama) vía CLI | Gratis (tu hardware) | Privacidad total, offline, sin límites de cuota |
 
 No necesitas las tres. Empieza por **una** según tu caso.

@@ -4,7 +4,7 @@ title: "Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio"
 description: "Comparativa real de las 3 plataformas gratis para deploy: límites, CI/CD, dominios y edge functions, y cuál elijo para portfolio y proyectos de DAW."
 category: "Comparativa"
 date: 2026-07-09
-readtime: 11
+readtime: 12
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
@@ -175,7 +175,7 @@ Tienes **Actions minutes gratis (2k/mes)** para buildar donde quieras. El deploy
 - **Next.js / React con SSR/ISR** → **Vercel**. Punto.
 - **Astro, Vite, SvelteKit, Hugo, 11ty, Remix (SSG/SPA)** → **Netlify**. Forms gratis, CLI, agnóstico.
 - **100% estático, Jekyll/Hugo, docs, landing simple** → **GitHub Pages**. Gratis total, cero mantenimiento.
-- **Necesitas backend real (Spring Boot, Node, Python)** → Despliega frontend en Vercel/Netlify, backend en **Railway ($5/mes), Render (gratis con sleep), Fly.io, o tu VPS**.
+- **Necesitas backend real (Spring Boot, Node, Python)** → Despliega frontend en Vercel/Netlify, backend en **Railway (plan Hobby de 5 $/mes que ya incluye 5 $ de uso, y si apagas el servicio la cuenta se detiene), Render (gratis, pero la instancia duerme cuando no recibe tráfico y el plan free son 512 MB), Fly.io, o tu VPS**.
 
 Yo tengo **los tres configurados**. Cada repo sabe a dónde va. No hay drama.
 

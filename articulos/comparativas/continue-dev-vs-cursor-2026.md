@@ -16,7 +16,7 @@ Llevo años usando GitHub Copilot en el editor, Cursor me lo instalé este curso
 
 ## Por qué comparar justo estos tres
 
-- **GitHub Copilot (Individual)**: el estándar en VS Code/JetBrains/Vim. Autocompletado + chat, $10/mes, gratis para estudiantes.
+- **GitHub Copilot (Student)**: el estándar en VS Code/JetBrains/Vim. Autocompletado ilimitado + chat y agentes limitados, gratis para estudiantes verificados; el Pro de pago cuesta $10/mes.
 - **Cursor**: fork de VS Code (Electron) con chat, Composer (multi-archivo), agent mode, MCP. $20/mes, algo free.
 - **Continue.dev**: extensión para VS Code/JetBrains que te trae modelos remotos (Anthropic, OpenAI) o locales (Ollama) + chat + agent + index de codebase. Gratis, open source.
 
@@ -28,7 +28,7 @@ Un estudiante me preguntó: "¿Instalo Cursor o sigo con Copilot?" Otro: "¿Cont
 
 | Criterio | Qué miro yo |
 |---|---|
-| **Coste real estudiante** | Gratis DAW, Individual, Pro — sin engañar con "desde $..." |
+| **Coste real estudiante** | Gratis (plan Student), Pro a 10 $/mes — sin engañar con "desde $..." |
 | **Privacidad** | ¿Tu código sale de la máquina? Crítico en prácticas con NDA o sin red. |
 | **Modelos disponibles** | ¿Solo su modelo? ¿Multi-modelo? ¿Local? |
 | **Autocompletado** | Velocidad, precisión en Java/Spring (mi día a día), sin conflictos. |
@@ -41,9 +41,9 @@ Un estudiante me preguntó: "¿Instalo Cursor o sigo con Copilot?" Otro: "¿Cont
 
 ## Ronda 1: Coste (lo que más duele a comienzo de curso)
 
-| Plan | Copilot Individual | Cursor (Hobby → Pro) | Continue.dev |
+| Plan | GitHub Copilot (Student) | Cursor (Hobby → Pro) | Continue.dev |
 |---|---|---|---|
-| **Gratis** | **Gratis vía Students Pack** (2 años) | **Free** (agente limitado, sin número público) | **Gratis ILIMITADO** (open source, MIT) |
+| **Gratis** | **Gratis vía Copilot Student** (mientras siga tu estatus verificado) | **Free** (agente limitado, sin número público) | **Gratis ILIMITADO** (open source, MIT) |
 | **Pago base** | $10/mes | $20/mes (Pro, 20 $ de uso incluidos) | Pagás APISep usado (Anthropic, OpenAI, Gemini) o nada con Ollama local |
 | **Para estudiante** | **$0** | **$20/mes** (Cursor no tiene plan estudiantil permanente, solo promociones en campus) | **$0** (local) / ~$5-15/mes (API remota según uso) |
 | **Hard cap** | Sin cap (rate limit suave) | Límite de uso incluido; al pasarse se cobra el extra | Sin cap (tu API / tu hardware) |
@@ -120,14 +120,14 @@ Todos los precios por millón de tokens son los oficiales que comprobé el 3 de 
 
 | Caso | Uso | Por qué |
 |---|---|---|
-| **Estudiante DAW con Pack Estudiante** | **Copilot Individual ($0)** | Gratis 2 años, mejor autocompletado Java, Agent autónomo, zero config |
+| **Estudiante DAW con Pack Estudiante** | **Copilot Student ($0)** | Gratis mientras GitHub te mantenga como estudiante verificado, autocompletado Java ilimitado, zero config |
 | **Proyecto Java / Spring en IntelliJ** | **Copilot en JetBrains** | Agent + chat dentro de IntelliJ (ver [Copilot en IntelliJ](/articulos/guias/github-copilot-intellij-java-daw/)) |
 | **Privacidad total / offline / examen sin red** | **Continue.dev + qwen2.5-coder:7b (Ollama)** | Gratis, nada sale, funciona sin red, sorprendentemente bueno |
 | **Side project React/Next.js + IA agente autónomo** | **Cursor Pro ($20)** | Autonomía real, Composer, MCP, preview deployment cercano |
 | **Portfolio / SaaS serio / presupuesto cero** | **Continue.dev + API Sonnet/GPT** | Gratis + pagás consumo real, eliges modelo, control total |
 
 **Mi setup real (hoy):**
-- **Día a día (clase, prácticas Java):** Copilot Individual (estudiante gratis) como autocompletado + Copilot Agent para tareas gordas.
+- **Día a día (clase, prácticas Java):** Copilot Student (gratis si eres estudiante verificado) como autocompletado + Copilot Agent para tareas gordas.
 - **Código sensible / sin red:** Continue.dev + `qwen2.5-coder:7b` local (alias `ai` en terminal).
 - **Side projects serios (React/Next.js, auth + DB):** Cursor Pro ($20) cuando necesito agent que ejecute 20 archivos y no quiero babysitting.
 

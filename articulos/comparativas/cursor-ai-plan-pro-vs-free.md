@@ -4,7 +4,7 @@ title: "Cursor AI Pro vs Free: qué incluye cada plan y cuándo pagar"
 description: "Comparo el plan gratuito de Cursor y el Pro con los límites reales que me he encontrado: peticiones, modelos, velocidad y cuándo compensa pasar a pagar."
 category: "Comparativa"
 date: 2026-06-15
-readtime: 5
+readtime: 6
 affiliate_text: "Si ya sabes que vas a necesitar más límite, prueba Cursor Pro sin vueltas"
 affiliate_url: "https://cursor.com/pricing"
 affiliate_label: "Probar Cursor Pro"
@@ -50,4 +50,4 @@ Para mí la señal clara fue cuando empecé a chocar con el límite de peticione
 
 - [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
 - [¿Merece la pena pagar por IA en 2026? Cursor, Copilot y Claude](/articulos/comparativas/merece-la-pena-pagar-ia-2026/)
-- [GitHub Copilot Business vs Individual para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)
+- [GitHub Copilot Business vs Pro para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)

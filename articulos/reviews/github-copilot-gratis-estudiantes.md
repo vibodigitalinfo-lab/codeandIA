@@ -4,7 +4,7 @@ title: "GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso"
 description: "Guía para activar GitHub Copilot gratis con el Student Developer Pack: requisitos, correo educativo y cómo aprovecharlo para estudiar programación."
 category: "Review"
 date: 2026-05-31
-readtime: 8
+readtime: 9
 version: "Copilot Student por el Student Developer Pack (gratis; el plan de pago más barato es Copilot Pro, 10 $/mes)"
 tiempo: "varios meses de uso continuo"
 proyecto: "prácticas de DAW (Java, PHP, SQL) y proyectos personales"
@@ -76,7 +76,7 @@ Y no te quedes solo con Copilot: el pack incluye bastante más cosas (dominio gr
 
 ## Sigue por aquí
 
-- [GitHub Copilot Business vs Individual para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)
+- [GitHub Copilot Business vs Pro para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)
 - [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
 - [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
 - [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
