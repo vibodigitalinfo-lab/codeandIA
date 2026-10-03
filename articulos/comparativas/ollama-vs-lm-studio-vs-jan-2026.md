@@ -18,7 +18,7 @@ Si en algún momento te has planteado ejecutar modelos de IA sin mandar tu códi
 | | Ollama | LM Studio | Jan |
 |---|---|---|---|
 | **Qué es** | CLI + daemon de fondo | Aplicación de escritorio con GUI | Aplicación de escritorio independiente |
-| **Precios** | Gratis, open source (MIT) | Gratis (core). La nube es aparte: Bionic+ a 20 $/mes y Pro a 100 $/mes | Gratis, open source (GPLv3) |
+| **Precios** | Gratis, open source (MIT) | Gratis (core). La nube es aparte: Bionic+ a 20 $/mes y Pro a 100 $/mes | Gratis, open source (Apache 2.0) |
 | **Plataforma** | macOS, Linux, Windows (CLI) | macOS, Linux, Windows (GUI) | macOS, Linux, Windows (GUI) |
 | **Modelos** | Ollama Library (100+) | HuggingFace Hub (miles) | HuggingFace Hub + Jan Hub |
 | **Formato** | GGUF, GGUF-specific registry | GGUF (binarios Mac) | GGUF, GGUF binarios, ONNX |
@@ -102,7 +102,7 @@ Si trabajas en VS Code y usas Continue, los tres funcionan igual: configuras la 
 |---|---|---|---|
 | **Conexión a internet** | Solo para `pull` | Solo para download | Solo para download |
 | **Telemetría** | Mínima (opt-in, anonimizada) | Anónima (opt-out posible) | Sin telemetría (open source) |
-| **Código cerrado** | No | Sí (core cerrado, engine abierto) | No (GPLv3) |
+| **Código cerrado** | No | Sí (core cerrado, engine abierto) | No (Apache 2.0) |
 | **Exportar modelos** | ✅ Ollama registry + GGUF | ✅ HuggingFace GGUF | ✅ Jan Hub + HuggingFace |
 | **Sin red / examen** | ✅ Funciona 100% offline | ✅ Funciona 100% offline | ✅ Funciona 100% offline |
 
@@ -145,7 +145,7 @@ Cuando necesito una segunda opinión en Java, escribo `ai "¿por qué falla este
 **Mi recomendación para estudiante DAW**:
 1. **Empieza por Ollama** (tutorial: [Guía completa de IA en terminal](/articulos/guias/ia-en-terminal-estudiantes-daw/)).
 2. **Añade LM Studio** si quieres explorar modelos que Ollama no tiene aún.
-3. **Jan solo si** necesitas ONNX para Windows ARM o quieres alternativa 100% GPL.
+3. **Jan solo si** necesitas ONNX para Windows ARM o quieres una alternativa con licencia permisiva tipo Apache 2.0.
 
 ---
 

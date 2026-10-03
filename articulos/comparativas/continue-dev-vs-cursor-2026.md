@@ -4,13 +4,17 @@ title: "Continue.dev vs Cursor vs Copilot: comparativa para estudiantes"
 description: "Continue.dev, Cursor y GitHub Copilot cara a cara: precios, privacidad, modelos (Claude, GPT, Ollama local) y cuál uso yo en prácticas de DAW."
 category: "Comparativa"
 date: 2026-07-06
-readtime: 10
+readtime: 11
 last_modified_at: 2026-10-03
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
 
-Llevo años usando GitHub Copilot en el editor, Cursor me lo instalé este curso, y hace dos meses me metí Continue.dev (open source, MIT) con Ollama local para no mandar código a la nube. Tres formas de "IA que te ayuda a programar", tres precios, tres filosofías. Te las comparo **con números reales y experiencia de prácticas DAW**, no con el marketing de cada uno.
+Llevo años usando GitHub Copilot en el editor, Cursor me lo instalé este curso, y hace dos meses me metí Continue.dev (open source, Apache 2.0) con Ollama local para no mandar código a la nube. Tres formas de "IA que te ayuda a programar", tres precios, tres filosofías. Te las comparo **con números reales y experiencia de prácticas DAW**, no con el marketing de cada uno.
+
+---
+
+> **Aviso importante (verificado el 3 de octubre de 2026): Continue ya no es una herramienta que conviene adoptar si estás empezando.** Cursor compró el equipo de Continue en junio de 2026, el repositorio `continuedev/continue` está **archivado y en solo lectura** y la última release es la **2.0.0**, ya definitiva: no recibe mantenimiento, correcciones ni soporte. Si ya lo tienes instalado sigue funcionando, y por eso esta comparativa se queda como documento histórico y como referencia de la alternativa libre. Pero si estás eligiendo hoy una IA para programar, empieza por Copilot Student o Cursor.
 
 ---
 
@@ -18,7 +22,7 @@ Llevo años usando GitHub Copilot en el editor, Cursor me lo instalé este curso
 
 - **GitHub Copilot (Student)**: el estándar en VS Code/JetBrains/Vim. Autocompletado ilimitado + chat y agentes limitados, gratis para estudiantes verificados; el Pro de pago cuesta $10/mes.
 - **Cursor**: fork de VS Code (Electron) con chat, Composer (multi-archivo), agent mode, MCP. $20/mes, algo free.
-- **Continue.dev**: extensión para VS Code/JetBrains que te trae modelos remotos (Anthropic, OpenAI) o locales (Ollama) + chat + agent + index de codebase. Gratis, open source.
+- **Continue.dev**: extensión para VS Code/JetBrains que te trae modelos remotos (Anthropic, OpenAI) o locales (Ollama) + chat + agent + index de codebase. Gratis y open source (Apache 2.0), pero **archivada desde junio de 2026**: no la masterpieces como primera opción.
 
 Un estudiante me preguntó: "¿Instalo Cursor o sigo con Copilot?" Otro: "¿Continue con Ollama sirve para exámenes sin red?" Vamos a responder.
 
@@ -43,7 +47,7 @@ Un estudiante me preguntó: "¿Instalo Cursor o sigo con Copilot?" Otro: "¿Cont
 
 | Plan | GitHub Copilot (Student) | Cursor (Hobby → Pro) | Continue.dev |
 |---|---|---|---|
-| **Gratis** | **Gratis vía Copilot Student** (mientras siga tu estatus verificado) | **Free** (agente limitado, sin número público) | **Gratis ILIMITADO** (open source, MIT) |
+| **Gratis** | **Gratis vía Copilot Student** (mientras siga tu estatus verificado) | **Free** (agente limitado, sin número público) | **Gratis** (open source, Apache 2.0, pero archivado en 2026) |
 | **Pago base** | $10/mes | $20/mes (Pro, 20 $ de uso incluidos) | Pagás APISep usado (Anthropic, OpenAI, Gemini) o nada con Ollama local |
 | **Para estudiante** | **$0** | **$20/mes** (Cursor no tiene plan estudiantil permanente, solo promociones en campus) | **$0** (local) / ~$5-15/mes (API remota según uso) |
 | **Hard cap** | Sin cap (rate limit suave) | Límite de uso incluido; al pasarse se cobra el extra | Sin cap (tu API / tu hardware) |
@@ -61,7 +65,7 @@ Un estudiante me preguntó: "¿Instalo Cursor o sigo con Copilot?" Otro: "¿Cont
 | **Funciona sin red** | ❌ | ❌ | ✅ Con Ollama local (tras `ollama pull`) |
 | **Compliance org/NDA** | ⚠️ (policy org) | ⚠️ | ✅ **Local = máximo control** |
 
-**Ganador privacidad/offline:** **Continue.dev + Ollama** por goleada. Si tienes examen práctico sin red o prácticas con datos sensibles, es la única que sigue funcionando.
+**Ganador privacidad/offline:** **Continue.dev + Ollama** por goleada (con el aviso de arriba: gana por diseño, pero es un proyecto archivado). Si tienes examen práctico sin red o prácticas con datos sensibles, es la única que sigue funcionando.
 
 ---
 
@@ -122,13 +126,13 @@ Todos los precios por millón de tokens son los oficiales que comprobé el 3 de 
 |---|---|---|
 | **Estudiante DAW con Pack Estudiante** | **Copilot Student ($0)** | Gratis mientras GitHub te mantenga como estudiante verificado, autocompletado Java ilimitado, zero config |
 | **Proyecto Java / Spring en IntelliJ** | **Copilot en JetBrains** | Agent + chat dentro de IntelliJ (ver [Copilot en IntelliJ](/articulos/guias/github-copilot-intellij-java-daw/)) |
-| **Privacidad total / offline / examen sin red** | **Continue.dev + qwen2.5-coder:7b (Ollama)** | Gratis, nada sale, funciona sin red, sorprendentemente bueno |
+| **Privacidad total / offline / examen sin red** | **Continue.dev + qwen2.5-coder:7b (Ollama)** *(archivado, pero es lo que uso)* | Gratis, nada sale, funciona sin red, sorprendentemente bueno |
 | **Side project React/Next.js + IA agente autónomo** | **Cursor Pro ($20)** | Autonomía real, Composer, MCP, preview deployment cercano |
-| **Portfolio / SaaS serio / presupuesto cero** | **Continue.dev + API Sonnet/GPT** | Gratis + pagás consumo real, eliges modelo, control total |
+| **Portfolio / SaaS serio / presupuesto cero** | **Continue.dev + API Sonnet/GPT** *(archivado)* | Gratis + pagás consumo real, eliges modelo, control total |
 
 **Mi setup real (hoy):**
 - **Día a día (clase, prácticas Java):** Copilot Student (gratis si eres estudiante verificado) como autocompletado + Copilot Agent para tareas gordas.
-- **Código sensible / sin red:** Continue.dev + `qwen2.5-coder:7b` local (alias `ai` en terminal).
+- **Código sensible / sin red:** Continue.dev + `qwen2.5-coder:7b` local (hoy, con las alternativas viva: Cline o Aider) (alias `ai` en terminal).
 - **Side projects serios (React/Next.js, auth + DB):** Cursor Pro ($20) cuando necesito agent que ejecute 20 archivos y no quiero babysitting.
 
 No es religión: es **usar la herramienta que menos fricción pone ese día**. Copilot te cubre el 80% gratis. Continue te salva el 10% offline/privado. Cursor es el 10% donde necesitas autonomía total.

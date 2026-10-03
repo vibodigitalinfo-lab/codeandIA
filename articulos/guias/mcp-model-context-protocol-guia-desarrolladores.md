@@ -4,7 +4,9 @@ title: "MCP (Model Context Protocol): qué es y por qué deberías conocerlo"
 description: "Guía práctica del Model Context Protocol: arquitectura, servidores y clientes, seguridad y cómo usarlo en VS Code, Cursor, Claude Code y Copilot."
 category: "Guía"
 date: 2026-06-27
-readtime: 10
+updated: 2026-10-03
+last_modified_at: 2026-10-03
+readtime: 11
 affiliate_text: "Explora servidores MCP listos para usar en el registry oficial"
 affiliate_url: "https://mcp.so"
 affiliate_label: "Ver registry MCP"
@@ -93,7 +95,7 @@ La solución MCP: **1 protocolo estándar**. Cliente MCP habla JSON-RPC 2.0 con 
 | **Cursor** | ✅ Integrado | `.cursor/mcp.json`, usa servidores en Composer/Agent |
 | **Windsurf** | ✅ Integrado | Similar a Cursor |
 | **Zed** | ✅ 2025 | Editor nativo Rust, MCP built-in |
-| **Continue.dev** | ✅ | Extension open source para cualquier IDE |
+| **Continue.dev** | ✅ | Extension open source para cualquier IDE (proyecto archivado en 2026) |
 
 **Governance**: donado a **Linux Foundation (Agentic AI Foundation)** en 2025 → vendor-neutral. Anthropic, OpenAI, Microsoft, Google, Cursor, Windsurf en el steering committee.
 
