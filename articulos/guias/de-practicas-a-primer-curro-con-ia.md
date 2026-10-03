@@ -5,6 +5,8 @@ description: "Guía DAW para buscar tu primer trabajo: usar IA en entrevistas t�
 category: "Guía"
 date: 2026-07-17
 readtime: 10
+updated: 2026-10-03
+last_modified_at: 2026-10-03
 ---
 
 Cuando empecé a buscar prácticas de DAW, me encontré con una realidad que nadie me había contado: **saber programar no es suficiente**. Necesitas pasar entrevistas técnicas donde te ponen a resolver problemas en tiempo real, made un challenge de código en 45 minutos, y demostrar que sabes más que "lo que vimos en clase". Aquí es donde la IA se convierte en tu mejor aliada — no para que haga el trabajo por ti, sino para que **te entrene como un coach personalizado** que nunca se cansa de explicarte las mismas cosas.
@@ -23,7 +25,7 @@ Antes de hablar de IA, hay que ser honesto sobre qué te esperan:
 | **Culture fit / behavioral** | Comunicación, trabajo en equipo, cómo resuelves conflictos | 30-45 min |
 | **Take-home project** | Código completo, tests, documentación, deploy | 3-7 días |
 
-Lo que descubrí: **el 80% de las empresas junior hacen live coding + una pregunta de system design sencillo**. Y aquí es donde la IA te puede entrenar mejor que cualquier libro.
+Lo que descubrí en las entrevistas que vi en clase: lo más repetido fue **live coding + una pregunta de system design sencilla**. Y aquí es donde la IA te puede entrenar mejor que cualquier libro.
 
 ---
 
@@ -190,7 +192,7 @@ Después damelo a mí para que lo intente.
 
 1. **La IA no sustituye la práctica real**. Entrevistar se aprende entrevistando. Usa la IA para prepararte, pero busca mock interviews reales (amigos, comunidades, interviewing.io).
 2. **Saber explicar es más importante que saber resolver**. Un senior prefiere ver tu razonamiento aunque tardes 10 min más. La IA te entrena para articular tu lógica.
-3. **El 70% de las empresas junior valoran actitud sobre conocimiento**. "No sé, pero buscaría..." es mejor que intentar adivinar. La IA te da la base para decir eso con confianza.
+3. **En las entrevistas junior se valoraba más la actitud que el conocimiento exacto**. "No sé, pero buscaría..." es mejor que intentar adivinar. La IA te da la base para decir eso con confianza.
 4. **No mientas sobre el uso de IA**. Si te preguntan "¿usas IA en tu día a día?", la respuesta correcta es: "Sí, para code review y resolver bugs, pero entiendo el código que genero". Eso es una fortaleza, no una trampa.
 
 ---

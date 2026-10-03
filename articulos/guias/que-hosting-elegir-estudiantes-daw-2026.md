@@ -4,10 +4,12 @@ title: "Qué hosting contratar para tu primer proyecto de DAW en 2026"
 description: "Guía sin humo para estudiantes de DAW: qué hosting elegir para tu primer proyecto, si basta el plan gratis, cuánto pagar y la letra pequeña de la renovación."
 category: "Guía"
 date: 2026-07-28
-readtime: 9
+readtime: 10
 affiliate_text: "Para el proyecto clásico de DAW (PHP + MySQL) yo uso Hostinger Premium: unos 3€ al mes y tienes dominio y SSH incluidos"
 affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
+updated: 2026-10-03
+last_modified_at: 2026-10-03
 ---
 
 Cuando en segundo de DAW nos mandaron subir el proyecto final a un servidor de verdad, la mayoría de mi clase hizo lo mismo que yo iba a hacer: buscar "hosting barato" en Google, abrir las diez primeras pestañas y quedarse mirando precios sin entender nada. Entre los que publican la web, los que no saben qué es un dominio y los que terminan pagando 15€ al mes por algo que no usan, este tema merece una guía de verdad. Te cuento lo que aprendí a base de pagar dos hostings con mi dinero y de romper un par de cosas.
@@ -33,7 +35,7 @@ Regla práctica: **estático = gratis, PHP + MySQL = de pago.** No hay más vuel
 
 Cuando abres cinco pestañas de precios, todos parecen baratísimos. El truco está en la letra pequeña. Estos son los cinco puntos que reviso yo:
 
-1. **El precio de renovación.** Es el error que hunde a todo el mundo. Un hosting a 1,49€ al mes durante 48 meses puede renovarse a 8 o 11€ al mes al terminar el periodo. Si multiplicas, ese "hosting de 1,49€" es en realidad un compromiso de tres o cuatro años. Míralo siempre.
+1. **El precio de renovación.** Es el error que hunde a todo el mundo. El ejemplo más claro es Hostinger: el Single está a 1,49 € al mes pagando 48 meses por adelantado, pero al terminar el periodo se renueva por 6,99 € al mes, y el Premium pasa de 2,59 € a 9,99 €. Si multiplicas, ese "hosting de 1,49 €" es en realidad un compromiso de cuatro años. Míralo siempre.
 2. **Qué te dan en el plan barato.** Hay planes de 2€ que van sobrados para un proyecto de DAW y planes de 2€ que no incluyen SSH ni cinco bases de datos.
 3. **Dominio incluido o no.** Que el dominio `.es` vaya incluido el primer año te ahorra unos 10-15€, y hay hostings que solo lo dan con los planes largos.
 4. **Dónde están los servidores.** Para un proyecto con usuarios en España, un centro de datos en Europa o España te da mejor latencia. Además, para temas de protección de datos de prácticas, mejor en la UE.
@@ -45,7 +47,7 @@ Y una cosa más: **mira el SSL.** Que te lo den gratis y con un clic. Si no incl
 
 Con todo lo anterior, los tres o cuatro candidatos que sobreviven son casi siempre los mismos:
 
-- **Hostinger.** Su plan Premium (el que necesitas: 3 webs, 20 GB SSD, 10 bases de datos MySQL, SSH, Git y dominio gratis el primer año) sale en promoción entre 2,59€ y 3€ al mes, y la renovación ronda los 7-11€. Su panel hPanel es fácil, tiene instalador de WordPress y de otras apps con un clic, y su centro de datos más cercano a España está en Europa. La queja más repetida en Trustpilot es, cómo no, la subida del precio al renovar, así que apunta la fecha.
+- **Hostinger.** Su plan Premium (el que necesitas: 3 webs, 20 GB SSD, 10 bases de datos MySQL, SSH, Git y dominio gratis el primer año) anda en 2,59 € al mes pagando 48 meses por adelantado, y la renovación se va a 9,99 € al mes. Su panel hPanel es fácil, tiene instalador de WordPress y de otras apps con un clic, y su centro de datos más cercano a España está en Europa. La queja más repetida en Trustpilot es, cómo no, la subida del precio al renovar, así que apunta la fecha.
 - **IONOS.** Suele tener la oferta más agresiva en el primer tramo (1€ al mes los primeros 6 o 12 meses) y centro de datos en España, con teléfono de atención. La renovación, eso sí, sube bastante, y el panel no es tan fino.
 - **OVH.** Planes sencillos y centro de datos en Europa, alrededor de 4€ al mes. Muy buena opción si valoras estabilidad por encima del precio del primer año.
 - **Raiola Networks.** La opción "me lo dan hecho y me lo explican en español", con servidores en Madrid y soporte por teléfono en castellano. Cuesta más (desde unos 9€ al mes) pero es la que recomiendo a quien valora su tiempo y no quiere pelearse con ningún panel.

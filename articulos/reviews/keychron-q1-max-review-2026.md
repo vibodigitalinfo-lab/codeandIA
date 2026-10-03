@@ -47,7 +47,7 @@ Los estabilizadores vienen pre-lubricados de fábrica y se nota. La barra espaci
 
 El Q1 Max se conecta por **cable USB-C, Bluetooth 5.1 o dongle 2.4GHz**. Los tres modos funcionan, pero os soy sincero: para programar yo uso cable. El Bluetooth va bien para escribir correos o navegar, pero para coding intensivo el input lag del cable se nota (aunque es mínimo).
 
-La bateria es de **4000mAh** y dura unas 2 semanas con el backlight apagado o 3-4 días con él encendido. Para un teclado wireless con esta calidad de construcción, me parece más que aceptable.
+La batería es de **4000 mAh** y Keychron declara hasta **180 horas con la luz apagada** (unos 7 días) y hasta 100 horas con el RGB al mínimo, unas 4. En la vida real se queda algo por debajo de esas cifras, pero el orden de magnitud es ese: si lo usas con cable, como hago yo, no lo notas. Para un teclado wireless con esta calidad de construcción, me parece más que aceptable.
 
 Una cosa que me gustó mucho: el cable USB-C es retráctil y viene con un canal de gestión integrado en la parte trasera. Pequeño detalle, pero se nota que Keychron piensa en la experiencia completa.
 
@@ -61,7 +61,7 @@ Y como es QMK, toda la configuración es open source. Si sabes un poco de C, pue
 
 ## ¿Para quién es este teclado?
 
-Vamos al grano. En la tienda oficial de Keychron España, el Q1 Max cuesta **242,99 € la versión ISO** y **269,99 € la versión US**, con precios comprobados el 2 de octubre de 2026. En Amazon España, en cambio, sigue sin haber una oferta fiable: la ficha aparece como no disponible y no se sabe cuándo vuelva. No es barato. Pero hay que ponerlo en contexto:
+Vamos al grano. En la tienda oficial de Keychron España, el Q1 Max aparece a **269,99 €** tanto en la colección ISO como en la versión US, y hay variantes más baratas segúnducción (barebone, sin perilla), con precios comprobados el 3 de octubre de 2026. En Amazon España, en cambio, sigue sin haber una oferta fiable: la ficha aparece como no disponible y no se sabe cuándo vuelva. No es barato. Pero hay que ponerlo en contexto:
 
 - Es un teclado con carcasa de aluminio CNC
 - Gasket mount de serie

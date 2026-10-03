@@ -5,6 +5,8 @@ description: "Guía de SQL con IA para estudiantes de DAW: laboratorio gratis, p
 category: "Guía"
 date: 2026-08-01
 readtime: 7
+updated: 2026-10-03
+last_modified_at: 2026-10-03
 ---
 
 SQL tiene fama injusta. En DAW nadie le da miedo al principio —tres `SELECT` para aprobar el módulo y a otra cosa— y luego resulta que es, de lejos, la habilidad que más se pide en las ofertas junior que miran los estudiantes. Es feo de asumir, pero es así: no hay stack moderno sin base de datos.
@@ -59,7 +61,7 @@ Esto es lo que hace que un examen o una entrevista te saquen del juego aunque ha
 
 **3. Depender del copiar-pegar de datos.** Si pides datos de prueba otra vez, o te aprendes de memoria la salida de un ejercicio, no estás practicando el razonamiento. Cambia los datos cada vez.
 
-**4. Saltarte los `JOIN`.** Encadenar tablas es el 60% de las preguntas de bases de datos en entrevistas junior. Practícalos hasta que el `LEFT JOIN` con datos nulos no te saque de quicio.
+**4. Saltarte los `JOIN`.** Encadenar tablas aparece en casi todas las entrevistas junior de base de datos, más que cualquier otro tema. Practícalos hasta que el `LEFT JOIN` con datos nulos no te saque de quicio.
 
 **5. Confundir "que funcione" con "que esté bien".** Una query que devuelve lo que toca pero con un `WHERE` mal pensado o un cartesiano escondido pasa el examen y explota en producción. Pide el prompt 2 (rendimiento) aunque no te lo pidan.
 

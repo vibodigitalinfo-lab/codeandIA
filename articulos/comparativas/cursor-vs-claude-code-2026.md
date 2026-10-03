@@ -37,10 +37,10 @@ La parte que más se mueve de un mes para otro, así que esto es una foto con fe
 
 **Cursor**
 
-- Hobby: gratis, con agente y chat limitados (~50 peticiones al mes).
-- Pro: 20 $/mes.
-- Pro+: 60 $/mes.
-- Ultra: 200 $/mes.
+- Hobby: gratis, con el uso limitado (no hay un número fijo de peticiones publicado: el consumo se mide contra la bolsa incluida).
+- Pro: 20 $/mes, con 20 $ de uso de modelos de terceros incluido.
+- Pro+: 60 $/mes (70 $ de uso incluido).
+- Ultra: 200 $/mes (400 $ de uso incluido).
 
 Los planes anuales de Cursor tienen descuento, pero el precio exacto cambia con la promoción vigente, así que no lo pongo aquí: míralo en su página antes de pagar.
 

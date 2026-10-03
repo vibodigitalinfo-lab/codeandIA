@@ -67,24 +67,27 @@ Mi compañero y yo teníamos que arreglar un bug en el frontend React (un useEff
 
 | Problema | Gravedad | Workaround |
 |---|---|---|
-| **Windows sin soporte de primera** (build estable desde octubre 2026) | Baja | Instala la estable; si el renderer te da guerra, WSL2 + Zed Linux |
+| **Windows llegó tarde** (estable desde octubre de 2025, casi un año tarde que Mac y Linux) | Baja | Instala la estable y no la de preview |
 | **Modelos alojados solo en el plan Pro** | Media | Plan Personal gratis con tus claves, Ollama local o un agente externo |
 | **Ecosistema de extensiones minúsculo** | Media | Configuras todo en JSON/TOML; LSP nativo para Java, TS, Python, Rust, Go |
 | **Sin marketplace de temas** | Baja | Temas base + importas `.tmTheme` / VS Code themes manualmente |
 | **Curva de atajos distinta** | Media | Modo "Vim" nativo bueno; keymap VS Code importable |
 | **IA gratuita con límites diarios** | Media | Trae tu propia API key (Anthropic/OpenAI) o usa Ollama local |
 
-**El tema Windows** ha cambiado desde que escribí esto: a 2 de octubre de 2026 zed.dev ya ofrece **build estable para Windows** además de la de preview. Cuando probé la build de preview se caía el renderer de GPU de vez en cuando y tocaba lanzar `zed --disable-gpu`; la estable ya no lleva esa instrucción en el camino normal. Si vas a instalarlo en Windows, coge la estable, no la de preview.
+**El tema Windows** quedó resuelto, pero con retraso: la build **estable para Windows llegó en octubre de 2025**, casi un año después que la de Mac, y para entonces Zed ya la trató como plataforma de pleno derecho, con equipo propio y actualizaciones semanales. Cuando probé la preview se caía el renderer de GPU de vez en cuando y tocaba lanzar `zed --disable-gpu`; la estable ya no lleva esa instrucción en el camino normal. Si vas a instalarlo en Windows, coge la estable. Eso sí, si compilas código en WSL, abre la distro como destino remoto en lugar de pelearte con las herramientas de Windows.
 
 ### El precio (esto no lo cuentan en Twitter)
 
-Zed es **gratis hoy** para el editor, y conviene entender qué significa "gratis" porque a octubre de 2026 ya no incluye la IA alojada. La tabla oficial, comprobada el 2 de octubre de 2026, tiene tres planes:
+Zed es **gratis hoy** para el editor, y conviene entender qué significa "gratis" porque a octubre de 2026 ya no incluye la IA alojada. La tabla oficial, comprobada el 3 de octubre de 2026, tiene tres planes para el resto de la gente y **uno que es solo para tú**:
 
 | Plan | Precio | Qué te da |
 | --- | --- | --- |
 | **Personal** | **0 € para siempre** | El editor entero y 2.000 predicciones de edición aceptadas. Sin modelos alojados de Zed: usas tus claves o un agente externo |
 | **Pro** | **10 $/mes** | Modelos alojados de Zed, predicciones ilimitadas y 5 $ de tokens incluidos al mes; a partir de ahí se cobra el uso a tasa API |
 | **Business** | **30 $/asiento/mes** | Lo de Pro más controles de organización para equipos |
+| **Student** | **Gratis durante un año** | Todo lo de Pro (predicciones ilimitadas y modelos alojados, salvo Claude Opus) y **10 $/mes de tokens**, verificando que estudias en la universidad |
+
+**Si eres estudiante, esta fila es la que te importa**: Zed da el plan Student **gratis durante un año** al verificar que estudias en la universidad, y no es un capado: incluye las mismas cosas que el Pro de 10 $/mes pero con **10 $ de tokens al mes** en vez de 5 $. Solo se queda fuera Claude Opus.
 
 Pro tiene una **prueba de 14 días sin tarjeta**, con 5 $ de saldo y un único modelo alojado disponible durante la prueba. Si agotas el saldo, te cobran al final del mes o cada 10 $ que gastes, lo que ocurra antes, y se puede poner tope de gasto.
 

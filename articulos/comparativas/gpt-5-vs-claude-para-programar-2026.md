@@ -45,7 +45,7 @@ Aquí la comparativa cambia bastante, y es donde se nota que las dos empresas ti
 
 Si decides invertir 20 $ al mes, ahí sí que se pone interesante. Los dos planes Pro valen lo mismo y los dos te dan acceso a modelos potentes.
 
-Claude Pro te da Opus y el acceso a Claude Code, que es una bestia en terminal. GPT-5 Plus te da Sol y la herramienta Codex. Los benchmarks dicen que Claude gana en código complejo, OpenAI en terminal. La diferencia real para un estudiante de DAW, en mi opinión, es mínima en el plan de pago: lo que importa es que ya de base los dos planes gratuitos te dan más de lo que necesitas para el 90% de las cosas del curso.
+Claude Pro te da Opus y el acceso a Claude Code, que es una bestia en terminal. GPT-5 Plus te da Sol y la herramienta Codex. Los benchmarks cambian cada mes y no los comparo aquí porque no tienen ningún interés didáctico: entre un modelo y otro hay un ciclo de días de diferencia y ninguno te resuelve una práctica de DAW por ti. Lo que sí veo yo es que Claude acierta más en código complejo y con muchos archivos. La diferencia real para un estudiante de DAW, en mi opinión, es mínima en el plan de pago: lo que importa es que ya de base los dos planes gratuitos te dan más de lo que necesitas para el 90% de las cosas del curso.
 
 Yo personalmente uso Claude Pro porque necesito la herramienta Claude Code para módulos grandes, y el Sol de OpenAI solo cuando quiero automatizar algo de la terminal. Pero no es que uno sea objetivamente mejor: depende de lo que hagas.
 
