@@ -4,7 +4,8 @@ title: "GitHub Actions para DAW: automatiza tests y despliegues"
 description: "Guía de GitHub Actions para proyectos DAW: workflows Java/Maven, deploy en Vercel y GitHub Pages, secrets y cómo ahorrar siendo estudiante."
 category: "Guía"
 date: 2026-07-15
-readtime: 8
+readtime: 9
+last_modified_at: 2026-10-03
 ---
 
 Mi primer proyecto "profesional" en DAW tenía tests que pasaban en mi portátil y fallaban en el de mi compañero. Dos horas depurando para descubrir que él usaba Java 17 y yo Java 21. Si hubiéramos tenido GitHub Actions configurado, el CI nos lo habría dicho en el primer push. **GitHub Actions te da un pipeline de integración continua gratis** — tests, linting, builds, deploy automático — y lo mejor: funciona sin instalar Jenkins, sin configurar servidores, y sin pagar nada mientras seas estudiante (o tengas un repo público).

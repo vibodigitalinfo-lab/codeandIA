@@ -29,11 +29,11 @@ El diseño es limpio y minimalista. Sin logos exagerados, sin LEDs por todos lad
 
 ## El sistema gasket mount: por qué importa
 
-Esto es lo que diferencia al Q1 Max de un teclado mecánico normal. Usa un sistema **gasket mount**, que significa que el PCB (la placa interna) no está atornillada directamente a la carcasa sino que queda suspendida entre unos pads de goma.
+Esto es lo que diferencia al Q1 Max de un teclado mecánico normal. Usa un sistema **gasket mount**, que significa que ni el PCB (la placa del circuito) ni la placa de montaje van atornillados directamente a la carcasa: el conjunto queda suspendido entre unos pads de goma.
 
 ¿Y esto qué significa en la práctica? Pues que cada vez que pulsas una tecla, la plataforma cede un poquito. El resultado es una experiencia de escritura mucho más cómoda y menos fatigosa. Después de 4 horas escribiendo código, notas la diferencia respecto a un teclado rígido.
 
-Además, el plate es de **PC**, tal y como declara Keychron en la ficha de la versión Fully Assembled (teclado, carcasa de aluminio y plate de PC). No es un plate de latón, que es el error que más se cuela en reseñas de este teclado. Si os gustan los videos de "sound test" de teclados mecánicos, el Q1 Max suena de escándalo. Un "thock" suave y limpio, nada de ese tintineo metálico barato.
+Además, la placa de montaje (plate) es de **policarbonato (PC)**, tal y como declara Keychron en la ficha de la versión Fully Assembled (teclado, carcasa de aluminio y plate de PC). No es una placa de latón, que es el error que más se cuela en reseñas de este teclado. Si os gustan los videos de "sound test" de teclados mecánicos, el Q1 Max suena de escándalo. Un "thock" suave y limpio, nada de ese tintineo metálico barato.
 
 ## Los switches Gateron Jupiter Red: lineales y sonoros
 

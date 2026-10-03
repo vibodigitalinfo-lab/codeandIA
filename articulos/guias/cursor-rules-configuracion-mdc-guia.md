@@ -4,10 +4,11 @@ title: "Cursor Rules (.mdc): cómo configurar la IA a tu gusto"
 description: "Guía del sistema de reglas de Cursor: formato .mdc, tipos de reglas, mejores prácticas y ejemplos reales para estudiantes de DAW."
 category: "Guía"
 date: 2026-06-26
-readtime: 9
+readtime: 10
 affiliate_text: "Prueba Cursor Pro y configura tus reglas para programar más rápido"
 affiliate_url: "https://cursor.com/pricing"
 affiliate_label: "Ver planes Cursor"
+last_modified_at: 2026-10-03
 ---
 
 Llevo meses usando Cursor a diario y la diferencia entre "Cursor que alucina" y "Cursor que entiende mi proyecto" no es el modelo, **son las reglas**. El sistema `.cursor/rules/*.mdc` (olvida `.cursorrules`, eso es historia) es lo que convierte a Cursor de "autocompletado caro" a "compañero de equipo que sabe tus convenciones".

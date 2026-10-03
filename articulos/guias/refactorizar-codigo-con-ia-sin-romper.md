@@ -4,7 +4,8 @@ title: "Refactorizar código con IA sin romper nada: mi proceso"
 description: "Cómo refactorizar código con IA en 2026 sin romper nada: git en rama, tests antes, prompts seguros, revisión de diffs y los límites reales de los agentes."
 category: "Guía"
 date: 2026-08-16
-readtime: 7
+readtime: 8
+last_modified_at: 2026-10-03
 ---
 
 Hay un escalón que todo estudiante sube tarde: al principio da miedo escribir código, y meses después da más miedo **tocarlo**. Llega el proyecto del trimestre, juntas 800 líneas que funcionan "a ver si mañana", y la idea de refactorizarlas te da más respeto que el examen. La tentación de abrir un chat de IA y soltarle "refactorízame todo esto" es enorme. La he probado: el resultado es una base de código que no reconozco y una noche entera arreglando lo que "refactorizó". Ese es el camino malo.

@@ -4,7 +4,7 @@ title: "Configuración de VS Code para IA en 2026: lo que uso de verdad"
 description: "Configuración de VS Code con IA en 2026: extensiones que siguen vivas, AGENTS.md, settings útiles, modelos propios y el flujo real de un estudiante de DAW."
 category: "Lista"
 date: 2026-08-13
-readtime: 7
+readtime: 8
 last_modified_at: 2026-10-03
 ---
 

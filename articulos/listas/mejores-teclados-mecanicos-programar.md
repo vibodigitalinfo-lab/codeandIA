@@ -22,7 +22,7 @@ picks:
     best_for: "El más barato que vale la pena"
     url: "https://www.amazon.es/dp/B0GVJRGLHX?tag=codeandia-21"
   - name: "Keychron Q1 Pro"
-    price: "~170€"
+    price: "228,99€"
     best_for: "Sin compromisos (gasket mount + aluminio)"
   - name: "Logitech MX Keys S"
     price: "~92€"
@@ -42,7 +42,7 @@ Aquí van los 5 que recomiendo para programar en 2026. Sin jerga de marketing. S
 
 ## Keychron Q1 Pro: El rey de los teclados mecánicos
 
-El Keychron Q1 Pro cuesta unos 170€ en la tienda oficial de Keychron, aunque en Amazon España la ficha está sin stock ahora mismo. No es barato. Pero vale cada céntimo si programamos 8 horas diarias.
+El Keychron Q1 Pro cuesta 228,99€ en la tienda oficial de Keychron, que ahora mismo lo tiene en pedido pendiente y sin fecha de reposición. Si lo quieres ya, la alternativa que te llega mañana es el V1 Max. No es barato. Pero vale cada céntimo si programamos 8 horas diarias.
 
 Tiene gasket mount. Eso significa que el PCB flota dentro del caso, separado por pads de goma. La escritura se siente suave, como teclear sobre un colchón firme. Después de 4 horas seguidas de código, la diferencia es notable: menos impacto en las muñecas.
 
@@ -122,7 +122,7 @@ Para el portátil, uso un Keychron V1 Max en el coworking. Es más ligero, cuest
 
 El Royal Kludge RK84 quedó como backup en el estudio. Lo muestro a compañeros de DAW cuando preguntan si vale la pena cambiar a mecánico.
 
-¿Necesitas 170€ para programar mejor? No. El Keychron V1 Max a 136€ cubre el 90% de lo que necesitas. La diferencia entre un membrane y un mecánico de 136€ es mucho mayor que entre uno de 136€ y uno de 170€.
+¿Necesitas 229€ para programar mejor? No. El Keychron V1 Max a 136€ cubre el 90% de lo que necesitas. La diferencia entre un membrane y un mecánico de 136€ es mucho mayor que entre uno de 136€ y uno de 170€.
 
 Lo que sí importa: switches hot-swappable (para probar sin comprometer), QMK/VIA (para personalizar atajos) y un layout 75% o TKL (funcional sin ocupar mucho espacio).
 

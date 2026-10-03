@@ -4,7 +4,8 @@ title: "Cómo leer código ajeno con IA: método de 4 pasos"
 description: "Aprende a leer y entender código que no escribiste tú usando IA, sin quedarte con un resumen bonito que no te sirve. Método de 4 pasos con prompts concretos."
 category: "Guía"
 date: 2026-08-25
-readtime: 8
+readtime: 9
+last_modified_at: 2026-10-03
 ---
 
 El día que llegas a un trabajo, a unas prácticas o a un proyecto de un compañero y te encuentras con un archivo de 800 líneas que no has escrito tú, pasa algo incómodo: no entiendes nada, y la IA te da un resumen muy bonito que no te sirve para nada. "Este archivo gestiona las notas del usuario", dice, y tú te quedas igual. He visto a muchos compañeros pasar por eso, y el truco no es pedirle a la IA que te lo explique entero. El truco es **usar la IA como lupa, no como traductor**: que te vaya señalando dónde mirar, en vez de darte una explicación genérica. Esta es la guía de cómo hacerlo, con los prompts exactos que uso.

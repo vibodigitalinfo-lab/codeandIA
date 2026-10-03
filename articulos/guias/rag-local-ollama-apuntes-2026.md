@@ -4,8 +4,8 @@ title: "RAG local con Ollama: respuestas a tus apuntes con IA sin pagar"
 description: "Guía de RAG local con Ollama para estudiantes de DAW: embeddings con nomic-embed-text, ChromaDB y un chat 100% local con tus apuntes, gratis y offline."
 category: "Guía"
 date: 2026-08-03
-readtime: 7
-last_modified_at: 2026-09-30
+readtime: 8
+last_modified_at: 2026-10-03
 ---
 
 Cuando empecé DAW, mi sistema de estudio era una pesadilla: apuntes de MySQL por aquí, PDFs de Java por allá, y media docena de tabs de apuntes abiertas. Preguntarle algo a ChatGPT funcionaba, pero la respuesta era genérica: no conocía MIS apuntes, ni el guion de MI profesor, ni los ejercicios que hacíamos en clase.

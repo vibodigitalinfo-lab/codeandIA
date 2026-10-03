@@ -4,7 +4,8 @@ title: "Algoritmos con IA: cómo estudiar sin que te haga los ejercicios"
 description: "Cómo estudiar algoritmos y estructuras de datos con IA sin que te haga los ejercicios: método por fases, prompts que te obligan a pensar y qué pedir si fallas."
 category: "Guía"
 date: 2026-08-30
-readtime: 9
+readtime: 10
+last_modified_at: 2026-10-03
 ---
 
 Hay un ejercicio donde la IA es peligrosamente buena: los algoritmos. Le pides "búsqueda binaria" y te devuelve una implementación impecable, con Big O anotado y los casos límite ya cubiertos. En treinta segundos tienes la solución que en un examen te habría costado veinte minutos. Y ese es exactamente el problema.

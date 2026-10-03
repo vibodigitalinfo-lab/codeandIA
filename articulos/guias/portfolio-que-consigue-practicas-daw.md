@@ -4,8 +4,8 @@ title: "Portfolio de programador con IA que consigue prácticas"
 description: "Cómo montar un portfolio que te consiga prácticas de DAW con IA: estructura, proyectos, el texto de candidatura y los fallos que me costaron entrevistas."
 category: "Guía"
 date: 2026-08-06
-readtime: 7
-last_modified_at: 2026-10-01
+readtime: 8
+last_modified_at: 2026-10-03
 ---
 
 ## Mi primer portfolio era un cajón desordenado

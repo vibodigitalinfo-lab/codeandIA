@@ -22,10 +22,10 @@ picks:
     best_for: "Empezar con postura vertical sin gastar de más"
     url: "https://www.amazon.es/dp/B07W4DGC27?tag=codeandia-21"
   - name: "Logitech MX Vertical"
-    price: "~63€"
+    price: "59,69€"
     best_for: "Prevención seria de RSI"
-  - name: "Logitech ERGO M575"
-    price: "~50€"
+  - name: "Logitech ERGO M575S"
+    price: "36,99€"
     best_for: "Escritorio pequeño (trackball)"
   - name: "Keychron M6"
     price: "~64€"
@@ -70,7 +70,7 @@ Lo que no me gusta: para manos grandes se queda corto. El cuerpo es más estrech
 
 Si nunca has probado un ratón vertical y quieres empezar con una inversión baja, el Lift es el sitio correcto. Pero si te acostumbras, probablemente quieras subir de gama.
 
-## Logitech MX Vertical: La opción seria para RSI (~63 euros)
+## Logitech MX Vertical: La opción seria para RSI (59,69 euros)
 
 El MX Vertical es el ratón que me recomendó el fisioterapeuta. 57 grados de inclinación, diseñado para que el brazo y la muñeca estén en una posición neutra.
 
@@ -80,13 +80,13 @@ Lo que me convenció: después de dos semanas usando el MX Vertical, el dolor de
 
 Lo configuré con Logi Options+ para mapear los botones traseros a operaciones de Git en la terminal: push, pull y status. En un proyecto DAW con deploy frecuente, estos atajos me ahorraron tiempo real.
 
-Lo que no me gusta: el diseño es polarizante. A algunos les parece cómodo desde el primer día. A otros les cuesta acostumbrarse. Y a 63 euros, tampoco es un experimento caro.
+Lo que no me gusta: el diseño es polarizante. A algunos les parece cómodo desde el primer día. A otros les cuesta acostumbrarse. Y a 59,69 euros, tampoco es un experimento caro.
 
 Si tienes problemas de muñeca o síntomas de RSI, este ratón es una inversión seria. No es opcional. Es prevención.
 
-## Logitech ERGO M575: El trackball que no mueve el brazo (~50 euros)
+## Logitech ERGO M575S: El trackball que no mueve el brazo (36,99 euros)
 
-El ERGO M575 es un trackball. El dedo gordo mueve la bola. El brazo y la muñeca no se mueven.
+El ERGO M575S es un trackball y el modelo que hay en tienda ahora mismo: Logitech ya no vende el M575 original en España. El dedo gordo mueve la bola. El brazo y la muñeca no se mueven.
 
 Esa es la propuesta. Y funciona.
 
@@ -98,7 +98,7 @@ Lo configuré para mapear Ctrl+Shift+P (Command Palette en VS Code) al botón tr
 
 Lo que no me gusta: no es para gaming ni para diseño gráfico donde la precisión pixel-a-pixel importa. Para programación, la precisión es suficiente. Pero si también usas el mismo ratón para diseño, no es la mejor opción.
 
-A 50 euros, es la opción más barata de esta lista y una de las más efectivas para prevenir dolor de muñeca. Si el espacio es limitado o simplemente quieres que tu brazo descanse, el M575 cumple.
+A 36,99 euros, es la opción más barata de esta lista y una de las más efectivas para prevenir dolor de muñeca. Si el espacio es limitado o simplemente quieres que tu brazo descanse, el M575 cumple.
 
 ## Keychron M6: Budget ergonómico que no decepciona (~64 euros)
 
@@ -124,7 +124,7 @@ El Logitech MX Vertical es mi ratón de oficina. Lo uso 8 horas al día y el dol
 
 El ERGO M575 quedó como alternativa para sesiones de escritorio pequeño. Y el Keychron M6 es mi backup en el coworking.
 
-¿Necesitas 89 euros para programar sin dolor? No. El Logitech Lift a 46,88 euros o el ERGO M575 a 50 euros cubren la necesidad básica. Pero si programamos 8 horas al día, la diferencia entre un ratón de oficina barato y un MX Master se nota en cada sesión.
+¿Necesitas 89 euros para programar sin dolor? No. El Logitech Lift a 46,88 euros o el ERGO M575S a 36,99 euros cubren la necesidad básica. Pero si programamos 8 horas al día, la diferencia entre un ratón de oficina barato y un MX Master se nota en cada sesión.
 
 Lo que sí importa: un ángulo que mantenga la muñeca neutra (vertical o ergonómico), botones programables para mapear atajos del IDE y un peso que no fatigue el brazo después de horas.
 

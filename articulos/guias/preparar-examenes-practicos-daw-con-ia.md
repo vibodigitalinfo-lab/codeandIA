@@ -4,7 +4,7 @@ title: "Preparar exámenes prácticos de DAW con IA (sin copiar)"
 description: "Preparar exámenes prácticos de DAW con IA sin volverte dependiente: el método que uso para practicar con la IA de profesor y sobrevivir el día del examen."
 category: "Guía"
 date: 2026-07-01
-readtime: 7
+readtime: 8
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---

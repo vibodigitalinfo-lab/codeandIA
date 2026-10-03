@@ -18,7 +18,7 @@ picks:
     url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
     badge: "Mi pick"
   - name: "IKEA Markus"
-    price: "~200€"
+    price: "159€"
     best_for: "El clásico con menos riesgo"
   - name: "Clatina Mellet"
     price: "~230€"
@@ -27,7 +27,7 @@ picks:
     price: "~135€"
     best_for: "La más barata que sirve"
   - name: "Ticova Ergonomic"
-    price: "~160€"
+    price: "139,99€"
     best_for: "Reclinación 135° para pensar"
 ---
 
@@ -41,7 +41,7 @@ El problema es el precio. Una Herman Miller o una Steelcase cuestan más de 900�
 
 ### IKEA Markus: el clásico que nunca se equivoca
 
-Empezamos con la silla más popular entre programadores. La IKEA Markus cuesta unos 200€. La recomienda todo el mundo, y no es casualidad.
+Empezamos con la silla más popular entre programadores. La IKEA Markus cuesta 159€ en IKEA España. La recomienda todo el mundo, y no es casualidad.
 
 Tiene malla trasera. Eso significa que tu espalda no se sobrecalienta en sesiones largas. En verano, con el portátil al lado soltando calor, lo notas muchísimo. Es transpirable de verdad, no es un adorno.
 
@@ -49,7 +49,7 @@ El respaldo es alto. Cubre desde la zona lumbar hasta los hombros. La malla amor
 
 Se ajusta en altura con un sistema clásico de gas. Eso sí: el reposabrazos no es ajustable. Si mides más de 1,80m, puede que te quede corto. Yo lo noté en los codos.
 
-Lo que más me gusta: la relación calidad-precio. 200€ por una silla que te aguanta años de uso intensivo, con garantía de 10 años en IKEA. Pocas marcas de este precio se atreven a tanto.
+Lo que más me gusta: la relación calidad-precio. 159€ por una silla que te aguanta años de uso intensivo, con garantía de 10 años en IKEA. Pocas marcas de este precio se atreven a tanto.
 
 Si no sabes por dónde empezar, esta es la respuesta. Es la que menos riesgo tiene.
 
@@ -97,13 +97,13 @@ Pero hagamos números. 135€ y devolución fácil en Amazon. Si tu presupuesto 
 
 ### Ticova Ergonomic: la que se reclina para centrarse
 
-La Ticova Ergonomic cuesta unos 160€. No es la más barata de la lista, pero tiene su propia personalidad.
+La Ticova Ergonomic cuesta 139,99€ en Amazon. No es la más barata de la lista, pero tiene su propia personalidad.
 
-Lo más llamativo: se reclina 135 grados. Cuando llevo dos horas atascado con una función que no compila, me reclino, miro el techo y le doy vueltas al problema. Cambiar de postura sin levantarte descarga la espalda y ya te ayuda bastante.
+Lo más llamativo: se reclina 130 grados. Cuando llevo dos horas atascado con una función que no compila, me reclino, miro el techo y le doy vueltas al problema. Cambiar de postura sin levantarte descarga la espalda y ya te ayuda bastante.
 
 El reposacabezas es 3D (altura, ángulo y profundidad). La malla es completa, tanto en respaldo como en asiento: fresca y transpirable, a la altura de la SIHOO.
 
-El reposabrazos se ajusta en altura y rotación, pero no en profundidad. Suficiente para escribir, sin llegar a la flexibilidad de las sillas de 300€.
+El reposabrazos es 3D, se ajusta en altura, ángulo y profundidad. Suficiente para escribir, sin llegar a la flexibilidad de las sillas de 300€.
 
 El ajuste lumbar es manual con tornillo. Funciona, pero es poco preciso. La SIHOO con su soporte dinámico lo hace mejor: la Ticova te obliga a parar y ajustar a mano.
 
@@ -115,11 +115,11 @@ Mi consejo: si buscas reclinación y un reposacabezas completo, esta es tu silla
 
 No es un flechazo científico. Es práctica. El soporte lumbar dinámico me evita ese dolor de las 5 de la tarde que tuve con la silla de cocina. La malla completa me mantiene fresco en sesiones largas. Y el reposabrazos 3D me permite apoyar las muñecas mientras escribo sin encoger los hombros.
 
-Si tu presupuesto no llega a 300€, hay orden. Por menos de 150€, la Amazon Basics te saca del paso. Por unos 160€, la Ticova añade reclinación y reposacabezas completo. Entre 200€ y 250€, la IKEA Markus o la Clatina Mellet según si prefieres malla clásica o reposacabezas. Y con algo más de presupuesto, la SIHOO con su soporte lumbar dinámico.
+Si tu presupuesto no llega a 300€, hay orden. Por menos de 150€, la Amazon Basics te saca del paso. La Ticova, a 139,99€, añade reclinación y reposacabezas completo, y la IKEA Markus, a 159€, es la malla más fiable del montón. Cerca de 230€ está la Clatina Mellet, si lo que buscas es el reposacabezas. Y con algo más de presupuesto, la SIHOO con su soporte lumbar dinámico.
 
 Lo que no negocies jamás: soporte lumbar ajustable (esencial en sesiones largas), malla trasera transpirable y una garantía de 5 años mínima. La profundidad de asiento ajustable y los reposabrazos 4D son mejoras, no requisitos. Mide tu altura antes de comprar: casi todas las quejas que leo en foros vienen de gente alta o baja a la que la silla no le encaja.
 
-Un consejo para España: PcComponentes mete ofertas frecuentes en sillas ergonómicas y gaming. Suscripción a sus boletines o alerta de rebajas y puedes cazarte una de 300€ por 220€. También miraría Amazon con filtro de precio 150-300€ y reviews filtradas por "programadores que pasan horas sentados".
+Un consejo para España: PcComponentes mete ofertas frecuentes en sillas ergonómicas y gaming. Suscripción a sus boletines o alerta de rebajas y puedes cazarte una de 380€ por 300€. También miraría Amazon con filtro de precio 130-350€ y reviews filtradas por "programadores que pasan horas sentados".
 
 Mi veredicto: no compres una silla de 900€. Compra una de las de esta lista, siéntate en ella todos los días y ahorra para lo que de verdad importa: tu aprendizaje. La espalda te lo va a agradecer dentro de diez años.
 

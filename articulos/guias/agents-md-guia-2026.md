@@ -4,7 +4,8 @@ title: "AGENTS.md: la guía de instrucciones para IA en tus proyectos (2026)"
 description: "Guía de AGENTS.md, el estándar de instrucciones para IA en 2026: escribirlo, jerarquía por carpetas y compatibilidad con Cursor, Copilot, Codex y Claude Code."
 category: "Guía"
 date: 2026-07-30
-readtime: 7
+readtime: 8
+last_modified_at: 2026-10-03
 ---
 
 Me pasaba esto todas las semanas en prácticas: entraba Cursor, le pedía un cambio en mi `UserService.java`, y me devolvía código que no seguía ni el estilo de mis clases ni el patrón del proyecto. Separadores en inglés, `System.out.println` por todos lados, y refactorizaciones que no había pedido. Hasta que un compañero me enseñó una cosa que lo arregló en 30 minutos: **AGENTS.md**.

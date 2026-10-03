@@ -4,7 +4,8 @@ title: "7 errores programando con IA (y cómo evitarlos)"
 description: "Errores reales usando Copilot, ChatGPT y Claude Code en mi primer año de DAW: confiar a ciegas, no leer el código generado, perder contexto. Con soluciones."
 category: "Lista"
 date: 2026-07-19
-readtime: 8
+readtime: 9
+last_modified_at: 2026-10-03
 ---
 
 Hace un año pensé que programar con IA era "le doy el prompt y me genera todo". Después de meses usando Copilot, ChatGPT y Claude Code en proyectos reales de DAW, me di cuenta de que **la IA amplifica tanto lo bueno como lo malo**. Si eres desordenado, la IA te ayuda a ser desordenado más rápido. Si eres metódico, la IA te multiplica la productividad x10. Aquí van los 7 errores que más me dolieron — y que veo que cometen otros estudiantes constantemente.

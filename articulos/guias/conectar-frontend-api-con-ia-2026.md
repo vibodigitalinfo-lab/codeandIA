@@ -4,7 +4,8 @@ title: "Conectar tu frontend al API con IA: la guía de DAW que falta en clase"
 description: "Del HTML a la API real: cómo conectar tu frontend de DAW a un backend con fetch, resolver CORS y generar el código con IA sin morir en el intento."
 category: "Guía"
 date: 2026-08-12
-readtime: 5
+readtime: 6
+last_modified_at: 2026-10-03
 ---
 
 El módulo de cliente y el de servidor van cada uno por su lado hasta el día que te piden juntarlos, y ahí empieza el caos: tu HTML de toda la vida llamando a tu API de Spring Boot, y el navegador poniéndote una barrera roja. Esta guía es el puente que no me contaron en clase: cómo conectar el frontend a un API real usando la IA como traductora entre dos mundos que ella conoce muy bien.

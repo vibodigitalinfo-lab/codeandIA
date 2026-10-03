@@ -5,8 +5,8 @@ description: "Comparativa real de DeepSeek y ChatGPT gratuitos para programar co
 category: "Comparativa"
 date: 2026-06-21
 updated: 2026-09-30
-last_modified_at: 2026-09-30
-readtime: 8
+last_modified_at: 2026-10-03
+readtime: 9
 ---
 
 Cuando empecé en DAW, mi primera pregunta fue siempre la misma: *¿qué IA puedo usar gratis para ayudarme con el código?* No todo el mundo puede pagarse una suscripción, y menos siendo estudiante con el portátil del gobierno y las becas que no llegan. Por eso probé a fondo **DeepSeek y ChatGPT gratuitos** para ver cuál de los dos programa mejor sin pagar ni un euro.

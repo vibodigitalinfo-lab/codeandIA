@@ -4,7 +4,7 @@ title: "Cómo publicar tu primera web en internet por menos de 5€ con IA"
 description: "Te cuento cómo publiqué mi primera web en internet barato con IA gastando menos de 5€, paso a paso y con errores incluidos."
 category: "Guía"
 date: 2026-06-08
-readtime: 6
+readtime: 7
 affiliate_text: "Si quieres alojar tu proyecto sin complicarte, yo usé Hostinger y me fue bien"
 affiliate_url: "https://www.hostinger.com"
 affiliate_label: "Probar Hostinger"

@@ -4,10 +4,11 @@ title: "Namecheap vs Porkbun para un dominio .es siendo estudiante"
 description: "Namecheap vs Porkbun dominio .es para estudiantes: precios, renovaciones, soporte y cuál elegí yo para mi primer proyecto."
 category: "Comparativa"
 date: 2026-06-19
-readtime: 6
+readtime: 7
 affiliate_text: "Registra tu dominio .es con Namecheap desde menos de 5€"
 affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
 affiliate_label: "Ver precios en Namecheap"
+last_modified_at: 2026-10-03
 ---
 
 Cuando empecé a montar mis primeros proyectos, lo primero que hice fue buscar un dominio .es barato. Llevaba semanas mirando tutoriales, eligiendo stack, pensando en el nombre... y cuando llegué a la parte del registro, me quedé paralizado. Había dos nombres que aparecían una y otra vez en foros, en Reddit, en vídeos: **Namecheap y Porkbun**. La comparativa namecheap vs porkbun dominio .es estudiante está más vista de lo que parece, pero casi ninguna la escribe alguien que tenga que mirar lo que gasta de verdad.

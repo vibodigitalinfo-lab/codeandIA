@@ -6,7 +6,7 @@ category: "Comparativa"
 date: 2026-08-04
 updated: 2026-10-02
 last_modified_at: 2026-10-03
-readtime: 8
+readtime: 9
 ---
 
 ## El debate de fondo en 2026
