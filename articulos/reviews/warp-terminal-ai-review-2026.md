@@ -4,7 +4,7 @@ title: "Warp terminal: IA en la línea de comandos, ¿cambiar de iTerm/WSL?"
 description: "Review honesta de Warp terminal: bloques, IA integrada, precios, Windows/Linux/macOS, y si merece la pena para un estudiante de DAW."
 category: "Review"
 date: 2026-06-23
-readtime: 8
+readtime: 9
 version: "Warp reescrito en Rust (plan Build, 20 $/mes); comprobado el 3 de octubre de 2026"
 tiempo: "un par de meses de uso diario"
 proyecto: "prácticas con Docker, Kubernetes y CI/CD"
@@ -84,7 +84,7 @@ El **login obligatorio** es lo que más rechazo genera en la comunidad (Reddit, 
 
 Un detalle que ha cambiado: Warp vende esto como **pago por uso desde 20 $/mes**. En su web ya no aparece un precio anual con descuento, así que si te suena el "18 $ al año" de tutoriales viejos, no lo busques: ahora mismo es 20 $ al mes.
 
-**Créditos**: se gastan en Warp Agent (IA en la nube) y Warp Drive (sincronización). **Traes tu propio modelo (BYO)** en plan gratis = usas tu clave de OpenAI/Anthropic y no gastas créditos Warp. En planes de pago, los créditos cubren modelos de Warp (Sonnet 4, GPT-5, Grok Build, routers propios).
+**Créditos**: se gastan en Warp Agent (IA en la nube) y Warp Drive (sincronización). **Traes tu propio modelo (BYO)** en plan gratis = usas tu clave de OpenAI/Anthropic y no gastas créditos Warp. En planes de pago, los créditos cubren modelos de Warp (Claude Sonnet 5, GPT-5.5, Grok 4.7, Grok Build, los Auto que eligen por ti y tus routers propios).
 
 **Para estudiante**: el plan **Free + BYO** (tu API key de OpenAI/Anthropic) te da Warp Agent gratis. Si no quieres gestionar keys, **Build a 20 $/mes (240 $/año)** es lo que yo pago y me sobra. No hay descuento estudiante oficial. Y si estás decidiendo cuánto dinero meter en IA al mes, tengo el tema de fondo en [¿merece la pena pagar por IA en 2026?](/articulos/comparativas/merece-la-pena-pagar-ia-2026/).
 

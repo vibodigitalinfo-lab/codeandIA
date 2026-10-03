@@ -4,7 +4,9 @@ title: "Continue.dev vs Cursor vs Copilot: comparativa para estudiantes"
 description: "Continue.dev, Cursor y GitHub Copilot cara a cara: precios, privacidad, modelos (Claude, GPT, Ollama local) y cuál uso yo en prácticas de DAW."
 category: "Comparativa"
 date: 2026-07-06
-readtime: 9
+readtime: 10
+last_modified_at: 2026-10-03
+updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
 
@@ -41,12 +43,12 @@ Un estudiante me preguntó: "¿Instalo Cursor o sigo con Copilot?" Otro: "¿Cont
 
 | Plan | Copilot Individual | Cursor (Hobby → Pro) | Continue.dev |
 |---|---|---|---|
-| **Gratis** | **Gratis vía Students Pack** (2 años) | **Free** (2k completions + 50 agent chat/mes) | **Gratis ILIMITADO** (open source, MIT) |
-| **Pago base** | $10/mes | $20/mes (Pro, 500 fast requests/mes) | Pagás APISep usado (Anthropic, OpenAI, Gemini) o nada con Ollama local |
-| **Para estudiante** | **$0** | **$20/mes** (sin descuento estudiante salvo Education Pro $0 en 2026 limitado) | **$0** (local) / ~$5-15/mes (API remota según uso) |
-| **Hard cap** | Sin cap (rate limit suave) | 500 fast → luego lento (queue) | Sin cap (tu API / tu hardware) |
+| **Gratis** | **Gratis vía Students Pack** (2 años) | **Free** (agente limitado, sin número público) | **Gratis ILIMITADO** (open source, MIT) |
+| **Pago base** | $10/mes | $20/mes (Pro, 20 $ de uso incluidos) | Pagás APISep usado (Anthropic, OpenAI, Gemini) o nada con Ollama local |
+| **Para estudiante** | **$0** | **$20/mes** (Cursor no tiene plan estudiantil permanente, solo promociones en campus) | **$0** (local) / ~$5-15/mes (API remota según uso) |
+| **Hard cap** | Sin cap (rate limit suave) | Límite de uso incluido; al pasarse se cobra el extra | Sin cap (tu API / tu hardware) |
 
-**Ganador coste:** **Empate: Copilot (gratis estudiante) y Continue (gratis local)**. Cursor es el único que no es $0 en tu caso DAW (salvo promo Education Pro puntual).
+**Ganador coste:** **Empate: Copilot (gratis estudiante) y Continue (gratis local)**. Cursor es el único que no es $0 en tu caso DAW (salvo alguna promoción de campus).
 
 ---
 
@@ -88,7 +90,7 @@ Las estrellas de esta tabla son **mi impresión** después de probarlas en el mi
 | **Multi-archivo** | ✅ (crea/edita varios, pregunta antes) | ✅ (Composer) | ✅ (via chat → apply) |
 | **Terminal** | ✅ Copilot Agent ejecuta comandos | ✅ Cursor terminal tool | ⚠️ Continue no ejecuta terminal (copias y pegas) |
 | **MCP / Tools** | ✅ (filesystem, GitHub, Postgres, etc.) | ✅ (MCP nativo, 100/scope) | ⚠️ No nativo; via config JSON manual |
-| **Modelo recomendado** | Claude Sonnet 4 (gratis en plan), GPT-5 (Pro+) | Claude Sonnet/Grok Build, Composer | Tú eliges: Sonnet/GPT vía API, o Ollama local |
+| **Modelo recomendado** | Claude Sonnet (incluido), GPT-5.6 Sol (con créditos) | Claude Sonnet/Grok Build, Composer | Tú eliges: Sonnet/GPT vía API, o Ollama local |
 | **Teleprompter / contexto** | Índice semántico VS Code | Índice propio (potentísimo) | Índice local + `@file`/`@codebase` manual |
 
 **Ganador agent:** **Empate técnico: Copilot Agent y Cursor Agent**. Ambos son autónomos, ejecutan comandos, usan MCP, editan 10 archivos y reintentan en fallos. Continue agent (con Ollama) es más "chat que aplica cambios", no autónomo total.
@@ -99,14 +101,16 @@ Hablando de esto, si quieres el detalle de lo nuevo: [GitHub Copilot Agent Mode 
 
 ## Ronda 5: Modelos y coste por token (el detalle que nadie mira)
 
-| Proveedor | Claude Sonnet 4 | GPT-5 | DeepSeek V3 | Ollama local |
+Todos los precios por millón de tokens son los oficiales que comprobé el 3 de octubre de 2026.
+
+| Proveedor | Claude Sonnet 5.5 | GPT-5.6 Luna | DeepSeek V4.1-Flash | Ollama local |
 |---|---|---|---|---|
-| **$ / MTok input** | ~$3 | ~$5 | ~$0.55 | **$0 (tu RAM)** |
-| **$ / MTok output** | ~$15 | ~$15 | ~$2.19 | **$0** |
-| **Context window** | 200k (Copilot/Cursor), 128k (Ollama 7b) | 128k | 64k | 32k-128k según modelo |
-| **Vía Copilot** | Precio plano ($10/mes) — te olvidas | Idem (credits sep 2026) | No | No |
-| **Vía Cursor** | Credits (500 fast) | Credits | No | No |
-| **Vía Continue** | Tu API key / local | Tu API key | Tu API key | Offlin |
+| **$ / MTok input** | $2 | $0,20 | $0,15 (fuera de punta) | **$0 (tu RAM)** |
+| **$ / MTok output** | $10 | $1,20 | $0,60 (fuera de punta) | **$0** |
+| **Contexto** | Hasta 1M | 272k, o más con tarifa larga | 1M | 32k-128k según modelo |
+| **Vía Copilot** | Incluido en el plan, con cupos | Créditos premium aparte | No | No |
+| **Vía Cursor** | Uso incluido en el plan | Uso incluido en el plan | No | No |
+| **Vía Continue** | Tu API key / local | Tu API key | Tu API key | Offline |
 
 **Para estudiante:** Copilot te abstrae el coste (flat). Continue local = gratis total. Continue remoto = pagás uso real (en mis pruebas DAW: ~$8-12/mes con Sonnet si usas agent diario).
 

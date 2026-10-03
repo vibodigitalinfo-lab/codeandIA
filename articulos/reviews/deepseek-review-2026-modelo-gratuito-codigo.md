@@ -21,7 +21,7 @@ DeepSeek es el laboratorio chino que se hizo famoso en enero de 2025 cuando el m
 
 Desde el 10 de septiembre de 2026 el modelo por defecto del chat es **DeepSeek-V4.1-Flash**: 552 mil millones de parámetros con arquitectura MoE (8 mil millones activos en entrada), contexto de 1 millón de tokens, visión multimodal nativa y pesos abiertos con licencia MIT. O sea: puedes bajártelo y correrlo tú, como con los modelos de Ollama que ya te conté en [mi guía de modelos locales](/articulos/reviews/ollama-modelos-ia-local-review-2026/).
 
-Lo más gordo: DeepSeek entró en una guerra de precios tan fuerte que OpenAI recortó precios de su modelo barato un 80% en julio de 2026 para intentar competir. Eso beneficia a todos, vayas a usar DeepSeek o no.
+Lo más gordo: la guerra de precios la han marcado los dos. El modelo barato de OpenAI está hoy en $0,10 por millón de tokens de entrada y $0,50 de salida, mientras la entrada de DeepSeek sin caché son $0,15 y $0,60. Diez dólares al mes de OpenAI salen por $2 de API; la misma factura en DeepSeek, por céntimas. Compites con DeepSeek o no, el suelo de precios te baja el de todos.
 
 ## El plan gratis: sigue siendo gratis, pero con matices
 
@@ -34,7 +34,7 @@ Qué te llevas sin pagar:
 - Entrada de voz en la app.
 - Contexto de 1 millón de tokens, que es bestial: puedes pegarle un proyecto entero.
 
-Ahora, los matices que nadie te cuenta. No hay una cuota de mensajes publicada: DeepSeek aplica throttling dinámico, y en horas punta te aparece el aviso de "servidor ocupado" y las respuestas van más lentas. A mí me pasa a última hora de la tarde español con bastante más frecuencia de lo que me gustaría. Y deja claro que "gratis" se refiere al chat: **la API es de pago por token**, no hay plan gratis de API y, de hecho, varias fuentes apuntan a que ya no regalan créditos al crear cuenta. No lo he verificado al 100% porque no he recargado saldo; si necesitas la API, míralo tu antes de dar de alta.
+Ahora, los matices que nadie te cuenta. No hay una cuota de mensajes publicada en ningún sitio: cuando el tráfico se satura, las respuestas van más lentas y te sale el aviso de servidor ocupado. A mí me pasa a última hora de la tarde español con bastante más frecuencia de lo que me gustaría. Y deja claro que "gratis" se refiere al chat: **la API es de pago por token**, no hay plan gratis de API y, de hecho, varias fuentes apuntan a que ya no regalan créditos al crear cuenta. No lo he verificado al 100% porque no he recargado saldo; si necesitas la API, míralo tu antes de dar de alta.
 
 ## DeepSeek programando: qué dice la experiencia real
 
@@ -48,7 +48,7 @@ Para el estudiante de DAW, el resumen es claro: para aprender, refactorizar y de
 
 ## La API: la más barata del mercado, con truco
 
-Si algún día montas algo que consuma IA por código (un asistente propio, un bot, automatizaciones), la API de DeepSeek es brutalmente barata. Con V4.1-Flash, por millón de tokens, la tabla oficial que comprobé el 2 de octubre de 2026 da esto:
+Si algún día montas algo que consuma IA por código (un asistente propio, un bot, automatizaciones), la API de DeepSeek es brutalmente barata. Con V4.1-Flash, por millón de tokens, la tabla oficial que comprobé el 3 de octubre de 2026 da esto:
 
 | Concepto | Fuera de punta | Hora punta |
 |---|---|---|
@@ -62,7 +62,7 @@ Si te parece que mola para un proyecto de clase, ojo con una cosa: esa economía
 
 ## La letra pequeña: privacidad
 
-Aquí no me voy a andar con medias tintas, que es lo que más me molesta de los videos de "DeepSeek es increíble y gratis". **Tu código se guarda en servidores en China continental.** La política de privacidad lo dice sin rodeos: recolectan, procesan y almacenan tus datos personales en la República Popular China. Están sujetos a la ley china, y varios reguladores europeos (Italia, Francia, Alemania, Bélgica, Portugal) les han abierto investigaciones.
+Aquí no me voy a andar con medias tintas, que es lo que más me molesta de los videos de "DeepSeek es increíble y gratis". **Lo que escribes se guarda en servidores de China continental y además se usa para entrenar.** No es una interpretación minha: su política de privacidad (actualizada el 10 de febrero de 2026) dice literalmente que "directly collect, process and store your Personal Data in People's Republic of China", y entre los fines del tratamiento está "to train and improve our technology" incluyendo "monitoring interactions and usage across your devices". El responsable es Hangzhou DeepSeek Artificial Intelligence Co., Ltd., con domicilio en China. Hay una puerta de salida: en Ajustes puedes desactivar el uso de tus datos para entrenar. Lo que no hay es salida del país.
 
 Traducción para tu vida real: **nunca subas a DeepSeek código de las prácticas de empresa, credenciales, ni datos personales reales de clientes.** Para un proyecto de clase inventado, sin problema. Para la FCT con datos de una empresa de verdad, no lo toques. En ese caso usa un modelo local (los pesos del V4.1-Flash son MIT) o un proveedor con residencia de datos en la UE. No es paranoia: es leer la letra pequeña dos minutos.
 

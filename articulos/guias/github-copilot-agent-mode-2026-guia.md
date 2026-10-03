@@ -4,11 +4,13 @@ title: "GitHub Copilot Agent Mode: qué es y si merece la pena"
 description: "Guía del modo Agent de Copilot: tareas multi-archivo, terminal, auto-corrección, precios en créditos IA y comparativa con Cursor y Claude Code."
 category: "Guía"
 date: 2026-06-25
-readtime: 9
+readtime: 11
 affiliate_text: "Activa Copilot Pro y prueba Agent Mode en VS Code hoy"
 affiliate_url: "https://github.com/features/copilot/plans"
 affiliate_label: "Ver planes Copilot"
-last_modified_at: 2026-10-01
+last_modified_at: 2026-10-03
+updated: 2026-10-03
+last_modified_at: 2026-10-03
 ---
 
 Hasta abril 2025, GitHub Copilot era "autocompletado en esteroides" (modo Chat) o "edita varios archivos si se los seleccionas" (modo Edit). **Agent Mode cambió las reglas**: ahora Copilot **planifica, edita múltiples archivos, ejecuta comandos en terminal, ve los errores, y se corrige solo en bucle** hasta que la tarea funciona.
@@ -70,7 +72,7 @@ Salió de preview. Estable en VS Code, JetBrains (2025.2+), Visual Studio, Neovi
 Predice **dónde** será tu próxima edición y pre-carga el diff. Ahorra keystrokes en refactors repetitivos.
 
 ### Modelos disponibles (sep 2026)
-Claude Fable 5, Sonnet 4/5, Opus 4.7/5, GPT-5 family, Gemini 3.5-3.8, Grok 4.5/4.6, Kimi K2.7/3. **Auto-select** en planes básicos; **elección manual** en Pro+/Max.
+Claude Fable 5, Sonnet 5, Opus 4.7/5, GPT-5 family, Gemini 3.5-3.8, Grok 4.5/4.6, Kimi K2.7/3. **Auto-select** en planes básicos; **elección manual** en Pro+/Max.
 
 ---
 
@@ -138,7 +140,7 @@ GitHub cambió a **créditos IA ($0.01/crédito)**. Cada plan incluye una cantid
 2. **Prompt inicial**: sé específico. "Añade X" → malo. "Añade endpoint POST /api/orders con validación Bean Validation, test de integración con Testcontainers, y actualiza OpenAPI spec" → bueno.
 3. **Controla el bucle**: `Esc` para pausar. Revisa diffs antes de aceptar (botón "Accept" en cada archivo).
 4. **Dale contexto**: `@workspace` (codebase entero), `@file` (archivo concreto), `#terminal` (output anterior).
-5. **Modelos**: en Pro+, click en selector de modelo → elige "Claude Sonnet 4" para reasoning, "GPT-5" para velocidad.
+5. **Modelos**: en Pro+, click en selector de modelo → elige "Claude Sonnet 5" para reasoning, "GPT-5" para velocidad.
 
 ---
 

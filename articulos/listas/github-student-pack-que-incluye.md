@@ -56,7 +56,7 @@ Si la respuesta es no, no lo empieces ahora. Un descuento gratis sigue siendo un
 
 **Boot.dev, 3 meses.** Tres meses de acceso completo a la plataforma es una prueba, no una suscripción. Sirve para un proyecto concreto y luego se acaba.
 
-**DataCamp, 3 meses.** Mismo caso: meses de acceso si te apuntas con la cuenta de estudiante. Util si te han asignado una practica de datos; si no, es tiempo perdido.
+**DataCamp, 3 meses.** Mismo caso: meses de acceso si te apuntas con la cuenta de estudiante. Últil si te han asignado una práctica de datos; si no, es tiempo perdido.
 
 **Stripe, MongoDB, Sentry, Datadog o BrowserStack.** Todos están en el catálogo y todos tienen plan de pago. Son herramientas de producción: el pack te quita el coste mientras estudias, pero un estudiante que no despliega nada no las va a tocar.
 

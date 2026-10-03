@@ -5,7 +5,7 @@ description: "Review honesta de Claude Code: qué lo hace distinto, los sub-agen
 category: "Review"
 date: 2026-06-28
 updated: 2026-09-30
-readtime: 14
+readtime: 15
 version: "Claude Code CLI con Opus 4.7 (plan Pro, 20 $/mes). Probado en junio de 2026; desde entonces hay versiones más nuevas, así que lo que sigue describe esa versión concreta"
 tiempo: "una sesión intensiva de 22 minutos sobre ~80 archivos"
 proyecto: "migración Spring Boot 2.7→3.3 y Java 17→21 en las prácticas"
@@ -44,7 +44,7 @@ Te cuento qué es, cómo se diferencia de Cursor y Copilot, qué cuesta realment
 Claude escribe **andamiajes en JavaScript** (*harnesses*) que lanzan sub-agentes en paralelo. Ejemplos:
 - **Verificación adversarial**: un agente escribe código y **otros cinco intentan romperlo** (casos límite, seguridad, rendimiento, corrección). Solo pasa si todos fallan.
 - **Torneo**: tres agentes proponen soluciones distintas al mismo problema y un juez elige la mejor.
-- **Revisión en abanico**: 50 agentes revisan 50 archivos en paralelo para buscar fallos.
+- **Revisión en abanico**: varios agentes especializados miran el mismo diff en paralelo y cada uno a un tipo de problema (el comando oficial lanza cuatro: dos de cumplimiento del `CLAUDE.md` y dos de bugs), y después un pase de verificación filtra los falsos positivos. No es un agente por archivo: el límite real son 20 subagentes simultáneos por sesión, configurable con `CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS`.
 
 Esto no es "ingeniería de prompts". Es **orquestación programática de agentes**: escribes el andamiaje una vez y lo reutilizas.
 
