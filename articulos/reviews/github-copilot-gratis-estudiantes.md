@@ -12,7 +12,7 @@ limites: "el autocompletado invita a aceptar sin entender: no piensa por ti"
 affiliate_text: "Prueba GitHub Copilot gratis con el Student Developer Pack"
 affiliate_url: "https://education.github.com/pack"
 affiliate_label: "Activar Copilot gratis"
-updated: 2026-10-02
+updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
 
@@ -72,7 +72,7 @@ Lo que no haría es depender de él desde el primer día sin tener ninguna base.
 
 Si quieres probarlo, el punto de entrada es el [GitHub Student Developer Pack](https://education.github.com/pack). El proceso de solicitud es sencillo y si tienes correo educativo, normalmente lo aprueban rápido. Merece la pena hacerlo ya.
 
-Y no te quedes solo con Copilot: el pack incluye bastante más cosas (dominio, hosting, IDEs, créditos) que suelen pasarse por alto. Te lo dejo desglosado en [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/).
+Y no te quedes solo con Copilot: el pack incluye bastante más cosas (dominio gratis, un año de 1Password, licencias de JetBrains y crédito de Azure) que suelen pasarse por alto. Te lo dejo desglosado en [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/).
 
 ## Sigue por aquí
 

@@ -184,7 +184,7 @@ así que se indexa en esta lista en vez de usar %b.
         <span class="oferta-date">Siempre disponible</span>
       </div>
       <h3>GitHub Student Developer Pack — Gratis para estudiantes</h3>
-      <p class="oferta-excerpt">GitHub Copilot gratis + herramientas de desarrollo (Domain, hosting, CI/CD) mientras seas estudiante verificado.</p>
+      <p class="oferta-excerpt">GitHub Copilot y GitHub Pro gratis, dominio gratis, licencias de JetBrains y 1Password un año mientras seas estudiante verificado.</p>
       <a href="https://education.github.com/pack" class="affiliate-btn" rel="sponsored nofollow noopener" target="_blank">Activar gratis →</a>
     </div>
 
