@@ -5,6 +5,7 @@ description: "Los prompts de IA que uso cada semana en DAW: explicar conceptos, 
 category: "Lista"
 date: 2026-07-03
 readtime: 7
+last_modified_at: 2026-07-03
 ---
 
 Tengo una carpeta en mi portátil llamada `prompts-que-funcionan`. Cada vez que descubro un prompt que me hace el día más fácil en el curso, lo guardo ahí con un comentario de cuándo lo uso. Unos cuantos salieron de experimentar a lo bruto; otros los saqué de [la guía para corregir errores con ChatGPT](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/) y los ajusté a mi forma de trabajar.

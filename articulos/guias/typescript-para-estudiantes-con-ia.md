@@ -5,6 +5,7 @@ description: "Los tipos de TypeScript que más te ahorran errores cuando program
 category: "Guía"
 date: 2026-08-27
 readtime: 8
+last_modified_at: 2026-08-27
 ---
 
 Si programas con IA y te has encontrado con esta línea en el código que te genera el modelo, no eres el único: `function procesar(dato: any)`. Cualquier cosa cabe dentro de un `any`, incluida la que no debería. El resultado es que la IA escribe rápido, TypeScript no te avisa de nada y el error aparece tres archivos más allá, donde ya no entiendes ni qué hizo la IA. La buena noticia es que no necesitas la mitad de TypeScript para ser peligroso: te bastan **seis tipos** para que la IA pase de generar errores invisibles a errores que te avisa el editor antes de ejecutar nada.

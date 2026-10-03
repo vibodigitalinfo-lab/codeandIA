@@ -5,6 +5,7 @@ description: "Cómo usar la IA en clase como profesor y no como sustituto: regla
 category: "Guía"
 date: 2026-08-09
 readtime: 7
+last_modified_at: 2026-08-09
 ---
 
 La primera semana que dejé que la IA hiciera los ejercicios por mí fui el más rápido de la clase. También el que menos entendía: en el primer parcial de programación, sin internet y sin autocompletar, el editor me pedía que escribiera un bucle y mi mente estaba en blanco. No es que no supiera el tema, es que nunca lo había aprendido: había estado copiando, no programando. Esta guía es la lista de reglas que me hubiera dado el profe si fuera honesto con lo que pasa en clase desde que existe la IA.

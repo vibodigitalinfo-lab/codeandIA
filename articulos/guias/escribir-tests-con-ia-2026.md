@@ -5,6 +5,7 @@ description: "Guía para escribir tests con IA en 2026: pedir casos borde en vez
 category: "Guía"
 date: 2026-08-22
 readtime: 7
+last_modified_at: 2026-08-22
 ---
 
 En el ciclo nadie te enseña a escribir tests bien; se dan por hechos, y la frase típica es *"ya los haré con la IA"*. Pues bien: la IA para escribir tests es una herramienta fantástica... y un poco mentirosa. Escribo esto con una semana de pruebas por medio y con datos de 2026 que me dejaron de piedra: en repositorios reales, **el 16,4% de los commits que añaden tests ya los escribe una IA** de forma detectable, y los humanos siguen escribiendo aserciones más estables que los modelos. Lo bueno es que con un método concreto, esa debilidad se convierte en tu ventaja. Te explico cómo lo hago.

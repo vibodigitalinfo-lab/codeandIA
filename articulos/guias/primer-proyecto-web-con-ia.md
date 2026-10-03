@@ -5,6 +5,7 @@ description: "Cómo diseñar tu primer proyecto web con IA para aprender de verd
 category: "Guía"
 date: 2026-08-24
 readtime: 7
+last_modified_at: 2026-08-24
 ---
 
 Vacío. Ese es el sentimiento exacto del primer proyecto web. Tienes un editor abierto, la idea vaga de "hacer una página" y una IA dispuesta a generar lo que le pidas, que es precisamente el problema: **si le pides "dame un proyecto web completo", tendrás un proyecto que no entiendes**. Lo digo porque lo hice. Mi primera vez con IA terminó en un montón de archivos que no sabía por qué funcionaban y que se rompieron en cuanto quité una línea. Con el tiempo aprendí que el primer proyecto con IA no se construye pidiéndole el resultado, sino **troceándolo en decisiones que tú vas tomando**. Así lo haría hoy, paso a paso, siendo estudiante de DAW.

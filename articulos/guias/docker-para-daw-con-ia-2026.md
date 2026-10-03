@@ -5,6 +5,7 @@ description: "Guía de Docker para DAW: qué son los contenedores, tu primer Doc
 category: "Guía"
 date: 2026-08-14
 readtime: 6
+last_modified_at: 2026-08-14
 ---
 
 La tarde que decidí probar Docker me la pasé entera persiguiendo un mensaje de "port is already allocated". No sabía qué era un contenedor, por qué necesitaba el "docker-compose up" y, sobre todo, por qué la IA me seguía dando YAML que no funcionaba. Cuando por fin lo entendí, me di cuenta de que Docker no es difícil: es distinto, y la IA no te lo explica si no se lo pides bien. Esto es lo que me habría ahorrado esa tarde.

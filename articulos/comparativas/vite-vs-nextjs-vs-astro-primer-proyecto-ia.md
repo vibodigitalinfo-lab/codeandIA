@@ -5,6 +5,7 @@ description: "Qué framework elegir para tu primer proyecto web con IA: Vite, Ne
 category: "Comparativa"
 date: 2026-08-28
 readtime: 9
+last_modified_at: 2026-08-28
 ---
 
 Cuando empiezas un proyecto web y le preguntas a la IA "¿con qué lo hago?", su respuesta suele ser "depende", y te suelta las tres opciones más de moda del panorama: React, Next.js o Astro. Luego tú, con tres pestañas abiertas y cero decisiones tomadas, te quedas bloqueado media hora antes de escribir la primera línea de código. Este problema lo tengo visto en todos mis compañeros, y por eso me he pasado las últimas semanas usando las tres con proyectos reales para responder a la única pregunta que importa: **cuál de estas tres me va a hacer terminar el proyecto antes de que me aburra**. Spoiler: depende mucho menos de cuál sea "mejor" y mucho más de cuál te da menos cosas que aprender de golpe.

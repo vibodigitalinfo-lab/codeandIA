@@ -8,6 +8,7 @@ readtime: 6
 affiliate_text: "Publica tu portfolio en minutos con Hostinger"
 affiliate_url: "https://www.hostinger.com"
 affiliate_label: "Prueba Hostinger"
+last_modified_at: 2026-06-14
 ---
 
 Hace un par de meses estaba mirando mi portfolio y me dio un poco de vergüenza. Tres proyectos del instituto, una calculadora y un clon de la web de una pizzería que ni siquiera tenía backend. Necesitaba proyectos portfolio desarrollador con IA rápido, cosas que pudiera montar sin pedir vacaciones en clase, y que no fueran otro CRUD de tareas pendientes que ya ha hecho medio Twitter. Me puse un sábado por la mañana como límite y esto es lo que salió, con aciertos y con algún parón donde tuve que parar y pensar en vez de dejar que la IA decidiera por mí.

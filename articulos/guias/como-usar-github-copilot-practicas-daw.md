@@ -8,6 +8,7 @@ readtime: 6
 affiliate_text: "Si quieres probarlo tú mismo, GitHub Copilot tiene plan gratuito para estudiantes"
 affiliate_url: "https://github.com/features/copilot"
 affiliate_label: "Consigue GitHub Copilot gratis con GitHub Student Pack"
+last_modified_at: 2026-06-10
 ---
 
 Lo primero que tengo que decir es que no empecé usando Copilot porque me lo recomendara nadie del instituto. Lo instalé un domingo por la tarde porque llevaba tres horas atascado con un ejercicio de Programación que tenía que entregar el lunes, y un compañero de clase me dijo por Discord "tío, prueba github copilot para prácticas DAW, a mí me salva la vida con Java". Le hice caso más por desesperación que por fe, y la verdad es que desde entonces no he vuelto a programar sin él abierto en el VS Code.

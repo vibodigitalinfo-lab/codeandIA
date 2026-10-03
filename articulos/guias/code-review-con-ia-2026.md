@@ -5,6 +5,7 @@ description: "Cómo revisar un pull request con IA sin sustos: preparar el diff,
 category: "Guía"
 date: 2026-09-15
 readtime: 7
+last_modified_at: 2026-09-15
 ---
 
 En DAW el primer susto de verdad no llega cuando tu código no compila, sino cuando te toca decir si **el código de otro** está listo para subirse. De repente eres tu propia disciplina: hay que mirar líneas que no has escrito, juzgar si algo va a romperse en producción y explicarlo sin picar a nadie. La tentación con la IA es la de siempre: "revísame este pull request". Y la IA, encantada, te suelta un vistazo genérico que nadie se lee. Este artículo es el método que acabé usando para que la revisión con IA sirva de verdad: qué pedir, en qué orden y, sobre todo, qué no delegar.

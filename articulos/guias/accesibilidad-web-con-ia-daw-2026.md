@@ -5,6 +5,7 @@ description: "Cómo usar IA para cumplir accesibilidad en tus prácticas de DAW 
 category: "Guía"
 date: 2026-09-01
 readtime: 7
+last_modified_at: 2026-09-01
 ---
 
 La accesibilidad es de las pocas cosas donde la IA es casi tan buena como escribiendo código, y sin embargo casi nadie la usa. La razón es que exige un vocabulario que no te enseñan en primero de DAW: WCAG, ARIA, roles, foco, contraste. Es un tema donde la IA sabe mucho, tú no sabes ni qué preguntar, y ahí es donde se cuelan errores que no detectas porque no sabes leerlos.

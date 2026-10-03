@@ -5,6 +5,7 @@ description: "Biome promete sustituir a ESLint y Prettier con un único binario 
 category: "Comparativa"
 date: 2026-09-11
 readtime: 8
+last_modified_at: 2026-09-11
 ---
 
 Tengo una carpeta con la configuración de las prácticas que cargo desde hace meses, con dos ficheros que se pelean entre ellos y un paquete cuyo único propósito es decirles que no se peleen. Es el kit de siempre: `eslint.config.js`, `.prettierrc`, `eslint-config-prettier` y, si usas TypeScript, un transformador aparte. Nada de eso está mal. Es simplemente mucho ruido para lo que hace. Biome es el que viene a prometer que todo eso cabe en un `biome.json` y un binario, y como en las últimas prácticas he estado comparando a ver si el cambio merece la pena, esta es mi conclusión honesta.

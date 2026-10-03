@@ -5,6 +5,7 @@ description: "Crea un servidor MCP propio en Python para conectar tus APIs y dat
 category: "Guía"
 date: 2026-08-29
 readtime: 12
+last_modified_at: 2026-08-29
 ---
 
 Si ya has leído lo que es el Model Context Protocol (te lo expliqué en [la guía de MCP para principiantes](/articulos/guias/mcp-para-principiantes-guia-2026/)), seguro que te ha pasado como a mí: te quedas con las ganas de conectarlo a *tus* cosas, no solo a las que otro ya publicó. ¿Y si tu lista de tareas del curso estuviera en una API? ¿Y si quisieras que la IA consultara tu base de datos de apuntes, o los datos de tu API de weather, sin copiar y pegar? Eso es justo lo que puedes hacer, y no es tan difícil como parece cuando te lo pongas. En esta guía montamos un servidor MCP propio, de principio a fin, en Python, y lo conectamos a un editor con IA. Es el paso natural después de entender qué es: dejar de consumir herramientas ajenas y empezar a exponer las tuyas.

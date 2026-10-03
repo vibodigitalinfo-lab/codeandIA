@@ -5,6 +5,7 @@ description: "Cómo usar la IA para entender la documentación oficial sin que t
 category: "Guía"
 date: 2026-09-14
 readtime: 6
+last_modified_at: 2026-09-14
 ---
 
 La documentación oficial es el sitio donde siempre debes acabar, pero es un sitio al que nadie llega sin cita previa. Cuando empiezas con un framework, abrir la guía de Spring o el índice de MDN es una experiencia de perderse: menús interminables, ejemplos que asumen que ya sabes y un vocabulario que todavía no es tuyo. La salida de moda es preguntárselo a la IA y que ella te lo explique. Eso funciona a medias, porque la IA no distingue entre lo que sabe y lo que inventa, y con la documentación el margen de invento es alto. Este es el método que me ha ido bien para que la IA te acompañe a leer el manual sin sustituirlo: primero el mapa, luego la pregunta, y siempre la comprobación.

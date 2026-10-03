@@ -5,6 +5,7 @@ description: "Aprende a usar Git con IA: mensajes de commit que explican el porq
 category: "Guía"
 date: 2026-08-05
 readtime: 9
+last_modified_at: 2026-08-05
 ---
 
 ## El día que me comí un merge que no entendía

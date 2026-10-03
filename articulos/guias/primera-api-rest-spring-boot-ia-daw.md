@@ -5,6 +5,7 @@ description: "Guía para DAW: crea tu primer API REST con Spring Boot usando IA 
 category: "Guía"
 date: 2026-08-08
 readtime: 8
+last_modified_at: 2026-08-08
 ---
 
 El primer día que tuvimos que entregar una API REST en la asignatura de servidor, me pasé toda la tarde viendo el esqueleto de Spring Boot sin saber por dónde empezar. Luego dejé que la IA escribiera el código por mí y las cosas empeoraron: me daba endpoints que no compilaban, dependencias que no existían y ningún contexto de lo que se pedía. Ahora, con un par de proyectos a mis espaldas, esta guía es exactamente lo que me habría gustado tener ese día. No es "copia y pega y ya": es el orden en el que usar la IA para que te enseñe, no para que decida por ti.
