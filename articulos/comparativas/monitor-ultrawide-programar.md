@@ -89,7 +89,7 @@ Es un monitor perfecto si no necesitas ultrawide y quieres la mejor nitidez de t
 
 ## AOC CU34G2XP: Budget con buenos specs en papel
 
-El AOC CU34G2XP sale en Amazon España sobre los 266€ nuevo y desde unos 205€ de segunda mano. Panel VA, 34 pulgadas, 3440 x 1440. Los specs son sólidos.
+El AOC CU34G2XP sale en Amazon España a 239,99€ nuevo y desde 209,29€ de segunda mano. Panel VA, 34 pulgadas, 3440 x 1440. Los specs son sólidos.
 
 Tiene 180Hz de refresco, igual que el Xiaomi. Para código, irrelevante. Para gaming, interesante.
 
@@ -101,7 +101,7 @@ El soporte VESA 100x100 está incluido. Brazo de monitor si quieres.
 
 Lo que no me gusta: el panel VA no da los mismos ángulos de visión que el IPS del LG. El build quality se siente más barato y el stand tambalea si golpeas el escritorio.
 
-Es una opción válida si buscas ultrawide con puertos USB por menos de 270€. Pero por unos 17€ más tienes el Xiaomi, que pesa menos y trae mejor pantalla.
+Es una opción válida si buscas ultrawide con puertos USB por menos de 240€. Pero por 10€ tienes el Xiaomi, que pesa menos y trae mejor pantalla.
 
 ## Mi veredicto por caso de uso
 
@@ -111,7 +111,7 @@ Es una opción válida si buscas ultrawide con puertos USB por menos de 270€. 
 
 **Si quieres la nitidez absoluta y no necesitas ultrawide:** Dell U2725QE desde 639,00€. El 4K en 27 pulgadas es una gozada para leer código, y sus 140W de USB-C cargan cualquier portátil. Pero sale del presupuesto y no te da la amplitud horizontal de una ultrawide.
 
-**Si quieres ultrawide con puertos USB, altavoces y jack:** AOC CU34G2XP sobre los 266€. Menos de 300€, con USB y audio integrados. Es el más completo por euro, aunque el Xiaomi tiene mejor pantalla.
+**Si quieres ultrawide con puertos USB, altavoces y jack:** AOC CU34G2XP a 239,99€. Con USB y audio integrados, es el más completo por euro, aunque el Xiaomi tiene mejor pantalla.
 
 Mi recomendación final: el Xiaomi G34WQi. A 249,95€ te da 3440x1440, ajuste de altura y VESA, que es todo lo que necesitas para 8 horas de código sin que te duelan los ojos. El LG sigue teniendo mejor panel y mejor conexión, pero pagar lo que piden por un modelo que LG ya no fabrica no es una inversión: es comprarle tiempo al hardware. Si tus 250€ los puedes gastar en algo que mejora tu trabajo todos los días, hazlo.
 

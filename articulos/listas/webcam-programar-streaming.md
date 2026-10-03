@@ -47,7 +47,7 @@ Lo que no me gusta: 120 euros es una inversión seria. Si solo haces streaming u
 
 ## Logitech StreamCam: la mejor para streaming de código
 
-La Logitech StreamCam cuesta unos 120 euros en su precio normal, aunque en Amazon España ahora mismo la ficha la tienen vendedores terceros con el precio disparado por encima de los 200€; en la tienda de Logitech la encuentras a su precio. Está diseñada específicamente para streaming, y se nota.
+La Logitech StreamCam cuesta 165€ en la tienda de Logitech España, pero ahí la tienen agotada y en Amazon solo la venden terceros por encima de 200€. Si la quieres ya, el precio real de mercado está entre 200 y 250€. Está diseñada específicamente para streaming, y se nota.
 
 Lo que la destaca es el video a 1080p a 60fps. La mayoría de webcams graban a 30fps. El doble de cuadros por segundo significa scroll suave de código cuando muestras tu editor. Si alguien ve tu stream y estás scrolleando por un archivo largo, la diferencia es inmediata. Sin ese efecto de estroboscopio molesto.
 
@@ -61,7 +61,7 @@ Si priorizas 60fps para que el scroll de código se vea fluido, esta es tu webca
 
 ## Elgato Facecam: la que OBS ama
 
-La Elgato Facecam MK.2, el modelo que se vende hoy, cuesta unos 120 euros. Elgato domina el mercado de captura y streaming, y su webcam lo refleja.
+La Elgato Facecam MK.2, el modelo que se vende hoy, cuesta 149,99€ en Elgato España. Elgato domina el mercado de captura y streaming, y su webcam lo refleja.
 
 Los 1080p a 60fps están incluidos, igual que la StreamCam pero con un enfoque diferente. La Facecam está optimizada para OBS Studio y Streamlabs. El software Elgato Camera Hub te da control sobre exposición, foco, ISO y balance de blancos.
 
@@ -69,7 +69,7 @@ La precisión de color es lo que más me llamó la atención. Los tonos de piel 
 
 El field of view es fijo a 82 grados. El autofocus es rápido y no busca como en webcams más baratas. Cuando mueves la cabeza para mirar una segunda pantalla, la cámara no pierde el foco.
 
-Lo que no tiene: 4K, Windows Hello ni privacy shutter. Son omisiones extrañas a 120 euros. Pero su fortaleza es otra: es la más plug and play para OBS. La conectas, abres OBS, la seleccionas y listo.
+Lo que no tiene: 4K, Windows Hello ni privacy shutter. Son omisiones extrañas a 150 euros. Pero su fortaleza es otra: es la más plug and play para OBS. La conectas, abres OBS, la seleccionas y listo.
 
 ## Razer Kiyo: la que brilla en habitaciones oscuras
 

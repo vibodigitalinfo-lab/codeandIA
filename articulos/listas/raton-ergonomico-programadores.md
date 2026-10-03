@@ -28,7 +28,7 @@ picks:
     price: "36,99€"
     best_for: "Escritorio pequeño (trackball)"
   - name: "Keychron M6"
-    price: "~64€"
+    price: "79,99€"
     best_for: "Ergonomía al precio más bajo"
 ---
 
@@ -100,9 +100,9 @@ Lo que no me gusta: no es para gaming ni para diseño gráfico donde la precisi�
 
 A 36,99 euros, es la opción más barata de esta lista y una de las más efectivas para prevenir dolor de muñeca. Si el espacio es limitado o simplemente quieres que tu brazo descanse, el M575 cumple.
 
-## Keychron M6: Budget ergonómico que no decepciona (~64 euros)
+## Keychron M6: Budget ergonómico que no decepciona (79,99 euros)
 
-El Keychron M6 es la apuesta de Keychron para el ratón ergonómico barato. A 64 euros, sigue siendo una opción contenida para lo que ofrece.
+El Keychron M6 es la apuesta de Keychron para el ratón ergonómico barato. A 79,99 euros, sigue siendo una opción contenida para lo que ofrece.
 
 El sensor es decente (hasta 26.000 DPI ajustable), los materiales no parecen baratos y la forma es cómoda para sesiones de 4-5 horas. No es un MX Master, pero para el precio, no decepciona.
 

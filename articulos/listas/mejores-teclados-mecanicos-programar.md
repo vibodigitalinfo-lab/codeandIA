@@ -25,10 +25,10 @@ picks:
     price: "228,99€"
     best_for: "Sin compromisos (gasket mount + aluminio)"
   - name: "Logitech MX Keys S"
-    price: "~92€"
+    price: "99,99€"
     best_for: "Quien odia el ruido (low-profile)"
   - name: "AULA F75"
-    price: "~100€"
+    price: "63,98€"
     best_for: "Budget con buen acabado sin mods"
 ---
 
@@ -72,7 +72,7 @@ Es mi recomendación para estudiantes de DAW que quieren su primer teclado mecá
 
 ## Logitech MX Keys S: El low-profile para los que odian el ruido
 
-El Logitech MX Keys S cuesta unos 92€. No es mecánico en el sentido tradicional. Es low-profile con switches scissor. Pero merece estar en esta lista.
+El Logitech MX Keys S cuesta 99,99€. No es mecánico en el sentido tradicional. Es low-profile con switches scissor. Pero merece estar en esta lista.
 
 ¿Por qué? Porque no todos quieren el ruido de los mecánicos. Si trabajas en una oficina compartida, en una biblioteca o simplemente te molesta el clic, este teclado es la alternativa.
 
@@ -100,7 +100,7 @@ Si estás estudiando DAW y tu presupuesto es limitado, este teclado te da 80% de
 
 ## AULA F75: Budget con estilo y buen build
 
-El AULA F75 cuesta unos 100€. Es otra opción budget que rompe expectativas.
+El AULA F75 cuesta 63,98€ en PcComponentes. Es otra opción budget que rompe expectativas.
 
 El build quality es mejor que el RK84. El case se siente sólido, con un peso que no parece de esta gama. Los switches que trae son suaves y bien lubricados de serie. No necesita modding para sonar bien.
 

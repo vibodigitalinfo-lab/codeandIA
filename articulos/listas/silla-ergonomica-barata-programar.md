@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Silla ergonómica barata para programar desde casa (desde 135€)"
+title: "Silla ergonómica barata para programar desde casa (desde 110€)"
 description: "Las mejores sillas ergonómicas baratas para programar: IKEA Markus, SIHOO, Amazon Basics y más con precios reales."
 category: "Lista"
 tema: hardware
 date: 2026-05-27
-readtime: 10
+readtime: 9
 affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
@@ -20,24 +20,21 @@ picks:
   - name: "IKEA Markus"
     price: "159€"
     best_for: "El clásico con menos riesgo"
-  - name: "Clatina Mellet"
-    price: "~230€"
-    best_for: "Reposacabezas incluido"
   - name: "Amazon Basics Ergonomic"
-    price: "~135€"
+    price: "109,99€"
     best_for: "La más barata que sirve"
   - name: "Ticova Ergonomic"
     price: "139,99€"
-    best_for: "Reclinación 135° para pensar"
+    best_for: "Reclinación 130° para pensar"
 ---
 
 Me pasó a finales de 2024. Llevaba tres meses de curso de Desarrollo de Aplicaciones Web (DAW) y empecé a notar un dolor punzante en la zona lumbar a mitad de la tarde. Me eché seis horas seguidas aprendiendo JavaScript en una silla de cocina. Error de novato.
 
 La espalda no perdona. Cuando trabajas 8 horas al día delante de un portátil, la silla es más importante que el ordenador. Yo lo aprendí por las malas: acabé en el fisio, y el fisio me lo dijo claro: "cambia la silla o cambia de hobby".
 
-El problema es el precio. Una Herman Miller o una Steelcase cuestan más de 900€. Fuera de presupuesto para un estudiante de DAW. La buena noticia: hay sillas ergonómicas decentes desde 135€, y solo una que de verdad seSale de los 300€. He probado varias y he hablado con otros devs que trabajan desde casa. Estas son las cinco que merecen la pena.
+El problema es el precio. Una Herman Miller o una Steelcase cuestan más de 900€. Fuera de presupuesto para un estudiante de DAW. La buena noticia: hay sillas ergonómicas decentes desde 135€, y solo una que de verdad seSale de los 300€. He probado varias y he hablado con otros devs que trabajan desde casa. Estas son las cuatro que merecen la pena.
 
-## Las 5 mejores sillas ergonómicas para programar (desde 135€)
+## Las 4 mejores sillas ergonómicas para programar (desde 135€)
 
 ### IKEA Markus: el clásico que nunca se equivoca
 
@@ -69,23 +66,9 @@ Un detalle que me gustó: la inclinación del asiento se ajusta por separado del
 
 No la he probado durante años, solo semanas. Pero es mi candidata a mejor compra en 2026 si puedes estirar el presupuesto. Ojo: no es una silla barata en términos absolutos, es la mejor compra dentro de un presupuesto medio.
 
-### Clatina Mellet: el reposacabezas incluido que casi nadie ve
-
-La Clatina Mellet cuesta unos 230€. Es la favorita en Amazon entre estudiantes y gente que empieza en remoto. Y tiene un argumento que la destaca: reposacabezas incluido.
-
-Muchas sillas de este rango te venden el reposacabezas por separado. La Mellet lo trae de serie. Para quienes miran pantalla todo el día, es un alivio para el cuello.
-
-El reposabrazos es ajustable en altura, rotación y profundidad. Suficiente para encontrar una postura cómoda escribiendo código.
-
-La malla trasera es transpirable, aunque más rígida que la de la SIHOO. No es una malla premium, pero para sesiones de 8 horas cumple sin problemas.
-
-El punto flojo: el asiento. Es de espuma y no tiene ajuste de profundidad. Si eres muy alto o muy bajo, puede no acompañarte. Yo mido 1,78m y me iba justa: ni perfecta ni terrible.
-
-Donde gana: el precio y lo que incluye. Por 230€ con reposacabezas, es difícil encontrar rival. En PcComponentes la he visto rebajada hasta 190€. Si la cazas en oferta, es un chollo.
-
 ### Amazon Basics Ergonomic: la más barata que de verdad sirve
 
-La Amazon Basics Ergonomic cuesta unos 135€. Es la más barata de esta lista. Y la más importante, porque demuestra que no necesitas gastar 300€ para dejar de sufrir.
+La Amazon Basics Ergonomic cuesta 109,99€ en Amazon. Es la más barata de esta lista. Y la más importante, porque demuestra que no necesitas gastar 300€ para dejar de sufrir.
 
 Tiene lo básico bien hecho. Altura ajustable, reposabrazos ajustables y un respaldo que se blandea con tu peso. El mecanismo de inclinación es simple pero funciona: te reclinas y la silla te acompaña.
 
@@ -115,7 +98,7 @@ Mi consejo: si buscas reclinación y un reposacabezas completo, esta es tu silla
 
 No es un flechazo científico. Es práctica. El soporte lumbar dinámico me evita ese dolor de las 5 de la tarde que tuve con la silla de cocina. La malla completa me mantiene fresco en sesiones largas. Y el reposabrazos 3D me permite apoyar las muñecas mientras escribo sin encoger los hombros.
 
-Si tu presupuesto no llega a 300€, hay orden. Por menos de 150€, la Amazon Basics te saca del paso. La Ticova, a 139,99€, añade reclinación y reposacabezas completo, y la IKEA Markus, a 159€, es la malla más fiable del montón. Cerca de 230€ está la Clatina Mellet, si lo que buscas es el reposacabezas. Y con algo más de presupuesto, la SIHOO con su soporte lumbar dinámico.
+Si tu presupuesto no llega a 300€, hay orden. Por menos de 110€, la Amazon Basics te saca del paso. La Ticova, a 139,99€, añade reclinación y reposacabezas completo, y la IKEA Markus, a 159€, es la malla más fiable del montón. Y con algo más de presupuesto, la SIHOO con su soporte lumbar dinámico.
 
 Lo que no negocies jamás: soporte lumbar ajustable (esencial en sesiones largas), malla trasera transpirable y una garantía de 5 años mínima. La profundidad de asiento ajustable y los reposabrazos 4D son mejoras, no requisitos. Mide tu altura antes de comprar: casi todas las quejas que leo en foros vienen de gente alta o baja a la que la silla no le encaja.
 
