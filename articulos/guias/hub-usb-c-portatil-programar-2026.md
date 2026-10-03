@@ -5,11 +5,12 @@ description: "El portátil se queda corto de puertos. Te explico qué mirar en u
 category: "Guía"
 tema: hardware
 date: 2026-09-26
+updated: 2026-10-03
 readtime: 4
 affiliate_text: "El hub NOVOO de 7 puertos con HDMI y carga de 100W, por 26,99€, el que uso"
 affiliate_url: "https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21"
 affiliate_label: "Ver el hub en Amazon"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-03
 ---
 
 Los portátiles modernos han ganado en ligereza y batería a costa de los puertos. En el que usamos en clase quedan dos conectores USB-C: uno lo ocupa el cargador y el otro se va turnando entre el teclado, el ratón y un disco duro. La solución no es cambiar de portátil, es comprar un hub USB-C.
@@ -28,15 +29,15 @@ Un hub es un accesorio pequeño, algo más grande que un mechero, que se enchufa
 
 ## El de menos de 30€: NOVOO 7 en 1
 
-Esta es mi recomendación para el caso estándar, y es el que llevo yo: el [hub NOVOO de 7 puertos](https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21), por **26,99€** en Amazon.es. Tiene HDMI con 4K a 60Hz, un USB-C de carga compatible con PD de 100W, puertos USB-A, y lector de tarjetas SD y microSD. Todo en un cuerpo pequeño que cabe en el bolsillo de la mochila. Si no tienes necesidades raras, con esto resuelves el teclado, el ratón, la pantalla y el pendrive, y te sobran puertos.
+Esta es mi recomendación para el caso estándar, y es el que llevo yo: el [hub NOVOO de 7 puertos](https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21), por **19,47€** en Amazon.es. Tiene HDMI con 4K a 60Hz, un USB-C de carga compatible con PD de 100W, puertos USB-A, y lector de tarjetas SD y microSD. Todo en un cuerpo pequeño que cabe en el bolsillo de la mochila. Si no tienes necesidades raras, con esto resuelves el teclado, el ratón, la pantalla y el pendrive, y te sobran puertos.
 
 ## El robusto: SATECHI 7 en 1
 
-Si programas con más exigencia y quieres algo con más cuerpo, la opción que miro es el [**SATECHI 7 en 1**](https://www.amazon.es/dp/B0DZFZYD96?tag=codeandia-21), por **55,83€**. Es de una marca que se toma los puertos en serio: cuerpo de aluminio, USB-A a 10 Gbps, HDMI 4K a 60Hz, PD de 100W y, aquí está la diferencia, un puerto Ethernet gigabit. Eso lo convierte en el hub para quien necesita una conexión por cable estable para el curro en remoto o para mover archivos grandes sin esperas.
+Si programas con más exigencia y quieres algo con más cuerpo, la opción que miro es el [**SATECHI 7 en 1**](https://www.amazon.es/dp/B0DZFZYD96?tag=codeandia-21), por **58,12€**. Es de una marca que se toma los puertos en serio: cuerpo de aluminio, USB-A a 10 Gbps, HDMI 4K a 60Hz, PD de 100W y, aquí está la diferencia, un puerto Ethernet gigabit. Eso lo convierte en el hub para quien necesita una conexión por cable estable para el curro en remoto o para mover archivos grandes sin esperas.
 
 ## Mi veredicto
 
-Si el portátil te sirve hoy y solo necesitas rescatar un par de puertos para el teclado y la pantalla, el NOVOO por 27€ resuelve el 90% de los casos. El SATECHI es para quien ya sabe que necesita Ethernet o mueve muchos datos; el resto del dinero se va en materiales y en marca.
+Si el portátil te sirve hoy y solo necesitas rescatar un par de puertos para el teclado y la pantalla, el NOVOO por 19€ resuelve el 90% de los casos. El SATECHI es para quien ya sabe que necesita Ethernet o mueve muchos datos; el resto del dinero se va en materiales y en marca.
 
 A la pantalla que va a ese HDMI la elegí en mi [guía para elegir monitor](/articulos/guias/como-elegir-monitor-programar-2026/) y en la [comparativa de monitores ultrawide](/articulos/comparativas/monitor-ultrawide-programar/). Y de la base completa para no quedarte corto ni de puertos ni de postura, te hablo en el [setup por 500€](/articulos/guias/setup-completo-programar-500-euros/).
 

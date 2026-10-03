@@ -5,11 +5,12 @@ description: "Alfombrillas XXL para programar que cubren teclado y ratón con pr
 category: "Lista"
 tema: hardware
 date: 2026-09-23
+updated: 2026-10-03
 readtime: 5
 affiliate_text: "Consigue la alfombrilla XXL Sidorenko 900x400 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B07CBHX4DB?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-03
 ---
 
 Llevaba un año programando con el ratón apoyado directamente en la mesa de estudio. No pensaba en ello hasta que un compañero de DAW me dejó su alfombrilla grande un fin de semana. La muñeca, que llevaba semanas quejándose, dejó de hacerlo el día siguiente. Fue entonces cuando me di cuenta de que la alfombrilla no era un accesorio de escritorio: era la postura de todo el antebrazo.
@@ -42,15 +43,15 @@ No tiene nada de lujoso: es goma por abajo y tela por arriba. Pero es justo lo q
 
 ## La alternativa barata: la Retoo de 900x400 (unos 10 euros)
 
-Si quieres empezar sin gastar, la [alfombrilla Retoo de 900x400](https://www.amazon.es/dp/B0B4K83F57?tag=codeandia-21) sale por unos **9,63 euros**. Mismo tamaño, base antideslizante y superficie de baja fricción. La diferencia se nota en el grosor y en los bordes, pero para el primer año de DAW cumple de sobra y te protege la muñeca igual.
+Si quieres empezar sin gastar, la [alfombrilla Retoo de 900x400](https://www.amazon.es/dp/B0B4K83F57?tag=codeandia-21) sale por unos **9,29 euros**. Mismo tamaño, base antideslizante y superficie de baja fricción. La diferencia se nota en el grosor y en los bordes, pero para el primer año de DAW cumple de sobra y te protege la muñeca igual.
 
-## La alternativa con más nombre: Cooler Master MP511 (19,18 euros)
+## La alternativa con más nombre: Cooler Master MP511 (30,91 euros)
 
-Si quieres una superficie más rugosa y un borde cosido más grueso, la [Cooler Master MP511](https://www.amazon.es/dp/B0943VL2JR?tag=codeandia-21) sale por unos **19,18 euros**. Es una alfombrilla nacida para jugar, con más agarre en movimientos cortos; si programas moviendo poco el ratón, ese extra se nota. Yo sigo con la Sidorenko porque a igualdad de trabajo el precio manda, pero es la alternativa que recomiendo si te apetece gastar un poco más.
+Si quieres una superficie más rugosa y un borde cosido más grueso, la [Cooler Master MP511](https://www.amazon.es/dp/B0943VL2JR?tag=codeandia-21) sale por unos **30,91 euros**. Es una alfombrilla nacida para jugar, con más agarre en movimientos cortos; si programas moviendo poco el ratón, ese extra se nota. Yo sigo con la Sidorenko porque a igualdad de trabajo el precio manda, pero es la alternativa que recomiendo si te apetece gastar un poco más.
 
 ## Mi veredicto
 
-La alfombrilla es de las compras que más beneficio dan por dinero que tienes en el escritorio. Gasta 10 o 17 euros, que no es nada comparado con lo que cuesta una visita al fisio. Si puedes, ve directo a la Sidorenko: por 7 euros más te llevas unos bordes cosidos que aguantan años.
+La alfombrilla es de las compras que más beneficio dan por dinero que tienes en el escritorio. Gasta 9 o 17 euros, que no es nada comparado con lo que cuesta una visita al fisio. Si puedes, ve directo a la Sidorenko: por 14 euros más te llevas unos bordes cosidos que aguantan años.
 
 Y si estás montando el puesto de estudio completo, en mi [guía para montar el puesto de DAW con poco dinero](/articulos/guias/montar-puesto-estudio-daw-con-poco-dinero/) te digo el orden de compra con los precios reales de hoy.
 

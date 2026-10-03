@@ -1,15 +1,16 @@
 ---
 layout: article
 title: "Power bank para programar: cargar sin cables sueltos"
-description: "Power banks con cable USB-C integrado para sobrevivir el día fuera de casa: Anker con 30W por 19,99€ y INIU con 45W. Precios reales."
+description: "Power banks con cable USB-C integrado para sobrevivir el día fuera de casa: Anker con 30W por 20,99€ y INIU con 45W. Precios reales."
 category: "Lista"
 tema: hardware
 date: 2026-09-25
+updated: 2026-10-03
 readtime: 4
-affiliate_text: "El power bank Anker Zolo de 10000 mAh con 30W y cable USB-C integrado, por 19,99€"
+affiliate_text: "El power bank Anker Zolo de 10000 mAh con 30W y cable USB-C integrado, por 20,99€"
 affiliate_url: "https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21"
 affiliate_label: "Ver el power bank en Amazon"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-03
 ---
 
 El aula donde estudio tiene enchufes solo en la mitad de los asientos. Por la tarde, la batería del portátil lleva dos horas encendida y el que se sienta en el lado malo pierde. El arreglo que uso es un power bank con cable integrado: no es un capricho, es lo que te permite aguantar el día fuera de casa sin llevar un cargador y un cable sueltos rebotando en la mochila.
@@ -26,9 +27,9 @@ Un power bank con cable integrado es una batería portátil que lleva el cable d
 
 **Tamaño y peso.** Un 10.000 en condiciones ronda los 200 gramos. Si va a viajar contigo a diario, ese es el tope; y en el avión no da problemas, porque los de menos de 100 vatios-hora pasan sin permiso especial.
 
-## Anker Zolo 10000, 30W: 19,99€
+## Anker Zolo 10000, 30W: 20,99€
 
-Mi recomendación de cabecera, y el que llevo en la mochila: el [**Anker Zolo**](https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21) de 10.000 mAh con 30W, por **19,99€** en Amazon.es. Trae cable USB-C integrado, un puerto USB-A para el segundo dispositivo y carga bidireccional: se recarga a sí mismo con el mismo cable. Anker es de las marcas fiables de baterías y a ese precio no hay nada que pensarse.
+Mi recomendación de cabecera, y el que llevo en la mochila: el [**Anker Zolo**](https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21) de 10.000 mAh con 30W, por **20,99€** en Amazon.es. Trae cable USB-C integrado, un puerto USB-A para el segundo dispositivo y carga bidireccional: se recarga a sí mismo con el mismo cable. Anker es de las marcas fiables de baterías y a ese precio no hay nada que pensarse.
 
 ## INIU 45W 10000: 28,99€
 

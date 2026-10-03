@@ -5,11 +5,12 @@ description: "Con 50, 200 o 300 euros llegas al mismo sitio. El orden real de co
 category: "Guía"
 tema: hardware
 date: 2026-09-04
+updated: 2026-10-03
 readtime: 6
 affiliate_text: "Mira la SIHOO M18, la silla que más me ha recomendado la gente"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-03
 ---
 
 Cuando empezé en DAW me dio por comprar un teclado de 80 euros, un ratón de 40 y unos auriculares con cancelación de ruido. No tenía silla. Trabajaba en un comedor con una silla de madera que no se movía.
@@ -41,7 +42,7 @@ Es la compra con mejor relación entre precio y beneficio de la lista entera. Y 
 
 Aquí es donde el dinero se convierte en salud. Por debajo de 130€ estás pagando una silla de visita que no se sienta bien en ningún sitio, y es la compra de la que más se arrepiente la gente.
 
-La **SIHOO M18, a 182,39€**, es donde yo pondría el dinero. Soporte lumbar, respaldo de malla y reposabrazos ajustables. No es la silla de tus sueños y no pretende serlo. Es la diferencia entre acabar el día con la espalda entera o hecha polvo.
+La **SIHOO M18, a 199,99€**, es donde yo pondría el dinero. Soporte lumbar, respaldo de malla y reposabrazos ajustables. No es la silla de tus sueños y no pretende serlo. Es la diferencia entre acabar el día con la espalda entera o hecha polvo.
 
 Si esa diferencia de precio te parece mucho, la [guía de sillas ergonómicas baratas](/articulos/listas/silla-ergonomica-barata-programar/) tiene opciones desde 135€, con sus contras explicados. Pero mi consejo es el mismo: por debajo de 130€ se empieza a pagar cara la ergonomía.
 
@@ -49,9 +50,9 @@ Si esa diferencia de precio te parece mucho, la [guía de sillas ergonómicas ba
 
 Si llegas aquí es porque ya tienes silla. Bien. El segundo problema por orden de llegada es la pantalla, y casi siempre porque estás en un portátil de 13 o 15 pulgadas.
 
-**Si no quieres gastar en pantalla todavía:** un brazo de soporte para el portátil, 25,99€, y le pones un libro debajo para que quede a la altura de los ojos. Suena a apaño, pero funciona y cuesta la mitad que un monitor. Te compra seis meses de trabajo cómodo.
+**Si no quieres gastar en pantalla todavía:** un brazo de soporte para el portátil, 23,99€, y le pones un libro debajo para que quede a la altura de los ojos. Suena a apaño, pero funciona y cuesta la mitad que un monitor. Te compra seis meses de trabajo cómodo.
 
-**Si te animas a la pantalla:** por 249,00€ tienes el Xiaomi G34WQi, 34 pulgadas y 3440x1440, que es la resolución que necesitas. La [guía para elegir monitor](/articulos/guias/como-elegir-monitor-programar-2026/) tiene el criterio para decidirte.
+**Si te animas a la pantalla:** por 249,95€ tienes el Xiaomi G34WQi, 34 pulgadas y 3440x1440, que es la resolución que necesitas. La [guía para elegir monitor](/articulos/guias/como-elegir-monitor-programar-2026/) tiene el criterio para decidirte.
 
 ## Lo que NO te urge comprar
 

@@ -9,11 +9,11 @@ readtime: 10
 affiliate_text: "Consigue la SIHOO Doro C300 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-updated: 2026-09-29
-last_modified_at: 2026-09-29
+updated: 2026-10-03
+last_modified_at: 2026-10-03
 picks:
   - name: "SIHOO Doro C300"
-    price: "294,49€"
+    price: "379,99€"
     best_for: "La que más ayuda en jornadas largas"
     url: "https://www.amazon.es/dp/B0C3T865C2?tag=codeandia-21"
     badge: "Mi pick"
@@ -55,7 +55,7 @@ Si no sabes por dónde empezar, esta es la respuesta. Es la que menos riesgo tie
 
 ### SIHOO Doro C300: la estrella de los foros cuando puedes estirar el presupuesto
 
-Esta es la silla que más hype está generando en foros de programadores. La SIHOO Doro C300 cuesta 294,49€ en Amazon España, y es la única de esta lista que se sale del rango barato. Si puedes estirar el presupuesto, es la que más me ha ayudado.
+Esta es la silla que más hype está generando en foros de programadores. La SIHOO Doro C300 cuesta 379,99€ en Amazon España, y es la única de esta lista que se sale del rango barato. Si puedes estirar el presupuesto, es la que más me ha ayudado.
 
 Su gran ventaja es el soporte lumbar dinámico. La zona lumbar se adapta a tus movimientos cuando te reclinas o cambias de postura. No es un cojín fijo: sigue tu espalda. Después de una hora escribiendo código sin levantar la cabeza del monitor, lo agradeces.
 

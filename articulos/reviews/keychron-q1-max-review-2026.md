@@ -5,15 +5,15 @@ description: "Análisis a fondo del Keychron Q1 Max: gasket mount, switches, con
 category: "Review"
 tema: hardware
 date: 2026-07-23
-readtime: 7
-version: "Keychron Q1 Max con switches K Pro Red (QMK/VIA)"
+readtime: 9
+version: "Keychron Q1 Max Fully Assembled con switches Gateron Jupiter Red (QMK/VIA)"
 tiempo: "unas 3 semanas de uso diario"
 proyecto: "programando 8 horas al día en el puesto de estudio"
 limites: "pesa y ocupa mucho para trabajar en el portátil; el dongle 2.4 GHz se come un puerto USB"
-affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está disponible en Amazon.es, a 136,62 € (comprobado el 2 de octubre de 2026)"
+affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está disponible en Amazon.es, a 136,62 € (comprobado el 3 de octubre de 2026)"
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver el V1 Max en Amazon"
-updated: 2026-10-02
+updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
 
@@ -25,7 +25,7 @@ Después de mirar opciones durante semanas, me decidí por el **Keychron Q1 Max*
 
 Cuando abres la caja del Q1 Max lo primero que notas es el peso. Este teclado no es ligero ni de broma. La carcasa es de aluminio CNC con un acabado que se siente premium de verdad, no como esos teclados "gaming" que parecen de plástico con luces.
 
-El diseño es limpio y minimalista. Sin logos exagerados, sin LEDs por todos lados (aunque sí tiene backlight). Viene en varios colores: Carbono, Kubrique, Hall y Bare. El que yo cogí es el Kubrique, con tonos beige y marrón que queda muy bien en el escritorio.
+El diseño es limpio y minimalista. Sin logos exagerados, sin LEDs por todos lados (aunque sí tiene backlight). Ojo con los colores, porque hay poco donde elegir: la tienda oficial de Keychron España lista el Fully Assembled en **Carbon Black** y el layout US en **Shell White**. Lo que ves como "Bare" no es un color, es la versión *barebone*, que viene sin switches ni keycaps y por eso cuesta bastante menos. Yo tengo el Carbon Black, que es el que más se vende y el único disponible ahora mismo.
 
 ## El sistema gasket mount: por qué importa
 
@@ -33,19 +33,21 @@ Esto es lo que diferencia al Q1 Max de un teclado mecánico normal. Usa un siste
 
 ¿Y esto qué significa en la práctica? Pues que cada vez que pulsas una tecla, la plataforma cede un poquito. El resultado es una experiencia de escritura mucho más cómoda y menos fatigosa. Después de 4 horas escribiendo código, notas la diferencia respecto a un teclado rígido.
 
-Además, el plate es de latón, lo que le da un sonido más profundo y agradable. Si os gustan los videos de "sound test" de teclados mecánicos, el Q1 Max suena de escándalo. Un "thock" suave y limpio, nada de ese tintineo metálico barato.
+Además, el plate es de **PC**, tal y como declara Keychron en la ficha de la versión Fully Assembled (teclado, carcasa de aluminio y plate de PC). No es un plate de latón, que es el error que más se cuela en reseñas de este teclado. Si os gustan los videos de "sound test" de teclados mecánicos, el Q1 Max suena de escándalo. Un "thock" suave y limpio, nada de ese tintineo metálico barato.
 
-## Los switches K Pro: lineales y silenciosos
+## Los switches Gateron Jupiter Red: lineales y sonoros
 
-Mi unidad viene con **switches Keychron K Pro Red**, que son lineales. Para programar me parecen perfectos: el recorrido es de 4mm con un punto de actuation a 2mm, lo que permite escribir rápido sin cansarse.
+Mi unidad viene con **switches Gateron Jupiter Red**, que son lineales, y conviene aclarar dos cosas porque se confunden mucho: Keychron los monta de fábrica en la versión Fully Assembled (los K Pro existen, pero como opción, no son los que de serie), y **el Jupiter Red no es un switch silencioso**. Si buscas silencio de verdad, el Red se oye: es la variante lineal normal. Para un lineal silencioso tendrías que cambiar a la variante Silent, y como el teclado es hot-swap, es cambiar dos switches y listo. La ventaja del Jupiter Red es que Keychron los declara pre-lubricados y con una vida de **80 millones de pulsaciones**.
 
-Lo bueno de Keychron es que todos sus teclados son **hot-swappable**, así que si luego quieres probar switches táctiles (Brown) o clicky (Blue), los cambias en 5 minutos sin soldadura. Yo empecé con los Red y de momento no tengo intención de cambiarlos, pero la opción está ahí.
+Lo bueno de Keychron es que todos sus teclados son **hot-swappable**, así que si luego quieres probar switches táctiles (Brown) o clicky (Blue), los cambias en 5 minutos sin soldadura. Y ojo con un detalle técnico: Keychron tiene plano que solo acepta switches de **3 o 5 pines**, así que si compras una marca rara, comprueba los pines antes. Yo empecé con los Red y de momento no tengo intención de cambiarlos, pero la opción está ahí.
 
 Los estabilizadores vienen pre-lubricados de fábrica y se nota. La barra espaciadora y las teclas shift no hacen ese ruido molesto que tienen los teclados más baratos.
 
 ## Wireless y batería: funciona de verdad
 
 El Q1 Max se conecta por **cable USB-C, Bluetooth 5.1 o dongle 2.4GHz**. Los tres modos funcionan, pero os soy sincero: para programar yo uso cable. El Bluetooth va bien para escribir correos o navegar, pero para coding intensivo el input lag del cable se nota (aunque es mínimo).
+
+El polling rate también importa si vienes de un teclado de membrana: **1000 Hz** por cable y por el dongle de 2,4 GHz, y 90 Hz por Bluetooth. Para autocompletar en el IDE no se nota, pero en games o con scrolls muy rápidos sí.
 
 La batería es de **4000 mAh** y Keychron declara hasta **180 horas con la luz apagada** (unos 7 días) y hasta 100 horas con el RGB al mínimo, unas 4. En la vida real se queda algo por debajo de esas cifras, pero el orden de magnitud es ese: si lo usas con cable, como hago yo, no lo notas. Para un teclado wireless con esta calidad de construcción, me parece más que aceptable.
 
@@ -61,7 +63,7 @@ Y como es QMK, toda la configuración es open source. Si sabes un poco de C, pue
 
 ## ¿Para quién es este teclado?
 
-Vamos al grano. En la tienda oficial de Keychron España, el Q1 Max aparece a **269,99 €** tanto en la colección ISO como en la versión US, y hay variantes más baratas segúnducción (barebone, sin perilla), con precios comprobados el 3 de octubre de 2026. En Amazon España, en cambio, sigue sin haber una oferta fiable: la ficha aparece como no disponible y no se sabe cuándo vuelva. No es barato. Pero hay que ponerlo en contexto:
+Vamos al grano. En la tienda oficial de Keychron España, el Q1 Max aparece a **269,99 €** tanto en la colección ISO como en la versión US, y hay variantes más baratas según configuración (barebone, sin switches ni keycaps), con precios comprobados el 3 de octubre de 2026. Un detalle útil para un lector en España: la colección ISO tiene **layout español disponible**, así que no te obliga a pelearte con el ISO británico. Ojo también con que Keychron no aplica códigos de descuento al Q1 Max, así que el precio es el precio. En Amazon España, en cambio, sigue sin haber una oferta fiable: la ficha aparece como no disponible y no se sabe cuándo vuelva. No es barato. Pero hay que ponerlo en contexto:
 
 - Es un teclado con carcasa de aluminio CNC
 - Gasket mount de serie
@@ -81,7 +83,7 @@ Si comparas con opciones similares de marcas como Mode, Keycult o Custom Keyboar
 
 Llevo usándolo unas 3 semanas y no vuelvo atrás. La diferencia al programar es notable: menos fatiga en los dedos, mejor experiencia de escritura, y personalización total con VIA.
 
-Si estás buscando un teclado que te dure años y que sea serio para programar, el Keychron Q1 Max es una inversión que merece la pena... siempre que lo encuentres, porque en la tienda oficial algunas variantes están en backorder y en Amazon España la ficha continúa sin precio. Si quieres la experiencia Keychron sin complicarte, el [Keychron V1 Max](https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21) es la alternativa que yo recomiendo: mantiene QMK/VIA, hot-swap y el formato 75%, y cuesta 136,62 € (Amazon.es, comprobado el 2 de octubre de 2026). Si tu presupuesto es aún más ajustado, mira el Keychron V3, con cosas similares a menor precio. Y si quieres comparar con el resto de opciones antes de decidir, tengo la lista de [los mejores teclados mecánicos para programar](/articulos/listas/mejores-teclados-mecanicos-programar/) con precios actualizados.
+Si estás buscando un teclado que te dure años y que sea serio para programar, el Keychron Q1 Max es una inversión que merece la pena... siempre que lo encuentres, porque en la tienda oficial algunas variantes están en backorder y en Amazon España la ficha continúa sin precio. Si quieres la experiencia Keychron sin complicarte, el [Keychron V1 Max](https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21) es la alternativa que yo recomiendo: mantiene QMK/VIA, hot-swap y el formato 75%, y cuesta 136,62 € (Amazon.es, comprobado el 3 de octubre de 2026). Si tu presupuesto es aún más ajustado, mira el Keychron V3, con cosas similares a menor precio. Y si quieres comparar con el resto de opciones antes de decidir, tengo la lista de [los mejores teclados mecánicos para programar](/articulos/listas/mejores-teclados-mecanicos-programar/) con precios actualizados.
 
 ¿Y vosotros, programáis con teclado mecánico? Si aún no habéis probado, preparaos porque no hay vuelta atrás.
 
