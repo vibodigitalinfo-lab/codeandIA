@@ -5,7 +5,7 @@ description: "Siete rutas guiadas para aprender a programar con IA de verdad: de
 permalink: /rutas/
 ---
 
-{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" %}
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" %}
 {% assign total_pasos = 0 %}
 {% for r in site.data.rutas %}{% assign total_pasos = total_pasos | plus: r.pasos.size %}{% endfor %}
 

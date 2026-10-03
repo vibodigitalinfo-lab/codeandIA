@@ -12,7 +12,7 @@ Cuando empecé con GitHub Actions, me pasé una tarde entera intentando pasar un
 
 Si te ha pasado algo similar, esta guía es para ti. Voy a explicar cómo funcionan los secrets y variables de entorno en GitHub Actions, los errores más comunes, y algunos trucos que me habría gustado saber antes.
 
-## Por que no puedes meter API keys en el codigo
+## Por qué no puedes meter API keys en el código
 
 Antes de nada, por si alguien tiene dudas: **nunca** pongas contraseñas, tokens o API keys en tu archivo `workflow.yml` o en tu repositorio. Si lo haces:
 
@@ -153,7 +153,7 @@ Si tu proyecto tiene un entorno de desarrollo y otro de producción (lo cual es 
 jobs:
   deploy-production:
     runs-on: ubuntu-latest
-    environment: production  # <-- aqui especificas el environment
+    environment: production  # <-- aquí especificas el environment
     steps:
       - name: Deploy
         env:
@@ -222,7 +222,7 @@ Para un proyecto DAW, yo suelo hacer esto:
 3. **Environment `production`**: secrets de deploy a producción
 4. **Environment `staging`**: secrets de testing
 
-Así mi workflow de CI/CD puede correr tests con credenciales de testing y desplegar a producción con credenciales reales, todo automaticamente.
+Así mi workflow de CI/CD puede correr tests con credenciales de testing y desplegar a producción con credenciales reales, todo automáticamente.
 
 ## Errores que me costaron horas
 

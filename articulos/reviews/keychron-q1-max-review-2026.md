@@ -14,7 +14,7 @@ affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está 
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver el V1 Max en Amazon"
 updated: 2026-10-02
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Llevo meses tirándole indirectas a mi setup. Primero fue el [monitor ultrawide](/articulos/guias/como-elegir-monitor-programar-2026/), después el [ratón ergonómico](/articulos/listas/raton-ergonomico-programadores/), y ahora toca el teclado. Porque programar 8 horas con un teclado de oficina de 20 euros no es sostenible, os lo digo por experiencia.
@@ -27,7 +27,7 @@ Cuando abres la caja del Q1 Max lo primero que notas es el peso. Este teclado no
 
 El diseño es limpio y minimalista. Sin logos exagerados, sin LEDs por todos lados (aunque sí tiene backlight). Viene en varios colores: Carbono, Kubrique, Hall y Bare. El que yo cogí es el Kubrique, con tonos beige y marrón que queda muy bien en el escritorio.
 
-## El sistema gasket mount: por que importa
+## El sistema gasket mount: por qué importa
 
 Esto es lo que diferencia al Q1 Max de un teclado mecánico normal. Usa un sistema **gasket mount**, que significa que el PCB (la placa interna) no está atornillada directamente a la carcasa sino que queda suspendida entre unos pads de goma.
 

@@ -154,7 +154,7 @@ así que se indexa en esta lista en vez de usar %b.
 
 <section class="ofertas-section" id="ofertas">
   <h2>Ofertas activas</h2>
-  <p>Ofertas verificadas en productos para programadores. Precios actualizados a septiembre 2026.</p>
+  <p>Ofertas verificadas en productos para programadores. Última comprobación: 30 de septiembre de 2026.</p>
 
   <div class="ofertas-grid">
 

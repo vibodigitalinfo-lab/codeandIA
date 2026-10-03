@@ -13,7 +13,7 @@ affiliate_text: "Prueba Hostinger con descuento y empieza a desplegar ya"
 affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
 updated: 2026-10-02
-last_modified_at: 2026-10-02
+last_modified_at: 2026-10-03
 ---
 
 Cuando estás en segundo de DAW y tienes tu primera aplicación web lista para salir al mundo, lo primero que te planteas es dónde la subes. Yo llevaba semanas buscando un hosting que no me costara un riñón y que no fuera un dolor de cabeza para configurar. Al final caí en Hostinger, y en este artículo te cuento exactamente qué me encontré: lo bueno, lo regular y lo que nadie te dice antes de contratar. Si todavía no tienes claro si necesitas hosting o prefieres algo gratis, tengo una guía de [cómo publicar tu primera web gratis](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) que te puede servir para empezar.
@@ -34,7 +34,7 @@ El gestor de bases de datos es phpMyAdmin, que ya conocemos de sobra en DAW. No 
 
 ## Velocidad y rendimiento: ¿aguanta el tipo?
 
-Aquí es donde la gente tiene más dudas con un hosting compartido, y con razón. En un shared hosting compartes recursos con otros usuarios, así que los picos de carga de otra web pueden afectarte. En mi caso, con un proyecto pequeño y sin tráfico masivo, el tiempo de carga se mantuvo por debajo de 1,5 segundos en la mayoría de las pruebas que hice con PageSpeed Insights.
+Aquí es donde la gente tiene más dudas con un hosting compartido, y con razón. En un shared hosting compartes recursos con otros usuarios, así que los picos de carga de otra web pueden afectarte. En mi caso, con un proyecto pequeño y sin tráfico masivo, el tiempo de carga se mantuvo por debajo de 1,5 segundos en la mayoría de las pruebas que hice con PageSpeed Insights, sobre mi web de prueba, que es una landing sin contenido real: con una web con imágenes y scripts, las cifras suben.
 
 Los servidores son LiteSpeed, que es notablemente más rápido que Apache en cargas estáticas. Para proyectos de DAW donde el tráfico real es mínimo —o sea, un portfolio, una práctica o una app de demostración para el ciclo—, el rendimiento es más que suficiente.
 

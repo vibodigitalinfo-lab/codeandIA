@@ -39,11 +39,11 @@ Obsidian brilla aquí. Al ser todo Markdown nativo, puedes:
 - Insertar code blocks con syntax highlighting real
 - Crear enlaces entre tus apuntes y tus proyectos de código
 
-Además, Obsidian tiene un plugin **Obsidian Git** que hace commit automático de tus notas. Si eres programador y ya usas Git, tiene mucho sentido tener tus notas bajo version control también.
+Además, Obsidian tiene un plugin **Obsidian Git** que hace commit automático de tus notas. Si eres programador y ya usas Git, tiene mucho sentido tener tus notas bajo control de versiones también.
 
 ## Sin conexión y privacidad
 
-Este punto es más importante de lo que parece. Notion depende 100% de sus servidores. Sin internet, no accedes a tus notas (aunque hay un cache limitado en desktop). Si Notion cae o cambia sus condiciones de uso, tus datos están en sus manos.
+Este punto es más importante de lo que parece. Notion depende 100% de sus servidores. Sin internet, no accedes a tus notas (aunque hay una caché limitada en desktop). Si Notion cae o cambia sus condiciones de uso, tus datos están en sus manos.
 
 Obsidian almacena todo localmente en tu ordenador. Tus notas son archivos Markdown en una carpeta. Puedes abrirlos con cualquier editor de texto. No necesitas cuenta, no hay suscripción, y tus datos son tuyos.
 
@@ -57,7 +57,7 @@ En mi experiencia, para trabajo en equipo Notion gana. Pero para uso personal, q
 
 ## El ecosistema de plugins
 
-Notion tiene integraciones y templates, pero la comunidad de Obsidian es otro nivel. Hay más de **1000 plugins** que van desde Kanban boards hasta integración con Spotify, passing de VS Code, y herramientas de IA.
+Notion tiene integraciones y templates, pero la comunidad de Obsidian es otro nivel. Hay más de **1000 plugins** que van desde tableros Kanban hasta integración con Spotify, integraciones con VS Code, y herramientas de IA.
 
 Algunos plugins que me gustan para programación:
 

@@ -8,10 +8,10 @@ readtime: 6
 affiliate_text: "Si quieres alojar tu proyecto sin complicarte, yo usé Hostinger y me fue bien"
 affiliate_url: "https://www.hostinger.com"
 affiliate_label: "Probar Hostinger"
-last_modified_at: 2026-09-27
+last_modified_at: 2026-10-03
 ---
 
-Hace un mes tenía un proyecto de clase (una web para gestionar tareas de un grupo de estudio) metido en local, corriendo solo en mi ordenador, y me di cuenta de que llevaba semanas diciendo "esto lo subo pronto" sin subirlo nunca. El miedo no era el código, era todo lo de alrededor: dominio, hosting, certificados, DNS... cosas que en DAW nos explican por encima y que en la práctica dan bastante pereza. Así que me puse un objetivo tonto pero motivador: publicar mi primera web en internet barato con IA, gastando lo menos posible, y usando ChatGPT y Claude como apoyo cada vez que me atascara. Spoiler: al final me gasté 4,80€ y tardé una tarde de sábado, no un mes.
+Hace un mes tenía un proyecto de clase (una web para gestionar tareas de un grupo de estudio) metido en local, corriendo solo en mi ordenador, y me di cuenta de que llevaba semanas diciendo "esto lo subo pronto" sin subirlo nunca. El miedo no era el código, era todo lo de alrededor: dominio, hosting, certificados, DNS... cosas que en DAW nos explican por encima y que en la práctica dan bastante pereza. Así que me puse un objetivo tonto pero motivador: publicar mi primera web en internet barato con IA, gastando lo menos posible, y usando ChatGPT y Claude como apoyo cada vez que me atascara. Spoiler: al final me gasté 4,80€ y tardé una tarde de sábado, no un mes. Ojo con la fecha: esos son los precios que pagué en junio de 2026, con descuento de primer año, y hoy pueden ser distintos.
 
 ## Por qué quería que fuera barato (y por qué no hace falta gastar más)
 
