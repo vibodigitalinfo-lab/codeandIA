@@ -5,6 +5,8 @@ description: "Preparar exámenes prácticos de DAW con IA sin volverte dependien
 category: "Guía"
 date: 2026-07-01
 readtime: 7
+updated: 2026-10-03
+last_modified_at: 2026-10-03
 ---
 
 Suspendí mi primer examen práctico de programación por una razón tonta: sabía "darle a la IA las instrucciones", pero no sabía programar sin ella. En clase, con ChatGPT al lado, resolvía los ejercicios de maravilla. En la mesa del examen, con pantalla negra y sin copiloto, me quedé en blanco como media hora mirando un enunciado que no sabía ni por dónde empezar.
@@ -39,13 +41,13 @@ Cuando ya tengo una solución, le pido a la IA que la revise con instrucciones m
 
 Esto parece un capricho, pero tiene una razón técnica de fondo: si la IA te devuelve el código completo corregido, no ejercitas la parte de tu cerebro que va a tener que localizar errores en el examen. En cambio, si ella te dice "mira la línea 12, el bucle se sale del array", tú tienes que entender, pensar y arreglar. Ese proceso es exactamente lo que puntúan en un examen práctico.
 
-El día del examen de recuperación me pasó justo esto: un ejercicio con un error de índices que en realidad era el típico fallo de "me paso en una unidad". Como llevaba semanas corrigiendo mis propios errores con pistas, lo vi al momento. No habría tenido ni idea si me hubiera limitado a copiar soluciones buenas durante tres semanas.
+El día del examen de recuperación me ocurrió justo esto: un ejercicio con un error de índices que en realidad era el típico fallo de "me paso en una unidad". Como llevaba semanas corrigiendo mis propios errores con pistas, lo vi al momento. No habría tenido ni idea si me hubiera limitado a copiar soluciones buenas durante tres semanas.
 
 ## Fase 4: simulacros con tiempo, sin IA
 
 Esta fase es la que menos me gusta y la que más me salva. Unos días antes del examen, cojo los enunciados que me ha generado la IA, me pongo un cronómetro con el tiempo real del examen y me siento a resolverlos **sin abrir nada de IA**.
 
-La primera vez que hice esto me di cuenta de una cosa que no sabía: la mitad de mi "saber programar" era en realidad saberle pedir a la IA. Cuando me vi solo ante el enunciado, hasta las cosas que creía dominar me costaban el doble de lo que tardaba con el editor.
+La primera vez que hice esto me di cuenta de una cosa que no sabía: la mitad de mi "saber programar" era en realidad saberle pedir a la IA. Cuando me vi solo ante el enunciado, incluso las cosas que creía dominar me costaban el doble de tiempo que con el editor delante.
 
 Repetí el simulacro tres o cuatro veces con enunciados distintos hasta que el tiempo empezó a sobrarme. Es aburrido, soy consciente. Pero es el momento en el que de verdad estudias para el examen, y no a la IA.
 
@@ -55,16 +57,15 @@ Tres reglas que me puse yo y que me han funcionado:
 
 1. **Empiezo por el ejercicio que mejor sé.** Parece de libro, pero con la ansiedad de un examen práctico todo el mundo empieza por el primero, que suele ser el más difícil. Si arranco ganando confianza, el resto va rodado.
 2. **Escribo el esquema en una hoja antes de tocar el teclado.** Cinco minutos de pseudocódigo a mano me evitan quedarme en blanco en mitad del código y me dan un mapa al que volver si me pierdo.
-3. **Si me atasco, no me quedo clavado.** Marco el sitio con un comentario, paso al siguiente ejercicio y vuelvo al final cuando el examen ya está, encima, resuelto en su mayoría. El miedo a dejar un hueco es peor que el hueco.
+3. **Si me atasco, no me quedo clavado.** Marco el sitio con un comentario, paso al siguiente ejercicio y vuelvo al final, cuando el examen ya esté casi resuelto. El miedo a dejar un hueco es peor que el hueco.
 
 ## Lo que haría distinto si volviera a empezar
 
 Si tuviera que repetir mi primer trimestre de DAW, la regla de oro sería una: **la IA nunca me da el código final. Me da el camino.** Cada vez que me sorprendo pidiéndole que me resuelva algo entero, me detengo, lo borro, y se lo pido como pista.
 
-Y no me equivocaría al decirte que con esta forma de trabajar he tardado el doble que mis compañeros en hacer los ejercicios, al principio. Pero cuando llega el examen, los que copiaban soluciones están en modo pánico y yo estoy resolviendo. Prefiero aprender despacio y aprobar que ir deprisa y quedarme atrás.
+Y al principio, con esta forma de trabajar, tardaba el doble que mis compañeros en hacer los ejercicios. Pero cuando llega el examen, los que copiaban soluciones están en modo pánico y yo estoy resolviendo. Prefiero aprender despacio y aprobar que ir deprisa y quedarme atrás.
 
 Si quieres los prompts exactos que uso en cada fase (los de explicación, los de generar ejercicios, los de corregir con pistas), los tienes todos en [los 8 prompts que me salvan el curso de DAW](/articulos/listas/8-prompts-programacion-daw-2026/), listos para copiar. Y si aún no has montado tu flujo de IA en el editor, esta [guía de cómo usar GitHub Copilot en las prácticas](/articulos/guias/como-usar-github-copilot-practicas-daw/) te viene bien.
-
 
 ## Sigue por aquí
 
