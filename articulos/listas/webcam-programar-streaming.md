@@ -95,7 +95,7 @@ La Brio 4K la descarté por precio. 120 euros es difícil de justificar cuando h
 
 ¿Necesitas gastar 120 euros? No. La C920S a unos 67 euros te da el 80% de lo que necesitas. Pero si el streaming de código va a ser parte habitual de tu flujo de trabajo, los 60 euros extra por 60fps y USB-C se notan.
 
-Lo que sí importa: resolución mínima de 1080p (nada de 720p en 2026), autofocus rápido para que el texto se vea nítido, y buen rendimiento en baja luz si no tienes iluminación profesional. Si trabajas con poca luz, la Razer Kiyo a 55 euros te ahorra comprar un ring light aparte. Si priorizas OBS, la Elgato Facecam a 120 euros es la más plug and play.
+Lo que sí importa: resolución mínima de 1080p (nada de 720p en 2026), autofocus rápido para que el texto se vea nítido, y buen rendimiento en baja luz si no tienes iluminación profesional. Si trabajas con poca luz, la Razer Kiyo a 55 euros te ahorra comprar un ring light aparte. Si priorizas OBS, la Elgato Facecam a 150 euros es la más plug and play.
 
 Un consejo: antes de comprar webcam, limpia el lente. Suena absurdo, pero la mitad de las webcams que se ven mal simplemente tienen el lente sucio. Prueba con la del portátil, limpia con un paño de microfibra y ajusta la luz. Si sigue sin funcionar, entonces invierte en una de esta lista.
 
