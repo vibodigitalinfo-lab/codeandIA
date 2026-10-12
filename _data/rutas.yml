@@ -151,3 +151,37 @@
       nota: "El agente de Google en la terminal, con plan gratuito en AI Studio."
     - path: "/articulos/comparativas/github-copilot-cli-vs-codex-cli-2026/"
       nota: "Codex CLI y Copilot CLI en la arena: con qué quedarse según tu plan."
+
+- id: estudiar-daw-con-ia
+  titulo: "Estudiar DAW con IA: Java, SQL y exámenes"
+  nivel: "Desde cero"
+  resumen: "El recorrido del estudiante: los módulos del ciclo apoyados en la IA sin copiar, y llegar a los exámenes prácticos con criterio propio."
+  pasos:
+    - path: "/articulos/guias/aprender-java-con-ia-daw/"
+      nota: "El lenguaje que más pesa en el ciclo, con la IA como apoyo y no como muleta."
+    - path: "/articulos/guias/aprender-sql-con-ia-daw-2026/"
+      nota: "Bases de datos: consultas que entiendes, no que copias."
+    - path: "/articulos/guias/algoritmos-con-ia-estudio/"
+      nota: "La parte que se atraganta: entender la lógica antes de que la IA la resuelva."
+    - path: "/articulos/guias/preparar-examenes-practicos-daw-con-ia/"
+      nota: "Cómo llegar a un examen práctico sin depender del autocompletado."
+    - path: "/articulos/guias/notion-ia-apuntes-daw/"
+      nota: "Ordenar los apuntes para poder preguntarles después."
+    - path: "/articulos/guias/rag-local-ollama-apuntes-2026/"
+      nota: "Preguntar a tus propios apuntes en local, sin subirlos a ninguna nube."
+
+- id: primer-empleo
+  titulo: "Del ciclo al primer trabajo"
+  nivel: "Intermedio"
+  resumen: "Lo que no entra en el temario: montar un portfolio que abra puertas y preparar las entrevistas técnicas con lo que ya sabes."
+  pasos:
+    - path: "/articulos/guias/portfolio-que-consigue-practicas-daw/"
+      nota: "El portfolio que llama la atención de una empresa de verdad."
+    - path: "/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/"
+      nota: "Ideas concretas para tener algo que enseñar este fin de semana."
+    - path: "/articulos/listas/github-student-pack-que-incluye/"
+      nota: "Las herramientas gratis que ya tienes por ser estudiante."
+    - path: "/articulos/guias/de-practicas-a-primer-curro-con-ia/"
+      nota: "Cómo convertir unas prácticas en el primer contrato."
+    - path: "/articulos/guias/simulacros-entrevista-tecnica-con-ia/"
+      nota: "Practicar la entrevista técnica con la IA de examinador."
