@@ -53,7 +53,7 @@ sitemap: false
 <script>
   (function () {
     var INDICE = [
-      {% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+      {% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
       {% for a in arts %}
       {
         url: {{ a.url | jsonify }},

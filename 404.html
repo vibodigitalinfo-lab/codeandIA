@@ -28,7 +28,7 @@ noindex: true
 })();
 </script>
 
-{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 <section class="section">
   <div class="container">
     <h2 class="section-title">Quizá buscabas uno de estos</h2>

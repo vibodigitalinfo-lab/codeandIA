@@ -24,7 +24,7 @@ sitemap: false
 
 <script type="application/json" id="search-index">
 [
-{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | sort: "date" | reverse %}
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
 {% for p in arts %}{"t":{{ p.title | jsonify }},"d":{{ p.description | jsonify }},"c":{{ p.category | jsonify }},"u":{{ p.url | relative_url | jsonify }},"dt":{{ p.date | date: "%d/%m/%Y" | jsonify }}}{% unless forloop.last %},{% endunless %}{{ "
 " }}{% endfor %}]
 </script>
