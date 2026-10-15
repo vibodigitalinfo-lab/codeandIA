@@ -9,6 +9,8 @@ affiliate_text: "Consigue tu dominio en Hostinger desde 0,99 €/año"
 affiliate_url: "https://www.hostinger.com/domains"
 affiliate_label: "Ver dominios en Hostinger"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé el primer proyecto que quería subir a internet de verdad, lo primero que hice fue buscar en Google "dónde comprar un dominio barato". El resultado fue lo que ya te puedes imaginar: decenas de webs con tablas de precios, rankings patrocinados y cero contexto para alguien que nunca había comprado un dominio en su vida. Así que esta comparativa **Hostinger vs Namecheap para primer dominio** la escribo desde mi propia experiencia, no desde un artículo de marketing.

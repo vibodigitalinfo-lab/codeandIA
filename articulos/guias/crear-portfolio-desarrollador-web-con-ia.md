@@ -9,6 +9,8 @@ affiliate_text: "Empieza tu portfolio con Hostinger por menos de 3€/mes"
 affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé DAW, lo que más me agobiaba no era el código. Era la idea de tener que enseñarle algo a alguien. Un portfolio. Esa página que supuestamente demuestra que sabes lo que haces cuando todavía estás aprendiendo a hacerlo. Crear tu portfolio de desarrollador web con IA me pareció al principio una trampa —como si estuvieras haciendo trampa en un examen— pero después de probarlo entendí que no. Te explico cómo lo hice.

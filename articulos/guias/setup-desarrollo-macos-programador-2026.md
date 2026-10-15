@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-07-18
 readtime: 7
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Cuando compré mi primer Mac para programar, me encontré con un sistema operativo que no tenía nada que ver con Windows. No sabía dónde estaba la terminal, no entendía Homebrew, y la primera vez que intenté instalar Node.js me saltaron 5 errores diferentes.

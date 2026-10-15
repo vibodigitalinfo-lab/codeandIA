@@ -14,6 +14,8 @@ affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
 updated: 2026-10-02
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando estás en segundo de DAW y tienes tu primera aplicación web lista para salir al mundo, lo primero que te planteas es dónde la subes. Yo llevaba semanas buscando un hosting que no me costara un riñón y que no fuera un dolor de cabeza para configurar. Al final caí en Hostinger, y en este artículo te cuento exactamente qué me encontré: lo bueno, lo regular y lo que nadie te dice antes de contratar. Si todavía no tienes claro si necesitas hosting o prefieres algo gratis, tengo una guía de [cómo publicar tu primera web gratis](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) que te puede servir para empezar.

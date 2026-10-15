@@ -10,6 +10,8 @@ readtime: 7
 affiliate_text: "Prueba Qodo gratis con PR-Agent open source y genera tests en tu IDE"
 affiliate_url: "https://github.com/qodo-ai/pr-agent"
 affiliate_label: "Ver Qodo PR-Agent en GitHub"
+noindex: true
+sitemap: false
 ---
 
 Hace unos meses, en una práctica de DAW, el profe nos pidió "tests de integración para la API". La mayoría del grupo entregó tests que solo cubrían el happy path, y cuando el profe metió datos raros, todo petó. Ahí entendí que **escribir tests a mano es lento, propenso a error, y casi nadie lo hace bien por falta de tiempo**.

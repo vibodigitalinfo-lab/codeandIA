@@ -11,6 +11,8 @@ affiliate_text: "Mira el Xiaomi G34WQi, mi recomendación para el ultrawide"
 affiliate_url: "https://www.amazon.es/dp/B0D1HQK5G5?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Compré mi primer monitor externo con el dinero de dos meses de prácticas. Era un TN de 24 pulgadas con la resolución más alta que encontré en oferta, y me quedé con la sensación de haber tirado el dinero. La pantalla se veía blanda, los colores se inclinaban al mover la cabeza y las letras del editor parecían vibrar.

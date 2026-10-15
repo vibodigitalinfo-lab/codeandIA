@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-07-31
 readtime: 8
 last_modified_at: 2026-07-31
+noindex: true
+sitemap: false
 ---
 
 Usar ChatGPT en la web es gratis y muy cómodo. Pero hay una frontera que se nota mucho cuando la cruzas: **llamar a la API de OpenAI directamente y construir tu propia herramienta**. Es la diferencia entre que la IA te ayude y que tú le digas a la IA qué hacer con tus datos.

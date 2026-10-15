@@ -7,6 +7,8 @@ date: 2026-08-20
 updated: 2026-10-03
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 En clase la pregunta es semanal: *"¿tú qué usas, ChatGPT, Claude o Gemini?"*. Cada uno defiende su bando como si fuese un equipo de fútbol, y la verdad es que casi todos copiamos del que le funcionó el primer día y no miramos atrás. El problema es que eso era razonable en 2024, pero en 2026 las tres opciones han cambiado muchísimo: precios, límites y sobre todo el **modo agente**, que se ha vuelto la diferencia real. Me he pasado dos semanas probando las tres con ejercicios de los módulos y esto es lo que he encontrado. Y aviso: hablo de precios y límites de septiembre de 2026, que en este sector cambian cada pocos meses.

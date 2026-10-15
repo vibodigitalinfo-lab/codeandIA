@@ -6,6 +6,8 @@ category: "Lista"
 date: 2026-08-26
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé en DAW programaba con el ratón. Seleccionaba, copiar, pegar, guardar, abrir archivo. Me llevaba el doble de tiempo del necesario y ni lo notaba, porque es lo que haces cuando no sabes que hay atajos. Cuando empecé a usar IA para programar, descubrí que los atajos dejaron de ser un lujo: cuanto más rápido muevo el cursor y edito, más ventaja le doy al modelo para proponer cambios y más rápido los integro. No es broma, los atajos son de esas pocas cosas que te hacen el día a día más fluido sin cambiar una línea de tu proyecto. Esta es la lista de los que de verdad uso, no de los que aparecen en listas de veinte que nadie se lee.

@@ -11,6 +11,8 @@ affiliate_text: "El power bank Anker Zolo de 10000 mAh con 30W y cable USB-C int
 affiliate_url: "https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21"
 affiliate_label: "Ver el power bank en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 El aula donde estudio tiene enchufes solo en la mitad de los asientos. Por la tarde, la batería del portátil lleva dos horas encendida y el que se sienta en el lado malo pierde. El arreglo que uso es un power bank con cable integrado: no es un capricho, es lo que te permite aguantar el día fuera de casa sin llevar un cargador y un cable sueltos rebotando en la mochila.

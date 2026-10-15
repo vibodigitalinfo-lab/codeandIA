@@ -6,6 +6,8 @@ category: "Comparativa"
 date: 2026-08-17
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Hay una pregunta que se repite cada mes en el grupo de clase: "¿de verdad tengo que pagar algo de IA o con lo gratis me vale?". Y cada vez que la responde alguien, la responde con un dato que ya está viejo. Porque **2026 ha movido ficha tres veces y en la dirección contraria a lo que todo el mundo esperaba**: Cursor quitó el año gratis para estudiantes, GitHub Copilot pausó las altas de pago y de estudiante, y las suscripciones de "la clásica" de 20 dólares ahora cojean de todos lados. Te comparo los tres grandes con precios reales de este mes y un veredicto por presupuesto.

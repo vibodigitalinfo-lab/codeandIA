@@ -11,6 +11,8 @@ proyecto: "flujo de DAW: CRUD de prácticas, tests y refactors con Copilot al la
 limites: "el código pasa por servidores en China continental; ojo con lo que pegas"
 updated: 2026-10-02
 last_modified_at: 2026-10-02
+noindex: true
+sitemap: false
 ---
 
 Empecé a usar DeepSeek a principios de 2025, cuando todo el mundo hablaba del R1 gratis que rivalizaba con modelos de pago. Lo curioso es que un año y medio después sigo usándolo casi a diario, y sigue siendo gratis. Antes de escribir esto me he releído su documentación con fecha de hoy para no contarte humo: te cuento qué hay de verdad detrás del modelo chino, cómo programa para un estudiante de DAW y qué letra pequeña no te van a contar en las noticias.

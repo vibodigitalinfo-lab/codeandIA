@@ -10,6 +10,8 @@ affiliate_url: "https://github.com/features/copilot"
 affiliate_label: "Ver planes de Copilot"
 updated: 2026-10-03
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé a mirar los planes de GitHub Copilot me quedé un rato parado delante de la pantalla de precios sin entender muy bien por qué existían dos opciones tan distintas. Si soy yo solo, con mi portátil, mis proyectos de clase y algún que otro proyecto personal, ¿qué me importa un plan pensado para empresas? La respuesta corta es que probablemente nada. Pero quiero explicarlo bien porque el marketing de GitHub no lo deja del todo claro, y la decisión de qué pagar cuando eres un programador que trabaja en solitario no es tan obvia como parece si te pones a leer las comparativas en inglés pensadas para CTOs.

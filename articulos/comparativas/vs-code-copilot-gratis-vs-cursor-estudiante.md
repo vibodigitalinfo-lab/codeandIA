@@ -7,6 +7,8 @@ date: 2026-09-30
 updated: 2026-09-30
 readtime: 6
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 La pregunta que repite todo estudiante de DAW en 2026 es esta: ¿me quedo en VS Code con el asistente de Microsoft o me paso a Cursor? Y la respuesta honesta no es "el mejor editor gana", porque los dos cuestan cero si sabes dónde mirar. La respuesta es: depende de cómo estudias y de cuánto quieres que la IA decida por ti.

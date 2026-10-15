@@ -7,6 +7,8 @@ date: 2026-07-13
 updated: 2026-10-03
 readtime: 10
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Heredé un proyecto de JavaScript de hace 3 años con funciones de 300 líneas, variables llamadas `data2` y `temp`, y [cero tests](/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/). Toda la documentación era un README de 4 líneas. Si esto os suena, sabéis que refactorizar código legacy es una de las tareas más duras de programar.

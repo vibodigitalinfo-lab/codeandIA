@@ -10,6 +10,8 @@ affiliate_text: "El Audio-Technica ATR2100x-USB es el que más te va a durar: US
 affiliate_url: "https://www.amazon.es/dp/B086CTJC3L?tag=codeandia-21"
 affiliate_label: "Ver el ATR2100x-USB en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Si programas en DAW y quieres grabar tutoriales, hacer streaming de código o simplemente mandar la voz en una videollamada con buen sonido, el micrófono del portátil es la primera puerta que se cierra. El salto del micro de la cámara a uno de USB se nota en la primera frase que grabas.

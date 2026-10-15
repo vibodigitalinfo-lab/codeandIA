@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-10-01
 last_modified_at: 2026-10-01
 readtime: 9
+noindex: true
+sitemap: false
 ---
 
 El problema de Angular con la IA no es que el modelo sea tonto. Es que el framework **se movió** y el modelo se quedó en su sitio. Cada vez que le pido un componente, me devuelve `standalone: true`, inyección por constructor, `*ngIf` y un `ChangeDetectionStrategy.OnPush` puesto a mano. Todo eso estaba bien en 2019. En Angular 22 es exactamente lo contrario de lo que hay que escribir.

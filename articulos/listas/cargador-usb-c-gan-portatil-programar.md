@@ -11,6 +11,8 @@ affiliate_text: "Consigue el cargador UGREEN Nexode 65W con tres puertos en Amaz
 affiliate_url: "https://www.amazon.es/dp/B0CYT44DS1?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 El cargador original del portátil pesa como una piedra, ocupa media mochila y solo carga un dispositivo. Y en un día de DAW necesitas cargar el portátil, el móvil y a veces los auriculares. La solución es un cargador USB-C con tecnología GaN: mismo voltaje, un tercio del tamaño, y varios puertos para cargarlo todo a la vez.

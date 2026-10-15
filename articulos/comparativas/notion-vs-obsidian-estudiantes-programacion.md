@@ -7,6 +7,8 @@ date: 2026-07-21
 updated: 2026-10-03
 readtime: 9
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Llevo usando Notion desde que empecé el ciclo y funciona bien, pero últimamente me topé con Obsidian y me dejó pensando. Los dos son excelentes para organizar apuntes de programación, pero son filosofías muy distintas. En esta comparativa os cuento mi experiencia con ambos y por qué al final me quedé con uno (spoiler: no es el que esperaba).

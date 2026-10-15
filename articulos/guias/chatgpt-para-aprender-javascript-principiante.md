@@ -9,6 +9,8 @@ affiliate_text: "Prueba ChatGPT Plus y aprende JavaScript con un tutor de IA dis
 affiliate_url: "https://chatgpt.com"
 affiliate_label: "Probar ChatGPT Plus"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé el ciclo de DAW, JavaScript me pareció un idioma extraterrestre. Las funciones de flecha, los callbacks, el asíncrono... todo junto a la vez. Mi profesor explicaba bien, pero la clase avanzaba a su ritmo, no al mío. Fue entonces cuando empecé a usar ChatGPT para aprender JavaScript de forma más personalizada, y la diferencia fue bastante considerable. No lo digo como publicidad: lo digo porque llevo meses haciéndolo y puedo contarte qué funciona y qué no.

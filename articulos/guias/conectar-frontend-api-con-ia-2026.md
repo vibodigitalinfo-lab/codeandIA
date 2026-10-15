@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-08-12
 readtime: 6
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 El módulo de cliente y el de servidor van cada uno por su lado hasta el día que te piden juntarlos, y ahí empieza el caos: tu HTML de toda la vida llamando a tu API de Spring Boot, y el navegador poniéndote una barrera roja. Esta guía es el puente que no me contaron en clase: cómo conectar el frontend a un API real usando la IA como traductora entre dos mundos que ella conoce muy bien.

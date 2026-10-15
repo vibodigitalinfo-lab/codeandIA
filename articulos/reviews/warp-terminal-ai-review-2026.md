@@ -14,6 +14,8 @@ affiliate_url: "https://www.warp.dev/pricing"
 affiliate_label: "Ver planes Warp"
 updated: 2026-10-02
 last_modified_at: 2026-10-02
+noindex: true
+sitemap: false
 ---
 
 Confieso: durante años mi terminal fue "la que viene de serie" (Terminal.app en Mac, WSL en Windows, gnome-terminal en Linux). No le daba vueltas. Pero el año pasado empecé a ver a compañeros que usaban Warp y **hacían cosas en segundos que a mí me llevaban minutos**: buscar un comando que usé hace tres semanas, que la IA me escribiera un `find` complejo sin mirar la man page, compartir una sesión con un compañero para depurar juntos.

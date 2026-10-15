@@ -9,6 +9,8 @@ affiliate_text: "Si luego quieres dar el salto, Cursor tiene un plan de pago que
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé DAW no tenía ni un euro para gastarme en suscripciones, así que me pasé meses buscando herramientas de IA gratuitas para estudiantes de desarrollo web que realmente sirvieran para algo y no fueran solo un chatbot bonito. Después de probar bastantes (y de tirar a la basura más de la mitad), estas son las siete que sigo usando casi todos los días, con lo bueno y lo malo de cada una.

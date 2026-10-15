@@ -7,6 +7,8 @@ date: 2026-08-01
 readtime: 8
 updated: 2026-10-03
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 SQL tiene fama injusta. En DAW nadie le da miedo al principio —tres `SELECT` para aprobar el módulo y a otra cosa— y luego resulta que es, de lejos, la habilidad que más se pide en las ofertas junior que miran los estudiantes. Es feo de asumir, pero es así: no hay stack moderno sin base de datos.

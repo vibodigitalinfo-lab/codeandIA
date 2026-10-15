@@ -11,6 +11,8 @@ affiliate_text: "Consigue el Xiaomi G34WQi 34\" en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0D1HQK5G5?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Hace tres meses trabajaba con un portátil de 15,6 pulgadas y un monitor externo de 24. Dos pantallas, dos alturas distintas, dos colores distintos. El cableado detrás del escritorio parecía un nido de serpientes.

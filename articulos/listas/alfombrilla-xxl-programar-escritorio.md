@@ -11,6 +11,8 @@ affiliate_text: "Consigue la alfombrilla XXL Sidorenko 900x400 en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B07CBHX4DB?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Llevaba un año programando con el ratón apoyado directamente en la mesa de estudio. No pensaba en ello hasta que un compañero de DAW me dejó su alfombrilla grande un fin de semana. La muñeca, que llevaba semanas quejándose, dejó de hacerlo el día siguiente. Fue entonces cuando me di cuenta de que la alfombrilla no era un accesorio de escritorio: era la postura de todo el antebrazo.

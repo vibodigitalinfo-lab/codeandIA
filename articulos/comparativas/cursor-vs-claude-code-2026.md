@@ -7,6 +7,8 @@ date: 2026-08-04
 updated: 2026-10-02
 last_modified_at: 2026-10-03
 readtime: 9
+noindex: true
+sitemap: false
 ---
 
 ## El debate de fondo en 2026

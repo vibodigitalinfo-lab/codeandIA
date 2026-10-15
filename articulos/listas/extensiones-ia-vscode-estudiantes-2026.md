@@ -7,6 +7,8 @@ date: 2026-07-08
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 readtime: 9
+noindex: true
+sitemap: false
 ---
 
 El marketplace de VS Code tiene **cientos** de extensiones con "AI" en el nombre. La mayoría son envolturas alrededor de la misma API, te piden clave, y al final no usan. Yo he probado unas 20 este curso. Estas 7 son las que **siguen instaladas** y las que uso de verdad cada semana en prácticas. La octava la quité y te cuento por qué.

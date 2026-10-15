@@ -9,6 +9,8 @@ affiliate_text: "Para los modelos locales que cuento arriba, lo que te frena es 
 affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Si estudias DAW, la IA ya no es un lujo de empresa: es una herramienta que te quita horas de relleno y te deja el tiempo para lo que toca, que es entender lo que haces. Y con el presupuesto de estudiante, todo lo que voy a contarte es gratis de verdad.

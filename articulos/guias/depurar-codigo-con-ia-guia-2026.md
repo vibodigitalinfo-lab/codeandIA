@@ -7,6 +7,8 @@ date: 2026-08-21
 updated: 2026-09-30
 readtime: 10
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Lunes por la tarde en el módulo de programación, delante del IntelliJ, con un `NullPointerException` que no había por donde cogerlo. El profe había dejado caer que "con una IA bien usada esto lo tienes en diez minutos", y ahí estaba yo: pegando el stack trace entero en el chat y recibiendo una respuesta que apuntaba a una línea que no era. La IA me había dado una pista (más o menos), pero yo no había sabido pedírsela. Metí la misma pregunta de otra forma, la IA me pasó un parche, y el código se rompió por otro lado. Ese día entendí que **depurar con IA no es preguntarle qué falla: es tener un método para que la respuesta te sirva**. Te cuento el mío.

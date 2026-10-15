@@ -9,6 +9,8 @@ affiliate_text: "Prueba Cursor Pro y configura tus reglas para programar más r�
 affiliate_url: "https://cursor.com/pricing"
 affiliate_label: "Ver planes Cursor"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Llevo meses usando Cursor a diario y la diferencia entre "Cursor que alucina" y "Cursor que entiende mi proyecto" no es el modelo, **son las reglas**. El sistema `.cursor/rules/*.mdc` (olvida `.cursorrules`, eso es historia) es lo que convierte a Cursor de "autocompletado caro" a "compañero de equipo que sabe tus convenciones".

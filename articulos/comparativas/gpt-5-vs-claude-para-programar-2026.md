@@ -7,6 +7,8 @@ date: 2026-07-27
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 readtime: 8
+noindex: true
+sitemap: false
 ---
 
 Cada vez que los profesores de DAW nos sueltan un módulo nuevo, la pregunta del millón vuelve: ¿GPT o Claude? Llevo meses usando los dos a diario — Claude Free y ChatGPT Free como base, y los modelos de pago cuando toca algo serio—. No me voy a poner a medir benchmark por benchmark porque eso ya lo hacen otros, pero sí te cuento lo que me importa siendo estudiante: qué modelo de verdad escribe mejor código, cuál te da más sin cobrarte y en qué situaciones uso uno u otro.

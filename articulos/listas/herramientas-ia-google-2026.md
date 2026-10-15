@@ -7,6 +7,8 @@ date: 2026-08-23
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 readtime: 8
+noindex: true
+sitemap: false
 ---
 
 A Google le pasa algo gracioso: tiene de las mejores herramientas de IA para programar… y casi nadie las conoce porque cambian de nombre cada pocos meses. NotebookLM ahora es Gemini Notebook, Gemini Code Assist ahora es Antigravity, y los planes de Gemini se reorganizan dos veces al año. Resultado: hay estudiantes pagando por cosas que Google regala, y otros desaprovechando lo que ya tienen con su cuenta. Para que no pierdas el hilo, aquí va mi lista de las herramientas de IA de Google que de verdad uso (y alguna que solo pruebo), con lo que cuestan en octubre de 2026. Es la guía hermana de la comparativa [ChatGPT vs Claude vs Gemini para programar](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/), pero centrada en lo de Google.

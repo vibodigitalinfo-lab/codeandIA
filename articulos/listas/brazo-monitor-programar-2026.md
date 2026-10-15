@@ -10,6 +10,8 @@ affiliate_text: "El ErGear de doble soporte es mi recomendación calidad-precio:
 affiliate_url: "https://www.amazon.es/dp/B082MLVXRR?tag=codeandia-21"
 affiliate_label: "Ver el ErGear en Amazon"
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Llevé un año entero con el portátil de clase sobre una pila de libros para que la pantalla me quedara a la altura de los ojos. Más o menos como todos en DAW hasta que el cuello empieza a quejarse. El problema no era el portátil: era que la pantalla me quedaba quince centímetros por debajo de donde debería. El brazo de monitor no me lo recomendó nadie de mi entorno, sino el fisio, cuando le dije que acababa el día mirando al suelo por inercia.

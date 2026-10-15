@@ -11,6 +11,8 @@ affiliate_text: "Consigue la silla SIHOO M18 en Amazon con el precio comprobado"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé DAW monté mi "setup" a lo loco: una silla de cocina, el portátil sobre una tabla, un ratón de 10 euros que me dejó muerto de hombro. En tres semanas ya me dolía la espalda. No es ninguna broma: el hardware malo se ve gratis hasta que te sale caro en dolores.

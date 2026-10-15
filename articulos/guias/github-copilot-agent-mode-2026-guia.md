@@ -11,6 +11,8 @@ affiliate_label: "Ver planes Copilot"
 last_modified_at: 2026-10-03
 updated: 2026-10-03
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Hasta abril 2025, GitHub Copilot era "autocompletado en esteroides" (modo Chat) o "edita varios archivos si se los seleccionas" (modo Edit). **Agent Mode cambió las reglas**: ahora Copilot **planifica, edita múltiples archivos, ejecuta comandos en terminal, ve los errores, y se corrige solo en bucle** hasta que la tarea funciona.

@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-09-09
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 La primera vez que vi una expresión regular me pareció una amenaza. Era un `^\\s*([a-zA-Z0-9._-]+)\\s*=\\s*(.*)$` metido en una línea de un proyecto que no era mío, y lo que leí fue «nadie va a entender esto nunca». Hoy sé lo que hace cada trozo, y no fue leyendo un tutorial de cuarenta minutos: fue usando una IA con la instrucción correcta. Esa es exactamente la diferencia que te voy a contar aquí.

@@ -6,6 +6,8 @@ category: "Comparativa"
 date: 2026-08-18
 readtime: 6
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Para cuando te dejan elegir framework para el proyecto de DAW, la clase se divide en dos: los que votaron React porque "es lo que piden las empresas" y los que votaron Vue porque "dicen que es más fácil". Yo probé los dos con la IA pegada al codo, y el veredicto no es el que esperaba. Esto es lo que de verdad diferencia a React y a Vue cuando tu intención es aprobar, aprender y conseguir prácticas.

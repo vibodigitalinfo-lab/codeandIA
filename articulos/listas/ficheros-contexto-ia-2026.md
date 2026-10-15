@@ -6,6 +6,8 @@ category: "Lista"
 date: 2026-09-13
 readtime: 7
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Cuando trabajas con un agente de estos que corren en tu repositorio, hay un momento que pasa desapercibido: nada más arrancar, la IA va a mirar una serie de ficheros de configuración para decidir cómo comportarse. Tú nunca los miras porque son invisibles, pero ella los lee como un contrato. Y lo que hay dentro de ellos, o lo que falta, decide si el agente respeta tus reglas o si hace lo que le da la gana con el proyecto. Esta es la lista de los cinco que más me han salvado, en el orden en que los revisaría hoy un estudiante de DAW que quiere que su IA trabaje con criterio.

@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-08-05
 readtime: 9
 last_modified_at: 2026-08-05
+noindex: true
+sitemap: false
 ---
 
 ## El día que me comí un merge que no entendía

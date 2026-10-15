@@ -7,6 +7,8 @@ date: 2026-10-02
 updated: 2026-10-03
 readtime: 12
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Hay una pregunta que me llega por el grupo de clase cada pocas semanas y que siempre acaba en la misma discusión: **¿cuánto os gastáis vosotros en IA al mes?** El que lo tiene claro responde con veinte dólares, el que no lo tiene claro contesta "gratis" sin saber si su límite de peticiones se le acaba a media tarde, y casi nadie ha hecho la cuenta de lo que realmente consume un trimestre de prácticas.

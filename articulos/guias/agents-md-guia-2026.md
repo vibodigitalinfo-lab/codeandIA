@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-07-30
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Me pasaba esto todas las semanas en prácticas: entraba Cursor, le pedía un cambio en mi `UserService.java`, y me devolvía código que no seguía ni el estilo de mis clases ni el patrón del proyecto. Separadores en inglés, `System.out.println` por todos lados, y refactorizaciones que no había pedido. Hasta que un compañero me enseñó una cosa que lo arregló en 30 minutos: **AGENTS.md**.

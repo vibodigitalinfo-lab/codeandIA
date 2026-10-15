@@ -26,6 +26,8 @@ picks:
   - name: "Ticova Ergonomic"
     price: "139,99€"
     best_for: "Reclinación 130° para pensar"
+noindex: true
+sitemap: false
 ---
 
 Me pasó a finales de 2024. Llevaba tres meses de curso de Desarrollo de Aplicaciones Web (DAW) y empecé a notar un dolor punzante en la zona lumbar a mitad de la tarde. Me eché seis horas seguidas aprendiendo JavaScript en una silla de cocina. Error de novato.

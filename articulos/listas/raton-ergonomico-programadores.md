@@ -30,6 +30,8 @@ picks:
   - name: "Keychron M6"
     price: "79,99€"
     best_for: "Ergonomía al precio más bajo"
+noindex: true
+sitemap: false
 ---
 
 Me desperté una mañana con la muñeca derecha pinchando. No fue de golpe. Fueron meses de 8 horas al día con un ratón genérico de oficina, escribiendo código en VS Code y desplazándome por archivos de 500 líneas sin pensar en la postura.

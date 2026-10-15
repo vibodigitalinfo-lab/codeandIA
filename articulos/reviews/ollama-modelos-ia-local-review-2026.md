@@ -11,6 +11,8 @@ proyecto: "portátil de 16 GB sin GPU dedicada: ejercicios de DAW y queries de M
 limites: "alucina más que los modelos grandes, va lento y no te da autocompletado en el editor"
 updated: 2026-10-02
 last_modified_at: 2026-10-02
+noindex: true
+sitemap: false
 ---
 
 A finales del curso pasado me di cuenta de que estaba pagando tres cosas a la vez: ChatGPT Plus, GitHub Copilot Pro y Cursor. No era que las usara todas a todas horas, era más bien el miedo a quedarme sin ellas el día que hicieran falta. Y un día, mirando las facturas juntas, pensé: esto no tiene sentido para un estudiante de DAW.

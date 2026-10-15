@@ -11,6 +11,8 @@ affiliate_text: "Consigue la silla SIHOO M18 en Amazon con el precio comprobado"
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empiezas DAW, el pánico va a las asignaturas: a montar el rincón de estudio no le das una vuelta hasta que llevas tres semanas con la espalda hecha polvo y un escritorio que parece un tendedero. La buena noticia es que no hace falta un plan de 800 euros. Con cuatro compras que suman poco y un orden claro, tienes un puesto que aguanta ocho horas de código. Te lo ordeno como lo montaría yo.

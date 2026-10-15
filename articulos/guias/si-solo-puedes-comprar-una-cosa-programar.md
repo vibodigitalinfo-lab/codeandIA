@@ -11,6 +11,8 @@ affiliate_text: "Mira la SIHOO M18, la silla que más me ha recomendado la gente
 affiliate_url: "https://www.amazon.es/dp/B07GNDDNMW?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empezé en DAW me dio por comprar un teclado de 80 euros, un ratón de 40 y unos auriculares con cancelación de ruido. No tenía silla. Trabajaba en un comedor con una silla de madera que no se movía.

@@ -10,6 +10,8 @@ readtime: 11
 affiliate_text: "Explora servidores MCP listos para usar en el registry oficial"
 affiliate_url: "https://mcp.so"
 affiliate_label: "Ver registry MCP"
+noindex: true
+sitemap: false
 ---
 
 Hace un año, si querías que tu IA accediera a tu base de datos, tenías que escribir un plugin distinto para cada herramienta: uno para Cursor, otro para Copilot, otro para Claude Desktop. **MCP (Model Context Protocol) mató ese problema**. Es el "USB-C para IA": un estándar abierto para que **cualquier IA hable con cualquier herramienta/dato** sin adaptadores a medida.

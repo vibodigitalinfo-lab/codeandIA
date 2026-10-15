@@ -14,6 +14,8 @@ affiliate_url: "https://zed.dev"
 affiliate_label: "Descargar Zed"
 updated: 2026-10-02
 last_modified_at: 2026-10-02
+noindex: true
+sitemap: false
 ---
 
 Llevo meses viendo a gente en Twitter (y en clase) que jura que **Zed les ha cambiado la vida**. "Es VS Code pero rápido", "la IA está integrada de forma nativa", "colaboración en tiempo real sin plugins". Suena bien, pero también suena a marketing. Me lo bajé hace tres semanas para un proyecto de prácticas (Spring Boot + React, el típico de DAW) y esto es lo que he encontrado.

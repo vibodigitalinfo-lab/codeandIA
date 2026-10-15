@@ -10,6 +10,8 @@ affiliate_url: "https://www.hostinger.com/es"
 affiliate_label: "Ver planes de Hostinger"
 updated: 2026-10-03
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando en segundo de DAW nos mandaron subir el proyecto final a un servidor de verdad, la mayoría de mi clase hizo lo mismo que yo iba a hacer: buscar "hosting barato" en Google, abrir las diez primeras pestañas y quedarse mirando precios sin entender nada. Entre los que publican la web, los que no saben qué es un dominio y los que terminan pagando 15€ al mes por algo que no usan, este tema merece una guía de verdad. Te cuento lo que aprendí a base de pagar dos hostings con mi dinero y de romper un par de cosas.

@@ -11,6 +11,8 @@ tiempo: "tres sesiones largas sobre el mismo repositorio, con el código ya escr
 proyecto: "la API REST de Spring Boot de las prácticas"
 limites: "flojea en frontend y el plan Plus tiene límite de sesiones por ventana de tiempo"
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Llego a la terminal con una pregunta que llevo semanas arrastrando desde clase: ¿por qué hago que una IA piense en un chat aparte si puedo tenerla aquí, leyendo de verdad mis ficheros? Esa es la promesa de Codex CLI, el agente de OpenAI que corre en tu máquina, en tu terminal, sobre tu repositorio. No es un chat con un botón de "copiar": lee, edita y ejecuta. Y como ya pago el Plus para lo de las prácticas, la pregunta era si me aporta algo o si es simplemente más sitio donde perder la tarde.

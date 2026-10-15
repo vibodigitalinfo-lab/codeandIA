@@ -11,6 +11,8 @@ affiliate_text: "Consigue la Logitech C920s Pro HD con envío gratis en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B07MM4V7NR?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Hace un mes hice mi primera sesión de pair programming en directo con un compañero de DAW. Me conecté por Discord, compartí pantalla y activé la webcam. Se veía todo borroso. Mi cara estaba oscura, el fondo iluminado y el texto de VS Code apenas se distinguía. Me pasé media hora ajustando foco y luz en vez de programar.

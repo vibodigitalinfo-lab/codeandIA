@@ -7,6 +7,8 @@ date: 2026-07-16
 updated: 2026-10-03
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Todos hemos estado ahí: es viernes por la tarde, quieres terminar la tarea, y te quedan 20 commits por hacer, la documentación sin escribir, y 50 tests que crear. Las tareas repetitivas de programar no solo son aburridas, sino que roban tiempo que podrías dedicar a código real.

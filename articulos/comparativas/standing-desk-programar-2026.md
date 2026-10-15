@@ -10,6 +10,8 @@ affiliate_text: "Mira el escritorio elevable de 319,99€ que uso"
 affiliate_url: "https://www.amazon.es/dp/B0CNH1X67H?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Llevé dos años trabajando sentado y acabé con la espalda destrozada. Cuando me diagnosticaron el problema, el médico no me pidió que dejara el teclado: me pidió que me levantara cada hora. Tardé un año en tomármelo en serio, y la primera vez que monté un escritorio elevable fue también la primera vez que terminé el día sin dolor de espalda.

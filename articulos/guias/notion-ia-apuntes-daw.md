@@ -7,6 +7,8 @@ date: 2026-07-07
 updated: 2026-10-03
 readtime: 12
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Empecé el curso con una carpeta de Google Drive llamada `DAW 2025-26` y dentro 40 PDFs sueltos, capturas de pizarra, y un `apuntes.txt` que nunca abrí. A noviembre ya no encontraba nada. Me pasé a Notion, le metí IA, y **ahora mi sistema de apuntes es lo único que me deja estudiar para los exámenes sin pánico**. Te lo enseño entero: bases de datos, plantillas, prompts que uso, y los errores que cometí.

@@ -10,6 +10,8 @@ readtime: 12
 affiliate_text: "Prueba v0 gratis y genera tu primera UI en minutos"
 affiliate_url: "https://v0.app/pricing"
 affiliate_label: "Ver planes v0"
+noindex: true
+sitemap: false
 ---
 
 El diseño visual nunca se me dio bien. CSS me parece luchar contra el navegador, Tailwind ayuda pero sigo mirando la pantalla en blanco 20 minutos antes de escribir una clase. **v0 de Vercel cambió eso**: le describes lo que quieres en lenguaje natural y te genera una interfaz React + Tailwind + shadcn/ui lista para copiar (o deployar a Vercel en 1 click).

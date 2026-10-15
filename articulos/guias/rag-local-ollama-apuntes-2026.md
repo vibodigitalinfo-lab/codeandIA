@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-08-03
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Cuando empecé DAW, mi sistema de estudio era una pesadilla: apuntes de MySQL por aquí, PDFs de Java por allá, y media docena de tabs de apuntes abiertas. Preguntarle algo a ChatGPT funcionaba, pero la respuesta era genérica: no conocía MIS apuntes, ni el guion de MI profesor, ni los ejercicios que hacíamos en clase.

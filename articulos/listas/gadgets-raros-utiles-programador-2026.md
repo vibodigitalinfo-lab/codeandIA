@@ -11,6 +11,8 @@ affiliate_text: "El teclado numérico programable EPOMAKER EK21 con perilla y ma
 affiliate_url: "https://www.amazon.es/dp/B0FD3FQZHN?tag=codeandia-21"
 affiliate_label: "Ver el teclado numérico en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Como todo friki del software, he comprado objetos que en la oficina parecían inútiles y que luego resultaron ser exactamente lo que necesitaba. De toda esa colección, hay cuatro que sigo usando a los meses, y no porque sean raros, sino porque cada uno corta un hábito feo del día a día. Van con el precio real que tienen hoy en Amazon España.

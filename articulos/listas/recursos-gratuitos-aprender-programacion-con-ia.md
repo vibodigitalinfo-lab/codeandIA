@@ -6,6 +6,8 @@ category: "Lista"
 date: 2026-07-05
 readtime: 7
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Si buscas "aprender a programar con IA" en Google te salen cursos de 300 euros, especialistas en "prompt engineering" y de todo. Y en mi caso, con el presupuesto de estudiante que tengo, esa ruta estaba descartada desde el principio. Lo que de verdad me ha servido durante el curso ha sido gratis, y no lo encontré buscando "curso con IA": lo fui juntando según aparecía en mi camino.

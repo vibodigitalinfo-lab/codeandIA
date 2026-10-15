@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-09-02
 readtime: 9
 last_modified_at: 2026-09-02
+noindex: true
+sitemap: false
 ---
 
 Tailwind con IA tiene un problema que no tiene con otros temas: el resultado **parece** correcto. La interfaz se ve bien, las clases están todas, el CSS no tiene ni una línea. Todo pasa las revisiones. Y luego abres el `div` del botón y hay esto:

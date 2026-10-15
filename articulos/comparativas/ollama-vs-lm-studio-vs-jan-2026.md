@@ -7,6 +7,8 @@ date: 2026-07-14
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 readtime: 11
+noindex: true
+sitemap: false
 ---
 
 Si en algún momento te has planteado ejecutar modelos de IA sin mandar tu código a la nube — porque estás en prácticas con NDA, porque te quedaste sin internet en un examen, o porque simplemente no quieres pagar API — estás ante la misma pregunta que yo: **¿Ollama, LM Studio o Jan?** Los tres hacen más o menos lo mismo (cargar un modelo local y dejar que lo uses), pero tienen diferencias que te cambian el día a día. Llevo meses usando los tres alternadamente y aquí te cuento lo que de verdad importa para un estudiante de DAW que programa en Java, TypeScript y Python.

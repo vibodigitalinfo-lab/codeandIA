@@ -10,6 +10,8 @@ affiliate_text: "La lámpara LED de flexo es la que uso para programar de noche:
 affiliate_url: "https://www.amazon.es/dp/B0D8PY8CRD?tag=codeandia-21"
 affiliate_label: "Ver la lámpara en Amazon"
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 Programar a oscuras es peor de lo que parece. No hablo de no ver las teclas: hablo de que el contraste entre una pantalla muy clara y una habitación a oscuras hace trabajar a la pupila de más, y al final de una tarde de prácticas se nota en picor y en el dolor de cabeza. Lo aprendí con la metodología del error: estuve tres meses con la habitación a oscuras, convencido de que "total, la pantalla ilumina".

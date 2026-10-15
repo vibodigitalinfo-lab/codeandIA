@@ -11,6 +11,8 @@ proyecto: "la API REST de Spring Boot como conejillo de indias"
 limites: "pide confirmación a cada rato y Google cambia el nombre a los productos cada poco"
 updated: 2026-10-02
 last_modified_at: 2026-10-02
+noindex: true
+sitemap: false
 ---
 
 Google llevaba un año llenándonos la cabeza con agentes: los tienes en el editor, en la web y en sus planes de pago, todos repasados en [las herramientas de IA de Google](/articulos/listas/herramientas-ia-google-2026/). La pieza que me faltaba era la del sitio donde vivo cuando programo: la terminal. Hace unas semanas la lanzaron con todo el mohín del mundo y decidí dejarla una temporada en las prácticas para contarte si es una alternativa real a [Codex CLI](/articulos/reviews/codex-cli-openai-review-2026/) y a [Claude Code](/articulos/reviews/claude-code-cli-review-2026/), o si es Google añadiendo una pestaña más.

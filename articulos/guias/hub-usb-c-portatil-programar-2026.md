@@ -11,6 +11,8 @@ affiliate_text: "El hub NOVOO de 7 puertos con HDMI y carga de 100W, por 26,99�
 affiliate_url: "https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21"
 affiliate_label: "Ver el hub en Amazon"
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Los portátiles modernos han ganado en ligereza y batería a costa de los puertos. En el que usamos en clase quedan dos conectores USB-C: uno lo ocupa el cargador y el otro se va turnando entre el teclado, el ratón y un disco duro. La solución no es cambiar de portátil, es comprar un hub USB-C.

@@ -6,6 +6,8 @@ category: "Guía"
 date: 2026-08-30
 readtime: 10
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Hay un ejercicio donde la IA es peligrosamente buena: los algoritmos. Le pides "búsqueda binaria" y te devuelve una implementación impecable, con Big O anotado y los casos límite ya cubiertos. En treinta segundos tienes la solución que en un examen te habría costado veinte minutos. Y ese es exactamente el problema.

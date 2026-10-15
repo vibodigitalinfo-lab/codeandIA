@@ -6,6 +6,8 @@ category: "Lista"
 date: 2026-08-19
 readtime: 8
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Sé el momento exacto en el que empiezas a mirar alternativas a Cursor: cuando el autocompletado premium se acaba y el plan Pro (20 $ al mes) te recuerda que eres estudiante. Yo estuve ahí este trimestre, y en 2026 la cosa tiene un matiz nuevo: **la mayoría de "alternativas gratis" que encuentras en listas viejas ya no existen como las describen**. Windsurf ya no es Windsurf, Codeium desapareció, Continue la compró Cursor… Me vais a perdonar, pero toca actualizar la lista. Esto es lo que sigue vivo de verdad en septiembre de 2026.

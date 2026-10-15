@@ -7,6 +7,8 @@ date: 2026-07-01
 readtime: 8
 updated: 2026-10-03
 last_modified_at: 2026-10-03
+noindex: true
+sitemap: false
 ---
 
 Suspendí mi primer examen práctico de programación por una razón tonta: sabía "darle a la IA las instrucciones", pero no sabía programar sin ella. En clase, con ChatGPT al lado, resolvía los ejercicios de maravilla. En la mesa del examen, con pantalla negra y sin copiloto, me quedé en blanco como media hora mirando un enunciado que no sabía ni por dónde empezar.

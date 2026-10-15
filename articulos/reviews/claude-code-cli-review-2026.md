@@ -14,6 +14,8 @@ affiliate_text: "Prueba Claude Pro y accede a Claude Code desde la terminal"
 affiliate_url: "https://claude.com/pricing"
 affiliate_label: "Ver planes Claude"
 last_modified_at: 2026-09-30
+noindex: true
+sitemap: false
 ---
 
 La primera vez que vi a alguien con experiencia usando Claude Code en directo, pensé: "esto es trampa". Escribió en la terminal: `claude "refactoriza todo el módulo de pagos a arquitectura hexagonal, añade tests y actualiza la documentación"`. **Y lo hizo**. En 20 minutos. Lo que a mí me habría llevado dos días.

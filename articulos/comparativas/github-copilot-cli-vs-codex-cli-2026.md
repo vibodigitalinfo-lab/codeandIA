@@ -6,6 +6,8 @@ category: "Comparativa"
 date: 2026-09-17
 readtime: 7
 last_modified_at: 2026-10-02
+noindex: true
+sitemap: false
 ---
 
 En la review de [Codex CLI de OpenAI](/articulos/reviews/codex-cli-openai-review-2026/) terminé diciendo que era la forma más barata de tener un agente de terminal si ya pagas ChatGPT. Lo que no dije, porque me lo preguntasteis varios por correo, es qué pasa si lo comparas con la CLI del otro gigante: la de **GitHub Copilot**. Las dos corren en tu terminal, leen tu repositorio y editan ficheros por ti, pero la decisión entre una y otra no es técnica: es de cuenta, de dinero y de cómo te comporta la IA. Voy a contarte cómo las he usado en las prácticas este mes y qué haría un estudiante de DAW con cabeza.

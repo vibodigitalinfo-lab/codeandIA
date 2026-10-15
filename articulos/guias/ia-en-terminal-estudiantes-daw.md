@@ -7,6 +7,8 @@ date: 2026-07-10
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 readtime: 8
+noindex: true
+sitemap: false
 ---
 
 El año pasado mi terminal era solo `cd`, `ls`, `git add .` y `npm run dev`. Este curso, la IA se ha colado en la línea de comandos y **ha cambiado cómo hago las prácticas de DAW**: desde generar un `Dockerfile` multi-stage hasta depurar un `NullPointerException` en Spring Boot sin abrir el navegador. Te cuento cómo lo tengo montado yo, qué uso cada herramienta y los errores que cometí al principio.

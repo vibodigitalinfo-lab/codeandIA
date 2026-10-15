@@ -6,6 +6,8 @@ category: "Comparativa"
 date: 2026-08-31
 readtime: 10
 last_modified_at: 2026-08-31
+noindex: true
+sitemap: false
 ---
 
 Esta decisión se toma sola en casi todos los proyectos de DAW, y casi siempre por inercia: el profesor dijo SQLite, o el tutorial que seguiste usaba SQLite, así que ahí se queda. Y para un proyecto de primero puede ser perfecto. El problema aparece en marzo, cuando tres personas escriben a la vez y tu archivo se bloquea.
