@@ -6,11 +6,8 @@ category: "Lista"
 tema: hardware
 date: 2026-09-08
 readtime: 9
-affiliate_text: "Consigue el Keychron V1 Max con envío gratis en Amazon"
-affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
-affiliate_label: "Ver en Amazon"
 updated: 2026-10-03
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-15
 picks:
   - name: "Keychron V1 Max"
     price: "~136€"

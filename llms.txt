@@ -1,0 +1,59 @@
+# codeandIA
+
+> Apuntes de un estudiante de DAW sobre programar con herramientas de IA: reviews, comparativas, guías y listas, probadas a mano y con precios comprobados desde España (moneda, impuestos y fecha de comprobación).
+>
+> Todo lo que hay aquí lo he escrito Iván. Si una herramienta no la he probado, lo digo en el propio artículo. Sin reviews pagadas.
+
+Las URLs de los artículos son estables y no cambian. Los precios y disponibilidades se revisan periódicamente: si vas a comprar algo, confirma el precio en la página del vendedor.
+
+## Guías
+
+- [Simulacros de entrevista técnica con IA para tu primer trabajo](https://codeandia.com/articulos/guias/simulacros-entrevista-tecnica-con-ia/): Cómo practicar la entrevista técnica de tu primer trabajo de programador con IA: simulacros realistas, los ejercicios que más caen en DAW y cómo corregirte.
+- [Portfolio de programador con IA que consigue prácticas](https://codeandia.com/articulos/guias/portfolio-que-consigue-practicas-daw/): Cómo montar un portfolio que te consiga prácticas de DAW con IA: estructura, proyectos, el texto de candidatura y los fallos que me costaron entrevistas.
+- [Claves API y .env: lo que no debes pegar en la IA](https://codeandia.com/articulos/guias/no-pegues-claves-api-en-la-ia/): Guía para no filtrar claves de API, contraseñas ni tokens al usar ChatGPT, Claude o Cursor: qué pegar en su lugar y qué hacer si ya has enviado el secreto.
+- [MCP para principiantes: qué es y por qué está por todas partes](https://codeandia.com/articulos/guias/mcp-para-principiantes-guia-2026/): Guía de MCP en 2026 para estudiantes: qué es el Model Context Protocol, para qué sirve de verdad, cómo configurarlo en 5 minutos y qué puedes ignorar.
+- [GitHub Copilot gratis en IntelliJ IDEA: guía paso a paso para Java](https://codeandia.com/articulos/guias/github-copilot-intellij-java-daw/): Configura GitHub Copilot gratis en IntelliJ IDEA con tu cuenta de estudiante para programar en Java en DAW: plugin, login y autocompletado en tu IDE.
+- [Copias de seguridad de tus proyectos: no pierdas las prácticas](https://codeandia.com/articulos/guias/copias-seguridad-proyectos-programador/): Cómo hacer copias de seguridad de tus proyectos de DAW sin depender de la suerte: Git con GitHub, la nube con cabeza y una copia local, con la rutina que uso.
+- [Secrets y variables en GitHub Actions sin morir en el intento](https://codeandia.com/articulos/guias/github-actions-secrets-variables-entorno-guia/): Guía paso a paso para usar secrets, variables y environments en GitHub Actions, con los errores comunes, ejemplos reales y los trucos que casi nadie te cuenta.
+- [Documentar tu proyecto con IA: README y código que se entienden](https://codeandia.com/articulos/guias/documentar-proyecto-con-ia-2026/): Cómo escribir documentación de tu proyecto con IA sin que parezca relleno: README que explican, comentarios útiles y por qué documentar te sube nota en DAW.
+- [Aprender Java en DAW con IA y no volverte dependiente](https://codeandia.com/articulos/guias/aprender-java-con-ia-daw/): Cómo usar la IA para estudiar Java en DAW: prompts tutor, leer stack traces, ejercicios sin soluciones y la regla de no entregar código que no entiendas.
+- [Cómo configurar Cursor AI en VS Code desde cero](https://codeandia.com/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/): Te explico paso a paso cómo configurar Cursor AI en VSCode desde cero para dejar de perder tiempo tecleando y programar más rápido.
+- [Prompts de ChatGPT para corregir errores de código (nivel junior)](https://codeandia.com/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/): Los prompts que uso cuando un error no me suelta: cómo pegar el problema, cómo pedir que te lo explique primero y qué hacer con la respuesta.
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](https://codeandia.com/articulos/guias/que-dominio-comprar-primer-proyecto-web/): Te cuento qué dominio comprar para tu primer proyecto web, cuándo elegir .com o .es y en qué registrador merece la pena hacerlo.
+- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](https://codeandia.com/articulos/guias/que-portatil-comprar-estudiar-daw-2026/): Qué portátil necesita un estudiante de DAW en 2026: specs que importan de verdad, tres opciones con precios reales y los errores que debes evitar.
+
+## Comparativas
+
+- [IA local o en la nube para programar: cuál te conviene](https://codeandia.com/articulos/comparativas/ia-local-vs-ia-nube-programar/): IA local (Ollama, LM Studio) frente a la IA en la nube para programar: privacidad, coste, hardware y cuándo merece la pena cada una, sin humo.
+- [Jest vs Vitest en 2026: qué runner de tests elijo en DAW](https://codeandia.com/articulos/comparativas/vitest-vs-jest-2026/): Jest y Vitest ejecutan los mismos tests, pero no se parecen en nada por dentro. Comparo velocidad, ESM, TypeScript, mocks y cuándo conviene migrar en DAW.
+- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](https://codeandia.com/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/): Comparativa real de las 3 plataformas gratis para deploy: límites, CI/CD, dominios y edge functions, y cuál elijo para portfolio y proyectos de DAW.
+- [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](https://codeandia.com/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/): Hostinger vs Netlify para tu primer proyecto de DAW: comparo hosting de pago y plataforma gratis, cuándo elige cada uno y cuánto pagas de verdad.
+- [Vite vs Next.js vs Astro para tu primer proyecto con IA](https://codeandia.com/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/): Qué framework elegir para tu primer proyecto web con IA: Vite, Next.js o Astro. Comparativa de dificultad, rendimiento y cuándo tiene sentido cada uno.
+- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](https://codeandia.com/articulos/comparativas/continue-dev-vs-cursor-2026/): Continue.dev, Cursor y GitHub Copilot cara a cara: precios, privacidad, modelos (Claude, GPT, Ollama local) y cuál uso yo en prácticas de DAW.
+- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](https://codeandia.com/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/): Comparo Claude AI vs ChatGPT Plus para programar con ejemplos reales: errores, contexto, refactoring y cuál vale más la pena en 2026.
+- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](https://codeandia.com/articulos/comparativas/chatgpt-vs-cursor-para-programar/): Comparativa real entre ChatGPT y Cursor AI para programadores y estudiantes: diferencias de contexto, generación de código, flujos diarios y precio.
+
+## Listas
+
+- [5 tendencias de IA que ya usan los devs senior (y puedes adoptar)](https://codeandia.com/articulos/listas/tendencias-ia-para-devs-2026/): Tendencias reales de IA en programación 2026: agentes autónomos, MCP, modelos locales, AI-native testing y code review automatizado. Ejemplos para empezar ya.
+- [GitHub Student Pack: qué incluye y cuánto te ahorra](https://codeandia.com/articulos/listas/github-student-pack-que-incluye/): Qué herramientas te da GitHub gratis por ser estudiante, cuáles merecen la pena aprovechar y cuáles son solo ruido en el catálogo.
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](https://codeandia.com/articulos/listas/configuracion-vscode-ia-2026/): Configuración de VS Code con IA en 2026: extensiones que siguen vivas, AGENTS.md, settings útiles, modelos propios y el flujo real de un estudiante de DAW.
+- [Mejores auriculares con cancelación de ruido para estudiar en 2026](https://codeandia.com/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/): Comparativa de cascos y auriculares con cancelación de ruido para estudiar y programar: opciones cómodas y con buen ANC por menos de 100 euros.
+- [Los 5 mejores teclados mecánicos para programar en 2026](https://codeandia.com/articulos/listas/mejores-teclados-mecanicos-programar/): Comparo los mejores teclados mecánicos para programar: Keychron, Logitech y opciones baratas con precios reales en España.
+
+## Reviews
+
+- [CodeRabbit 2026: ¿merece la pena la IA que revisa tus PRs?](https://codeandia.com/articulos/reviews/coderabbit-review-ai-code-review/): Analizo CodeRabbit, la IA que revisa pull requests: precios, comparativa con Copilot, el incidente de seguridad y si vale la pena para un estudiante.
+- [Trae AI IDE 2026: el editor que quiere comerse a Cursor](https://codeandia.com/articulos/reviews/trae-ai-ide-review-2026/): Review honesta de Trae: agente autónomo gratis, modelo propio Doubao, UX china vs occidental, y si compensa cambiar desde Cursor o VS Code + Copilot.
+- [Keychron Q1 Max review: ¿el mejor teclado mecánico para programar?](https://codeandia.com/articulos/reviews/keychron-q1-max-review-2026/): Análisis a fondo del Keychron Q1 Max: gasket mount, switches, conectividad inalámbrica y si merece la pena frente a alternativas más baratas en 2026.
+- [ChatGPT Plus para programadores: ¿merece la pena pagar 20 $ al mes?](https://codeandia.com/articulos/reviews/chatgpt-plus-para-programadores/): Analizo si ChatGPT Plus vale lo que cuesta para programar: el corte de mensajes, el contexto largo, la velocidad y qué te da la versión gratis por comparar.
+- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](https://codeandia.com/articulos/reviews/cursor-ai-review-espanol/): Mi cursor AI review en español tras meses usándolo: rendimiento real, precio y si merece la pena para estudiantes de DAW.
+- [GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso](https://codeandia.com/articulos/reviews/github-copilot-gratis-estudiantes/): Guía para activar GitHub Copilot gratis con el Student Developer Pack: requisitos, correo educativo y cómo aprovecharlo para estudiar programación.
+
+## Sitio
+
+- [Rutas de aprendizaje](https://codeandia.com/rutas/): recorridos ordenados, del entorno al primer proyecto publicado.
+- [Cheatsheets](https://codeandia.com/cheatsheets/): prompts con código y atajos de VS Code, Git, Docker y regex.
+- [Cómo trabajamos con IA](https://codeandia.com/como-trabajamos/): el método que uso antes de escribir.
+- [Sobre mí](https://codeandia.com/sobre-mi/): quién escribe y con qué criterio.
+- [Contacto](mailto:ivan@codeandia.com): dudas, correcciones y sugerencias.
