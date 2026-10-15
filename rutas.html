@@ -5,7 +5,7 @@ description: "Rutas guiadas para aprender a programar con IA: elegir herramienta
 permalink: /rutas/
 ---
 
-{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" %}
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" %}
 {% assign total_pasos = 0 %}
 {% for r in site.data.rutas %}{% assign total_pasos = total_pasos | plus: r.pasos.size %}{% endfor %}
 

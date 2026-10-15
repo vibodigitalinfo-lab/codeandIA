@@ -3,7 +3,7 @@ layout: article
 title: "CodeRabbit 2026: ¿merece la pena la IA que revisa tus PRs?"
 description: "Analizo CodeRabbit, la IA que revisa pull requests: precios, comparativa con Copilot, el incidente de seguridad y si vale la pena para un estudiante."
 category: "Review"
-date: 2026-06-22
+date: 2026-09-28
 readtime: 8
 version: "plan gratis en repos públicos (5 reviews/hora) y subido a Essentials (24 $/mes anual); precios comprobados el 2 de octubre de 2026"
 tiempo: "varias semanas revisando las entregas del ciclo"

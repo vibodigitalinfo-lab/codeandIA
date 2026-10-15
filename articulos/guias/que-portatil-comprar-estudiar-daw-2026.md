@@ -4,12 +4,12 @@ title: "Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)"
 description: "Qué portátil necesita un estudiante de DAW en 2026: specs que importan de verdad, tres opciones con precios reales y los errores que debes evitar."
 category: "Guía"
 tema: hardware
-date: 2026-07-29
+date: 2026-09-08
 readtime: 9
 affiliate_text: "El Acer Aspire Go 15 (Ryzen 7, 16 GB, 512 GB) está en stock y es la compra más segura para DAW ahora mismo"
 affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver el Aspire Go 15 en Amazon"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-09-08
 ---
 
 Antes de empezar segundo de DAW, mi portátil era uno de esos de gama baja con 8 GB de RAM y me pasaba las clases cerrando pestañas a toda velocidad para que no se me colgara el IDE. Un día, con el entorno levantado, el navegador con la documentación y MySQL corriendo a la vez, el portátil se quedó congelado durante una práctica. Ese día decidí que había que cambiar de máquina. He tardado en encontrar lo que buscaba y he aprendido a base de devoluciones y de leer especificaciones hasta que se me cruzan los ojos. Si estás mirando portátil para el ciclo, esto es lo que de verdad importa y lo que yo compraría en 2026.

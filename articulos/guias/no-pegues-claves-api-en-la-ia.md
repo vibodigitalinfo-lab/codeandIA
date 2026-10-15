@@ -3,9 +3,9 @@ layout: article
 title: "Claves API y .env: lo que no debes pegar en la IA"
 description: "Guía para no filtrar claves de API, contraseñas ni tokens al usar ChatGPT, Claude o Cursor: qué pegar en su lugar y qué hacer si ya has enviado el secreto."
 category: "Guía"
-date: 2026-10-04
+date: 2026-10-06
 readtime: 9
-last_modified_at: 2026-10-04
+last_modified_at: 2026-10-06
 ---
 
 He visto a más de un estudiante pegarle a ChatGPT un `application.yml` entero para preguntarle por qué le falla la conexión a la base de datos. El archivo tenía la contraseña de producción escrita dentro. En ese momento la clave dejó de ser secreta.

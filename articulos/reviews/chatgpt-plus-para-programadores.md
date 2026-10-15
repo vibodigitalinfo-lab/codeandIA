@@ -3,7 +3,7 @@ layout: article
 title: "ChatGPT Plus para programadores: ¿merece la pena pagar 20 $ al mes?"
 description: "Analizo si ChatGPT Plus vale lo que cuesta para programar: el corte de mensajes, el contexto largo, la velocidad y qué te da la versión gratis por comparar."
 category: "Review"
-date: 2026-06-02
+date: 2026-09-08
 readtime: 6
 version: "ChatGPT Plus (20 $/mes, precio oficial en dólares); en junio de 2026 montaba el GPT-4o"
 tiempo: "varios meses a diario para clase y proyectos"

@@ -3,7 +3,7 @@ layout: article
 title: "Cursor AI para estudiantes: ¿merece la pena? (review en español)"
 description: "Mi cursor AI review en español tras meses usándolo: rendimiento real, precio y si merece la pena para estudiantes de DAW."
 category: "Review"
-date: 2026-06-01
+date: 2026-09-08
 readtime: 7
 version: "plan Pro (20 $/mes) tras meses usando solo el plan gratuito; precio comprobado el 2 de octubre de 2026"
 tiempo: "un mes de pago a fondo, con meses gratis anteriores"
@@ -13,7 +13,7 @@ affiliate_text: "Prueba Cursor gratis durante 14 días"
 affiliate_url: "https://cursor.com"
 affiliate_label: "Probar Cursor gratis"
 updated: 2026-10-02
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-02
 ---
 
 Cuando empecé el segundo año de DAW me prometí que iba a dejar de luchar contra el código y empezar a trabajar con él. Llevaba meses escuchando hablar de Cursor por todas partes, y al final me rendí a la curiosidad. Esta es mi cursor AI review en español después de haberlo usado de verdad, no de haberlo abierto diez minutos para hacer capturas de pantalla.

@@ -4,7 +4,7 @@ title: "Keychron Q1 Max review: ¿el mejor teclado mecánico para programar?"
 description: "Análisis a fondo del Keychron Q1 Max: gasket mount, switches, conectividad inalámbrica y si merece la pena frente a alternativas más baratas en 2026."
 category: "Review"
 tema: hardware
-date: 2026-07-23
+date: 2026-09-11
 readtime: 9
 version: "Keychron Q1 Max Fully Assembled con switches Gateron Jupiter Red (QMK/VIA)"
 tiempo: "unas 3 semanas de uso diario"

@@ -3,9 +3,9 @@ layout: article
 title: "Configuración de VS Code para IA en 2026: lo que uso de verdad"
 description: "Configuración de VS Code con IA en 2026: extensiones que siguen vivas, AGENTS.md, settings útiles, modelos propios y el flujo real de un estudiante de DAW."
 category: "Lista"
-date: 2026-08-13
+date: 2026-09-18
 readtime: 8
-last_modified_at: 2026-10-03
+last_modified_at: 2026-09-18
 ---
 
 Cada dos semanas sale una lista de "las 7 extensiones de IA que necesitas" y todas recomiendan lo mismo de hace un año. El problema no es la lista, es que **la IA no se configura con extensiones, se configura con flujo**: qué herramienta hace cada cosa, qué reglas le das, y cómo revisas lo que te propone. Esto es lo que de verdad tengo montado a mediados de 2026, tras probar de más y quedarme con menos.

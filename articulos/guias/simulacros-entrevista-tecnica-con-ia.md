@@ -3,9 +3,9 @@ layout: article
 title: "Simulacros de entrevista técnica con IA para tu primer trabajo"
 description: "Cómo practicar la entrevista técnica de tu primer trabajo de programador con IA: simulacros realistas, los ejercicios que más caen en DAW y cómo corregirte."
 category: "Guía"
-date: 2026-10-12
+date: 2026-10-14
 readtime: 9
-last_modified_at: 2026-10-12
+last_modified_at: 2026-10-14
 ---
 
 Casi nadie te lo avisa en clase: el título de DAW no te da trabajo, te da derecho a que te hagan una entrevista. Y esa entrevista tiene una parte técnica que casi nadie practica, y menos de la forma en que se da. No hay temario, no hay simulacros y la mayoría de la gente llega sin haber dicho en voz alta una línea de código delante de nadie.

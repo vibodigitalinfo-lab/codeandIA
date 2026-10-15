@@ -1,6 +1,10 @@
 """Regla de fechas del sitio: ningun articulo futuro, fechas sin repetir y
 huecos entre fechas limitados (cadencia de 2-3 articulos por semana).
 
+Solo cuentan los articulos indexables: los retirados con `noindex: true` no
+forman parte de la cadencia publica (el dia de lanzamiento, la fecha mas
+antigua, puede agrupar el bloque inicial).
+
 Uso:  python fechas_check.py [hoy_ISO]
 Hoy por defecto es la fecha del sistema; se puede forzar con HOY=2026-09-26.
 """
@@ -31,6 +35,9 @@ sin_fecha = []
 for p in articulos_publicados():
     rel = os.path.relpath(p, RAIZ).replace('\\', '/')
     t = io.open(p, encoding='utf-8').read()
+    # Los articulos retirados (noindex) no cuentan para la cadencia publica.
+    if re.search(r'^noindex:\s*true', t, re.M):
+        continue
     m = re.search(r'^date:\s*(\S+)', t, re.M)
     if not m:
         sin_fecha.append(rel)
@@ -48,10 +55,12 @@ for rel, d in sorted(fechas.items()):
     if d > HOY:
         fallos.append('FECHA FUTURA %s -> %s (hoy es %s)' % (rel, d, HOY))
 
-# 2. Ninguna fecha repetida
+# 2. Ninguna fecha repetida, salvo el dia de lanzamiento (la fecha mas antigua),
+#    que agrupa el bloque inicial con el que abre el blog.
 conteo = collections.Counter(fechas.values())
+lanzamiento = min(conteo) if conteo else None
 for d, n in sorted(conteo.items()):
-    if n > 1:
+    if n > 1 and d != lanzamiento:
         fallos.append('FECHA REPETIDA %s x%d:' % (d, n))
         for rel in sorted(k for k, v in fechas.items() if v == d):
             fallos.append('    %s' % rel)

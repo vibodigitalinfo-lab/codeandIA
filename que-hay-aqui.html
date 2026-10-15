@@ -3,10 +3,10 @@ layout: default
 title: "Qué hay en codeandIA"
 description: "Un índice para saber dónde está cada cosa: artículos sobre IA para programar, rutas guiadas, cheatsheets, setup de escritorio, hosting y dominios, ofertas y las páginas que explican cómo pruebo lo que escribo."
 permalink: /que-hay-aqui/
-last_modified_at: 2026-10-01
+last_modified_at: 2026-10-15
 ---
 
-{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" %}
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" %}
 {% assign guias = arts | where: "category", "Guía" %}
 {% assign comparativas = arts | where: "category", "Comparativa" %}
 {% assign listas = arts | where: "category", "Lista" %}

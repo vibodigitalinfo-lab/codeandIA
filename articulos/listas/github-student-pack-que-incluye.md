@@ -3,10 +3,10 @@ layout: article
 title: "GitHub Student Pack: qué incluye y cuánto te ahorra"
 description: "Qué herramientas te da GitHub gratis por ser estudiante, cuáles merecen la pena aprovechar y cuáles son solo ruido en el catálogo."
 category: "Lista"
-date: 2026-09-07
+date: 2026-10-08
 readtime: 9
-updated: 2026-10-03
-last_modified_at: 2026-10-03
+updated: 2026-10-08
+last_modified_at: 2026-10-08
 ---
 
 El Student Pack de GitHub es el programa de descuentos para estudiantes más generoso que existe, y de los pocos que te da herramientas profesionales de verdad sin que tengas que buscar señales de oferta en un newsletter.

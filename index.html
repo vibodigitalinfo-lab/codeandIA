@@ -4,7 +4,7 @@ title: "Herramientas de IA para programadores en España"
 description: "Reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios comprobados desde España: moneda, impuestos y fecha."
 ---
 
-{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
+{% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
 {% assign rutas_total_pasos = 0 %}
 {% for r in site.data.rutas %}{% assign rutas_total_pasos = rutas_total_pasos | plus: r.pasos.size %}{% endfor %}
 

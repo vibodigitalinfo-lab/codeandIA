@@ -3,9 +3,9 @@ layout: article
 title: "Copias de seguridad de tus proyectos: no pierdas las prácticas"
 description: "Cómo hacer copias de seguridad de tus proyectos de DAW sin depender de la suerte: Git con GitHub, la nube con cabeza y una copia local, con la rutina que uso."
 category: "Guía"
-date: 2026-10-09
+date: 2026-10-01
 readtime: 8
-last_modified_at: 2026-10-09
+last_modified_at: 2026-10-01
 ---
 
 He visto entregas rehacerse la noche antes de la fecha límite por un portátil que no arranca, y carpetas de proyecto desaparecer al sincronizar en la nube. No es mala suerte: es que nadie monta las copias de seguridad hasta que pierde algo, y para entonces el proyecto ya incluye tres semanas que no vas a recordar cómo se hicieron.

@@ -3,9 +3,9 @@ layout: article
 title: "MCP para principiantes: qué es y por qué está por todas partes"
 description: "Guía de MCP en 2026 para estudiantes: qué es el Model Context Protocol, para qué sirve de verdad, cómo configurarlo en 5 minutos y qué puedes ignorar."
 category: "Guía"
-date: 2026-08-10
+date: 2026-10-05
 readtime: 7
-last_modified_at: 2026-08-10
+last_modified_at: 2026-10-05
 ---
 
 Llevo semanas leyendo "MCP" en todas las notas de producto de mis herramientas de IA, y una cosa era segura: nadie lo explicaba de forma que entrara en diez líneas. Había probado Cursor, Copilot, una librería local… y cada vez que aparecía la palabra me venía el recuerdo de los días en que me perdía mirando una pila de errores. Pero MCP es más simple de lo que parece, y hoy lo vas a entender aunque sea tu primera vez con esto. Te lo cuento como me lo hubiera explicado a mí hace dos semanas.

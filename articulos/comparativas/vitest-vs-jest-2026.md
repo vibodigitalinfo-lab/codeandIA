@@ -3,9 +3,9 @@ layout: article
 title: "Jest vs Vitest en 2026: qué runner de tests elijo en DAW"
 description: "Jest y Vitest ejecutan los mismos tests, pero no se parecen en nada por dentro. Comparo velocidad, ESM, TypeScript, mocks y cuándo conviene migrar en DAW."
 category: "Comparativa"
-date: 2026-09-10
+date: 2026-09-27
 readtime: 9
-last_modified_at: 2026-09-10
+last_modified_at: 2026-09-27
 ---
 
 Llego al proyecto de prácticas con el síntoma de siempre: el test pasa en mi portátil y falla en el de mi compañero. No es su código, es la configuración. Resulta que uno usa Jest con su transformador de TypeScript y el otro Vitest, y los dos ejecutan lo mismo de dos maneras distintas. Eso me dejó con una pregunta que me ha acompañado todo el trimestre: si los tests se escriben igual, ¿por qué tengo dos configuraciones distintas para lo mismo? Lo que sigue es lo que comparé, porque en 2026 la respuesta corta es que Vitest ya es el valor por defecto y Jest sigue teniendo un hueco real.

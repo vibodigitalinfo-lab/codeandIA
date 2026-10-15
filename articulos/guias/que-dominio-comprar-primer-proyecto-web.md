@@ -3,12 +3,12 @@ layout: article
 title: "Qué dominio comprar para tu primer proyecto web: .com vs .es"
 description: "Te cuento qué dominio comprar para tu primer proyecto web, cuándo elegir .com o .es y en qué registrador merece la pena hacerlo."
 category: "Guía"
-date: 2026-06-12
+date: 2026-09-08
 readtime: 5
 affiliate_text: "Si quieres registrar tu dominio sin complicarte como me pasó a mí, yo acabé haciéndolo en Namecheap"
 affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
 affiliate_label: "Ver dominios en Namecheap"
-last_modified_at: 2026-06-12
+last_modified_at: 2026-09-08
 ---
 
 La primera vez que quise subir un proyecto de clase a internet de verdad, con dominio propio y todo, me quedé pillado delante del buscador de dominios como media hora. No sabía qué dominio comprar para mi primer proyecto web y, sin darme cuenta, ya había abierto seis pestañas comparando precios de .com, .es y .dev sin entender muy bien la diferencia real entre ellos. Si a ti te está pasando lo mismo ahora, tranquilo, es más sencillo de lo que parece una vez le pillas el truco.

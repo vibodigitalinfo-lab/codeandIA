@@ -3,9 +3,9 @@ layout: article
 title: "IA local o en la nube para programar: cuál te conviene"
 description: "IA local (Ollama, LM Studio) frente a la IA en la nube para programar: privacidad, coste, hardware y cuándo merece la pena cada una, sin humo."
 category: "Comparativa"
-date: 2026-10-07
+date: 2026-10-12
 readtime: 7
-last_modified_at: 2026-10-07
+last_modified_at: 2026-10-12
 ---
 
 Cada vez que alguien monta Ollama en su portátil sale la misma discusión en el grupo de clase: "¿entonces para qué pagar nada, si tengo un modelo en casa?". Y al revés: quien paga veinte dólares al mes mira a los de local como si estuvieran jugando. Los dos tienen razón a medias, porque **local y nube no compiten: resuelven problemas distintos**.

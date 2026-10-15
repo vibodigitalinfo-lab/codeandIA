@@ -5,9 +5,6 @@
 - id: monitor
   nombre: Monitor
   emoji: "🖥️"
-  articulo:
-    url: "/articulos/comparativas/monitor-ultrawide-programar/"
-    label: "Monitor ultrawide para programar: cómo elegir"
   productos:
     - nombre: 'LG 34WN80C-B 34" UltraWide'
       precio: "489,60€"
@@ -23,9 +20,6 @@
 - id: brazo
   nombre: Soporte de monitor
   emoji: "🦾"
-  articulo:
-    url: "/articulos/listas/brazo-monitor-programar-2026/"
-    label: "Brazo de monitor: más altura, mejor cuello"
   productos:
     - nombre: "ErGear Soporte Doble 13-32\""
       precio: "25,99€"
@@ -59,9 +53,6 @@
 - id: raton
   nombre: Ratón
   emoji: "🖱️"
-  articulo:
-    url: "/articulos/listas/raton-ergonomico-programadores/"
-    label: "Ratón ergonómico para programadores"
   productos:
     - nombre: "Logitech MX Master 3S"
       precio: "99,99€"
@@ -77,9 +68,6 @@
 - id: silla
   nombre: Silla
   emoji: "🪑"
-  articulo:
-    url: "/articulos/listas/silla-ergonomica-barata-programar/"
-    label: "Silla ergonómica barata para programar"
   productos:
     - nombre: "SIHOO M18"
       precio: "182,39€"
@@ -113,9 +101,6 @@
 - id: webcam
   nombre: Webcam
   emoji: "🎥"
-  articulo:
-    url: "/articulos/listas/webcam-programar-streaming/"
-    label: "Webcam para programar y hacer streaming"
   productos:
     - nombre: "Logitech C920s Pro HD"
       precio: "66,80€"
@@ -126,9 +111,6 @@
 - id: lampara
   nombre: Lámpara
   emoji: "💡"
-  articulo:
-    url: "/articulos/guias/lampara-escritorio-programar-noche/"
-    label: "Lámpara de escritorio: cómo elegirla"
   productos:
     - nombre: "Lámpara LED Flexo de Escritorio"
       precio: "21,98€"
@@ -139,9 +121,6 @@
 - id: escritorio
   nombre: Escritorio
   emoji: "🪵"
-  articulo:
-    url: "/articulos/comparativas/standing-desk-programar-2026/"
-    label: "Escritorio elevable: cuál comprar"
   productos:
     - nombre: "Escritorio Elevable Eléctrico 140x70"
       precio: "319,99€"
@@ -157,9 +136,6 @@
 - id: reposapies
   nombre: Reposapiés
   emoji: "🦶"
-  articulo:
-    url: "/articulos/guias/reposapies-programar-espalda/"
-    label: "Reposapiés: lo que alivia la espalda"
   productos:
     - nombre: "Reposapiés MAGIC SELECT Ajustable"
       precio: "19,85€"

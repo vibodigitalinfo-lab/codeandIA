@@ -4,10 +4,10 @@ title: "Setup para programar: el escritorio completo, pieza a pieza"
 description: "Todo mi setup para programar de DAW, pieza a pieza y con precios comprobados: monitor, teclado, silla, escritorio y los accesorios que de verdad importan."
 permalink: /setup/
 updated: 2026-09-30
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-15
 ---
 
-{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" %}
+{% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" %}
 {% assign con_setup = arts | where: "tema", "hardware" %}
 
 <script type="application/ld+json">

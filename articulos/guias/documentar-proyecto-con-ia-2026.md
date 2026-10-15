@@ -3,9 +3,9 @@ layout: article
 title: "Documentar tu proyecto con IA: README y código que se entienden"
 description: "Cómo escribir documentación de tu proyecto con IA sin que parezca relleno: README que explican, comentarios útiles y por qué documentar te sube nota en DAW."
 category: "Guía"
-date: 2026-08-15
+date: 2026-09-25
 readtime: 5
-last_modified_at: 2026-08-15
+last_modified_at: 2026-09-25
 ---
 
 Nadie te enseña a documentar en DAW. El profe te dice "sube el proyecto a GitHub en condiciones", y tú haces un README con el título y dos líneas de descripción copiadas del primer tutorial. Luego, el día de la entrega, te das cuenta de que quien mejor sabe qué hace tu proyecto eres tú a mediodía, pero a medianoche ya no. Documentar con la IA, bien hecho, te sube la nota y te ahorra explicarte a ti mismo.

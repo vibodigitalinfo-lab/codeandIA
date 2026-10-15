@@ -3,10 +3,10 @@ layout: default
 title: "Guías de IA y hardware para programar (paso a paso)"
 description: "Guías paso a paso para programar con IA y montar tu equipo: ChatGPT, Claude Code, Cursor, Copilot, monitores y teclados, explicadas para estudiantes de DAW."
 permalink: /guias/
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-15
 ---
 
-{% assign guias = site.pages | where: "category", "Guía" | where_exp: "p", "p.layout != 'redirect'" | sort: "date" | reverse %}
+{% assign guias = site.pages | where: "category", "Guía" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
 
 <script type="application/ld+json">
 {
