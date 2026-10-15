@@ -122,10 +122,10 @@ La regla cabe en una línea: **la IA ve tu código, no tus claves**. Cuando te p
 
 Si ya has pegado algo, no te castigues: revoca, comprueba el gasto y sigue. Lo que no sirve de nada es dejar la clave ahí esperando que nadie la lea, porque eso ya no depende de ti.
 
-Para cerrar el círculo, dos lecturas que van justo al revés: [prompt injection y seguridad en tus apps con IA](/articulos/guias/prompt-injection-seguridad-apps-ia-2026/) trata de proteger tu aplicación de quien la usa, y [programar con IA sin volverte dependiente](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/) trata de que el modelo no termine decidiendo por ti. Esta va de la tercera persona en la habitación: la IA.
+Para cerrar el círculo, dos lecturas que van justo al revés: prompt injection y seguridad en tus apps con IA trata de proteger tu aplicación de quien la usa, y programar con IA sin volverte dependiente trata de que el modelo no termine decidiendo por ti. Esta va de la tercera persona en la habitación: la IA.
 
 ## Sigue por aquí
 
 - [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
-- [Prompt injection 2026: qué es y cómo proteger tu app con IA](/articulos/guias/prompt-injection-seguridad-apps-ia-2026/)
-- [AGENTS.md: la guía de instrucciones para IA en tus proyectos](/articulos/guias/agents-md-guia-2026/)
+- [MCP para principiantes: qué es y por qué está por todas partes](/articulos/guias/mcp-para-principiantes-guia-2026/)
+- [Copias de seguridad de tus proyectos: no pierdas las prácticas](/articulos/guias/copias-seguridad-proyectos-programador/)

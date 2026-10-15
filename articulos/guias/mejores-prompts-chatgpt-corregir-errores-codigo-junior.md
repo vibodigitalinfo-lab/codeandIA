@@ -49,6 +49,6 @@ Al final, la diferencia entre corregir código como un junior perdido y corregir
 
 ## Sigue por aquí
 
-- [Depurar con IA: mi método para que te arregle el código de verdad](/articulos/guias/depurar-codigo-con-ia-guia-2026/)
-- [Los 8 prompts que me salvan el curso de DAW (con ejemplos reales)](/articulos/listas/8-prompts-programacion-daw-2026/)
-- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)
+- [ChatGPT Plus para programadores: ¿merece la pena pagar 20 $ al mes?](/articulos/reviews/chatgpt-plus-para-programadores/)
+- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
+- [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)

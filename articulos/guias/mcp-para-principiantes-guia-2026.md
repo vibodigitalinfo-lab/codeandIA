@@ -74,7 +74,7 @@ Ojo, que no todo es gratis. Conectar servidores MCP **expande el acceso del mode
 - Solo servidores **oficiales o muy conocidos** (los de tu base, GitHub, Supabase, Context7).
 - **Permisos mínimos**: si solo quiero leer la base de prácticas, que el servidor sea read-only.
 - Nunca credenciales reales en ejercicios o proyectos de clase.
-- Si un servidor tiene mala fama, no lo conecto — ya te conté que este tema (injection y credenciales) es la parte que más me preocupa del desarrollo con LLM en [esta guía que escribí sobre seguridad](/articulos/guias/prompt-injection-seguridad-apps-ia-2026/).
+- Si un servidor tiene mala fama, no lo conecto — ya te conté que este tema (injection y credenciales) es la parte que más me preocupa del desarrollo con LLM en esta guía que escribí sobre seguridad.
 
 ## Mi veredicto
 
@@ -82,10 +82,10 @@ Ojo, que no todo es gratis. Conectar servidores MCP **expande el acceso del mode
 
 Lo uso para dos cosas y con eso me basta: leer bases de datos reales en ejercicios de SQL y tirar de documentación actualizada con Context7. Para escribir código, mi editor ya tiene acceso a los archivos y MCP no me aporta nada. Si estás empezando, prueba el de PostgreSQL/SQLite con una base de prácticas un viernes por la tarde; cuando lo veas ejecutar una query real a tus datos, lo entiendes todo.
 
-Y si quieres el contexto de dónde encaja esto con las instrucciones que le das a la IA, este protocolo convive a diario con ficheros como **AGENTS.md, de los que te hablé [en esta guía](/articulos/guias/agents-md-guia-2026/)**. Si te atascas configurando un servidor concreto de tu módulo, escríbeme a ivan@codeandia.com y te lo dejo montado por pasos.
+Y si quieres el contexto de dónde encaja esto con las instrucciones que le das a la IA, este protocolo convive a diario con ficheros como **AGENTS.md, de los que te hablé en esta guía**. Si te atascas configurando un servidor concreto de tu módulo, escríbeme a ivan@codeandia.com y te lo dejo montado por pasos.
 
 ## Sigue por aquí
 
-- [Crea tu propio MCP server: conecta una API a tu editor](/articulos/guias/crea-tu-propio-mcp-server/)
-- [MCP (Model Context Protocol): qué es y por qué deberías conocerlo](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/)
-- [IA en la terminal para estudiantes: Claude Code, Copilot CLI y Ollama](/articulos/guias/ia-en-terminal-estudiantes-daw/)
+- [5 tendencias de IA que ya usan los devs senior (y puedes adoptar)](/articulos/listas/tendencias-ia-para-devs-2026/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [Claves API y .env: lo que no debes pegar en la IA](/articulos/guias/no-pegues-claves-api-en-la-ia/)

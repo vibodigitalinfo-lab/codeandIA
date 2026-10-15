@@ -17,13 +17,13 @@ Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho
 
 **Sobre el precio:** OpenAI publica Plus en **20 USD al mes** y esa es la cifra que uso aquí. No hay un precio oficial en euros: lo que pagas en € depende de tu país y de los impuestos, así que el importe puede varier.
 
-**Actualización (30/09/2026):** este artículo es de junio. Cuando lo escribí, Plus servía GPT-4o; desde entonces ha salido una generación nueva y la comparo en [GPT-5 vs Claude para programar](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/). Lo que sigue vigente de esta review es lo que no depende del modelo: el corte del límite de mensajes, el contexto largo y cuándo compensa pagar.
+**Actualización (30/09/2026):** este artículo es de junio. Cuando lo escribí, Plus servía GPT-4o; desde entonces ha salido una generación nueva y la comparo en GPT-5 vs Claude para programar. Lo que sigue vigente de esta review es lo que no depende del modelo: el corte del límite de mensajes, el contexto largo y cuándo compensa pagar.
 
 ## Lo que de verdad cambió cuando me pasé a Plus
 
 La diferencia más inmediata no fue la calidad de las respuestas, sino la ausencia de interrupciones. Con la versión gratuita, en cuanto llegaba a un rato de trabajo intenso, aparecía el cartel de "has alcanzado el límite". Con Plus eso desapareció. Para mí, que a veces paso dos o tres horas seguidas trabajando en un proyecto de clase o en algo personal, eso solo ya justifica bastante el precio.
 
-Pero hay más. GPT-4o en la versión de pago respondía notablemente más rápido que en la gratuita, y cuando estás en modo depuración —pegando errores, preguntando por qué falla algo, pidiendo que reescriba una función— esa velocidad importa. No tienes que esperar diez segundos entre cada mensaje. El flujo de trabajo se mantiene. El modelo concreto de hoy es otro, así que la comparación vigente está en [GPT-5 vs Claude para programar](/articulos/comparativas/gpt-5-vs-claude-para-programar-2026/).
+Pero hay más. GPT-4o en la versión de pago respondía notablemente más rápido que en la gratuita, y cuando estás en modo depuración —pegando errores, preguntando por qué falla algo, pidiendo que reescriba una función— esa velocidad importa. No tienes que esperar diez segundos entre cada mensaje. El flujo de trabajo se mantiene. El modelo concreto de hoy es otro, así que la comparación vigente está en GPT-5 vs Claude para programar.
 
 ### El contexto largo: el cambio que menos esperaba
 
@@ -39,7 +39,7 @@ Tampoco me parece que el acceso a GPT-4o sea ilimitado de verdad. Hay un límite
 
 Aquí es donde la cosa se complica. Si estás en un ciclo como yo, tienes proyectos, prácticas, ejercicios y muchas horas delante del editor. ChatGPT Plus para programadores tiene sentido si realmente lo vas a usar de forma intensiva: para revisar código, entender conceptos de redes o bases de datos, generar tests, refactorizar funciones o simplemente tener un "compañero" que no se cansa de explicarte cosas.
 
-Si lo usas de vez en cuando, probablemente puedas vivir bien con la versión gratuita y completarlo con otras herramientas como GitHub Copilot o Claude. Si no quieres gastar nada, también tengo una comparativa de [DeepSeek vs ChatGPT gratuitos](/articulos/comparativas/deepseek-vs-chatgpt-gratuitos-para-programar/) para que veas qué puedes sacar sin pagar. Pero si eres del tipo de persona que abre ChatGPT como abre el editor —constantemente—, el salto merece la pena.
+Si lo usas de vez en cuando, probablemente puedas vivir bien con la versión gratuita y completarlo con otras herramientas como GitHub Copilot o Claude. Si no quieres gastar nada, también tengo una comparativa de DeepSeek vs ChatGPT gratuitos para que veas qué puedes sacar sin pagar. Pero si eres del tipo de persona que abre ChatGPT como abre el editor —constantemente—, el salto merece la pena.
 
 Si quieres probarlo sin comprometerte demasiado, puedes [activar un mes de ChatGPT Plus](https://chatgpt.com/upgrade) y ver si tu forma de trabajar cambia. A mí me convenció después del segundo mes.
 
@@ -52,6 +52,6 @@ Ese momento en el que el límite te corta a mitad de algo importante es exactame
 
 ## Sigue por aquí
 
-- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)
-- [ChatGPT vs Cursor AI: qué herramienta de IA uso más para programar](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
-- [DeepSeek review 2026: el modelo gratuito que sigue dando guerra](/articulos/reviews/deepseek-review-2026-modelo-gratuito-codigo/)
+- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/)
+- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
+- [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)

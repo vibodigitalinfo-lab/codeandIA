@@ -82,6 +82,6 @@ La conclusión es esta: el Student Pack no es una mina de oro escondida, es un c
 
 ## Sigue por aquí
 
-- [Portátil para programar con IA: 16 GB o 32 GB de RAM](/articulos/comparativas/portatil-programar-ia-ram-16gb-o-32gb/) — si lo que te interesa es la máquina, aquí está la decisión que más te afecta.
-- [Setup completo por 500 euros](/articulos/guias/setup-completo-programar-500-euros/) — el equipo que este pack no cubre.
-- [Cómo elegir monitor para programar](/articulos/guias/como-elegir-monitor-programar-2026/) — la otra pieza que el pack no cubre.
+- [GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso](/articulos/reviews/github-copilot-gratis-estudiantes/)
+- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
+- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)

@@ -17,7 +17,7 @@ updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
 
-Llevo meses tirándole indirectas a mi setup. Primero fue el [monitor ultrawide](/articulos/guias/como-elegir-monitor-programar-2026/), después el [ratón ergonómico](/articulos/listas/raton-ergonomico-programadores/), y ahora toca el teclado. Porque programar 8 horas con un teclado de oficina de 20 euros no es sostenible, os lo digo por experiencia.
+Llevo meses tirándole indirectas a mi setup. Primero fue el monitor ultrawide, después el ratón ergonómico, y ahora toca el teclado. Porque programar 8 horas con un teclado de oficina de 20 euros no es sostenible, os lo digo por experiencia.
 
 Después de mirar opciones durante semanas, me decidí por el **Keychron Q1 Max**. Y en esta review os cuento si ha valido la pena o me habría bastado con algo más barato.
 
@@ -90,4 +90,5 @@ Si estás buscando un teclado que te dure años y que sea serio para programar, 
 ## Sigue por aquí
 
 - [Los 5 mejores teclados mecánicos para programar en 2026](/articulos/listas/mejores-teclados-mecanicos-programar/)
-- [Setup para programar por 500€: lo que montaría yo (DAW)](/articulos/guias/setup-completo-programar-500-euros/)
+- [Mejores auriculares con cancelación de ruido para estudiar en 2026](/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/)
+- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)

@@ -46,7 +46,7 @@ Aquí está la trampa. La IA local es gratis de usar, pero **necesitas un equipo
 - **Uno de 14B** pide cerca de 8-9 GB solo para los pesos: necesitas 16 GB de RAM para ir sin sudar.
 - **Uno de 30-34B** se va a 18-20 GB: eso son 32 GB de RAM, o una GPU con esa memoria, y ya no es un portátil de estudiante.
 
-La nube, en cambio, te da un modelo enorme sin mover nada. El coste lo trasladas: en vez de pagar hardware, pagas suscripción. Y como ves en [cuánto cuesta la IA para programar](/articulos/comparativas/cuanto-cuesta-ia-programar-mes/), con la nube puedes arrancar a 0 €.
+La nube, en cambio, te da un modelo enorme sin mover nada. El coste lo trasladas: en vez de pagar hardware, pagas suscripción. Y como ves en cuánto cuesta la IA para programar, con la nube puedes arrancar a 0 €.
 
 ## Tu hardware manda
 
@@ -76,7 +76,7 @@ No hay que elegir. La combinación que funciona es:
 - **Nube para lo difícil y lo agéntico.** Depurar un error raro, refactorizar, montar un test, entender una librería nueva.
 - **Secreto, en ninguno de los dos.** Ni local ni nube: los valores de tus claves no se pegan en un chat.
 
-Así aprovechas lo mejor de cada uno sin pagar de más y sin exponer lo que no toca. Si quieres montar la parte local, lo tienes paso a paso en [Ollama: modelos de IA en tu propio ordenador](/articulos/reviews/ollama-modelos-ia-local-review-2026/) y, si vas más allá, en [montar un RAG local con Ollama](/articulos/guias/rag-local-ollama-apuntes-2026/).
+Así aprovechas lo mejor de cada uno sin pagar de más y sin exponer lo que no toca. Si quieres montar la parte local, lo tienes paso a paso en Ollama: modelos de IA en tu propio ordenador y, si vas más allá, en montar un RAG local con Ollama.
 
 ## Veredicto
 
@@ -86,6 +86,6 @@ La pregunta no es "local o nube", es "¿esta tarea concreta dónde la haría mej
 
 ## Sigue por aquí
 
-- [Ollama: modelos de IA en local, review](/articulos/reviews/ollama-modelos-ia-local-review-2026/) — cómo montar la parte local y qué esperar de ella.
-- [Montar un RAG local con Ollama](/articulos/guias/rag-local-ollama-apuntes-2026/) — llevar tus apuntes a un modelo que corre en tu PC.
-- [Cuánto cuesta la IA para programar al mes](/articulos/comparativas/cuanto-cuesta-ia-programar-mes/) — la factura de la nube, plan por plan.
+- [5 tendencias de IA que ya usan los devs senior (y puedes adoptar)](/articulos/listas/tendencias-ia-para-devs-2026/)
+- [Claves API y .env: lo que no debes pegar en la IA](/articulos/guias/no-pegues-claves-api-en-la-ia/)
+- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)

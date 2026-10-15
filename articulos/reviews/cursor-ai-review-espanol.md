@@ -19,7 +19,7 @@ La respuesta corta es que sí, me ha cambiado bastante la forma de programar. Pe
 
 ## Qué es Cursor y cómo funciona realmente
 
-Cursor es un editor de código basado en VS Code que tiene IA integrada a nivel profundo, no como una extensión pegada con cinta adhesiva. La diferencia con GitHub Copilot, que también he usado, es que Cursor entiende el contexto de todo tu proyecto, no solo del archivo que tienes abierto. Puedes seleccionar varios archivos, pegarle un mensaje de error y pedirle que encuentre dónde está el problema. Funciona. Si quieres ver cómo se compara con otras opciones de IA para programar, tengo una [comparativa de VS Code con Copilot frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/) que te puede ayudar a decidir.
+Cursor es un editor de código basado en VS Code que tiene IA integrada a nivel profundo, no como una extensión pegada con cinta adhesiva. La diferencia con GitHub Copilot, que también he usado, es que Cursor entiende el contexto de todo tu proyecto, no solo del archivo que tienes abierto. Puedes seleccionar varios archivos, pegarle un mensaje de error y pedirle que encuentre dónde está el problema. Funciona. Si quieres ver cómo se compara con otras opciones de IA para programar, tengo una comparativa de VS Code con Copilot frente a Cursor que te puede ayudar a decidir.
 
 Lo más útil del día a día es el chat lateral, que yo llamo "el compañero que siempre está despierto". Cuando me quedo atascado con algo de JavaScript o no entiendo por qué mi consulta SQL devuelve basura, le pregunto directamente. No siempre acierta a la primera, pero la mayoría de veces me da una pista que me desbloquea en dos minutos. Antes tardaba media hora buscando en Stack Overflow.
 
@@ -43,7 +43,7 @@ Si 20 dólares te parecen muchos, el escalón de arriba no mejora lo que vas a u
 
 Mi opinión sincera: si programas todos los días, aunque sea para prácticas de clase, el tiempo que te ahorra justifica el precio. Si solo tocas código una vez a la semana para hacer la entrega mínima, probablemente no. Mi prueba fue esta: **estuve un mes con el plan de pago** en un proyecto real de clase, y lo que pagué no fue solo la licencia, sino el trabajo de familiarizarme con el editor antes de poder medir nada. Así que una suscripción corta y vigilada es la forma honesta de decidir: pruébalo en un proyecto tuyo, no inventado, y míralo con calma.
 
-Lo que no haría es suscribirme sin haberlo probado antes. El marketing es muy bueno y es fácil dejarse llevar. Si todavía no te decides, también tengo una comparativa de [Windsurf vs Cursor AI](/articulos/comparativas/windsurf-vs-cursor-ai-aprender-programar/) para que veas las alternativas antes de lanzarte.
+Lo que no haría es suscribirme sin haberlo probado antes. El marketing es muy bueno y es fácil dejarse llevar. Si todavía no te decides, también tengo una comparativa de Windsurf vs Cursor AI para que veas las alternativas antes de lanzarte.
 
 ## ¿Reemplaza aprender a programar de verdad?
 
@@ -56,6 +56,6 @@ Si estás en DAW o en cualquier ciclo de informática y te lo estás pensando, m
 
 ## Sigue por aquí
 
-- [Cursor AI Pro vs Free: qué incluye cada plan y cuándo pagar](/articulos/comparativas/cursor-ai-plan-pro-vs-free/)
-- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
-- [GitHub Copilot gratis para estudiantes: cómo activarlo y si funciona](/articulos/reviews/github-copilot-gratis-estudiantes/)
+- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
+- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)

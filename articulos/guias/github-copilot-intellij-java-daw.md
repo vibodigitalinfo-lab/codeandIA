@@ -16,7 +16,7 @@ El caso es que nadie te lo explica, y configurarlo tiene su cosa. Te lo dejo por
 
 Lo primero: si estás en DAW, en los módulos de Java (programación, y los que tocan Spring y las APIs) vas a escribir bastante código dentro de IntelliJ. Tener la IA *dentro* del editor marca la diferencia: el autocompletado se basa en tu propio proyecto (los nombres de tus variables, tus métodos de tu clase `GestionAlumnos`), no en un chat genérico donde le pegas el texto y ya.
 
-En [la guía de Copilot para las prácticas](/articulos/guias/como-usar-github-copilot-practicas-daw/) expliqué el concepto más a fondo; aquí me centro en lo práctico: cómo montarlo en IntelliJ, que es donde se atasca la gente.
+En la guía de Copilot para las prácticas expliqué el concepto más a fondo; aquí me centro en lo práctico: cómo montarlo en IntelliJ, que es donde se atasca la gente.
 
 ## Instalación del plugin, paso a paso
 
@@ -53,7 +53,7 @@ Lo que me enganchó no fue lo típico (los `getter` y `setter`, que ya los escri
 
 A partir de 2025, el plugin de Copilot en los IDE de JetBrains trae chat integrado (la pestaña de **Copilot** en el panel de la derecha). Ahí le puedes pegar un método entero y preguntarle "¿por qué esto no compila?" o "cómo harías esto más limpio".
 
-El atajo que más uso es el chat *inline*: selecciono unas líneas de código, lo abro y le pregunto justo sobre esa selección. No tienes que explicarle el contexto: ya lo ve. Para mí esto ha sido la forma de entender en vez de copiar, que es la filosofía que cuento en [los 8 prompts que me salvan el curso](/articulos/listas/8-prompts-programacion-daw-2026/).
+El atajo que más uso es el chat *inline*: selecciono unas líneas de código, lo abro y le pregunto justo sobre esa selección. No tienes que explicarle el contexto: ya lo ve. Para mí esto ha sido la forma de entender en vez de copiar, que es la filosofía que cuento en los 8 prompts que me salvan el curso.
 
 El consejo que te doy: úsalo para que te explique, no para que haga. "¿Qué está haciendo este método?" te enseña mucho más que "reescríbemelo más corto".
 
@@ -73,12 +73,12 @@ Eso sí: **revisa lo que genera**. Copilot a veces te hace un test que valida el
 
 Escribo la lógica del ejercicio **primero**, con Copilot como acelerador del tecleo, y dejo el chat para cuando estoy atascado o para que me genere los tests al final. Raro. Suena raro, pero me va mejor que dejar que la IA haga todo de golpe: llego al examen con criterio, no con ejercicios copiados.
 
-Si al final quieres algo más potente que el autocompletado, te recomiendo mi [comparativa de VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/), y si tu proyecto crece, la [guía del modo agente](/articulos/guias/github-copilot-agent-mode-2026-guia/) para tareas de varios archivos.
+Si al final quieres algo más potente que el autocompletado, te recomiendo mi comparativa de VS Code con Copilot gratis frente a Cursor, y si tu proyecto crece, la guía del modo agente para tareas de varios archivos.
 
 Y cuando lo tengas terminado, toca enseñarlo: en la [comparativa de Vercel, Netlify y GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) tienes las tres opciones gratuitas explicadas para publicarlo sin pagar, y en [qué dominio comprar para tu primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) cuánto cuesta de verdad tener dirección propia.
 
 ## Sigue por aquí
 
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- [Cursor Rules (.mdc): cómo configurar la IA a tu gusto](/articulos/guias/cursor-rules-configuracion-mdc-guia/)
+- [GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso](/articulos/reviews/github-copilot-gratis-estudiantes/)
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)

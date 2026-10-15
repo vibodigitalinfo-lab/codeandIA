@@ -30,7 +30,7 @@ Lo que me convenció fue la experiencia con la práctica de la tienda: un PHP co
 
 Detalles que valen la pena siendo estudiante: el PremiumShared anda en **2,59 €/mes**, que es el precio real si pagas 48 meses por adelantado (son 124,32 € el bloque entero, comprobado en la tabla oficial). Al terminar ese periodo se renueva por **9,99 €/mes**, que es el clásico truco del sector y conviene tener en la cabeza desde el día uno. Incluye dominio gratis el primer año, hasta 3 sitios web, 20 GB SSD, 10 bases de datos MySQL, SSH, el panel (hPanel) en español y soporte por chat. El certificado SSL va incluido, que es otro quebradero menos. Si solo quieres un sitio y te vale con uno, el Single baja a 1,49 €/mes y va con 10 GB.
 
-Lo que no me gusta: el precio de renovación es el clásico truco del sector, y si solo vas a colgar una página estática, estás pagando por un servidor que no necesitas. Para eso ya tienes opciones gratis. Desgrané todo esto con calma en su [review de Hostinger](/articulos/reviews/hostinger-review-2026/), por si quieres la versión larga. Y si tu módulo es justo el de servidor, la [guía de qué hosting elegir en DAW](/articulos/guias/que-hosting-elegir-estudiantes-daw-2026/) termina justo donde empieza esta comparativa: ahonda en los planes, las renovaciones y la letra pequeña que aquí solo he rozado.
+Lo que no me gusta: el precio de renovación es el clásico truco del sector, y si solo vas a colgar una página estática, estás pagando por un servidor que no necesitas. Para eso ya tienes opciones gratis. Desgrané todo esto con calma en su review de Hostinger, por si quieres la versión larga. Y si tu módulo es justo el de servidor, la guía de qué hosting elegir en DAW termina justo donde empieza esta comparativa: ahonda en los planes, las renovaciones y la letra pequeña que aquí solo he rozado.
 
 ## Netlify: la plataforma gratis para lo estático
 
@@ -66,7 +66,6 @@ Mi combinación actual: el portfolio corre en Netlify y la tienda de la práctic
 
 ## Sigue por aquí
 
-- [Hosting y dominios para tu primer proyecto de DAW](/hosting/)
-- [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)
-- [Hostinger vs Namecheap: dónde comprar tu primer dominio](/articulos/comparativas/hostinger-vs-namecheap-primer-dominio/)
-- [Docker para estudiantes DAW: cómo usarlo con IA sin morir](/articulos/guias/docker-para-daw-con-ia-2026/)
+- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
+- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)

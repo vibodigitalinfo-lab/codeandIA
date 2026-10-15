@@ -55,7 +55,7 @@ Aquí viene la parte honesta. Llevo varios meses usándolo en clase y en proyect
 
 Para las cosas del día a día en DAW, Copilot es muy útil. Cuando estás haciendo formularios en Java, lógica repetitiva en PHP, o incluso consultas SQL que siempre tienen la misma estructura, las sugerencias son bastante acertadas. No tienes que pensar en la sintaxis, puedes centrarte en la lógica. Eso cuando estás aprendiendo ayuda, porque reduces la fricción de "¿cómo era esto exactamente?"
 
-Donde me genera más dudas es precisamente en el aprendizaje. Hay momentos en los que acepto una sugerencia sin entender del todo qué hace, y eso a largo plazo puede ser un problema. Si estás en primero y todavía estás interiorizando cómo funciona un bucle o una clase, Copilot puede hacer que pases por encima de conceptos que luego te van a hacer falta. Si quieres ver cómo se compara con otras opciones, tengo una [comparativa de VS Code con Copilot frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/) para que veas las diferencias.
+Donde me genera más dudas es precisamente en el aprendizaje. Hay momentos en los que acepto una sugerencia sin entender del todo qué hace, y eso a largo plazo puede ser un problema. Si estás en primero y todavía estás interiorizando cómo funciona un bucle o una clase, Copilot puede hacer que pases por encima de conceptos que luego te van a hacer falta. Si quieres ver cómo se compara con otras opciones, tengo una comparativa de VS Code con Copilot frente a Cursor para que veas las diferencias.
 
 Mi forma de usarlo es esta: primero intento resolver el problema por mi cuenta. Si me quedo bloqueado más de lo razonable, miro la sugerencia, pero la leo y la entiendo antes de aceptarla. No es la forma más rápida, pero es la que más me está aportando.
 
@@ -73,7 +73,6 @@ Y no te quedes solo con Copilot: el pack incluye bastante más cosas (dominio gr
 
 ## Sigue por aquí
 
-- [GitHub Copilot Business vs Pro para programar solo](/articulos/comparativas/github-copilot-business-vs-individual-programador-solo/)
-- [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
-- [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
-- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
+- [GitHub Copilot gratis en IntelliJ IDEA: guía paso a paso para Java](/articulos/guias/github-copilot-intellij-java-daw/)
+- [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)

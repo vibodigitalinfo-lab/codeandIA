@@ -104,6 +104,6 @@ Prueba una semana: configuración por defecto y un repo tuyo de verdad. Si no te
 
 ## Sigue por aquí
 
-- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)
-- [QA Wolf vs Qodo: testing con IA para estudiantes (opinión real)](/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/)
-- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
+- [Jest vs Vitest en 2026: qué runner de tests elijo en DAW](/articulos/comparativas/vitest-vs-jest-2026/)
+- [GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso](/articulos/reviews/github-copilot-gratis-estudiantes/)
+- [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)

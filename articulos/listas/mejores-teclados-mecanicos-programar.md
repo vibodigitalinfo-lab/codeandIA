@@ -125,9 +125,10 @@ Lo que sí importa: switches hot-swappable (para probar sin comprometer), QMK/VI
 
 Si estás en DAW y pasas horas frente al teclado, invierte en uno bueno. Tus muñecas te lo agradecerán. Y tu código fluye mejor cuando el hardware no te frena.
 
-Ahora, si quieres mejorar tu flujo de trabajo, combina un buen teclado con [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) o la [comparativa de VS Code con Copilot frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/). Y si buscas herramientas gratuitas, echa un vistazo a las [7 herramientas de IA gratuitas](/articulos/listas/7-herramientas-ia-gratuitas-estudiantes-desarrollo-web-2026/) que uso a diario. Y si estás montando tu escritorio entero, no te pierdas mi [guía del setup completo para programar por 500€](/articulos/guias/setup-completo-programar-500-euros/).
+Ahora, si quieres mejorar tu flujo de trabajo, combina un buen teclado con [mi review de Cursor AI](/articulos/reviews/cursor-ai-review-espanol/) o la comparativa de VS Code con Copilot frente a Cursor. Y si buscas herramientas gratuitas, echa un vistazo a las 7 herramientas de IA gratuitas que uso a diario. Y si estás montando tu escritorio entero, no te pierdas mi guía del setup completo para programar por 500€.
 
 ## Sigue por aquí
 
-- [Webcam para programar y hacer streaming de código en 2026](/articulos/listas/webcam-programar-streaming/)
-- [Keychron Q1 Max: el teclado que usaría para programar](/articulos/reviews/keychron-q1-max-review-2026/)
+- [Keychron Q1 Max review: ¿el mejor teclado mecánico para programar?](/articulos/reviews/keychron-q1-max-review-2026/)
+- [Mejores auriculares con cancelación de ruido para estudiar en 2026](/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/)
+- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)

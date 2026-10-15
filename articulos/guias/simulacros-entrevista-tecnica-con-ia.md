@@ -98,6 +98,6 @@ Al final, la entrevista técnica es como el código: no se aprende leyéndola, s
 
 ## Sigue por aquí
 
-- [De las prácticas al primer empleo con IA](/articulos/guias/de-practicas-a-primer-curro-con-ia/) — lo que va antes y después de la entrevista.
-- [El portfolio que consigue prácticas de DAW](/articulos/guias/portfolio-que-consigue-practicas-daw/) — el proyecto del que te van a preguntar.
-- [Aprender a programar con IA sin volverte dependiente](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/) — la línea que no conviene cruzar.
+- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)
+- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
+- [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)

@@ -245,5 +245,6 @@ Un workflow que despliega bien es el que te permite subir el proyecto a una URL 
 
 ## Sigue por aquí
 
-- [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
-- [Git con IA: mensajes de commit, rebase y blame asistidos](/articulos/guias/git-con-ia-2026/)
+- [Claves API y .env: lo que no debes pegar en la IA](/articulos/guias/no-pegues-claves-api-en-la-ia/)
+- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)
+- [Copias de seguridad de tus proyectos: no pierdas las prácticas](/articulos/guias/copias-seguridad-proyectos-programador/)

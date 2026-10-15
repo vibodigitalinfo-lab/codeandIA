@@ -24,9 +24,9 @@ Mi enfoque ahora: elegir **un tema** y construirlo alrededor. Por ejemplo, si lo
 
 La segunda pata: los proyectos. En DAW tienes dos o tres proyectos por módulo, y no todos valen para un portfolio. La regla que sigo es la de "el proyecto que puedes explicar en una frase": si te preguntan qué hace y tardas más de diez segundos en contestar, no está claro.
 
-Usar la IA para construirlos está bien, siempre que la entiendas (lo repito en la [lista de errores comunes programando con IA](/articulos/listas/errores-comunes-programando-con-ia/)). Pero el truco que me cambió la entrevista no fue el código, fue el **README**: ahora trato cada proyecto como si lo leyera un jefe de proyecto, no un compañero de clase. Le pido a la IA que lo escriba así, con capturas de pantalla de verdad y un párrafo de decision-making ("por qué elegí SQLite aquí en vez de MySQL", aunque sea una decisión de dos líneas). Eso comunica más que mil commits.
+Usar la IA para construirlos está bien, siempre que la entiendas (lo repito en la lista de errores comunes programando con IA). Pero el truco que me cambió la entrevista no fue el código, fue el **README**: ahora trato cada proyecto como si lo leyera un jefe de proyecto, no un compañero de clase. Le pido a la IA que lo escriba así, con capturas de pantalla de verdad y un párrafo de decision-making ("por qué elegí SQLite aquí en vez de MySQL", aunque sea una decisión de dos líneas). Eso comunica más que mil commits.
 
-En la [lista de proyectos para portfolio](/articulos/listas/5-proyectos-portfolio-desarrollador-ia-fin-de-semana/) tienes cinco ideas que en realidad sí te obligan a aprender, no a copiar. Con dos de esos, bien pulidos, tienes suficiente para unas prácticas de primer año.
+En la lista de proyectos para portfolio tienes cinco ideas que en realidad sí te obligan a aprender, no a copiar. Con dos de esos, bien pulidos, tienes suficiente para unas prácticas de primer año.
 
 ## La parte que más se cuela: la estructura
 
@@ -37,7 +37,7 @@ No importa el motor (static site, React, WordPress): importa que en 10 segundos 
 - **Cómo contactarte**: correo visible, un LinkedIn, repo de GitHub por proyecto.
 - **Carga en móvil**: que se lea bien con el dedo, porque lo verán desde el teléfono.
 
-La IA acelera esto de dos formas: te revisa la jerarquía ("¿qué le dice esto a un desconocido en 10 segundos?") y te corrige el texto. Sí, genera textos que suenan bien, pero el error que cometí es aceptar el primero: un about escrito por IA se nota nada más leerlo. Ahora uso dos prompts: uno para que *pregunte* (qué me gusta, qué he hecho, cómo hablo) y otro para que *escriba con mi tono*, y aun así lo reescribo a mano. Como contaba al construir el [portfolio en la guía de desarrollo web con IA](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/), la IA es un editor brutal pero mal autor con tu voz.
+La IA acelera esto de dos formas: te revisa la jerarquía ("¿qué le dice esto a un desconocido en 10 segundos?") y te corrige el texto. Sí, genera textos que suenan bien, pero el error que cometí es aceptar el primero: un about escrito por IA se nota nada más leerlo. Ahora uso dos prompts: uno para que *pregunte* (qué me gusta, qué he hecho, cómo hablo) y otro para que *escriba con mi tono*, y aun así lo reescribo a mano. Como contaba al construir el portfolio en la guía de desarrollo web con IA, la IA es un editor brutal pero mal autor con tu voz.
 
 ## Deploy: que el enlace esté vivo
 
@@ -58,7 +58,7 @@ nada que no esté en la lista. Debe tener un parrafo breve y terminar
 pidiendo una primera conversacion.
 ```
 
-Luego le quitas todo el relleno que suene a plantilla (la IA adora las frases tipo "me encantaría aportar mis conocimientos"). Lo que queda es un email de seis líneas que dice lo que hiciste y pide café. Ese formato, junto con el flujo de la [guía de prácticas al primer curro con IA](/articulos/guias/de-practicas-a-primer-curro-con-ia/), es lo que me consiguió la entrevista que acabó en contrato de prácticas.
+Luego le quitas todo el relleno que suene a plantilla (la IA adora las frases tipo "me encantaría aportar mis conocimientos"). Lo que queda es un email de seis líneas que dice lo que hiciste y pide café. Ese formato, junto con el flujo de la guía de prácticas al primer curro con IA, es lo que me consiguió la entrevista que acabó en contrato de prácticas.
 
 ## Checklist antes de enviar
 
@@ -79,6 +79,6 @@ Para el hosting, lo normal en un portfolio de DAW es no pagar nada: lo tienes re
 
 ## Sigue por aquí
 
-- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- [Cómo usar GitHub Copilot para hacer tus prácticas de DAW más rápido](/articulos/guias/como-usar-github-copilot-practicas-daw/)
-- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)
+- [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)
+- [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/)

@@ -2,6 +2,7 @@
 layout: default
 title: "Herramientas de IA para programadores en España"
 description: "Reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios comprobados desde España: moneda, impuestos y fecha."
+last_modified_at: 2026-10-15
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
@@ -196,7 +197,7 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     </ul>
 
     <h3 class="about-subtitle">El eje del blog</h3>
-    <p class="about-text">Este método de prueba también marca la forma de usar la IA que defiende todo el blog: las cinco reglas para aprender programando <strong>sin volverse dependiente</strong>. Están desarrolladas con ejemplos en <a href="{{ "/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/" | relative_url }}">aprender a programar con IA sin volverse dependiente</a>:</p>
+    <p class="about-text">Este método de prueba también marca la forma de usar la IA que defiende todo el blog: las cinco reglas para aprender programando <strong>sin volverse dependiente</strong>. La misma idea, aplicada a un módulo entero, está en <a href="{{ "/articulos/guias/aprender-java-con-ia-daw/" | relative_url }}">aprender Java en DAW con IA sin volverte dependiente</a>: la IA puede escribir código, pero tú tienes que poder defenderlo frase por frase:</p>
     <ol class="method-list">
       <li><strong>Explicar:</strong> nunca aceptes una línea que no sepas defender en voz alta.</li>
       <li><strong>Rehacer:</strong> vuelve a hacer a mano lo que la IA te resolvió.</li>
@@ -214,7 +215,7 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     <div class="faq-list">
       <details class="faq-item">
         <summary>¿Cuál es la mejor IA para programar siendo principiante?</summary>
-        <p>Si empiezas, quédate en <strong>VS Code con GitHub Copilot gratis</strong> (lo tienes con el Student Pack): sigues en el editor que ya usa tu clase y la IA solo entra cuando la llamas. Cuando tengas un proyecto de verdad, prueba <a href="{{ "/articulos/reviews/cursor-ai-review-espanol/" | relative_url }}">Cursor</a> un fin de semana: su chat contextual ayuda mucho en refactors largos. Comparo los dos en <a href="{{ "/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/" | relative_url }}">VS Code con Copilot gratis vs Cursor</a>.</p>
+        <p>Si empiezas, quédate en <strong>VS Code con GitHub Copilot gratis</strong> (lo tienes con el Student Pack): sigues en el editor que ya usa tu clase y la IA solo entra cuando la llamas. Cuando tengas un proyecto de verdad, prueba <a href="{{ "/articulos/reviews/cursor-ai-review-espanol/" | relative_url }}">Cursor</a> un fin de semana: su chat contextual ayuda mucho en refactors largos. Comparo precios, privacidad y modelos en <a href="{{ "/articulos/comparativas/continue-dev-vs-cursor-2026/" | relative_url }}">Continue.dev vs Cursor vs Copilot</a>.</p>
       </details>
       <details class="faq-item">
         <summary>¿Merece la pena pagar ChatGPT Plus?</summary>

@@ -41,7 +41,7 @@ Cuando abro un proyecto y sé lo que tengo que hacer —añadir una funcionalida
 
 Cuando estoy en fase de planificación, aprendiendo algo nuevo, o tengo un error que no entiendo, prefiero ChatGPT. La conversación fluye mejor, puedo ir y volver, y las explicaciones son más pedagógicas.
 
-El problema real es que los dos cuestan dinero. [ChatGPT Plus son 20 $ al mes](/articulos/reviews/chatgpt-plus-para-programadores/), y Cursor tiene un [plan Pro](/articulos/comparativas/cursor-ai-plan-pro-vs-free/) similar. Para alguien que estudia, es un gasto que hay que valorar. A mí personalmente me cuesta más justificar ChatGPT Plus desde que uso Cursor con regularidad, porque Cursor también tiene acceso a modelos potentes en su interfaz de chat. Pero ChatGPT tiene cosas que Cursor no tiene, como navegación web o el modo de proyectos con memoria.
+El problema real es que los dos cuestan dinero. [ChatGPT Plus son 20 $ al mes](/articulos/reviews/chatgpt-plus-para-programadores/), y Cursor tiene un plan Pro similar. Para alguien que estudia, es un gasto que hay que valorar. A mí personalmente me cuesta más justificar ChatGPT Plus desde que uso Cursor con regularidad, porque Cursor también tiene acceso a modelos potentes en su interfaz de chat. Pero ChatGPT tiene cosas que Cursor no tiene, como navegación web o el modo de proyectos con memoria.
 
 ## ¿Con cuál me quedaría si tuviera que elegir uno?
 
@@ -54,4 +54,5 @@ Dicho esto, no he desinstalado ChatGPT. Hay cosas que sigo haciendo allí, sobre
 ## Sigue por aquí
 
 - [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)
-- [ChatGPT vs Claude vs Gemini para programar en 2026](/articulos/comparativas/chatgpt-vs-claude-vs-gemini-programar-2026/)
+- [ChatGPT Plus para programadores: ¿merece la pena pagar 20 $ al mes?](/articulos/reviews/chatgpt-plus-para-programadores/)
+- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)

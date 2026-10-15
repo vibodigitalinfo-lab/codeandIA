@@ -16,7 +16,7 @@ La buena noticia: usada bien, la IA es el mejor profesor particular que he tenid
 
 Cuando le pides a ChatGPT "dame una clase Empleado con herencia", recibes tres archivos perfectos. Los entregas, apruebas la práctica… y al día siguiente en el examen oral no sabes explicar por qué `super()` va dónde va. Firmaste un código que no puedes defender. Y en programación, quien no puede defender el código que firma, no sabe programar.
 
-La regla que interioricé después de varios sustos: **la IA puede escribir código; tú tienes que poder explicarlo frase por frase.** Si no puedes, es tu problema, no de la IA. Es la misma regla que ya usé con [SQL](/articulos/guias/aprender-sql-con-ia-daw-2026/) y con el módulo de la ruta del curso: nunca entregues lo que no entiendes.
+La regla que interioricé después de varios sustos: **la IA puede escribir código; tú tienes que poder explicarlo frase por frase.** Si no puedes, es tu problema, no de la IA. Es la misma regla que ya usé con SQL y con el módulo de la ruta del curso: nunca entregues lo que no entiendes.
 
 ## Los 5 prompts que me enseñan Java (y no me resuelven la vida)
 
@@ -36,7 +36,7 @@ Una cosa que me costó aprender: **la IA funciona mejor con Java si el entorno e
 
 - **Extension Pack for Java** en VS Code. Es el paquete de Red Hat (lenguaje, depurador, test runner y Maven/Gradle) y es el estándar de facto. Lo que hace es poner el "servidor de lenguaje" de Java, y encima de eso funcionan bien Copilot y Cursor.
 - Con eso montado, Copilot entiende tus POJOs, tus tests y tus dependencias como entiende cualquier proyecto. Si el asistente de Java no está instalado, la IA adivina y se equivoca más.
-- Para las dudas de APIs o Spring, uso el mismo truco de leer la **documentación actualizada** del que te hablé en la [guía de tu primera API REST con Spring](/articulos/guias/primera-api-rest-spring-boot-ia-daw/). La IA con contexto reciente da mejores respuestas que la que trabaja solo de memoria.
+- Para las dudas de APIs o Spring, uso el mismo truco de leer la **documentación actualizada** del que te hablé en la guía de tu primera API REST con Spring. La IA con contexto reciente da mejores respuestas que la que trabaja solo de memoria.
 
 Ah, y un matiz del currículo para que no te asustes: en el Real Decreto que regula tu ciclo (el RD 405/2023), Java vive en el módulo de Programación de primero (POO, excepciones, colecciones y JDBC) y **Spring no está en las enseñanzas mínimas** — es de cada centro. Así que lo que la IA te resuelva en el módulo de Java, casi siempre son fundamentos, no "aplicaciones de primavera".
 
@@ -60,6 +60,6 @@ Empieza esta tarde: abre tu proyecto, escribe una clase a mano con tu intento de
 
 ## Sigue por aquí
 
-- [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
-- [Cómo usar ChatGPT para aprender JavaScript siendo principiante](/articulos/guias/chatgpt-para-aprender-javascript-principiante/)
-- [Programar con IA sin volverte dependiente: guía para estudiantes DAW](/articulos/guias/aprender-programar-con-ia-sin-volverse-dependiente/)
+- [GitHub Copilot gratis en IntelliJ IDEA: guía paso a paso para Java](/articulos/guias/github-copilot-intellij-java-daw/)
+- [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)
+- [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)

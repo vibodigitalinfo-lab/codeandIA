@@ -188,9 +188,9 @@ void createOrder_insufficientStock_reservesAndNotifies() { ... }
 
 **Mi recomendación concreta**:
 
-1. **Hoy**: instala [Ollama](/articulos/comparativas/ollama-vs-lm-studio-vs-jan-2026/) + `qwen2.5-coder:7b`. Empieza a usarlo para code review offline.
+1. **Hoy**: instala Ollama + `qwen2.5-coder:7b`. Empieza a usarlo para code review offline.
 2. **Esta semana**: configura [GitHub Copilot gratis](/articulos/reviews/github-copilot-gratis-estudiantes/) en VS Code y prueba el Agent Mode.
-3. **Este mes**: instala [Claude Code](/articulos/reviews/claude-code-cli-review-2026/) y úsalo para un proyecto real.
+3. **Este mes**: instala Claude Code y úsalo para un proyecto real.
 4. **Siempre**: lee el código que la IA genera. Nunca confíes ciegamente.
 
 La IA no va a quitarte el trabajo. **Va a quitarle el trabajo a quien no la sepa usar**. Y ahora que conoces estas tendencias, estás un paso por delante de la mayoría de juniors.
@@ -201,6 +201,6 @@ De la lista, tengo curiosidad por saber cuál va a probar cada uno primero. Si m
 
 ## Sigue por aquí
 
-- [MCP (Model Context Protocol): qué es y por qué deberías conocerlo](/articulos/guias/mcp-model-context-protocol-guia-desarrolladores/)
-- [Prompt injection 2026: qué es y cómo proteger tu app con IA](/articulos/guias/prompt-injection-seguridad-apps-ia-2026/)
-- [7 herramientas de IA para automatizar tareas aburridas](/articulos/listas/herramientas-ia-automatizar-tareas-aburridas-programador/)
+- [MCP para principiantes: qué es y por qué está por todas partes](/articulos/guias/mcp-para-principiantes-guia-2026/)
+- [IA local o en la nube para programar: cuál te conviene](/articulos/comparativas/ia-local-vs-ia-nube-programar/)
+- [CodeRabbit 2026: ¿merece la pena la IA que revisa tus PRs?](/articulos/reviews/coderabbit-review-ai-code-review/)

@@ -24,7 +24,7 @@ Ese es el eje que importa cuando el proyecto es "mi primera web": menos concepto
 
 Si tuviera que recomendar **una sola cosa** a alguien que empieza su primer proyecto con IA, sería Vite. La razón es simple: es el que menos te esconde. Montas `npm create vite`, eliges React, y tienes un proyecto que corre, con hot-reload, y que entiendes de principio a fin porque no hay una capa de abstracción misteriosa encima.
 
-Con la IA esto funciona especialmente bien, porque el ciclo es cortísimo: describes un componente, lo ves en el navegador, lo pides bien, y repites. No hay servidor que reiniciar, ni decisiones de renderizado que te despisten. Es el mismo esquema de "tarea pequeña, ves el resultado, sigues" que describí en [tu primer proyecto web con IA](/articulos/guias/primer-proyecto-web-con-ia/), y por eso funciona tan bien.
+Con la IA esto funciona especialmente bien, porque el ciclo es cortísimo: describes un componente, lo ves en el navegador, lo pides bien, y repites. No hay servidor que reiniciar, ni decisiones de renderizado que te despisten. Es el mismo esquema de "tarea pequeña, ves el resultado, sigues" que describí en tu primer proyecto web con IA, y por eso funciona tan bien.
 
 La contra es que cuando el proyecto crece, la responsabilidad de las decisiones (enrutado, dónde va la lógica, cómo se despliega) es toda tuya. Para el proyecto del curso o de prácticas eso está perfecto. Para una web con contenido que cambia cada día y mucho tráfico, te va a faltar algo que Vite no da por sí solo.
 
@@ -34,7 +34,7 @@ Next.js es la opción por defecto de la industria, y merece su fama: renderizado
 
 El problema es la factura de entrada. A la primera le pido a la IA una página y me devuelve una estructura con `app/`, `page.tsx`, `layout.tsx`, Server Components, y una capa de caché que no entiendo. Me devuelve veinte archivos para pintar un formulario. Es el efecto contrario al que buscamos: en vez de aprender algo pequeño y terminable, me bombardea con conceptos que no había pedido. Y aquí es donde muchas de las decisiones que tomó la IA ni siquiera eran necesarias.
 
-Aun así, hay un momento en el que Next.js es la elección correcta: cuando tu proyecto ya no es "una web sencilla" sino algo con datos que vienen de una base de datos, usuarios autenticados y varias páginas que comparten estado. Si vas por ahí, los extras de Next.js te ahorran meses. Y si eso es lo que quieres aprender, el camino es [conectar un frontend a una API](/articulos/guias/conectar-frontend-api-con-ia-2026/) pero con el framework que ya te da el andamiaje. Solo no lo elijas para tu primer "hola mundo".
+Aun así, hay un momento en el que Next.js es la elección correcta: cuando tu proyecto ya no es "una web sencilla" sino algo con datos que vienen de una base de datos, usuarios autenticados y varias páginas que comparten estado. Si vas por ahí, los extras de Next.js te ahorran meses. Y si eso es lo que quieres aprender, el camino es conectar un frontend a una API pero con el framework que ya te da el andamiaje. Solo no lo elijas para tu primer "hola mundo".
 
 ## Astro: cuando lo que quieres es contenido, no aplicación
 
@@ -58,16 +58,16 @@ La curva es más suave de lo que parece para este caso de uso, pero no es la mej
 
 Si estás leyendo esto siendo estudiante y es tu primer proyecto serio con IA, mi orden de preferencia es este:
 
-1. **Vite + React**, sin duda. Es donde más aprendes por cosa que escribes, y donde la IA te ayuda en vez de ahogarte. Con las recetas de [tu primer proyecto con IA](/articulos/guias/primer-proyecto-web-con-ia/) llegas lejos.
+1. **Vite + React**, sin duda. Es donde más aprendes por cosa que escribes, y donde la IA te ayuda en vez de ahogarte. Con las recetas de tu primer proyecto con IA llegas lejos.
 2. **Astro**, si lo que quieres es un blog o un portafolio con muchas páginas y te importa que vuelen. Es casi tan fácil como Vite y el resultado en rendimiento es bastante mejor.
 3. **Next.js**, cuando ya tengas un proyecto funcionando y quieras darle una base de datos, usuarios o contenido que cambia. Para entonces, los conceptos que te confundían ya los habrás visto en otro sitio y los entiendes.
 
 El error que veo cada año es el contrario: empezar por Next.js porque es "el que usan", quedarse una semana configuring el framework sin escribir una línea de lógica, y abandonar el proyecto. La mejor herramienta para terminar tu primer proyecto no es la más potente, es la que te deja llegar al lunes siguiente con algo funcionando. Y si al final te da igual y quieres probarlos todos, mi sugerencia es hacerlos como ejercicios: el mismo "to-do" en Vite, luego en Astro, y así ves las diferencias con tus propios ojos en vez de con vídeos de YouTube.
 
-¿Quieres que te detalle el paso a paso de alguno en concreto? Escríbeme a ivan@codeandia.com y lo montamos juntos, que en esto de elegir stack, la mejor ayuda es tener a alguien que te diga "ese, y ya". Y si quieres ver el resultado final de un proyecto tuyo, pásate por [cómo publicar tu primera web](/articulos/guias/como-publicar-primera-web-internet-barato-ia/).
+¿Quieres que te detalle el paso a paso de alguno en concreto? Escríbeme a ivan@codeandia.com y lo montamos juntos, que en esto de elegir stack, la mejor ayuda es tener a alguien que te diga "ese, y ya". Y si quieres ver el resultado final de un proyecto tuyo, pásate por cómo publicar tu primera web.
 
 ## Sigue por aquí
 
-- [React vs Vue con IA para tu proyecto de DAW en 2026](/articulos/comparativas/react-vs-vue-con-ia-daw-2026/)
-- [Tailwind con IA: cómo evitar 40 clases en un div](/articulos/guias/tailwind-con-ia-guia-2026/)
-- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)
+- [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)
+- [Jest vs Vitest en 2026: qué runner de tests elijo en DAW](/articulos/comparativas/vitest-vs-jest-2026/)
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)

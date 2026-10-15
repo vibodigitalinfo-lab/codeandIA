@@ -140,6 +140,6 @@ Si arreglan 1, 2 y 3 en los próximos 3 meses, **me planto en Trae para todo lo 
 
 ## Sigue por aquí
 
-- [Zed: el editor en Rust con IA integrada, ¿alternativa a VS Code?](/articulos/reviews/zed-editor-ia-review-2026/)
-- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
-- [Claude Code CLI: terminal-first, agentes paralelos y su precio](/articulos/reviews/claude-code-cli-review-2026/)
+- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)

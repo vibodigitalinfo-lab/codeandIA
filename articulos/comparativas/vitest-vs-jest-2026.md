@@ -38,7 +38,7 @@ Esto importa cada año porque el ecosistema de npm se mueve en esa dirección. C
 
 Con Vitest, TypeScript funciona sin configuración porque usa la transformación de esbuild que ya usa Vite. No hay transformador que mantener, ni cadena de plugins que ajustar.
 
-Con Jest necesitas una dependencia aparte, cargar el compilador de TypeScript y sincronizar su configuración con la del proyecto. He perdido horas con esto, y lo interesante es que los errores que salen no dicen "tu transformador está mal": dicen cosas como "no se encuentra el módulo", que te mandan a otro sitio. Con [depurar con IA](/articulos/guias/depurar-codigo-con-ia-guia-2026/) se va más rápido, pero es tiempo que no gastas en la parte interesante.
+Con Jest necesitas una dependencia aparte, cargar el compilador de TypeScript y sincronizar su configuración con la del proyecto. He perdido horas con esto, y lo interesante es que los errores que salen no dicen "tu transformador está mal": dicen cosas como "no se encuentra el módulo", que te mandan a otro sitio. Con depurar con IA se va más rápido, pero es tiempo que no gastas en la parte interesante.
 
 ## Requisitos de versión, que aquí se complica
 
@@ -82,10 +82,10 @@ Vitest 4 graduó su modo de navegador a estable: en vez de simular el DOM con `j
 
 **Y migra por dolor, no por moda.** Si tu configuración de Jest te está costando más tiempo de ingeniería del que te costaría cambiarla, entonces sí. Si va bien, déjala quieta. El que la API de Vitest sea compatible con la de Jest es precisamente lo que te permite decidir más adelante.
 
-Antes de nada, eso sí, la pregunta previa es si los tests automáticos te sirven de algo: eso está en [escribir tests con IA](/articulos/guias/escribir-tests-con-ia-2026/). Y el orden de las herramientas importa, así que si aún no has decidido el bundler, mira primero [Vite vs Next.js vs Astro](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/). ¿Tu proyecto ya usa Jest y te va bien? Cuéntamelo a ivan@codeandia.com y te digo si migrar te conviene.
+Antes de nada, eso sí, la pregunta previa es si los tests automáticos te sirven de algo: eso está en escribir tests con IA. Y el orden de las herramientas importa, así que si aún no has decidido el bundler, mira primero [Vite vs Next.js vs Astro](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/). ¿Tu proyecto ya usa Jest y te va bien? Cuéntamelo a ivan@codeandia.com y te digo si migrar te conviene.
 
 ## Sigue por aquí
 
-- [Escribir tests con IA en 2026: qué funciona, qué falla](/articulos/guias/escribir-tests-con-ia-2026/)
+- [CodeRabbit 2026: ¿merece la pena la IA que revisa tus PRs?](/articulos/reviews/coderabbit-review-ai-code-review/)
 - [Vite vs Next.js vs Astro para tu primer proyecto con IA](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/)
-- [QA Wolf vs Qodo: testing con IA para estudiantes](/articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes/)
+- [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)

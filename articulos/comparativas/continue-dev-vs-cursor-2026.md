@@ -99,7 +99,7 @@ Las estrellas de esta tabla son **mi impresión** después de probarlas en el mi
 
 **Ganador agent:** **Empate técnico: Copilot Agent y Cursor Agent**. Ambos son autónomos, ejecutan comandos, usan MCP, editan 10 archivos y reintentan en fallos. Continue agent (con Ollama) es más "chat que aplica cambios", no autónomo total.
 
-Hablando de esto, si quieres el detalle de lo nuevo: [GitHub Copilot Agent Mode 2026: qué es y si merece la pena el salto](/articulos/guias/github-copilot-agent-mode-2026-guia/) y [Cursor Rules (.mdc) para que la IA programe como tú quieres](/articulos/guias/cursor-rules-configuracion-mdc-guia/).
+Hablando de esto, si quieres el detalle de lo nuevo: GitHub Copilot Agent Mode 2026: qué es y si merece la pena el salto y Cursor Rules (.mdc) para que la IA programe como tú quieres.
 
 ---
 
@@ -143,6 +143,6 @@ Al final esta comparativa se reduce a una pregunta: ¿prefieres gratis, abierto 
 
 ## Sigue por aquí
 
-- [Alternativas gratis a Cursor en 2026 que siguen vivas](/articulos/listas/alternativas-gratis-a-cursor-2026/)
-- [VS Code con Copilot gratis frente a Cursor](/articulos/comparativas/vs-code-copilot-gratis-vs-cursor-estudiante/)
-- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)
+- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)

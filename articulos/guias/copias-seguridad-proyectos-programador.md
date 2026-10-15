@@ -86,6 +86,6 @@ Y una que casi nadie hace y es la que de verdad valida el sistema: **prueba una 
 
 ## Sigue por aquí
 
-- [Git con IA: aprende los comandos que de verdad usas](/articulos/guias/git-con-ia-2026/) — el resto de Git, explicado para DAW.
-- [Claves API y `.env`: lo que no debes pegar en la IA](/articulos/guias/no-pegues-claves-api-en-la-ia/) — qué no debe acabar nunca en un repo.
-- [Publicar tu primera web sin pagar casi nada](/articulos/guias/como-publicar-primera-web-internet-barato-ia/) — el siguiente paso después de tener el proyecto a salvo.
+- [Claves API y .env: lo que no debes pegar en la IA](/articulos/guias/no-pegues-claves-api-en-la-ia/)
+- [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
+- [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)
