@@ -10,7 +10,7 @@ readtime: 4
 affiliate_text: "El hub NOVOO de 7 puertos con HDMI y carga de 100W, por 26,99€, el que uso"
 affiliate_url: "https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21"
 affiliate_label: "Ver el hub en Amazon"
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-15
 noindex: true
 sitemap: false
 ---
@@ -31,11 +31,11 @@ Un hub es un accesorio pequeño, algo más grande que un mechero, que se enchufa
 
 ## El de menos de 30€: NOVOO 7 en 1
 
-Esta es mi recomendación para el caso estándar, y es el que llevo yo: el [hub NOVOO de 7 puertos](https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21), por **19,47€** en Amazon.es. Tiene HDMI con 4K a 60Hz, un USB-C de carga compatible con PD de 100W, puertos USB-A, y lector de tarjetas SD y microSD. Todo en un cuerpo pequeño que cabe en el bolsillo de la mochila. Si no tienes necesidades raras, con esto resuelves el teclado, el ratón, la pantalla y el pendrive, y te sobran puertos.
+Esta es mi recomendación para el caso estándar, y es el que llevo yo: el [hub NOVOO de 7 puertos](https://www.amazon.es/dp/B0DT13WTM7?tag=codeandia-21){:rel="sponsored nofollow"}, por **19,47€** en Amazon.es. Tiene HDMI con 4K a 60Hz, un USB-C de carga compatible con PD de 100W, puertos USB-A, y lector de tarjetas SD y microSD. Todo en un cuerpo pequeño que cabe en el bolsillo de la mochila. Si no tienes necesidades raras, con esto resuelves el teclado, el ratón, la pantalla y el pendrive, y te sobran puertos.
 
 ## El robusto: SATECHI 7 en 1
 
-Si programas con más exigencia y quieres algo con más cuerpo, la opción que miro es el [**SATECHI 7 en 1**](https://www.amazon.es/dp/B0DZFZYD96?tag=codeandia-21), por **58,12€**. Es de una marca que se toma los puertos en serio: cuerpo de aluminio, USB-A a 10 Gbps, HDMI 4K a 60Hz, PD de 100W y, aquí está la diferencia, un puerto Ethernet gigabit. Eso lo convierte en el hub para quien necesita una conexión por cable estable para el curro en remoto o para mover archivos grandes sin esperas.
+Si programas con más exigencia y quieres algo con más cuerpo, la opción que miro es el [**SATECHI 7 en 1**](https://www.amazon.es/dp/B0DZFZYD96?tag=codeandia-21){:rel="sponsored nofollow"}, por **58,12€**. Es de una marca que se toma los puertos en serio: cuerpo de aluminio, USB-A a 10 Gbps, HDMI 4K a 60Hz, PD de 100W y, aquí está la diferencia, un puerto Ethernet gigabit. Eso lo convierte en el hub para quien necesita una conexión por cable estable para el curro en remoto o para mover archivos grandes sin esperas.
 
 ## Mi veredicto
 

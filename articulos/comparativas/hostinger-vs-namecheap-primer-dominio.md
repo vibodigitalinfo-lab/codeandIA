@@ -8,7 +8,7 @@ readtime: 6
 affiliate_text: "Consigue tu dominio en Hostinger desde 0,99 €/año"
 affiliate_url: "https://www.hostinger.com/domains"
 affiliate_label: "Ver dominios en Hostinger"
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-15
 noindex: true
 sitemap: false
 ---
@@ -31,7 +31,7 @@ Hostinger es la opción que más ves anunciada últimamente, y no es casualidad.
 
 Lo que más me convenció fue la integración con su propio hosting. Si tienes pensado alojar tu proyecto en Hostinger, tener el dominio ahí también simplifica mucho la configuración. Todo está en el mismo sitio, los DNS se actualizan casi solos y el soporte por chat funciona en español. La primera vez que tuve un problema con un registro A, el agente me lo resolvió en menos de diez minutos.
 
-El punto flojo es que si quieres usar Hostinger solo para el dominio y alojar tu proyecto en otro sitio, el panel pierde algo de contexto. No es complicado, pero tampoco es tan limpio como cuando usas todo su ecosistema junto. [Puedes ver los precios actuales de dominios en Hostinger aquí](https://www.hostinger.com/domains).
+El punto flojo es que si quieres usar Hostinger solo para el dominio y alojar tu proyecto en otro sitio, el panel pierde algo de contexto. No es complicado, pero tampoco es tan limpio como cuando usas todo su ecosistema junto. [Puedes ver los precios actuales de dominios en Hostinger aquí](https://www.hostinger.com/domains){:rel="sponsored nofollow"}.
 
 ## Namecheap: sencillo, confiable y sin sorpresas
 

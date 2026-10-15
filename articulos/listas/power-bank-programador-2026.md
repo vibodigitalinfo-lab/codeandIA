@@ -10,7 +10,7 @@ readtime: 4
 affiliate_text: "El power bank Anker Zolo de 10000 mAh con 30W y cable USB-C integrado, por 20,99€"
 affiliate_url: "https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21"
 affiliate_label: "Ver el power bank en Amazon"
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-15
 noindex: true
 sitemap: false
 ---
@@ -31,11 +31,11 @@ Un power bank con cable integrado es una batería portátil que lleva el cable d
 
 ## Anker Zolo 10000, 30W: 20,99€
 
-Mi recomendación de cabecera, y el que llevo en la mochila: el [**Anker Zolo**](https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21) de 10.000 mAh con 30W, por **20,99€** en Amazon.es. Trae cable USB-C integrado, un puerto USB-A para el segundo dispositivo y carga bidireccional: se recarga a sí mismo con el mismo cable. Anker es de las marcas fiables de baterías y a ese precio no hay nada que pensarse.
+Mi recomendación de cabecera, y el que llevo en la mochila: el [**Anker Zolo**](https://www.amazon.es/dp/B0CZ9M6X8Q?tag=codeandia-21){:rel="sponsored nofollow"} de 10.000 mAh con 30W, por **20,99€** en Amazon.es. Trae cable USB-C integrado, un puerto USB-A para el segundo dispositivo y carga bidireccional: se recarga a sí mismo con el mismo cable. Anker es de las marcas fiables de baterías y a ese precio no hay nada que pensarse.
 
 ## INIU 45W 10000: 28,99€
 
-Si quieres cargar el portátil con más margen, la [**INIU**](https://www.amazon.es/dp/B0DCJT1TPG?tag=codeandia-21) de 45W, por **28,99€**, da otro punto de potencia: 10.000 mAh, cable USB-C integrado y desmontable, un puerto USB-A y tres años de garantía. Con 45W un portátil ligero, de los que piden 45 o 65W, sube de carga mientras lo usas. Es 9€ más cara y la elección lógica si el extra de potencia te salva el día.
+Si quieres cargar el portátil con más margen, la [**INIU**](https://www.amazon.es/dp/B0DCJT1TPG?tag=codeandia-21){:rel="sponsored nofollow"} de 45W, por **28,99€**, da otro punto de potencia: 10.000 mAh, cable USB-C integrado y desmontable, un puerto USB-A y tres años de garantía. Con 45W un portátil ligero, de los que piden 45 o 65W, sube de carga mientras lo usas. Es 9€ más cara y la elección lógica si el extra de potencia te salva el día.
 
 ## La nota honesta
 

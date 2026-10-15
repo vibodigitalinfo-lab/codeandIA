@@ -3,6 +3,7 @@ layout: default
 title: Rutas de aprendizaje
 description: "Rutas guiadas para aprender a programar con IA: elegir herramienta, montar el entorno, publicar tu primer proyecto, cuidar el código y dar el salto al primer trabajo."
 permalink: /rutas/
+last_modified_at: 2026-10-15
 ---
 
 {% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" %}

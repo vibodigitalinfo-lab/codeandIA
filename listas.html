@@ -3,6 +3,7 @@ layout: default
 title: "Listas y recursos de IA para programar"
 description: "Listas de herramientas, recursos gratuitos y atajos de IA para programar: extensiones de VS Code, prompts que funcionan, webs útiles y atajos de teclado."
 permalink: /listas/
+last_modified_at: 2026-10-15
 ---
 
 {% assign listas = site.pages | where: "category", "Lista" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}

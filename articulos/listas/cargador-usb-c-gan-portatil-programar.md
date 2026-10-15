@@ -10,7 +10,7 @@ readtime: 3
 affiliate_text: "Consigue el cargador UGREEN Nexode 65W con tres puertos en Amazon"
 affiliate_url: "https://www.amazon.es/dp/B0CYT44DS1?tag=codeandia-21"
 affiliate_label: "Ver en Amazon"
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-15
 noindex: true
 sitemap: false
 ---
@@ -28,13 +28,13 @@ En esta lista te dejo el que yo usaría y la alternativa con cable integrado, co
 
 ## Mi elección: el UGREEN Nexode de 65W (28,99 euros)
 
-El [cargador UGREEN Nexode 65W](https://www.amazon.es/dp/B0CYT44DS1?tag=codeandia-21) cuesta **28,99 euros** y tiene tres puertos USB-C, compactos y listos para cargar el portátil a 65W, un móvil con cable de 20W y quedarte otro libre para la tablet. Carga un MacBook Air hasta un 51% en media hora y es de los que no se calientan por muy lleno que esté el enchufe de clase.
+El [cargador UGREEN Nexode 65W](https://www.amazon.es/dp/B0CYT44DS1?tag=codeandia-21){:rel="sponsored nofollow"} cuesta **28,99 euros** y tiene tres puertos USB-C, compactos y listos para cargar el portátil a 65W, un móvil con cable de 20W y quedarte otro libre para la tablet. Carga un MacBook Air hasta un 51% en media hora y es de los que no se calientan por muy lleno que esté el enchufe de clase.
 
 Es el cargador que sustituye a dos: el del portátil y el del móvil. Se queda en la mochila y pisas el aula con lo justo.
 
 ## La alternativa con cable integrado: el Nexode con cable retráctil (35,99 euros)
 
-Si odias acordarte del cable, el [cargador UGREEN Nexode con cable retráctil](https://www.amazon.es/dp/B0DP1ZP9SM?tag=codeandia-21) cuesta **35,99 euros** y trae el cable de carga integrado en el propio cargador. Un cable retráctil que estiras y recoge solo, con USB-C por el otro lado, listo para portátil y móvil. Ideal para quien llega a clase, saca el cargador, enchufa y tira: no hay cable suelto en la mochila y no tienes que buscar el cable de nadie para fumarlo.
+Si odias acordarte del cable, el [cargador UGREEN Nexode con cable retráctil](https://www.amazon.es/dp/B0DP1ZP9SM?tag=codeandia-21){:rel="sponsored nofollow"} cuesta **35,99 euros** y trae el cable de carga integrado en el propio cargador. Un cable retráctil que estiras y recoge solo, con USB-C por el otro lado, listo para portátil y móvil. Ideal para quien llega a clase, saca el cargador, enchufa y tira: no hay cable suelto en la mochila y no tienes que buscar el cable de nadie para fumarlo.
 
 ## Mi veredicto
 
