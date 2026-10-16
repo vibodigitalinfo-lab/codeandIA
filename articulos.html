@@ -3,7 +3,7 @@ layout: default
 title: "Todos los artículos"
 description: "Explora todos los artículos de codeandIA: reviews, comparativas, guías y listas de herramientas de IA para desarrolladores. Filtra por categoría, busca por palabra clave."
 permalink: /articulos/
-last_modified_at: 2026-10-15
+last_modified_at: 2026-09-30
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}

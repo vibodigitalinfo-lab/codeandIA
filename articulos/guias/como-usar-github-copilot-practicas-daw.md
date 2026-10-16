@@ -50,4 +50,4 @@ Ahora que estoy en segundo lo veo de otra forma. Ya tengo la base y lo uso más 
 
 - [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- [Preparar exámenes prácticos de DAW con IA (sin copiar)](/articulos/guias/preparar-examenes-practicos-daw-con-ia/)
+- Preparar exámenes prácticos de DAW con IA (sin copiar)

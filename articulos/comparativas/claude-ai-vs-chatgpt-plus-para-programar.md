@@ -6,7 +6,7 @@ category: "Comparativa"
 date: 2026-09-14
 updated: 2026-10-03
 readtime: 7
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-03
 ---
 
 Llevo unos meses usando los dos en paralelo, y la pregunta me la hacen constantemente mis compañeros del ciclo: *¿Claude AI o ChatGPT Plus para programar?* No es una pregunta fácil de responder con un "depende" y ya, porque eso no le sirve a nadie. Si prefieres no gastar nada, también tengo una comparativa de DeepSeek vs ChatGPT gratuitos para que veas qué se puede sacar sin pagar. Pero hoy toca hablar de los dos de pago.

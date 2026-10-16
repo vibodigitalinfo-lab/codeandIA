@@ -7,7 +7,7 @@ tema: hardware
 date: 2026-09-08
 readtime: 9
 updated: 2026-10-03
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-03
 picks:
   - name: "Keychron V1 Max"
     price: "~136€"

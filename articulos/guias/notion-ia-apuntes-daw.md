@@ -234,5 +234,5 @@ Si ya vives en Notion y me mandas a ivan@codeandia.com una captura de tu base de
 
 ## Sigue por aquí
 
-- [Notion vs Obsidian para estudiantes: cuál me queda mejor](/articulos/comparativas/notion-vs-obsidian-estudiantes-programacion/)
-- [RAG local con Ollama: respuestas a tus apuntes con IA sin pagar](/articulos/guias/rag-local-ollama-apuntes-2026/)
+- Notion vs Obsidian para estudiantes: cuál me queda mejor
+- RAG local con Ollama: respuestas a tus apuntes con IA sin pagar

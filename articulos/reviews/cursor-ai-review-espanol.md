@@ -10,7 +10,7 @@ tiempo: "un mes de pago a fondo, con meses gratis anteriores"
 proyecto: "prácticas de DAW: JDBC en Java, web HTML/CSS/JS, PHP con MySQL y scripts Python"
 limites: "el plan gratis se queda corto en peticiones y no debería sustituir aprender a programar"
 updated: 2026-10-02
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-02
 ---
 
 Cuando empecé el segundo año de DAW me prometí que iba a dejar de luchar contra el código y empezar a trabajar con él. Llevaba meses escuchando hablar de Cursor por todas partes, y al final me rendí a la curiosidad. Esta es mi cursor AI review en español después de haberlo usado de verdad, no de haberlo abierto diez minutos para hacer capturas de pantalla.

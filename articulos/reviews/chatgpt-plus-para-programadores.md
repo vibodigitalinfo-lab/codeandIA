@@ -10,7 +10,7 @@ tiempo: "varios meses a diario para clase y proyectos"
 proyecto: "proyecto de fin de módulo con varios archivos abiertos a la vez"
 limites: "límite de mensajes con el modelo potente y 20 $ fijos al mes quieras o no"
 updated: 2026-10-03
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-03
 ---
 
 Llevo varios meses usando ChatGPT a diario mientras estudio DAW, y durante mucho tiempo me resistí a pagar. Me parecía una locura soltar 20 $ al mes siendo estudiante, con la versión gratuita ahí disponible. Pero llegó un momento en el que el límite de mensajes me cortaba justo cuando estaba depurando un error, o me quedaba sin acceso a GPT-4o en los peores momentos. Así que me lo planteé con método: ¿ChatGPT Plus para programadores realmente cambia algo, o es marketing?

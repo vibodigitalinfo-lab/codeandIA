@@ -10,7 +10,7 @@ tiempo: "mes y medio conviviendo con Cursor y VS Code"
 proyecto: "el microservicio de pagos con Stripe de las prácticas (12 endpoints, Testcontainers)"
 limites: "no hay modo local: tu código sale de tu máquina hacia los servidores de ByteDance"
 updated: 2026-10-03
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-03
 ---
 
 Llevo mes y medio con Trae instalado junto a Cursor y VS Code. No es que haya tirado los otros dos —de hecho, para las prácticas de Java sigo con VS Code y Copilot, y a Cursor lo abro de vez en cuando— pero Trae me ha sorprendido lo suficiente como para dedicarle este artículo. **Es el primer editor "IA-first" que no te cobra por el agente autónomo**. Y eso, siendo estudiante, cambia las reglas del juego.

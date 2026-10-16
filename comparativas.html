@@ -3,7 +3,6 @@ layout: default
 title: "Comparativas de herramientas de IA para programar"
 description: "Comparativas entre herramientas de IA para programar: ChatGPT, Claude, Cursor, Copilot y más. Cuál elegir según tu caso, con lo bueno y lo malo de cada una."
 permalink: /comparativas/
-last_modified_at: 2026-10-15
 ---
 
 {% assign comparativas = site.pages | where: "category", "Comparativa" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}

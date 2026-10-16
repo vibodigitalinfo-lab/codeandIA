@@ -57,4 +57,4 @@ Si tuviera que elegir uno solo de estos cinco para empezar, iría directo al asi
 
 - [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)
 - [Cómo crear tu primer portfolio de desarrollador web con IA paso a paso](/articulos/guias/crear-portfolio-desarrollador-web-con-ia/)
-- [Cómo publicar tu primera web en internet por menos de 5€ con IA](/articulos/guias/como-publicar-primera-web-internet-barato-ia/)
+- Cómo publicar tu primera web en internet por menos de 5€ con IA

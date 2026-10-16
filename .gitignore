@@ -31,3 +31,6 @@ _informes/
 .env*
 # Plan de negocio interno: nunca en el repo publico
 plan-ingresos-y-gestoria.md
+
+# Exports de Search Console (datos de cliente: no van al repo publico)
+codeandia.com-*.zip

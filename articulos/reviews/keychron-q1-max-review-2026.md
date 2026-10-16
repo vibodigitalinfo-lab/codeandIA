@@ -14,7 +14,7 @@ affiliate_text: "El Keychron V1 Max es la alternativa de Keychron que sí está 
 affiliate_url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
 affiliate_label: "Ver el V1 Max en Amazon"
 updated: 2026-10-03
-last_modified_at: 2026-10-15
+last_modified_at: 2026-10-03
 ---
 
 Llevo meses tirándole indirectas a mi setup. Primero fue el monitor ultrawide, después el ratón ergonómico, y ahora toca el teclado. Porque programar 8 horas con un teclado de oficina de 20 euros no es sostenible, os lo digo por experiencia.

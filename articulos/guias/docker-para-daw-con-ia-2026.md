@@ -82,4 +82,4 @@ Mi consejo: no empieces con el Dockerfile de tu proyecto real. Empieza por el `n
 
 - [Cómo hacer tu primer API REST con Spring Boot e IA](/articulos/guias/primera-api-rest-spring-boot-ia-daw/)
 - [GitHub Actions para DAW: automatiza tests y despliegues](/articulos/guias/github-actions-estudiantes-daw/)
-- [SQLite vs PostgreSQL para tu proyecto de DAW](/articulos/comparativas/sqlite-vs-postgresql-proyecto-daw/)
+- SQLite vs PostgreSQL para tu proyecto de DAW

@@ -6,8 +6,6 @@
   enlaces:
     - label: "Review Cursor"
       path: articulos/reviews/cursor-ai-review-espanol.md
-    - label: "Guía .mdc"
-      path: articulos/guias/cursor-rules-configuracion-mdc-guia.md
 
 - nombre: GitHub Copilot
   pill: Asistente
@@ -17,8 +15,6 @@
   enlaces:
     - label: "Review Copilot"
       path: articulos/reviews/github-copilot-gratis-estudiantes.md
-    - label: "Guía Agent Mode"
-      path: articulos/guias/github-copilot-agent-mode-2026-guia.md
 
 - nombre: ChatGPT
   pill: Chat IA
@@ -28,53 +24,36 @@
   enlaces:
     - label: "Review ChatGPT Plus"
       path: articulos/reviews/chatgpt-plus-para-programadores.md
-    - label: "Guía JS con IA"
-      path: articulos/guias/chatgpt-para-aprender-javascript-principiante.md
 
 - nombre: Claude Code
   pill: CLI Agente
   desc: "Agente autónomo en terminal: lee el repo entero, edita varios archivos, ejecuta tests y lanza sub-agentes paralelos (Dynamic Workflows). Lo reservo para las tareas gordas, las que me ahorrarían una tarde entera."
   url: https://claude.com/pricing
   sponsored: true
-  enlaces:
-    - label: "Review Claude Code"
-      path: articulos/reviews/claude-code-cli-review-2026.md
 
 - nombre: Warp
   pill: Terminal IA
   desc: "Terminal reescrita en Rust con bloques, IA integrada (Warp Agent), editor LSP y compartir sesión en un clic. Multiplataforma nativa (Mac/Linux/Win)."
   url: https://www.warp.dev/pricing
   sponsored: true
-  enlaces:
-    - label: "Review Warp"
-      path: articulos/reviews/warp-terminal-ai-review-2026.md
 
 - nombre: v0 by Vercel
   pill: Generación UI
   desc: "Genera interfaces React + Next.js + Tailwind + shadcn/ui desde lenguaje natural. GitHub sync nativo, deploy en Vercel con un clic, MCP integrations."
   url: https://v0.app/pricing
   sponsored: true
-  enlaces:
-    - label: "Lista + comparativa"
-      path: articulos/listas/v0-vercel-ia-ui-generacion-lista-herramientas.md
 
 - nombre: Hostinger
   pill: Hosting
   desc: "Hosting barato y rápido para poner en marcha tus proyectos y tu portafolio sin complicarte. hPanel intuitivo, SSH, LiteSpeed."
   url: https://www.hostinger.com
   sponsored: true
-  enlaces:
-    - label: "Review Hostinger"
-      path: articulos/reviews/hostinger-review-2026.md
 
 - nombre: Namecheap
   pill: Dominios
   desc: "Dominios a buen precio y sin sorpresas raras en la renovación. La opción que uso para registrar dominios."
   url: https://namecheap.pxf.io/c/7743913/386170/5618
   sponsored: true
-  enlaces:
-    - label: "Comparativa Namecheap vs Porkbun"
-      path: articulos/comparativas/namecheap-vs-porkbun-dominio-es-estudiante.md
 
 - nombre: CodeRabbit
   pill: Code Review IA
@@ -90,6 +69,3 @@
   desc: "Genera tests unitarios en tu IDE (VS Code, JetBrains) y PR-Agent open source para reviews automáticas en GitHub/GitLab. Trial de 14 días."
   url: https://www.qodo.ai/
   sponsored: false
-  enlaces:
-    - label: "Comparativa QA Wolf vs Qodo"
-      path: articulos/comparativas/qa-wolf-vs-qodo-ai-testing-estudiantes.md

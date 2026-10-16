@@ -190,6 +190,6 @@ La terminal ya no es el rincón al que bajas a sufrir: es donde pasas de pedir a
 
 ## Sigue por aquí
 
-- [Claude Code CLI: terminal-first, agentes paralelos y su precio](/articulos/reviews/claude-code-cli-review-2026/)
-- [Warp terminal: IA en la línea de comandos, ¿cambiar de iTerm/WSL?](/articulos/reviews/warp-terminal-ai-review-2026/)
-- [Git con IA: mensajes de commit, rebase y blame asistidos](/articulos/guias/git-con-ia-2026/)
+- Claude Code CLI: terminal-first, agentes paralelos y su precio
+- Warp terminal: IA en la línea de comandos, ¿cambiar de iTerm/WSL?
+- Git con IA: mensajes de commit, rebase y blame asistidos
