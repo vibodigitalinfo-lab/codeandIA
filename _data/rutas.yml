@@ -55,7 +55,7 @@
   nivel: "Avanzado"
   resumen: "La parte que casi nadie explica bien: cómo la IA lee tus proyectos y qué modelo usar para cada tarea."
   pasos:
-    - path: "/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/"
+    - path: "/articulos/comparativas/continue-dev-vs-cursor-2026/"
       nota: "Qué modelo usar para cada tipo de tarea."
     - path: "/articulos/comparativas/ia-local-vs-ia-nube-programar/"
       nota: "IA en tu ordenador o en la nube: qué ganas y qué pierdes."

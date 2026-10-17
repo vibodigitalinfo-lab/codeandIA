@@ -49,6 +49,6 @@ Al final, la diferencia entre corregir código como un junior perdido y corregir
 
 ## Sigue por aquí
 
-- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/)
+- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
 - [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)

@@ -86,4 +86,4 @@ No necesitas las 20 extensiones. Necesitas elegir dos (copiloto + agente), darle
 
 - [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
 - [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
-- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/)
+- [IA local o en la nube para programar: cuál te conviene](/articulos/comparativas/ia-local-vs-ia-nube-programar/)

@@ -41,5 +41,5 @@ Lo que menos me convence es que en proyectos muy grandes a veces tarda un poco m
 ## Sigue por aquí
 
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
-- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/)
+- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
 - [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
