@@ -1,18 +1,19 @@
 ---
 layout: article
-title: "Portfolio de programador con IA que consigue prácticas"
-description: "Cómo montar un portfolio que te consiga prácticas de DAW con IA: estructura, proyectos, el texto de candidatura y los fallos que me costaron entrevistas."
+title: "Preparar tu portfolio de DAW paso a paso"
+description: "Cómo preparar tu portfolio de DAW con IA: qué proyectos enseñar, la estructura, el README y el texto de candidatura para las prácticas."
 category: "Guía"
 date: 2026-10-07
+updated: 2026-10-17
 readtime: 8
-last_modified_at: 2026-10-07
+last_modified_at: 2026-10-17
 ---
 
-## Mi primer portfolio era un cajón desordenado
+## Un portfolio no es una galería, es un argumento
 
-Cuando empecé segundo de DAW, monté un portfolio en un fin de semana: tema oscuro, un ramo de proyectos con nombres en inglés y un "sobre mí" que decía que me apasionaba la programación. Sonaba genial hasta que lo enseñé en clase y un profesor tuvo la honestidad de preguntarme: "¿y esto, en qué priorizas?" No supe responder. El cajón desordenado, a la vista, era yo.
+Todavía no he hecho ninguna entrevista de prácticas, así que no voy a contarte cómo me fue en una: te cuento lo que estoy preparando y por qué. La mayoría de portfolios de DAW son un cajón desordenado: tema oscuro, proyectos con nombres en inglés y un "sobre mí" que dice que te apasiona programar. Eso no responde a la única pregunta que importa cuando alguien mira tu portfolio: "¿por qué elegirte a ti y no al de al lado?".
 
-Tres entrevistas de prácticas (dos falladas, una conseguida) después, entiendo el error de fondo: un portfolio no es una galería de código bonito, es un argumento que responde a "¿por qué elegirte?". Y la parte buena de 2026 es que la IA te permite montarlo con calidad de alguien con experiencia… si sabes qué argumentar. Esto es lo que haría hoy, con IA, para que un portfolio de DAW sí consiga prácticas.
+Un portfolio no es una galería de código bonito, es un argumento. Y la parte buena de 2026 es que la IA te permite armarlo con una calidad que antes costaba semanas… si sabes qué argumentar. Esto es lo que tengo claro que voy a hacer (y lo que no) al preparar un portfolio de DAW para las prácticas.
 
 ## Primero el argumento, luego el código
 
@@ -24,7 +25,7 @@ Mi enfoque ahora: elegir **un tema** y construirlo alrededor. Por ejemplo, si lo
 
 La segunda pata: los proyectos. En DAW tienes dos o tres proyectos por módulo, y no todos valen para un portfolio. La regla que sigo es la de "el proyecto que puedes explicar en una frase": si te preguntan qué hace y tardas más de diez segundos en contestar, no está claro.
 
-Usar la IA para construirlos está bien, siempre que la entiendas (lo repito en la lista de errores comunes programando con IA). Pero el truco que me cambió la entrevista no fue el código, fue el **README**: ahora trato cada proyecto como si lo leyera un jefe de proyecto, no un compañero de clase. Le pido a la IA que lo escriba así, con capturas de pantalla de verdad y un párrafo de decision-making ("por qué elegí SQLite aquí en vez de MySQL", aunque sea una decisión de dos líneas). Eso comunica más que mil commits.
+Usar la IA para construirlos está bien, siempre que la entiendas (lo repito en la lista de errores comunes programando con IA). Pero el truco que de verdad comunica no es el código, es el **README**: trato cada proyecto como si lo leyera un jefe de proyecto, no un compañero de clase. Le pido a la IA que lo escriba así, con capturas de pantalla de verdad y un párrafo de decision-making ("por qué elegí SQLite aquí en vez de MySQL", aunque sea una decisión de dos líneas). Eso comunica más que mil commits.
 
 En la lista de proyectos para portfolio tienes cinco ideas que en realidad sí te obligan a aprender, no a copiar. Con dos de esos, bien pulidos, tienes suficiente para unas prácticas de primer año.
 
@@ -37,13 +38,13 @@ No importa el motor (static site, React, WordPress): importa que en 10 segundos 
 - **Cómo contactarte**: correo visible, un LinkedIn, repo de GitHub por proyecto.
 - **Carga en móvil**: que se lea bien con el dedo, porque lo verán desde el teléfono.
 
-La IA acelera esto de dos formas: te revisa la jerarquía ("¿qué le dice esto a un desconocido en 10 segundos?") y te corrige el texto. Sí, genera textos que suenan bien, pero el error que cometí es aceptar el primero: un about escrito por IA se nota nada más leerlo. Ahora uso dos prompts: uno para que *pregunte* (qué me gusta, qué he hecho, cómo hablo) y otro para que *escriba con mi tono*, y aun así lo reescribo a mano. Como contaba al construir el portfolio en la guía de desarrollo web con IA, la IA es un editor brutal pero mal autor con tu voz.
+La IA acelera esto de dos formas: te revisa la jerarquía ("¿qué le dice esto a un desconocido en 10 segundos?") y te corrige el texto. Sí, genera textos que suenan bien, pero el error fácil es aceptar el primero: un about escrito por IA se nota nada más leerlo. Lo que funciona son dos prompts: uno para que *pregunte* (qué te gusta, qué has hecho, cómo hablas) y otro para que *escriba con tu tono*, y aun así lo reescribes a mano. Como contaba al construir el portfolio en la guía de desarrollo web con IA, la IA es un editor brutal pero mal autor con tu voz.
 
 ## Deploy: que el enlace esté vivo
 
 Nada mata una candidatura como un portfolio que "está en local". Subirlo gratis es hoy más fácil que nunca; en la [comparativa de Vercel, Netlify y GitHub Pages](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/) te digo cuál me convence según el caso. Lo único no negociable: el enlace tiene que abrirse en el móvil, rápido, sin "Oops".
 
-Y una cosa que aprendí por las malas: el dominio. Un enlace `usuario.github.io/practicas-2026` no dice nada; en la guía de [qué dominio comprar para tu primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) explico por qué gastarse una vez 10 euros en tu apellido cambia la percepción entera. Las prácticas se consiguen antes con un dominio propio que con tres proyectos más en el cajón.
+Y una cosa que se nota muchísimo: el dominio. Un enlace `usuario.github.io/practicas-2026` no dice nada; en la guía de [qué dominio comprar para tu primer proyecto](/articulos/guias/que-dominio-comprar-primer-proyecto-web/) explico por qué gastarse una vez 10 euros en tu apellido cambia la percepción entera. Las prácticas se consiguen antes con un dominio propio que con tres proyectos más en el cajón.
 
 ## El texto que te abre la puerta (la IA de redactor jefe)
 
@@ -58,11 +59,11 @@ nada que no esté en la lista. Debe tener un parrafo breve y terminar
 pidiendo una primera conversacion.
 ```
 
-Luego le quitas todo el relleno que suene a plantilla (la IA adora las frases tipo "me encantaría aportar mis conocimientos"). Lo que queda es un email de seis líneas que dice lo que hiciste y pide café. Ese formato, junto con el flujo de la guía de prácticas al primer curro con IA, es lo que me consiguió la entrevista que acabó en contrato de prácticas.
+Luego le quitas todo el relleno que suene a plantilla (la IA adora las frases tipo "me encantaría aportar mis conocimientos"). Lo que queda es un email de seis líneas que dice lo que hiciste y pide una conversación.
 
 ## Checklist antes de enviar
 
-Este es el mío, que imprimo mentalmente cada vez que actualizo el portfolio:
+El que uso como referencia antes de enviar:
 
 - El enlace funciona y carga en móvil.
 - Una idea clara del tema (datos, web, juegos…) sin mezclar.
@@ -79,6 +80,6 @@ Para el hosting, lo normal en un portfolio de DAW es no pagar nada: lo tienes re
 
 ## Sigue por aquí
 
-- [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)
+- [Practicar la entrevista técnica junior con IA](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)
 - [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)
 - [GitHub Student Pack: qué incluye y cuánto te ahorra](/articulos/listas/github-student-pack-que-incluye/)

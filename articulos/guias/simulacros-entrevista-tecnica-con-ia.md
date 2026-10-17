@@ -1,11 +1,12 @@
 ---
 layout: article
-title: "Simulacros de entrevista técnica con IA para tu primer trabajo"
-description: "Cómo practicar la entrevista técnica de tu primer trabajo de programador con IA: simulacros realistas, los ejercicios que más caen en DAW y cómo corregirte."
+title: "Practicar la entrevista técnica junior con IA"
+description: "Cómo practicar la entrevista técnica de junior con IA: simulacros realistas, los ejercicios que más caen en DAW y cómo corregirte."
 category: "Guía"
 date: 2026-10-14
+updated: 2026-10-17
 readtime: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-17
 ---
 
 Casi nadie te lo avisa en clase: el título de DAW no te da trabajo, te da derecho a que te hagan una entrevista. Y esa entrevista tiene una parte técnica que casi nadie practica, y menos de la forma en que se da. No hay temario, no hay simulacros y la mayoría de la gente llega sin haber dicho en voz alta una línea de código delante de nadie.
@@ -98,6 +99,6 @@ Al final, la entrevista técnica es como el código: no se aprende leyéndola, s
 
 ## Sigue por aquí
 
-- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)
+- [Preparar tu portfolio de DAW paso a paso](/articulos/guias/portfolio-que-consigue-practicas-daw/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
 - [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)

@@ -4,7 +4,8 @@ title: "Aprender Java en DAW con IA y no volverte dependiente"
 description: "Cómo usar la IA para estudiar Java en DAW: prompts tutor, leer stack traces, ejercicios sin soluciones y la regla de no entregar código que no entiendas."
 category: "Guía"
 date: 2026-09-08
-readtime: 7
+updated: 2026-10-17
+readtime: 8
 last_modified_at: 2026-10-17
 ---
 
@@ -30,13 +31,14 @@ La regla que interioricé después de varios sustos: **la IA puede escribir cód
 
 **5. "Enséñame a depurar esto paso a paso, sin arreglarlo."** El último y quizá el más importante. Le pides que te guíe con el depurador (en qué breakpoint mirar, qué variables revisar). No es que arregle el bug: es que te enseña a encontrarlo, que es lo que se evalúa.
 
-## El entorno que usa todo el mundo: VS Code + Java
+## El entorno: Eclipse y una IA que no te haga el trabajo
 
-Una cosa que me costó aprender: **la IA funciona mejor con Java si el entorno está bien montado**, porque el autocompletado y el chat dependen del asistente de lenguaje que haya detrás. Mi kit en 2026:
+Una cosa que me costó aprender: **la IA te ayuda más cuando el proyecto compila y le das contexto real**. Si le pegas código a medias, adivina y se equivoca más. Mi kit para Java en DAW:
 
-- **Extension Pack for Java** en VS Code. Es el paquete de Red Hat (lenguaje, depurador, test runner y Maven/Gradle) y es el estándar de facto. Lo que hace es poner el "servidor de lenguaje" de Java, y encima de eso funcionan bien Copilot y Cursor.
-- Con eso montado, Copilot entiende tus POJOs, tus tests y tus dependencias como entiende cualquier proyecto. Si el asistente de Java no está instalado, la IA adivina y se equivoca más.
-- Para las dudas de APIs o Spring, uso el mismo truco de leer la **documentación actualizada** del que te hablé en la guía de tu primera API REST con Spring. La IA con contexto reciente da mejores respuestas que la que trabaja solo de memoria.
+- **Eclipse.** Es el IDE con el que doy Java en el ciclo. No es tan moderno como VS Code ni tan cómodo como IntelliJ, pero es el que uso en clase y el que me voy a encontrar en muchas prácticas, así que me quedo con él en vez de repartirme entre dos entornos.
+- **Claude, a diario.** Es la IA que uso para aprender Java: le pego el error, el fragmento o el enunciado y la llevo en modo tutor con los prompts de arriba. Sin salirme del plan que ya uso.
+- **Cursor, solo el plan gratuito.** Lo he probado por encima y su chat contextual está muy bien para revisar código, pero no pago por él: con Eclipse para Java y el plan gratis de Cursor tengo de sobra para el módulo.
+- Para las dudas de APIs o Spring, leo la **documentación actualizada**, como en la guía de tu primera API REST con Spring. La IA con contexto reciente responde mejor que la que trabaja solo de memoria.
 
 Ah, y un matiz del currículo para que no te asustes: en el Real Decreto que regula tu ciclo (el RD 405/2023), Java vive en el módulo de Programación de primero (POO, excepciones, colecciones y JDBC) y **Spring no está en las enseñanzas mínimas** — es de cada centro. Así que lo que la IA te resuelva en el módulo de Java, casi siempre son fundamentos, no "aplicaciones de primavera".
 
@@ -62,4 +64,4 @@ Empieza esta tarde: abre tu proyecto, escribe una clase a mano con tu intento de
 
 - [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
 - [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)
-- [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)
+- [Practicar la entrevista técnica junior con IA](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)

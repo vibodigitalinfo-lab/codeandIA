@@ -84,4 +84,4 @@ La conclusión es esta: el Student Pack no es una mina de oro escondida, es un c
 
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
 - [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
-- [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)
+- [Preparar tu portfolio de DAW paso a paso](/articulos/guias/portfolio-que-consigue-practicas-daw/)

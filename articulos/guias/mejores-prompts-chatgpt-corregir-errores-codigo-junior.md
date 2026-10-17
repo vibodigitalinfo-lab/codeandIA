@@ -51,4 +51,4 @@ Al final, la diferencia entre corregir código como un junior perdido y corregir
 
 - [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)
+- [Practicar la entrevista técnica junior con IA](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)
