@@ -1,73 +1,51 @@
 ---
 layout: article
-title: "Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)"
-description: "Qué portátil necesita un estudiante de DAW en 2026: specs que importan de verdad, tres opciones con precios reales y los errores que debes evitar."
+title: "Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB"
+description: "El portátil con el que curso primero de DAW: un Lenovo IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta y qué buscaría si tuviera que cambiarlo."
 category: "Guía"
 tema: hardware
 date: 2026-09-08
-readtime: 9
-affiliate_text: "El Acer Aspire Go 15 (Ryzen 7, 16 GB, 512 GB) está en stock y es la compra más segura para DAW ahora mismo"
-affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
-affiliate_label: "Ver el Aspire Go 15 en Amazon"
+updated: 2026-10-17
+readtime: 3
 last_modified_at: 2026-10-17
 ---
 
-Antes de empezar segundo de DAW, mi portátil era uno de esos de gama baja con 8 GB de RAM y me pasaba las clases cerrando pestañas a toda velocidad para que no se me colgara el IDE. Un día, con el entorno levantado, el navegador con la documentación y MySQL corriendo a la vez, el portátil se quedó congelado durante una práctica. Ese día decidí que había que cambiar de máquina. He tardado en encontrar lo que buscaba y he aprendido a base de devoluciones y de leer especificaciones hasta que se me cruzan los ojos. Si estás mirando portátil para el ciclo, esto es lo que de verdad importa y lo que yo compraría en 2026.
+## El portátil con el que curso DAW
 
-## Las especificaciones que importan de verdad
+Estoy en **primero de DAW** y este es el portátil con el que lo estoy sacando: un **Lenovo IdeaPad 3 15ITL6** (modelo 82H8), con **Intel Core i3-1115G4** (2 núcleos / 4 hilos, 11ª generación), **8 GB de RAM**, un **SSD NVMe Samsung de 256 GB** y **Windows 11 Home**. Me lo regalaron por Navidad en 2023, así que llevo con él unos tres años. Sigue todo de serie: ni la RAM ni el disco los he tocado.
 
-El error es fijarse en el modelo del procesador y en la marca del ventilador. Para programar en un ciclo de DAW, y sobre todo según avanzas a backend y despliegues, lo que de verdad te va a condicionar el día a día es esto:
+Es una máquina de gama baja. No pretendo venderla como lo ideal para DAW; lo que sí puedo contar es lo que aguanta de verdad mientras estudio.
 
-**RAM: 16 GB es el mínimo serio.** Aquí hay que ser tajante. Un IDE como IntelliJ o VS Code con extensiones, un navegador con treinta pestañas, una base de datos como MySQL o PostgreSQL y un contenedor de Docker se comen 8 GB sin despeinarse. Cuando la RAM se acaba, el sistema empieza a usar el disco como memoria y todo va a cámara lenta. Con 8 GB vas a ir justo desde el primer día. **No compres menos de 16 GB.**
+![Información del sistema del Lenovo IdeaPad 3 15ITL6](/assets/img/portatil-msinfo32.png){: width="1786" height="945"}
 
-**Almacenamiento: SSD de 512 GB.** Un SSD NVMe marca una diferencia brutal en los tiempos de carga, y 512 GB te dan para el sistema, un par de entornos virtuales y todos los proyectos del ciclo. 256 GB se llenan solo con Windows, el IDE y un `node_modules` de tamaño industrial. Si además vas a meter máquinas virtuales, plantéate 1 TB.
+![Foto del Lenovo IdeaPad 3 15ITL6](/assets/img/portatil-ideapad-3-15itl6.jpg){: width="400" height="400"}
 
-**Procesador: Ryzen 5 / Intel i5 de generación reciente para arriba.** Un AMD Ryzen 5 7000 en adelante o un Intel Core i5 de 12ª generación o posterior te dan de sobra. Si te llega el presupuesto, un Ryzen 7 o un i7 convierten las compilaciones y los tests en algo mucho más llevadero, y eso se agradece cuando entregas varios módulos a la vez.
+## Cómo se comporta en el día a día
 
-**Pantalla y teclado.** 15,6 pulgadas en Full HD con panel IPS como mínimo, porque vas a pasar muchas horas mirando código. Y aquí viene un detalle que casi nadie mira y que a mí me ha salvado más de una vez: **comprueba que el teclado sea QWERTY español**. Muchas ofertas en español son importaciones alemanas con teclado QWERTZ (la Z y la Y cambiadas, los símbolos en otro sitio). Programar con un teclado que no coincide con las teclas que pulsas es una tortura.
+En general va bien y no me da muchos problemas. En clase programo Java con **Eclipse**, y en casa lo dejo abierto con Eclipse y el navegador con la documentación a mano; eso lo lleva sin bloqueos. Cuando la carga es alta, la RAM llega a su límite y los ventiladores arrancan a lo bravo; aun así, gestiona las tareas y nunca he tenido que cancelar nada por falta de memoria.
 
-**Windows 11 y peso razonable.** Da igual si eres de Linux: ven con Windows y, si quieres, monta la partición a tu gusto. Windows 11 te ahorra problemas con programas del aula y con las prácticas. Y aunque no vayas a llevar el portátil a clase todos los días, uno de 1,6 kg se agradece muchísimo.
+El disco es un SSD NVMe Samsung de 256 GB (239 GB útiles), así que arranca y carga los proyectos rápido. La pantalla es de 1920×1080 a 60 Hz, suficiente para tener el editor y el navegador repartidos.
 
-## Tres portátiles y para quién es cada uno
+El punto más flojo es la **batería**. Según el informe de Windows, pasó de 38.000 mWh de diseño a unos 33.890 mWh de carga completa, con 485 ciclos: ronda el **89 %** de su capacidad original. Se nota: me dura bastante poco, así que si puedo trabajar enchufado, mejor.
 
-Con esas pautas, estos son los que considero las compras sensatas de 2026. He puesto los que llevan las specs que de verdad sirven y que merecen la pena en Amazon España.
+![Rendimiento y consumo en el Administrador de tareas](/assets/img/portatil-rendimiento.png){: width="1611" height="932"}
 
-### Acer Aspire Go 15: mi recomendación (y está en stock)
+![Información del disco y la SSD](/assets/img/portatil-disco.png){: width="1607" height="932"}
 
-Es el que hoy recomiendo porque, además de buenas specs, está disponible: el [Acer Aspire Go 15 con Ryzen 7 5825U, 16 GB y 512 GB](https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21){:rel="sponsored nofollow"} está en stock en Amazon a 549,00€ ahora mismo. El Ryzen 7 5825U es una CPU de ocho núcleos que, aunque sea de generación anterior, rinde muy bien en multitarea y trata muy bien el consumo de batería. El teclado de los Aspire Go es de los que menos me duelen en sesiones largas y el precio es competitivo.
+## Qué buscaría si tuviera que cambiarlo
 
-Como contra: es un portátil más de "oficina" que de "potencia bruta", y la pantalla es de 60 Hz y con colores justos. Para programar va perfecto; para editar vídeo o jugar, olvídate. Pero para un ciclo de DAW, con 16 GB y SSD de 512 GB, cumple de sobra.
+*(Aviso: es criterio general. No he probado otros modelos.)*
 
-### Lenovo IdeaPad Slim 3 Gen 10: mi pick si vuelve el stock
-
-Es el que tengo apuntado como compra más redonda por equilibrio: **i5-13420H, 16 GB de RAM y SSD de 512 GB**, con Windows 11 Home y teclado en español. Con esas especificaciones y esa CPU cubres cualquier módulo de DAW sin llegar a los 600€ si lo pillas en oferta. La RAM de 16 GB y el SSD NVMe son precisamente los dos cuellos de botella que te ahorras.
-
-Ojo con una cosa: al escribir esto, la ficha del Lenovo está **sin stock** en Amazon España, así que si lo ves disponible a buen precio es compra segura, pero no cuentes con él. El punto fuerte, cuando está, es el equilibrio: no es el más barato ni el más potente, pero es el que no te va a dejar tirado en tercero, cuando de verdad empiezas con contenedores y despliegues. Como pega, la pantalla es correcta pero no espectacular, y el teclado, aunque es completo, no es el mejor del mundo para escribir todo el día.
-
-### El de 32 GB, si lo prefieres a largo plazo
-
-Y si puedes estirar el presupuesto, existe la variante del [Acer Aspire Go 15 con 32 GB de RAM y 512 GB](https://www.amazon.es/dp/B0F452KYSS?tag=codeandia-21){:rel="sponsored nofollow"}. Es lo mismo que el Aspire Go 15 de antes, pero con el doble de memoria, que hoy es overkill para el ciclo... salvo que vayas a encadenar máquinas virtuales en tercero, en cuyo caso es dinero bien gastado. Eso sí, ahora mismo la variante de 32 GB está **sin stock en Amazon España**, así que si reaparece a buen precio, es una opción a tener en cuenta.
-
-## Los errores que debes evitar
-
-- **Comprar 8 GB de RAM.** Es el error número uno del estudiante de primero. Parece que ahorras 100€ y en realidad te compras un problema para todo el curso. No lo hagas.
-- **Ignorar la disposición del teclado.** Si la oferta "en español" viene de un vendedor alemán, casi seguro es QWERTZ. Mira siempre la ficha y las fotos, y si el vendedor no lo aclara, pregúntale antes de comprar.
-- **Comprar un portátil de marca desconocida de 300€.** Hay listados con Ryzen 3 antiguos, 8 GB y pantallas malas. Un ahorro de 150€ a cambio de tres años de sufrimiento no es ahorro.
-- **Fijarte solo en el procesador.** Un "Intel Core i7" puede llevar 8 GB de RAM y un disco duro mecánico, que es mucho peor que un i5 con 16 GB y SSD. La RAM y el SSD importan más de lo que parece.
-- **Comprar en el primer sitio sin comparar.** El mismo modelo puede variar 100€ entre vendedores y entre días. Los precios de portátiles se mueven muchísimo con las ofertas, así que revisa antes de darle a comprar.
-
-## Lo que haría diferente
-
-Si volviera a comprar mi portátil, no me dejaría llevar por el precio de entrada. Iría directamente a un i5 o Ryzen 5 con 16 GB y SSD de 512 GB, comprobaría el teclado QWERTY español con lupa y me aseguraría de que el vendedor es fiable (que el envío y la garantía sean de Amazon o de una tienda con posventa en España). Y no me obsesionaría con el procesador más potente: en DAW, **el orden correcto por importancia es RAM > SSD > CPU > pantalla**.
+- **RAM**: con 8 GB me llega para lo que hago en primero, pero va justo cuando la carga sube. Si cambiara, buscaría **16 GB**.
+- **SSD**: el mío es un NVMe de 256 GB y no me quedo corto para el día a día; no bajaría de ahí.
+- **Teclado**: comprobaría que la distribución sea **QWERTY español** antes de comprar.
+- **Batería**: con la mía aprendí a desconfiar de las cifras de catálogo; miraría la duración real de uso.
 
 ## Veredicto
 
-Para programar en DAW en 2026, el portátil que yo compraría es **cualquiera con 16 GB de RAM, SSD de 512 GB, un Ryzen 5/i5 reciente, Windows 11 y teclado español**. Si eso te cuadra y el precio está entre 500 y 650€, no le des más vueltas. Mi recomendación concreta es el Acer Aspire Go 15, que está en stock ahora mismo, y el Lenovo IdeaPad Slim 3 Gen 10 es igual de válido si vuelve a estar disponible a buen precio. Lo que no te perdona un curso entero es quedarte corto de RAM o de disco.
-
-El portátil es la base. El resto del equipo (teclado, ratón, pantalla) lo vas montando poco a poco según lo necesites.
+Con esta configuración de fábrica he podido seguir el ritmo de primero de DAW. Si tuviera que cambiar el portátil ahora, lo que más me evitaría apuros sería subir la RAM a 16 GB y, después, cuidar la batería. El resto son mejoras de comodidad, no necesidad.
 
 ## Sigue por aquí
 
-- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
-- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
+- [Qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
