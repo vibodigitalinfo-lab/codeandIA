@@ -3,14 +3,13 @@ layout: default
 title: "Qué hay en codeandIA"
 description: "Un índice para saber dónde está cada cosa: artículos sobre IA para programar, rutas guiadas, cheatsheets, setup de escritorio, hosting y dominios, ofertas y las páginas que explican cómo pruebo lo que escribo."
 permalink: /que-hay-aqui/
-last_modified_at: 2026-10-01
+last_modified_at: 2026-10-17
 ---
 
 {% assign arts = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" %}
 {% assign guias = arts | where: "category", "Guía" %}
 {% assign comparativas = arts | where: "category", "Comparativa" %}
 {% assign listas = arts | where: "category", "Lista" %}
-{% assign reviews = arts | where: "category", "Review" %}
 {% assign hardware = arts | where: "tema", "hardware" %}
 {% assign total_pasos = 0 %}
 {% for r in site.data.rutas %}{% assign total_pasos = total_pasos | plus: r.pasos.size %}{% endfor %}
@@ -37,7 +36,7 @@ last_modified_at: 2026-10-01
     <div class="index-cards">
       <div class="index-card">
         <h3 class="index-card-title"><a href="{{ '/articulos/' | relative_url }}">Todos los artículos</a></h3>
-        <p>{{ arts | size }} artículos filtrables por categoría y con buscador. Reviews, comparativas, guías y listas, cada uno con su fecha de revisión.</p>
+        <p>{{ arts | size }} artículos filtrables por categoría y con buscador. Comparativas, guías y listas, cada uno con su fecha de revisión.</p>
       </div>
       <div class="index-card">
         <h3 class="index-card-title"><a href="{{ '/rutas/' | relative_url }}">Rutas de aprendizaje</a></h3>
@@ -57,7 +56,6 @@ last_modified_at: 2026-10-01
     <div class="index-counts">
       <a class="index-count" href="{{ '/guias/' | relative_url }}"><strong>{{ guias | size }}</strong> guías</a>
       <a class="index-count" href="{{ '/comparativas/' | relative_url }}"><strong>{{ comparativas | size }}</strong> comparativas</a>
-      <a class="index-count" href="{{ '/reviews/' | relative_url }}"><strong>{{ reviews | size }}</strong> reviews</a>
       <a class="index-count" href="{{ '/listas/' | relative_url }}"><strong>{{ listas | size }}</strong> listas</a>
     </div>
   </div>
@@ -66,7 +64,7 @@ last_modified_at: 2026-10-01
 <section class="section section-alt">
   <div class="container">
     <h2 class="section-title">Lo que no es de IA</h2>
-    <p class="section-intro">Dos bloques aparte, porque son otra cosa y mezclados con las guías de IA pierden sentido. Van con precios y fecha de comprobación. Y para que no te parezca contradictorio: dentro de la categoría Guías hay también algunas de equipo (montar un monitor, elegir un teclado), porque están escritas como paso a paso y encajaban ahí. Lo que no hago es meterlas en la misma página que las de IA.</p>
+    <p class="section-intro">Dos bloques aparte, porque son otra cosa y mezclados con las guías de IA pierden sentido. Van con precios y fecha de comprobación. Y para que no te parezca contradictorio: dentro de la categoría Guías hay también alguna de equipo (como la de elegir un portátil), porque están escritas como paso a paso y encajaban ahí. Lo que no hago es meterlas en la misma página que las de IA.</p>
 
     <div class="index-cards">
       <div class="index-card">

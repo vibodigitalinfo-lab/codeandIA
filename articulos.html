@@ -3,7 +3,7 @@ layout: default
 title: "Todos los artículos"
 description: "Explora todos los artículos de codeandIA: reviews, comparativas, guías y listas de herramientas de IA para desarrolladores. Filtra por categoría, busca por palabra clave."
 permalink: /articulos/
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-17
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
@@ -29,10 +29,6 @@ last_modified_at: 2026-09-30
       <a href="{{ "/listas/" | relative_url }}" class="pillar-link">
         <strong>Listas y recursos</strong>
         <span>{% assign _l = site.pages | where: "category", "Lista" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | size %}{{ _l }} listas de herramientas y atajos</span>
-      </a>
-      <a href="{{ "/reviews/" | relative_url }}" class="pillar-link">
-        <strong>Reviews de herramientas</strong>
-        <span>{% assign _r = site.pages | where: "category", "Review" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | size %}{{ _r }} herramientas analizadas a fondo</span>
       </a>
     </div>
 
