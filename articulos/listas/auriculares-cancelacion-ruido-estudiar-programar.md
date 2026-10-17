@@ -10,7 +10,7 @@ readtime: 8
 affiliate_text: "El Soundcore Q20i es mi recomendación calidad-precio: ANC, 40 horas y USB-C por unos 29,99€"
 affiliate_url: "https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21"
 affiliate_label: "Ver el Q20i en Amazon"
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-17
 ---
 
 Vivo en una casa donde a las seis de la tarde alguien siempre enciende la aspiradora, mi hermano pequeño ve el fútbol a tope y los vecinos de arriba parece que mudan muebles a diario. Cuando estoy con una práctica de DAW y el `build` de Maven falla por tercera vez, ese ruido de fondo me saca de quicio. Así que hace unos meses me puse a buscar auriculares con cancelación de ruido que no me costaran un riñón. Spoiler: no necesitas los de 300€ que salen en todos los vídeos. Te cuento los que de verdad valen la pena en 2026 y mi veredicto con los precios de hoy en España.
@@ -63,7 +63,7 @@ Si tuviera que decir uno solo, mi veredicto es que **el Q20i es el único auricu
 
 Lo que me importa decirte: no te hace falta gastar 300€ en unos auriculares para estudiar. La diferencia entre unos de 29,99€ y unos de 300€ existe, pero no es el 800% de diferencia de precio. Empieza por el Q20i y, si con el tiempo te quedas corto, ya subes de nivel.
 
-Y si aprovechas para montar tu rincón de estudio, tengo la guía del setup completo para programar por 500€ silla, teclado, ratón y monitor con lo que cuesta cada uno, o la lista de auriculares, webcam y sillas ergonómicas que también me pedís mucho. Primero los oídos, luego el resto.
+Y si aprovechas para montar tu rincón de estudio, no empieces por lo más caro: los oídos primero, el resto puede esperar.
 
 ## Sigue por aquí
 

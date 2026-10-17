@@ -8,7 +8,8 @@ readtime: 5
 affiliate_text: "Si quieres registrar tu dominio sin complicarte como me pasó a mí, yo acabé haciéndolo en Namecheap"
 affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
 affiliate_label: "Ver dominios en Namecheap"
-last_modified_at: 2026-09-08
+updated: 2026-10-17
+last_modified_at: 2026-10-17
 ---
 
 La primera vez que quise subir un proyecto de clase a internet de verdad, con dominio propio y todo, me quedé pillado delante del buscador de dominios como media hora. No sabía qué dominio comprar para mi primer proyecto web y, sin darme cuenta, ya había abierto seis pestañas comparando precios de .com, .es y .dev sin entender muy bien la diferencia real entre ellos. Si a ti te está pasando lo mismo ahora, tranquilo, es más sencillo de lo que parece una vez le pillas el truco.
@@ -35,9 +36,9 @@ Al final me quedé con Namecheap, que es el que uso ahora mismo para mis dominio
 
 ## ¿El dominio va junto con el hosting o los separo?
 
-Otra duda típica de cuando empiezas: si compras el dominio y el hosting en el mismo sitio o no. Yo he probado las dos formas. Tenerlo todo junto es más cómodo al principio, sobre todo si no quieres complicarte con DNS ni configuraciones raras la primera semana. Para eso he usado Hostinger en algún proyecto, porque el hosting sale bastante ajustado de precio y la configuración inicial no da problemas ni te hace perder una tarde entera.
+Otra duda típica de cuando empiezas: si compras el dominio y el hosting en el mismo sitio o no. Las dos fórmulas tienen sentido. Tenerlo todo junto es más cómodo al principio, sobre todo si no quieres complicarte con DNS ni configuraciones raras la primera semana; muchos registradores ofrecen un hosting básico junto al dominio que sirve para arrancar sin comerte la cabeza.
 
-Ahora bien, si ya tienes algo más de soltura, separar dominio y hosting (dominio en Namecheap, hosting donde más te convenga, incluyendo Hostinger) te da más margen para cambiar de proveedor de hosting sin tener que mover el dominio de sitio, que es un lío innecesario si lo evitas desde el principio.
+Ahora bien, si ya tienes algo más de soltura, separar dominio y hosting (el dominio en Namecheap, el hosting donde más te convenga) te da más margen para cambiar de proveedor de hosting sin tener que mover el dominio de sitio, que es un lío innecesario si lo evitas desde el principio. Yo lo tengo así: el dominio donde lo compré y el hosting aparte, y no me arrepiento.
 
 Al final, la respuesta a qué dominio comprar para tu primer proyecto web depende de si buscas algo más internacional (.com) o algo claramente local (.es), y de que el nombre que quieres esté libre en la extensión que prefieres. Yo empezaría mirando disponibilidad antes de enamorarme de un nombre concreto, que esa parte sí que puede llevarte más tiempo del que crees.
 

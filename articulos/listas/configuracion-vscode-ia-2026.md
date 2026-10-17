@@ -5,7 +5,7 @@ description: "Configuración de VS Code con IA en 2026: extensiones que siguen v
 category: "Lista"
 date: 2026-09-18
 readtime: 8
-last_modified_at: 2026-09-18
+last_modified_at: 2026-10-17
 ---
 
 Cada dos semanas sale una lista de "las 7 extensiones de IA que necesitas" y todas recomiendan lo mismo de hace un año. El problema no es la lista, es que **la IA no se configura con extensiones, se configura con flujo**: qué herramienta hace cada cosa, qué reglas le das, y cómo revisas lo que te propone. Esto es lo que de verdad tengo montado a mediados de 2026, tras probar de más y quedarme con menos.
@@ -32,7 +32,7 @@ Esta consolidación es buena para elegir: ya no hay 10 opciones, hay tres claras
 
 La pieza más infravalorada. **AGENTS.md** es un fichero en la raíz de tu proyecto donde le dices a la IA cómo trabaja con ESE proyecto: qué comandos se usan para build y tests, qué convenciones de código sigues, qué no debe tocar. Y desde 2025 lo soporta de forma nativa el agente de Copilot (y lee también `.github/copilot-instructions.md`). En 2026, además, los servidores de Claude y el fichero `.cursorrules` evolucionaron hacia este estándar: los `.cursorrules` están deprecados, ahora se usa AGENTS.md.
 
-No es marketing: es el mayor salto en calidad de lo que te propone la IA. Normalmente lo explico con detalle en esta guía de AGENTS.md y en la de cursor rules y `.mdc`, pero la idea cabe en tres líneas:
+No es marketing: es el mayor salto en calidad de lo que te propone la IA. La idea cabe en tres líneas:
 
 ```markdown
 # Convenciones
@@ -80,7 +80,7 @@ Para que no repitas mis fallos de novato:
 
 Si te quedas con algo, esto es: **Copilot para el día a día, Cline (con tu API) para el agente libre, AGENTS.md en cada proyecto de prácticas, y modelos propios para no gastar de más.**
 
-No necesitas las 20 extensiones. Necesitas elegir dos (copiloto + agente), darle a la IA las reglas de tu proyecto y aprender a revisar lo que te devuelve. Si quieres ver el otro lado del péndulo —todo gratuito sin pagar una suscripción—, en esta comparativa de copilotos y en la de alternativas gratis a Cursor tienes cómo montar el mismo flujo sin gastar un céntimo. Y si me preguntas qué extensión conservaría si solo pudiera tener una: AGENTS.md ni siquiera es una extensión, y es la que más ha mejorado mi código con IA. Escríbeme a ivan@codeandia.com si quieres que te comparta mi `settings.json` completo.
+No necesitas las 20 extensiones. Necesitas elegir dos (copiloto + agente), darle a la IA las reglas de tu proyecto y aprender a revisar lo que te devuelve. Y si me preguntas qué extensión conservaría si solo pudiera tener una: AGENTS.md ni siquiera es una extensión, y es la que más ha mejorado mi código con IA. Escríbeme a ivan@codeandia.com si quieres que te comparta mi `settings.json` completo.
 
 ## Sigue por aquí
 
