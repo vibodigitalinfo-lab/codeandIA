@@ -1,8 +1,8 @@
 # codeandIA
 
-> Apuntes de un estudiante de DAW sobre programar con herramientas de IA: reviews, comparativas, guías y listas, probadas a mano y con precios comprobados desde España (moneda, impuestos y fecha de comprobación).
+> Apuntes de un estudiante de DAW sobre programar con herramientas de IA: comparativas, guías y listas, probadas a mano y con precios comprobados desde España (moneda, impuestos y fecha de comprobación).
 >
-> Todo lo que hay aquí lo he escrito Iván. Si una herramienta no la he probado, lo digo en el propio artículo. Sin reviews pagadas.
+> Todo lo que hay aquí lo he escrito Iván. Si una herramienta no la he probado, lo digo en el propio artículo. Sin contenido pagado.
 
 Las URLs de los artículos son estables y no cambian. Los precios y disponibilidades se revisan periódicamente: si vas a comprar algo, confirma el precio en la página del vendedor.
 

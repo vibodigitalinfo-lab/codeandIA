@@ -2,8 +2,8 @@ name: Validar
 
 # El build de Pages es el de GitHub por defecto (no hay workflow de build aqui,
 # a proposito: anadirlo podria romper el despliegue). Este workflow solo
-# comprueba lo que se puede comprobar sin Jekyll: fechas, ficha de las reviews
-# y que el YAML siga parseando.
+# comprueba lo que se puede comprobar sin Jekyll: fechas y que el YAML siga
+# parseando.
 
 on:
   push:
@@ -35,9 +35,9 @@ jobs:
       - name: Fechas de revision coherentes
         run: python scripts/marcar_actualizado.py --check
 
-      # La promesa de /como-trabajamos/ ("cada review abre con una ficha de
-      # prueba") no la hacia cumplir nadie: un review nuevo sin ficha se
-      # publicaba igual. Aqui falla la build si vuelve a pasar.
+      # Si algun dia vuelve a haber piezas en la categoria Review, deben llevar
+      # ficha de prueba (version, tiempo, proyecto, limites) o la build falla.
+      # Ahora mismo la categoria esta vacia, asi que no audita nada.
       - name: Ficha de prueba completa en las reviews
         run: python scripts/auditar_reviews.py
 

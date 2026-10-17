@@ -41,7 +41,7 @@
   <meta property="og:image" content="{{ og_img_rel | absolute_url }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: reviews y guías de IA para programadores">
+  <meta property="og:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: comparativas y guías de IA para programadores">
   {% if page.category %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 {% if page.last_modified_at or page.updated %}
@@ -55,7 +55,7 @@
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{{ og_img_rel | absolute_url }}">
-  <meta name="twitter:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: reviews y guías de IA para programadores">
+  <meta name="twitter:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: comparativas y guías de IA para programadores">
 
   <!-- Canonical (evita contenido duplicado en buscadores) -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -130,7 +130,7 @@
         "@id": {{ site.url | append: "/#ivan" | jsonify }},
         "name": "Iván",
         "jobTitle": "Estudiante de Desarrollo de Aplicaciones Web",
-        "description": "Autor de codeandIA: reviews, comparativas y guías de herramientas de IA para desarrolladores, probadas a mano.",
+        "description": "Autor de codeandIA: comparativas y guías de herramientas de IA para desarrolladores, probadas a mano.",
         "url": {{ site.url | append: "/sobre-mi/" | jsonify }},
         "email": "ivan@codeandia.com"
       }

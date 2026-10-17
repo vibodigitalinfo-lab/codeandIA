@@ -3,7 +3,7 @@ layout: default
 title: "Cómo trabajamos con IA"
 description: "En codeandIA uso herramientas de IA como asistentes de escritura y de búsqueda, pero cada artículo pasa por revisión humana. Esto es lo que hace la IA y lo que hago yo."
 permalink: /como-trabajamos/
-last_modified_at: 2026-10-01
+last_modified_at: 2026-10-17
 ---
 
 <section class="section section-alt">
@@ -40,8 +40,8 @@ last_modified_at: 2026-10-01
   <div class="container container-narrow">
     <h2 class="section-title">La promesa</h2>
     <p class="about-text">El resultado es una mezcla de la velocidad de la IA y el criterio de una persona. Si algún día publico algo generado de principio a fin sin revisarlo, lo diré en el propio artículo. Y seguiré contando lo malo de las herramientas, aunque en los artículos de producto haya comisión de afiliado de por medio: cobrar por un enlace no es un encargo para recomendar.</p>
-    <p class="about-text">Publico varios artículos por semana. Cuando entrego una tanda van varios seguidos, cada uno con su fecha, y entre tandas pasan días sin publicar: el ritmo es irregular a propósito. Lo que sí es fijo es que nunca hay dos artículos con la misma fecha, ninguna fecha en el futuro y ningún hueco de más de tres días, para que el blog parezca vivo. Lo que publico es lo que puedo revisar, no lo que quiero llenar.</p>
-    <p class="about-text">Los precios se comprueban la fecha que aparece en cada artículo, y si cambian, se actualiza la tarjeta de la portada. Las reseñas y comparativas son <a href="{{ "/sobre-mi/" | relative_url }}">mi opinión</a> después de usar cada herramienta en proyectos reales: cada review abre con una ficha de prueba con la versión, el tiempo de uso, el proyecto y los límites que encontré.</p>
+    <p class="about-text">Publico uno o dos artículos por semana, cada uno con su fecha real. Entre tandas pasan días sin publicar: el ritmo es irregular a propósito. Lo que sí es fijo es que nunca hay dos artículos con la misma fecha, ninguna fecha en el futuro y ninguna que no sea la de verdad. Prefiero publicar menos que fingir actividad.</p>
+    <p class="about-text">Los precios se comprueban la fecha que aparece en cada artículo, y si cambian, se actualiza la tarjeta de la portada. Lo que escribo es <a href="{{ "/sobre-mi/" | relative_url }}">mi opinión</a> partiendo de lo que he usado de verdad; cuando algo no lo he probado, lo digo en el propio artículo en vez de fingir que sí.</p>
     <p class="about-text"><a href="{{ "/articulos/" | relative_url }}">Ver los artículos →</a></p>
   </div>
 </section>

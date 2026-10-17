@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Herramientas de IA para programadores en España"
-description: "Reviews, comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios comprobados desde España: moneda, impuestos y fecha."
+description: "Comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios comprobados desde España: moneda, impuestos y fecha."
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
@@ -13,12 +13,12 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     <div class="hero-copy">
       <p class="hero-kicker hand">apuntes de un estudiante de DAW</p>
       <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer <span class="hero-accent">mejor dev</span>.</h1>
-      <p class="hero-subtitle">Reviews, guías y comparativas de herramientas de IA para programar, probadas a mano y con precios comprobados desde España: te digo la moneda, los impuestos y la fecha.</p>
+      <p class="hero-subtitle">Guías, comparativas y listas de herramientas de IA para programar, probadas a mano y con precios comprobados desde España: te digo la moneda, los impuestos y la fecha.</p>
       <div class="hero-cta">
         <a href="#articulos" class="btn btn-accent">Leer los últimos artículos</a>
         <a href="{{ "/ofertas/" | relative_url }}" class="btn btn-outline">Ofertas y setup <span aria-hidden="true">→</span></a>
       </div>
-      <p class="hero-trust">probado a mano · sin reviews pagadas · precios con fecha e impuestos</p>
+      <p class="hero-trust">probado a mano · sin contenido pagado · precios con fecha e impuestos</p>
     </div>
 
     <div class="hero-visual" aria-hidden="true">
@@ -130,7 +130,7 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     <h2 class="section-title">Lo que uso</h2>
     <p class="section-intro">
       Las herramientas que uso de verdad y que recomendaría a quien está aprendiendo a programar con IA.
-      La fecha de cada tarjeta es la de la <strong>última revisión real</strong> de esa review, no la de hoy.
+      La fecha de cada tarjeta es la de la <strong>última revisión real</strong> de esa ficha, no la de hoy.
       Si no la he vuelto a mirar desde entonces, la fecha se queda ahí y la tarjeta lo dice: prefiero que se vea
       viejo antes que fingir que está al día.
     </p>
@@ -184,11 +184,11 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
       <li><strong>La uso de verdad</strong> en proyectos reales de clase o personales, no en un tutorial de cinco minutos. En el hardware, lo que uso lo tengo delante; lo que no, lo investigo y lo digo.</li>
       <li><strong>Mido lo que importa:</strong> velocidad, límites, precio real y si te hace mejor programador o solo más rápido.</li>
       <li><strong>Actualizo</strong> cuando cambia algo importante: precios, planes o funciones nuevas.</li>
-      <li><strong>También cuento lo malo.</strong> Nada de reviews pagadas: si algo no me convence, lo digo.</li>
+      <li><strong>También cuento lo malo.</strong> Nada de contenido pagado: si algo no me convence, lo digo.</li>
     </ol>
 
     <h3 class="about-subtitle">Y para que puedas comprobarlo</h3>
-    <p class="about-text">«Probado a mano» solo vale si se puede verificar, así que cada review abre con una <strong>ficha de prueba</strong>: qué versión usé, cuánto tiempo, en qué proyecto y dónde falló. Si una review no la tiene, es porque todavía no la he escrita con ese nivel de detalle, y lo prefiero a inventarla.</p>
+    <p class="about-text">«Probado a mano» solo vale si se puede verificar, así que cuando algo lo he probado de verdad, el propio artículo lo dice: qué versión usé, cuánto tiempo y en qué proyecto. Y cuando algo no lo he probado, también lo digo en el artículo, en vez de fingir que sí.</p>
     <ul class="method-list">
       <li>El <strong>precio</strong> va con la fecha en la que lo comprobaste, y el válido es el de la tienda el día que compras.</li>
       <li>Las <strong>tablas comparativas</strong> que no vienen de una medición mía lo dicen explícitamente: es mi impresión, no un dato medido.</li>
@@ -221,7 +221,7 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
         <p>Depende de cuánto lo uses. Si trabajas a diario con contexto largo o te quedas sin mensajes en los peores momentos, puede valer la pena; para el uso puntual de un estudiante, el plan gratuito suele bastar. Es una decisión de cuánto lo usas, no de cuál es «mejor».</p>
       </details>
       <details class="faq-item">
-        <summary>¿Puedo pedir una review o sugerir una herramienta?</summary>
+        <summary>¿Puedo sugerir una herramienta?</summary>
         <p>¡Claro! Escríbeme a <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a> y lo tendré en cuenta. Me interesa probar herramientas que usen programadores de verdad.</p>
       </details>
       <details class="faq-item">
@@ -241,15 +241,15 @@ description: "Reviews, comparativas y guías de herramientas de IA para programa
     <h2 class="section-title">Sobre mí</h2>
     <div class="about-grid">
       <div class="about-copy">
-        <p>Soy Iván, estudiante de Desarrollo de Aplicaciones Web. Llevo más de un año usando herramientas de IA a diario para programar: primero por necesidad, luego por curiosidad, y ahora para contarlo por aquí.</p>
+        <p>Soy Iván, estudiante de Desarrollo de Aplicaciones Web. Uso herramientas de IA a diario para programar, sobre todo Claude: primero por necesidad, luego por curiosidad, y ahora para contarlo por aquí.</p>
         <p>Este blog nació con un propósito claro: que quien está aprendiendo a programar sepa qué herramientas merecen la pena de verdad y cuáles son solo humo, sin marketing ni letra pequeña.</p>
-        <p>Aquí encontrarás reviews honestas, comparativas y guías de herramientas de IA para desarrolladores. Del software, todo lo que recomiendo lo he probado yo; del hardware, te digo en cada pieza si la tengo montada o si la he elegido investigando.</p>
+        <p>Aquí encontrarás comparativas y guías de herramientas de IA para desarrolladores. Del software, lo que recomiendo lo he probado yo; del hardware, te digo en cada pieza si la tengo montada o si la he elegido investigando.</p>
         <p><a href="{{ "/sobre-mi/" | relative_url }}">Mi historia completa y cómo pruebo <span aria-hidden="true">→</span></a></p>
       </div>
       <div class="about-facts">
         <div class="fact">Estudiante de DAW</div>
         <div class="fact">Pruebo cada herramienta de software antes de recomendarla</div>
-        <div class="fact">Reviews y comparativas en primera persona</div>
+        <div class="fact">Comparativas y guías en primera persona</div>
         <div class="fact fact-email"><a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a></div>
       </div>
     </div>

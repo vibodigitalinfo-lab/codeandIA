@@ -1,5 +1,5 @@
-"""Regla de fechas del sitio: ningun articulo futuro, fechas sin repetir y
-huecos entre fechas limitados (cadencia de 2-3 articulos por semana).
+"""Regla de fechas del sitio: `date` dentro de la ventana [lanzamiento, hoy],
+sin fechas repetidas y nunca posterior a `updated`.
 
 Solo cuentan los articulos indexables: los retirados con `noindex: true` no
 forman parte de la cadencia publica (el dia de lanzamiento, la fecha mas
@@ -65,23 +65,18 @@ for d, n in sorted(conteo.items()):
         for rel in sorted(k for k, v in fechas.items() if v == d):
             fallos.append('    %s' % rel)
 
-# 3. Huecos permitidos: como mucho MAX_GAP dias entre fechas consecutivas,
-#    y la mas reciente tampoco puede quedarse mas de MAX_GAP dias atras.
-#    La hoja de ruta post-crisis (max 1-2 articulos por semana) deja huecos
-#    de hasta 7 dias; mas de eso ya parece un sitio parado.
-MAX_GAP = 7
+# 3. Ventana de fechas valida: desde el lanzamiento del dominio (2026-09-08)
+#    hasta hoy. No se fabrica historia hacia atras ni se fechan piezas en el
+#    futuro. El hueco entre fechas ya no se limita: la hoja de ruta post-crisis
+#    marca 1-2 articulos por semana, sin picos.
+MIN_DATE = datetime.date(2026, 9, 8)
 ds = sorted(conteo)
 if ds:
-    if (HOY - ds[-1]).days > MAX_GAP:
-        fallos.append('SIN ARTICULO RECIENTE: el ultimo es %s, hace %d dias'
-                      % (ds[-1], (HOY - ds[-1]).days))
-    for a, b in zip(ds, ds[1:]):
-        gap = (b - a).days
-        if gap > MAX_GAP:
-            fallos.append('HUECO DE %d DIAS entre %s y %s (max %d)'
-                          % (gap, a, b, MAX_GAP))
-    print('%d articulos | %s .. %s | rango de %d dias'
-          % (len(fechas), ds[0], ds[-1], (ds[-1] - ds[0]).days + 1))
+    print('%d articulos | %s .. %s' % (len(fechas), ds[0], ds[-1]))
+for rel, d in sorted(fechas.items()):
+    if d < MIN_DATE:
+        fallos.append('FECHA ANTERIOR AL LANZAMIENTO %s -> %s (min %s)'
+                      % (rel, d, MIN_DATE))
 
 for rel in sin_fecha:
     fallos.append('SIN date: %s' % rel)
@@ -120,6 +115,8 @@ for p in ficheros_con_frontmatter():
         fallos.append('LAST_MODIFIED_AT ANTERIOR A updated %s -> %s < %s' % (rel, lm, u))
     if lm and d and lm < d:
         fallos.append('LAST_MODIFIED_AT ANTERIOR A date %s -> %s < %s' % (rel, lm, d))
+    if u and d and d > u:
+        fallos.append('DATE POSTERIOR A updated %s -> %s > %s' % (rel, d, u))
     if u and not lm:
         avisos.append('%s (updated %s)' % (rel, u))
 
@@ -135,4 +132,4 @@ if fallos:
     for f in fallos:
         print('  - %s' % f)
     sys.exit(1)
-print('OK: sin fechas futuras ni repetidas, huecos dentro del limite (%d dias)' % MAX_GAP)
+print('OK: fechas dentro de rango (desde %s), sin futuras ni repetidas' % MIN_DATE)
