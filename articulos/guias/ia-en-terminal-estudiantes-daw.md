@@ -5,7 +5,7 @@ description: "Guía para integrar IA en tu terminal: instalar y configurar Claud
 category: "Guía"
 date: 2026-07-10
 updated: 2026-10-03
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-17
 readtime: 8
 noindex: true
 sitemap: false
@@ -33,7 +33,7 @@ No necesitas las tres. Empieza por **una** según tu caso.
 
 ## Paso 1: GitHub Copilot CLI (la más fácil, ya la tienes si eres estudiante)
 
-Si tienes **GitHub Copilot gratis de estudiante** (ver [mi review](/articulos/reviews/github-copilot-gratis-estudiantes/)), el CLI viene incluido.
+Si tienes **GitHub Copilot gratis de estudiante**, el CLI viene incluido.
 
 ```bash
 # 1. Instala GitHub CLI si no la tienes

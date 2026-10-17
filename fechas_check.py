@@ -67,9 +67,9 @@ for d, n in sorted(conteo.items()):
 
 # 3. Huecos permitidos: como mucho MAX_GAP dias entre fechas consecutivas,
 #    y la mas reciente tampoco puede quedarse mas de MAX_GAP dias atras.
-#    Con una cadencia de 2-3 articulos por semana, un hueco de 1-3 dias entre
-#    dos fechas es normal y sigue pareciendo una publicacion continua.
-MAX_GAP = 3
+#    La hoja de ruta post-crisis (max 1-2 articulos por semana) deja huecos
+#    de hasta 7 dias; mas de eso ya parece un sitio parado.
+MAX_GAP = 7
 ds = sorted(conteo)
 if ds:
     if (HOY - ds[-1]).days > MAX_GAP:

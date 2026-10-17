@@ -5,7 +5,7 @@ description: "Tendencias reales de IA en programación 2026: agentes autónomos,
 category: "Lista"
 date: 2026-10-10
 readtime: 10
-last_modified_at: 2026-10-10
+last_modified_at: 2026-10-17
 ---
 
 Hace un año, "IA para programar" significaba Copilot autocompletando líneas. Hoy, los seniors que conozco usan la IA de formas que parecen ciencia ficción: agentes que despliegan solos, protocolos que conectan IA con herramientas externas, y modelos locales que hacen code review sin enviar una sola línea de código a la nube. Estas no son tendencias de futurólogo en Twitter — **son cosas que se están usando HOY en empresas reales**. Y lo mejor: un estudiante de DAW puede adoptarlas todas sin pagar nada.
@@ -189,7 +189,7 @@ void createOrder_insufficientStock_reservesAndNotifies() { ... }
 **Mi recomendación concreta**:
 
 1. **Hoy**: instala Ollama + `qwen2.5-coder:7b`. Empieza a usarlo para code review offline.
-2. **Esta semana**: configura [GitHub Copilot gratis](/articulos/reviews/github-copilot-gratis-estudiantes/) en VS Code y prueba el Agent Mode.
+2. **Esta semana**: configura GitHub Copilot (gratis con el Student Pack) en VS Code y prueba el Agent Mode.
 3. **Este mes**: instala Claude Code y úsalo para un proyecto real.
 4. **Siempre**: lee el código que la IA genera. Nunca confíes ciegamente.
 
@@ -201,6 +201,6 @@ De la lista, tengo curiosidad por saber cuál va a probar cada uno primero. Si m
 
 ## Sigue por aquí
 
-- [MCP para principiantes: qué es y por qué está por todas partes](/articulos/guias/mcp-para-principiantes-guia-2026/)
+- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
 - [IA local o en la nube para programar: cuál te conviene](/articulos/comparativas/ia-local-vs-ia-nube-programar/)
-- [CodeRabbit 2026: ¿merece la pena la IA que revisa tus PRs?](/articulos/reviews/coderabbit-review-ai-code-review/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)

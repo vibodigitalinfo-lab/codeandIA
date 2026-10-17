@@ -35,14 +35,11 @@
 - id: teclado
   nombre: Teclado
   emoji: "⌨️"
-  articulo:
-    url: "/articulos/listas/mejores-teclados-mecanicos-programar/"
-    label: "Los mejores teclados mecánicos para programar"
   productos:
     - nombre: "Keychron V1 Max (Gateron Red)"
       precio: "141,79€"
       url: "https://www.amazon.es/dp/B0CNW5G66B?tag=codeandia-21"
-      nota: "75% inalámbrico, QMK/VIA y hot-swappable. Mi relación calidad-precio favorita."
+      nota: "75% inalámbrico, QMK/VIA y hot-swappable. La mejor relación calidad-precio para empezar."
       verificado: "2026-09-30"
     - nombre: "Royal Kludge RK84ES"
       precio: "84,99€"
@@ -57,7 +54,7 @@
     - nombre: "Logitech MX Master 3S"
       precio: "99,99€"
       url: "https://www.amazon.es/dp/B0FHHV6YR5?tag=codeandia-21"
-      nota: "El que uso a diario: multi-dispositivo, scroll MagSpeed y botones para atajos."
+      nota: "Multi-dispositivo, scroll MagSpeed y botones para atajos."
       verificado: "2026-09-30"
     - nombre: "Logitech Lift Vertical"
       precio: "49,95€"
@@ -83,14 +80,11 @@
 - id: auriculares
   nombre: Auriculares
   emoji: "🎧"
-  articulo:
-    url: "/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/"
-    label: "Auriculares con cancelación de ruido"
   productos:
     - nombre: "Soundcore Q20i"
       precio: "29,99€"
       url: "https://www.amazon.es/dp/B0C3HCD34R?tag=codeandia-21"
-      nota: "Cancelación de ruido híbrida y 40 h de batería. Con la aspiradora de casa, concentrate de verdad."
+      nota: "Cancelación de ruido híbrida y 40 h de batería. El ANC más barato que funciona."
       verificado: "2026-09-30"
     - nombre: "Sony WH-CH720N"
       precio: "69,99€"

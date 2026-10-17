@@ -1,18 +1,12 @@
 - id: herramientas
   titulo: "Elegir tu editor y tu asistente con IA"
   nivel: "Desde cero"
-  resumen: "Cursor, Copilot, Trae, Claude… comparar antes de pagar es la decisión que más tiempo y dinero ahorra cuando empiezas."
+  resumen: "Cursor, Copilot, Claude… comparar antes de pagar es la decisión que más tiempo y dinero ahorra cuando empiezas."
   pasos:
     - path: "/articulos/comparativas/chatgpt-vs-cursor-para-programar/"
       nota: "La comparación base: chat o editor, y para qué sirve cada uno."
     - path: "/articulos/comparativas/continue-dev-vs-cursor-2026/"
       nota: "La alternativa open source, en serio."
-    - path: "/articulos/reviews/trae-ai-ide-review-2026/"
-      nota: "El que más se parece a Cursor y es gratis."
-    - path: "/articulos/reviews/cursor-ai-review-espanol/"
-      nota: "Cursor a fondo, en español, tras usarlo a diario."
-    - path: "/articulos/reviews/github-copilot-gratis-estudiantes/"
-      nota: "Si estudias, el plan de estudiante cambia la cuenta."
 
 - id: equipo-entorno
   titulo: "Montar tu equipo y tu entorno"
@@ -25,12 +19,6 @@
       nota: "Ajustes concretos que ahorran tiempo cada día."
     - path: "/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/"
       nota: "Dejar el editor listo para pedirle ayuda a la IA."
-    - path: "/articulos/listas/mejores-teclados-mecanicos-programar/"
-      nota: "El teclado es donde pasas las horas: elegirlo bien importa."
-    - path: "/articulos/reviews/keychron-q1-max-review-2026/"
-      nota: "El que uso a diario, explicado sin marketing."
-    - path: "/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/"
-      nota: "Silencio para concentrarte en el examen o en el código."
 
 - id: primer-proyecto
   titulo: "Aprender y publicar tu primer proyecto"
@@ -43,8 +31,6 @@
       nota: "Qué framework elegir si no quieres atascarte."
     - path: "/articulos/guias/que-dominio-comprar-primer-proyecto-web/"
       nota: "Dónde comprar el dominio y qué mirar."
-    - path: "/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/"
-      nota: "Hosting con precio o alojamiento gratuito."
     - path: "/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/"
       nota: "Las tres opciones de despliegue automático."
 
@@ -57,8 +43,6 @@
       nota: "Que dentro de seis meses entiendas tu propio código."
     - path: "/articulos/comparativas/vitest-vs-jest-2026/"
       nota: "Elegir el runner de tests y no pelearte con la configuración."
-    - path: "/articulos/reviews/coderabbit-review-ai-code-review/"
-      nota: "Revisión automática en el pull request."
     - path: "/articulos/guias/copias-seguridad-proyectos-programador/"
       nota: "El día que se rompa todo, tener copia."
     - path: "/articulos/guias/no-pegues-claves-api-en-la-ia/"
@@ -71,12 +55,6 @@
   nivel: "Avanzado"
   resumen: "La parte que casi nadie explica bien: cómo la IA lee tus proyectos y qué modelo usar para cada tarea."
   pasos:
-    - path: "/articulos/guias/mcp-para-principiantes-guia-2026/"
-      nota: "Qué es MCP, sin humo."
-    - path: "/articulos/guias/github-copilot-intellij-java-daw/"
-      nota: "Copilot dentro de IntelliJ, el editor de Java."
-    - path: "/articulos/reviews/chatgpt-plus-para-programadores/"
-      nota: "Cuándo el plan de pago se justifica de verdad."
     - path: "/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/"
       nota: "Qué modelo usar para cada tipo de tarea."
     - path: "/articulos/comparativas/ia-local-vs-ia-nube-programar/"

@@ -5,7 +5,7 @@ description: "Te explico paso a paso cómo configurar Cursor AI en VSCode desde 
 category: "Guía"
 date: 2026-09-08
 readtime: 7
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-17
 ---
 
 Llevo desde segundo de DAW usando VSCode como si fuera una extensión de mi brazo, así que cuando me dijeron que tenía que probar Cursor AI pensé que iba a ser otro editor más con un chatbot pegado con celo. Me equivoqué bastante. Configurar Cursor AI en VSCode desde cero me llevó menos de veinte minutos y desde entonces no he vuelto a abrir el VSCode normal para hacer proyectos de clase ni para mis cosillas personales. Voy a contarte exactamente lo que hice, en el orden en que lo hice, incluyendo lo que no entendí a la primera.
@@ -41,5 +41,5 @@ Lo que menos me convence es que en proyectos muy grandes a veces tarda un poco m
 ## Sigue por aquí
 
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
-- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)
+- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/)
 - [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)

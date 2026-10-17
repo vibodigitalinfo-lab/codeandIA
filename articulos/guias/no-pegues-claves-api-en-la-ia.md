@@ -5,7 +5,7 @@ description: "Guía para no filtrar claves de API, contraseñas ni tokens al usa
 category: "Guía"
 date: 2026-10-06
 readtime: 9
-last_modified_at: 2026-10-06
+last_modified_at: 2026-10-17
 ---
 
 He visto a más de un estudiante pegarle a ChatGPT un `application.yml` entero para preguntarle por qué le falla la conexión a la base de datos. El archivo tenía la contraseña de producción escrita dentro. En ese momento la clave dejó de ser secreta.
@@ -20,9 +20,9 @@ No solo son las claves de OpenAI. Cuando pegas un archivo de configuración o un
 - Contraseñas de MySQL, PostgreSQL o MongoDB en `application.yml` o `.env`.
 - Tokens de GitHub y claves de despliegue de Netlify, Vercel o Hostinger.
 - El campo `secretKey` de la cookie de sesión en un proyecto con Spring Security.
-- Correos de_instance y correos de administrador en pruebas de JWT firmados.
+- Correos de prueba y de administrador incluidos en tokens JWT firmados.
 
-El detalle que sorprende: los tokens de GitHub son los más delicados porque duran meses. Una clave de OpenAI la puedes revocar en cuanto te avisas; un token con permisos de repositorio sigue dando acceso a tu código hasta que lo revoques tú.
+El detalle que sorprende: los tokens de GitHub son los más delicados porque duran meses. Una clave de OpenAI la puedes revocar en cuanto te das cuenta; un token con permisos de repositorio sigue dando acceso a tu código hasta que lo revoques tú.
 
 ## Por qué "solo lo usé para preguntar" sí importa
 
@@ -36,7 +36,7 @@ Por eso la regla no es "no uses IA con secretos", sino "usa IA sin secretos dent
 
 ## El método: pega la forma, no el valor
 
-La solución es tener siempre a mano un archivo de ejemplo. Es el `.env.example` que many proyectos ya usan, y su único trabajo es describir las variables sin los valores:
+La solución es tener siempre a mano un archivo de ejemplo. Es el `.env.example` que muchos proyectos ya usan, y su único trabajo es describir las variables sin los valores:
 
 {% raw %}
 ```bash
@@ -89,9 +89,9 @@ Antes de enviar cualquier cosa al chat, comprueba estas cuatro cosas:
 Esto es lo que más gente se salta, y es la parte que de verdad importa. Una clave pegada en un chat no se queda invalidada sola.
 
 1. **Revoca la clave, no la borres.** En el panel del proveedor hay una opción de revocar y regenerar. Borrar el mensaje no sirve de nada: la clave sigue viva en el historial del chat y en los registros del proveedor.
-2. **Comprueba el uso antes y después.** Las APIs cobran por uso, así que un_commit con una clave filtrada se ve en el gráfico de gasto a los pocos minutos. Si ves un pico que no reconoces, alguien más la está usando.
+2. **Comprueba el uso antes y después.** Las APIs cobran por uso, así que un commit con una clave filtrada se ve en el gráfico de gasto a los pocos minutos. Si ves un pico que no reconoces, alguien más la está usando.
 3. **Rota también las de GitHub y del hosting.** Si el token que pegaste tenía permisos de repositorio, revócalo y crea uno nuevo con el mínimo alcance.
-4. **Si el secreto estaba en un commit**, remember que `git rm` no lo borra del historial. Sigue ahí, y basta con que alguien clone el repo para recuperarlo. La rotación de la clave es la única solución; reescribir el historial solo elimina el síntoma si ya la clave está en manos ajenas.
+4. **Si el secreto estaba en un commit**, recuerda que `git rm` no lo borra del historial. Sigue ahí, y basta con que alguien clone el repo para recuperarlo. La rotación de la clave es la única solución; reescribir el historial solo elimina el síntoma si ya la clave está en manos ajenas.
 
 Y un apunte de sentido común: una clave que vive en un repositorio público no la puedes proteger con un `.gitignore` si ya está en la historia. Por eso el paso 1 va primero.
 
@@ -118,14 +118,14 @@ Si tu proyecto llega a producción, la cosa ya no es solo el chat: revisa el art
 
 ## Veredicto
 
-La regla cabe en una línea: **la IA ve tu código, no tus claves**. Cuando te pidas un archivo de configuración, pásalo con los valores cambiados por `sk-aqui-va-tu-clave`, y el diagnóstico va a ser igual de bueno.
+La regla cabe en una línea: **la IA ve tu código, no tus claves**. Cuando le pidas un archivo de configuración, pásalo con los valores cambiados por `sk-aqui-va-tu-clave`, y el diagnóstico va a ser igual de bueno.
 
 Si ya has pegado algo, no te castigues: revoca, comprueba el gasto y sigue. Lo que no sirve de nada es dejar la clave ahí esperando que nadie la lea, porque eso ya no depende de ti.
 
-Para cerrar el círculo, dos lecturas que van justo al revés: prompt injection y seguridad en tus apps con IA trata de proteger tu aplicación de quien la usa, y programar con IA sin volverte dependiente trata de que el modelo no termine decidiendo por ti. Esta va de la tercera persona en la habitación: la IA.
+Para cerrar el círculo: esta guía va de no regalar tus claves por descuido, pero la seguridad no acaba en el chat. Cuando tu proyecto pase a producción, tendrás que guardar esas claves bien de verdad, y ahí entra la configuración de secrets y variables.
 
 ## Sigue por aquí
 
 - [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
-- [MCP para principiantes: qué es y por qué está por todas partes](/articulos/guias/mcp-para-principiantes-guia-2026/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
 - [Copias de seguridad de tus proyectos: no pierdas las prácticas](/articulos/guias/copias-seguridad-proyectos-programador/)

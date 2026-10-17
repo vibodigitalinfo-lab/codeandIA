@@ -5,7 +5,7 @@ description: "Continue.dev, Cursor y GitHub Copilot cara a cara: precios, privac
 category: "Comparativa"
 date: 2026-09-15
 readtime: 11
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-17
 updated: 2026-10-03
 last_modified_at: 2026-10-03
 ---
@@ -125,7 +125,7 @@ Todos los precios por millón de tokens son los oficiales que comprobé el 3 de 
 | Caso | Uso | Por qué |
 |---|---|---|
 | **Estudiante DAW con Pack Estudiante** | **Copilot Student ($0)** | Gratis mientras GitHub te mantenga como estudiante verificado, autocompletado Java ilimitado, zero config |
-| **Proyecto Java / Spring en IntelliJ** | **Copilot en JetBrains** | Agent + chat dentro de IntelliJ (ver [Copilot en IntelliJ](/articulos/guias/github-copilot-intellij-java-daw/)) |
+| **Proyecto Java / Spring en IntelliJ** | **Copilot en JetBrains** | Agent + chat dentro de IntelliJ |
 | **Privacidad total / offline / examen sin red** | **Continue.dev + qwen2.5-coder:7b (Ollama)** *(archivado, pero es lo que uso)* | Gratis, nada sale, funciona sin red, sorprendentemente bueno |
 | **Side project React/Next.js + IA agente autónomo** | **Cursor Pro ($20)** | Autonomía real, Composer, MCP, preview deployment cercano |
 | **Portfolio / SaaS serio / presupuesto cero** | **Continue.dev + API Sonnet/GPT** *(archivado)* | Gratis + pagás consumo real, eliges modelo, control total |
@@ -144,5 +144,5 @@ Al final esta comparativa se reduce a una pregunta: ¿prefieres gratis, abierto 
 ## Sigue por aquí
 
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
-- [Cursor AI para estudiantes: ¿merece la pena? (review en español)](/articulos/reviews/cursor-ai-review-espanol/)
+- [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
 - [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)

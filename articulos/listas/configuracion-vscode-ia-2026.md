@@ -26,7 +26,7 @@ Esta consolidación es buena para elegir: ya no hay 10 opciones, hay tres claras
 
 **2. Cline (el agente libre, con tu API).** Cuando Copilot no me deja hacer algo o simplemente no tengo créditos, uso Cline con mi propia API key. Es Apache-2.0 y pagas los tokens que gastas; si usas un modelo local o barato, el coste es risible. Para tareas largas ("refactoriza esto y ejecuta los tests") es mi herramienta.
 
-**3. No uso Trae como extensión.** Ojo con esto: Trae no es una extensión de VS Code, es un IDE aparte (un fork de VS Code). Si te gusta su estilo, lo ves en [mi review de Trae AI IDE](/articulos/reviews/trae-ai-ide-review-2026/); aquí hablo de VS Code de verdad.
+**3. Trae no es una extensión.** Ojo con esto: Trae no es una extensión de VS Code, es un IDE aparte (un fork de VS Code). Aquí hablo de VS Code de verdad; si lo que buscas es otro editor, mira la comparativa de [Continue.dev vs Cursor](/articulos/comparativas/continue-dev-vs-cursor-2026/).
 
 ## El fichero que lo cambia todo: AGENTS.md
 
@@ -86,4 +86,4 @@ No necesitas las 20 extensiones. Necesitas elegir dos (copiloto + agente), darle
 
 - [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
 - [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
-- [Trae AI IDE 2026: el editor que quiere comerse a Cursor](/articulos/reviews/trae-ai-ide-review-2026/)
+- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/)

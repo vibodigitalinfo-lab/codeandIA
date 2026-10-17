@@ -6,7 +6,7 @@ category: "Lista"
 date: 2026-10-08
 readtime: 9
 updated: 2026-10-08
-last_modified_at: 2026-10-08
+last_modified_at: 2026-10-17
 ---
 
 El Student Pack de GitHub es el programa de descuentos para estudiantes más generoso que existe, y de los pocos que te da herramientas profesionales de verdad sin que tengas que buscar señales de oferta en un newsletter.
@@ -76,12 +76,12 @@ Y un aviso sobre este mismo artículo: el catálogo se reformó en 2026 y se lle
 
 ## Cómo lo hago yo
 
-Yo no intento aprovecharlo todo. Tengo el Copilot gratis y un dominio del pack, que es lo que uso el noventa por ciento de las veces. El resto lo dejo pasar.
+No hace falta intentar aprovecharlo todo. Para la mayoría, lo que de verdad rentabiliza el pack es Copilot gratis y el dominio del primer año. El resto solo compensa si encaja en cómo trabajas.
 
 La conclusión es esta: el Student Pack no es una mina de oro escondida, es un conjunto de descuentos buenos que la mayoría no aprovecha porque nadie los filtra. Merece la pena que repases la página oficial cada seis meses, porque el catálogo cambia.
 
 ## Sigue por aquí
 
-- [GitHub Copilot gratis para estudiantes: cómo activarlo paso a paso](/articulos/reviews/github-copilot-gratis-estudiantes/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
 - [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
 - [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)

@@ -3,31 +3,22 @@
   desc: "Editor basado en VS Code con IA integrada en toda la experiencia: chat contextual, refactor con Ctrl+K y autocompletado que entiende tu proyecto entero."
   url: https://cursor.com
   sponsored: true
-  enlaces:
-    - label: "Review Cursor"
-      path: articulos/reviews/cursor-ai-review-espanol.md
 
 - nombre: GitHub Copilot
   pill: Asistente
   desc: "El asistente de IA de GitHub que vive dentro de tu editor favorito. Gratis para estudiantes verificados con el Student Pack. Ahora con Agent Mode autónomo."
   url: https://github.com/features/copilot
   sponsored: true
-  enlaces:
-    - label: "Review Copilot"
-      path: articulos/reviews/github-copilot-gratis-estudiantes.md
 
 - nombre: ChatGPT
   pill: Chat IA
   desc: "El chatbot de referencia para depurar, entender errores y mantener conversaciones largas con contexto. Ideal para el día a día de desarrollo."
   url: https://chatgpt.com/
   sponsored: true
-  enlaces:
-    - label: "Review ChatGPT Plus"
-      path: articulos/reviews/chatgpt-plus-para-programadores.md
 
 - nombre: Claude Code
   pill: CLI Agente
-  desc: "Agente autónomo en terminal: lee el repo entero, edita varios archivos, ejecuta tests y lanza sub-agentes paralelos (Dynamic Workflows). Lo reservo para las tareas gordas, las que me ahorrarían una tarde entera."
+  desc: "Agente autónomo en terminal: lee el repo entero, edita varios archivos, ejecuta tests y lanza sub-agentes paralelos (Dynamic Workflows)."
   url: https://claude.com/pricing
   sponsored: true
 
@@ -60,9 +51,6 @@
   desc: "Revisa pull requests automáticamente con IA: detecta bugs, seguridad, rendimiento y sugiere fixes. Gratis para repos públicos, multi-plataforma (GH, GL, Azure, BB)."
   url: https://coderabbit.ai/pricing
   sponsored: true
-  enlaces:
-    - label: "Review CodeRabbit"
-      path: articulos/reviews/coderabbit-review-ai-code-review.md
 
 - nombre: Qodo (ex-Codium)
   pill: Testing IA

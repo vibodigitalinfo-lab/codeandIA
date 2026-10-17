@@ -6,7 +6,7 @@ category: "Comparativa"
 date: 2026-09-14
 updated: 2026-10-03
 readtime: 7
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-17
 ---
 
 Llevo unos meses usando los dos en paralelo, y la pregunta me la hacen constantemente mis compañeros del ciclo: *¿Claude AI o ChatGPT Plus para programar?* No es una pregunta fácil de responder con un "depende" y ya, porque eso no le sirve a nadie. Si prefieres no gastar nada, también tengo una comparativa de DeepSeek vs ChatGPT gratuitos para que veas qué se puede sacar sin pagar. Pero hoy toca hablar de los dos de pago.
@@ -73,6 +73,6 @@ Lo que no recomiendo es fiarse solo de comparativas de hace seis meses. Los dos 
 
 ## Sigue por aquí
 
-- [ChatGPT Plus para programadores: ¿merece la pena pagar 20 $ al mes?](/articulos/reviews/chatgpt-plus-para-programadores/)
+- [No pegues tus claves API en la IA: qué hacer y qué no](/articulos/guias/no-pegues-claves-api-en-la-ia/)
 - [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](/articulos/comparativas/chatgpt-vs-cursor-para-programar/)
 - [IA local o en la nube para programar: cuál te conviene](/articulos/comparativas/ia-local-vs-ia-nube-programar/)

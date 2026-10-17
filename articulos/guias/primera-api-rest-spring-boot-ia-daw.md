@@ -5,7 +5,7 @@ description: "Guía para DAW: crea tu primer API REST con Spring Boot usando IA 
 category: "Guía"
 date: 2026-08-08
 readtime: 8
-last_modified_at: 2026-08-08
+last_modified_at: 2026-10-17
 noindex: true
 sitemap: false
 ---
@@ -14,7 +14,7 @@ El primer día que tuvimos que entregar una API REST en la asignatura de servido
 
 ## Antes de escribir una sola línea
 
-Necesitas tres cosas: un JDK decente (Java 21 o superior), IntelliJ IDEA gratis o VS Code con la extensión de Java, y acceso a una IA (Copilot en el editor, ChatGPT o Claude en el navegador). Nada de esto requiere pagar. Si vas a usar Copilot dentro de IntelliJ, tengo una [guía para configurarlo paso a paso](/articulos/guias/github-copilot-intellij-java-daw/) que te ahorra los típicos veinte minutos peleándote con el login.
+Necesitas tres cosas: un JDK decente (Java 21 o superior), IntelliJ IDEA gratis o VS Code con la extensión de Java, y acceso a una IA (Copilot en el editor, ChatGPT o Claude en el navegador). Nada de esto requiere pagar. Si vas a usar Copilot dentro de IntelliJ, merece la pena dedicarle un rato a la configuración inicial: el login y la activación de las sugerencias son los dos pasos que más tiempo hacen perder.
 
 La clave de esta parte es saber qué pides. Spring Boot tiene cientos de dependencias; la IA te va a sugerir las típicas, pero tú decides cuáles entran. Para el clásico ejercicio de DAW (gestionar una lista de alumnos), con tres basta: **Spring Web** para los endpoints, **Spring Data JPA** para la persistencia y **H2** para la base de datos en memoria. Eso es lo mínimo, y lo aprendí porque Spring Initializr genera el proyecto con un par de clicks y te añade el `.pom` correspondiente. Pídeselo a la IA si quieres, pero échale un vistazo y verás que son exactamente esas tres.
 

@@ -5,7 +5,7 @@ description: "Cómo usar la IA para estudiar Java en DAW: prompts tutor, leer st
 category: "Guía"
 date: 2026-09-08
 readtime: 7
-last_modified_at: 2026-09-08
+last_modified_at: 2026-10-17
 ---
 
 Java es el primer mazazo del curso para casi todo el mundo en DAW. POO, herencia, las mil ventanas de `StackOverflow` abiertas a la vez… y ahora encima tienes una IA que te puede escribir la clase entera en dos segundos. La tentación es real y lo sé porque caí en ella. El problema no es Java ni la IA: es que copiar código de IA en este módulo es la forma más rápida de llegar al examen sin saber nada.
@@ -60,6 +60,6 @@ Empieza esta tarde: abre tu proyecto, escribe una clase a mano con tu intento de
 
 ## Sigue por aquí
 
-- [GitHub Copilot gratis en IntelliJ IDEA: guía paso a paso para Java](/articulos/guias/github-copilot-intellij-java-daw/)
+- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
 - [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)
 - [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)

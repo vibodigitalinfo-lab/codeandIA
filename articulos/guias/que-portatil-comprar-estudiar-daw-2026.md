@@ -9,7 +9,7 @@ readtime: 9
 affiliate_text: "El Acer Aspire Go 15 (Ryzen 7, 16 GB, 512 GB) está en stock y es la compra más segura para DAW ahora mismo"
 affiliate_url: "https://www.amazon.es/dp/B0G5SLTNLY?tag=codeandia-21"
 affiliate_label: "Ver el Aspire Go 15 en Amazon"
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-17
 ---
 
 Antes de empezar segundo de DAW, mi portátil era uno de esos de gama baja con 8 GB de RAM y me pasaba las clases cerrando pestañas a toda velocidad para que no se me colgara el IDE. Un día, con el entorno levantado, el navegador con la documentación y MySQL corriendo a la vez, el portátil se quedó congelado durante una práctica. Ese día decidí que había que cambiar de máquina. He tardado en encontrar lo que buscaba y he aprendido a base de devoluciones y de leer especificaciones hasta que se me cruzan los ojos. Si estás mirando portátil para el ciclo, esto es lo que de verdad importa y lo que yo compraría en 2026.
@@ -64,10 +64,10 @@ Si volviera a comprar mi portátil, no me dejaría llevar por el precio de entra
 
 Para programar en DAW en 2026, el portátil que yo compraría es **cualquiera con 16 GB de RAM, SSD de 512 GB, un Ryzen 5/i5 reciente, Windows 11 y teclado español**. Si eso te cuadra y el precio está entre 500 y 650€, no le des más vueltas. Mi recomendación concreta es el Acer Aspire Go 15, que está en stock ahora mismo, y el Lenovo IdeaPad Slim 3 Gen 10 es igual de válido si vuelve a estar disponible a buen precio. Lo que no te perdona un curso entero es quedarte corto de RAM o de disco.
 
-Si estás montando tu equipo completo, échale un ojo a la guía del setup para programar por 500€, donde tienes teclado, ratón, monitor y silla con sus precios de hoy, y a la [lista de auriculares con cancelación de ruido](/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/) por si estudias en sitios con jaleo. El portátil es la base; el resto lo vas montando poco a poco.
+El portátil es la base. El resto del equipo (teclado, ratón, pantalla) lo vas montando poco a poco según lo necesites.
 
 ## Sigue por aquí
 
-- [Mejores auriculares con cancelación de ruido para estudiar en 2026](/articulos/listas/auriculares-cancelacion-ruido-estudiar-programar/)
-- [Los 5 mejores teclados mecánicos para programar en 2026](/articulos/listas/mejores-teclados-mecanicos-programar/)
-- [Keychron Q1 Max review: ¿el mejor teclado mecánico para programar?](/articulos/reviews/keychron-q1-max-review-2026/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
+- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)

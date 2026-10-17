@@ -5,7 +5,7 @@ description: "Jest y Vitest ejecutan los mismos tests, pero no se parecen en nad
 category: "Comparativa"
 date: 2026-09-27
 readtime: 9
-last_modified_at: 2026-09-27
+last_modified_at: 2026-10-17
 ---
 
 Llego al proyecto de prácticas con el síntoma de siempre: el test pasa en mi portátil y falla en el de mi compañero. No es su código, es la configuración. Resulta que uno usa Jest con su transformador de TypeScript y el otro Vitest, y los dos ejecutan lo mismo de dos maneras distintas. Eso me dejó con una pregunta que me ha acompañado todo el trimestre: si los tests se escriben igual, ¿por qué tengo dos configuraciones distintas para lo mismo? Lo que sigue es lo que comparé, porque en 2026 la respuesta corta es que Vitest ya es el valor por defecto y Jest sigue teniendo un hueco real.
@@ -86,6 +86,6 @@ Antes de nada, eso sí, la pregunta previa es si los tests automáticos te sirve
 
 ## Sigue por aquí
 
-- [CodeRabbit 2026: ¿merece la pena la IA que revisa tus PRs?](/articulos/reviews/coderabbit-review-ai-code-review/)
+- [Secrets y variables de entorno en GitHub Actions: guía sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)
 - [Vite vs Next.js vs Astro para tu primer proyecto con IA](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/)
 - [Documentar tu proyecto con IA: README y código que se entienden](/articulos/guias/documentar-proyecto-con-ia-2026/)

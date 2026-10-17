@@ -44,6 +44,6 @@ Al final, la respuesta a qué dominio comprar para tu primer proyecto web depend
 
 ## Sigue por aquí
 
-- [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/)
+- [No pegues tus claves API en la IA: lo que nunca debes pegar en un chat](/articulos/guias/no-pegues-claves-api-en-la-ia/)
 - [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)
 - [Portfolio de programador con IA que consigue prácticas](/articulos/guias/portfolio-que-consigue-practicas-daw/)

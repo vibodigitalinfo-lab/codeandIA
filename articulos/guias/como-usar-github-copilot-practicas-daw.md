@@ -8,7 +8,7 @@ readtime: 6
 affiliate_text: "Si quieres probarlo tú mismo, GitHub Copilot tiene plan gratuito para estudiantes"
 affiliate_url: "https://github.com/features/copilot"
 affiliate_label: "Consigue GitHub Copilot gratis con GitHub Student Pack"
-last_modified_at: 2026-06-10
+last_modified_at: 2026-10-17
 noindex: true
 sitemap: false
 ---
@@ -48,6 +48,5 @@ Ahora que estoy en segundo lo veo de otra forma. Ya tengo la base y lo uso más 
 
 ## Sigue por aquí
 
-- [Cómo configurar GitHub Copilot en IntelliJ IDEA (gratis, Java, DAW)](/articulos/guias/github-copilot-intellij-java-daw/)
+- [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- Preparar exámenes prácticos de DAW con IA (sin copiar)

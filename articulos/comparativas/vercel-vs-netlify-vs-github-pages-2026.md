@@ -6,7 +6,7 @@ category: "Comparativa"
 date: 2026-09-23
 readtime: 12
 updated: 2026-10-03
-last_modified_at: 2026-10-03
+last_modified_at: 2026-10-17
 ---
 
 El primer deploy de mi portfolio me costó dos tardes de lucha: DNS que no propagaba, build que fallaba en una y funcionaba en otra, límites de banda ancha que no entendía. Ahora, cada vez que termino un proyecto de prácticas o un side project, **tengo clara cuál uso y por qué**. Te ahorro las vueltas: comparo Vercel, Netlify y GitHub Pages con lo que de verdad importa a un estudiante.
@@ -38,7 +38,7 @@ El primer deploy de mi portfolio me costó dos tardes de lucha: DNS que no propa
 - **Preview deployments**: cada push/PR = URL única (ideal para "mira esto, profe")
 
 **Lo bueno:**
-- **Next.js 15+ App Router**: zero config, ISR, Server Components, streaming — **funciona out of the box**.
+- **Next.js 15+ App Router**: sin configurar nada, ISR, Server Components, streaming — **funciona a la primera**.
 - **Turborepo / monorepos**: detección automática, builds paralelos.
 - **Web Analytics opcional** (50.000 eventos/mes gratis) — ves visitas reales sin GA.
 - **Rollback instantáneo**: un click en el dashboard.
@@ -177,12 +177,12 @@ Tienes **Actions minutes gratis (2k/mes)** para buildar donde quieras. El deploy
 - **100% estático, Jekyll/Hugo, docs, landing simple** → **GitHub Pages**. Gratis total, cero mantenimiento.
 - **Necesitas backend real (Spring Boot, Node, Python)** → Despliega frontend en Vercel/Netlify, backend en **Railway (plan Hobby de 5 $/mes que ya incluye 5 $ de uso, y si apagas el servicio la cuenta se detiene), Render (gratis, pero la instancia duerme cuando no recibe tráfico y el plan free son 512 MB), Fly.io, o tu VPS**.
 
-Yo tengo **los tres configurados**. Cada repo sabe a dónde va. No hay drama.
+Los tres cubren de sobra cualquier proyecto de estudiante. Lo único que cambia es cuánto te tienes que pelear con la configuración.
 
 No lo pienses más: publica esta tarde algo tuyo en la que más te llame y deja el enlace en tu CV. El sitio perfecto que nunca se sube no cuenta. El feo que está en internet, sí.
 
 ## Sigue por aquí
 
-- [Hostinger vs Netlify: dónde alojar tu primer proyecto de DAW](/articulos/comparativas/hostinger-vs-netlify-proyecto-daw-2026/)
+- [Vite vs Next.js vs Astro para tu primer proyecto con IA](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/)
 - [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
 - [Secrets y variables en GitHub Actions sin morir en el intento](/articulos/guias/github-actions-secrets-variables-entorno-guia/)

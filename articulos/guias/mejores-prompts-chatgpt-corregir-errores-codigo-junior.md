@@ -5,7 +5,7 @@ description: "Los prompts que uso cuando un error no me suelta: cómo pegar el p
 category: "Guía"
 date: 2026-09-08
 readtime: 6
-last_modified_at: 2026-09-30
+last_modified_at: 2026-10-17
 ---
 
 Llevo desde segundo de DAW usando prompts chatgpt para corregir código junior casi todos los días, y no lo digo para quedar bien: es literalmente lo que hago cuando llevo cuarenta minutos mirando una consola que me devuelve un error que no entiendo. Al principio copiaba y pegaba el error tal cual, sin más, y la respuesta que me daba ChatGPT era tan genérica que no me servía para nada. Con el tiempo fui cambiando la forma de preguntar y ahí es donde note la diferencia real.
@@ -49,6 +49,6 @@ Al final, la diferencia entre corregir código como un junior perdido y corregir
 
 ## Sigue por aquí
 
-- [ChatGPT Plus para programadores: ¿merece la pena pagar 20 $ al mes?](/articulos/reviews/chatgpt-plus-para-programadores/)
+- [Claude AI vs ChatGPT Plus para programar: cuál responde mejor en 2026](/articulos/comparativas/claude-ai-vs-chatgpt-plus-para-programar/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
 - [Simulacros de entrevista técnica con IA para tu primer trabajo](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)
