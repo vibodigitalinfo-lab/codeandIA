@@ -1,42 +1,14 @@
-# codeandIA
+# codeandIA — llms.txt
 
-> Apuntes de un estudiante de DAW sobre programar con herramientas de IA: comparativas, guías y listas, probadas a mano y con precios comprobados desde España (moneda, impuestos y fecha de comprobación).
->
-> Todo lo que hay aquí lo he escrito Iván. Si una herramienta no la he probado, lo digo en el propio artículo. Sin contenido pagado.
+## Eje
+- Blog personal: lo que pruebo y lo que me pasa como estudiante de DAW.
+- Solo experiencias reales, anotadas en diario. Revisión humana antes de publicar.
 
-Las URLs de los artículos son estables y no cambian. Los precios y disponibilidades se revisan periódicamente: si vas a comprar algo, confirma el precio en la página del vendedor.
+## Artículos indexables
+- [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](https://codeandia.com/articulos/guias/que-portatil-comprar-estudiar-daw-2026/): Mi IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta de verdad en primero de DAW.
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](https://codeandia.com/articulos/guias/que-dominio-comprar-primer-proyecto-web/): .com o .es para empezar, y dónde lo registré.
+- [Aprender Java en DAW con IA y no volverte dependiente](https://codeandia.com/articulos/guias/aprender-java-con-ia-daw/): Cómo uso la IA para aprender Java sin entregar código que no entiendo.
 
-## Guías
-
-- [Practicar la entrevista técnica junior con IA](https://codeandia.com/articulos/guias/simulacros-entrevista-tecnica-con-ia/): Cómo practicar la entrevista técnica de junior con IA: simulacros realistas, los ejercicios que más caen en DAW y cómo corregirte.
-- [Claves API y .env: lo que no debes pegar en la IA](https://codeandia.com/articulos/guias/no-pegues-claves-api-en-la-ia/): Guía para no filtrar claves de API, contraseñas ni tokens al usar ChatGPT, Claude o Cursor: qué pegar en su lugar y qué hacer si ya has enviado el secreto.
-- [Copias de seguridad de tus proyectos: no pierdas las prácticas](https://codeandia.com/articulos/guias/copias-seguridad-proyectos-programador/): Cómo hacer copias de seguridad de tus proyectos de DAW sin depender de la suerte: Git con GitHub, la nube con cabeza y una copia local, con la rutina que uso.
-- [Secrets y variables en GitHub Actions sin morir en el intento](https://codeandia.com/articulos/guias/github-actions-secrets-variables-entorno-guia/): Guía paso a paso para usar secrets, variables y environments en GitHub Actions, con los errores comunes, ejemplos reales y los trucos que casi nadie te cuenta.
-- [Documentar tu proyecto con IA: README y código que se entienden](https://codeandia.com/articulos/guias/documentar-proyecto-con-ia-2026/): Cómo escribir documentación de tu proyecto con IA sin que parezca relleno: README que explican, comentarios útiles y por qué documentar te sube nota en DAW.
-- [Aprender Java en DAW con IA y no volverte dependiente](https://codeandia.com/articulos/guias/aprender-java-con-ia-daw/): Cómo usar la IA para estudiar Java en DAW: prompts tutor, leer stack traces, ejercicios sin soluciones y la regla de no entregar código que no entiendas.
-- [Cómo configurar Cursor AI en VS Code desde cero](https://codeandia.com/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/): Te explico paso a paso cómo configurar Cursor AI en VSCode desde cero para dejar de perder tiempo tecleando y programar más rápido.
-- [Prompts de ChatGPT para corregir errores de código (nivel junior)](https://codeandia.com/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/): Los prompts que uso cuando un error no me suelta: cómo pegar el problema, cómo pedir que te lo explique primero y qué hacer con la respuesta.
-- [Qué dominio comprar para tu primer proyecto web: .com vs .es](https://codeandia.com/articulos/guias/que-dominio-comprar-primer-proyecto-web/): Te cuento qué dominio comprar para tu primer proyecto web, cuándo elegir .com o .es y en qué registrador merece la pena hacerlo.
-- [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](https://codeandia.com/articulos/guias/que-portatil-comprar-estudiar-daw-2026/): El portátil con el que curso primero de DAW: un Lenovo IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta y qué buscaría si tuviera que cambiarlo.
-
-## Comparativas
-
-- [IA local o en la nube para programar: cuál te conviene](https://codeandia.com/articulos/comparativas/ia-local-vs-ia-nube-programar/): IA local (Ollama, LM Studio) frente a la IA en la nube para programar: privacidad, coste, hardware y cuándo merece la pena cada una, sin humo.
-- [Jest vs Vitest en 2026: qué runner de tests elijo en DAW](https://codeandia.com/articulos/comparativas/vitest-vs-jest-2026/): Jest y Vitest ejecutan los mismos tests, pero no se parecen en nada por dentro. Comparo velocidad, ESM, TypeScript, mocks y cuándo conviene migrar en DAW.
-- [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](https://codeandia.com/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/): Comparativa real de las 3 plataformas gratis para deploy: límites, CI/CD, dominios y edge functions, y cuál elijo para portfolio y proyectos de DAW.
-- [Vite vs Next.js vs Astro para tu primer proyecto con IA](https://codeandia.com/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/): Qué framework elegir para tu primer proyecto web con IA: Vite, Next.js o Astro. Comparativa de dificultad, rendimiento y cuándo tiene sentido cada uno.
-- [ChatGPT vs Cursor AI para programar: cuál elijo tras meses de uso](https://codeandia.com/articulos/comparativas/chatgpt-vs-cursor-para-programar/): Comparativa real entre ChatGPT y Cursor AI para programadores y estudiantes: diferencias de contexto, generación de código, flujos diarios y precio.
-
-## Listas
-
-- [5 tendencias de IA que ya usan los devs senior (y puedes adoptar)](https://codeandia.com/articulos/listas/tendencias-ia-para-devs-2026/): Tendencias reales de IA en programación 2026: agentes autónomos, MCP, modelos locales, AI-native testing y code review automatizado. Ejemplos para empezar ya.
-- [GitHub Student Pack: qué incluye y cuánto te ahorra](https://codeandia.com/articulos/listas/github-student-pack-que-incluye/): Qué herramientas te da GitHub gratis por ser estudiante, cuáles merecen la pena aprovechar y cuáles son solo ruido en el catálogo.
-- [Configuración de VS Code para IA en 2026: lo que uso de verdad](https://codeandia.com/articulos/listas/configuracion-vscode-ia-2026/): Configuración de VS Code con IA en 2026: extensiones que siguen vivas, AGENTS.md, settings útiles, modelos propios y el flujo real de un estudiante de DAW.
-
-## Sitio
-
-- [Rutas de aprendizaje](https://codeandia.com/rutas/): recorridos ordenados, del entorno al primer proyecto publicado.
-- [Cheatsheets](https://codeandia.com/cheatsheets/): prompts con código y atajos de VS Code, Git, Docker y regex.
-- [Cómo trabajamos con IA](https://codeandia.com/como-trabajamos/): el método que uso antes de escribir.
-- [Sobre mí](https://codeandia.com/sobre-mi/): quién escribe y con qué criterio.
-- [Contacto](mailto:ivan@codeandia.com): dudas, correcciones y sugerencias.
+## Páginas
+- [Sobre mí](https://codeandia.com/sobre-mi/)
+- [Cómo trabajamos](https://codeandia.com/como-trabajamos/)
