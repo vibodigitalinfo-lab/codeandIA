@@ -12,6 +12,14 @@ last_modified_at: 2026-10-18
 - **Transparencia.** Uso IA para dar forma a mis notas, pero las experiencias son mías. Reviso todo antes de publicar.
 - **Verdad.** Cuando no he probado algo, lo digo. Cuando dudo, lo digo.
 
+## Qué IAs uso y para qué
+
+Uso varias, y cada una para su cosa:
+
+- **Gemini**, para el día a día y los temas personales. Me ayuda a salir de dudas y a tener claridad mental. No todo el día, que si no me quedo loco.
+- **Claude**, para lo técnico: Java, dudas del blog y todo lo que requiere documentación. Contesta de forma más profunda y siente que hace más research.
+- **ChatGPT**, para crear imágenes. Antes lo usaba para todo y abusaba de él; me di cuenta de que era demasiado complaciente, así que lo dejé a un lado y ahora solo lo uso para las imágenes.
+
 ## Proceso
 
 1. **Diario.** Anoto lo que hago: qué pruebo, qué pasa, errores exactos, comandos, capturas.
