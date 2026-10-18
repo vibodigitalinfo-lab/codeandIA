@@ -38,72 +38,75 @@ last_modified_at: 2026-09-30
 </script>
 
 <article class="article">
-  <header class="article-header">
-    <h1 class="article-title">{{ page.title }}</h1>
-    <p class="article-meta">
-      Publicado el {{ dia_pub }} de {{ meses[mes_idx] }} de {{ anio_pub }}.
-      {% if page.updated %}
-      {% assign mes_up_num = page.updated | date: "%-m" | plus: 0 %}
-      {% assign mes_up_idx = mes_up_num | minus: 1 %}
-      Actualizado el {{ page.updated | date: "%-d" }} de {{ meses[mes_up_idx] }} de {{ page.updated | date: "%Y" }}.
-      {% endif %}
-      {% if page.readtime %}
-      {{ page.readtime }} minutos de lectura.
-      {% else %}
-      {% assign palabras = page.content | number_of_words %}
-      {% assign mins = palabras | divided_by: 155.0 | round %}
-      {{ mins }} minutos de lectura.
-      {% endif %}
-    </p>
-  </header>
+  {% if page.readtime %}
+    {% assign mins = page.readtime %}
+  {% else %}
+    {% assign palabras = page.content | number_of_words %}
+    {% assign mins = palabras | divided_by: 155.0 | round %}
+  {% endif %}
+  <div class="article-col" data-readtime="{{ mins }}">
+    <header class="article-header">
+      <h1 class="article-title">{{ page.title }}</h1>
+      <p class="article-meta">
+        Publicado el {{ dia_pub }} de {{ meses[mes_idx] }} de {{ anio_pub }}.
+        {% if page.updated %}
+        {% assign mes_up_num = page.updated | date: "%-m" | plus: 0 %}
+        {% assign mes_up_idx = mes_up_num | minus: 1 %}
+        Actualizado el {{ page.updated | date: "%-d" }} de {{ meses[mes_up_idx] }} de {{ page.updated | date: "%Y" }}.
+        {% endif %}
+        {{ mins }} minutos de lectura.
+      </p>
+    </header>
 
-  <div class="article-grid">
     <nav class="toc" id="toc" aria-label="Índice del artículo" hidden>
-      <p class="toc-title">En este artículo</p>
-      <ol class="toc-list" id="toc-list"></ol>
+      <div class="toc-inner">
+        <p class="toc-title">En este artículo</p>
+        <ol class="toc-list" id="toc-list"></ol>
+      </div>
     </nav>
 
     <div class="article-content" id="article-content">
       {{ content }}
     </div>
-  </div>
 
-  <p class="back-link"><a href="{{ "/articulos/" | relative_url }}">Volver a los artículos</a></p>
+    <p class="back-link"><a href="{{ "/articulos/" | relative_url }}">Volver a los artículos</a></p>
 
-  {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | where_exp: "p", "p.url != page.url" %}
-  {% comment %}
-    Los artículos de hardware llevan `tema: hardware` en el frontmatter. Si el
-    artículo actual es de hardware, "Sigue leyendo" se queda dentro del
-    hardware; si no, lo saca. Así una guía de depuración no termina
-    recomendando un hub USB-C.
-  {% endcomment %}
-  {% if page.tema == "hardware" %}
-    {% assign candidatos = otros | where_exp: "p", "p.tema == 'hardware'" %}
-  {% else %}
-    {% assign candidatos = otros | where_exp: "p", "p.tema != 'hardware'" %}
-  {% endif %}
-  {% assign relacionados = candidatos | sort: "date" | reverse %}
-  {% if relacionados.size > 0 %}
-  <aside class="related">
-    <h2 class="related-title">Sigue leyendo</h2>
-    <ul class="related-list">
-      {% for r in relacionados limit: 3 %}
-      <li><a href="{{ r.url | relative_url }}">{{ r.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </aside>
-  {% endif %}
+    {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | where_exp: "p", "p.url != page.url" %}
+    {% comment %}
+      Los artículos de hardware llevan `tema: hardware` en el frontmatter. Si el
+      artículo actual es de hardware, "Sigue leyendo" se queda dentro del
+      hardware; si no, lo saca. Así una guía de depuración no termina
+      recomendando un hub USB-C.
+    {% endcomment %}
+    {% if page.tema == "hardware" %}
+      {% assign candidatos = otros | where_exp: "p", "p.tema == 'hardware'" %}
+    {% else %}
+      {% assign candidatos = otros | where_exp: "p", "p.tema != 'hardware'" %}
+    {% endif %}
+    {% assign relacionados = candidatos | sort: "date" | reverse %}
+    {% if relacionados.size > 0 %}
+    <aside class="related">
+      <h2 class="related-title">Sigue leyendo</h2>
+      <ul class="related-list">
+        {% for r in relacionados limit: 3 %}
+        <li><a href="{{ r.url | relative_url }}">{{ r.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
+    {% endif %}
 
-  {% include author-box.html %}
+    {% include author-box.html %}
 
-  <div class="newsletter-wrap">
-    {% include newsletter.html %}
+    <div class="newsletter-wrap">
+      {% include newsletter.html %}
+    </div>
   </div>
 </article>
 
 <script>
-  /* Índice automático (si hay 4+ H2) y scroll-spy. En pantallas estrechas
-     el CSS oculta el TOC; aquí solo se construye si el viewport es ancho. */
+  /* Índice automático (5+ H2 o más de 5 minutos de lectura) y scroll-spy.
+     El CSS solo lo pinta a partir de 1280px, cuando cabe en el margen
+     izquierdo sin invadir la columna del cuerpo. */
   (function () {
     var content = document.getElementById('article-content');
     if (!content) return;
@@ -114,11 +117,12 @@ last_modified_at: 2026-09-30
 
     var nav = document.getElementById('toc');
     var list = document.getElementById('toc-list');
-    var grid = document.querySelector('.article-grid');
+    var col = document.querySelector('.article-col');
     var h2s = heads.filter(function (h) { return h.tagName === 'H2'; });
+    var readtime = col ? parseInt(col.getAttribute('data-readtime'), 10) || 0 : 0;
     var links = [];
 
-    if (nav && list && h2s.length >= 4 && window.matchMedia('(min-width: 1100px)').matches) {
+    if (nav && list && (h2s.length >= 5 || readtime > 5) && window.matchMedia('(min-width: 1280px)').matches) {
       h2s.forEach(function (h) {
         var li = document.createElement('li');
         var a = document.createElement('a');
@@ -129,7 +133,7 @@ last_modified_at: 2026-09-30
         links.push(a);
       });
       nav.hidden = false;
-      if (grid) grid.classList.add('has-toc');
+      if (col) col.classList.add('has-toc');
 
       if ('IntersectionObserver' in window) {
         var byId = {};

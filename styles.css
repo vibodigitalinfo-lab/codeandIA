@@ -611,16 +611,21 @@ mark {
   padding: 2.5rem 0 3.5rem;
 }
 
-.article-header {
+.article-col {
   max-width: var(--measure);
-  margin: 0 auto 2rem;
+  margin: 0 auto;
   padding: 0 1.25rem;
+  position: relative;
 }
 
 @media (min-width: 720px) {
-  .article-header {
+  .article-col {
     padding: 0 2rem;
   }
+}
+
+.article-header {
+  margin: 0 0 2rem;
 }
 
 .article-title {
@@ -636,15 +641,9 @@ mark {
 }
 
 .article-content {
-  max-width: var(--measure);
-  margin: 0 auto;
-  padding: 0 1.25rem;
-}
-
-@media (min-width: 720px) {
-  .article-content {
-    padding: 0 2rem;
-  }
+  max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
 .article-content h2 {
@@ -755,42 +754,25 @@ mark {
 
 /* ---------- Índice lateral (TOC) ---------- */
 
-.article-grid {
-  max-width: var(--measure);
-  margin: 0 auto;
-  padding: 0 1.25rem;
-}
-
-@media (min-width: 720px) {
-  .article-grid {
-    padding: 0 2rem;
-  }
-}
-
 .toc {
   display: none;
 }
 
-@media (min-width: 1100px) {
-  .article-grid.has-toc {
-    max-width: calc(var(--measure) + 15rem);
-    display: grid;
-    grid-template-columns: 13rem minmax(0, 1fr);
-    gap: 2.5rem;
-    align-items: start;
-  }
-
-  .toc {
+@media (min-width: 1280px) {
+  /* El TOC vive en el margen izquierdo, fuera de la columna del cuerpo:
+     no empuja el título ni el texto, que comparten borde con todo lo demás. */
+  .article-col.has-toc .toc {
     display: block;
-    position: sticky;
-    top: 1.5rem;
+    position: absolute;
+    left: -15rem;
+    top: 0;
+    width: 13rem;
     font-size: 0.9375rem;
   }
 
-  .article-grid.has-toc .article-content {
-    padding: 0;
-    margin: 0;
-    max-width: none;
+  .toc-inner {
+    position: sticky;
+    top: 1.5rem;
   }
 }
 
@@ -841,20 +823,21 @@ mark {
   }
 }
 
+.article-col .back-link {
+  display: block;
+  max-width: none;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
 .related,
 .author-box,
 .newsletter-wrap {
-  max-width: var(--measure);
-  margin: 0 auto;
-  padding: 0 1.25rem;
-}
-
-@media (min-width: 720px) {
-  .related,
-  .author-box,
-  .newsletter-wrap {
-    padding: 0 2rem;
-  }
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .related {

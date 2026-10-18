@@ -39,8 +39,3 @@ También evito el «a ver si funciona». Si algo no va, miro el error y pregunto
 ## En corto
 
 La IA no me ha quitado el trabajo de entender Java, y para eso está bien: explica, corrige y da práctica. La parte de pensar sigue siendo mía, y es justo la que quiero quedarme.
-
-## Sigue por aquí
-
-- [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
-- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)

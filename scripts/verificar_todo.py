@@ -9,7 +9,7 @@ Comprueba:
 6. Título <= 70 car, descripción entre 70 y 160 car
 7. Sin caracteres CJK/cirílico/árabe/hebreo
 8. Liquid dentro de bloques de código protegido con {% raw %}
-9. Cierre con bloque "Sigue por aquí"
+9. Aviso si queda un bloque "Sigue por aquí" obsoleto (ahora lo pone el layout)
 10. _config.yml parsea correctamente
 """
 import glob
@@ -129,9 +129,9 @@ def verificar():
                 error(f"{rel}: enlace roto a '{link}'")
                 fallos += 1
 
-        # Cierre "Sigue por aquí"
-        if "Sigue por aqu" not in cuerpo:
-            advertencia(f"{rel}: no contiene bloque 'Sigue por aquí'")
+        # Cierre "Sigue por aquí" (regla antigua; ahora el layout pone "Sigue leyendo")
+        if "Sigue por aqu" in cuerpo:
+            advertencia(f"{rel}: contiene bloque 'Sigue por aquí' obsoleto; el layout ya pone 'Sigue leyendo'")
             avisos += 1
 
     print(f"  {len(articulos_validos)} artículos analizados.")

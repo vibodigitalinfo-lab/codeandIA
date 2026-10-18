@@ -46,8 +46,3 @@ El punto más flojo es, sin duda, la **batería**. Según el informe de Windows 
 ## Veredicto
 
 Con esta configuración de fábrica he podido seguir el ritmo de primero de DAW sin tropiezos serios. Si tuviera que cambiar el portátil ahora, lo primero que miraría sería la RAM, para pasar a 16 GB; después, la batería. El resto son mejoras de comodidad, no de necesidad.
-
-## Sigue por aquí
-
-- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- [Qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)

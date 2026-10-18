@@ -107,8 +107,8 @@ def main():
                 fail.append(f"{rel}: falta {campo}")
         if fm.get("updated") and not fm.get("last_modified_at"):
             fail.append(f"{rel}: updated sin last_modified_at")
-        if "Sigue por aquí" not in d["cuerpo"] and "Sigue por aquí" not in desc_of(d):
-            aviso.append(f"{rel}: sin bloque 'Sigue por aqui'")
+        if "Sigue por aquí" in d["cuerpo"] or "Sigue por aquí" in desc_of(d):
+            aviso.append(f"{rel}: bloque 'Sigue por aqui' obsoleto (el layout pone 'Sigue leyendo')")
 
     # ---- 2. unicidad de title y description
     for campo, limite in (("title", None), ("description", None)):

@@ -9,6 +9,9 @@ Gemfile.lock
 .sass-cache/
 _jekyll/
 
+# Build local de prueba (jekyll build --destination _site_test)
+_site_test/
+
 # Bytecode de los scripts de auditoría (verificar_todo.py importa rutas.py)
 __pycache__/
 *.pyc

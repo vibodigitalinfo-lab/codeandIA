@@ -53,8 +53,3 @@ El modo **DNS only** es el que usan los cuatro registros del dominio raíz, y co
 ## En corto
 
 Si tu proyecto es más bien internacional o quieres que suene serio, `.com`. Si es claramente español y el nombre está libre, `.es`. En cualquier caso, comprueba la disponibilidad antes de decidirte y, cuando lo tengas, dedica el rato a entender los registros DNS: no es difícil, pero si los tocas a ojo se te puede caer algo sin que sepas por qué.
-
-## Sigue por aquí
-
-- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)

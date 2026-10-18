@@ -61,8 +61,3 @@ El arreglo no es permanente: los bloqueos son dinámicos y el proxy seguía sien
 - Si una web no carga y el resto de internet va bien, hay dónde mirar: en hayahora.futbol puedes comprobar si hay un bloqueo de este tipo y si afecta a tu dominio.
 - Cuando toque depurar conexiones, `curl -v` y no `curl -s`: sin la «v» no ves lo que pasa de verdad en la conexión.
 - El proxy de Cloudflare es una dependencia con riesgo si tu audiencia, como la mía, está en España: compartes IP con miles de webs, y si a una de ellas le cae un bloqueo, te puedes ir con ella.
-
-## Sigue por aquí
-
-- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
-- [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
