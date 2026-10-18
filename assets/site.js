@@ -1,262 +1,74 @@
-/* codeandIA: utilidades compartidas (guardados, progreso y atajos). */
-window.codeandia = (function () {
-  var CLAVE_GUARDADOS = 'candaias:guardados';
-  var CLAVE_PROGRESO = 'candaias:progreso';
-  var MAX_GUARDADOS = 60;
-  /* Umbral para dar por "leido" un articulo y ofrecer "Continúa leyendo".
-     Antes era 70: la mayoria de la gente cierra antes y la funcion nunca
-     aparecia, que es lo mismo que no tenerla. */
-  var UMBRAL_PROGRESO = 12;
+/* codeandIA: comportamiento compartido (menú y tema). */
+(function () {
+  'use strict';
 
-  function leer(clave, pordefecto) {
-    try {
-      var bruto = localStorage.getItem(clave);
-      if (!bruto) return pordefecto;
-      var valor = JSON.parse(bruto);
-      return valor === null || valor === undefined ? pordefecto : valor;
-    } catch (e) {
-      return pordefecto;
-    }
-  }
+  /* Menú de navegación móvil */
+  function initNav() {
+    var toggle = document.getElementById('nav-toggle');
+    var menu = document.getElementById('nav-menu');
+    if (!toggle || !menu) return;
 
-  function escribir(clave, valor) {
-    try {
-      localStorage.setItem(clave, JSON.stringify(valor));
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
-
-  function sinAcentos(texto) {
-    return String(texto == null ? '' : texto)
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase();
-  }
-
-  /* Los guardados se guardaban con URL absoluta y el indice de la pagina
-     "Mis guardados" las tiene relativas, asi que la busqueda nunca
-     encontraba nada y se veia informacion obsoleta. Normalizamos a la
-     misma forma que emite Jekyll (path con barra final) para que ambos
-     coincided siempre, y para poder migrar lo ya guardado. */
-  function normalizarUrl(url) {
-    var s = String(url == null ? '' : url).trim();
-    if (!s) return '';
-    var m = s.match(/^[a-z][a-z0-9+.-]*:\/\/[^/]+(\/.*?)\/?$/i);
-    if (m) s = m[1];
-    if (s.charAt(0) !== '/') s = '/' + s;
-    s = s.replace(/\/+$/, '');
-    return s + '/';
-  }
-
-  var api = {
-    sinAcentos: sinAcentos,
-    normalizarUrl: normalizarUrl,
-
-    obtenerGuardados: function () {
-      var lista = leer(CLAVE_GUARDADOS, []);
-      if (!Array.isArray(lista)) return [];
-      /* Normaliza y quita duplicados: migra en memoria lo que se guardo
-         antes con URL absoluta y evita que "Quitar" deje Twin entries. */
-      var vistos = {};
-      var limpio = [];
-      for (var i = 0; i < lista.length; i++) {
-        var g = lista[i];
-        if (!g || !g.url) continue;
-        var url = normalizarUrl(g.url);
-        if (!url || vistos[url]) continue;
-        vistos[url] = true;
-        limpio.push({
-          url: url,
-          title: g.title || '',
-          category: g.category || '',
-          date: g.date || ''
-        });
-      }
-      return limpio;
-    },
-
-    estaGuardado: function (url) {
-      var n = normalizarUrl(url);
-      return api.obtenerGuardados().some(function (g) { return g.url === n; });
-    },
-
-    guardarArticulo: function (datos) {
-      var n = normalizarUrl(datos.url);
-      if (!n) return false;
-      var lista = api.obtenerGuardados();
-      if (lista.some(function (g) { return g.url === n; })) {
-        return api.quitarArticulo(n);
-      }
-      lista.unshift({
-        url: n,
-        title: datos.title || '',
-        category: datos.category || '',
-        date: datos.date || ''
-      });
-      if (lista.length > MAX_GUARDADOS) lista = lista.slice(0, MAX_GUARDADOS);
-      escribir(CLAVE_GUARDADOS, lista);
-      return true;
-    },
-
-    quitarArticulo: function (url) {
-      var n = normalizarUrl(url);
-      var lista = api.obtenerGuardados().filter(function (g) { return g.url !== n; });
-      escribir(CLAVE_GUARDADOS, lista);
-      return false;
-    },
-
-    vaciarGuardados: function () {
-      escribir(CLAVE_GUARDADOS, []);
-    },
-
-    registrarProgreso: function (datos) {
-      var actual = leer(CLAVE_PROGRESO, null);
-      var n = normalizarUrl(datos.url);
-      if (!n) return;
-      if (actual && normalizarUrl(actual.url) === n) {
-        if (typeof actual.pct === 'number' && actual.pct >= datos.pct) return;
-        actual.pct = datos.pct;
-        actual.title = datos.title;
-        actual.url = n;
-        actual.ts = Date.now();
-        escribir(CLAVE_PROGRESO, actual);
-        return;
-      }
-      escribir(CLAVE_PROGRESO, {
-        url: n,
-        title: datos.title,
-        pct: datos.pct,
-        ts: Date.now()
-      });
-    },
-
-    obtenerProgreso: function () {
-      var actual = leer(CLAVE_PROGRESO, null);
-      if (actual && actual.url) {
-        actual.url = normalizarUrl(actual.url);
-        /* Si el articulo ya esta terminado, no tiene sentido ofrecer
-           un "Continúa leyendo" que lleva a un 404. */
-        if (typeof actual.pct === 'number' && actual.pct >= 98) return null;
-      }
-      return actual;
-    },
-
-    progresoDeUrl: function (url) {
-      var actual = api.obtenerProgreso();
-      return actual && actual.url === normalizarUrl(url) && typeof actual.pct === 'number' ? actual.pct : 0;
-    },
-
-    /* Rutas de aprendizaje: pasos completados por ruta. */
-    obtenerPasos: function (rutaId) {
-      var mapa = leer('candaias:rutas', {});
-      var ids = mapa && mapa[rutaId];
-      return Array.isArray(ids) ? ids : [];
-    },
-
-    alternarPaso: function (rutaId, indice) {
-      var mapa = leer('candaias:rutas', {});
-      if (!mapa || typeof mapa !== 'object') mapa = {};
-      var ids = Array.isArray(mapa[rutaId]) ? mapa[rutaId] : [];
-      var pos = ids.indexOf(indice);
-      if (pos === -1) ids.push(indice);
-      else ids.splice(pos, 1);
-      mapa[rutaId] = ids;
-      escribir('candaias:rutas', mapa);
-      return mapa[rutaId];
-    }
-  };
-
-  /* Botón "Guardar" de cada artículo. */
-  function initGuardar() {
-    var btn = document.getElementById('save-article');
-    if (!btn) return;
-    var url = btn.getAttribute('data-url');
-    var icono = btn.querySelector('.tool-btn-icon');
-    var etiqueta = btn.querySelector('.tool-btn-label');
-
-    function pintar() {
-      var activo = api.estaGuardado(url);
-      btn.setAttribute('aria-pressed', activo ? 'true' : 'false');
-      btn.classList.toggle('is-active', activo);
-      if (icono) icono.textContent = activo ? '★' : '☆';
-      if (etiqueta) etiqueta.textContent = activo ? 'Guardado' : 'Guardar';
+    function close() {
+      menu.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
     }
 
-    btn.addEventListener('click', function () {
-      api.guardarArticulo({
-        url: url,
-        title: btn.getAttribute('data-title') || '',
-        category: btn.getAttribute('data-category') || '',
-        date: btn.getAttribute('data-date') || ''
-      });
-      pintar();
+    toggle.addEventListener('click', function () {
+      var open = !menu.classList.contains('open');
+      menu.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
 
-    pintar();
-  }
-
-  /* Imprimir / PDF. */
-  function initImprimir() {
-    var btn = document.getElementById('print-article');
-    if (!btn) return;
-    btn.addEventListener('click', function () { window.print(); });
-  }
-
-  /* Guarda por dónde iba el lector para "Continúa leyendo". */
-  function initProgreso() {
-    var contenido = document.getElementById('article-content');
-    var url = document.querySelector('link[rel="canonical"]');
-    var titulo = document.querySelector('.article-title');
-    if (!contenido || !url || !titulo) return;
-
-    var destino = normalizarUrl(url.getAttribute('href'));
-    var texto = titulo.textContent.trim();
-    var ultimoGuardado = 0;
-
-    function medir() {
-      var caja = contenido.getBoundingClientRect();
-      var altoTotal = caja.height || 1;
-      var visto = Math.min(Math.max(window.innerHeight - caja.top, 0), altoTotal);
-      var pct = Math.round((visto / altoTotal) * 100);
-      if (pct < UMBRAL_PROGRESO) return;
-      /* No escribir en localStorage en cada scroll: solo cada 3 segundos. */
-      var ahora = Date.now();
-      if (ahora - ultimoGuardado < 3000) return;
-      ultimoGuardado = ahora;
-      api.registrarProgreso({ url: destino, title: texto, pct: pct });
-    }
-
-    window.addEventListener('scroll', medir, { passive: true });
-    /* pagehide salta al cerrar o cambiar de pestana, ahi no hay scroll
-       event, asi que sin esto se perdia el progreso al salir. */
-    window.addEventListener('pagehide', medir);
-    window.addEventListener('visibilitychange', function () {
-      if (document.visibilityState === 'hidden') medir();
+    menu.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') close();
     });
-    medir();
-  }
 
-  /* Atajo "/" para ir al buscador, como en la documentación. */
-  function initAtajoBusqueda() {
     document.addEventListener('keydown', function (e) {
-      if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
-      var el = document.activeElement;
-      if (el) {
-        var etiqueta = (el.tagName || '').toLowerCase();
-        if (etiqueta === 'input' || etiqueta === 'textarea' || etiqueta === 'select' || el.isContentEditable) return;
-      }
-      e.preventDefault();
-      window.location.href = '/articulos/';
+      if (e.key === 'Escape') close();
     });
+  }
+
+  /* Toggle de tema claro/oscuro (recuerda la preferencia en localStorage) */
+  function initTheme() {
+    var toggle = document.getElementById('theme-toggle');
+    if (!toggle) return;
+
+    var metaTheme = document.querySelector('meta[name="theme-color"]');
+    var LIGHT_BG = '#fbfcfe';
+    var DARK_BG = '#0f1320';
+
+    function isDark() {
+      return document.documentElement.getAttribute('data-theme') === 'dark';
+    }
+
+    function applyTheme(dark) {
+      if (dark) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+      }
+      if (metaTheme) {
+        metaTheme.setAttribute('content', dark ? DARK_BG : LIGHT_BG);
+      }
+      var label = dark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+      toggle.setAttribute('aria-label', label);
+      toggle.setAttribute('title', label);
+    }
+
+    toggle.addEventListener('click', function () {
+      var next = !isDark();
+      applyTheme(next);
+      try {
+        localStorage.setItem('theme', next ? 'dark' : 'light');
+      } catch (e) {}
+    });
+
+    applyTheme(isDark());
   }
 
   function init() {
-    initGuardar();
-    initImprimir();
-    initProgreso();
-    initAtajoBusqueda();
+    initNav();
+    initTheme();
   }
 
   if (document.readyState === 'loading') {
@@ -264,6 +76,4 @@ window.codeandia = (function () {
   } else {
     init();
   }
-
-  return api;
 })();

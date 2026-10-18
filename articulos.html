@@ -7,183 +7,31 @@ last_modified_at: 2026-10-17
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
-{% assign categorias = articulos | map: "category" | uniq | sort %}
 
-<section class="section section-alt">
+{% assign meses_cortos = "ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic" | split: "|" %}
+
+<section class="section">
   <div class="container">
-    <header class="articles-hero">
-      <h1 class="hero-title">Artículos</h1>
-      <p>{{ articulos.size }} artículos publicados · lo que pruebo y lo que me pasa como estudiante de DAW</p>
+    <header class="listing-header">
+      <h1 class="article-title">Artículos</h1>
+      <p class="page-meta">{{ articulos.size }} artículos publicados. Lo que pruebo y lo que me pasa como estudiante de DAW.</p>
     </header>
 
-    <!-- Filtros por categoría -->
-    {% if categorias.size > 1 %}
-    <div class="filter-tabs" role="tablist" aria-label="Filtrar artículos por categoría">
-      <button class="filter-tab is-active" data-filter="all">Todos ({{ articulos.size }})</button>
-      {% for cat in categorias %}
-      {% assign count = articulos | where: "category", cat | size %}
-      <button class="filter-tab" data-filter="{{ cat | slugify }}">{{ cat }} ({{ count }})</button>
-      {% endfor %}
-    </div>
-    {% endif %}
-
-    <!-- Buscador -->
-    <div class="articles-search">
-      <label for="article-search" class="visually-hidden">Buscar artículos</label>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="11" cy="11" r="8"></circle>
-        <path d="m21 21-4.3-4.3"></path>
-      </svg>
-      <input type="search" id="article-search" placeholder="Buscar artículos..." aria-label="Buscar artículos">
-    </div>
-
-    <!-- Grid de artículos -->
     {% if articulos.size > 0 %}
-    <div class="articles-grid" id="articles-grid">
+    <ul class="entry-list">
       {% for post in articulos %}
-      <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}" data-title="{{ post.title | downcase }}" data-desc="{{ post.description | downcase }}">
-        <h3 class="article-card-title">{{ post.title }}</h3>
-        <p class="article-card-desc">{{ post.description }}</p>
-        <div class="article-card-meta">
-          <span class="article-card-category">{{ post.category }}</span>
-          <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-          {% if post.readtime %}
-          <span class="article-card-readtime">{{ post.readtime }} min</span>
-          {% endif %}
-        </div>
-      </a>
+      {% assign mes_idx = post.date | date: "%-m" | plus: 0 | minus: 1 %}
+      <li class="entry">
+        <a href="{{ post.url | relative_url }}">
+          <span class="entry-date">{{ post.date | date: "%-d" }} {{ meses_cortos[mes_idx] }} {{ post.date | date: "%Y" }}</span>
+          <h3 class="entry-title">{{ post.title }}</h3>
+          <p class="entry-desc">{{ post.description }}</p>
+        </a>
+      </li>
       {% endfor %}
-    </div>
-
-    <nav class="pagination" id="pagination" aria-label="Paginación de artículos"></nav>
+    </ul>
     {% else %}
     <p class="empty-state">Todavía no hay artículos publicados. Vuelve pronto.</p>
     {% endif %}
   </div>
 </section>
-
-<script>
-/* Búsqueda de artículos en tiempo real + filtros + paginación en la página de artículos */
-(function () {
-  var searchInput = document.getElementById('article-search');
-  var tabs = document.querySelectorAll('.filter-tab');
-  var cards = document.querySelectorAll('.article-card[data-category]');
-  var paginationEl = document.getElementById('pagination');
-  var gridEl = document.getElementById('articles-grid');
-  if (!cards.length) return;
-
-  var PER_PAGE = 12;
-  var currentPage = 1;
-  var activeFilter = 'all';
-  var searchQuery = '';
-
-  function getFilteredCards() {
-    return Array.prototype.filter.call(cards, function (card) {
-      var matchesFilter = activeFilter === 'all' || card.getAttribute('data-category') === activeFilter;
-      var title = card.getAttribute('data-title') || '';
-      var desc = card.getAttribute('data-desc') || '';
-      var matchesSearch = !searchQuery ||
-        title.indexOf(searchQuery) !== -1 ||
-        desc.indexOf(searchQuery) !== -1;
-      return matchesFilter && matchesSearch;
-    });
-  }
-
-  function totalPages() {
-    return Math.max(1, Math.ceil(getFilteredCards().length / PER_PAGE));
-  }
-
-  function renderPage() {
-    var filtered = getFilteredCards();
-    var start = (currentPage - 1) * PER_PAGE;
-    var end = start + PER_PAGE;
-
-    Array.prototype.forEach.call(cards, function (card) {
-      card.style.display = 'none';
-    });
-
-    filtered.forEach(function (card, i) {
-      card.style.display = (i >= start && i < end) ? '' : 'none';
-    });
-
-    renderPagination();
-    updateResultsCount();
-  }
-
-  function renderPagination() {
-    var filtered = getFilteredCards();
-    var total = totalPages();
-    if (!paginationEl) return;
-
-    if (filtered.length <= PER_PAGE) {
-      paginationEl.innerHTML = '';
-      return;
-    }
-
-    var html = '';
-    html += '<button class="pagination-btn pagination-prev" data-action="prev"' +
-      (currentPage <= 1 ? ' disabled' : '') + ' aria-label="Página anterior">← Anterior</button>';
-    html += '<span class="pagination-info">Página ' + currentPage + ' de ' + total + ' · ' + filtered.length + ' artículos</span>';
-    html += '<button class="pagination-btn pagination-next" data-action="next"' +
-      (currentPage >= total ? ' disabled' : '') + ' aria-label="Página siguiente">Siguiente →</button>';
-    paginationEl.innerHTML = html;
-  }
-
-  function updateResultsCount() {
-    var filtered = getFilteredCards();
-    var activeTab = document.querySelector('.filter-tab.is-active');
-    if (activeTab && activeTab.getAttribute('data-filter') !== 'all') {
-      var baseText = activeTab.textContent.split(' (')[0];
-      activeTab.textContent = baseText + ' (' + filtered.length + ')';
-    }
-  }
-
-  function scrollToGrid() {
-    if (gridEl) {
-      gridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }
-
-  // Búsqueda en tiempo real
-  if (searchInput) {
-    var debounceTimer;
-    searchInput.addEventListener('input', function () {
-      clearTimeout(debounceTimer);
-      debounceTimer = setTimeout(function () {
-        searchQuery = searchInput.value.trim().toLowerCase();
-        currentPage = 1;
-        renderPage();
-      }, 150);
-    });
-  }
-
-  // Paginación
-  paginationEl.addEventListener('click', function (e) {
-    var btn = e.target.closest('[data-action]');
-    if (!btn) return;
-    var action = btn.getAttribute('data-action');
-    if (action === 'prev' && currentPage > 1) {
-      currentPage--;
-      renderPage();
-      scrollToGrid();
-    } else if (action === 'next' && currentPage < totalPages()) {
-      currentPage++;
-      renderPage();
-      scrollToGrid();
-    }
-  });
-
-  // Filtros por categoría
-  tabs.forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      activeFilter = tab.getAttribute('data-filter');
-      currentPage = 1;
-      tabs.forEach(function (t) { t.classList.remove('is-active'); });
-      tab.classList.add('is-active');
-      renderPage();
-    });
-  });
-
-  renderPage();
-})();
-</script>

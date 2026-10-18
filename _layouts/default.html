@@ -17,20 +17,6 @@
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   {% endif %}
 
-  <!-- Imagen social: por categoría si existe, si no la general -->
-  {% assign og_img_rel = "/og-image.png" %}
-  {% assign og_name = "" %}
-  {% case page.category %}
-    {% when "Guía" %}{% assign og_name = "og-guia.png" %}
-    {% when "Review" %}{% assign og_name = "og-review.png" %}
-    {% when "Comparativa" %}{% assign og_name = "og-comparativa.png" %}
-    {% when "Lista" %}{% assign og_name = "og-lista.png" %}
-  {% endcase %}
-  {% if og_name != "" %}
-    {% assign og_cat_hit = site.static_files | where: "name", og_name | size %}
-    {% if og_cat_hit > 0 %}{% assign og_img_rel = "/" | append: og_name %}{% endif %}
-  {% endif %}
-
   <!-- Open Graph (previstas al compartir en redes) -->
   <meta property="og:type" content="{% if page.category %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -38,10 +24,10 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ og_img_rel | absolute_url }}">
+  <meta property="og:image" content="{{ "/og-image.png" | absolute_url }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: comparativas y guías de IA para programadores">
+  <meta property="og:image:alt" content="codeandIA: blog personal de un estudiante de DAW">
   {% if page.category %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 {% if page.last_modified_at or page.updated %}
@@ -54,8 +40,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ og_img_rel | absolute_url }}">
-  <meta name="twitter:image:alt" content="{% if page.category %}{{ page.category }} · {% endif %}codeandIA: comparativas y guías de IA para programadores">
+  <meta name="twitter:image" content="{{ "/og-image.png" | absolute_url }}">
+  <meta name="twitter:image:alt" content="codeandIA: blog personal de un estudiante de DAW">
 
   <!-- Canonical (evita contenido duplicado en buscadores) -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -63,41 +49,35 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | absolute_url }}">
 
-  <!-- Color de tema en móviles -->
-  <meta name="theme-color" content="#1c140b">
+  <!-- Color de tema en móviles (lo ajusta el script del tema antes de pintar) -->
+  <meta name="theme-color" content="#fbfcfe">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet"></noscript>
+  <!-- Fuentes propias: precarga la de texto, la de títulos se pide bajo demanda -->
+  <link rel="preload" href="{{ "/assets/fonts/atkinson-hyperlegible-400-latin.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="{{ "/styles.css" | relative_url }}">
 
-  <!--
-    site.js va en <head> y SIN defer a propósito: lo consumen scripts inline
-    repartidos por el body (guardados, rutas, portada, banner de rutas).
-    Un defer aqui los ejecutaria DESPUES de esos inline y window.codeandia
-    llegaria undefined, rompiendo guardados, rutas y "Continúa leyendo".
-    El propio site.js aplaza su init() a DOMContentLoaded, asi que no
-    toca el DOM antes de tiempo.
-  -->
-  <script src="{{ "/assets/site.js" | relative_url }}"></script>
-
-  <!-- Tema: aplica la preferencia guardada antes de pintar (evita parpadeo) -->
+  <!-- Tema: aplica la preferencia antes de pintar (evita parpadeo) -->
   <script>
     (function () {
+      var theme = 'light';
       try {
         var saved = localStorage.getItem('theme');
-        var light = saved === 'light' ||
-          (saved === null && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches);
-        if (light) {
-          document.documentElement.setAttribute('data-theme', 'light');
-          var mt = document.querySelector('meta[name="theme-color"]');
-          if (mt) mt.setAttribute('content', '#f4ecdb');
+        if (saved === 'light' || saved === 'dark') {
+          theme = saved;
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
         }
       } catch (e) {}
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+      var mt = document.querySelector('meta[name="theme-color"]');
+      if (mt) mt.setAttribute('content', theme === 'dark' ? '#0f1320' : '#fbfcfe');
     })();
   </script>
+
+  <script src="{{ "/assets/site.js" | relative_url }}" defer></script>
 
   <!-- Datos estructurados: sitio + organización + autor -->
   <script type="application/ld+json">
@@ -130,7 +110,7 @@
         "@id": {{ site.url | append: "/#ivan" | jsonify }},
         "name": "Iván",
         "jobTitle": "Estudiante de Desarrollo de Aplicaciones Web",
-        "description": "Autor de codeandIA: comparativas y guías de herramientas de IA para desarrolladores, probadas a mano.",
+        "description": "Autor de codeandIA: lo que pruebo y lo que me pasa como estudiante de DAW.",
         "url": {{ site.url | append: "/sobre-mi/" | jsonify }},
         "email": "ivan@codeandia.com"
       }
@@ -149,150 +129,6 @@
   </main>
 
   {% include footer.html %}
-
-  <script>
-    /* Menú de navegación móvil */
-    (function () {
-      var toggle = document.querySelector('.nav-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (!toggle || !menu) return;
-
-      function close() {
-        menu.classList.remove('open');
-        toggle.classList.remove('open');
-        toggle.setAttribute('aria-expanded', 'false');
-      }
-
-      toggle.addEventListener('click', function () {
-        var open = !menu.classList.contains('open');
-        menu.classList.toggle('open', open);
-        toggle.classList.toggle('open', open);
-        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      });
-
-      // Cierra el menú al pulsar cualquier enlace
-      menu.addEventListener('click', function (e) {
-        if (e.target.tagName === 'A') close();
-      });
-
-      // Cierra con la tecla Escape
-      document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') close();
-      });
-    })();
-
-    /* Toggle de tema claro/oscuro (recuerda la preferencia en localStorage) */
-    (function () {
-      var toggle = document.getElementById('theme-toggle');
-      if (!toggle) return;
-
-      var metaTheme = document.querySelector('meta[name="theme-color"]');
-      var LIGHT_BG = '#f4ecdb';
-      var DARK_BG = '#1c140b';
-
-      function isLight() {
-        return document.documentElement.getAttribute('data-theme') === 'light';
-      }
-
-      function applyTheme(light) {
-        if (light) {
-          document.documentElement.setAttribute('data-theme', 'light');
-        } else {
-          document.documentElement.removeAttribute('data-theme');
-        }
-        if (metaTheme) {
-          metaTheme.setAttribute('content', light ? LIGHT_BG : DARK_BG);
-        }
-        var label = light ? 'Cambiar a modo oscuro' : 'Cambiar a modo claro';
-        toggle.setAttribute('aria-label', label);
-        toggle.setAttribute('title', label);
-      }
-
-      toggle.addEventListener('click', function () {
-        var next = !isLight();
-        applyTheme(next);
-        try {
-          localStorage.setItem('theme', next ? 'light' : 'dark');
-        } catch (e) {}
-      });
-
-      // Sincroniza el estado inicial (aria-label y color de tema del móvil)
-      var saved = null;
-      try { saved = localStorage.getItem('theme'); } catch (e) {}
-      applyTheme(isLight() || saved === 'light');
-    })();
-  </script>
-
-  <!-- Acordeón: solo un elemento <details> abierto por bloque de preguntas -->
-  <script>
-    (function () {
-      var bloques = document.querySelectorAll('.faq-list, .ofertas-faq');
-      bloques.forEach(function (bloque) {
-        var items = Array.prototype.slice.call(bloque.querySelectorAll('details'));
-        items.forEach(function (det) {
-          det.addEventListener('toggle', function () {
-            if (!det.open) return;
-            items.forEach(function (otro) {
-              if (otro !== det && otro.open) otro.open = false;
-            });
-          });
-        });
-      });
-    })();
-  </script>
-
-  <!-- Botón copiar en bloques de código -->
-  <script>
-    (function () {
-      var pre = document.querySelectorAll('.article-content pre');
-      if (!pre.length) return;
-      pre.forEach(function (bloque, i) {
-        var wrapper = bloque.parentNode;
-        if (wrapper && wrapper.classList.contains('code-wrap')) return;
-        var wp = document.createElement('div');
-        wp.className = 'code-wrap';
-        wrapper.replaceChild(wp, bloque);
-        wp.appendChild(bloque);
-
-        var btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'code-copy';
-        btn.textContent = 'Copiar';
-        btn.dataset.copied = 'false';
-        wp.appendChild(btn);
-
-        btn.addEventListener('click', function () {
-          var texto = bloque.querySelector('code').innerText;
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(texto).then(done, done);
-          } else {
-            fallbackCopiar(texto);
-            done();
-          }
-        });
-
-        function done() {
-          btn.textContent = 'Copiado';
-          btn.dataset.copied = 'true';
-          setTimeout(function () {
-            btn.textContent = 'Copiar';
-            btn.dataset.copied = 'false';
-          }, 1800);
-        }
-
-        function fallbackCopiar(texto) {
-          var ta = document.createElement('textarea');
-          ta.value = texto;
-          ta.style.position = 'fixed';
-          ta.style.opacity = '0';
-          document.body.appendChild(ta);
-          ta.select();
-          try { document.execCommand('copy'); } catch (e) {}
-          document.body.removeChild(ta);
-        }
-      });
-    })();
-  </script>
 
 </body>
 </html>

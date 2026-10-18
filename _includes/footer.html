@@ -1,42 +1,14 @@
-{% unless page.layout == 'article' %}
-{% include newsletter.html %}
-{% endunless %}
-
 <footer class="footer">
   <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="{{ "/" | relative_url }}" class="logo logo-small">
-          <span class="logo-code">code</span><span class="logo-ia">andIA</span>
-        </a>
-        <p class="footer-note">Blog personal de Iván, estudiante de DAW: lo que pruebo y lo que me pasa, sin humo.</p>
-        <a class="footer-mail" href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
-      </div>
-
-      <nav class="footer-col" aria-label="Aprender">
-        <h3 class="footer-col-title">Aprender</h3>
-        <a href="{{ "/articulos/" | relative_url }}">Artículos</a>
-        <a href="{{ "/sobre-mi/" | relative_url }}">Sobre mí</a>
-        <a href="{{ "/como-trabajamos/" | relative_url }}">Cómo trabajamos con IA</a>
-      </nav>
-
-      <nav class="footer-col" aria-label="Sobre el blog">
-        <h3 class="footer-col-title">Sobre el blog</h3>
-        <a href="{{ "/sobre-mi/" | relative_url }}">Sobre mí</a>
-        <a href="{{ "/como-trabajamos/" | relative_url }}">Cómo trabajamos con IA</a>
-      </nav>
-
-      <nav class="footer-col" aria-label="Enlaces legales">
-        <h3 class="footer-col-title">Legal</h3>
-        <a href="{{ "/aviso-legal/" | relative_url }}">Aviso legal</a>
-        <a href="{{ "/privacidad/" | relative_url }}">Privacidad</a>
-        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
-      </nav>
-    </div>
-
-    <div class="footer-bottom">
-      <p class="footer-note">Ahora mismo no hay enlaces de afiliado en el blog.</p>
-      <p class="footer-credit">Escrito y revisado por Iván · © {{ "now" | date: "%Y" }}</p>
-    </div>
+    <p class="footer-brand"><a href="{{ "/" | relative_url }}">codeandIA</a></p>
+    <p class="footer-note">Blog personal de Iván: lo que pruebo y lo que me pasa como estudiante de DAW.</p>
+    <ul class="footer-links">
+      <li><a href="{{ "/como-trabajamos/" | relative_url }}">Cómo trabajo</a></li>
+      <li><a href="{{ "/aviso-legal/" | relative_url }}">Aviso legal</a></li>
+      <li><a href="{{ "/privacidad/" | relative_url }}">Privacidad</a></li>
+      <li><a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a></li>
+      <li><a href="{{ "/feed.xml" | relative_url }}">RSS</a></li>
+    </ul>
+    <p class="footer-credit">Escrito y revisado por Iván · © {{ "now" | date: "%Y" }}</p>
   </div>
 </footer>

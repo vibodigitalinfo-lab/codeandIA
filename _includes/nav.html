@@ -1,16 +1,13 @@
 <nav class="nav">
   <div class="nav-inner">
-    <a href="{{ "/" | relative_url }}" class="logo">
-      <span class="logo-code">code</span><span class="logo-ia">andIA</span>
-      <span class="logo-note" aria-hidden="true">sin humo</span>
-    </a>
+    <a href="{{ "/" | relative_url }}" class="logo">codeandIA</a>
     <div class="nav-links" id="nav-menu">
       <a href="{{ "/articulos/" | relative_url }}">Artículos</a>
       <a href="{{ "/sobre-mi/" | relative_url }}">Sobre mí</a>
-      <a href="{{ "/como-trabajamos/" | relative_url }}">Cómo trabajamos</a>
+      <a href="{{ "/como-trabajamos/" | relative_url }}">Cómo trabajo</a>
     </div>
     <div class="nav-actions">
-      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo claro" title="Cambiar a modo claro">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo oscuro" title="Cambiar a modo oscuro">
         <svg class="theme-icon theme-icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="12" cy="12" r="4"></circle>
           <path d="M12 2v2"></path>
@@ -26,7 +23,7 @@
           <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
         </svg>
       </button>
-      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>
         <span class="nav-toggle-bar"></span>

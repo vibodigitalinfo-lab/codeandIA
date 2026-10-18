@@ -3,18 +3,18 @@ layout: default
 ---
 
 <article class="article">
-  <div class="container">
-    <div class="article-header">
-      <h1 class="article-title">{{ page.title }}</h1>
-      {% if page.updated %}
-      <div class="article-meta">Última actualización: {{ page.updated | date: "%d/%m/%Y" }}</div>
-      {% endif %}
-    </div>
+  <header class="page-header">
+    <h1 class="article-title">{{ page.title }}</h1>
+    {% if page.updated %}
+    {% assign meses = "enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre" | split: "|" %}
+    {% assign mes_idx = page.updated | date: "%-m" | plus: 0 | minus: 1 %}
+    <p class="page-meta">Última actualización: {{ page.updated | date: "%-d" }} de {{ meses[mes_idx] }} de {{ page.updated | date: "%Y" }}</p>
+    {% endif %}
+  </header>
 
-    <div class="article-content">
-      {{ content }}
-    </div>
-
-    <a href="{{ "/" | relative_url }}" class="back-link">← Volver a la portada</a>
+  <div class="page-content">
+    {{ content }}
   </div>
+
+  <p class="back-link"><a href="{{ "/" | relative_url }}">Volver a la portada</a></p>
 </article>

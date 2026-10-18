@@ -7,53 +7,53 @@ last_modified_at: 2026-10-18
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
 
-<section class="hero">
-  <div class="container hero-grid">
+{% assign meses_cortos = "ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic" | split: "|" %}
+
+<section class="hero-notebook">
+  <div class="container">
     <div class="hero-copy">
-      <p class="hero-kicker hand">apuntes de un estudiante de DAW</p>
-      <h1 class="hero-title">Lo que pruebo, lo que me pasa<br>y lo que voy aprendiendo</h1>
+      <h1 class="hero-title">Lo que pruebo, lo que me pasa y lo que voy aprendiendo</h1>
       <p class="hero-subtitle">Un blog personal sobre lo que pruebo de verdad y lo que voy viviendo en el DAW. No prometo catálogos ni comparativas: solo escribo cuando tengo algo que contar.</p>
       <div class="hero-cta">
-        <a href="#articulos" class="btn btn-accent">Leer los últimos artículos</a>
-        <a href="{{ "/sobre-mi/" | relative_url }}" class="btn btn-outline">Sobre mí <span aria-hidden="true">→</span></a>
+        {% if articulos.size > 0 %}
+        <a href="{{ articulos.first.url | relative_url }}" class="btn btn-primary">Leer la última entrada</a>
+        {% endif %}
+        <a href="{{ "/sobre-mi/" | relative_url }}" class="btn btn-outline">Sobre mí</a>
       </div>
-      <p class="hero-trust">experiencias reales · sin contenido pagado · lo que uso, lo digo</p>
     </div>
   </div>
 </section>
 
-<section id="articulos" class="section">
+<section class="section">
   <div class="container">
-    <div class="section-head">
-      <h2 class="section-title">Artículos</h2>
-      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Ver todos <span aria-hidden="true">→</span></a>
-    </div>
+    <h2 class="section-title">Entradas</h2>
 
     {% if articulos.size > 0 %}
-    <div class="articles-grid">
+    <ul class="entry-list">
       {% for post in articulos limit:6 %}
-      <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
-        <h3 class="article-card-title">{{ post.title }}</h3>
-        <p class="article-card-desc">{{ post.description }}</p>
-        <div class="article-card-meta">
-          <span class="article-card-category">{{ post.category }}</span>
-          <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-          {% if post.readtime %}
-          <span class="article-card-readtime">{{ post.readtime }} min</span>
-          {% endif %}
-        </div>
-      </a>
+      {% assign mes_idx = post.date | date: "%-m" | plus: 0 | minus: 1 %}
+      <li class="entry">
+        <a href="{{ post.url | relative_url }}">
+          <span class="entry-date">{{ post.date | date: "%-d" }} {{ meses_cortos[mes_idx] }} {{ post.date | date: "%Y" }}</span>
+          <h3 class="entry-title">{{ post.title }}</h3>
+          <p class="entry-desc">{{ post.description }}</p>
+        </a>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
     {% else %}
     <p class="empty-state">Todavía no hay artículos publicados.</p>
+    {% endif %}
+
+    {% if articulos.size > 6 %}
+    <p class="entry-more"><a href="{{ "/articulos/" | relative_url }}">Ver todos los artículos</a></p>
     {% endif %}
   </div>
 </section>
 
-<section id="sobre-mi" class="section section-alt">
-  <div class="container container-narrow">
+<section class="section">
+  <div class="container-narrow">
     <h2 class="section-title">Sobre mí</h2>
-    <p class="about-text">Soy Iván, estudiante de DAW. Voy escribiendo lo que pruebo y lo que me pasa, tal como lo vivo. La redacción cuenta con ayuda de IA a partir de mis notas del diario, pero lo que publico pasa por mi revisión. <a href="{{ "/sobre-mi/" | relative_url }}">Leer más sobre mí <span aria-hidden="true">→</span></a></p>
+    <p>Soy Iván, estudiante de DAW. Voy escribiendo lo que pruebo y lo que me pasa, tal como lo vivo. La redacción cuenta con ayuda de IA a partir de mis notas del diario, pero lo que publico pasa por mi revisión. <a href="{{ "/sobre-mi/" | relative_url }}">Leer más sobre mí</a></p>
   </div>
 </section>

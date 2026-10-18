@@ -3,16 +3,17 @@ layout: default
 last_modified_at: 2026-09-30
 ---
 
+{% comment %}
+  Meses en español para las fechas del artículo. Liquid no trae
+  localización, así que se mapea el número de mes a mano.
+{% endcomment %}
+{% assign meses = "enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre" | split: "|" %}
+{% assign mes_num = page.date | date: "%-m" | plus: 0 %}
+{% assign mes_idx = mes_num | minus: 1 %}
+{% assign dia_pub = page.date | date: "%-d" %}
+{% assign anio_pub = page.date | date: "%Y" %}
+
 <script type="application/ld+json">
-{% assign og_art = "/og-image.png" %}
-{% assign cat_url = "" %}
-{% assign cat_label = page.category %}
-{% case page.category %}
-  {% when "Guía" %}{% assign og_art = "/og-guia.png" %}
-  {% when "Review" %}{% assign og_art = "/og-review.png" %}
-  {% when "Comparativa" %}{% assign og_art = "/og-comparativa.png" %}
-  {% when "Lista" %}{% assign og_art = "/og-lista.png" %}
-{% endcase %}
 [
   {
     "@context": "https://schema.org",
@@ -21,7 +22,7 @@ last_modified_at: 2026-09-30
     "description": {{ page.description | jsonify }},
     "image": {
       "@type": "ImageObject",
-      "url": {{ og_art | absolute_url | jsonify }},
+      "url": {{ "/og-image.png" | absolute_url | jsonify }},
       "width": 1200,
       "height": 630
     },
@@ -32,67 +33,31 @@ last_modified_at: 2026-09-30
     "articleSection": {{ page.category | jsonify }},
     "author": { "@type": "Person", "name": "Iván", "url": {{ "/sobre-mi/" | absolute_url | jsonify }} },
     "publisher": { "@id": {{ "/" | absolute_url | append: "#organization" | jsonify }} }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": {{ "/" | absolute_url | jsonify }} },
-      { "@type": "ListItem", "position": 2, "name": "Artículos", "item": {{ "/articulos/" | absolute_url | jsonify }} },
-      {% if cat_url != "" %}
-      { "@type": "ListItem", "position": 3, "name": {{ cat_label | jsonify }}, "item": {{ cat_url | absolute_url | jsonify }} },
-      { "@type": "ListItem", "position": 4, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
-      {% else %}
-      { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
-      {% endif %}
-    ]
   }
 ]
 </script>
 
-<div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
-
 <article class="article">
-  <div class="container">
-    <nav class="breadcrumb" aria-label="Migas de pan">
-      <a href="{{ "/" | relative_url }}">Inicio</a>
-      <span aria-hidden="true">/</span>
-      <a href="{{ "/articulos/" | relative_url }}">Artículos</a>
-      <span aria-hidden="true">/</span>
-      {% if cat_url != "" %}
-      <a href="{{ cat_url | relative_url }}">{{ cat_label }}</a>
+  <header class="article-header">
+    <h1 class="article-title">{{ page.title }}</h1>
+    <p class="article-meta">
+      Publicado el {{ dia_pub }} de {{ meses[mes_idx] }} de {{ anio_pub }}.
+      {% if page.updated %}
+      {% assign mes_up_num = page.updated | date: "%-m" | plus: 0 %}
+      {% assign mes_up_idx = mes_up_num | minus: 1 %}
+      Actualizado el {{ page.updated | date: "%-d" }} de {{ meses[mes_up_idx] }} de {{ page.updated | date: "%Y" }}.
+      {% endif %}
+      {% if page.readtime %}
+      {{ page.readtime }} minutos de lectura.
       {% else %}
-      <span>{{ page.category | default: "Artículo" }}</span>
+      {% assign palabras = page.content | number_of_words %}
+      {% assign mins = palabras | divided_by: 155.0 | round %}
+      {{ mins }} minutos de lectura.
       {% endif %}
-    </nav>
+    </p>
+  </header>
 
-    <div class="article-header">
-      {% if page.category %}
-      <span class="pill">{{ page.category }}</span>
-      {% endif %}
-      <h1 class="article-title">{{ page.title }}</h1>
-      <div class="article-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>
-        {% if page.updated %}
-        <span class="meta-dot">·</span><time datetime="{{ page.updated | date_to_xmlschema }}">Actualizado el {{ page.updated | date: "%d/%m/%Y" }}</time>
-        {% endif %}
-        {% if page.readtime %}
-        <span class="meta-dot">·</span><span>{{ page.readtime }} min de lectura</span>
-        {% else %}
-        {% assign palabras = page.content | number_of_words %}
-        {% assign mins = palabras | divided_by: 160.0 | round %}
-        <span class="meta-dot">·</span><span>{{ mins }} min de lectura</span>
-        {% endif %}
-      </div>
-    </div>
-
-    {% include test-card.html %}
-
-    {% include affiliate-disclosure.html %}
-
-    {% include buying-table.html %}
-
-    <div class="article-grid">
+  <div class="article-grid">
     <nav class="toc" id="toc" aria-label="Índice del artículo" hidden>
       <p class="toc-title">En este artículo</p>
       <ol class="toc-list" id="toc-list"></ol>
@@ -101,137 +66,44 @@ last_modified_at: 2026-09-30
     <div class="article-content" id="article-content">
       {{ content }}
     </div>
-    </div>
+  </div>
 
-    {% if page.affiliate_text %}
-    <aside class="affiliate-box">
-      <span class="affiliate-tag">Recomendación</span>
-      <p class="affiliate-text">{{ page.affiliate_text }}</p>
-      <a class="affiliate-btn" href="{{ page.affiliate_url }}" target="_blank" rel="sponsored nofollow noopener">{{ page.affiliate_label }} <span class="affiliate-arrow" aria-hidden="true">→</span></a>
-    </aside>
-    {% endif %}
+  <p class="back-link"><a href="{{ "/articulos/" | relative_url }}">Volver a los artículos</a></p>
 
-    <div class="share">
-      <span class="share-label">Compartir</span>
-      <a class="share-btn" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&amp;url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">X</a>
-      <a class="share-btn" href="https://wa.me/?text={{ page.title | uri_escape }}%20{{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">WhatsApp</a>
-      <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener">LinkedIn</a>
-      <button class="share-btn" type="button" id="copy-link" data-url="{{ page.url | absolute_url }}">Copiar enlace</button>
-    </div>
+  {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | where_exp: "p", "p.url != page.url" %}
+  {% comment %}
+    Los artículos de hardware llevan `tema: hardware` en el frontmatter. Si el
+    artículo actual es de hardware, "Sigue leyendo" se queda dentro del
+    hardware; si no, lo saca. Así una guía de depuración no termina
+    recomendando un hub USB-C.
+  {% endcomment %}
+  {% if page.tema == "hardware" %}
+    {% assign candidatos = otros | where_exp: "p", "p.tema == 'hardware'" %}
+  {% else %}
+    {% assign candidatos = otros | where_exp: "p", "p.tema != 'hardware'" %}
+  {% endif %}
+  {% assign relacionados = candidatos | sort: "date" | reverse %}
+  {% if relacionados.size > 0 %}
+  <aside class="related">
+    <h2 class="related-title">Sigue leyendo</h2>
+    <ul class="related-list">
+      {% for r in relacionados limit: 3 %}
+      <li><a href="{{ r.url | relative_url }}">{{ r.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
 
-    {% assign todos_art = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | where_exp: "p", "p.url != page.url" | sort: "date" %}
-    {% assign anterior = false %}
-    {% assign siguiente = false %}
-    {% assign ya_siguiente = false %}
-    {% for a in todos_art %}
-      {% if a.date < page.date %}
-        {% assign anterior = a %}
-      {% endif %}
-      {% if a.date > page.date and ya_siguiente == false %}
-        {% assign siguiente = a %}
-        {% assign ya_siguiente = true %}
-      {% endif %}
-    {% endfor %}
-    {% if anterior or siguiente %}
-    <nav class="post-nav" aria-label="Artículos anterior y siguiente">
-      {% if anterior %}
-      <a class="post-nav-link post-nav-prev" href="{{ anterior.url | relative_url }}" rel="prev">
-        <span class="post-nav-label">Artículo anterior</span>
-        <span class="post-nav-title">{{ anterior.title }}</span>
-        <span class="post-nav-date">{{ anterior.date | date: "%d/%m/%Y" }}</span>
-      </a>
-      {% endif %}
-      {% if siguiente %}
-      <a class="post-nav-link post-nav-next" href="{{ siguiente.url | relative_url }}" rel="next">
-        <span class="post-nav-label">Artículo siguiente</span>
-        <span class="post-nav-title">{{ siguiente.title }}</span>
-        <span class="post-nav-date">{{ siguiente.date | date: "%d/%m/%Y" }}</span>
-      </a>
-      {% endif %}
-    </nav>
-    {% endif %}
+  {% include author-box.html %}
 
-    <div class="article-tools">
-      <button class="tool-btn" id="save-article" type="button" data-url="{{ page.url | relative_url }}" data-title="{{ page.title | escape }}" data-category="{{ page.category | escape }}" data-date="{{ page.date | date: "%Y-%m-%d" }}" aria-pressed="false">
-        <span class="tool-btn-icon" aria-hidden="true">☆</span>
-        <span class="tool-btn-label">Guardar</span>
-      </button>
-      <button class="tool-btn" id="print-article" type="button">
-        <span class="tool-btn-icon" aria-hidden="true">⎙</span>
-        <span class="tool-btn-label">Imprimir / PDF</span>
-      </button>
-      <a class="tool-btn" id="suggest-fix" href="mailto:ivan@codeandia.com?subject={{ page.title | uri_escape }}&amp;body={{ 'Sugerencia para este artículo: ' | uri_escape }}{{ page.url | absolute_url | uri_escape }}">
-        <span class="tool-btn-icon" aria-hidden="true">✎</span>
-        <span class="tool-btn-label">Sugerir mejora</span>
-      </a>
-    </div>
-
-    <a href="{{ "/articulos/" | relative_url }}" class="back-link">← Ver todos los artículos</a>
-
-    {% comment %}
-      "Sigue leyendo" excluye el anterior y el siguiente: ya salen justo
-      encima en post-nav, asi que sin este filtro se veia el mismo articulo
-      dos veces seguidas en la misma pantalla.
-    {% endcomment %}
-    {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.url != anterior.url" | where_exp: "p", "p.url != siguiente.url" %}
-    {% comment %}
-      Los articulos de hardware llevan `tema: hardware` en el frontmatter. Si el
-      articulo actual es de hardware, "Sigue leyendo" se queda dentro del
-      hardware; si no, lo saca. Asi una guia de depuracion no termina
-      recomendando un hub USB-C.
-    {% endcomment %}
-    {% if page.tema == "hardware" %}
-      {% assign candidatos = otros | where_exp: "p", "p.tema == 'hardware'" %}
-    {% else %}
-      {% assign candidatos = otros | where_exp: "p", "p.tema != 'hardware'" %}
-    {% endif %}
-    {% assign mismos = candidatos | where: "category", page.category | sort: "date" | reverse %}
-    {% assign distintos = candidatos | where_exp: "p", "p.category != page.category" | sort: "date" | reverse %}
-    {% assign relacionados = mismos | concat: distintos %}
-    {% if relacionados.size > 0 %}
-    <aside class="related">
-      <h2 class="related-title">Sigue leyendo</h2>
-      <div class="related-grid">
-        {% for r in relacionados limit: 2 %}
-        <a href="{{ r.url | relative_url }}" class="article-card" data-category="{{ r.category | slugify }}">
-          <h3 class="article-card-title">{{ r.title }}</h3>
-          <p class="article-card-desc">{{ r.description }}</p>
-          <div class="article-card-meta">
-            <span class="article-card-category">{{ r.category }}</span>
-            <span class="article-card-date">{{ r.date | date: "%d/%m/%Y" }}</span>
-          </div>
-        </a>
-        {% endfor %}
-      </div>
-    </aside>
-    {% endif %}
-
-    {% include author-box.html %}
-
+  <div class="newsletter-wrap">
     {% include newsletter.html %}
   </div>
 </article>
 
-<button class="to-top" id="to-top" type="button" aria-label="Volver arriba">↑</button>
-
 <script>
-  /* Barra de progreso de lectura */
-  (function () {
-    var bar = document.getElementById('reading-progress-bar');
-    var content = document.getElementById('article-content');
-    if (!bar || !content) return;
-    function update() {
-      var top = content.getBoundingClientRect().top + window.pageYOffset;
-      var total = content.offsetHeight - window.innerHeight + 200;
-      var pct = total > 0 ? ((window.pageYOffset - top + 200) / total) * 100 : 0;
-      bar.style.width = Math.min(100, Math.max(0, pct)) + '%';
-    }
-    window.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    update();
-  })();
-
-  /* Índice automático (si hay 3+ H2), scroll-spy y enlaces ancla en los títulos */
+  /* Índice automático (si hay 4+ H2) y scroll-spy. En pantallas estrechas
+     el CSS oculta el TOC; aquí solo se construye si el viewport es ancho. */
   (function () {
     var content = document.getElementById('article-content');
     if (!content) return;
@@ -246,7 +118,7 @@ last_modified_at: 2026-09-30
     var h2s = heads.filter(function (h) { return h.tagName === 'H2'; });
     var links = [];
 
-    if (nav && list && h2s.length >= 3) {
+    if (nav && list && h2s.length >= 4 && window.matchMedia('(min-width: 1100px)').matches) {
       h2s.forEach(function (h) {
         var li = document.createElement('li');
         var a = document.createElement('a');
@@ -278,51 +150,5 @@ last_modified_at: 2026-09-30
     } else if (nav && nav.parentNode) {
       nav.parentNode.removeChild(nav);
     }
-
-    heads.forEach(function (h) {
-      var a = document.createElement('a');
-      a.className = 'heading-anchor';
-      a.href = '#' + h.id;
-      a.setAttribute('aria-label', 'Enlace a esta sección');
-      a.textContent = '#';
-      a.addEventListener('click', function () {
-        var url = location.origin + location.pathname + '#' + h.id;
-        if (navigator.clipboard) { navigator.clipboard.writeText(url).then(function () {}, function () {}); }
-      });
-      h.appendChild(a);
-    });
-  })();
-
-  /* Volver arriba */
-  (function () {
-    var btn = document.getElementById('to-top');
-    if (!btn) return;
-    function toggle() { btn.classList.toggle('is-visible', window.pageYOffset > 700); }
-    window.addEventListener('scroll', toggle, { passive: true });
-    toggle();
-    btn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
-  })();
-
-  /* Copiar enlace del artículo */
-  (function () {
-    var btn = document.getElementById('copy-link');
-    if (!btn) return;
-    btn.addEventListener('click', function () {
-      var url = btn.getAttribute('data-url');
-      var done = function () {
-        btn.textContent = 'Copiado';
-        setTimeout(function () { btn.textContent = 'Copiar enlace'; }, 1800);
-      };
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(url).then(done, function () {});
-      } else {
-        var t = document.createElement('textarea');
-        t.value = url;
-        document.body.appendChild(t);
-        t.select();
-        try { document.execCommand('copy'); done(); } catch (e) {}
-        document.body.removeChild(t);
-      }
-    });
   })();
 </script>

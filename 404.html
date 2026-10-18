@@ -6,14 +6,17 @@ sitemap: false
 noindex: true
 ---
 
-<section class="hero">
+{% assign meses_cortos = "ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic" | split: "|" %}
+
+<section class="hero-notebook">
   <div class="container">
-    <span class="hero-badge">Error 404</span>
-    <h1 class="hero-title">Esta página no existe.</h1>
-    <p class="hero-subtitle">La movimos de sitio, cambió la URL, o nunca existió. Vuelve al inicio o echa un ojo a los artículos más recientes.</p>
-    <div class="hero-actions">
-      <a href="{{ "/" | relative_url }}" class="btn btn-accent">Volver al inicio</a>
-      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Ver todos los artículos</a>
+    <div class="hero-copy">
+      <h1 class="hero-title">Esta página no existe.</h1>
+      <p class="hero-subtitle">La movimos de sitio, cambió la URL, o nunca existió. Vuelve al inicio o echa un ojo a las entradas más recientes.</p>
+      <div class="notfound-actions">
+        <a href="{{ "/" | relative_url }}" class="btn btn-primary">Volver al inicio</a>
+        <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Ver todos los artículos</a>
+      </div>
     </div>
   </div>
 </section>
@@ -32,17 +35,17 @@ noindex: true
 <section class="section">
   <div class="container">
     <h2 class="section-title">Quizá buscabas uno de estos</h2>
-    <div class="articles-grid">
+    <ul class="entry-list">
       {% for post in articulos limit:6 %}
-      <a href="{{ post.url | relative_url }}" class="article-card" data-category="{{ post.category | slugify }}">
-        <h3 class="article-card-title">{{ post.title }}</h3>
-        <p class="article-card-desc">{{ post.description }}</p>
-        <div class="article-card-meta">
-          <span class="article-card-category">{{ post.category }}</span>
-          <span class="article-card-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-        </div>
-      </a>
+      {% assign mes_idx = post.date | date: "%-m" | plus: 0 | minus: 1 %}
+      <li class="entry">
+        <a href="{{ post.url | relative_url }}">
+          <span class="entry-date">{{ post.date | date: "%-d" }} {{ meses_cortos[mes_idx] }} {{ post.date | date: "%Y" }}</span>
+          <h3 class="entry-title">{{ post.title }}</h3>
+          <p class="entry-desc">{{ post.description }}</p>
+        </a>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
 </section>
