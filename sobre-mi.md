@@ -19,19 +19,15 @@ Por las tardes, si me apetece, me pongo un rato con algo de clase. Nunca me obli
 
 ## Qué tengo por delante
 
-Me quedan unos años para acabar DAW y el futuro me queda bastante incierto, y no pasa nada. Ahora mismo tengo en mente el **Máster de FP en Ciberseguridad**: veo el mercado de juniors bastante crudo, con muchos saliendo y con la IA comiéndose cada vez más cosas, y prefiero tener ciberseguridad como un seguro. En cuanto a empresa o puesto concretos, no lo tengo decidido; prefiero dejar que la vida me sorprenda.
+Me quedan unos años para acabar DAW y el futuro me queda bastante incierto, y no pasa nada. Ahora mismo tengo en mente el **Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información**: veo el mercado de juniors bastante crudo, con muchos saliendo y con la IA comiéndose cada vez más cosas, y prefiero tener ciberseguridad como un seguro. En cuanto a empresa o puesto concretos, no lo tengo decidido; prefiero dejar que la vida me sorprenda.
 
-Mientras estudio quiero sacarme algo de dinero. Estoy buscando un trabajo de findes con un turno largo, y de paso he empezado en **uTest**, una plataforma donde te pagan por probar productos y encontrar fallos en ellos.
+Mientras estudio quiero sacarme algo de dinero. Estoy buscando un trabajo de findes con un turno largo, y de paso he empezado en **uTest**.
 
 ## Cómo escribo
 
 Las entradas del blog salen **solo de lo que me pasa o de lo que pruebo de verdad**. Guardo esas experiencias en mis notas del diario y, a partir de esas notas, uso IA para darles forma. Todo lo que publico lo leo y lo reviso yo antes de que salga. No invento datos, números ni anécdotas que no estén en mis notas.
 
-Cuando no he probado algo, lo digo. Cuando no sé algo, lo digo. Lo que recomiendo lo he probado yo; lo que no, no lo recomiendo.
-
-## Transparecia sobre IA
-
-Uso IA para redactar a partir de mis notas personales. Las experiencias, las pruebas y los datos son míos. Yo reviso cada artículo frase por frase antes de publicarlo. No vende la idea de estar "escrito a mano", sino que es mi experiencia escrita con ayuda de IA.
+Cuando no he probado algo, lo digo. Cuando no sé algo, lo digo. Lo que recomiendo lo he probado yo; lo que no, no lo recomiendo. Uso IA para redactar a partir de mis notas personales, y no vendo la idea de estar "escrito a mano": es mi experiencia escrita con ayuda de IA.
 
 ## Contacto
 

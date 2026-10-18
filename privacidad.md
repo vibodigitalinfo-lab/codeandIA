@@ -21,8 +21,8 @@ De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOP
 
 **Datos técnicos de navegación.** El sitio no tiene registro de usuarios, formularios de contacto propios ni cuenta de comentarios. En tu navegación normal solo se tratan estos datos:
 
-- **Datos de conexión** (dirección IP, navegador, sistema operativo, página solicitada): los procesa el proveedor de hosting y la red que sirve el sitio para entregarte la página y protegerla de ataques. No se usan para perfilarte ni se guardan asociados a tu persona.
-- **Almacenamiento local de tu navegador** (no son cookies): ahí se quedan los artículos que marcas como guardados, el progreso de las rutas y si prefieres modo claro u oscuro. No se envían a ningún servidor y puedes borrarlos desde los ajustes de tu navegador.
+- **Datos de conexión** (dirección IP, navegador, sistema operativo, página solicitada): los procesa el proveedor de alojamiento (GitHub Pages) y el servicio de DNS (Cloudflare) para entregarte la página y protegerla de ataques. No se usan para perfilarte ni se guardan asociados a tu persona.
+- **Almacenamiento local de tu navegador** (no son cookies): ahí se quedan los artículos que marcas como guardados y si prefieres modo claro u oscuro. No se envían a ningún servidor y puedes borrarlos desde los ajustes de tu navegador.
 - **Cookies técnicas** imprescindibles para que el sitio funcione. Este sitio no instala cookies propias de análisis ni de publicidad.
 
 ## 3. Finalidad y base legal
@@ -30,7 +30,7 @@ De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOP
 | Finalidad | Datos | Base legal |
 |---|---|---|
 | Servir el sitio y protegerlo de ataques | Datos de conexión (IP, navegador, sistema operativo) | Interés legítimo (art. 6.1.f RGPD) |
-| Recordar tus preferencias (guardados, progreso, tema) | Almacenamiento local del navegador | Consentimiento derivado de tu propia acción (art. 6.1.a RGPD) |
+| Recordar tus preferencias (guardados, tema) | Almacenamiento local del navegador | Consentimiento derivado de tu propia acción (art. 6.1.a RGPD) |
 | Enviar la newsletter | Email | Consentimiento (art. 6.1.a RGPD) |
 
 ## 4. Cookies
@@ -40,8 +40,8 @@ Este sitio no instala cookies propias de análisis ni de publicidad. Por eso no 
 Lo que sí existe:
 
 - **Cookies técnicas:** imprescindibles para que la web se sirva correctamente. Si las bloqueas por completo, algunas partes del sitio pueden no cargar.
-- **Almacenamiento local del navegador** para los guardados, el progreso de las rutas y el tema claro/oscuro: no es una cookie y no viaja a ningún servidor.
-- **Cookies de terceros al salir del sitio:** si haces clic en un enlace de afiliado o en cualquier enlace externo (Amazon, Hostinger, Namecheap, redes sociales), el sitio de destino puede instalar sus propias cookies y tratarte según su política. Ese tratamiento no lo controlamos nosotros y esas cookies no llegan a nuestro sitio.
+- **Almacenamiento local del navegador** para los guardados y el tema claro/oscuro: no es una cookie y no viaja a ningún servidor.
+- **Cookies de terceros al salir del sitio:** si haces clic en cualquier enlace externo, el sitio de destino puede instalar sus propias cookies y tratarte según su política. Ese tratamiento no lo controlamos nosotros y esas cookies no llegan a nuestro sitio.
 - **Mecanismos de la newsletter (beehiiv):** al interactuar con el formulario de suscripción o al recibir y abrir los emails, beehiiv puede usar sus propios mecanismos de seguimiento (aperturas, clics y estado de suscripción), regulados por su propia política de cookies y privacidad.
 
 Puedes configurar el bloqueo o eliminación de cookies desde la configuración de tu navegador en cualquier momento.

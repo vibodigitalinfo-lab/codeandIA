@@ -13,25 +13,15 @@ En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad d
 
 - **Titular:** Iván
 - **Email de contacto:** <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
-- **Actividad:** Blog divulgativo sobre herramientas de inteligencia artificial para programar, con guías de estudio y recomendaciones de hardware y accesorios para el puesto de trabajo.
+- **Actividad:** Blog personal donde cuento lo que pruebo y lo que me pasa como estudiante de DAW.
 
 ## 2. Objeto del sitio
 
-Este blog publica contenido informativo y educativo sobre herramientas de inteligencia artificial para desarrollo de software: reseñas, guías y comparativas. Las opiniones expresadas son personales y en ningún caso constituyen asesoramiento profesional.
+Este blog es un cuaderno personal con experiencias reales de aprendizaje. Las opiniones son personales y no constituyen asesoramiento profesional.
 
-## 3. Enlaces de afiliados y publicidad
+## 3. Enlaces de afiliados
 
-Algunos enlaces de esta web son **enlaces de afiliado**. Esto significa que, si compras a través de ellos, el autor puede recibir una comisión por parte del vendedor, **sin ningún coste adicional para ti**.
-
-El autor participa en programas de afiliación de empresas como proveedores de hosting, dominios y herramientas de software que recomienda y utiliza de forma habitual.
-
-### Programa de Afiliados de Amazon
-
-Como Asociado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.
-
-Los precios de los productos que aparecen en los artículos y en la página de ofertas se comprueban a mano y llevan la fecha en la que se verificaron. Amazon puede cambiarlos en cualquier momento: **el precio válido es siempre el que figura en la ficha del producto en Amazon** en el momento de la compra, no el que aparece en este blog.
-
-**Compromiso de transparencia:** solo se recomiendan productos o servicios que se han probado personalmente o de los que se tiene conocimiento directo. La presencia de un enlace de afiliado no condiciona la opinión expresada en el contenido.
+Por ahora no hay enlaces de afiliados activos. Si en el futuro los hubiera, se marcarían como tales y no condicionarán lo que escribo.
 
 ## 4. Propiedad intelectual
 
