@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: "Bloqueo de LaLiga a Cloudflare y cómo afectó a este blog"
 description: "El 17 de octubre el blog dejó de cargarse: estaba bloqueado por LaLiga. Esto es lo que pasó y cómo lo solucioné."
