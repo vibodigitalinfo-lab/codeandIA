@@ -1,80 +1,23 @@
 ---
 layout: default
-title: "Herramientas de IA para programadores en España"
-description: "Comparativas y guías de herramientas de IA para programar, probadas a mano y explicadas para estudiantes de DAW. ChatGPT, Claude Code, Cursor, Copilot y más, con precios comprobados desde España: moneda, impuestos y fecha."
+title: "codeandIA — lo que pruebo y lo que me pasa"
+description: "Un blog personal donde voy contando lo que pruebo, lo que me pasa y lo que aprendo como estudiante de DAW. Sin comparativas genéricas, sin reseñas sin usar."
+last_modified_at: 2026-10-18
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
-{% assign rutas_total_pasos = 0 %}
-{% for r in site.data.rutas %}{% assign rutas_total_pasos = rutas_total_pasos | plus: r.pasos.size %}{% endfor %}
 
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
       <p class="hero-kicker hand">apuntes de un estudiante de DAW</p>
-      <h1 class="hero-title">La IA no te va a quitar el trabajo.<br>Pero sí te va a hacer <span class="hero-accent">mejor dev</span>.</h1>
-      <p class="hero-subtitle">Guías, comparativas y listas de herramientas de IA para programar, probadas a mano y con precios comprobados desde España: te digo la moneda, los impuestos y la fecha.</p>
+      <h1 class="hero-title">Lo que pruebo, lo que me pasa<br>y lo que voy aprendiendo</h1>
+      <p class="hero-subtitle">Un blog personal sobre lo que pruebo de verdad y lo que voy viviendo en el DAW. No prometo catálogos ni comparativas: solo escribo cuando tengo algo que contar.</p>
       <div class="hero-cta">
         <a href="#articulos" class="btn btn-accent">Leer los últimos artículos</a>
-        <a href="{{ "/ofertas/" | relative_url }}" class="btn btn-outline">Ofertas y setup <span aria-hidden="true">→</span></a>
+        <a href="{{ "/sobre-mi/" | relative_url }}" class="btn btn-outline">Sobre mí <span aria-hidden="true">→</span></a>
       </div>
-      <p class="hero-trust">probado a mano · sin contenido pagado · precios con fecha e impuestos</p>
-    </div>
-
-    <div class="hero-visual" aria-hidden="true">
-      <aside class="sticky-note">
-        <h2>lo que uso ahora mismo</h2>
-        <ul>
-          <li>VS Code con Copilot en el día a día</li>
-          <li>Claude Code en la terminal</li>
-          <li>Cursor instalado, no lo uso a diario</li>
-          <li>Hostinger para el hosting, Namecheap para los dominios</li>
-        </ul>
-        <p>las herramientas que analizo en detalle están <a href="#herramientas">abajo</a> —Iván</p>
-      </aside>
-    </div>
-  </div>
-</section>
-
-<p class="note-band">artículos nuevos cada semana · <a href="{{ "/como-trabajamos/" | relative_url }}">cómo trabajamos con IA</a> · <a href="{{ "/ofertas/" | relative_url }}">precios de esta semana</a></p>
-
-<section class="section section-alt">
-  <div class="container">
-    <div class="section-head">
-      <h2 class="section-title">Por dónde empezar</h2>
-    </div>
-    <p class="section-intro">
-      Con {{ articulos.size }} artículos publicados, lo difícil no es encontrarlos, es saber por dónde
-      empezar. Estas son las tres entradas que mejor funcionan si acabas de llegar.
-    </p>
-
-    <div class="tools-grid">
-      <a class="tool-card" href="{{ "/rutas/" | relative_url }}">
-        <div class="tool-card-top">
-          <h3>Rutas de aprendizaje</h3>
-          <span class="pill">{{ site.data.rutas | size }} rutas</span>
-        </div>
-        <p>Recorridos ordenados con {{ rutas_total_pasos }} pasos en total: qué leer primero, qué después y qué saltarte. Guardas tu progreso y sigues cuando quieras.</p>
-        <span class="pillar-link-text">Ver las rutas <span aria-hidden="true">→</span></span>
-      </a>
-
-      <a class="tool-card" href="{{ "/cheatsheets/" | relative_url }}">
-        <div class="tool-card-top">
-          <h3>Cheatsheets</h3>
-          <span class="pill">5 hojas</span>
-        </div>
-        <p>Prompts con código, atajos de VS Code, Git, Docker y regex resumidos para tenerlos abiertos en otra pestaña mientras programas. Sin relleno.</p>
-        <span class="pillar-link-text">Abrir las hojas <span aria-hidden="true">→</span></span>
-      </a>
-
-      <a class="tool-card" href="{{ "/articulos/" | relative_url }}">
-        <div class="tool-card-top">
-          <h3>Todos los artículos</h3>
-          <span class="pill">{{ articulos.size }}</span>
-        </div>
-        <p>El catálogo completo con filtros por categoría, búsqueda y orden por fecha. Cada artículo enlaza con el anterior y el siguiente para leer sin parar.</p>
-        <span class="pillar-link-text">Ver el catálogo <span aria-hidden="true">→</span></span>
-      </a>
+      <p class="hero-trust">experiencias reales · sin contenido pagado · lo que uso, lo digo</p>
     </div>
   </div>
 </section>
@@ -82,19 +25,8 @@ description: "Comparativas y guías de herramientas de IA para programar, probad
 <section id="articulos" class="section">
   <div class="container">
     <div class="section-head">
-      <h2 class="section-title">Artículos recientes</h2>
-      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Todos los artículos <span aria-hidden="true">→</span></a>
-    </div>
-
-    <div id="resume-slot" hidden>
-      <div class="resume-card">
-        <div class="resume-body">
-          <span class="resume-label">Continúa leyendo</span>
-          <a class="resume-title" id="resume-title" href="#"></a>
-          <div class="resume-bar" aria-hidden="true"><span id="resume-bar" style="width:0%"></span></div>
-        </div>
-        <button class="resume-dismiss" id="resume-dismiss" type="button" aria-label="Ocultar">×</button>
-      </div>
+      <h2 class="section-title">Artículos</h2>
+      <a href="{{ "/articulos/" | relative_url }}" class="btn btn-outline">Ver todos <span aria-hidden="true">→</span></a>
     </div>
 
     {% if articulos.size > 0 %}
@@ -114,175 +46,14 @@ description: "Comparativas y guías de herramientas de IA para programar, probad
       {% endfor %}
     </div>
     {% else %}
-    <p class="empty-state">Todavía no hay artículos publicados. Vuelve pronto.</p>
+    <p class="empty-state">Todavía no hay artículos publicados.</p>
     {% endif %}
-
-    <p class="section-note">
-      También hay dos apartados aparte, para que no se mezclen con las guías de IA:
-      el <a href="{{ "/setup/" | relative_url }}">setup de escritorio, pieza a pieza con precios comprobados</a>
-      y la <a href="{{ "/hosting/" | relative_url }}">guía de hosting y dominios para publicar tu primer proyecto</a>.
-    </p>
   </div>
 </section>
 
-<section id="herramientas" class="section section-alt">
-  <div class="container">
-    <h2 class="section-title">Lo que uso</h2>
-    <p class="section-intro">
-      Las herramientas que uso de verdad y que recomendaría a quien está aprendiendo a programar con IA.
-      La fecha de cada tarjeta es la de la <strong>última revisión real</strong> de esa ficha, no la de hoy.
-      Si no la he vuelto a mirar desde entonces, la fecha se queda ahí y la tarjeta lo dice: prefiero que se vea
-      viejo antes que fingir que está al día.
-    </p>
-
-    <div class="tools-grid">
-
-      {% for tool in site.data.herramientas %}
-      {% assign revisada = nil %}
-      {% assign publicada = nil %}
-      <div class="tool-card">
-        <div class="tool-card-top">
-          <h3>{{ tool.nombre }}</h3>
-          <span class="pill">{{ tool.pill }}</span>
-        </div>
-        <p>{{ tool.desc }}</p>
-        <div class="tool-card-actions">
-          {% if tool.sponsored %}
-          <a href="{{ tool.url }}" class="tool-card-btn" target="_blank" rel="nofollow sponsored noopener">Probar →</a>
-          {% else %}
-          <a href="{{ tool.url }}" class="tool-card-btn" target="_blank" rel="noopener">Probar →</a>
-          {% endif %}
-          {% for enlace in tool.enlaces %}
-          {% assign art = site.pages | where: "path", enlace.path | first %}
-          {% if art %}
-          <a href="{{ art.url | relative_url }}" class="tool-card-review">{{ enlace.label }}</a>
-          {% if art.updated %}
-          {% if revisada == nil or art.updated > revisada %}{% assign revisada = art.updated %}{% endif %}
-          {% else %}
-          {% if publicada == nil or art.date > publicada %}{% assign publicada = art.date %}{% endif %}
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-        </div>
-        {% if revisada %}
-        <p class="tool-card-updated">revisado el {{ revisada | date: "%d/%m/%Y" }}</p>
-        {% elsif publicada %}
-        <p class="tool-card-updated tool-card-updated-stale">publicada el {{ publicada | date: "%d/%m/%Y" }}, sin revisar desde entonces</p>
-        {% endif %}
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</section>
-
-<section id="metodologia" class="section">
+<section id="sobre-mi" class="section section-alt">
   <div class="container container-narrow">
-    <h2 class="section-title">Cómo pruebo cada herramienta</h2>
-    <p class="about-text">No escribo de oídas. El software que aparece por aquí lo he usado yo en mi día a día como estudiante. Del hardware hay que ser más preciso: <strong>parte lo tengo montado en mi escritorio</strong> (los que uso a diario) y <strong>parte lo he elegido investigándolo</strong>, comparando ficha técnica, opiniones y precios. En cada pieza del setup te digo cuál de las dos es. Este es el método:</p>
-    <ol class="method-list">
-      <li><strong>La uso de verdad</strong> en proyectos reales de clase o personales, no en un tutorial de cinco minutos. En el hardware, lo que uso lo tengo delante; lo que no, lo investigo y lo digo.</li>
-      <li><strong>Mido lo que importa:</strong> velocidad, límites, precio real y si te hace mejor programador o solo más rápido.</li>
-      <li><strong>Actualizo</strong> cuando cambia algo importante: precios, planes o funciones nuevas.</li>
-      <li><strong>También cuento lo malo.</strong> Nada de contenido pagado: si algo no me convence, lo digo.</li>
-    </ol>
-
-    <h3 class="about-subtitle">Y para que puedas comprobarlo</h3>
-    <p class="about-text">«Probado a mano» solo vale si se puede verificar, así que cuando algo lo he probado de verdad, el propio artículo lo dice: qué versión usé, cuánto tiempo y en qué proyecto. Y cuando algo no lo he probado, también lo digo en el artículo, en vez de fingir que sí.</p>
-    <ul class="method-list">
-      <li>El <strong>precio</strong> va con la fecha en la que lo comprobaste, y el válido es el de la tienda el día que compras.</li>
-      <li>Las <strong>tablas comparativas</strong> que no vienen de una medición mía lo dicen explícitamente: es mi impresión, no un dato medido.</li>
-      <li>Si un dato cambia, el artículo se marca como <strong>actualizado</strong> con la fecha de la revisión.</li>
-    </ul>
-
-    <h3 class="about-subtitle">El eje del blog</h3>
-    <p class="about-text">Este método de prueba también marca la forma de usar la IA que defiende todo el blog: las cinco reglas para aprender programando <strong>sin volverse dependiente</strong>. La misma idea, aplicada a un módulo entero, está en <a href="{{ "/articulos/guias/aprender-java-con-ia-daw/" | relative_url }}">aprender Java en DAW con IA sin volverte dependiente</a>: la IA puede escribir código, pero tú tienes que poder defenderlo frase por frase:</p>
-    <ol class="method-list">
-      <li><strong>Explicar:</strong> nunca aceptes una línea que no sepas defender en voz alta.</li>
-      <li><strong>Rehacer:</strong> vuelve a hacer a mano lo que la IA te resolvió.</li>
-      <li><strong>Pedir pista:</strong> que te guíe hasta la solución, no que te la dé entera.</li>
-      <li><strong>Apagón:</strong> un rato al día sin ninguna IA delante.</li>
-      <li><strong>Medir:</strong> si no puedes comprobar que has mejorado, no has mejorado.</li>
-    </ol>
-    <p class="about-text">Y para que el método sea completo: <a href="{{ "/como-trabajamos/" | relative_url }}">aquí cuento cómo escribo y qué papel tienen las herramientas de IA</a>. Algunos enlaces son de afiliado: si compras a través de ellos, me llevo una pequeña comisión sin coste extra para ti. Eso mantiene el blog gratis y en ningún caso condiciona mi opinión.</p>
-  </div>
-</section>
-
-<section id="faq" class="section section-alt">
-  <div class="container container-narrow">
-    <h2 class="section-title">Preguntas frecuentes</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary>¿Cuál es la mejor IA para programar siendo principiante?</summary>
-        <p>Si empiezas, quédate en <strong>VS Code con GitHub Copilot gratis</strong> (lo tienes con el Student Pack): sigues en el editor que ya usa tu clase y la IA solo entra cuando la llamas. Cuando tengas un proyecto de verdad, prueba Cursor un fin de semana: su chat contextual ayuda mucho en refactors largos. Cómo tengo montado yo el editor lo cuento en <a href="{{ "/articulos/listas/configuracion-vscode-ia-2026/" | relative_url }}">mi configuración de VS Code para IA</a>.</p>
-      </details>
-      <details class="faq-item">
-        <summary>¿Merece la pena pagar ChatGPT Plus?</summary>
-        <p>Depende de cuánto lo uses. Si trabajas a diario con contexto largo o te quedas sin mensajes en los peores momentos, puede valer la pena; para el uso puntual de un estudiante, el plan gratuito suele bastar. Es una decisión de cuánto lo usas, no de cuál es «mejor».</p>
-      </details>
-      <details class="faq-item">
-        <summary>¿Puedo sugerir una herramienta?</summary>
-        <p>¡Claro! Escríbeme a <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a> y lo tendré en cuenta. Me interesa probar herramientas que usen programadores de verdad.</p>
-      </details>
-      <details class="faq-item">
-        <summary>¿Puedo guardar artículos o continuar donde lo dejé?</summary>
-        <p>Sí. Cada artículo tiene un botón <strong>Guardar</strong> y el blog recuerda por dónde ibas, así que puedes volver al que te quedaste a medias. Los guardados y el progreso se quedan en tu navegador, no en un servidor. También puedes llevarte cualquier artículo a PDF con el botón <strong>Imprimir</strong>, y pulsar la tecla <kbd>/</kbd> para ir al buscador desde cualquier página.</p>
-      </details>
-      <details class="faq-item">
-        <summary>¿Por dónde empiezo si acabo de llegar?</summary>
-        <p>Con {{ articulos.size }} artículos publicados es normal perderse, por eso hay <a href="{{ "/rutas/" | relative_url }}">rutas de aprendizaje</a>: recorridos ordenados según lo que quieras conseguir. Si solo quieres consultar cosas rápidas, están las <a href="{{ "/cheatsheets/" | relative_url }}">cheatsheets</a>.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<section id="sobre-mi" class="section">
-  <div class="container">
     <h2 class="section-title">Sobre mí</h2>
-    <div class="about-grid">
-      <div class="about-copy">
-        <p>Soy Iván, estudiante de Desarrollo de Aplicaciones Web. Uso herramientas de IA a diario para programar, sobre todo Claude: primero por necesidad, luego por curiosidad, y ahora para contarlo por aquí.</p>
-        <p>Este blog nació con un propósito claro: que quien está aprendiendo a programar sepa qué herramientas merecen la pena de verdad y cuáles son solo humo, sin marketing ni letra pequeña.</p>
-        <p>Aquí encontrarás comparativas y guías de herramientas de IA para desarrolladores. Del software, lo que recomiendo lo he probado yo; del hardware, te digo en cada pieza si la tengo montada o si la he elegido investigando.</p>
-        <p><a href="{{ "/sobre-mi/" | relative_url }}">Mi historia completa y cómo pruebo <span aria-hidden="true">→</span></a></p>
-      </div>
-      <div class="about-facts">
-        <div class="fact">Estudiante de DAW</div>
-        <div class="fact">Pruebo cada herramienta de software antes de recomendarla</div>
-        <div class="fact">Comparativas y guías en primera persona</div>
-        <div class="fact fact-email"><a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a></div>
-      </div>
-    </div>
+    <p class="about-text">Soy Iván, estudiante de DAW. Voy escribiendo lo que pruebo y lo que me pasa, tal como lo vivo. La redacción cuenta con ayuda de IA a partir de mis notas del diario, pero lo que publico pasa por mi revisión. <a href="{{ "/sobre-mi/" | relative_url }}">Leer más sobre mí <span aria-hidden="true">→</span></a></p>
   </div>
 </section>
-
-<script>
-  /* "Continúa leyendo": recupera el último artículo leído. */
-  (function () {
-    var slot = document.getElementById('resume-slot');
-    var link = document.getElementById('resume-title');
-    var barra = document.getElementById('resume-bar');
-    var cerrar = document.getElementById('resume-dismiss');
-    var api = window.codeandia;
-    if (!slot || !api) return;
-
-    try {
-      if (sessionStorage.getItem('candaias:resume-oculto')) return;
-    } catch (e) {}
-
-    var datos = api.obtenerProgreso();
-    if (!datos || !datos.url || !datos.title) return;
-
-    link.href = datos.url;
-    link.textContent = datos.title;
-    barra.style.width = Math.min(100, Math.max(5, datos.pct || 0)) + '%';
-    slot.hidden = false;
-
-    if (cerrar) {
-      cerrar.addEventListener('click', function () {
-        slot.hidden = true;
-        try { sessionStorage.setItem('candaias:resume-oculto', '1'); } catch (e) {}
-      });
-    }
-  })();
-</script>
