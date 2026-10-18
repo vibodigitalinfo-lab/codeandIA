@@ -248,7 +248,7 @@ window.codeandia = (function () {
         if (etiqueta === 'input' || etiqueta === 'textarea' || etiqueta === 'select' || el.isContentEditable) return;
       }
       e.preventDefault();
-      window.location.href = '/buscar/';
+      window.location.href = '/articulos/';
     });
   }
 

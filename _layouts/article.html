@@ -8,10 +8,10 @@ last_modified_at: 2026-09-30
 {% assign cat_url = "" %}
 {% assign cat_label = page.category %}
 {% case page.category %}
-  {% when "Guía" %}{% assign og_art = "/og-guia.png" %}{% assign cat_url = "/guias/" %}{% assign cat_label = "Guías" %}
-  {% when "Review" %}{% assign og_art = "/og-review.png" %}{% assign cat_url = "/reviews/" %}{% assign cat_label = "Reviews" %}
-  {% when "Comparativa" %}{% assign og_art = "/og-comparativa.png" %}{% assign cat_url = "/comparativas/" %}{% assign cat_label = "Comparativas" %}
-  {% when "Lista" %}{% assign og_art = "/og-lista.png" %}{% assign cat_url = "/listas/" %}{% assign cat_label = "Listas" %}
+  {% when "Guía" %}{% assign og_art = "/og-guia.png" %}
+  {% when "Review" %}{% assign og_art = "/og-review.png" %}
+  {% when "Comparativa" %}{% assign og_art = "/og-comparativa.png" %}
+  {% when "Lista" %}{% assign og_art = "/og-lista.png" %}
 {% endcase %}
 [
   {
@@ -91,23 +91,6 @@ last_modified_at: 2026-09-30
     {% include affiliate-disclosure.html %}
 
     {% include buying-table.html %}
-
-    {% assign rutas_del_art = "" %}
-    {% for r in site.data.rutas %}
-      {% assign pos = 0 %}
-      {% for p in r.pasos %}
-        {% assign pos = pos | plus: 1 %}
-        {% if p.path == page.url %}
-          {% assign rutas_del_art = rutas_del_art | append: r.id | append: "|" | append: pos | append: "|" | append: r.pasos | size | append: ";" %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    {% if rutas_del_art != "" %}
-    <aside class="ruta-banner" id="ruta-banner" hidden>
-      <span class="ruta-banner-label">Parte de una ruta</span>
-      <div id="ruta-banner-items"></div>
-    </aside>
-    {% endif %}
 
     <div class="article-grid">
     <nav class="toc" id="toc" aria-label="Índice del artículo" hidden>
@@ -341,52 +324,5 @@ last_modified_at: 2026-09-30
         document.body.removeChild(t);
       }
     });
-  })();
-
-  /* Banner de rutas: en qué ruta está este artículo y cuánto llevas */
-  (function () {
-    var banner = document.getElementById('ruta-banner');
-    var items = document.getElementById('ruta-banner-items');
-    if (!banner || !items) return;
-
-    var crudos = {{ rutas_del_art | split: ";" | jsonify }};
-    var rutas = [];
-    (crudos || []).forEach(function (c) {
-      if (!c) return;
-      var p = c.split('|');
-      if (p.length < 4) return;
-      rutas.push({ id: p[0], pos: parseInt(p[1], 10), total: parseInt(p[2], 10) });
-    });
-    if (!rutas.length) return;
-
-    var nombres = {{ site.data.rutas | map: "titulo" | jsonify }};
-    var ids = {{ site.data.rutas | map: "id" | jsonify }};
-
-    function pintar() {
-      items.innerHTML = '';
-      rutas.forEach(function (r) {
-        var hechos = window.codeandia ? window.codeandia.obtenerPasos(r.id) : [];
-        var linea = document.createElement('p');
-        linea.className = 'ruta-banner-line';
-
-        var enlace = document.createElement('a');
-        enlace.className = 'ruta-banner-link';
-        enlace.href = '/rutas/#' + r.id;
-        var indice = ids.indexOf(r.id);
-        enlace.textContent = indice !== -1 ? nombres[indice] : r.id;
-
-        var meta = document.createElement('span');
-        meta.className = 'ruta-banner-meta';
-        meta.textContent = 'paso ' + r.pos + ' de ' + r.total + ' · ' + hechos.length + ' completados';
-
-        linea.appendChild(enlace);
-        linea.appendChild(meta);
-        items.appendChild(linea);
-      });
-      banner.hidden = false;
-    }
-
-    pintar();
-    window.addEventListener('storage', pintar);
   })();
 </script>

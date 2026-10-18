@@ -1,8 +1,0 @@
-- titulo: "Si lo que quieres es comprar el dominio"
-  intro: "El hosting y el dominio son dos cuentas distintas y se compran en sitios distintos. Esto es lo que escribí de cada una."
-  articulos:
-    - /articulos/guias/que-dominio-comprar-primer-proyecto-web/
-- titulo: "Si no quieres pagar nada"
-  intro: "Para un portfolio o una práctica de clase, hosting de pago no hace falta. Esta comparativa cubre las tres plataformas gratuitas que no piden tarjeta."
-  articulos:
-    - /articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/
