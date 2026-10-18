@@ -8,7 +8,7 @@ last_modified_at: 2026-10-18
 
 ## Principios
 
-- **Solo lo que vivo.** Solo escribo sobre cosas que he probado o que me han pasado. Los tres artículos que hay ahora mismo son la excepción: son anteriores al diario y salen de datos reales que fui recopilando. A partir de ahora, cada artículo nuevo sale de una entrada del diario: sin entrada, no hay artículo.
+- **Solo lo que vivo.** Solo escribo sobre cosas que he probado o que me han pasado. Tres de los cuatro artículos que hay ahora son anteriores al diario; a partir de ahora, cada artículo nuevo sale de una entrada del diario: sin entrada, no hay artículo.
 - **Nada inventado.** No añado datos, números ni anécdotas que no estén en mis notas. Si falta algo, lo marco como pendiente y lo pregunto.
 - **Transparencia.** Uso IA para dar forma a mis notas, pero las experiencias son mías. Reviso todo antes de publicar.
 - **Verdad.** Cuando no he probado algo, lo digo. Cuando dudo, lo digo.
@@ -19,13 +19,13 @@ Uso varias, y cada una para su cosa:
 
 - **Gemini**, para el día a día y los temas personales. Me ayuda a salir de dudas y a tener claridad mental. No todo el día, que si no me quedo loco.
 - **Claude**, para lo técnico: Java, dudas del blog, la redacción de los borradores a partir de mis notas y el mantenimiento del sitio (código, plantillas y scripts). Contesta de forma más profunda y me da la impresión de que hace más research.
-- **ChatGPT**, para crear imágenes. Antes lo usaba para todo y abusaba de él; me di cuenta de que era demasiado complaciente, así que lo dejé a un lado y ahora solo lo uso para las imágenes.
+- **ChatGPT**, para crear imágenes, y de vez en cuando como respaldo cuando falla Gemini, pero rara vez. Antes lo usaba para todo y abusaba de él; me di cuenta de que era demasiado complaciente, así que lo dejé a un lado.
 
 ## Historia de este blog
 
 Este blog arrancó el **8 de septiembre de 2026** con 132 artículos que no recogían mi experiencia real. Entre el 15 y el 18 de octubre los eliminé y conservé 3, reescritos con mis datos y mi forma de ver las cosas.
 
-Esos tres artículos son **anteriores al diario**: los escribí con datos reales que fui recopilando, pero sin el sistema de entrada de diario que uso ahora. A partir de ahora, cada artículo sale de una entrada del diario.
+Esos tres artículos son **anteriores al diario**: los escribí con datos reales que fui recopilando, pero sin el sistema de entrada de diario que uso ahora. El cuarto (el del bloqueo de LaLiga) ya salió de una entrada del diario, y así seguirán todos los próximos.
 
 ## Proceso
 

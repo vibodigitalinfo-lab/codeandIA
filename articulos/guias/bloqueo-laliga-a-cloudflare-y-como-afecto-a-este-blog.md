@@ -14,11 +14,11 @@ Al principio pensé que me habían baneado o algo y me agobié un momento. Pero 
 
 ## Qué había pasado el día anterior
 
-El 16 de octubre había puesto codeandia.com detrás del proxy de Cloudflare. Lo hice por las cinco redirecciones 301 de los artículos antiguos que había movido de sitio. Detrás del proxy, el tráfico de la web no va directo: pasa antes por las IP de Cloudflare, que son las mismas que usan miles de webs más.
+El 16 de octubre había puesto codeandia.com detrás del proxy de Cloudflare. Lo hice por las redirecciones 301 de los artículos antiguos que había movido de sitio. Detrás del proxy, el tráfico de la web no va directo: pasa antes por las IP de Cloudflare, que son las mismas que usan miles de webs más.
 
 ## El bloqueo
 
-Ese mismo 16 de octubre, LaLiga y Telefónica Audiovisual pidieron un bloqueo judicial contra [hayahora.futbol](https://hayahora.futbol), una web de fútbol, según explicaba la propia hayahora. Los operadores no bloquean dominios: bloquean IP. Y las IP por las que se servía esa web eran de Cloudflare, compartidas conmigo y con muchas otras webs. Mi web no era el objetivo, pero salió atrapada en el mismo bloqueo.
+Según explica [hayahora.futbol](https://hayahora.futbol), desde una sentencia de diciembre de 2024 LaLiga y Telefónica Audiovisual Digital pueden comunicar a los operadores (Movistar, MásOrange, Vodafone y DIGI, entre otros) las direcciones IP que deben bloquear durante los partidos. El bloqueo recae sobre IP y no sobre dominios, y las IP de Cloudflare las comparten miles de webs. Mi web no era el objetivo, pero compartía IP con otras que sí lo eran. Según su historial, esas dos IP aparecían bloqueadas a partir de las 13:40 de ese día.
 
 ## Cómo lo detecté
 
@@ -34,13 +34,13 @@ Address: 188.114.97.5
 ```
 
 - Con `curl` no recibía respuesta.
-- En cambio, `www.codeandia.com` apuntaba directo a GitHub Pages (rango 185.199.x) y sí cargaba. El blog entero estaba ahí, intacto; lo que no funcionaba era el camino que pasaba por el proxy.
+- En cambio, `www.codeandia.com` respondía (con una redirección 301 al dominio raíz, servida por GitHub), así que GitHub Pages estaba funcionando. Lo que no funcionaba era el camino que pasaba por el proxy.
 
-Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que había fútbol ese día, y con el buscador de webs que tienen busqué codeandia.com: estaba bloqueada. Además, su comprobador marcaba **2 de 2 IPs bloqueadas en Movistar, Vodafone, MásMóvil y DIGI**, y accesibles en Orange. Ahí tenía la confirmación.
+Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que había fútbol ese día, y con el buscador de webs que tienen busqué codeandia.com: estaba bloqueada. Además, su comprobador marcaba **2 de 2 IPs bloqueadas en Movistar, Vodafone, MásMóvil y DIGI**. Ahí tenía la confirmación.
 
 ## El arreglo
 
-Pasé el registro del dominio raíz a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
+Pasé los cuatro registros A del dominio raíz a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
 
 ```text
 $ nslookup codeandia.com
@@ -50,11 +50,11 @@ Address: 185.199.110.153
 Address: 185.199.111.153
 ```
 
-Y `curl -vI` respondió con `HTTP/2 200`. La web volvió a cargar.
+Y `curl -vI` respondió con `HTTP/1.1 200 OK`. La web volvió a cargar.
 
 ## Qué quedó por detrás
 
-El arreglo no es permanente: los bloqueos son dinámicos y el proxy seguía siendo una opción con ese riesgo encima. Además, al apagar el proxy perdí las cinco redirecciones 301 que tenía montadas en Cloudflare; ahora las cubren unas páginas stub que deja el propio blog, que cumplen, aunque no son un 301 de verdad.
+El arreglo no es permanente: los bloqueos son dinámicos y el proxy seguía siendo una opción con ese riesgo encima. Además, al apagar el proxy perdí las redirecciones 301 que tenía montadas en Cloudflare; ahora las cubren unas páginas stub que deja el propio blog, que cumplen, aunque no son un 301 de verdad.
 
 ## Lo aprendido
 

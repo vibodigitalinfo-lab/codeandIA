@@ -27,7 +27,7 @@ La parte de las explicaciones es la que más me aporta. Ir viendo, preguntando y
 
 - **Eclipse**: es el IDE con el que doy Java en clase, y es donde me lo encuentro cada día.
 - **Claude, a diario**: para pasarle errores, enunciados y dudas.
-- **ChatGPT**, con el plan gratuito: casi solo para crear imágenes; de vez en cuando, como respaldo cuando falla Gemini, pero rara vez.
+- **ChatGPT**, con el plan gratuito: para crear imágenes, y de vez en cuando como respaldo cuando falla Gemini, pero rara vez.
 - **Cursor**, solo con el plan gratuito. De pago no tengo nada.
 
 ## Qué evito

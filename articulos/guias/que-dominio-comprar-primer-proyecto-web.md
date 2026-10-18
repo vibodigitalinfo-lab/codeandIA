@@ -21,7 +21,7 @@ Como consejo general, y no como experiencia: **primero comprueba la disponibilid
 
 ## Lo que hice yo
 
-El dominio de este blog es **codeandia.com** y lo compré el **8 de septiembre de 2026** en **Namecheap**, por **6,99 $**. Elegí `.com` porque me parece el más conocido y el más útil a nivel mundial, y porque el nombre que quería estaba libre.
+El dominio de este blog es **codeandia.com** y lo compré el **8 de septiembre de 2026** en **Namecheap**, por **6,99 $ el primer año**. Elegí `.com` porque me parece el más conocido y el más útil a nivel mundial, y porque el nombre que quería estaba libre.
 
 Lo que más me costó no fue el registro, sino entender qué va detrás. Un dominio solo te da el nombre; para que la web funcione tienes que decirle a internet a dónde apunta, y eso se hace con los registros DNS.
 
@@ -41,8 +41,10 @@ codeandia.com      A    185.199.111.153    DNS only
 Y para la versión con `www`, un registro **CNAME** que apunta al hosting:
 
 ```
-www.codeandia.com  CNAME  vibodigitalinfo-lab.github.io    DNS only
+www.codeandia.com  CNAME  TU-USUARIO.github.io    DNS only
 ```
+
+(Ese `TU-USUARIO` es el nombre de usuario de GitHub con el que tienes la cuenta; en el blog es `vibodigitalinfo-lab`.)
 
 El resto de registros que hay en la zona (correo, newsletter) los gestiona cada servicio que los necesita; para que la web cargue, con los de arriba basta.
 
