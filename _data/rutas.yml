@@ -5,8 +5,8 @@
   pasos:
     - path: "/articulos/comparativas/chatgpt-vs-cursor-para-programar/"
       nota: "La comparación base: chat o editor, y para qué sirve cada uno."
-    - path: "/articulos/comparativas/continue-dev-vs-cursor-2026/"
-      nota: "La alternativa open source, en serio."
+    - path: "/articulos/listas/configuracion-vscode-ia-2026/"
+      nota: "Tu editor y tu asistente, ya configurados."
 
 - id: equipo-entorno
   titulo: "Montar tu equipo y tu entorno"
@@ -55,8 +55,6 @@
   nivel: "Avanzado"
   resumen: "La parte que casi nadie explica bien: cómo la IA lee tus proyectos y qué modelo usar para cada tarea."
   pasos:
-    - path: "/articulos/comparativas/continue-dev-vs-cursor-2026/"
-      nota: "Qué modelo usar para cada tipo de tarea."
     - path: "/articulos/comparativas/ia-local-vs-ia-nube-programar/"
       nota: "IA en tu ordenador o en la nube: qué ganas y qué pierdes."
     - path: "/articulos/listas/tendencias-ia-para-devs-2026/"

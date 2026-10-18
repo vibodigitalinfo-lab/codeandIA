@@ -5,7 +5,7 @@ description: "Tendencias reales de IA en programación 2026: agentes autónomos,
 category: "Lista"
 date: 2026-10-10
 readtime: 10
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 Hace un año, "IA para programar" significaba Copilot autocompletando líneas. Hoy, los seniors que conozco usan la IA de formas que parecen ciencia ficción: agentes que despliegan solos, protocolos que conectan IA con herramientas externas, y modelos locales que hacen code review sin enviar una sola línea de código a la nube. Estas no son tendencias de futurólogo en Twitter — **son cosas que se están usando HOY en empresas reales**. Y lo mejor: un estudiante de DAW puede adoptarlas todas sin pagar nada.
@@ -201,6 +201,5 @@ De la lista, tengo curiosidad por saber cuál va a probar cada uno primero. Si m
 
 ## Sigue por aquí
 
-- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
 - [IA local o en la nube para programar: cuál te conviene](/articulos/comparativas/ia-local-vs-ia-nube-programar/)
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)

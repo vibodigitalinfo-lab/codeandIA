@@ -5,7 +5,7 @@ description: "Configuración de VS Code con IA en 2026: extensiones que siguen v
 category: "Lista"
 date: 2026-09-18
 readtime: 8
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 Cada dos semanas sale una lista de "las 7 extensiones de IA que necesitas" y todas recomiendan lo mismo de hace un año. El problema no es la lista, es que **la IA no se configura con extensiones, se configura con flujo**: qué herramienta hace cada cosa, qué reglas le das, y cómo revisas lo que te propone. Esto es lo que de verdad tengo montado a mediados de 2026, tras probar de más y quedarme con menos.
@@ -26,7 +26,7 @@ Esta consolidación es buena para elegir: ya no hay 10 opciones, hay tres claras
 
 **2. Cline (el agente libre, con tu API).** Cuando Copilot no me deja hacer algo o simplemente no tengo créditos, uso Cline con mi propia API key. Es Apache-2.0 y pagas los tokens que gastas; si usas un modelo local o barato, el coste es risible. Para tareas largas ("refactoriza esto y ejecuta los tests") es mi herramienta.
 
-**3. Trae no es una extensión.** Ojo con esto: Trae no es una extensión de VS Code, es un IDE aparte (un fork de VS Code). Aquí hablo de VS Code de verdad; si lo que buscas es otro editor, mira la comparativa de [Continue.dev vs Cursor](/articulos/comparativas/continue-dev-vs-cursor-2026/).
+**3. Trae no es una extensión.** Ojo con esto: Trae no es una extensión de VS Code, es un IDE aparte (un fork de VS Code). Aquí hablo de VS Code de verdad; si lo que buscas es otro editor, esto no te sirve.
 
 ## El fichero que lo cambia todo: AGENTS.md
 
@@ -85,5 +85,4 @@ No necesitas las 20 extensiones. Necesitas elegir dos (copiloto + agente), darle
 ## Sigue por aquí
 
 - [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
-- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
 - [IA local o en la nube para programar: cuál te conviene](/articulos/comparativas/ia-local-vs-ia-nube-programar/)

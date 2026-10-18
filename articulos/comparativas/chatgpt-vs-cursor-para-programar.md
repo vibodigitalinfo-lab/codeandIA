@@ -6,7 +6,7 @@ category: "Comparativa"
 date: 2026-09-08
 updated: 2026-10-03
 readtime: 6
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 Llevo un tiempo usando IA para programar y la pregunta que más me hacen —tanto compañeros de clase como gente del Discord— es siempre la misma: ¿ChatGPT o Cursor? Como estudiante de DAW que tiene los dos y los usa casi a diario, voy a intentar responderte con algo más útil que una tabla de características. Voy a contarte cómo los uso yo de verdad, cuándo elijo uno u otro y por qué ninguno me ha reemplazado al otro todavía.
@@ -55,4 +55,3 @@ Dicho esto, no he desinstalado ChatGPT. Hay cosas que sigo haciendo allí, sobre
 
 - [Cómo configurar Cursor AI en VS Code desde cero](/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/)
 - [IA local o en la nube para programar: cuál te conviene](/articulos/comparativas/ia-local-vs-ia-nube-programar/)
-- [Continue.dev vs Cursor vs Copilot: comparativa para estudiantes](/articulos/comparativas/continue-dev-vs-cursor-2026/)
