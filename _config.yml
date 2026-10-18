@@ -6,19 +6,13 @@ markdown: kramdown
 permalink: /articulos/:slug/
 
 # Newsletter (beehiiv).
-#   subscribe_url -> donde vive la publicación; abre el formulario de alta.
-#   form_id       -> id del formulario embebido v3 de beehiiv. Es el valor del
-#                   atributo data-beehiiv-form del snippet que da beehiiv en
-#                   Settings → Embed:
-#                   <script async src="https://subscribe-forms.beehiiv.com/v3/
-#                   loader.js" data-beehiiv-form="<form_id>"></script>
-#                   OJO: NO es el publication_id (pub_bde739e1-... ni el UUID a
-#                   secas). Ese da 404 en /api/v3/forms/<id> y el loader se
-#                   queda sin pintar nada, sin error visible en consola.
-#                   Vacío = no se carga el formulario y solo queda el enlace.
+#   subscribe_url -> página de suscripción de la publicación. El sitio solo
+#                    enlaza hacia ella (antes llevaba el embed v3, que
+#                    cargaba un script de terceros de ~120 KB por artículo
+#                    y hundía el rendimiento; se quitó el 2026-10-18).
+#                    El envío de la newsletter sigue gestionándose en beehiiv.
 newsletter:
   subscribe_url: "https://newsletter.codeandia.com/subscribe"
-  form_id: "398125df-9699-4fa2-acc2-220e805c74a8"
 
 # Plugin de sitemap automático (permitido por GitHub Pages)
 plugins:

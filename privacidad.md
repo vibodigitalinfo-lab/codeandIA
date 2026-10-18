@@ -17,7 +17,7 @@ De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOP
 
 ## 2. Qué datos recogemos
 
-**Newsletter (beehiiv).** Si te suscribes a la newsletter, recogemos tu **dirección de email** a través de nuestro formulario de suscripción, únicamente con la finalidad de enviarte la newsletter semanal. La suscripción utiliza **doble opt-in**: recibirás un email de confirmación antes de empezar a recibir contenido, y podrás darte de baja en cualquier momento con el enlace que cada email incluye o escribiéndonos a ivan@codeandia.com.
+**Newsletter (beehiiv).** Si te suscribes a la newsletter, introduces tu **dirección de email** en la página de suscripción de beehiiv (newsletter.codeandia.com), a la que llegas desde el botón «Suscribirme» del blog. Únicamente se usa para enviarte la newsletter semanal. La suscripción utiliza **doble opt-in**: recibirás un email de confirmación antes de empezar a recibir contenido, y podrás darte de baja en cualquier momento con el enlace que cada email incluye o escribiéndonos a ivan@codeandia.com. El blog no carga ningún script de beehiiv; solo enlaza a su página.
 
 **Datos técnicos de navegación.** El sitio no tiene registro de usuarios, formularios de contacto propios ni cuenta de comentarios. En tu navegación normal solo se tratan estos datos:
 
@@ -42,7 +42,7 @@ Lo que sí existe:
 - **Cookies técnicas:** imprescindibles para que la web se sirva correctamente. Si las bloqueas por completo, algunas partes del sitio pueden no cargar.
 - **Almacenamiento local del navegador** para el tema claro/oscuro: no es una cookie y no viaja a ningún servidor.
 - **Cookies de terceros al salir del sitio:** si haces clic en cualquier enlace externo, el sitio de destino puede instalar sus propias cookies y tratarte según su política. Ese tratamiento no lo controlamos nosotros y esas cookies no llegan a nuestro sitio.
-- **Mecanismos de la newsletter (beehiiv):** al interactuar con el formulario de suscripción o al recibir y abrir los emails, beehiiv puede usar sus propios mecanismos de seguimiento (aperturas, clics y estado de suscripción), regulados por su propia política de cookies y privacidad.
+- **Mecanismos de la newsletter (beehiiv):** el blog solo enlaza a la página de suscripción de beehiiv; al suscribirte allí o al recibir y abrir los emails, beehiiv puede usar sus propios mecanismos de seguimiento (aperturas, clics y estado de suscripción), regulados por su propia política de cookies y privacidad.
 
 Puedes configurar el bloqueo o eliminación de cookies desde la configuración de tu navegador en cualquier momento.
 

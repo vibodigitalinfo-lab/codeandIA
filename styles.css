@@ -450,37 +450,27 @@ mark {
   border-bottom: 1px solid var(--rule);
 }
 
-/* Línea de margen rojo */
-.hero-notebook::before {
+.hero-copy {
+  position: relative;
+  max-width: var(--measure);
+}
+
+/* Línea de margen rojo: anclada al texto (32 px a su izquierda en
+   escritorio, 10 px en móvil), no al borde de la ventana, para que
+   acompañe al texto en cualquier ancho de pantalla. */
+.hero-copy::before {
   content: '';
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 1.25rem;
+  top: -3.5rem;
+  bottom: -3rem;
+  left: -32px;
   width: 2px;
   background: var(--margin);
 }
 
-@media (min-width: 720px) {
-  .hero-notebook::before {
-    left: 2.5rem;
-  }
-}
-
-@media (max-width: 639px) {
-  .hero-notebook::before {
-    display: none;
-  }
-}
-
-.hero-copy {
-  max-width: var(--measure);
-  padding-left: 1.5rem;
-}
-
-@media (min-width: 720px) {
-  .hero-copy {
-    padding-left: 2.5rem;
+@media (max-width: 719px) {
+  .hero-copy::before {
+    left: -10px;
   }
 }
 
@@ -583,6 +573,36 @@ mark {
 
 .entry-more {
   margin: 1.5rem 0 0;
+}
+
+/* Bloque «Sobre mí» de la portada: misma rejilla que las entradas
+   (título en la columna de la fecha, texto en la columna de contenido) */
+.about-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25rem 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+@media (min-width: 720px) {
+  .about-row {
+    grid-template-columns: 9rem 1fr;
+    align-items: baseline;
+  }
+}
+
+.about-title {
+  font-family: var(--font-title);
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 0;
+  color: var(--ink);
+}
+
+.about-text {
+  margin: 0;
+  max-width: 38rem;
 }
 
 /* ---------- Artículo ---------- */
@@ -923,8 +943,8 @@ mark {
   margin: 0 0 1rem;
 }
 
-.newsletter-embed-wrapper {
-  margin-bottom: 0.75rem;
+.newsletter-cta {
+  margin: 0 0 1rem;
 }
 
 .nl-fallback {

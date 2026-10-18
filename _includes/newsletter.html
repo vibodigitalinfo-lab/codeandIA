@@ -1,40 +1,14 @@
 {% comment %}
-  newsletter — beehiiv (formulario embebido v3).
-  El id de site.newsletter.form_id es el data-beehiiv-form del snippet de
-  beehiiv (Settings → Embed). El loader de la v3 mete su propio iframe.
-  NO usar el publication_id: devuelve 404 y no se pinta nada.
-  Comprobación sin navegador:
-    GET https://subscribe-forms.beehiiv.com/api/v3/forms/<form_id>
-  Si form_id está vacío, se muestra solo el enlace, que siempre funciona.
+  Newsletter: enlace a la página de suscripción de beehiiv
+  (newsletter.codeandia.com). Antes iba con el embed v3 de beehiiv, pero
+  cargaba un script de terceros de ~120 KB en cada artículo y hundía el
+  rendimiento; se sustituyó por un enlace el 2026-10-18.
+  El envío de la newsletter sigue gestionándose en beehiiv.
 {% endcomment %}
-{% assign nl_form = site.newsletter.form_id | default: "" | strip %}
 {% assign nl_url = site.newsletter.subscribe_url | default: "https://newsletter.codeandia.com/subscribe" %}
-<div class="newsletter-box" id="nl-box">
+<div class="newsletter-box">
   <h3 class="newsletter-title">Una vez a la semana, sin ruido</h3>
   <p class="newsletter-subtitle">Lo que voy aprendiendo como estudiante de DAW, en un correo cada jueves.</p>
-
-  <div class="newsletter-embed-wrapper">
-    {% if nl_form != "" %}
-    <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="{{ nl_form }}"></script>
-    <script>
-      /* beehiiv inyecta su iframe sin título; se lo ponemos aquí para
-         accesibilidad (Lighthouse lo marca como frame-title). */
-      (function () {
-        var wrapper = document.currentScript.parentNode;
-        if (!wrapper || !window.MutationObserver) return;
-        var obs = new MutationObserver(function () {
-          var ifr = wrapper.querySelector('iframe');
-          if (ifr && !ifr.getAttribute('title')) {
-            ifr.setAttribute('title', 'Formulario de suscripción a la newsletter');
-            obs.disconnect();
-          }
-        });
-        obs.observe(wrapper, { childList: true, subtree: true });
-      })();
-    </script>
-    {% endif %}
-    <p class="nl-fallback">¿Problemas con el formulario? <a href="{{ nl_url }}" target="_blank" rel="noopener">Suscríbete desde la página de beehiiv</a></p>
-  </div>
-
+  <p class="newsletter-cta"><a class="btn btn-primary" href="{{ nl_url }}" target="_blank" rel="noopener">Suscribirme</a></p>
   <p class="nl-note">1 email por semana. Sin spam. Al suscribirte aceptas la <a href="{{ "/privacidad/" | relative_url }}">política de privacidad</a>.</p>
 </div>
