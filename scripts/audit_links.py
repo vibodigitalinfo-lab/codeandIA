@@ -19,7 +19,9 @@ for p in glob.glob('articulos/**/*.md', recursive=True):
             broken.append((p, link))
 
 # Tambien en HTML de paginas y layouts
-for h in glob.glob('*.html') + glob.glob('_layouts/*.html') + glob.glob('_includes/*.html') + ['promociones.md']:
+for h in glob.glob('*.html') + glob.glob('*.md') + glob.glob('_layouts/*.html') + glob.glob('_includes/*.html'):
+    if not os.path.exists(h):
+        continue
     with open(h, 'r', encoding='utf-8') as f:
         c = f.read()
     for link in re.findall(r'href=[\"\'](/[^\"\'\s#{%]+)', c):

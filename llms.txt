@@ -5,6 +5,7 @@
 - Solo experiencias reales, anotadas en diario. Revisión humana antes de publicar.
 
 ## Artículos indexables
+- [Bloqueo de LaLiga a Cloudflare y cómo afectó a este blog](https://codeandia.com/articulos/guias/bloqueo-laliga-a-cloudflare-y-como-afecto-a-este-blog/): El 17 de octubre el blog no cargaba: lo bloqueó LaLiga y lo resolví pasando los registros A de Cloudflare a DNS only.
 - [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](https://codeandia.com/articulos/guias/que-portatil-comprar-estudiar-daw-2026/): Mi IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta de verdad en primero de DAW.
 - [Qué dominio comprar para tu primer proyecto web: .com vs .es](https://codeandia.com/articulos/guias/que-dominio-comprar-primer-proyecto-web/): .com o .es para empezar, y dónde lo registré.
 - [Aprender Java en DAW con IA y no volverte dependiente](https://codeandia.com/articulos/guias/aprender-java-con-ia-daw/): Cómo uso la IA para aprender Java sin entregar código que no entiendo.
