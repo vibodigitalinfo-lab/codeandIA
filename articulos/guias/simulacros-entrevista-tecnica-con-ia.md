@@ -6,7 +6,7 @@ category: "Guía"
 date: 2026-10-14
 updated: 2026-10-17
 readtime: 9
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 Casi nadie te lo avisa en clase: el título de DAW no te da trabajo, te da derecho a que te hagan una entrevista. Y esa entrevista tiene una parte técnica que casi nadie practica, y menos de la forma en que se da. No hay temario, no hay simulacros y la mayoría de la gente llega sin haber dicho en voz alta una línea de código delante de nadie.
@@ -99,6 +99,5 @@ Al final, la entrevista técnica es como el código: no se aprende leyéndola, s
 
 ## Sigue por aquí
 
-- [Preparar tu portfolio de DAW paso a paso](/articulos/guias/portfolio-que-consigue-practicas-daw/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
 - [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)

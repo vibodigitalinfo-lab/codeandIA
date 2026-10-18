@@ -6,7 +6,7 @@ category: "Lista"
 date: 2026-10-08
 readtime: 9
 updated: 2026-10-08
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 El Student Pack de GitHub es el programa de descuentos para estudiantes más generoso que existe, y de los pocos que te da herramientas profesionales de verdad sin que tengas que buscar señales de oferta en un newsletter.
@@ -83,5 +83,4 @@ La conclusión es esta: el Student Pack no es una mina de oro escondida, es un c
 ## Sigue por aquí
 
 - [Configuración de VS Code para IA en 2026: lo que uso de verdad](/articulos/listas/configuracion-vscode-ia-2026/)
-- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
-- [Preparar tu portfolio de DAW paso a paso](/articulos/guias/portfolio-que-consigue-practicas-daw/)
+- [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)

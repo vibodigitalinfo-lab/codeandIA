@@ -9,7 +9,7 @@ affiliate_text: "Si quieres registrar tu dominio sin complicarte como me pasó a
 affiliate_url: "https://namecheap.pxf.io/c/7743913/386170/5618"
 affiliate_label: "Ver dominios en Namecheap"
 updated: 2026-10-17
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 La primera vez que quise subir un proyecto de clase a internet de verdad, con dominio propio y todo, me quedé pillado delante del buscador de dominios como media hora. No sabía qué dominio comprar para mi primer proyecto web y, sin darme cuenta, ya había abierto seis pestañas comparando precios de .com, .es y .dev sin entender muy bien la diferencia real entre ellos. Si a ti te está pasando lo mismo ahora, tranquilo, es más sencillo de lo que parece una vez le pillas el truco.
@@ -46,4 +46,3 @@ Al final, la respuesta a qué dominio comprar para tu primer proyecto web depend
 
 - [No pegues tus claves API en la IA: lo que nunca debes pegar en un chat](/articulos/guias/no-pegues-claves-api-en-la-ia/)
 - [Vercel vs Netlify vs GitHub Pages: dónde publicar tu portfolio](/articulos/comparativas/vercel-vs-netlify-vs-github-pages-2026/)
-- [Preparar tu portfolio de DAW paso a paso](/articulos/guias/portfolio-que-consigue-practicas-daw/)

@@ -67,8 +67,6 @@
   nivel: "Intermedio"
   resumen: "Lo que no entra en el temario: montar un portfolio que abra puertas y preparar la entrevista técnica."
   pasos:
-    - path: "/articulos/guias/portfolio-que-consigue-practicas-daw/"
-      nota: "El portfolio que llama la atención de una empresa de verdad."
     - path: "/articulos/listas/github-student-pack-que-incluye/"
       nota: "Las herramientas gratis que ya tienes por ser estudiante."
     - path: "/articulos/guias/simulacros-entrevista-tecnica-con-ia/"

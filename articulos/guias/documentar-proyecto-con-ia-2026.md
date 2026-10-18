@@ -5,7 +5,7 @@ description: "Cómo escribir documentación de tu proyecto con IA sin que parezc
 category: "Guía"
 date: 2026-09-25
 readtime: 5
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 Nadie te enseña a documentar en DAW. El profe te dice "sube el proyecto a GitHub en condiciones", y tú haces un README con el título y dos líneas de descripción copiadas del primer tutorial. Luego, el día de la entrega, te das cuenta de que quien mejor sabe qué hace tu proyecto eres tú a mediodía, pero a medianoche ya no. Documentar con la IA, bien hecho, te sube la nota y te ahorra explicarte a ti mismo.
@@ -55,6 +55,5 @@ Documentar es el 10% del tiempo y el 30% de la percepción de tu trabajo. No hac
 
 ## Sigue por aquí
 
-- [Preparar tu portfolio de DAW paso a paso](/articulos/guias/portfolio-que-consigue-practicas-daw/)
 - [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)
 - [Vite vs Next.js vs Astro para tu primer proyecto con IA](/articulos/comparativas/vite-vs-nextjs-vs-astro-primer-proyecto-ia/)

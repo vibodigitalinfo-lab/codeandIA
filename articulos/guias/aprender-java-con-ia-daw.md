@@ -6,7 +6,7 @@ category: "Guía"
 date: 2026-09-08
 updated: 2026-10-17
 readtime: 8
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 Java es el primer mazazo del curso para casi todo el mundo en DAW. POO, herencia, las mil ventanas de `StackOverflow` abiertas a la vez… y ahora encima tienes una IA que te puede escribir la clase entera en dos segundos. La tentación es real y lo sé porque caí en ella. El problema no es Java ni la IA: es que copiar código de IA en este módulo es la forma más rápida de llegar al examen sin saber nada.
@@ -62,6 +62,6 @@ Empieza esta tarde: abre tu proyecto, escribe una clase a mano con tu intento de
 
 ## Sigue por aquí
 
-- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
+- [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](/articulos/guias/que-portatil-comprar-estudiar-daw-2026/)
 - [Prompts de ChatGPT para corregir errores de código (nivel junior)](/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/)
 - [Practicar la entrevista técnica junior con IA](/articulos/guias/simulacros-entrevista-tecnica-con-ia/)

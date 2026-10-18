@@ -7,6 +7,8 @@ date: 2026-10-07
 updated: 2026-10-17
 readtime: 8
 last_modified_at: 2026-10-17
+noindex: true
+sitemap: false
 ---
 
 ## Un portfolio no es una galería, es un argumento

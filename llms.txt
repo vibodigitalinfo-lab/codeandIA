@@ -9,7 +9,6 @@ Las URLs de los artículos son estables y no cambian. Los precios y disponibilid
 ## Guías
 
 - [Practicar la entrevista técnica junior con IA](https://codeandia.com/articulos/guias/simulacros-entrevista-tecnica-con-ia/): Cómo practicar la entrevista técnica de junior con IA: simulacros realistas, los ejercicios que más caen en DAW y cómo corregirte.
-- [Preparar tu portfolio de DAW paso a paso](https://codeandia.com/articulos/guias/portfolio-que-consigue-practicas-daw/): Cómo preparar tu portfolio de DAW con IA: qué proyectos enseñar, la estructura, el README y el texto de candidatura para las prácticas.
 - [Claves API y .env: lo que no debes pegar en la IA](https://codeandia.com/articulos/guias/no-pegues-claves-api-en-la-ia/): Guía para no filtrar claves de API, contraseñas ni tokens al usar ChatGPT, Claude o Cursor: qué pegar en su lugar y qué hacer si ya has enviado el secreto.
 - [Copias de seguridad de tus proyectos: no pierdas las prácticas](https://codeandia.com/articulos/guias/copias-seguridad-proyectos-programador/): Cómo hacer copias de seguridad de tus proyectos de DAW sin depender de la suerte: Git con GitHub, la nube con cabeza y una copia local, con la rutina que uso.
 - [Secrets y variables en GitHub Actions sin morir en el intento](https://codeandia.com/articulos/guias/github-actions-secrets-variables-entorno-guia/): Guía paso a paso para usar secrets, variables y environments en GitHub Actions, con los errores comunes, ejemplos reales y los trucos que casi nadie te cuenta.
@@ -18,7 +17,7 @@ Las URLs de los artículos son estables y no cambian. Los precios y disponibilid
 - [Cómo configurar Cursor AI en VS Code desde cero](https://codeandia.com/articulos/guias/como-configurar-cursor-ai-vscode-desde-cero/): Te explico paso a paso cómo configurar Cursor AI en VSCode desde cero para dejar de perder tiempo tecleando y programar más rápido.
 - [Prompts de ChatGPT para corregir errores de código (nivel junior)](https://codeandia.com/articulos/guias/mejores-prompts-chatgpt-corregir-errores-codigo-junior/): Los prompts que uso cuando un error no me suelta: cómo pegar el problema, cómo pedir que te lo explique primero y qué hacer con la respuesta.
 - [Qué dominio comprar para tu primer proyecto web: .com vs .es](https://codeandia.com/articulos/guias/que-dominio-comprar-primer-proyecto-web/): Te cuento qué dominio comprar para tu primer proyecto web, cuándo elegir .com o .es y en qué registrador merece la pena hacerlo.
-- [Qué portátil comprar para estudiar DAW en 2026 (sin pagar de más)](https://codeandia.com/articulos/guias/que-portatil-comprar-estudiar-daw-2026/): Qué portátil necesita un estudiante de DAW en 2026: specs que importan de verdad, tres opciones con precios reales y los errores que debes evitar.
+- [Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB](https://codeandia.com/articulos/guias/que-portatil-comprar-estudiar-daw-2026/): El portátil con el que curso primero de DAW: un Lenovo IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta y qué buscaría si tuviera que cambiarlo.
 
 ## Comparativas
 

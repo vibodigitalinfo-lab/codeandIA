@@ -7,7 +7,7 @@ tema: hardware
 date: 2026-09-08
 updated: 2026-10-17
 readtime: 3
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-18
 ---
 
 ## El portátil con el que curso DAW
@@ -22,7 +22,7 @@ Es una máquina de gama baja. No pretendo venderla como lo ideal para DAW; lo qu
 
 ## Cómo se comporta en el día a día
 
-En general va bien y no me da muchos problemas. En clase programo Java con **Eclipse**, y en casa lo dejo abierto con Eclipse y el navegador con la documentación a mano; eso lo lleva sin bloqueos. Cuando la carga es alta, la RAM llega a su límite y los ventiladores arrancan a lo bravo; aun así, gestiona las tareas y nunca he tenido que cancelar nada por falta de memoria.
+En general va bien y no me da muchos problemas. En clase programo Java con **Eclipse**, y en casa lo dejo abierto con Eclipse y el navegador con la documentación a mano; eso lo lleva sin problemas. Cuando la carga es alta, la RAM llega a su límite y los ventiladores arrancan a lo bravo; aun así, gestiona las tareas y nunca he tenido que cancelar nada por falta de memoria.
 
 El disco es un SSD NVMe Samsung de 256 GB (239 GB útiles), así que arranca y carga los proyectos rápido. La pantalla es de 1920×1080 a 60 Hz, suficiente para tener el editor y el navegador repartidos.
 
@@ -39,11 +39,11 @@ El punto más flojo es la **batería**. Según el informe de Windows, pasó de 3
 - **RAM**: con 8 GB me llega para lo que hago en primero, pero va justo cuando la carga sube. Si cambiara, buscaría **16 GB**.
 - **SSD**: el mío es un NVMe de 256 GB y no me quedo corto para el día a día; no bajaría de ahí.
 - **Teclado**: comprobaría que la distribución sea **QWERTY español** antes de comprar.
-- **Batería**: con la mía aprendí a desconfiar de las cifras de catálogo; miraría la duración real de uso.
+- **Batería**: me fijaría en la duración real de uso.
 
 ## Veredicto
 
-Con esta configuración de fábrica he podido seguir el ritmo de primero de DAW. Si tuviera que cambiar el portátil ahora, lo que más me evitaría apuros sería subir la RAM a 16 GB y, después, cuidar la batería. El resto son mejoras de comodidad, no necesidad.
+Con esta configuración de fábrica he podido seguir el ritmo de primero de DAW. Si tuviera que cambiar el portátil ahora, lo primero que miraría sería la RAM: subir a 16 GB. Después, cuidar la batería. El resto son mejoras de comodidad, no necesidad.
 
 ## Sigue por aquí
 
