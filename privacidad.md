@@ -21,7 +21,7 @@ De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOP
 
 **Datos técnicos de navegación.** El sitio no tiene registro de usuarios, formularios de contacto propios ni cuenta de comentarios. En tu navegación normal solo se tratan estos datos:
 
-- **Datos de conexión** (dirección IP, navegador, sistema operativo, página solicitada): los procesa el proveedor de alojamiento (GitHub Pages) y el servicio de DNS (Cloudflare) para entregarte la página y protegerla de ataques. No se usan para perfilarte ni se guardan asociados a tu persona.
+- **Datos de conexión** (dirección IP, navegador, sistema operativo, página solicitada): los procesa el proveedor de alojamiento (GitHub Pages) y el servicio de DNS (Cloudflare). No se usan para perfilarte ni se guardan asociados a tu persona.
 - **Almacenamiento local de tu navegador** (no son cookies): ahí se queda tu preferencia de modo claro u oscuro. No se envía a ningún servidor y puedes borrarlo desde los ajustes de tu navegador.
 - **Cookies técnicas** imprescindibles para que el sitio funcione. Este sitio no instala cookies propias de análisis ni de publicidad.
 
@@ -29,7 +29,7 @@ De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOP
 
 | Finalidad | Datos | Base legal |
 |---|---|---|
-| Servir el sitio y protegerlo de ataques | Datos de conexión (IP, navegador, sistema operativo) | Interés legítimo (art. 6.1.f RGPD) |
+| Servir el sitio | Datos de conexión (IP, navegador, sistema operativo) | Interés legítimo (art. 6.1.f RGPD) |
 | Recordar tu preferencia de tema | Almacenamiento local del navegador | Consentimiento derivado de tu propia acción (art. 6.1.a RGPD) |
 | Enviar la newsletter | Email | Consentimiento (art. 6.1.a RGPD) |
 

@@ -1,49 +1,68 @@
 ---
 layout: article
-title: "Mi web cayó en España por un bloqueo judicial pedido por LaLiga"
-description: "El 17 de octubre codeandia.com dejó de cargar. No era mi servidor: un bloqueo judicial contra otra web se llevó la IP de Cloudflare donde vivía. Así lo detecté."
+title: "Mi web dejó de cargar en España por un bloqueo de LaLiga a Cloudflare"
+description: "El 17 de octubre codeandia.com dejó de cargar. No era mi servidor: un bloqueo de LaLiga a Cloudflare se llevó las IP compartidas donde vivía. Así lo detecté."
 category: "Guía"
 date: 2026-10-18
 readtime: 4
 last_modified_at: 2026-10-18
 ---
 
-El 17 de octubre sobre las 14:50 abrí codeandia.com y la página no cargaba. No era un error a mitad de carga ni una pantalla rara: el navegador se quedaba girando hasta que se rendía. Probé otras páginas y todo lo demás iba con normalidad, así que descarté al principio lo de mi conexión.
+El 17 de octubre sobre las 14:50 abrí codeandia.com y la página no cargaba. No era un error a mitad de carga ni una pantalla rara: el navegador se quedaba girando hasta que se rendía. Probé otras páginas y todo iba con normalidad, así que descarté al principio lo de mi conexión.
 
-Con la ayuda de Claude fui investigando y probando cosas, y ahí salió la causa: el problema no venía de mi servidor ni de mi wifi. Ese día había partido, y mi web había quedado atrapada en un bloqueo judicial que no iba dirigido a mí.
-
-Al principio pensé que me habían baneado o algo y me agobié un momento. Pero no había hecho nada malo, así que en cuanto lo comprobé me puse directamente a buscarle una solución.
+Al principio pensé que me habían baneado o algo y me agobié un momento. Pero no había hecho nada malo, así que en cuanto lo comprobé me puse directamente a investigar, con la ayuda de Claude, y ahí salió la causa: el problema no era mío. Ese día había partido, y mi web había quedado atrapada en un bloqueo que no iba dirigido a mí.
 
 ## Qué había pasado el día anterior
 
 El 16 de octubre había puesto codeandia.com detrás del proxy de Cloudflare. Lo hice por las cinco redirecciones 301 de los artículos antiguos que había movido de sitio. Detrás del proxy, el tráfico de la web no va directo: pasa antes por las IP de Cloudflare, que son las mismas que usan miles de webs más.
 
-Ese mismo 16 de octubre, LaLiga y Telefónica Audiovisual pidieron un bloqueo judicial contra hayahora.futbol, una web de fútbol. Según explicaba la propia hayahora, la medida iba contra ella. El problema es que esa web y la mía compartían red: cuando se bloquearon las IP de Cloudflare por las que pasaba el tráfico, mi web cayó con la suya, sin que yo tuviera nada que ver.
+## El bloqueo
+
+Ese mismo 16 de octubre, LaLiga y Telefónica Audiovisual pidieron un bloqueo judicial contra [hayahora.futbol](https://hayahora.futbol), una web de fútbol, según explicaba la propia hayahora. Los operadores no bloquean dominios: bloquean IP. Y las IP por las que se servía esa web eran de Cloudflare, compartidas conmigo y con muchas otras webs. Mi web no era el objetivo, pero salió atrapada en el mismo bloqueo.
 
 ## Cómo lo detecté
 
 Lo primero que hice fue descartar que el problema fuera mío:
 
 - Las páginas de estado de Cloudflare y de GitHub no decían nada: ninguna incidencia publicada.
-- Con `nslookup`, el dominio apuntaba a las IP del proxy de Cloudflare (188.114.96.5 y 188.114.97.5), no a GitHub Pages.
+- Con `nslookup`, el dominio apuntaba a las IP del proxy de Cloudflare, no a GitHub Pages:
+
+```text
+$ nslookup codeandia.com
+Address: 188.114.96.5
+Address: 188.114.97.5
+```
+
 - Con `curl` no recibía respuesta.
 - En cambio, `www.codeandia.com` apuntaba directo a GitHub Pages (rango 185.199.x) y sí cargaba. El blog entero estaba ahí, intacto; lo que no funcionaba era el camino que pasaba por el proxy.
 
-Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que había fútbol ese día, y con el buscador de webs que tienen busqué codeandia.com: estaba bloqueada. Ahí tenía la confirmación.
+Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que había fútbol ese día, y con el buscador de webs que tienen busqué codeandia.com: estaba bloqueada. Además, su comprobador marcaba **2 de 2 IPs bloqueadas en Movistar, Vodafone, MásMóvil y DIGI**, y accesibles en Orange. Ahí tenía la confirmación.
 
 ## El arreglo
 
-Pasé los registros A de Cloudflare a «DNS only». Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Al poco, `nslookup` devolvía el rango 185.199.x de GitHub Pages, `curl -vI` respondía con 200 y la web volvió a cargar.
+Pasé el registro del dominio raíz a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
 
-Pero el arreglo tiene su precio: al apagar el proxy, las cinco redirecciones 301 dejaron de funcionar. DNS only salva el acceso, no el problema de fondo: el bloqueo seguía ahí, y yo seguía sin proxy.
+```text
+$ nslookup codeandia.com
+Address: 185.199.108.153
+Address: 185.199.109.153
+Address: 185.199.110.153
+Address: 185.199.111.153
+```
 
-## Qué me llevo de esto
+Y `curl -vI` respondió con `HTTP/2 200`. La web volvió a cargar.
 
-Me sirvió más no quedarme quieto que el arreglo en sí. Lo primero que hice bien fue comprobar que el problema no venía de mi lado: si el resto de internet funcionaba, el culpable tenía que estar en el camino de en medio. Las páginas de estado, un `nslookup` y un `curl` te dicen bastante en cinco minutos; y si un `curl` no te da pistas, con `-v` ves lo que pasa de verdad en la conexión.
+## Qué quedó por detrás
 
-También me llevo una idea que no tenía detrás del proxy de Cloudflare no estás solo. Compartes IP con miles de webs, y si a una de ellas le cae un bloqueo en tu país, te puedes ir con ella. Estoy en España y mi audiencia sobre todo también: es algo a tener en cuenta antes de poner el proxy sin necesidad.
+El arreglo no es permanente: los bloqueos son dinámicos y el proxy seguía siendo una opción con ese riesgo encima. Además, al apagar el proxy perdí las cinco redirecciones 301 que tenía montadas en Cloudflare; ahora las cubren unas páginas stub que deja el propio blog, que cumplen, aunque no son un 301 de verdad.
+
+## Lo aprendido
+
+- Si una web no carga y el resto de internet va bien, hay dónde mirar: en hayahora.futbol puedes comprobar si hay un bloqueo de este tipo y si afecta a tu dominio.
+- Cuando toque depurar conexiones, `curl -v` y no `curl -s`: sin la «v» no ves lo que pasa de verdad en la conexión.
+- El proxy de Cloudflare es una dependencia con riesgo si tu audiencia, como la mía, está en España: compartes IP con miles de webs, y si a una de ellas le cae un bloqueo, te puedes ir con ella.
 
 ## Sigue por aquí
 
-- [Qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
+- [Qué dominio comprar para tu primer proyecto web: .com vs .es](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)

@@ -3,8 +3,8 @@ layout: page
 title: "Aviso legal"
 description: "Aviso legal de codeandia.com: datos del titular, cumplimiento de la LSSI-CE, responsabilidad y condiciones de uso del blog."
 permalink: /aviso-legal/
-updated: 2026-09-30
-last_modified_at: 2026-09-30
+updated: 2026-10-18
+last_modified_at: 2026-10-18
 ---
 
 ## 1. Datos identificativos
@@ -38,6 +38,10 @@ El titular del blog:
 
 Las herramientas de IA mencionadas evolucionan rápidamente: verifica siempre la información vigente en el sitio oficial antes de tomar decisiones.
 
-## 6. Legislación aplicable
+## 6. Servicios que usa el sitio
+
+El sitio se aloja en **GitHub Pages**. El DNS lo gestiona **Cloudflare**, solo en modo de resolución (sin proxy). La newsletter se envía con **beehiiv**. No se instala analítica de terceros ni cookies de publicidad.
+
+## 7. Legislación aplicable
 
 Estas condiciones se rigen por la legislación española. Para cualquier controversia derivada del uso de este sitio, las partes se someten a los juzgados y tribunales del domicilio del titular.

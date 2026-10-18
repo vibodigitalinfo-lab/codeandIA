@@ -4,7 +4,7 @@ title: "Aprender Java en DAW con IA y no volverte dependiente"
 description: "Cómo uso la IA para estudiar Java en DAW: los ejercicios de clase, las correcciones y por qué no entrego código que no entiendo."
 category: "Guía"
 date: 2026-09-08
-updated: 2026-10-17
+updated: 2026-10-18
 readtime: 3
 last_modified_at: 2026-10-18
 ---
@@ -19,7 +19,7 @@ Eso fue lo que me hizo cambiar el enfoque. Desde entonces tengo una regla clara:
 
 En clase no siempre sale todo claro. A veces da pereza, las clases son largas y es fácil distraerse, así que muchas veces prefiero dejarlo para casa y atacarlo allí con calma.
 
-Lo que hago es pasarle a Claude los ejercicios que hemos hecho en clase, contarle cómo los hace el profesor y cómo quiere que los hagamos nosotros, y a partir de ahí pedirle más ejercicios, correcciones y explicaciones.
+Lo que hago es pasarle a Claude los ejercicios que hemos hecho en clase, contarle cómo los hace el profesor y cómo quiere que los hagamos nosotros, y a partir de ahí pedirle más ejercicios, correcciones y explicaciones. En la práctica es como tener un profesor de programación cuando te pones: le explico cómo trabaja el mío en clase y me prepara ejercicios al mismo estilo, ajustados a lo que estoy viendo.
 
 La parte de las explicaciones es la que más me aporta. Ir viendo, preguntando y recibiendo correcciones hace que al final se vaya entendiendo todo. No te voy a decir que sea fácil, pero una vez que lo ves, va todo sobre ruedas.
 
@@ -27,7 +27,7 @@ La parte de las explicaciones es la que más me aporta. Ir viendo, preguntando y
 
 - **Eclipse**: es el IDE con el que doy Java en clase, y es donde me lo encuentro cada día.
 - **Claude, a diario**: para pasarle errores, enunciados y dudas.
-- **ChatGPT**, con el plan gratuito y de vez en cuando.
+- **ChatGPT**, con el plan gratuito: casi solo para crear imágenes; de vez en cuando, como respaldo cuando falla Gemini, pero rara vez.
 - **Cursor**, solo con el plan gratuito. De pago no tengo nada.
 
 ## Qué evito
