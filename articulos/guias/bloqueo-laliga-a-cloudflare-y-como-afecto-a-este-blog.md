@@ -1,32 +1,32 @@
 ---
 layout: article
-title: "Bloqueo de LaLiga a Cloudflare y cómo afectó a este blog"
-description: "El 17 de octubre el blog dejó de cargarse: estaba bloqueado por LaLiga. Esto es lo que pasó y cómo lo solucioné."
+title: "La Liga bloqueó mi web: así lo arreglé en Cloudflare"
+description: "El 17 de octubre codeandia.com dejó de cargar. No era mi conexión: había partido. Así lo detecté y lo solucioné."
 category: "Guía"
 date: 2026-10-18
-readtime: 3
+readtime: 2
 last_modified_at: 2026-10-18
 ---
 
-El 17 de octubre intenté entrar en codeandia.com y la página no cargaba. Todo lo demás sí funcionaba, así que empecé a investigar.
+El 17 de octubre abrí codeandia.com y la página no cargaba. No era un error a mitad de carga ni una pantalla rara: el navegador se quedaba girando hasta que se rendía.
 
-## ¿Por qué no cargaba?
+Lo sospechoso vino después. Probé otras páginas y todo lo demás iba con normalidad, así que descarté al principio lo de mi conexión. Seguí investigando con la ayuda de Claude, probando cosas, y ahí salió la causa: el problema no era mío, estaba bloqueado por La Liga.
 
-Con ayuda de Claude vimos que el bloqueo no era de mi conexión: era por LaLiga. Ese día había partido y al buscar el dominio en [hayahora.futbol](https://hayahora.futbol/) aparecía bloqueado.
+Ese día había partido.
 
-## Cómo lo solucioné
+## La comprobación
 
-Pasé los registros A de Cloudflare a **DNS only** y, al poco, la web volvió a responder correctamente. Al principio pensé que me habían baneado y me agobió un momento, pero no había hecho nada malo.
+Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que había fútbol, y con el buscador de webs que tienen integrado busqué codeandia.com: estaba bloqueada.
 
-## Esa semana
+## Lo que hice
 
-Estuve en un trabajo en grupo para mejorar digitalmente una empresa. Aprendí a usar Git y GitHub: hubo momentos de caos con la terminal, pero con Gemini pasándole el error y los comandos que había usado conseguí solucionarlo. También usamos Trello por obligación: es intuitivo y visual y ayuda a saber qué estaba pendiente y qué completado.
+La solución estaba en Cloudflare. Pasé los registros A a «DNS only» y, al poco, la web volvió a responder correctamente.
 
-## Programación y bases de datos
+También vale la pena decirlo tal cual: al principio pensé que me habían baneado o algo y me agobié un momento. Pero no había hecho nada malo, así que en cuanto lo comprobé me puse directamente a buscarle una solución.
 
-En programación seguimos con Eclipse en primero de DAW. Crear proyectos y clases va bien. A veces cuesta por pereza, clases largas o distracciones, y prefiero hacerlo en casa. Allí le paso a Claude los ejercicios hechos en clase, cómo los quiere el profesor, pido más ejercicios, correcciones y explicaciones, y así voy entendiendo.
+## Qué me llevo de esto
 
-En bases de datos estamos con diagramas entidad-relación y el modelo relacional (tablas). Al principio en papel era fácil equivocarse con las cardinalidades. Ahora usamos [erdplus.com](https://erdplus.com/) para hacer los diagramas: es cómodo, intuitivo y cumple lo que necesitamos.
+Me sirvió más no quedarme quieto que el arreglo en sí. Lo primero que hice bien fue comprobar que el problema no venía de mi lado: si el resto de internet funcionaba, el culpable tenía que estar en el otro sitio. Desde ahí ya fue cuestión de confirmarlo y buscar dónde se cortaba.
 
 ## Sigue por aquí
 

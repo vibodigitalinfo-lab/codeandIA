@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Qué dominio comprar para tu primer proyecto web: .com vs .es"
-description: "Qué elegir para tu primer proyecto web: .com o .es, y dónde registrarlo."
+description: "Qué elegir para tu primer proyecto web: .com o .es, y dónde registrarlo sin sorpresas de renovación."
 category: "Guía"
 date: 2026-09-08
 readtime: 3
@@ -12,22 +12,31 @@ updated: 2026-10-17
 last_modified_at: 2026-10-18
 ---
 
-Para un primer proyecto web, la elección del dominio se reduce a dos opciones: **.com** y **.es**.
+Cuando tienes un proyecto de clase o personal y quieres publicarlo con dominio propio, la pregunta llega rápido: ¿`.com` o `.es`? Parece una tontería, pero es la primera decisión que toma alguien que está empezando y la que más dudas deja.
 
-## .com vs .es
+## La diferencia real entre las dos
 
-- **.com**: es el más reconocible y funciona bien si quieres que el proyecto pueda llegar fuera de España.
-- **.es**: deja claro que es español y suele salir más barato. Tiene sentido si el nombre que quieres en .com ya está cogido.
+El `.com` es el que todo el mundo reconoce. Si alguien va a buscar tu proyecto o va a escribirlo de memoria, va a pensar en `.com` antes que en nada, y funciona igual de bien si algún día el proyecto quiere salir de España.
 
-Lo más práctico es **buscar la disponibilidad antes de decidir el nombre**. Muchas veces el nombre ideal ya no está libre, y es mejor ajustar el nombre que complicarlo con guiones o números.
+El `.es`, por su parte, deja clarísimo que el proyecto es español. Suele salir más barato y encaja muy bien con cosas locales: un trabajo de clase con alcance nacional, una web de tu pueblo, una comunidad en español.
 
-## Dónde registrar el dominio
+La regla que a mí me resulta más práctica es sencilla: **primero mira la disponibilidad y después enamórate del nombre**. Muchas veces el nombre que tenías en la cabeza ya está cogido, y entonces compensa ajustar el nombre antes que complicarlo con guiones, números o palabras pegadas al final que luego cuesta explicar por teléfono.
 
-Uso **Namecheap** para registrar dominios. Es sencillo de usar y los precios de renovación son razonables.
+## Dónde registrarlo
 
-## Dominio y hosting
+Para registrar dominios uso **Namecheap**. Es sencillo de manejar, entiendes lo que estás haciendo sin perderte y los precios de renovación son razonables, que es el dato que más importa: hay registradores que parecen baratos el primer año y luego suben la factura sin avisar mucho.
 
-El dominio y el hosting pueden ir separados. En mi caso el dominio está en Namecheap y el blog está en **GitHub Pages con Jekyll**. Separarlos facilita cambiar de hosting en el futuro.
+Si quieres echarle un ojo, aquí tienes el enlace para ver dominios en Namecheap.
+
+## El dominio y el hosting van por separado
+
+Otra duda típica es si hay que comprar el dominio y el hosting en el mismo sitio. Las dos fórmulas funcionan, pero separarlos te deja más margen: puedes cambiar de hosting sin arrastrar el dominio de un sitio a otro.
+
+Así lo tengo yo. El dominio está en Namecheap y el blog está alojado en **GitHub Pages con Jekyll**, que además es gratuito. Cada cosa en su sitio y sin depender de un único proveedor.
+
+## En corto
+
+Si tu proyecto es más bien internacional o quieres que suene serio, `.com`. Si es claramente español y el nombre está libre, `.es`. En cualquier caso, comprueba la disponibilidad antes de decidirte, y si registras en Namecheap, mira también el precio de renovación, no solo el del primer año.
 
 ## Sigue por aquí
 
