@@ -44,7 +44,7 @@ Y para la versión con `www`, un registro **CNAME** que apunta al hosting:
 www.codeandia.com  CNAME  TU-USUARIO.github.io    DNS only
 ```
 
-(Ese `TU-USUARIO` es el nombre de usuario de GitHub con el que tienes la cuenta; en el blog es `vibodigitalinfo-lab`.)
+(Ese `TU-USUARIO` es el nombre de usuario de GitHub con el que tienes la cuenta.)
 
 El resto de registros que hay en la zona (correo, newsletter) los gestiona cada servicio que los necesita; para que la web cargue, con los de arriba basta.
 
