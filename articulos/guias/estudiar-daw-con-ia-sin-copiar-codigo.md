@@ -4,6 +4,7 @@ title: "DAW: cómo estudio para exámenes con IA sin copiar código"
 description: "Cómo preparo exámenes de DAW (BDA, XML, Java) con Claude: le paso los ejercicios del profesor con el código y la rúbrica, para no entregar lo que no entiendo."
 category: "Guía"
 date: 2026-10-22
+updated: 2026-10-22
 readtime: 7
 last_modified_at: 2026-10-22
 ---
@@ -30,7 +31,7 @@ La parte de las explicaciones es la que más me aporta. Ir viendo, preguntando y
 
 Ese fue el problema que tuve al principio. Copié código generado por la IA sin entenderlo en el módulo de Java y me di cuenta de que eso no sirve: no que la IA escriba mal, sino que te quedas con algo en las manos que no sabes explicar.
 
-Desde entonces tengo una regla clara: **solo entrego lo que sé defender**.
+Desde entonces tengo una regla clara: **solo entrego lo que sé defender**. Ya escribí sobre [cómo uso la IA para estudiar Java en DAW sin volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/), y ese es exactamente el enfoque que sigo ahora.
 
 También evito el «a ver si funciona». Si algo no va, miro el error y pregunto por la causa, en vez de ir cambiando cosas hasta que por fin arranca. Así, cuando llegue el examen de Java mañana, espero no pillarme desprevenido.
 

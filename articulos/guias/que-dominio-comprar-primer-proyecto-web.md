@@ -41,7 +41,7 @@ codeandia.com      A    185.199.111.153    DNS only
 Y para la versión con `www`, un registro **CNAME** que apunta al hosting:
 
 ```
-www.codeandia.com  CNAME  TU-USUARIO.github.io    DNS only
+www.codeandia.com  CNAME  vibodigitalinfo-lab.github.io    DNS only
 ```
 
 (Ese `TU-USUARIO` es el nombre de usuario de GitHub con el que tienes la cuenta.)
