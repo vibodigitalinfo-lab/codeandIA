@@ -1,0 +1,155 @@
+---
+layout: null
+permalink: /herramientas/corrector-java/
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corrector de código Java — Gratis</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #111; }
+  header { margin-bottom: 1.5rem; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+  p.sub { color: #555; font-size: 1rem; }
+  textarea { width: 100%; font-family: ui-monospace, SFMono-Regular, monospace; font-size: 0.95rem; padding: 0.75rem; border: 1px solid #ccc; border-radius: 6px; resize: vertical; }
+  textarea#error { height: 80px; }
+  textarea#codigo { height: 180px; margin-bottom: 0.75rem; }
+  button { background: #1a73e8; color: #fff; border: none; padding: 0.75rem 1.25rem; font-size: 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; }
+  button:disabled { opacity: 0.6; cursor: not-allowed; }
+  button:hover:not(:disabled) { background: #1557b0; }
+  #resultado { display: none; margin-top: 1.5rem; padding: 1rem; background: #f5f7fa; border-radius: 8px; border-left: 4px solid #1a73e8; }
+  h2 { font-size: 1.1rem; margin-top: 1rem; margin-bottom: 0.5rem; color: #1a73e8; }
+  pre { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; overflow-x: auto; font-size: 0.9rem; }
+  code { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 0.85rem; }
+  .opciones { margin-top: 0.75rem; }
+  .opcion { display: block; padding: 0.5rem 0.75rem; margin: 0.35rem 0; background: #fff; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; }
+  .opcion:hover { background: #eef4ff; border-color: #1a73e8; }
+  .opcion.seleccionada { background: #1a73e8; color: #fff; border-color: #1a73e8; }
+  #feedback { margin-top: 1rem; padding: 0.75rem; border-radius: 6px; font-weight: 600; display: none; }
+  #feedback.acierto { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+  #feedback.error { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+  .aviso { font-size: 0.85rem; color: #666; margin-top: 0.5rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Corrector de código Java</h1>
+  <p class="sub">Pega tu código o el error de consola y te explico la solución paso a paso en castellano. Incluye código corregido y una mini prueba para comprobar que lo has entendido.</p>
+  <p class="aviso">Herramienta gratuita para estudiantes de programación. Sin registro, sin datos personales.</p>
+</header>
+
+<textarea id="codigo" placeholder="Pega aquí tu código Java (o el que estés aprendiendo)..."></textarea>
+<textarea id="error" placeholder="Pega aquí el error de consola (opcional, solo si lo tienes)..."></textarea>
+<button id="corregir">Corregir código</button>
+
+<div id="resultado">
+  <h2>📝 Explicación del error</h2>
+  <div id="explicacion"></div>
+
+  <h2>💻 Código corregido</h2>
+  <pre id="codigoCorregido"><code></code></pre>
+  <button id="copiar">Copiar código</button>
+
+  <h2>❓ ¿Lo has entendido?</h2>
+  <div id="preguntaTest"></div>
+  <div class="opciones" id="opciones"></div>
+  <div id="feedback"></div>
+</div>
+
+<script>
+  const API_URL = 'TU_URL_DE_VERCEL_AQUI';
+
+  const btn = document.getElementById('corregir');
+  const codigo = document.getElementById('codigo');
+  const error = document.getElementById('error');
+  const resultado = document.getElementById('resultado');
+  const explicacion = document.getElementById('explicacion');
+  const codigoCorregido = document.getElementById('codigoCorregido').querySelector('code');
+  const btnCopiar = document.getElementById('copiar');
+  const preguntaTest = document.getElementById('preguntaTest');
+  const opciones = document.getElementById('opciones');
+  const feedback = document.getElementById('feedback');
+
+  btn.addEventListener('click', async () => {
+    if (!codigo.value.trim()) {
+      alert('Por favor, pega algo de código primero.');
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Procesando...';
+
+    try {
+      const response = await fetch(API_URL + '/api/corrector', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          codigo: codigo.value,
+          error: error.value,
+          lenguaje: 'Java'
+        })
+      });
+
+      const data = await response.json();
+
+      explicacion.textContent = data.explicacion || 'No se pudo obtener la explicación.';
+      codigoCorregido.textContent = data.codigoCorregido || '';
+
+      preguntaTest.textContent = data.preguntaTest || '';
+      opciones.innerHTML = '';
+      if (data.opciones && data.opciones.length) {
+        data.opciones.forEach((opcion, idx) => {
+          const letra = String.fromCharCode(65 + idx);
+          const div = document.createElement('div');
+          div.className = 'opcion';
+          div.textContent = opcion;
+          div.dataset.letra = letra;
+          div.addEventListener('click', () => comprobar(letra, data.respuestaCorrecta));
+          opciones.appendChild(div);
+        });
+      }
+
+      feedback.style.display = 'none';
+      resultado.style.display = 'block';
+      resultado.scrollIntoView({ behavior: 'smooth' });
+    } catch (err) {
+      alert('Error al conectar con el servidor. Asegúrate de haber configurado la URL de Vercel en el archivo.');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Corregir código';
+    }
+  });
+
+  function comprobar(letraSeleccionada, respuestaCorrecta) {
+    const esCorrecta = letraSeleccionada === respuestaCorrecta;
+    feedback.textContent = esCorrecta
+      ? '¡Correcto! Lo has entendido.'
+      : 'No es del todo bien. La respuesta correcta era la ' + respuestaCorrecta + '.';
+    feedback.className = esCorrecta ? 'acierto' : 'error';
+    feedback.style.display = 'block';
+
+    Array.from(opciones.children).forEach(div => {
+      div.style.cursor = 'default';
+      if (div.dataset.letra === respuestaCorrecta) {
+        div.classList.add('seleccionada');
+      }
+    });
+  }
+
+  btnCopiar.addEventListener('click', () => {
+    const texto = codigoCorregido.textContent;
+    navigator.clipboard.writeText(texto).then(() => {
+      const original = btnCopiar.textContent;
+      btnCopiar.textContent = '¡Copiado!';
+      setTimeout(() => btnCopiar.textContent = original, 1500);
+    });
+  });
+</script>
+
+</body>
+</html>
