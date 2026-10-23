@@ -1,9 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/corrector.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/corrector", "dest": "/api/corrector.js" }
-  ]
+  "functions": {
+    "api/corrector.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }

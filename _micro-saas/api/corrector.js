@@ -89,7 +89,7 @@ No uses markdown, no pongas \`\`\`json, devolve solo el JSON puro.`;
     return res.status(200).json(resultado);
   } catch (err) {
     return res.status(500).json({
-      explicacion: 'Hubo un problema procesando tu código. Inténtalo de nuevo en un momento.',
+      explicacion: 'Error del servidor: ' + (err?.message || 'Error desconocido'),
       codigoCorregido: '',
       preguntaTest: '',
       opciones: [],
