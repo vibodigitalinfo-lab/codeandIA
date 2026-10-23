@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Ejercicios Java básicos para DAW: 7 prácticas con soluciones"
-description: "Siete ejercicios de Java para principiantes en primero de DAW, con código y soluciones explicadas paso a paso. Un regalo para facilitar tu estudio."
+title: "Ejercicios Java básicos para principiantes: 7 prácticas con soluciones"
+description: "Siete ejercicios de Java para principiantes, con código y soluciones explicadas paso a paso. Un regalo para facilitar tu estudio."
 category: "Guía"
 date: 2026-10-23
 updated: 2026-10-23

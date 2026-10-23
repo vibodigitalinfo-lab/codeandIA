@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "Aprender Java en DAW con IA y no volverte dependiente"
-description: "Cómo uso la IA para estudiar Java en DAW: los ejercicios de clase, las correcciones y por qué no entrego código que no entiendo."
+title: "Cómo aprendo Java con IA sin volverte dependiente"
+description: "Cómo uso la IA para estudiar Java: los ejercicios de clase, las correcciones y por qué no entrego código que no entiendo."
 category: "Guía"
 date: 2026-09-08
 updated: 2026-10-18
 readtime: 3
-last_modified_at: 2026-10-18
+last_modified_at: 2026-10-23
 ---
 
 Java es el primer mazazo de primero de DAW. Encima llevas una IA que te puede escribir la clase entera en dos segundos, y la tentación de copiarla tal cual es enorme.

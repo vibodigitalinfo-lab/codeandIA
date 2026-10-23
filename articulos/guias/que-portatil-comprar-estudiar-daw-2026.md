@@ -1,13 +1,13 @@
 ---
 layout: article
-title: "Qué portátil necesita un estudiante de DAW: mi caso con i3 y 8 GB"
-description: "El portátil con el que curso primero de DAW: un Lenovo IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta y qué buscaría si tuviera que cambiarlo."
+title: "Qué portátil necesitas para estudiar programación: mi caso con i3 y 8 GB"
+description: "El portátil con el que curso programación: un Lenovo IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta y qué buscaría si tuviera que cambiarlo."
 category: "Guía"
 tema: hardware
 date: 2026-09-08
 updated: 2026-10-18
 readtime: 3
-last_modified_at: 2026-10-18
+last_modified_at: 2026-10-23
 ---
 
 ## El portátil con el que curso DAW

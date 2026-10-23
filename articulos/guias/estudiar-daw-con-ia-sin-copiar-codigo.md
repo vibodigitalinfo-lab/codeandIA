@@ -1,12 +1,12 @@
 ---
 layout: article
-title: "DAW: cómo estudio para exámenes con IA sin copiar código"
-description: "Cómo preparo exámenes de DAW (BDA, XML, Java) con Claude: le paso los ejercicios del profesor con el código y la rúbrica, para no entregar lo que no entiendo."
+title: "Cómo estudio para exámenes de programación con IA sin copiar código"
+description: "Cómo preparo exámenes de programación (BDA, XML, Java) con Claude: le paso los ejercicios del profesor con el código y la rúbrica, para no entregar lo que no entiendo."
 category: "Guía"
 date: 2026-10-22
 updated: 2026-10-22
 readtime: 7
-last_modified_at: 2026-10-22
+last_modified_at: 2026-10-23
 ---
 
 ## Esta semana tuve tres exámenes en primero de DAW
