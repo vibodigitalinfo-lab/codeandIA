@@ -1,21 +1,23 @@
 ---
 layout: article
-title: "Ejercicios Java básicos para principiantes: 7 prácticas con soluciones"
-description: "Siete ejercicios de Java para principiantes, con código y soluciones explicadas paso a paso. Un regalo para facilitar tu estudio."
+title: "Ejercicios Java para principiantes: 8 prácticas con soluciones"
+description: "Ocho ejercicios de Java para principiantes con su solución explicada: del Scanner a dos clases que se relacionan. Un regalo para facilitar tu estudio."
 category: "Guía"
 date: 2026-10-23
 updated: 2026-10-23
-readtime: 7
+readtime: 10
 last_modified_at: 2026-10-23
 ---
 
 ## Un regalo para que practiques Java sin complicaciones
 
-Si algo he aprendido esta semana con mi primer examen de programación es que Java no se aprende leyendo, se aprende escribiendo código. Yo empecé tarde por pereza y me costó más de lo necesario, así que no quiero que te pase lo mismo.
+Estudio primero de DAW, el ciclo de FP de desarrollo de aplicaciones web en España, y Java es mi primera asignatura de programación. Si algo he aprendido con mi primer examen es que Java no se aprende leyendo, se aprende escribiendo código. Yo empecé tarde por pereza y me costó más de lo necesario.
 
-A continuación te dejo **7 ejercicios de Java básicos**, pensados para primero de DAW, cada uno con su enunciado, el código completo y una explicación sencilla de lo que hace. Los puedes copiar, probar en Eclipse (o en el IDE que uses en clase) y modificar a tu gusto.
+Lo que más me costó al principio fue la sintaxis del `Scanner`: me liaba con `nextInt()`, `nextLine()` y compañía, y casi siempre los ponía mal. Después se me atascaron los ejercicios en los que un objeto depende de otro, porque no conseguía entender cómo se relacionaban. Cuando lo ves, todo se vuelve mucho más sencillo.
 
-Los ofrezco como regalo para facilitarte el estudio. No necesitas registrarte ni dar ningún dato: cópialos, pruébalos y úsalos.
+Por eso te dejo **8 ejercicios de Java básicos** con su solución. Empiezan por el `Scanner` y acaban con dos clases que se relacionan, que es justo donde yo me atascaba. Cada uno lleva su enunciado, el código completo y una explicación de lo que hace. Los he preparado con ayuda de una IA y no son los del profesor. Cópialos, pruébalos en Eclipse (o en el IDE que uses) y modifícalos a tu gusto.
+
+Los ofrezco como regalo para facilitarte el estudio. No necesitas registrarte ni dar ningún dato.
 
 ---
 
@@ -264,12 +266,69 @@ public class ContarVocales {
 
 ---
 
-## Errores comunes al empezar con Java
+### Ejercicio 8: Un libro y su autor
 
-- **Olvidar `import java.util.Scanner;`**: sin él, el programa no sabe leer datos por teclado.
-- **No cerrar el `Scanner`**: no rompe el programa, pero es buena costumbre hacer `sc.close()` al final.
-- **Confundir `nextInt()` con `nextLine()`**: si lees un número con `nextInt()` y luego intentas leer texto con `nextLine()`, el programa se salta la lectura. Es uno de los fallos más típicos al principio.
-- **Dividir entre cero**: siempre comprueba que el divisor no sea cero antes de hacer una división.
+**Enunciado:** Crea una clase `Autor` con nombre y país, y una clase `Libro` con título y un autor. Desde un `main`, crea un autor, crea un libro que lo use y muestra por pantalla los datos del libro junto con los de su autor. Cada clase va en su propio archivo.
+
+**Código (`Autor.java`):**
+
+{% raw %}
+```java
+public class Autor {
+    String nombre;
+    String pais;
+
+    public Autor(String nombre, String pais) {
+        this.nombre = nombre;
+        this.pais = pais;
+    }
+}
+```
+{% endraw %}
+
+**Código (`Libro.java`):**
+
+{% raw %}
+```java
+public class Libro {
+    String titulo;
+    Autor autor;
+
+    public Libro(String titulo, Autor autor) {
+        this.titulo = titulo;
+        this.autor = autor;
+    }
+
+    public void mostrar() {
+        System.out.println(titulo + " - " + autor.nombre + " (" + autor.pais + ")");
+    }
+}
+```
+{% endraw %}
+
+**Código (`Biblioteca.java`):**
+
+{% raw %}
+```java
+public class Biblioteca {
+    public static void main(String[] args) {
+        Autor cervantes = new Autor("Miguel de Cervantes", "España");
+        Libro quijote = new Libro("Don Quijote de la Mancha", cervantes);
+
+        quijote.mostrar();
+    }
+}
+```
+{% endraw %}
+
+**Qué hace:** El `Libro` guarda dentro un objeto `Autor`. Primero se crea el autor y después se le pasa al libro al construirlo. Desde el libro llegas a los datos del autor con `autor.nombre`. Esta idea de un objeto que contiene a otro es lo que a mí me costaba ver al principio.
+
+---
+
+## Dónde me atascaba yo
+
+- **`nextInt()` y `nextLine()` juntos.** Es lo que más me fastidió con el `Scanner`. Si lees un número con `nextInt()` y justo después pides texto con `nextLine()`, el programa parece saltarse la pregunta: el número se lee, pero el salto de línea que escribiste al pulsar Intro se queda pendiente y `nextLine()` lo toma como una línea vacía. En el ejercicio 1 lo evito leyendo primero el texto, y si te hace falta el orden contrario, puedes poner un `sc.nextLine();` suelto después del número para limpiar ese salto de línea.
+- **Objetos que dependen de otros.** Me atascaba porque no conseguía entender cómo se relacionaban. Lo que te puedo decir es que, una vez que lo ves, se hace muchísimo más sencillo. Si te pasa lo mismo, fíjate en el ejercicio 8: el autor tiene que existir antes de crear el libro, porque el libro lo recibe al construirse.
 
 ## Lo que haría diferente
 

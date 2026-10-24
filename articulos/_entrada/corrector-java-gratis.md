@@ -22,7 +22,7 @@ Por eso he preparado una herramienta gratuita en el blog: **un corrector de cód
 
 Lo puedes usar desde aquí: [Corrector de código Java](/herramientas/corrector-java/).
 
-Es gratis, no te pido registro ni datos personales, y lo puedes usar cuantas veces quieras.
+Es gratis y no pide registro. Eso sí, el código que pegues se envía a un servicio de IA de terceros para generar la respuesta, así que no pegues contraseñas ni datos personales. Y revisa siempre lo que te devuelve: es una ayuda para estudiar, no un profesor infalible.
 
 ## Por qué lo he hecho
 
@@ -38,7 +38,7 @@ Yo empecé tarde a estudiar por pereza y me costó más de lo necesario. No quie
 
 ## ¿Y si uso otro lenguaje?
 
-Está pensado principalmente para Java, que es lo que llevamos ahora en primero de DAW, pero funciona con cualquier código que le pegues: Python, JavaScript, C, lo que sea.
+De momento solo está pensado para Java, que es lo que estoy aprendiendo ahora en clase. Si más adelante lo amplío a otros lenguajes, lo contaré aquí.
 
 Si te sirve, compártelo con tus compañeros. Y si quieres contarme cómo te va o sugerirme mejoras, puedes escribirme a ivan@codeandia.com.
 

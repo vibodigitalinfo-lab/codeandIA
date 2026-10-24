@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Usa el método POST' });
   }
 
-  const { codigo, error, lenguaje } = req.body;
+  const { codigo, error } = req.body;
 
   if (!codigo) {
     return res.status(400).json({ error: 'Falta el código' });
@@ -28,7 +28,9 @@ export default async function handler(req, res) {
 
   const prompt = `Eres un profesor de programación paciente y claro, especializado en ayudar a estudiantes principiantes.
 
-El usuario te envía este código (${lenguaje || 'Java'}):
+Solo ayudas con código Java. Si el código que recibes claramente no es Java, no lo corrijas: en "explicacion" di en una frase que por ahora solo corriges Java, y deja los demás campos vacíos ("codigoCorregido": "", "preguntaTest": "", "opciones": [], "respuestaCorrecta": "").
+
+El usuario te envía este código Java:
 
 \`\`\`
 ${codigo}
