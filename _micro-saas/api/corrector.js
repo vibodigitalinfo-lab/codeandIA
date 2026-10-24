@@ -88,8 +88,12 @@ No uses markdown, no pongas \`\`\`json, devolve solo el JSON puro.`;
 
     return res.status(200).json(resultado);
   } catch (err) {
+    let errMsg = 'Error desconocido';
+    if (err) {
+      errMsg = err.message || err.toString() || 'Error desconocido';
+    }
     return res.status(500).json({
-      explicacion: 'Error del servidor: ' + (err?.message || 'Error desconocido'),
+      explicacion: 'Error del servidor: ' + errMsg,
       codigoCorregido: '',
       preguntaTest: '',
       opciones: [],
