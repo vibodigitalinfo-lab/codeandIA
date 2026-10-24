@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   // CORS headers para permitir peticiones desde el blog
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Origin', 'https://codeandia.com');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
