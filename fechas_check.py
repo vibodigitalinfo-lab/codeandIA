@@ -81,6 +81,23 @@ for rel, d in sorted(fechas.items()):
 for rel in sin_fecha:
     fallos.append('SIN date: %s' % rel)
 
+# 3b. Cadencia (regla del 2026-10-25): maximo 2 por semana natural (lunes a
+#     domingo), desde la semana siguiente al lanzamiento. Dos dias seguidos o
+#     mas de 10 dias sin publicar solo avisan: no rompen nada, pero se notan.
+cadencia = []
+por_semana = collections.Counter(d.isocalendar()[:2] for d in fechas.values()
+                                 if d != lanzamiento)
+for (anyo, sem), n in sorted(por_semana.items()):
+    if n > 2:
+        lunes = datetime.date.fromisocalendar(anyo, sem, 1)
+        fallos.append('MAS DE 2 EN LA SEMANA DEL %s: %d articulos' % (lunes, n))
+for a, b in zip(ds, ds[1:]):
+    if (b - a).days == 1 and a != lanzamiento:
+        cadencia.append('dos dias seguidos: %s y %s (mejor dejar 2-4 dias)' % (a, b))
+if ds and (HOY - ds[-1]).days > 10:
+    cadencia.append('%d dias sin publicar (ultimo %s): toca pieza nueva'
+                    % ((HOY - ds[-1]).days, ds[-1]))
+
 
 # 4. Fechas de revision: 'updated' (lo que ve el lector) y 'last_modified_at' (<lastmod>)
 def ficheros_con_frontmatter():
@@ -122,6 +139,11 @@ for p in ficheros_con_frontmatter():
 
 print('hoy: %s' % HOY)
 print()
+if cadencia:
+    print('AVISOS DE CADENCIA (%d):' % len(cadencia))
+    for c in cadencia:
+        print('  - %s' % c)
+    print()
 if avisos:
     print('AVISOS (%d): updated sin last_modified_at, esas URLs iran sin <lastmod>:' % len(avisos))
     for a in avisos:
