@@ -17,6 +17,10 @@ permissions:
 jobs:
   validar:
     runs-on: ubuntu-latest
+    # "Hoy" es el dia de Madrid: en UTC, de 00:00 a 01:00/02:00 hora espanola
+    # todavia es ayer y una fecha de hoy salia como futura.
+    env:
+      TZ: Europe/Madrid
     steps:
       - uses: actions/checkout@v4
 
