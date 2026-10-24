@@ -63,10 +63,12 @@ No uses markdown, no pongas \`\`\`json, devolve solo el JSON puro.`;
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'llama-3.1-8b-instant',
+        model: 'openai/gpt-oss-20b',
         messages: [{ role: 'user', content: prompt }],
         temperature: 0.3,
-        max_tokens: 1500
+        max_tokens: 4000,
+        reasoning_effort: 'low',
+        response_format: { type: 'json_object' }
       })
     });
 
@@ -83,11 +85,11 @@ No uses markdown, no pongas \`\`\`json, devolve solo el JSON puro.`;
       });
     }
 
-    const content = data.choices[0].message.content;
+    const content = (data.choices[0].message.content || '').trim();
 
     let resultado;
     try {
-      resultado = JSON.parse(content);
+      resultado = JSON.parse(content.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, ''));
     } catch (e) {
       resultado = {
         explicacion: content,
