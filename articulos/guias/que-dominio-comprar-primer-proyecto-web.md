@@ -4,9 +4,9 @@ title: "Qué dominio comprar para tu primer proyecto web: .com vs .es"
 description: "Qué elegir para tu primer proyecto web: .com o .es, cuánto pagué por el mío y cómo apunté el DNS a GitHub Pages."
 category: "Guía"
 date: 2026-09-08
-readtime: 3
+readtime: 4
 updated: 2026-10-18
-last_modified_at: 2026-10-18
+last_modified_at: 2026-10-25
 ---
 
 Cuando tienes un proyecto de clase o personal y quieres publicarlo con dominio propio, la pregunta llega rápido: ¿`.com` o `.es`? Parece una tontería, pero es la primera decisión que toma alguien que está empezando y la que más dudas deja.

@@ -1,18 +1,18 @@
 ---
 layout: article
-title: "Qué portátil necesitas para estudiar programación: mi caso con i3 y 8 GB"
+title: "Qué portátil necesitas para estudiar programación: mi i3 con 8 GB"
 description: "El portátil con el que curso programación: un Lenovo IdeaPad 3 15ITL6 con i3 y 8 GB, cómo se comporta y qué buscaría si tuviera que cambiarlo."
 category: "Guía"
 tema: hardware
 date: 2026-09-08
 updated: 2026-10-18
 readtime: 3
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-25
 ---
 
 ## El portátil con el que curso DAW
 
-Estoy en **primero de DAW** y este es el portátil con el que lo estoy sacando: un **Lenovo IdeaPad 3 15ITL6**, modelo 82H8, con **Intel Core i3-1115G4** (2 núcleos y 4 hilos, undécima generación), **8 GB de RAM**, un **SSD NVMe Samsung de 256 GB** y **Windows 11 Home**. Me lo regalaron por Navidad de 2023, así que ya llevo con él casi tres años y sigue todo de serie: ni la RAM ni el disco los he tocado.
+Estoy en **primero de DAW** (el ciclo de FP de desarrollo de aplicaciones web en España) y este es el portátil con el que lo estoy sacando: un **Lenovo IdeaPad 3 15ITL6**, modelo 82H8, con **Intel Core i3-1115G4** (2 núcleos y 4 hilos, undécima generación), **8 GB de RAM**, un **SSD NVMe Samsung de 256 GB** y **Windows 11 Home**. Me lo regalaron por Navidad de 2023, así que ya llevo con él casi tres años y sigue todo de serie: ni la RAM ni el disco los he tocado.
 
 Es una máquina de gama baja. No pretendo venderla como lo ideal para DAW; lo que sí puedo contar es lo que aguanta de verdad mientras estudio.
 
@@ -22,7 +22,7 @@ Es una máquina de gama baja. No pretendo venderla como lo ideal para DAW; lo qu
 
 ## Cómo se comporta en el día a día
 
-La uso sobre todo para las dos cosas de siempre: en clase programo Java con **Eclipse**, y en casa la dejo abierta con Eclipse y el navegador echando un ojo a la documentación. Con eso no se queda corta, y la sensación general es que va bien y no me da muchos problemas.
+La uso sobre todo para las dos cosas de siempre: en clase programo Java con **Eclipse** (cómo lo estudio lo cuento en [cómo aprendo Java con IA](/articulos/guias/aprender-java-con-ia-daw/)), y en casa la dejo abierta con Eclipse y el navegador echando un ojo a la documentación. Con eso no se queda corta, y la sensación general es que va bien y no me da muchos problemas.
 
 Cuando la carga sube, la memoria llega a su límite y el equipo lo nota, aunque hasta ahora he podido seguir trabajando sin quedarme tirado a mitad de nada. El SSD NVMe de 256 GB (239 GB útiles) no me queda corto para el día a día. La pantalla, de 1920×1080 a 60 Hz, da para repartir editor y navegador lado a lado.
 

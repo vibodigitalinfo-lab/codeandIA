@@ -5,17 +5,17 @@ description: "Ocho ejercicios de Java para principiantes con su solución explic
 category: "Guía"
 date: 2026-10-23
 updated: 2026-10-23
-readtime: 10
-last_modified_at: 2026-10-23
+readtime: 9
+last_modified_at: 2026-10-25
 ---
 
 ## Un regalo para que practiques Java sin complicaciones
 
-Estudio primero de DAW, el ciclo de FP de desarrollo de aplicaciones web en España, y Java es mi primera asignatura de programación. Si algo he aprendido con mi primer examen es que Java no se aprende leyendo, se aprende escribiendo código. Yo empecé tarde por pereza y me costó más de lo necesario.
+Estudio primero de DAW, el ciclo de FP de desarrollo de aplicaciones web en España, y Java es mi primera asignatura de programación. Si algo he aprendido con mi primer examen es que Java no se aprende leyendo, se aprende escribiendo código. Yo empecé tarde por pereza y me costó más de lo necesario. Cómo uso la IA para estudiar sin que me lo haga todo lo cuento en [cómo aprendo Java con IA](/articulos/guias/aprender-java-con-ia-daw/).
 
 Lo que más me costó al principio fue la sintaxis del `Scanner`: me liaba con `nextInt()`, `nextLine()` y compañía, y casi siempre los ponía mal. Después se me atascaron los ejercicios en los que un objeto depende de otro, porque no conseguía entender cómo se relacionaban. Cuando lo ves, todo se vuelve mucho más sencillo.
 
-Por eso te dejo **8 ejercicios de Java básicos** con su solución. Empiezan por el `Scanner` y acaban con dos clases que se relacionan, que es justo donde yo me atascaba. Cada uno lleva su enunciado, el código completo y una explicación de lo que hace. Los he preparado con ayuda de una IA y no son los del profesor. Cópialos, pruébalos en Eclipse (o en el IDE que uses) y modifícalos a tu gusto.
+Por eso te dejo **8 ejercicios de Java básicos** con su solución. Empiezan por el `Scanner` y acaban con dos clases que se relacionan, que es justo donde yo me atascaba. Cada uno lleva su enunciado, el código completo y una explicación de lo que hace. Los he preparado con ayuda de una IA y no son los del profesor. Cópialos, pruébalos en Eclipse (o en el IDE que uses) y modifícalos a tu gusto. Si al cambiarlos te sale un error que no entiendes, pégalo en el [corrector de Java](/herramientas/corrector-java/) que he montado: te explica qué falla y te devuelve el código corregido.
 
 Los ofrezco como regalo para facilitarte el estudio. No necesitas registrarte ni dar ningún dato.
 

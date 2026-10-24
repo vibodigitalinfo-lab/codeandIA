@@ -5,7 +5,7 @@ description: "El 17 de octubre codeandia.com dejó de cargar. No era mi servidor
 category: "Guía"
 date: 2026-10-18
 readtime: 4
-last_modified_at: 2026-10-18
+last_modified_at: 2026-10-25
 ---
 
 El 17 de octubre sobre las 14:50 abrí codeandia.com y la página no cargaba. No era un error a mitad de carga ni una pantalla rara: el navegador se quedaba girando hasta que se rendía. Probé otras páginas y todo iba con normalidad, así que descarté al principio lo de mi conexión.
@@ -40,7 +40,7 @@ Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que ha
 
 ## El arreglo
 
-Pasé los cuatro registros A del dominio raíz a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
+Pasé los cuatro registros A del dominio raíz (los que apuntan a GitHub Pages, como explico en [qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)) a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
 
 ```text
 $ nslookup codeandia.com

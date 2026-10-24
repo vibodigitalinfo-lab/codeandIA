@@ -1,12 +1,12 @@
 ---
 layout: article
 title: "Cómo estudio para exámenes de programación con IA sin copiar código"
-description: "Cómo preparo exámenes de programación (BDA, XML, Java) con Claude: le paso los ejercicios del profesor con el código y la rúbrica, para no entregar lo que no entiendo."
+description: "Cómo preparo exámenes de programación (bases de datos, XML, Java) con Claude: ejercicios del profesor, su código y la rúbrica, sin copiar."
 category: "Guía"
 date: 2026-10-22
 updated: 2026-10-23
-readtime: 7
-last_modified_at: 2026-10-23
+readtime: 5
+last_modified_at: 2026-10-25
 ---
 
 ## Una semana de exámenes aprendiendo a programar

@@ -53,9 +53,18 @@ def _articulos(raiz):
     return urls
 
 
+def _herramientas(raiz):
+    """URLs de las herramientas: herramientas/<nombre>/index.html o index.md."""
+    urls = set()
+    for p in glob.glob(os.path.join(raiz, "herramientas", "*", "index.*")):
+        nombre = os.path.basename(os.path.dirname(p))
+        urls.add(_normalizar("/herramientas/" + nombre))
+    return urls
+
+
 def rutas_validas(raiz=RAIZ):
     """Conjunto de URLs internas v\u00e1lidas, sin barra final (salvo la ra\u00edz)."""
-    return _paginas(raiz) | _articulos(raiz)
+    return _paginas(raiz) | _articulos(raiz) | _herramientas(raiz)
 
 
 def enlace_roto(link, urls):
