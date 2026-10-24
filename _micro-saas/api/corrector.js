@@ -71,6 +71,18 @@ No uses markdown, no pongas \`\`\`json, devolve solo el JSON puro.`;
     });
 
     const data = await response.json();
+
+    if (!response.ok || !data.choices || !data.choices.length) {
+      const detalle = (data && data.error && data.error.message) ? data.error.message : 'respuesta vacía de Groq (HTTP ' + response.status + ')';
+      return res.status(502).json({
+        explicacion: 'Groq ha devuelto un error: ' + detalle,
+        codigoCorregido: '',
+        preguntaTest: '',
+        opciones: [],
+        respuestaCorrecta: ''
+      });
+    }
+
     const content = data.choices[0].message.content;
 
     let resultado;
