@@ -1,34 +1,34 @@
 ---
 layout: article
 title: "Mi primer trabajo de grupo con Git, GitHub y Trello"
-description: "Mi primera toma de contacto con Git y GitHub en un trabajo de grupo de DAW: el caos de la terminal, cÃ³mo lo resolvÃ­ y lo que me aportÃ³ Trello."
-category: "GuÃ­a"
+description: "Mi primera toma de contacto con Git y GitHub en un trabajo de grupo de DAW: el caos de la terminal, cómo lo resolví y lo que me aportó Trello."
+category: "Guía"
 date: 2026-10-19
 readtime: 2
 last_modified_at: 2026-10-18
 ---
 
-Durante un par de semanas estuve metido en un trabajo de grupo. El encargo consistÃ­a en tomar una empresa, ver cÃ³mo se podÃ­a mejorar digitalmente y buscarle soluciones, pero el objetivo de fondo era otro: aprender a usar Git y GitHub. Como primera toma de contacto con las dos cosas a la vez, estuvo bien.
+Durante un par de semanas estuve metido en un trabajo de grupo. El encargo consistía en tomar una empresa, ver cómo se podía mejorar digitalmente y buscarle soluciones, pero el objetivo de fondo era otro: aprender a usar Git y GitHub. Como primera toma de contacto con las dos cosas a la vez, estuvo bien.
 
 ## Cuando la terminal se puso en mi contra
 
-Hubo momentos de caos. La terminal se me volvÃ­a en contra: comandos que no hacÃ­an lo que yo esperaba, errores que no entendÃ­a de golpe y esa sensaciÃ³n de ir a ciegas sin saber dÃ³nde se habÃ­a torcido el paso.
+Hubo momentos de caos. La terminal se me volvía en contra: comandos que no hacían lo que yo esperaba, errores que no entendía de golpe y esa sensación de ir a ciegas sin saber dónde se había torcido el paso.
 
-Lo que me sacÃ³ de ahÃ­ fue pasarle el problema a la IA. Con Gemini, por ejemplo, le daba el error tal cual y los comandos que habÃ­a ido poniendo, y con eso acababa solucionÃ¡ndolo. No le mandaba solo Â«no me funcionaÂ»: le mandaba tambiÃ©n mi rastro, lo que yo habÃ­a ido escribiendo, y eso es lo que permitÃ­a que la respuesta cayera donde tenÃ­a que caer.
+Lo que me sacó de ahí fue pasarle el problema a la IA. Con Gemini, por ejemplo, le daba el error tal cual y los comandos que había ido poniendo, y con eso acababa solucionándolo. No le mandaba solo «no me funciona»: le mandaba también mi rastro, lo que yo había ido escribiendo, y eso es lo que permitía que la respuesta cayera donde tenía que caer.
 
 ## Trello, que nos lo impusieron
 
-En el trabajo nos obligaban a usar Trello para organizarnos, asÃ­ que empecÃ© a usarlo sin mucha mÃ¡s elecciÃ³n.
+En el trabajo nos obligaban a usar Trello para organizarnos, así que empecé a usarlo sin mucha más elección.
 
-La verdad es que es bastante intuitivo y visual. Ayuda a organizarse bien, a saber quÃ© tienes pendiente y quÃ© ya estÃ¡ completado, y te deja todo mucho mÃ¡s claro de un vistazo. Cuando estÃ¡s metido en varias cosas a la vez, eso de ver el tablero y saber dÃ³nde estÃ¡s vale mÃ¡s de lo que parece.
+La verdad es que es bastante intuitivo y visual. Ayuda a organizarse bien, a saber qué tienes pendiente y qué ya está completado, y te deja todo mucho más claro de un vistazo. Cuando estás metido en varias cosas a la vez, eso de ver el tablero y saber dónde estás vale más de lo que parece.
 
-## QuÃ© me llevo
+## Qué me llevo
 
-Antes de esto no habÃ­a tocado Git de verdad, asÃ­ que el simple hecho de haberlo pasado por encima ya me sirviÃ³. Y me llevo una idea prÃ¡ctica para la prÃ³xima: anotar lo que hago y lo que me falla, porque con eso la IA me ayuda mucho mejor que con un Â«no vaÂ».
+Antes de esto no había tocado Git de verdad, así que el simple hecho de haberlo pasado por encima ya me sirvió. Y me llevo una idea práctica para la próxima: anotar lo que hago y lo que me falla, porque con eso la IA me ayuda mucho mejor que con un «no va».
 
-## Sigue por aquÃ­
+## Sigue por aquí
 
 - [Aprender Java en DAW con IA y no volverte dependiente](/articulos/guias/aprender-java-con-ia-daw/)
-- [Bloqueo de La Liga a mi web y cÃ³mo lo arreglÃ©](/articulos/guias/bloqueo-laliga-a-cloudflare-y-como-afecto-a-este-blog/)
+- [Bloqueo de La Liga a mi web y cómo lo arreglé](/articulos/guias/bloqueo-laliga-a-cloudflare-y-como-afecto-a-este-blog/)
 
 <!-- publicar: mover a articulos/guias/primer-trabajo-de-grupo-git-github-trello.md -->
