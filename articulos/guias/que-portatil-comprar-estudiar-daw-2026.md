@@ -5,8 +5,11 @@ description: "El portátil con el que curso programación: un Lenovo IdeaPad 3 1
 category: "Guía"
 tema: hardware
 date: 2026-09-08
-updated: 2026-10-18
-readtime: 3
+updated: 2026-10-25
+readtime: 4
+affiliate_text: "El ratón que uso con este portátil: Logitech G305"
+affiliate_url: "https://www.amazon.es/dp/B07CGPZ3ZQ?tag=codeandia-21"
+affiliate_label: "Ver el G305 en Amazon"
 last_modified_at: 2026-10-25
 ---
 
@@ -33,6 +36,22 @@ El punto más flojo es, sin duda, la **batería**. Según el informe de Windows 
 *El Administrador de tareas con VS Code y Chrome abiertos (bastantes pestañas y procesos de VS Code en marcha): la RAM marcaba el 86 %.*
 
 ![Información del disco y la SSD](/assets/img/portatil-disco.png){: width="1607" height="932"}
+
+## Lo que uso con él
+
+### Un ratón: el Logitech G305
+
+Desde abril de 2026 uso un **Logitech G305**. Lo compré porque me había cansado del touchpad del portátil. Me resulta cómodo y se adapta bien a la mano. Conectarlo fue cuestión de segundos: pinchas su receptor USB en el portátil y ya funciona. Va con una sola pila AA, que venía incluida y todavía no he tenido que cambiar.
+
+Los botones suenan bien al pulsarlos. El central de arriba cambia la velocidad del cursor, aunque a cualquier botón se le puede cambiar la función. Lo que más partido le saco son los dos laterales del lado izquierdo, los que quedan bajo el pulgar: tengo uno para **copiar** y otro para **pegar**. Me paso el día moviendo trozos de código, prompts o apuntes de un documento a otro, y era el uso más lógico que les encontraba. La verdad es que me ahorra mucho tiempo.
+
+### Un soporte para cuando no estoy en la mesa
+
+Cuando me apetece programar en el sofá o en otro sitio, pongo el portátil sobre un soporte acolchado para no taparle los ventiladores, que es lo que pasa si lo apoyas en un cojín o en las piernas.
+
+### Auriculares: los mismos de siempre
+
+Para estudiar y programar uso unos **Galaxy Buds Live**, los mismos que para todo lo demás.
 
 ## Qué buscaría si tuviera que cambiarlo
 
