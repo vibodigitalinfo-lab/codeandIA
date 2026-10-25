@@ -23,6 +23,10 @@ Me quedan unos años para acabar DAW y el futuro me queda bastante incierto, y n
 
 Mientras estudio quiero sacarme algo de dinero. Estoy buscando un trabajo de findes con un turno largo, y de paso he empezado en **uTest**.
 
+## Otro proyecto: Pikolete
+
+Además del blog, hago [Pikolete](https://pikolete.com), un auditor web gratuito. Le pasas la dirección de una página pública y en unos segundos te da una nota de 0 a 100 con los fallos que encuentra en SEO, velocidad, seguridad y estructura, y cómo corregirlos. Lo uso también para revisar este blog. Como el de codeandIA, su código es público en [GitHub](https://github.com/vibodigitalinfo-lab/pikolete).
+
 ## Cómo escribo
 
 Las entradas del blog salen **solo de lo que me pasa o de lo que pruebo de verdad**. Guardo esas experiencias en mis notas del diario y, a partir de esas notas, uso IA para darles forma. Todo lo que publico lo leo y lo reviso yo antes de que salga. No invento datos, números ni anécdotas que no estén en mis notas.
