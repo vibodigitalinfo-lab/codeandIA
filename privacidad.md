@@ -12,12 +12,12 @@ last_modified_at: 2026-10-18
 De acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), el responsable del tratamiento de los datos personales de este sitio es:
 
 - **Titular:** Iván
-- **Email de contacto:** <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
+- **Email de contacto:** <a href="mailto:vibo@codeandia.com">vibo@codeandia.com</a>
 - **Web:** codeandia.com
 
 ## 2. Qué datos recogemos
 
-**Newsletter (beehiiv).** Si te suscribes a la newsletter, introduces tu **dirección de email** en la página de suscripción de beehiiv (newsletter.codeandia.com), a la que llegas desde el botón «Suscribirme» del blog. Únicamente se usa para enviarte la newsletter. La suscripción utiliza **doble opt-in**: recibirás un email de confirmación antes de empezar a recibir contenido, y podrás darte de baja en cualquier momento con el enlace que cada email incluye o escribiéndome a ivan@codeandia.com. El blog no carga ningún script de beehiiv; solo enlaza a su página.
+**Newsletter (beehiiv).** Si te suscribes a la newsletter, introduces tu **dirección de email** en la página de suscripción de beehiiv (newsletter.codeandia.com), a la que llegas desde el botón «Suscribirme» del blog. Únicamente se usa para enviarte la newsletter. La suscripción utiliza **doble opt-in**: recibirás un email de confirmación antes de empezar a recibir contenido, y podrás darte de baja en cualquier momento con el enlace que cada email incluye o escribiéndome a vibo@codeandia.com. El blog no carga ningún script de beehiiv; solo enlaza a su página.
 
 **Datos técnicos de navegación.** El sitio no tiene registro de usuarios, formularios de contacto propios ni cuenta de comentarios. En tu navegación normal solo se tratan estos datos:
 
@@ -51,7 +51,7 @@ No se ceden datos personales a terceros, salvo obligación legal o cuando el acc
 
 ## 6. Derechos de las personas interesadas
 
-Puedes ejercer en cualquier momento tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad**, así como **retirar tu consentimiento** (incluida la baja de la newsletter mediante el enlace de baja de cada email o escribiéndome), enviando un email a **ivan@codeandia.com** indicando el derecho que deseas ejercer.
+Puedes ejercer en cualquier momento tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad**, así como **retirar tu consentimiento** (incluida la baja de la newsletter mediante el enlace de baja de cada email o escribiéndome), enviando un email a **vibo@codeandia.com** indicando el derecho que deseas ejercer.
 
 Puedes consultar el procedimiento de reclamación ante la **Agencia Española de Protección de Datos (AEPD)** en [aepd.es](https://www.aepd.es).
 
@@ -69,4 +69,4 @@ Esta política puede actualizarse para adaptarse a cambios normativos o en el fu
 
 ## 10. Contacto
 
-Para cualquier duda sobre estas políticas, escribe a **ivan@codeandia.com**. Respondo lo antes posible.
+Para cualquier duda sobre estas políticas, escribe a **vibo@codeandia.com**. Respondo lo antes posible.

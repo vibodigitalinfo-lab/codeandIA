@@ -31,4 +31,4 @@ Cuando no he probado algo, lo digo. Cuando no sé algo, lo digo. Lo que recomien
 
 ## Contacto
 
-Puedes escribirme a [ivan@codeandia.com](mailto:ivan@codeandia.com).
+Puedes escribirme a [vibo@codeandia.com](mailto:vibo@codeandia.com).
