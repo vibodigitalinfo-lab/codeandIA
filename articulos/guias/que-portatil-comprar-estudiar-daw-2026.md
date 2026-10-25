@@ -47,7 +47,7 @@ Los botones suenan bien al pulsarlos. El central de arriba cambia la velocidad d
 
 ### Un soporte para cuando no estoy en la mesa
 
-Cuando me apetece programar en el sofá o en otro sitio, pongo el portátil sobre un soporte acolchado para no taparle los ventiladores, que es lo que pasa si lo apoyas en un cojín o en las piernas.
+Cuando me apetece programar en el sofá o en otro sitio, pongo el portátil sobre un soporte acolchado, el [hjh OFFICE Comfilap](https://www.amazon.es/dp/B08Z4DGPRZ?tag=codeandia-21){:rel="sponsored nofollow noopener" target="_blank"} (enlace de afiliado), para no taparle los ventiladores, que es lo que pasa si lo apoyas en un cojín o en las piernas.
 
 ### Auriculares: los mismos de siempre
 
