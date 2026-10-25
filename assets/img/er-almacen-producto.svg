@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="t d" font-family="Atkinson Hyperlegible, Arial, sans-serif">
+  <title id="t">Ejemplo de diagrama entidad-relación: Almacén guarda Producto</title>
+  <desc id="d">Almacén y Producto unidos por la relación guarda. Junto a Producto se lee (0,N): un almacén guarda de cero a muchos productos. Junto a Almacén se lee (1,1): un producto está en un solo almacén.</desc>
+  <rect width="640" height="220" fill="#fffdf7"/>
+  <line x1="170" y1="100" x2="250" y2="100" stroke="#222" stroke-width="2"/>
+  <line x1="390" y1="100" x2="470" y2="100" stroke="#222" stroke-width="2"/>
+  <rect x="30" y="70" width="140" height="60" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="100" y="106" text-anchor="middle" font-size="18" font-weight="700">ALMACÉN</text>
+  <polygon points="320,55 390,100 320,145 250,100" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="320" y="106" text-anchor="middle" font-size="17">guarda</text>
+  <rect x="470" y="70" width="140" height="60" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="540" y="106" text-anchor="middle" font-size="18" font-weight="700">PRODUCTO</text>
+  <text x="210" y="88" text-anchor="middle" font-size="16" fill="#b3261e" font-weight="700">(1,1)</text>
+  <text x="430" y="88" text-anchor="middle" font-size="16" fill="#b3261e" font-weight="700">(0,N)</text>
+  <text x="320" y="185" text-anchor="middle" font-size="15">Un almacén guarda de 0 a N productos → (0,N) va junto a PRODUCTO</text>
+  <text x="320" y="207" text-anchor="middle" font-size="15">Un producto está en 1 y solo 1 almacén → (1,1) va junto a ALMACÉN</text>
+</svg>
