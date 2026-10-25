@@ -8,7 +8,7 @@ date: 2026-09-08
 updated: 2026-10-25
 readtime: 4
 affiliate_text: "El ratón que uso con este portátil: Logitech G305"
-affiliate_url: "https://www.amazon.es/dp/B07CMS5Q6P?tag=codeandia-21"
+affiliate_url: "https://www.amazon.es/dp/B07CGPZ3ZQ?tag=codeandia-21"
 affiliate_label: "Ver el G305 en Amazon"
 last_modified_at: 2026-10-25
 ---
