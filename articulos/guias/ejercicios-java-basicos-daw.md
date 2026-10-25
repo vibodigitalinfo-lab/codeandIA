@@ -5,7 +5,7 @@ description: "Un mes de ejercicios de Java en Eclipse, con mi código tal cual: 
 category: "Guía"
 date: 2026-10-23
 updated: 2026-10-25
-readtime: 8
+readtime: 9
 last_modified_at: 2026-10-25
 ---
 
@@ -110,6 +110,12 @@ public class Linterna {
 }
 ```
 
+Así salía en la consola de Eclipse al ejecutarlo:
+
+![Consola de Eclipse con la salida de la linterna: 1900, 1980, 0, 200 y 500 de carga restante](/assets/img/java-linterna-consola.png){: width="460" height="205"}
+
+La primera linterna gasta 100 en 10 minutos y recupera 80 al cargar. La segunda, de 500, se queda en 0 tras una hora encendida (no baja a negativo) y, aunque la cargue 20 minutos, se queda en 500 (no pasa de su capacidad).
+
 Aquí hay tres cosas que al principio no tenía claras:
 
 - **`this(2000)`**: un constructor que llama a otro. Si creas la batería sin decir la capacidad, tiene 2000.
@@ -145,15 +151,17 @@ En el ejercicio del taller, ese mismo día, ya lo hice así y funcionó. Otra co
 
 ## Cuando cambio un método y se me olvida el main
 
-Este es del 22 de octubre, un taller de bicis con un ciclista y dos mecánicos. Mientras lo hacía fui cambiando los métodos de `Ciclista` y `Mecanico`, pero el `main` se quedó llamándolos como estaban antes. Resultado: no compila. Este es el error de `rodar()`:
+Este es del 22 de octubre, un taller de bicis con un ciclista y dos mecánicos. Mientras lo hacía fui cambiando los métodos de `Ciclista` y `Mecanico`, pero el `main` se quedó llamándolos como estaban antes. Resultado: no compila, y Eclipse lo marca en rojo:
+
+![Eclipse con taller_bicis abierto y la pestaña Problems: 5 errores, tres de métodos que no aceptan esos argumentos y dos de la variable paginas en Lector](/assets/img/java-taller-bicis-errores.png){: width="1587" height="780"}
+
+El de `rodar()` dice:
 
 ```text
-Aplicacion.java:23: error: method rodar in class Ciclista cannot be applied to given types;
-  required: int
-  found:    int,Bicicleta
+The method rodar(int) in the type Ciclista is not applicable for the arguments (int, Bicicleta)
 ```
 
-Traducido: el método `rodar` ahora solo pide los kilómetros (`int`), porque el ciclista ya tiene su bicicleta dentro, pero yo le seguía pasando los kilómetros y la bici. Hay otros dos errores iguales con `repararCiclistaPreferente` y `revisar`. La solución es que la llamada coincida con lo que pide el método:
+Traducido: el método `rodar` ahora solo pide los kilómetros (`int`), porque el ciclista ya tiene su bicicleta dentro, pero yo le seguía pasando los kilómetros y la bici. Los otros dos son iguales, con `repararCiclistaPreferente` y `revisar`. Los dos de `paginas` son de la biblioteca, que te cuento más abajo. Y las 18 advertencias amarillas son variables que creo y luego no uso: no impiden ejecutar, pero dicen bastante de cómo dejo las cosas a medias. La solución es que la llamada coincida con lo que pide el método:
 
 ```java
 ciclista.rodar(distanciaRecorridaCiclista);
@@ -161,7 +169,7 @@ mecanico1.repararCiclistaPreferente(3);
 mecanico2.revisar(ciclista);
 ```
 
-Lo bueno del error es que Java te dice exactamente qué esperaba (`required`) y qué le has dado (`found`). Un mensaje así en inglés asusta, pero la respuesta suele estar en esas dos líneas.
+Lo bueno del error es que te dice exactamente qué pide el método, `rodar(int)`, y qué le has dado, `(int, Bicicleta)`. Un mensaje así en inglés asusta, pero la respuesta suele estar en esas dos líneas.
 
 ## Los que dejé a medias
 
