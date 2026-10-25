@@ -23,7 +23,11 @@ Lo que hago es pasarle a Claude los ejercicios que hemos hecho en clase, contarl
 
 En el examen de XML, por ejemplo, el primer ejercicio era corregir errores de sintaxis de un archivo XML ya creado. Luego había dos ejercicios de crear XML de 0 a partir de un enunciado. Con Claude me fue bastante bien con todo.
 
-Además, le pasé la rúbrica del profesor para que me pusiera nota a mis ejercicios.
+Además, le pasé la rúbrica del profesor para que me pusiera nota a mis ejercicios. Para Java hice cinco exámenes de práctica que me preparó al estilo de los de clase, y esta fue la nota que me estimó en cada uno:
+
+![Gráfica de las notas estimadas por Claude en mis cinco exámenes de práctica de Java: 7, 7,5, 6,5, 8,5 y 8,9](/assets/img/java-notas-examenes-practica.svg){: width="640" height="300"}
+
+Cómo fue ese proceso, con el fallo que más se me repetía, lo cuento en [cómo aprendo Java con IA](/articulos/guias/aprender-java-con-ia-daw/).
 
 La parte de las explicaciones es la que más me aporta. Ir viendo, preguntando y recibiendo correcciones hace que al final se vaya entendiendo todo. No te voy a decir que sea fácil, pero una vez que lo ves, va todo sobre ruedas.
 
