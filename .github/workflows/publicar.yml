@@ -1,0 +1,63 @@
+name: Publicar programados
+
+# Cada mañana mira articulos/_entrada/ y, si toca, publica UN articulo con
+# `publicar: AAAA-MM-DD` ya cumplido, respetando la cadencia (nunca dos dias
+# seguidos, maximo 2 por semana). La logica esta en
+# scripts/publicar_programados.py; aqui solo se ejecuta, se valida y se sube.
+#
+# Para pausarlo todo: Actions > Publicar programados > Disable workflow.
+
+on:
+  schedule:
+    # 06:00 UTC = 07:00/08:00 en Madrid. GitHub puede retrasar el cron un rato.
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Madrid
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Publicar si toca hoy
+        id: pub
+        run: python scripts/publicar_programados.py
+
+      # El push hecho con GITHUB_TOKEN no dispara el workflow Validar, asi que
+      # las mismas comprobaciones de fechas van aqui, antes de subir nada.
+      - name: Validar fechas
+        if: steps.pub.outputs.publicado
+        run: |
+          python fechas_check.py
+          python scripts/marcar_actualizado.py --check
+
+      - name: Commit y push
+        if: steps.pub.outputs.publicado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A articulos
+          git commit -m "Publica: ${{ steps.pub.outputs.publicado }} ($(date +%F))"
+          git push
+
+      # Por si el push del bot no lanza la build de Pages por si solo.
+      - name: Pedir build de Pages
+        if: steps.pub.outputs.publicado
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"

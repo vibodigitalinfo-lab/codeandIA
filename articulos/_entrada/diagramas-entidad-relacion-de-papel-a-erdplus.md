@@ -4,6 +4,7 @@ title: "Diagramas entidad-relación: por qué ponía las cardinalidades al revé
 description: "Mi experiencia con los diagramas E-R en primero de DAW: el fallo de poner las cardinalidades en la entidad equivocada, cómo leerlas bien y qué tal erdplus."
 category: "Guía"
 date: 2026-11-03
+publicar: 2026-11-03
 readtime: 5
 ---
 
