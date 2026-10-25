@@ -19,7 +19,7 @@ Eso fue lo que me hizo cambiar el enfoque. Desde entonces tengo una regla clara:
 
 En clase no siempre sale todo claro. A veces da pereza, las clases son largas y es fácil distraerse, así que muchas veces prefiero dejarlo para casa y atacarlo allí con calma.
 
-Lo que hago es pasarle a Claude los ejercicios que hemos hecho en clase, contarle cómo los hace el profesor y cómo quiere que los hagamos nosotros, y a partir de ahí pedirle más ejercicios (algunos los he recopilado en [ejercicios de Java para principiantes con soluciones](/articulos/guias/ejercicios-java-basicos-daw/)), correcciones y explicaciones. En la práctica es como tener un profesor de programación cuando te pones: le explico cómo trabaja el mío en clase y me prepara ejercicios al mismo estilo, ajustados a lo que estoy viendo.
+Lo que hago es pasarle a Claude los ejercicios que hemos hecho en clase, contarle cómo los hace el profesor y cómo quiere que los hagamos nosotros, y a partir de ahí pedirle más ejercicios (enseño mi código real, con fallos incluidos, en [mis ejercicios de Java de primero](/articulos/guias/ejercicios-java-basicos-daw/)), correcciones y explicaciones. En la práctica es como tener un profesor de programación cuando te pones: le explico cómo trabaja el mío en clase y me prepara ejercicios al mismo estilo, ajustados a lo que estoy viendo.
 
 La parte de las explicaciones es la que más me aporta. Ir viendo, preguntando y recibiendo correcciones hace que al final se vaya entendiendo todo. No te voy a decir que sea fácil, pero una vez que lo ves, va todo sobre ruedas.
 

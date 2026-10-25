@@ -1,337 +1,191 @@
 ---
 layout: article
-title: "Ejercicios Java para principiantes: 8 prácticas con soluciones"
-description: "Ocho ejercicios de Java para principiantes con su solución explicada: del Scanner a dos clases que se relacionan. Un regalo para facilitar tu estudio."
+title: "Mis ejercicios de Java de primero: aciertos, fallos y alguno a medias"
+description: "Un mes de ejercicios de Java en Eclipse, con mi código tal cual: los que funcionan, el fallo del Scanner, un main que no compila y los que dejé a medias."
 category: "Guía"
 date: 2026-10-23
-updated: 2026-10-23
-readtime: 9
+updated: 2026-10-25
+readtime: 8
 last_modified_at: 2026-10-25
 ---
 
-## Un regalo para que practiques Java sin complicaciones
+## Un mes de ejercicios, tal cual los tengo en Eclipse
 
-Estudio primero de DAW, el ciclo de FP de desarrollo de aplicaciones web en España, y Java es mi primera asignatura de programación. Si algo he aprendido con mi primer examen es que Java no se aprende leyendo, se aprende escribiendo código. Yo empecé tarde por pereza y me costó más de lo necesario. Cómo uso la IA para estudiar sin que me lo haga todo lo cuento en [cómo aprendo Java con IA](/articulos/guias/aprender-java-con-ia-daw/).
+Estudio primero de DAW, el ciclo de FP de desarrollo de aplicaciones web en España, y Java es mi primera asignatura de programación. Entre el 23 de septiembre y el 23 de octubre he ido llenando mi carpeta de Eclipse con 16 proyectos de práctica. Algunos son ejercicios de clase. Otros los buscaba yo o se los pedía a Claude, basándome en los que nos daba el profesor y en cómo trabaja él (lo cuento en [cómo aprendo Java con IA](/articulos/guias/aprender-java-con-ia-daw/)).
 
-Lo que más me costó al principio fue la sintaxis del `Scanner`: me liaba con `nextInt()`, `nextLine()` y compañía, y casi siempre los ponía mal. Después se me atascaron los ejercicios en los que un objeto depende de otro, porque no conseguía entender cómo se relacionaban. Cuando lo ves, todo se vuelve mucho más sencillo.
+Antes aquí tenía ocho ejercicios con soluciones perfectas. Los he quitado: eran correctos, pero no eran míos, y hay miles iguales en internet. Lo que te enseño ahora es **mi código, tal cual me salió**: algunos bien, otros con fallos y alguno a medias porque me agobiaba. Los enunciados no los copio, porque muchos son del profesor; solo cuento de qué iba cada uno.
 
-Por eso te dejo **8 ejercicios de Java básicos** con su solución. Empiezan por el `Scanner` y acaban con dos clases que se relacionan, que es justo donde yo me atascaba. Cada uno lleva su enunciado, el código completo y una explicación de lo que hace. Los he preparado con ayuda de una IA y no son los del profesor. Cópialos, pruébalos en Eclipse (o en el IDE que uses) y modifícalos a tu gusto. Si al cambiarlos te sale un error que no entiendes, pégalo en el [corrector de Java](/herramientas/corrector-java/) que he montado: te explica qué falla y te devuelve el código corregido.
+## El primero: un cocinero que hace masa
 
-Los ofrezco como regalo para facilitarte el estudio. No necesitas registrarte ni dar ningún dato.
+Mi primer proyecto, del 23 de septiembre. Una clase con dos atributos, un constructor y unos métodos para consultar y cambiar el nombre:
 
----
-
-### Ejercicio 1: Datos del alumno
-
-**Enunciado:** Crea un programa que pida por teclado el nombre del alumno, su edad y la nota de un examen, y los muestre por pantalla.
-
-**Código:**
-
-{% raw %}
 ```java
-import java.util.Scanner;
+public class Cocinero {
 
-public class DatosAlumno {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Nombre del alumno: ");
-        String nombre = sc.nextLine();
-        
-        System.out.print("Edad: ");
-        int edad = sc.nextInt();
-        
-        System.out.print("Nota del examen: ");
-        double nota = sc.nextDouble();
-        
-        System.out.println("\n--- Datos del alumno ---");
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad);
-        System.out.println("Nota: " + nota);
-        
-        sc.close();
-    }
+	private String nombre;
+	private int edad;
+
+	public Cocinero(String nombreCocinero, int edadCocinero) {
+		nombre=nombreCocinero;
+		edad=edadCocinero;
+	}
+
+	public int hacerMasa(int grHarina, int grAgua, int grAceite) {
+		int grMasa=grHarina+grAgua+grAceite;
+		return grMasa;
+	}
+
+	public String consultarNombre() {
+		return nombre;
+	}
+
+	public void establecerNombre(String nuevoNombre) {
+		nombre=nuevoNombre;
+	}
 }
 ```
-{% endraw %}
 
-**Qué hace:** Usa `Scanner` para leer datos por teclado, guarda los valores en variables y los imprime con `System.out.println`.
+Visto ahora es muy simple, pero aquí entendí lo básico: la clase es el molde, el objeto es lo que creas con `new`, y los métodos son lo que ese objeto sabe hacer. Fíjate en que `edad` se guarda y nunca se usa. Cosas de primer día.
 
----
+## Cuando empezó a encajar: una linterna con su batería
 
-### Ejercicio 2: Calculadora simple
+Tres semanas después, el 18 de octubre, ya hacía cosas como esta: una `Bateria` que no puede bajar de 0 ni pasar de su capacidad, y una `Linterna` que tiene una batería dentro.
 
-**Enunciado:** Pide dos números por teclado y muestra la suma, resta, multiplicación y división.
-
-**Código:**
-
-{% raw %}
 ```java
-import java.util.Scanner;
+public class Bateria {
 
-public class CalculadoraSimple {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Primer número: ");
-        double a = sc.nextDouble();
-        
-        System.out.print("Segundo número: ");
-        double b = sc.nextDouble();
-        
-        System.out.println("Suma: " + (a + b));
-        System.out.println("Resta: " + (a - b));
-        System.out.println("Multiplicación: " + (a * b));
-        
-        if (b != 0) {
-            System.out.println("División: " + (a / b));
-        } else {
-            System.out.println("División: no se puede dividir entre cero");
-        }
-        
-        sc.close();
-    }
+	private int capacidadBat, cargaActual;
+
+	public Bateria(int capacidad) {
+		capacidadBat=capacidad;
+		cargaActual=capacidadBat;
+	}
+
+	public Bateria() {
+		this(2000);
+	}
+
+	public void gastar (int bateriaGastada) {
+		cargaActual=cargaActual-bateriaGastada;
+		if (cargaActual < 0) {
+			cargaActual=0;
+		}
+	}
+
+	public void cargar (int bateriaRecargada) {
+		cargaActual=cargaActual+bateriaRecargada;
+		if (cargaActual > capacidadBat) {
+			cargaActual=capacidadBat;
+		}
+	}
+
+	public int getCarga() {
+		return cargaActual;
+	}
 }
 ```
-{% endraw %}
 
-**Qué hace:** Realiza las cuatro operaciones básicas y comprueba que el divisor no sea cero antes de dividir.
-
----
-
-### Ejercicio 3: ¿Par o impar?
-
-**Enunciado:** Pide un número entero y di si es par o impar.
-
-**Código:**
-
-{% raw %}
 ```java
-import java.util.Scanner;
+public class Linterna {
 
-public class ParOImpar {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Introduce un número entero: ");
-        int numero = sc.nextInt();
-        
-        if (numero % 2 == 0) {
-            System.out.println("Es par");
-        } else {
-            System.out.println("Es impar");
-        }
-        
-        sc.close();
-    }
+	private Bateria bateria;
+
+	public Linterna() {
+		bateria = new Bateria();
+	}
+
+	public Linterna(int capacidad) {
+		bateria = new Bateria(capacidad);
+	}
+
+	public void encender(int minutos) {
+		bateria.gastar(10*minutos);
+		System.out.println("La carga restante es: "+bateria.getCarga());
+	}
+
+	public void cargar(int minutos) {
+		bateria.cargar(40*minutos);
+		System.out.println("La carga restante es: "+bateria.getCarga());
+	}
 }
 ```
-{% endraw %}
 
-**Qué hace:** Usa el operador módulo `%` para saber si el resto de dividir entre 2 es cero.
+Aquí hay tres cosas que al principio no tenía claras:
 
----
+- **`this(2000)`**: un constructor que llama a otro. Si creas la batería sin decir la capacidad, tiene 2000.
+- **Los límites con `if`**: la carga nunca baja de 0 ni pasa del máximo, la gastes o la cargues lo que quieras.
+- **Un objeto dentro de otro**: la linterna no sabe cuánta carga hay; se lo pregunta a su batería. Esto es lo que más me costaba entender, y cuando lo ves, todo se vuelve mucho más sencillo.
 
-### Ejercicio 4: Números del 1 al 10
+El mismo día hice una cuenta bancaria con la misma idea: `retirar()` comprueba primero si hay saldo suficiente y, si no, avisa con un «Saldo insuficiente» en vez de dejar el saldo en negativo.
 
-**Enunciado:** Muestra por pantalla los números del 1 al 10, uno por línea.
+## El fallo que más me ha pasado: el Scanner que se salta una pregunta
 
-**Código:**
+En uno de los ejercicios de la cafetería, del 21 de octubre, pedía tres datos por teclado:
 
-{% raw %}
 ```java
-public class Numeros1al10 {
-    public static void main(String[] args) {
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(i);
-        }
-    }
-}
+System.out.println("Introduce el nombre de un cliente: ");
+String nombreCliente=s.nextLine();
+System.out.println("Introduce el dinero inicial: ");
+double dinero = s.nextDouble();
+System.out.println("Introduce el nombre de un Barista: ");
+String nombreBarista=s.nextLine();
 ```
-{% endraw %}
 
-**Qué hace:** Un bucle `for` que comienza en 1 y termina cuando `i` llega a 10.
+Compila y arranca, pero el nombre del barista sale **vacío**: el programa no te deja escribirlo. El motivo es que `nextDouble()` lee el número, pero deja pendiente el salto de línea de cuando pulsas Intro. El `nextLine()` siguiente se encuentra ese salto y lo toma como una línea vacía.
 
----
+La solución es poner un `s.nextLine();` suelto justo después de leer el número, para limpiar ese salto:
 
-### Ejercicio 5: Tabla de multiplicar
-
-**Enunciado:** Pide un número por teclado y muestra su tabla de multiplicar del 1 al 10.
-
-**Código:**
-
-{% raw %}
 ```java
-import java.util.Scanner;
-
-public class TablaMultiplicar {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.print("¿Tabla de qué número quieres ver? ");
-        int n = sc.nextInt();
-        
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(n + " x " + i + " = " + (n * i));
-        }
-        
-        sc.close();
-    }
-}
+double dinero = s.nextDouble();
+s.nextLine(); // limpia el salto de línea que deja nextDouble()
+String nombreBarista=s.nextLine();
 ```
-{% endraw %}
 
-**Qué hace:** Combina un bucle `for` con la entrada de datos por teclado.
+En el ejercicio del taller, ese mismo día, ya lo hice así y funcionó. Otra cosa que se ve en ese código: leo el dinero inicial y luego nunca lo uso, porque el cliente se crea con el constructor que pone siempre 10 €. Compila, pero no hace lo que quería.
 
----
+## Cuando cambio un método y se me olvida el main
 
-### Ejercicio 6: Nota media y aprobado
+Este es del 22 de octubre, un taller de bicis con un ciclista y dos mecánicos. Mientras lo hacía fui cambiando los métodos de `Ciclista` y `Mecanico`, pero el `main` se quedó llamándolos como estaban antes. Resultado: no compila. Este es el error de `rodar()`:
 
-**Enunciado:** Pide las notas de tres exámenes, calcula la media y di si el alumno ha aprobado (media igual o superior a 5).
+```text
+Aplicacion.java:23: error: method rodar in class Ciclista cannot be applied to given types;
+  required: int
+  found:    int,Bicicleta
+```
 
-**Código:**
+Traducido: el método `rodar` ahora solo pide los kilómetros (`int`), porque el ciclista ya tiene su bicicleta dentro, pero yo le seguía pasando los kilómetros y la bici. Hay otros dos errores iguales con `repararCiclistaPreferente` y `revisar`. La solución es que la llamada coincida con lo que pide el método:
 
-{% raw %}
 ```java
-import java.util.Scanner;
-
-public class NotaMedia {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Nota del primer examen: ");
-        double n1 = sc.nextDouble();
-        
-        System.out.print("Nota del segundo examen: ");
-        double n2 = sc.nextDouble();
-        
-        System.out.print("Nota del tercer examen: ");
-        double n3 = sc.nextDouble();
-        
-        double media = (n1 + n2 + n3) / 3;
-        
-        System.out.println("Nota media: " + media);
-        
-        if (media >= 5) {
-            System.out.println("Has aprobado");
-        } else {
-            System.out.println("Has suspendido");
-        }
-        
-        sc.close();
-    }
-}
+ciclista.rodar(distanciaRecorridaCiclista);
+mecanico1.repararCiclistaPreferente(3);
+mecanico2.revisar(ciclista);
 ```
-{% endraw %}
 
-**Qué hace:** Calcula la media aritmética y usa un condicional para decidir si se aprueba.
+Lo bueno del error es que Java te dice exactamente qué esperaba (`required`) y qué le has dado (`found`). Un mensaje así en inglés asusta, pero la respuesta suele estar en esas dos líneas.
 
----
+## Los que dejé a medias
 
-### Ejercicio 7: Contar vocales
+Hay dos que no terminé, y no pasa nada por enseñarlos:
 
-**Enunciado:** Pide una palabra por teclado y cuenta cuántas vocales tiene.
+- **Libros** (15 de octubre): el libro sabe avanzar una página y calcular cuántas quedan, pero el `main` llama a `paginasRestantes()` y no hace nada con el resultado. Le falta un `System.out.println(...)` para que se vea algo por pantalla.
+- **Biblioteca** (21 de octubre): no compila. En `Lector` escribí `paginas=paginas+1;`, pero `paginas` es un atributo de `Libro`, no de `Lector`. Debería ser algo como `l.leer();`, para que sea el libro el que avance. Además, `prestar()` de la biblioteca no termina de tener sentido, y los objetos que creo en el `main` nunca se usan. Ahí me agobié y lo dejé.
 
-**Código:**
+Los dejé así porque me agobié. Prefiero enseñarlos tal cual que esconderlos: también es parte de aprender.
 
-{% raw %}
-```java
-import java.util.Scanner;
+## Si quieres practicar lo mismo
 
-public class ContarVocales {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.print("Escribe una palabra: ");
-        String palabra = sc.nextLine().toLowerCase();
-        
-        int contador = 0;
-        
-        for (int i = 0; i < palabra.length(); i++) {
-            char letra = palabra.charAt(i);
-            if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
-                contador++;
-            }
-        }
-        
-        System.out.println("La palabra tiene " + contador + " vocales");
-        
-        sc.close();
-    }
-}
-```
-{% endraw %}
+No te voy a dar soluciones copiables, pero sí el orden en que lo he ido haciendo yo:
 
-**Qué hace:** Recorre la palabra letra a letra con un bucle y cuenta cuántas son vocales.
+1. **Una clase sola** con atributos, constructor y un par de métodos (como el cocinero).
+2. **Límites con `if`**: que algo no pueda bajar de 0 o pasar de un máximo (como la batería o la cuenta).
+3. **Un objeto dentro de otro** (como la linterna y su batería).
+4. **Datos por teclado con `Scanner`**, vigilando el salto de línea después de leer números.
+5. **Tres o cuatro clases que se relacionan**, como el taller o la cafetería.
 
----
+Y si te sale un error que no entiendes, pégalo en el [corrector de Java](/herramientas/corrector-java/) que he montado: te explica qué falla y te devuelve el código corregido.
 
-### Ejercicio 8: Un libro y su autor
+## Lo que me llevo
 
-**Enunciado:** Crea una clase `Autor` con nombre y país, y una clase `Libro` con título y un autor. Desde un `main`, crea un autor, crea un libro que lo use y muestra por pantalla los datos del libro junto con los de su autor. Cada clase va en su propio archivo.
+Al revisar todo junto se ve el avance en un mes, del cocinero a proyectos con cuatro clases. Y casi todos mis fallos se repiten: el `Scanner` con los números, y cambiar un método sin cambiar quien lo llama. La lección es sencilla: ejecutar el programa después de cada cambio, no al final, porque así el error aparece justo donde lo has metido.
 
-**Código (`Autor.java`):**
-
-{% raw %}
-```java
-public class Autor {
-    String nombre;
-    String pais;
-
-    public Autor(String nombre, String pais) {
-        this.nombre = nombre;
-        this.pais = pais;
-    }
-}
-```
-{% endraw %}
-
-**Código (`Libro.java`):**
-
-{% raw %}
-```java
-public class Libro {
-    String titulo;
-    Autor autor;
-
-    public Libro(String titulo, Autor autor) {
-        this.titulo = titulo;
-        this.autor = autor;
-    }
-
-    public void mostrar() {
-        System.out.println(titulo + " - " + autor.nombre + " (" + autor.pais + ")");
-    }
-}
-```
-{% endraw %}
-
-**Código (`Biblioteca.java`):**
-
-{% raw %}
-```java
-public class Biblioteca {
-    public static void main(String[] args) {
-        Autor cervantes = new Autor("Miguel de Cervantes", "España");
-        Libro quijote = new Libro("Don Quijote de la Mancha", cervantes);
-
-        quijote.mostrar();
-    }
-}
-```
-{% endraw %}
-
-**Qué hace:** El `Libro` guarda dentro un objeto `Autor`. Primero se crea el autor y después se le pasa al libro al construirlo. Desde el libro llegas a los datos del autor con `autor.nombre`. Esta idea de un objeto que contiene a otro es lo que a mí me costaba ver al principio.
-
----
-
-## Dónde me atascaba yo
-
-- **`nextInt()` y `nextLine()` juntos.** Es lo que más me fastidió con el `Scanner`. Si lees un número con `nextInt()` y justo después pides texto con `nextLine()`, el programa parece saltarse la pregunta: el número se lee, pero el salto de línea que escribiste al pulsar Intro se queda pendiente y `nextLine()` lo toma como una línea vacía. En el ejercicio 1 lo evito leyendo primero el texto, y si te hace falta el orden contrario, puedes poner un `sc.nextLine();` suelto después del número para limpiar ese salto de línea.
-- **Objetos que dependen de otros.** Me atascaba porque no conseguía entender cómo se relacionaban. Lo que te puedo decir es que, una vez que lo ves, se hace muchísimo más sencillo. Si te pasa lo mismo, fíjate en el ejercicio 8: el autor tiene que existir antes de crear el libro, porque el libro lo recibe al construirse.
-
-## Lo que haría diferente
-
-Si pudiera volver atrás, empezaría a hacer ejercicios desde el primer día del curso, no solo cuando se acerca el examen. Con Java, como con casi todo en programación, lo importante no es memorizar sino practicar. Cuanto antes empieces a escribir código tú mismo, menos te costará el examen.
-
-Si te sirven estos ejercicios o quieres contarme cómo te va con ellos, puedes escribirme a ivan@codeandia.com.
+Si estás empezando con Java y quieres contarme cómo te va, puedes escribirme a ivan@codeandia.com.
