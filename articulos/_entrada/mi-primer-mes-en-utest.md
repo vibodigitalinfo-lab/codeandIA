@@ -10,7 +10,7 @@ readtime: 6
 
 ## Cómo acabé en uTest
 
-Mientras estudio quiero sacarme algo de dinero. Hace aproximadamente un mes me puse a buscar formas de sacar algo desde casa siendo joven, y en esa búsqueda me salió **uTest**. Creo que fue una IA la que me lo recomendó, no lo recuerdo bien.
+Mientras estudio quiero sacarme algo de dinero. Hace aproximadamente un mes me puse a buscar formas de sacar algo desde casa siendo joven, y en esa búsqueda me salió **uTest**. Me lo recomendó una IA, creo que Gemini: me gusta buscar información de ese estilo preguntando a las IA.
 
 uTest es una plataforma de testing colaborativo: empresas que quieren probar sus apps, webs o contenidos reparten pequeñas tareas entre mucha gente con distintos dispositivos, y te pagan por cada tarea que haces bien. A esas tareas las llaman **test cycles**.
 
@@ -26,13 +26,13 @@ Los cursos de la academia aparecen en tu panel como si fueran test cycles normal
 
 Te lo cuento tarea a tarea, sin nombrar a ningún cliente, porque lo que pruebas en uTest es confidencial:
 
-![Resumen de mi primer mes en uTest: cursos de la academia sin pago, un test corto de 3,21 € aprobado, un registro grabado de 32,13 € pendiente y 45 $ en subtítulos](/assets/img/utest-primer-mes.svg){: width="680" height="330"}
+![Resumen de mi primer mes en uTest: cursos de la academia sin pago, un test corto de 3,21 € aprobado, un registro grabado de 32,13 € pendiente y 45 $ aprobados en subtítulos](/assets/img/utest-primer-mes.svg){: width="680" height="330"}
 
 - **Un test corto, de unos 15 minutos.** Me pagaron 3,21 € y ya está aprobado.
 - **Registrarme en una app y grabar todo el proceso.** Fue en un móvil Android: crear la cuenta siguiendo los pasos exactos que pedían y grabar la pantalla de principio a fin. Me llevó unos 30 minutos y son 32,13 €. Lo di por terminado y está **pendiente** de aprobar desde hace más de una semana.
-- **Revisar subtítulos.** Es lo que estoy haciendo ahora. Me mandan enlaces a vídeos y tengo que comprobar que los subtítulos en español y en inglés cuadran. Cada vídeo me lleva entre 30 y 45 minutos, y pagan 15 $ por enlace que quede correcto. Llevo 45 $ y hoy me han mandado más, por otros 75 $.
+- **Revisar subtítulos.** Es lo que estoy haciendo ahora. Me mandan enlaces, y cada uno suele tener 4 o 5 vídeos de unos 5 minutos. Tengo que comprobar que los subtítulos en español y en inglés cuadran, contestar una pregunta para demostrar que los he visto y pasar una evaluación. Cada enlace me lleva entre 30 y 45 minutos, y pagan 15 $ por enlace que quede correcto. Los primeros 45 $ ya me los han dado por buenos, y hoy me han mandado más, por otros 75 $.
 
-Con los subtítulos salen unos 20-30 $ la hora si todo se da por bueno, que no está nada mal para algo que hago desde casa. Pero no es un sueldo: depende totalmente de que te lleguen tareas.
+Esos primeros 45 $ me llevaron unas 2 horas en total, así que salen a algo más de 20 $ la hora si todo se da por bueno, que no está nada mal para algo que hago desde casa. Pero no es un sueldo: depende totalmente de que te lleguen tareas.
 
 ## Lo que no te cuentan
 
