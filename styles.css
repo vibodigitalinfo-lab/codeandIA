@@ -1086,3 +1086,28 @@ mark {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* ---------- Afiliado ---------- */
+
+.affiliate-box {
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--blue);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin: 2.5rem 0 0;
+}
+
+.affiliate-text {
+  font-size: 1.0625rem;
+  margin: 0 0 1rem;
+}
+
+.affiliate-cta {
+  margin: 0 0 0.75rem;
+}
+
+.affiliate-note {
+  font-size: 0.8125rem;
+  color: var(--ink-muted);
+  margin: 0;
+}

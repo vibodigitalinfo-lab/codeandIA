@@ -1,0 +1,18 @@
+{% comment %}
+  Caja de afiliado. Se pinta SOLO si el artículo define `affiliate_url` en su
+  frontmatter (convención: affiliate_text / affiliate_url / affiliate_label).
+
+  Cumplimiento Google: el enlace lleva rel="sponsored noopener". Google exige
+  marcar los enlaces de afiliado; no hacerlo es señal de spam. Debajo va la
+  divulgación visible (Google + ley de consumo).
+
+  Regla de la casa: solo enlazar productos realmente usados o con conocimiento
+  directo. El enlace es incidental al valor del artículo, nunca su motivo.
+{% endcomment %}
+{% if page.affiliate_url %}
+<aside class="affiliate-box" aria-label="Enlace recomendado">
+  {% if page.affiliate_text %}<p class="affiliate-text">{{ page.affiliate_text }}</p>{% endif %}
+  <p class="affiliate-cta"><a class="btn btn-primary" href="{{ page.affiliate_url }}" target="_blank" rel="sponsored noopener">{{ page.affiliate_label | default: "Ver en Amazon" }}</a></p>
+  <p class="affiliate-note">Enlace de afiliado: si compras a través de él, el blog se lleva una pequeña comisión. A ti no te cuesta nada más.</p>
+</aside>
+{% endif %}

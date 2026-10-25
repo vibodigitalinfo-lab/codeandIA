@@ -69,6 +69,8 @@ last_modified_at: 2026-09-30
       {{ content }}
     </div>
 
+    {% include affiliate.html %}
+
     <p class="back-link"><a href="{{ "/articulos/" | relative_url }}">Volver a los artículos</a></p>
 
     {% assign otros = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | where_exp: "p", "p.url != page.url" %}
