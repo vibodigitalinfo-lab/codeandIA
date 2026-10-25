@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Diagramas entidad-relación: por qué ponía las cardinalidades al revés"
-description: "Mi experiencia con los diagramas E-R en primero de DAW: el fallo de poner las cardinalidades en la entidad equivocada, cómo leerlas bien y qué tal erdplus."
+description: "Mi experiencia con los diagramas E-R al empezar con bases de datos: el fallo de poner las cardinalidades en la entidad equivocada, cómo leerlas bien y qué tal erdplus."
 category: "Guía"
 date: 2026-11-03
 publicar: 2026-11-03
@@ -10,7 +10,7 @@ readtime: 5
 
 ## Empezar las bases de datos dibujando
 
-En bases de datos, en primero de DAW, empezamos por los diagramas entidad-relación y ahora estamos con los primeros pasos del modelo relacional, con las tablas. Hemos hecho un montón de ejercicios. Uno de ellos era una tienda con empleados, un dueño, un almacén, productos y clientes, algunos de los cuales podían ser socios. Te suena a ejercicio sencillo hasta que empiezas a pensar cómo se relaciona cada cosa con las demás.
+Estudio primero de DAW, un ciclo de FP de desarrollo de aplicaciones web en España. En bases de datos empezamos por los diagramas entidad-relación y ahora estamos con los primeros pasos del modelo relacional, con las tablas. Hemos hecho un montón de ejercicios. Uno de ellos era una tienda con empleados, un dueño, un almacén, productos y clientes, algunos de los cuales podían ser socios. Te suena a ejercicio sencillo hasta que empiezas a pensar cómo se relaciona cada cosa con las demás.
 
 En general no me está resultando difícil, salvo una cosa que me ha costado más que todo lo demás: **las cardinalidades**. Y no porque no entendiera qué significan, sino porque las ponía al revés, en la entidad equivocada. Te cuento el fallo y una forma de leerlas que evita caer en él.
 

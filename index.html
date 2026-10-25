@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "codeandIA — lo que pruebo y lo que me pasa"
-description: "Un blog personal donde voy contando lo que pruebo, lo que me pasa y lo que aprendo como estudiante de DAW. Sin comparativas genéricas, sin reseñas sin usar."
-last_modified_at: 2026-10-18
+description: "Un blog personal sobre aprender a programar: lo que pruebo, lo que me pasa y lo que aprendo, contado desde mi primer año de DAW. Sin comparativas genéricas, sin reseñas sin usar."
+last_modified_at: 2026-10-25
 ---
 
 {% assign articulos = site.pages | where_exp: "p", "p.path contains 'articulos/'" | where_exp: "p", "p.layout != 'redirect'" | where_exp: "p", "p.noindex != true" | sort: "date" | reverse %}
@@ -13,7 +13,7 @@ last_modified_at: 2026-10-18
   <div class="container">
     <div class="hero-copy">
       <h1 class="hero-title">Lo que pruebo, lo que me pasa y lo que voy aprendiendo</h1>
-      <p class="hero-subtitle">Un blog personal sobre lo que pruebo de verdad y lo que voy viviendo en el DAW. No prometo catálogos ni comparativas: solo escribo cuando tengo algo que contar.</p>
+      <p class="hero-subtitle">Un blog personal sobre aprender a programar: lo que pruebo de verdad y lo que voy viviendo en mi primer año de DAW. No prometo catálogos ni comparativas: solo escribo cuando tengo algo que contar.</p>
       <div class="hero-cta">
         {% if articulos.size > 0 %}
         <a href="{{ articulos.first.url | relative_url }}" class="btn btn-primary">Leer la última entrada</a>
@@ -55,7 +55,7 @@ last_modified_at: 2026-10-18
   <div class="container">
     <div class="about-row">
       <h2 class="about-title">Sobre mí</h2>
-      <p class="about-text">Soy {{ site.author.name }}, estudiante de DAW. Voy escribiendo lo que pruebo y lo que me pasa, tal como lo vivo. La redacción cuenta con ayuda de IA a partir de mis notas del diario, pero lo que publico pasa por mi revisión. <a href="{{ "/sobre-mi/" | relative_url }}">Leer más sobre mí</a></p>
+      <p class="about-text">Soy {{ site.author.name }} y estoy aprendiendo a programar; estudio DAW, un ciclo de FP de desarrollo web en España. Voy escribiendo lo que pruebo y lo que me pasa, tal como lo vivo. La redacción cuenta con ayuda de IA a partir de mis notas del diario, pero lo que publico pasa por mi revisión. <a href="{{ "/sobre-mi/" | relative_url }}">Leer más sobre mí</a></p>
     </div>
   </div>
 </section>

@@ -18,12 +18,23 @@ Guía maestra. Todo artículo publicado DEBE pasar el checklist de abajo.
 
 ---
 
+## Enfoque y público
+
+- **El blog es de aprender programación, no de DAW.** Se lee en toda Latinoamérica y en España, y fuera de España casi nadie sabe qué es DAW. DAW es el contexto personal de Vibo, no el tema.
+- **Explicar DAW la primera vez que salga** en cada artículo: "estudio DAW, un ciclo de FP de desarrollo de aplicaciones web en España".
+- **Títulos, descripciones y slugs sin "DAW"** salvo que el artículo trate del ciclo en sí. El tema va en el título (Java, Git, bases de datos); DAW va en el cuerpo.
+- **Consejos que sirvan a cualquiera que aprende programación:** en bachillerato, en la universidad, en un bootcamp o por su cuenta.
+- **Español neutro:** tuteo en singular (nada de "vosotros"), sin modismos de España que no se entiendan fuera, y precios en € aclarando que son de España cuando importe.
+- **No renombrar ni cambiar la URL de artículos ya publicados** por este cambio de enfoque. Solo se aplica a lo nuevo y a lo programado.
+
+---
+
 ## La voz de Vibo
 
 - **Primera persona:** "yo", "te cuento", "me pasó". Vibo (seudónimo: nunca publicar su nombre real) es estudiante de DAW en España.
 - **Auténtico y honesto:** admitir dudas, errores, lo que no gusta. "No te voy a engañar", "seré honesto".
 - **Referencias concretas a la vida de estudiante:** prácticas, clase, exámenes, portátil de gama media, pocos recursos ("no todos tenemos 20€ al mes para suscripciones").
-- **Cercano, sin coloquial sucio.** Español neutro-español. Tuteo constante.
+- **Cercano, sin coloquial sucio.** Español neutro. Tuteo constante.
 - **Anti-hype:** desmontar el marketing, advertir de que la IA no sustituye aprender. Nunca decir que algo es perfecto.
 - **Números reales:** precios €, límites de uso, minutos/tiempo ahorrado. Si no se verifica, "alrededor de", "en torno a". No inventar cifras.
 - **Rematar con veredicto propio:** nunca dejar la conclusión en el aire.
@@ -40,7 +51,7 @@ Guía maestra. Todo artículo publicado DEBE pasar el checklist de abajo.
 5. **Conclusión/veredicto honesto:** ¿lo recomiendo? Para quién sí, para quién no.
 
 ### Comparativa (A vs B)
-1. **Hook:** por qué la comparación importa al estudiante.
+1. **Hook:** por qué la comparación importa a quien aprende a programar.
 2. **Criterios de comparación** (qué mirar antes de decidir).
 3. **Herramienta A** (detalles, experiencia real).
 4. **Herramienta B** (detalles, experiencia real).
@@ -80,6 +91,6 @@ PROHIBIDO:
 - Superlativos exagerados ("el mejor del mundo", "revolucionario").
 
 OBLIGATORIO:
-- Cada afirmación importante lleva un ejemplo del mundo del estudiante DAW.
+- Cada afirmación importante lleva un ejemplo real de su día a día aprendiendo a programar.
 - Referencia a un módulo, examen, práctica o proyecto real.
 - Si algo no se ha probado, decir "no lo he probado, pero...".

@@ -1,15 +1,15 @@
 ---
 layout: page
 title: "Sobre mí"
-description: "Soy Vibo, estudiante de DAW. Este blog es un cuaderno donde escribo lo que pruebo y lo que me pasa, tal como lo vivo."
-last_modified_at: 2026-10-18
+description: "Soy Vibo y estoy aprendiendo a programar. Este blog es un cuaderno donde escribo lo que pruebo y lo que me pasa, tal como lo vivo."
+last_modified_at: 2026-10-25
 ---
 
 ## Quién soy
 
-Soy Vibo, estudiante de **DAW (Desarrollo de Aplicaciones Web)**, en 1º. Vibo es el seudónimo con el que firmo aquí y en [GitHub](https://github.com/vibodigitalinfo-lab); prefiero no poner mi nombre completo.
+Soy Vibo y estoy aprendiendo a programar. Estudio 1º de **DAW (Desarrollo de Aplicaciones Web)**, un ciclo de FP de dos años que se cursa en España. Vibo es el seudónimo con el que firmo aquí y en [GitHub](https://github.com/vibodigitalinfo-lab); prefiero no poner mi nombre completo.
 
-Este blog es un cuaderno personal. Voy escribiendo lo que pruebo, lo que me pasa y lo que voy aprendiendo, tal como lo vivo.
+Este blog es un cuaderno personal. Voy escribiendo lo que pruebo, lo que me pasa y lo que voy aprendiendo, tal como lo vivo. Lo cuento desde el DAW porque es lo que estoy estudiando, pero está pensado para cualquiera que esté aprendiendo a programar, estudie donde estudie.
 
 ## Cómo vivo
 

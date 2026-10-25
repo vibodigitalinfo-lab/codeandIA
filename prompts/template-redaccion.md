@@ -25,7 +25,7 @@ Según la categoría, seguir la estructura de `_voz-y-estilo.md`:
 - Longitud: 1.100–1.500 palabras.
 - **Un solo tema por párrafo.** Frases cortas.
 - Primera persona ("yo", "me pasó", "te cuento").
-- Ejemplo concreto del mundo DAW en cada afirmación importante.
+- Ejemplo concreto de su experiencia aprendiendo a programar en cada afirmación importante (DAW como contexto, explicado la primera vez).
 - Sin jerga de marketing: nada de "revolucionario", "game-changer", "en el mundo digital actual".
 - Si algo no se ha probado, decirlo ("no lo he probado").
 - Rematar SIEMPRE con veredicto propio.
@@ -59,7 +59,8 @@ Antes de marcar como "borrador listo", verificar:
 - [ ] NO hay ningún `# H1` en el contenido (solo `##` y `###`).
 - [ ] Frontmatter tiene todos los campos obligatorios.
 - [ ] Longitud entre 1.100 y 1.500 palabras.
-- [ ] Al menos 2 referencias a la vida de estudiante DAW (clase, prácticas, módulos, exámenes, portátil).
+- [ ] Al menos 2 referencias a la vida real de estudiante (clase, prácticas, exámenes, portátil).
+- [ ] Título y descripción sin "DAW"; si sale DAW en el cuerpo, explicado la primera vez.
 - [ ] Al menos 1 cifra concreta (€/mes, minutos ahorrados, peticiones, límites).
 - [ ] El veredicto/conclusión tiene postura propia ("recomiendo / no recomiendo").
 - [ ] No hay frases genéricas de IA (pasar el ojo).

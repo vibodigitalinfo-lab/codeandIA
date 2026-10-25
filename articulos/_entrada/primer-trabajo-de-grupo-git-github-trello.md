@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Mi primer trabajo en grupo con Git, GitHub y Trello: ramas, push rechazados y caos"
-description: "Cómo organizamos un trabajo de DAW entre 5 personas con Git, GitHub y Trello: tres niveles de ramas, los push que fallaban y lo que haría distinto."
+description: "Cómo organizamos un trabajo de clase entre 5 personas con Git, GitHub y Trello: tres niveles de ramas, los push que fallaban y lo que haría distinto."
 category: "Guía"
 date: 2026-10-27
 publicar: 2026-10-27
@@ -10,7 +10,7 @@ readtime: 6
 
 ## Un trabajo en el que lo importante no era el trabajo
 
-Hace unas semanas, en primero de DAW, nos tocó un trabajo en grupo. El profesor nos dio una empresa y el ejercicio era más o menos guiado: analizarla y proponer mejoras. Del enunciado no voy a contar más, porque es material suyo y no me corresponde publicarlo.
+Hace unas semanas, en primero de DAW (un ciclo de FP de desarrollo de aplicaciones web en España), nos tocó un trabajo en grupo. El profesor nos dio una empresa y el ejercicio era más o menos guiado: analizarla y proponer mejoras. Del enunciado no voy a contar más, porque es material suyo y no me corresponde publicarlo.
 
 Además, no era lo importante. El objetivo de verdad era aprender a trabajar en equipo, cinco personas, con tres herramientas que casi ninguno había usado en serio: **Git**, **GitHub** y **Trello**. El contenido era la excusa. Lo que se evaluaba de fondo era si sabíamos repartirnos el trabajo sin pisarnos.
 
@@ -75,6 +75,6 @@ Si lo repitiera, me organizaría mejor desde el primer día:
 
 Antes de este trabajo no había usado Git de verdad, y menos con otras cuatro personas. Ahora entiendo para qué sirven las ramas y por qué un push no entra. También he aprendido que la mitad de usar Git en equipo no es técnica, sino ponerse de acuerdo.
 
-Si estás empezando DAW o cualquier ciclo de programación y te toca un trabajo así, mi consejo es sencillo: acordad las ramas por escrito y haced pull antes de empezar a trabajar. Os ahorraréis la mayoría de los sustos que tuvimos nosotros.
+Si estás aprendiendo a programar, en un ciclo, en la universidad o en un bootcamp, y te toca un trabajo así, mi consejo es sencillo: deja las ramas acordadas por escrito con tu grupo y haz pull antes de empezar a trabajar. Te ahorrarás la mayoría de los sustos que tuvimos nosotros.
 
 Si estás con algo parecido y te has atascado con Git, puedes escribirme a vibo@codeandia.com.
