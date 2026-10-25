@@ -61,4 +61,4 @@ Si empezara otra vez, haría las dos preguntas de cada relación desde el primer
 
 Lo bueno es que es un error muy de principio: una vez que interiorizas que se lee cruzando la relación, es mucho más difícil que vuelva a pasar.
 
-Si te pasa lo mismo con los diagramas E-R o estás con el modelo relacional, puedes escribirme a ivan@codeandia.com. También tengo una guía sobre [cómo estudio para los exámenes de programación con IA sin copiar código](/articulos/guias/estudiar-daw-con-ia-sin-copiar-codigo/), donde cuento cómo preparé el examen de bases de datos.
+Si te pasa lo mismo con los diagramas E-R o estás con el modelo relacional, puedes escribirme a vibo@codeandia.com. También tengo una guía sobre [cómo estudio para los exámenes de programación con IA sin copiar código](/articulos/guias/estudiar-daw-con-ia-sin-copiar-codigo/), donde cuento cómo preparé el examen de bases de datos.

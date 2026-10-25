@@ -14,13 +14,13 @@ Guía maestra. Todo artículo publicado DEBE pasar el checklist de abajo.
 | Date | Se recalcula al publicar. Hoy SIEMPRE es el último artículo. Nunca fechas futuras |
 | Sin H1 duplicados | Verificar con grep antes de publicar |
 | Enlaces externos | Verificar HTTP antes de publicar. URLs canónicas (no `www.x` si funciona sin `www`) |
-| Cierre / CTA final | Invitar a escribir a `ivan@codeandia.com`. PROHIBIDO "cuéntame en comentarios": el blog no tiene sistema de comentarios |
+| Cierre / CTA final | Invitar a escribir a `vibo@codeandia.com`. PROHIBIDO "cuéntame en comentarios": el blog no tiene sistema de comentarios |
 
 ---
 
-## La voz de Iván
+## La voz de Vibo
 
-- **Primera persona:** "yo", "te cuento", "me pasó". Iván es estudiante de DAW en España.
+- **Primera persona:** "yo", "te cuento", "me pasó". Vibo (seudónimo de Iván; nunca publicar su nombre real) es estudiante de DAW en España.
 - **Auténtico y honesto:** admitir dudas, errores, lo que no gusta. "No te voy a engañar", "seré honesto".
 - **Referencias concretas a la vida de estudiante:** prácticas, clase, exámenes, portátil de gama media, pocos recursos ("no todos tenemos 20€ al mes para suscripciones").
 - **Cercano, sin coloquial sucio.** Español neutro-español. Tuteo constante.

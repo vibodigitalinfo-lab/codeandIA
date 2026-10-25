@@ -59,6 +59,6 @@ Y al final, la pregunta para comprobar que lo has entendido. Aquí la correcta e
 
 De momento solo está pensado para Java, que es lo que estoy aprendiendo ahora en clase. Si más adelante lo amplío a otros lenguajes, lo contaré aquí.
 
-Si te sirve, compártelo con tus compañeros. Y si quieres contarme cómo te va o sugerirme mejoras, puedes escribirme a ivan@codeandia.com.
+Si te sirve, compártelo con tus compañeros. Y si quieres contarme cómo te va o sugerirme mejoras, puedes escribirme a vibo@codeandia.com.
 
 También puedes leer cómo estudio para exámenes de programación con IA sin copiar código: [mi método paso a paso](/articulos/guias/estudiar-daw-con-ia-sin-copiar-codigo/).

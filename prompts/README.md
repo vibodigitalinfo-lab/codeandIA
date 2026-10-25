@@ -1,6 +1,6 @@
 # 🔄 Pipeline de publicación automática — codeandIA
 
-Sistema autónomo de publicación de artículos. Iván no tiene que hacer nada.
+Sistema autónomo de publicación de artículos. Vibo no tiene que hacer nada.
 
 ---
 
@@ -71,7 +71,7 @@ articulos/listas/         ← Listas publicadas
 
 ---
 
-## Cuándo Iván sí debe intervenir
+## Cuándo Vibo sí debe intervenir
 
 - Cuando el pipeline no puede verificar una URL (403).
 - Cuando un tema requiere experiencia personal muy concreta (marcado en _ideas.md como "necesita input").
@@ -82,6 +82,6 @@ articulos/listas/         ← Listas publicadas
 
 ## Importante: calibrar el tono
 
-Los primeros 2-3 artículos publicados por el pipeline deben ser **verificados por Iván** para calibrar que el tono es correcto. Después, el pipeline actúa de forma autónoma.
+Los primeros 2-3 artículos publicados por el pipeline deben ser **verificados por Vibo** para calibrar que el tono es correcto. Después, el pipeline actúa de forma autónoma.
 
-Si Iván detecta que un artículo no suena a él, puede editarlo en `articulos/<categoría>/` y hacer push manual.
+Si Vibo detecta que un artículo no suena a él, puede editarlo en `articulos/<categoría>/` y hacer push manual.
