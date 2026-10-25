@@ -40,7 +40,11 @@ Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que ha
 
 ## El arreglo
 
-Pasé los cuatro registros A del dominio raíz (los que apuntan a GitHub Pages, como explico en [qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)) a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
+Pasé los cuatro registros A del dominio raíz (los que apuntan a GitHub Pages, como explico en [qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)) a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas.
+
+![Esquema: con el proxy de Cloudflare activado el navegador pasa por una IP compartida bloqueada; con DNS only va directo a GitHub Pages](/assets/img/laliga-proxy-vs-dns-only.svg){: width="680" height="280"}
+
+Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
 
 ```text
 $ nslookup codeandia.com

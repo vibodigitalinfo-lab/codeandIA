@@ -24,6 +24,8 @@ Lo primero fue decidir cómo íbamos a usar las ramas. Al final quedó así, con
 2. **Una rama intermedia** con el contenido ya revisado. Cuando alguien terminaba una parte y el resto le daba el visto bueno, pasaba aquí.
 3. **Una rama personal para cada uno**. Ahí cada persona trabajaba y hacía sus commits a su ritmo, sin molestar a nadie.
 
+![Esquema de nuestras ramas: una rama personal por persona, una rama intermedia con lo revisado y main solo para la entrega final](/assets/img/git-ramas-trabajo-grupo.svg){: width="680" height="300"}
+
 Visto ahora, es un esquema bastante sensato para cinco personas que están aprendiendo. La rama personal te deja equivocarte tranquilo: si rompes algo, lo rompes en lo tuyo. La rama intermedia sirve de filtro, y `main` queda limpia hasta el final.
 
 Lo que no te cuentan es que, con tres niveles y cinco personas, hay muchos momentos en los que alguien tiene que juntar cosas. Ahí es donde empezaron los problemas.
