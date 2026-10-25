@@ -20,7 +20,7 @@ Guía maestra. Todo artículo publicado DEBE pasar el checklist de abajo.
 
 ## La voz de Vibo
 
-- **Primera persona:** "yo", "te cuento", "me pasó". Vibo (seudónimo de Iván; nunca publicar su nombre real) es estudiante de DAW en España.
+- **Primera persona:** "yo", "te cuento", "me pasó". Vibo (seudónimo: nunca publicar su nombre real) es estudiante de DAW en España.
 - **Auténtico y honesto:** admitir dudas, errores, lo que no gusta. "No te voy a engañar", "seré honesto".
 - **Referencias concretas a la vida de estudiante:** prácticas, clase, exámenes, portátil de gama media, pocos recursos ("no todos tenemos 20€ al mes para suscripciones").
 - **Cercano, sin coloquial sucio.** Español neutro-español. Tuteo constante.
