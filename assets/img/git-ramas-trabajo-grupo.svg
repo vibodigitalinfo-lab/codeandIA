@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="t d" font-family="Atkinson Hyperlegible, Arial, sans-serif">
+  <title id="t">Esquema de ramas del trabajo en grupo</title>
+  <desc id="d">Tres niveles de ramas: cada persona trabaja en su rama personal, lo revisado pasa a la rama intermedia y solo la entrega final llega a main.</desc>
+  <rect width="680" height="300" fill="#fffdf7"/>
+  <g font-size="15">
+    <text x="20" y="44" font-weight="700">main</text>
+    <text x="20" y="124" font-weight="700">revisado</text>
+    <text x="20" y="196">persona 1</text>
+    <text x="20" y="232">persona 2</text>
+    <text x="20" y="268">… hasta 5</text>
+  </g>
+  <line x1="120" y1="40" x2="650" y2="40" stroke="#222" stroke-width="3"/>
+  <line x1="120" y1="120" x2="650" y2="120" stroke="#2f6f4f" stroke-width="3"/>
+  <line x1="150" y1="192" x2="420" y2="192" stroke="#7a5c99" stroke-width="2"/>
+  <line x1="150" y1="228" x2="470" y2="228" stroke="#b5651d" stroke-width="2"/>
+  <line x1="150" y1="264" x2="440" y2="264" stroke="#888" stroke-width="2" stroke-dasharray="5 4"/>
+  <g fill="#7a5c99"><circle cx="190" cy="192" r="6"/><circle cx="260" cy="192" r="6"/><circle cx="330" cy="192" r="6"/><circle cx="400" cy="192" r="6"/></g>
+  <g fill="#b5651d"><circle cx="210" cy="228" r="6"/><circle cx="300" cy="228" r="6"/><circle cx="380" cy="228" r="6"/><circle cx="460" cy="228" r="6"/></g>
+  <g fill="#888"><circle cx="230" cy="264" r="6"/><circle cx="340" cy="264" r="6"/><circle cx="430" cy="264" r="6"/></g>
+  <path d="M330 192 L360 120" stroke="#7a5c99" stroke-width="2" fill="none"/>
+  <path d="M460 228 L490 120" stroke="#b5651d" stroke-width="2" fill="none"/>
+  <path d="M430 264 L530 120" stroke="#888" stroke-width="2" fill="none" stroke-dasharray="5 4"/>
+  <g fill="#2f6f4f"><circle cx="360" cy="120" r="7"/><circle cx="490" cy="120" r="7"/><circle cx="530" cy="120" r="7"/></g>
+  <path d="M590 120 L620 40" stroke="#222" stroke-width="2.5" fill="none"/>
+  <circle cx="590" cy="120" r="7" fill="#2f6f4f"/>
+  <circle cx="620" cy="40" r="9" fill="#222"/>
+  <text x="620" y="22" text-anchor="middle" font-size="14" font-weight="700">entrega</text>
+  <text x="440" y="100" text-anchor="middle" font-size="13" fill="#2f6f4f">pasa aquí cuando el resto lo ha revisado</text>
+  <text x="230" y="170" text-anchor="middle" font-size="13" fill="#555">commits de cada uno, a su ritmo</text>
+</svg>

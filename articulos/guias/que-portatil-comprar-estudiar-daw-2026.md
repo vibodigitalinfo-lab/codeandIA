@@ -22,7 +22,7 @@ Es una máquina de gama baja. No pretendo venderla como lo ideal para DAW; lo qu
 
 ## Cómo se comporta en el día a día
 
-La uso sobre todo para las dos cosas de siempre: en clase programo Java con **Eclipse** (cómo lo estudio lo cuento en [cómo aprendo Java con IA](/articulos/guias/aprender-java-con-ia-daw/)), y en casa la dejo abierta con Eclipse y el navegador echando un ojo a la documentación. Con eso no se queda corta, y la sensación general es que va bien y no me da muchos problemas.
+La uso sobre todo para las dos cosas de siempre: en clase programo Java con **Eclipse** (cómo lo estudio lo cuento en [cómo aprendo Java con IA](/articulos/guias/aprender-java-con-ia-daw/)), y en casa la dejo abierta con Eclipse o VS Code y el navegador echando un ojo a la documentación. Con eso no se queda corta, y la sensación general es que va bien y no me da muchos problemas.
 
 Cuando la carga sube, la memoria llega a su límite y el equipo lo nota, aunque hasta ahora he podido seguir trabajando sin quedarme tirado a mitad de nada. El SSD NVMe de 256 GB (239 GB útiles) no me queda corto para el día a día. La pantalla, de 1920×1080 a 60 Hz, da para repartir editor y navegador lado a lado.
 

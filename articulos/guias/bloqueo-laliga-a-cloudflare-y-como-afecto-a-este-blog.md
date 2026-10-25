@@ -40,7 +40,11 @@ Para no quedarme con la duda entré en hayahora.futbol. Aparecía que sí que ha
 
 ## El arreglo
 
-Pasé los cuatro registros A del dominio raíz (los que apuntan a GitHub Pages, como explico en [qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)) a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas. Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
+Pasé los cuatro registros A del dominio raíz (los que apuntan a GitHub Pages, como explico en [qué dominio comprar para tu primer proyecto web](/articulos/guias/que-dominio-comprar-primer-proyecto-web/)) a **DNS only**. Con el proxy apagado, el tráfico va directo del navegador a GitHub Pages y no toca las IP bloqueadas.
+
+![Esquema: con el proxy de Cloudflare activado el navegador pasa por una IP compartida bloqueada; con DNS only va directo a GitHub Pages](/assets/img/laliga-proxy-vs-dns-only.svg){: width="680" height="280"}
+
+Después del cambio, el mismo `nslookup` devolvía las IP de GitHub Pages:
 
 ```text
 $ nslookup codeandia.com
@@ -51,6 +55,12 @@ Address: 185.199.111.153
 ```
 
 Y `curl -vI` respondió con `HTTP/1.1 200 OK`. La web volvió a cargar.
+
+Así siguen hoy los registros, con la nube gris de DNS only:
+
+![Panel DNS de Cloudflare con los cuatro registros A de codeandia.com hacia las IP de GitHub Pages y el CNAME de www, todos en DNS only](/assets/img/cloudflare-dns-codeandia.png){: width="1066" height="336"}
+
+*Mi zona DNS en Cloudflare. He sustituido mi usuario de GitHub por `TU-USUARIO` en el CNAME.*
 
 ## Qué quedó por detrás
 

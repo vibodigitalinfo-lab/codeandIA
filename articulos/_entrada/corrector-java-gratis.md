@@ -6,7 +6,7 @@ category: "Guía"
 date: 2026-10-30
 publicar: 2026-10-30
 updated: 2026-10-30
-readtime: 4
+readtime: 5
 last_modified_at: 2026-10-30
 ---
 
@@ -36,6 +36,24 @@ Yo empecé tarde a estudiar por pereza y me costó más de lo necesario. No quie
 3. Si tienes un error de consola, pégalo también en el segundo cuadro (opcional).
 4. Pulsa "Corregir código".
 5. Lee la explicación, copia el código corregido y responde la mini pregunta para confirmar que lo has entendido.
+
+## Un ejemplo con un error mío
+
+Para probarlo le pasé un fallo que tuve de verdad en un ejercicio de un taller de bicis. Había cambiado el método `rodar` del ciclista para que solo recibiera los kilómetros, porque el ciclista ya tiene su bicicleta dentro, pero en el `main` lo seguía llamando con dos argumentos: `ciclista.rodar(20, bicicleta);`. Eclipse me daba este error:
+
+```text
+The method rodar(int) in the type Ciclista is not applicable for the arguments (int, Bicicleta)
+```
+
+Pegué el código (recortado a lo esencial) en el primer cuadro y el error en el segundo. Esto es lo que devolvió:
+
+![Respuesta del corrector: explicación en cuatro pasos del error de rodar y el inicio del código corregido](/assets/img/corrector-java-explicacion.png){: width="616" height="691"}
+
+La explicación va al grano: `rodar` solo acepta un `int`, en el `main` le paso dos cosas, y la solución es quitar el segundo argumento. Debajo sale el código completo corregido, con un comentario justo en la línea que cambia:
+
+![Final del código corregido con ciclista.rodar(20) y la pregunta de comprobación con tres opciones](/assets/img/corrector-java-pregunta.png){: width="660" height="582"}
+
+Y al final, la pregunta para comprobar que lo has entendido. Aquí la correcta es la A: se intentó pasar dos argumentos a un método que solo acepta uno. Para eso está la pregunta: te obliga a pararte a pensar en vez de copiar y seguir.
 
 ## ¿Y si uso otro lenguaje?
 

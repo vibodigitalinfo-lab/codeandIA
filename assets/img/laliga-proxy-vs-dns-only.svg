@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" role="img" aria-labelledby="t d" font-family="Atkinson Hyperlegible, Arial, sans-serif">
+  <title id="t">Proxy de Cloudflare frente a DNS only durante el bloqueo</title>
+  <desc id="d">Con el proxy activado, el navegador pasa por una IP de Cloudflare compartida que los operadores bloquean durante el partido y la web no carga. Con DNS only, el navegador va directo a las IP de GitHub Pages y la web carga.</desc>
+  <rect width="680" height="280" fill="#fffdf7"/>
+  <defs><marker id="f" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#222"/></marker></defs>
+  <g font-size="15">
+    <text x="20" y="30" font-weight="700">Proxy activado (nube naranja)</text>
+    <rect x="20" y="50" width="120" height="50" rx="6" fill="#fff" stroke="#222" stroke-width="2"/>
+    <text x="80" y="80" text-anchor="middle">Navegador</text>
+    <rect x="250" y="50" width="180" height="50" rx="6" fill="#fdecea" stroke="#b3261e" stroke-width="2"/>
+    <text x="340" y="72" text-anchor="middle">IP de Cloudflare</text>
+    <text x="340" y="91" text-anchor="middle" font-size="13">compartida con otras webs</text>
+    <rect x="540" y="50" width="120" height="50" rx="6" fill="#fff" stroke="#222" stroke-width="2"/>
+    <text x="600" y="80" text-anchor="middle">GitHub Pages</text>
+    <line x1="140" y1="75" x2="246" y2="75" stroke="#222" stroke-width="2" marker-end="url(#f)"/>
+    <line x1="430" y1="75" x2="536" y2="75" stroke="#bbb" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="195" y="68" text-anchor="middle" font-size="22" fill="#b3261e" font-weight="700">✕</text>
+    <text x="340" y="125" text-anchor="middle" font-size="13" fill="#b3261e">bloqueada por los operadores durante el partido → la web no carga</text>
+
+    <text x="20" y="175" font-weight="700">DNS only (nube gris)</text>
+    <rect x="20" y="195" width="120" height="50" rx="6" fill="#fff" stroke="#222" stroke-width="2"/>
+    <text x="80" y="225" text-anchor="middle">Navegador</text>
+    <rect x="540" y="195" width="120" height="50" rx="6" fill="#eaf4ee" stroke="#2f6f4f" stroke-width="2"/>
+    <text x="600" y="225" text-anchor="middle">GitHub Pages</text>
+    <line x1="140" y1="220" x2="536" y2="220" stroke="#2f6f4f" stroke-width="2" marker-end="url(#f)"/>
+    <text x="340" y="212" text-anchor="middle" font-size="13" fill="#2f6f4f">directo a 185.199.108-111.153 → la web carga</text>
+  </g>
+</svg>
