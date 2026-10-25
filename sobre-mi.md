@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Sobre mí"
-description: "Soy Iván, estudiante de DAW. Este blog es un cuaderno donde escribo lo que pruebo y lo que me pasa, tal como lo vivo."
+description: "Soy Vibo, estudiante de DAW. Este blog es un cuaderno donde escribo lo que pruebo y lo que me pasa, tal como lo vivo."
 last_modified_at: 2026-10-18
 ---
 
 ## Quién soy
 
-Soy Iván, estudiante de **DAW (Desarrollo de Aplicaciones Web)**, en 1º.
+Soy Vibo, estudiante de **DAW (Desarrollo de Aplicaciones Web)**, en 1º. Vibo es el seudónimo con el que firmo aquí y en [GitHub](https://github.com/vibodigitalinfo-lab); prefiero no poner mi nombre completo.
 
 Este blog es un cuaderno personal. Voy escribiendo lo que pruebo, lo que me pasa y lo que voy aprendiendo, tal como lo vivo.
 
