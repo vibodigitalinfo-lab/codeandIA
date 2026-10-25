@@ -19,7 +19,7 @@ newsletter:
 #   same_as -> URLs de perfiles públicos (GitHub, LinkedIn...). Salen como
 #              enlaces visibles y como "sameAs" para que Google pueda
 #              comprobar quién escribe.
-#   foto    -> ruta a una foto real (p. ej. /assets/img/ivan.jpg). Vacío = sin foto.
+#   foto    -> ruta a una foto real (p. ej. /assets/img/vibo.jpg). Vacío = sin foto.
 author:
   name: "Vibo"
   job_title: "Estudiante de Desarrollo de Aplicaciones Web"

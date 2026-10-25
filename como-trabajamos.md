@@ -34,6 +34,18 @@ Esos tres artículos son **anteriores al diario**: los escribí con datos reales
 3. **Revisión.** Lo leo frase por frase y lo apruebo antes de publicarlo.
 4. **Publicación.** Solo entonces sale a la web.
 
+## El código del blog es público
+
+Todo lo que hace funcionar este blog está en un repositorio público de GitHub: [github.com/vibodigitalinfo-lab/codeandIA](https://github.com/vibodigitalinfo-lab/codeandIA). No hay nada escondido, así que si te pica la curiosidad puedes ver cómo está hecho:
+
+- **Los artículos**, escritos en Markdown, con su historial de cambios. Puedes ver qué he corregido de cada uno y cuándo.
+- **Las plantillas y los estilos.** El sitio está hecho con Jekyll y se publica gratis en GitHub Pages.
+- **Los scripts** que comprueban las fechas, los enlaces y la cadencia de publicación, y el que publica solo los artículos programados en su día.
+- **Los borradores que están en cola**, en la carpeta `articulos/_entrada`. Si miras ahí, verás lo próximo antes de que salga.
+- **El [corrector de Java](/herramientas/corrector-java/)**, tanto la página como la pequeña API que lo hace funcionar.
+
+Si estás aprendiendo y quieres montar algo parecido, puedes copiar lo que te sirva. Y si ves un fallo, escríbeme.
+
 ## Enlaces
 
 Ahora mismo hay un único enlace de afiliado: el de Namecheap, en el artículo sobre [qué dominio comprar](/articulos/guias/que-dominio-comprar-primer-proyecto-web/), porque es donde registré codeandia.com. Va marcado como enlace de afiliado, y si compras a través de él me llevo una pequeña comisión sin que a ti te cueste más. Si añado otros, irán marcados igual y no condicionarán lo que digo: si no lo he probado, no lo recomiendo.
