@@ -7,6 +7,9 @@ date: 2026-09-08
 readtime: 4
 updated: 2026-10-18
 last_modified_at: 2026-10-25
+affiliate_text: "Yo registré codeandia.com en Namecheap. Si vas a montar tu primer dominio, aquí tienes dónde."
+affiliate_url: "https://namecheap.pxf.io/L0qAqO"
+affiliate_label: "Registrar un dominio en Namecheap"
 ---
 
 Cuando tienes un proyecto de clase o personal y quieres publicarlo con dominio propio, la pregunta llega rápido: ¿`.com` o `.es`? Parece una tontería, pero es la primera decisión que toma alguien que está empezando y la que más dudas deja.
