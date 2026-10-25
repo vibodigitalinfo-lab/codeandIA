@@ -20,6 +20,8 @@
   <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
 
   <meta name="author" content="{{ site.author.name }}">
+  {% comment %} GitHub Pages no deja poner cabeceras HTTP; Referrer-Policy es la única de seguridad que el navegador acepta también como meta. {% endcomment %}
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   {% if page.noindex %}
   <meta name="robots" content="noindex,follow">
   {% else %}

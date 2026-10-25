@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Corrige tu código Java gratis: mi herramienta para estudiantes de programación"
-description: "He creado un corrector de código gratuito: pega tu error o código roto, te explico la solución paso a paso en castellano y te hago una pregunta para comprobar que lo has entendido."
+description: "He creado un corrector gratuito: pega tu error o tu código roto, te explica la solución paso a paso en castellano y te pregunta si lo has entendido."
 category: "Guía"
 date: 2026-10-30
 publicar: 2026-10-30

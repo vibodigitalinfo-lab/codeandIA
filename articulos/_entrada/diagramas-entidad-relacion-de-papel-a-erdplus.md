@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Diagramas entidad-relación: por qué ponía las cardinalidades al revés"
-description: "Mi experiencia con los diagramas E-R al empezar con bases de datos: el fallo de poner las cardinalidades en la entidad equivocada, cómo leerlas bien y qué tal erdplus."
+description: "Mis primeros diagramas E-R: el fallo de poner las cardinalidades en la entidad equivocada, cómo aprendí a leerlas bien y qué tal me fue con erdplus."
 category: "Guía"
 date: 2026-11-03
 publicar: 2026-11-03
