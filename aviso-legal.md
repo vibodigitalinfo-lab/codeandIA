@@ -12,7 +12,7 @@ last_modified_at: 2026-10-18
 En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa que el titular de este sitio web **codeandia.com** es:
 
 - **Titular:** Iván
-- **Email de contacto:** <a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a>
+- **Email de contacto:** <a href="mailto:vibo@codeandia.com">vibo@codeandia.com</a>
 - **Actividad:** Blog personal donde cuento lo que pruebo y lo que me pasa como estudiante de DAW.
 
 ## 2. Objeto del sitio

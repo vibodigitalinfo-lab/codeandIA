@@ -14,6 +14,20 @@ permalink: /articulos/:slug/
 newsletter:
   subscribe_url: "https://newsletter.codeandia.com/subscribe"
 
+# Autor del blog. Se usa en la caja de autor, en "Sobre mí" y en los datos
+# estructurados (Person). Rellenar solo con perfiles reales del autor.
+#   same_as -> URLs de perfiles públicos (GitHub, LinkedIn...). Salen como
+#              enlaces visibles y como "sameAs" para que Google pueda
+#              comprobar quién escribe.
+#   foto    -> ruta a una foto real (p. ej. /assets/img/ivan.jpg). Vacío = sin foto.
+author:
+  name: "Vibo"
+  job_title: "Estudiante de Desarrollo de Aplicaciones Web"
+  email: "vibo@codeandia.com"
+  foto: ""
+  same_as:
+    - "https://github.com/vibodigitalinfo-lab"
+
 # Plugin de sitemap automático (permitido por GitHub Pages)
 plugins:
   - jekyll-sitemap

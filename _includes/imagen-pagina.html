@@ -1,0 +1,31 @@
+{% comment %}
+  Imagen para compartir de la página (og:image, twitter:image y la "image"
+  del Article). Orden de preferencia:
+    1. `image:` en el frontmatter.
+    2. La primera imagen PNG/JPG/WebP del cuerpo (include.html). Las SVG se
+       saltan porque las redes sociales no las muestran en las previas.
+    3. /og-image.png, la genérica del sitio.
+  Deja asignadas `imagen_pagina` (URL absoluta) e `imagen_propia` (true si no
+  es la genérica, para no anunciar 1200x630 de una imagen que no lo es).
+{% endcomment %}
+{% assign imagen_pagina = nil %}
+{% if page.image %}
+  {% assign imagen_pagina = page.image %}
+{% elsif include.html %}
+  {% assign trozos_img = include.html | split: '<img ' %}
+  {% for trozo in trozos_img offset: 1 %}
+    {% assign src_img = trozo | split: 'src="' | slice: 1 | first | split: '"' | first %}
+    {% assign ext_img = src_img | split: '.' | last | downcase %}
+    {% if ext_img == "png" or ext_img == "jpg" or ext_img == "jpeg" or ext_img == "webp" %}
+      {% assign imagen_pagina = src_img %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% if imagen_pagina %}
+  {% assign imagen_propia = true %}
+  {% unless imagen_pagina contains '://' %}{% assign imagen_pagina = imagen_pagina | absolute_url %}{% endunless %}
+{% else %}
+  {% assign imagen_propia = false %}
+  {% assign imagen_pagina = "/og-image.png" | absolute_url %}
+{% endif %}

@@ -1,14 +1,14 @@
 <footer class="footer">
   <div class="container">
     <p class="footer-brand"><a href="{{ "/" | relative_url }}">codeandIA</a></p>
-    <p class="footer-note">Blog personal de Iván: lo que pruebo y lo que me pasa como estudiante de DAW.</p>
+    <p class="footer-note">Blog personal de {{ site.author.name }}: lo que pruebo y lo que me pasa como estudiante de DAW.</p>
     <ul class="footer-links">
       <li><a href="{{ "/como-trabajamos/" | relative_url }}">Cómo trabajo</a></li>
       <li><a href="{{ "/aviso-legal/" | relative_url }}">Aviso legal</a></li>
       <li><a href="{{ "/privacidad/" | relative_url }}">Privacidad</a></li>
-      <li><a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a></li>
+      <li><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
       <li><a href="{{ "/feed.xml" | relative_url }}">RSS</a></li>
     </ul>
-    <p class="footer-credit">Experiencias de Iván, redactadas con ayuda de IA y revisadas por él. © {{ "now" | date: "%Y" }}</p>
+    <p class="footer-credit">Experiencias de {{ site.author.name }}, redactadas con ayuda de IA y revisadas por él. © {{ "now" | date: "%Y" }}</p>
   </div>
 </footer>
