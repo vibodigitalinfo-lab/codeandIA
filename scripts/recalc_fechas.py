@@ -10,7 +10,7 @@ import re
 from datetime import date, timedelta
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\ivanm\OneDrive\Documentos\codeandIA")
+ROOT = Path(__file__).resolve().parents[1]
 TODAY = date(2026, 9, 30)  # fecha de hoy
 DIRS = ["articulos/guias", "articulos/reviews", "articulos/comparativas", "articulos/listas"]
 
