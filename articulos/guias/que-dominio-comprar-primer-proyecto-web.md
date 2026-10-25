@@ -49,6 +49,12 @@ www.codeandia.com  CNAME  TU-USUARIO.github.io    DNS only
 
 (Ese `TU-USUARIO` es el nombre de usuario de GitHub con el que tienes la cuenta.)
 
+Así se ve en el panel de Cloudflare:
+
+![Panel DNS de Cloudflare con los cuatro registros A de codeandia.com hacia las IP de GitHub Pages y el CNAME de www, todos en DNS only](/assets/img/cloudflare-dns-codeandia.png){: width="1066" height="336"}
+
+*Mi zona DNS en Cloudflare. He sustituido mi usuario de GitHub por `TU-USUARIO` en el CNAME.*
+
 El resto de registros que hay en la zona (correo, newsletter) los gestiona cada servicio que los necesita; para que la web cargue, con los de arriba basta.
 
 El modo **DNS only** es el que usan los cuatro registros del dominio raíz, y conviene fijarse en él: el proxy de Cloudflare se puede activar o desactivar por registro, y ese interruptor tiene consecuencias. Lo cuento en [este otro artículo sobre el día en que la web dejó de cargar](/articulos/guias/bloqueo-laliga-a-cloudflare-y-como-afecto-a-este-blog/).

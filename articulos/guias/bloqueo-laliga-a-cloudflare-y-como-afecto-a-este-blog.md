@@ -56,6 +56,12 @@ Address: 185.199.111.153
 
 Y `curl -vI` respondió con `HTTP/1.1 200 OK`. La web volvió a cargar.
 
+Así siguen hoy los registros, con la nube gris de DNS only:
+
+![Panel DNS de Cloudflare con los cuatro registros A de codeandia.com hacia las IP de GitHub Pages y el CNAME de www, todos en DNS only](/assets/img/cloudflare-dns-codeandia.png){: width="1066" height="336"}
+
+*Mi zona DNS en Cloudflare. He sustituido mi usuario de GitHub por `TU-USUARIO` en el CNAME.*
+
 ## Qué quedó por detrás
 
 El arreglo no es permanente: los bloqueos son dinámicos y el proxy seguía siendo una opción con ese riesgo encima. Además, al apagar el proxy perdí las redirecciones 301 que tenía montadas en Cloudflare; ahora las cubren unas páginas stub que deja el propio blog, que cumplen, aunque no son un 301 de verdad.
