@@ -704,6 +704,48 @@ mark {
   line-height: 1.6;
 }
 
+/* Bloques con botón "Copiar" (lo añade assets/site.js) */
+.code-block {
+  position: relative;
+  margin-bottom: 1.25em;
+}
+
+/* Franja superior para el botón: así no tapa la primera línea */
+.code-block > pre {
+  margin-bottom: 0;
+  padding-top: 2.75rem;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  min-height: 2rem;
+  padding: 0.2rem 0.65rem;
+  font-family: var(--font-text);
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  color: var(--ink-muted);
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius);
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.copy-btn:hover,
+.copy-btn:focus-visible {
+  opacity: 1;
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.copy-btn.is-copied {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
 .article-content code {
   font-family: var(--font-code);
   font-size: 0.9375em;
