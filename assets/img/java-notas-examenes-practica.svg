@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t d" font-family="Atkinson Hyperlegible, Arial, sans-serif">
+  <title id="t">Notas estimadas por Claude en mis cinco exámenes de práctica de Java</title>
+  <desc id="d">Práctica 1: 7. Práctica 2: 7,5. Práctica 3: 6,5. Práctica 4: 8,5. Práctica 5: 8,9. Son estimaciones de la IA con la rúbrica, no notas oficiales.</desc>
+  <rect width="640" height="300" fill="#fffdf7"/>
+  <g stroke="#e4ddcc" stroke-width="1">
+    <line x1="70" y1="40" x2="610" y2="40"/><line x1="70" y1="90" x2="610" y2="90"/>
+    <line x1="70" y1="140" x2="610" y2="140"/><line x1="70" y1="190" x2="610" y2="190"/>
+  </g>
+  <line x1="70" y1="240" x2="610" y2="240" stroke="#222" stroke-width="1.5"/>
+  <g font-size="13" fill="#555" text-anchor="end">
+    <text x="60" y="44">10</text><text x="60" y="94">8</text><text x="60" y="144">6</text><text x="60" y="194">4</text><text x="60" y="244">2</text>
+  </g>
+  <!-- y = 240 - (nota-2)*25 -->
+  <polyline points="130,115 240,102.5 350,127.5 460,77.5 570,67.5" fill="none" stroke="#2f6f4f" stroke-width="3"/>
+  <g fill="#2f6f4f"><circle cx="130" cy="115" r="6"/><circle cx="240" cy="102.5" r="6"/><circle cx="350" cy="127.5" r="6"/><circle cx="460" cy="77.5" r="6"/><circle cx="570" cy="67.5" r="6"/></g>
+  <g font-size="15" font-weight="700" text-anchor="middle" fill="#222">
+    <text x="130" y="103">7</text><text x="240" y="90">7,5</text><text x="350" y="152">6,5</text><text x="460" y="65">8,5</text><text x="570" y="55">8,9</text>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#333">
+    <text x="130" y="262">Práctica 1</text><text x="240" y="262">Práctica 2</text><text x="350" y="262">Práctica 3</text><text x="460" y="262">Práctica 4</text><text x="570" y="262">Práctica 5</text>
+  </g>
+  <text x="340" y="290" text-anchor="middle" font-size="12" fill="#777">Estimaciones de Claude con la rúbrica, no notas oficiales</text>
+</svg>
