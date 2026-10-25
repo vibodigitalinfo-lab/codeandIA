@@ -55,4 +55,4 @@ Si pudiera volver atrás, empezaría a estudiar antes. Me puse tarde por pereza,
 
 Pero el camino es el que es. La IA no me ha quitado el trabajo de entender Java, y para eso está bien: explica, corrige y da práctica. La parte de pensar sigue siendo mía, y es justo la que quiero quedarme.
 
-Si te ha pasado algo similar con tus exámenes o quieres contarme cómo te preparas tú, puedes escribirme a ivan@codeandia.com.
+Si te ha pasado algo similar con tus exámenes o quieres contarme cómo te preparas tú, puedes escribirme a vibo@codeandia.com.

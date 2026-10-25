@@ -196,4 +196,4 @@ Y si te sale un error que no entiendes, pégalo en el [corrector de Java](/herra
 
 Al revisar todo junto se ve el avance en un mes, del cocinero a proyectos con cuatro clases. Y casi todos mis fallos se repiten: el `Scanner` con los números, y cambiar un método sin cambiar quien lo llama. La lección es sencilla: ejecutar el programa después de cada cambio, no al final, porque así el error aparece justo donde lo has metido.
 
-Si estás empezando con Java y quieres contarme cómo te va, puedes escribirme a ivan@codeandia.com.
+Si estás empezando con Java y quieres contarme cómo te va, puedes escribirme a vibo@codeandia.com.

@@ -77,4 +77,4 @@ Antes de este trabajo no había usado Git de verdad, y menos con otras cuatro pe
 
 Si estás empezando DAW o cualquier ciclo de programación y te toca un trabajo así, mi consejo es sencillo: acordad las ramas por escrito y haced pull antes de empezar a trabajar. Os ahorraréis la mayoría de los sustos que tuvimos nosotros.
 
-Si estás con algo parecido y te has atascado con Git, puedes escribirme a ivan@codeandia.com.
+Si estás con algo parecido y te has atascado con Git, puedes escribirme a vibo@codeandia.com.
