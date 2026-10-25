@@ -3,12 +3,12 @@ layout: page
 title: "Cómo trabajo"
 description: "Explico con honestidad cómo uso IA: redacto a partir de mis notas reales, reviso todo antes de publicar y digo cuando no sé."
 permalink: /como-trabajamos/
-last_modified_at: 2026-10-18
+last_modified_at: 2026-10-25
 ---
 
 ## Principios
 
-- **Solo lo que vivo.** Solo escribo sobre cosas que he probado o que me han pasado. Tres de los cuatro artículos que hay ahora son anteriores al diario; a partir de ahora, cada artículo nuevo sale de una entrada del diario: sin entrada, no hay artículo.
+- **Solo lo que vivo.** Solo escribo sobre cosas que he probado o que me han pasado. Cada artículo nuevo sale de una entrada de mi diario o de mis respuestas a preguntas concretas sobre lo que he vivido: sin experiencia propia, no hay artículo.
 - **Nada inventado.** No añado datos, números ni anécdotas que no estén en mis notas. Si falta algo, lo marco como pendiente y lo pregunto.
 - **Transparencia.** Uso IA para dar forma a mis notas, pero las experiencias son mías. Reviso todo antes de publicar.
 - **Verdad.** Cuando no he probado algo, lo digo. Cuando dudo, lo digo.
@@ -25,15 +25,15 @@ Uso varias, y cada una para su cosa:
 
 Este blog arrancó el **8 de septiembre de 2026** con 132 artículos que no recogían mi experiencia real. Entre el 15 y el 18 de octubre los eliminé y conservé 3, reescritos con mis datos y mi forma de ver las cosas.
 
-Esos tres artículos son **anteriores al diario**: los escribí con datos reales que fui recopilando, pero sin el sistema de entrada de diario que uso ahora. El cuarto (el del bloqueo de LaLiga) ya salió de una entrada del diario, y así seguirán todos los próximos.
+Esos tres artículos son **anteriores al diario**: los escribí con datos reales que fui recopilando, pero sin el sistema de entrada de diario que uso ahora. Los siguientes ya salen del diario o de mis respuestas a preguntas sobre lo que me ha pasado, y así seguirán todos.
 
 ## Proceso
 
-1. **Diario.** Anoto lo que hago: qué pruebo, qué pasa, errores exactos, comandos, capturas.
-2. **Borrador.** A partir de esa entrada genero un borrador. Solo uso lo que aparece en ella.
+1. **Diario o preguntas.** Anoto lo que hago (qué pruebo, qué pasa, errores exactos, comandos, capturas) o contesto las preguntas que me hace la IA sobre esa experiencia.
+2. **Borrador.** A partir de esas notas genero un borrador. Solo uso lo que aparece en ellas.
 3. **Revisión.** Lo leo frase por frase y lo apruebo antes de publicarlo.
 4. **Publicación.** Solo entonces sale a la web.
 
 ## Enlaces
 
-Ahora mismo no hay enlaces de afiliado en el blog. Si en el futuro los hubiera, se marcarán como tales y no condicionarán lo que digo: si no lo he probado, no lo recomiendo.
+Ahora mismo hay un único enlace de afiliado: el de Namecheap, en el artículo sobre [qué dominio comprar](/articulos/guias/que-dominio-comprar-primer-proyecto-web/), porque es donde registré codeandia.com. Va marcado como enlace de afiliado, y si compras a través de él me llevo una pequeña comisión sin que a ti te cueste más. Si añado otros, irán marcados igual y no condicionarán lo que digo: si no lo he probado, no lo recomiendo.
