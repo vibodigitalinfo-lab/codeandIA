@@ -3,14 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} — {{ site.description }}{% endif %}</title>
+  {% comment %} Si el título ya lleva la marca (la portada), no se repite. {% endcomment %}
+  {% if page.title and page.title contains site.title %}
+    {% assign titulo_completo = page.title %}
+  {% elsif page.title %}
+    {% assign titulo_completo = page.title | append: " · " | append: site.title %}
+  {% else %}
+    {% assign titulo_completo = site.title | append: " — " | append: site.description %}
+  {% endif %}
+  {% include imagen-pagina.html html=content %}
+  <title>{{ titulo_completo }}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relative_url }}">
   <link rel="apple-touch-icon" href="{{ "/apple-touch-icon.png" | relative_url }}">
 
-  <meta name="author" content="Iván">
+  <meta name="author" content="{{ site.author.name }}">
   {% if page.noindex %}
   <meta name="robots" content="noindex,follow">
   {% else %}
@@ -21,27 +30,36 @@
   <meta property="og:type" content="{% if page.category %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:locale" content="es_ES">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:title" content="{{ titulo_completo }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ "/og-image.png" | absolute_url }}">
+  <meta property="og:image" content="{{ imagen_pagina }}">
+  {% if imagen_propia %}
+  <meta property="og:image:alt" content="{{ page.title | escape }}">
+  {% else %}
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="codeandIA: blog personal de un estudiante de DAW">
+  {% endif %}
   {% if page.category %}
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-{% if page.last_modified_at or page.updated %}
-<meta property="article:modified_time" content="{{ page.last_modified_at | default: page.updated | date_to_xmlschema }}">
-{% endif %}
+  {% comment %}
+    Fecha de modificación = la misma "Actualizado el ..." que ve el lector.
+    last_modified_at es la del fichero (solo para el sitemap): no se anuncia
+    como modificación del artículo para no contradecir la fecha visible.
+  {% endcomment %}
+  {% if page.updated %}
+  <meta property="article:modified_time" content="{{ page.updated | date_to_xmlschema }}">
+  {% endif %}
   <meta property="article:section" content="{{ page.category }}">
   {% endif %}
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:title" content="{{ titulo_completo }}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ "/og-image.png" | absolute_url }}">
-  <meta name="twitter:image:alt" content="codeandIA: blog personal de un estudiante de DAW">
+  <meta name="twitter:image" content="{{ imagen_pagina }}">
+  <meta name="twitter:image:alt" content="{% if imagen_propia %}{{ page.title | escape }}{% else %}codeandIA: blog personal de un estudiante de DAW{% endif %}">
 
   <!-- Canonical (evita contenido duplicado en buscadores) -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -108,11 +126,13 @@
       {
         "@type": "Person",
         "@id": {{ site.url | append: "/#ivan" | jsonify }},
-        "name": "Iván",
-        "jobTitle": "Estudiante de Desarrollo de Aplicaciones Web",
+        "name": {{ site.author.name | jsonify }},
+        "jobTitle": {{ site.author.job_title | jsonify }},
         "description": "Autor de codeandIA: lo que pruebo y lo que me pasa como estudiante de DAW.",
-        "url": {{ site.url | append: "/sobre-mi/" | jsonify }},
-        "email": "ivan@codeandia.com"
+        "url": {{ site.url | append: "/sobre-mi/" | jsonify }},{% if site.author.foto != "" and site.author.foto %}
+        "image": {{ site.author.foto | absolute_url | jsonify }},{% endif %}{% if site.author.same_as.size > 0 %}
+        "sameAs": {{ site.author.same_as | jsonify }},{% endif %}
+        "email": {{ site.author.email | jsonify }}
       }
     ]
   }

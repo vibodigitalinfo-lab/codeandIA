@@ -1,5 +1,8 @@
 <aside class="author-box">
-  <p class="author-name">Iván</p>
-  <p class="author-bio">Estudiante de DAW. Voy contando lo que pruebo y lo que me pasa, con ayuda de IA para redactar a partir de mis notas y revisión mía antes de publicar.</p>
-  <p class="author-links"><a href="{{ '/sobre-mi/' | relative_url }}">Sobre mí</a><a href="mailto:ivan@codeandia.com">ivan@codeandia.com</a></p>
+  {% if site.author.foto and site.author.foto != "" %}<img class="author-photo" src="{{ site.author.foto | relative_url }}" alt="{{ site.author.name }}" width="64" height="64" loading="lazy" decoding="async">{% endif %}
+  <div class="author-text">
+    <p class="author-name">{{ site.author.name }}</p>
+    <p class="author-bio">Estudiante de DAW. Voy contando lo que pruebo y lo que me pasa, con ayuda de IA para redactar a partir de mis notas y revisión mía antes de publicar.</p>
+    <p class="author-links"><a href="{{ '/sobre-mi/' | relative_url }}" rel="author">Sobre mí</a>{% for perfil in site.author.same_as %}<a href="{{ perfil }}" rel="me noopener" target="_blank">{% if perfil contains 'github.com' %}GitHub{% elsif perfil contains 'linkedin.com' %}LinkedIn{% else %}{{ perfil | remove: 'https://' | remove: 'www.' | split: '/' | first }}{% endif %}</a>{% endfor %}<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+  </div>
 </aside>

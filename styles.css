@@ -634,10 +634,67 @@ mark {
   margin: 0 0 0.75rem;
 }
 
+.article-byline {
+  font-size: 1rem;
+  margin: 0 0 0.25rem;
+}
+
 .article-meta {
   color: var(--ink-muted);
   font-size: 1rem;
   margin: 0;
+}
+
+/* ---------- Migas de pan ---------- */
+
+.breadcrumbs {
+  font-size: 0.9375rem;
+  color: var(--ink-muted);
+  margin: 0 0 1rem;
+}
+
+.breadcrumbs ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0;
+}
+
+.breadcrumbs li {
+  min-width: 0;
+}
+
+.breadcrumbs li + li::before {
+  content: "›";
+  padding: 0 0.5rem;
+  color: var(--rule-strong);
+}
+
+.breadcrumbs a {
+  color: var(--ink-muted);
+}
+
+.breadcrumbs a:hover {
+  color: var(--blue);
+}
+
+/* En móvil la miga del artículo actual sobra (el título va justo debajo) */
+@media (max-width: 539px) {
+  .breadcrumbs li:last-child {
+    display: none;
+  }
+}
+
+/* El título ya está debajo en grande: aquí se recorta a una línea */
+.breadcrumbs [aria-current] {
+  display: inline-block;
+  max-width: 22ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
 }
 
 .article-content {
@@ -796,8 +853,33 @@ mark {
 
 /* ---------- Índice lateral (TOC) ---------- */
 
+/* Por debajo de 1280px: plegado bajo la cabecera del artículo */
 .toc {
   display: none;
+}
+
+.article-col.has-toc .toc {
+  display: block;
+  margin: 0 0 2rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.toc-inner > summary {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  min-height: 44px;
+  margin: 0;
+}
+
+.toc-inner[open] > summary {
+  border-bottom: 1px solid var(--rule);
+}
+
+.toc-inner > .toc-list {
+  padding: 0.5rem 1rem 0.75rem;
 }
 
 @media (min-width: 1280px) {
@@ -812,9 +894,38 @@ mark {
     font-size: 0.9375rem;
   }
 
+  .article-col.has-toc .toc {
+    margin: 0;
+    border: 0;
+    background: none;
+  }
+
   .toc-inner {
     position: sticky;
     top: 1.5rem;
+  }
+
+  /* Siempre abierto en el margen: el título no se puede plegar */
+  .toc-inner > summary {
+    cursor: default;
+    pointer-events: none;
+    list-style: none;
+    padding: 0;
+    min-height: 0;
+    margin: 0 0 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .toc-inner > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .toc-inner[open] > summary {
+    border-bottom: 0;
+  }
+
+  .toc-inner > .toc-list {
+    padding: 0;
   }
 }
 
@@ -920,6 +1031,21 @@ mark {
   margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--rule);
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.author-photo {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-text {
+  min-width: 0;
 }
 
 .author-name {

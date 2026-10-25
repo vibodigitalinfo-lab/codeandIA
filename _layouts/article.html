@@ -12,6 +12,14 @@ last_modified_at: 2026-09-30
 {% assign mes_idx = mes_num | minus: 1 %}
 {% assign dia_pub = page.date | date: "%-d" %}
 {% assign anio_pub = page.date | date: "%Y" %}
+{% include imagen-pagina.html html=content %}
+
+{% comment %}
+  Imágenes del cuerpo: todas con decoding="async" y, menos la primera (que
+  puede verse nada más abrir), con loading="lazy" para que se carguen al
+  acercarse a ellas.
+{% endcomment %}
+{% assign cuerpo = content | replace: '<img ', '<img loading="lazy" decoding="async" ' | replace_first: '<img loading="lazy" ', '<img ' %}
 
 <script type="application/ld+json">
 [
@@ -20,19 +28,33 @@ last_modified_at: 2026-09-30
     "@type": "Article",
     "headline": {{ page.title | jsonify }},
     "description": {{ page.description | jsonify }},
-    "image": {
+    "image": {% if imagen_propia %}{{ imagen_pagina | jsonify }}{% else %}{
       "@type": "ImageObject",
-      "url": {{ "/og-image.png" | absolute_url | jsonify }},
+      "url": {{ imagen_pagina | jsonify }},
       "width": 1200,
       "height": 630
-    },
+    }{% endif %},
     "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-    "dateModified": {{ page.last_modified_at | default: page.updated | default: page.date | date_to_xmlschema | jsonify }},
+    "dateModified": {{ page.updated | default: page.date | date_to_xmlschema | jsonify }},
     "inLanguage": "es-ES",
     "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
     "articleSection": {{ page.category | jsonify }},
-    "author": { "@type": "Person", "name": "Iván", "url": {{ "/sobre-mi/" | absolute_url | jsonify }} },
+    "author": {
+      "@type": "Person",
+      "@id": {{ "/" | absolute_url | append: "#ivan" | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "url": {{ "/sobre-mi/" | absolute_url | jsonify }}
+    },
     "publisher": { "@id": {{ "/" | absolute_url | append: "#organization" | jsonify }} }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Inicio", "item": {{ "/" | absolute_url | jsonify }} },
+      { "@type": "ListItem", "position": 2, "name": "Artículos", "item": {{ "/articulos/" | absolute_url | jsonify }} },
+      { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+    ]
   }
 ]
 </script>
@@ -45,8 +67,17 @@ last_modified_at: 2026-09-30
     {% assign mins = palabras | divided_by: 155.0 | round %}
   {% endif %}
   <div class="article-col" data-readtime="{{ mins }}">
+    <nav class="breadcrumbs" aria-label="Migas de pan">
+      <ol>
+        <li><a href="{{ "/" | relative_url }}">Inicio</a></li>
+        <li><a href="{{ "/articulos/" | relative_url }}">Artículos</a></li>
+        <li><span aria-current="page">{{ page.title }}</span></li>
+      </ol>
+    </nav>
+
     <header class="article-header">
       <h1 class="article-title">{{ page.title }}</h1>
+      <p class="article-byline">Por <a href="{{ "/sobre-mi/" | relative_url }}" rel="author">{{ site.author.name }}</a>, estudiante de DAW</p>
       <p class="article-meta">
         Publicado el {{ dia_pub }} de {{ meses[mes_idx] }} de {{ anio_pub }}.
         {% if page.updated %}
@@ -59,14 +90,14 @@ last_modified_at: 2026-09-30
     </header>
 
     <nav class="toc" id="toc" aria-label="Índice del artículo" hidden>
-      <div class="toc-inner">
-        <p class="toc-title">En este artículo</p>
+      <details class="toc-inner" id="toc-details">
+        <summary class="toc-title">En este artículo</summary>
         <ol class="toc-list" id="toc-list"></ol>
-      </div>
+      </details>
     </nav>
 
     <div class="article-content" id="article-content">
-      {{ content }}
+      {{ cuerpo }}
     </div>
 
     {% include affiliate.html %}
@@ -106,9 +137,9 @@ last_modified_at: 2026-09-30
 </article>
 
 <script>
-  /* Índice automático (5+ H2 o más de 5 minutos de lectura) y scroll-spy.
-     El CSS solo lo pinta a partir de 1280px, cuando cabe en el margen
-     izquierdo sin invadir la columna del cuerpo. */
+  /* Índice automático (5+ H2 o más de 5 minutos de lectura).
+     A partir de 1280px va abierto en el margen izquierdo, con scroll-spy;
+     por debajo sale plegado bajo la cabecera y se abre al tocarlo. */
   (function () {
     var content = document.getElementById('article-content');
     if (!content) return;
@@ -124,7 +155,9 @@ last_modified_at: 2026-09-30
     var readtime = col ? parseInt(col.getAttribute('data-readtime'), 10) || 0 : 0;
     var links = [];
 
-    if (nav && list && (h2s.length >= 5 || readtime > 5) && window.matchMedia('(min-width: 1280px)').matches) {
+    var wide = window.matchMedia('(min-width: 1280px)').matches;
+
+    if (nav && list && (h2s.length >= 5 || readtime > 5)) {
       h2s.forEach(function (h) {
         var li = document.createElement('li');
         var a = document.createElement('a');
@@ -137,7 +170,19 @@ last_modified_at: 2026-09-30
       nav.hidden = false;
       if (col) col.classList.add('has-toc');
 
-      if ('IntersectionObserver' in window) {
+      var details = document.getElementById('toc-details');
+      if (details) {
+        if (wide) {
+          details.open = true;
+        } else {
+          /* En móvil, al elegir un apartado se pliega para no tapar el texto */
+          list.addEventListener('click', function (e) {
+            if (e.target.tagName === 'A') details.open = false;
+          });
+        }
+      }
+
+      if (wide && 'IntersectionObserver' in window) {
         var byId = {};
         links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
         var current = null;
