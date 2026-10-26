@@ -45,10 +45,6 @@ En bases de datos estamos empezando con los diagramas entidad-relación y ya vam
 
 Empezamos haciendo los diagramas a mano, y después ya pasamos al ordenador. Lo que más me ha servido no ha sido la herramienta, sino haber empezado a mano: te obliga a pensar la estructura antes de dibujarla bonita.
 
-## utest: mis dos primeros test cases aprobados
-
-Por otro lado, en utest me han llegado algunas encuestas para ver si encajo con algún test cycle, y poco más. Pero lo importante: ya me han aprobado mis dos primeros test cases. Me hace mucha ilusión, y espero que en el futuro vaya recibiendo más.
-
 ## Lo que haría diferente
 
 Si pudiera volver atrás, empezaría a estudiar antes. Me puse tarde por pereza, y si hubiera empezado desde que arrancó el curso, todo habría sido mucho más fluido.
