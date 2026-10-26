@@ -4,9 +4,9 @@ title: "Cómo aprendo Java con IA sin volverme dependiente"
 description: "Cómo uso la IA para estudiar Java: los ejercicios de clase, las correcciones y por qué no entrego código que no entiendo."
 category: "Guía"
 date: 2026-09-08
-updated: 2026-10-25
+updated: 2026-10-26
 readtime: 7
-last_modified_at: 2026-10-25
+last_modified_at: 2026-10-26
 ---
 
 Java es el primer mazazo de primero de DAW, el ciclo de FP de desarrollo de aplicaciones web en España. Encima llevas una IA que te puede escribir la clase entera en dos segundos, y la tentación de copiarla tal cual es enorme.
@@ -49,7 +49,7 @@ Esto es importante: la IA no sabe cómo trabaja tu profesor si no se lo dices, y
 
 La noche antes le pregunté hasta cómo se exporta un proyecto en Eclipse para entregarlo (clic derecho en el proyecto, *Export*, *General*, *Archive File* y guardarlo en ZIP). Después del examen le pasé lo que había entregado. Mis cálculos estaban bien, pero tuve un fallo de diseño: un objeto que tenía que crear otro dentro de su constructor lo recibía desde fuera. En el `main` creé uno solo y se lo pasé a dos objetos distintos, así que compartían ese objeto interno y sus datos se mezclaban. Otra vez, todo venía de una frase del enunciado, y otra vez faltaba un método que devolviera un valor.
 
-Me estimó alrededor de un 7, quizá algo más si el profesor no tenía en cuenta un cálculo que nos dijo que daba igual. Todavía no tengo la nota oficial; cuando la tenga, la cuento.
+Me estimó alrededor de un 7, quizá algo más si el profesor no tenía en cuenta un cálculo que nos dijo que daba igual. La nota oficial fue un **8,6**, bastante más de lo que esperaba. La estimación de Claude me sirvió para ver mis fallos, pero se quedó corta con la nota: al final, quien corrige es el profesor.
 
 ## Qué uso y para qué
 

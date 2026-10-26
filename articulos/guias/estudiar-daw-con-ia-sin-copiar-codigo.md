@@ -4,16 +4,16 @@ title: "Cómo estudio para exámenes de programación con IA sin copiar código"
 description: "Cómo preparo exámenes de programación (bases de datos, XML, Java) con Claude: ejercicios del profesor, su código y la rúbrica, sin copiar."
 category: "Guía"
 date: 2026-10-22
-updated: 2026-10-23
+updated: 2026-10-26
 readtime: 5
-last_modified_at: 2026-10-25
+last_modified_at: 2026-10-26
 ---
 
 ## Una semana de exámenes aprendiendo a programar
 
 Estudio primero de DAW, el ciclo de FP de desarrollo de aplicaciones web en España. Esta semana ha sido de exámenes. Tocó Bases de datos: tuvimos que hacer un diagrama de entidad-relación siguiendo un enunciado, con las cardinalidades y todo eso que al principio cuesta ver. También hubo Lenguajes de marcas: un test rápido de XML y tres ejercicios bastante sencillos. Y después llegó el primero de programación, que es Java, con sus nervios porque no sabía cómo saldría.
 
-Durante el examen pasé por varios problemas, pero creo que lo saqué bastante bien. Todavía no tengo la nota oficial. Le pasé a Claude el enunciado, la rúbrica que va a usar el profesor y los archivos Java que hice, y me estima entre un 7 y un 8. Es solo una estimación de una IA, no una nota: ya te contaré la real.
+Durante el examen de Java pasé por varios problemas, pero creía que lo había sacado bastante bien. Le pasé a Claude el enunciado, la rúbrica que iba a usar el profesor y los archivos Java que hice, y me estimó entre un 7 y un 8. Solo era una estimación de una IA. Las notas oficiales: un **8,6** en Programación y un **9** en Bases de datos.
 
 ## El método: pasarle a Claude los ejercicios del profesor con su código
 
