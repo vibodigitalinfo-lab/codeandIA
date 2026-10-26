@@ -2,7 +2,7 @@
 layout: page
 title: "Sobre mí"
 description: "Soy Vibo y estoy aprendiendo a programar. Este blog es un cuaderno donde escribo lo que pruebo y lo que me pasa, tal como lo vivo."
-last_modified_at: 2026-10-25
+last_modified_at: 2026-10-26
 ---
 
 ## Quién soy
@@ -21,7 +21,7 @@ Por las tardes, si me apetece, me pongo un rato con algo de clase. Nunca me obli
 
 Me quedan unos años para acabar DAW y el futuro me queda bastante incierto, y no pasa nada. Ahora mismo tengo en mente el **Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información**: veo el mercado de juniors bastante crudo, con muchos saliendo y con la IA comiéndose cada vez más cosas, y prefiero tener ciberseguridad como un seguro. En cuanto a empresa o puesto concretos, no lo tengo decidido; prefiero dejar que la vida me sorprenda.
 
-Mientras estudio quiero sacarme algo de dinero. Estoy buscando un trabajo de findes con un turno largo, y de paso he empezado en **uTest**.
+Mientras estudio quiero sacarme algo de dinero. Estoy buscando un trabajo de findes con un turno largo.
 
 ## Otro proyecto: Pikolete
 
