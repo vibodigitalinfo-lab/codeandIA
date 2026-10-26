@@ -59,6 +59,6 @@ En el ejemplo, con las cardinalidades bien puestas, la tabla `PRODUCTO` lleva el
 
 Si empezara otra vez, haría las dos preguntas de cada relación desde el primer ejercicio, en vez de fiarme de la intuición. Y repasaría los ejercicios corregidos fijándome solo en las cardinalidades, que es donde más fallaba.
 
-Lo bueno es que es un error muy de principio: una vez que interiorizas que se lee cruzando la relación, es mucho más difícil que vuelva a pasar.
+Lo bueno es que es un error muy de principio: una vez que interiorizas que se lee cruzando la relación, es mucho más difícil que vuelva a pasar. En el examen de Bases de datos, que fue justo hacer un diagrama E-R a partir de un enunciado, saqué un 9.
 
 Si te pasa lo mismo con los diagramas E-R o estás con el modelo relacional, puedes escribirme a vibo@codeandia.com. También tengo una guía sobre [cómo estudio para los exámenes de programación con IA sin copiar código](/articulos/guias/estudiar-daw-con-ia-sin-copiar-codigo/), donde cuento cómo preparé el examen de bases de datos.
