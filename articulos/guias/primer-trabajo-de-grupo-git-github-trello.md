@@ -4,8 +4,8 @@ title: "Mi primer trabajo en grupo con Git, GitHub y Trello: ramas, push rechaza
 description: "Cómo organizamos un trabajo de clase entre 5 personas con Git, GitHub y Trello: tres niveles de ramas, los push que fallaban y lo que haría distinto."
 category: "Guía"
 date: 2026-10-27
-publicar: 2026-10-27
 readtime: 6
+last_modified_at: 2026-10-27
 ---
 
 ## Un trabajo en el que lo importante no era el trabajo
