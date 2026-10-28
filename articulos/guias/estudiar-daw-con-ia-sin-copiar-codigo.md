@@ -21,7 +21,7 @@ En clase no siempre sale todo claro. A veces da pereza, las clases son largas y 
 
 Lo que hago es pasarle a Claude los ejercicios que hemos hecho en clase, contarle cómo los hace el profesor y cómo quiere que los hagamos nosotros, y a partir de ahí pedirle más ejercicios, correcciones y explicaciones. En la práctica es como tener un profesor de programación cuando te pones: le explico cómo trabaja el mío en clase y me prepara ejercicios al mismo estilo, ajustados a lo que estoy viendo.
 
-Esto lo hago sobre todo con Java. El examen de XML (corregir la sintaxis de un archivo ya creado y crear dos XML desde cero a partir de un enunciado) lo preparé sin IA, solo con los apuntes y las actividades del tema, porque me resultó sencillo desde el principio.
+Esto lo hago sobre todo con Java. El examen de XML (corregir la sintaxis de un archivo ya creado y crear dos XML desde cero a partir de un enunciado) la parte práctica la preparé sin IA, solo con los apuntes y las actividades del tema, porque me resultó sencillo desde el principio. Para la teoría sí le pedí a la IA tests a partir de mis apuntes.
 
 Además, le pasé la rúbrica del profesor para que me pusiera nota a mis ejercicios. Para Java hice cinco exámenes de práctica que me preparó al estilo de los de clase, y esta fue la nota que me estimó en cada uno:
 
