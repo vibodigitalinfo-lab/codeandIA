@@ -25,9 +25,7 @@ Mientras estudio quiero sacarme algo de dinero. Estoy buscando un trabajo de fin
 
 ## Otros proyectos
 
-Además del blog, hago [Pikolete](https://pikolete.com), un auditor web gratuito. Le pasas la dirección de una página pública y en unos segundos te da una nota de 0 a 100 con los fallos que encuentra en SEO, velocidad, seguridad y estructura, y cómo corregirlos. Lo uso también para revisar este blog. Como el de codeandIA, su código es público en [GitHub](https://github.com/vibodigitalinfo-lab/pikolete).
-
-También he hecho [LingoCore](https://lingocore-c2.vercel.app/), una web gratuita para aprender inglés de A1 a C2 y preparar los exámenes de Cambridge. La hice para aprender inglés yo mismo y, de momento, el único que la usa soy yo. No tiene anuncios ni pide registro.
+Además del blog, he hecho [LingoCore](https://lingocore-c2.vercel.app/), una web gratuita para aprender inglés de A1 a C2 y preparar los exámenes de Cambridge. La hice para aprender inglés yo mismo y, de momento, el único que la usa soy yo. No tiene anuncios ni pide registro.
 
 ## Cómo escribo
 
