@@ -4,7 +4,6 @@ title: "Corrige tu código Java gratis: mi herramienta para estudiantes de progr
 description: "He creado un corrector gratuito: pega tu error o tu código roto, te explica la solución paso a paso en castellano y te pregunta si lo has entendido."
 category: "Guía"
 date: 2026-10-30
-publicar: 2026-10-30
 updated: 2026-10-30
 readtime: 5
 last_modified_at: 2026-10-30
