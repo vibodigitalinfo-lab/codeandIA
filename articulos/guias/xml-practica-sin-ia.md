@@ -4,8 +4,8 @@ title: "Saqué un 10 en XML haciendo la práctica sin IA (y creo que fue por eso
 description: "Cómo aprendí XML en mi primer trimestre: lo que me ayudó saber HTML, por qué hice las actividades sin IA y para qué sí la usé: tests de teoría."
 category: "Guía"
 date: 2026-11-06
-publicar: 2026-11-06
 readtime: 6
+last_modified_at: 2026-11-06
 ---
 
 ## La práctica que hice sin IA
